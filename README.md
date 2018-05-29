@@ -17,6 +17,87 @@ and run the solution locally:
 2. Start the local web server with `jekyll serve` or for incremental builds run `jekyll serve --incremental`.
 3. Once the site has been generated you'll be able to navigate to it at [http://127.0.0.1:4000/](http://127.0.0.1:4000/).
 
+## Run Locally using Docker
+
+Make sure you have `docker` and `docker-compose` installed.
+
+1. In the root directory of the project, run the following command:
+    <br>
+    ```sh
+    $ docker-compose -f docker-compose.yml up -d --build
+    ```
+
+    <details>
+    <summary>output</summary>
+    <p>
+
+    ```sh
+    Creating network "rushstackio-website_default" with the default driver
+    Building rushstack.io-website
+    Step 1/9 : FROM ruby:2.3.3
+     ---> 0e1db669d557
+    Step 2/9 : LABEL Name=rushstack.io-website Version=0.0.1
+     ---> Using cache
+     ---> ded94bfd2f3f
+    Step 3/9 : RUN apt-get update -qq
+     ---> Using cache
+     ---> 6d68ddcd75f5
+    Step 4/9 : RUN mkdir /src
+     ---> Using cache
+     ---> 8b9d0899b00f
+    Step 5/9 : WORKDIR /src
+     ---> Using cache
+     ---> 86e871913c4b
+    Step 6/9 : COPY Gemfile /src/Gemfile
+     ---> Using cache
+     ---> bd0eb4de4238
+    Step 7/9 : COPY Gemfile.lock /src/Gemfile.lock
+     ---> Using cache
+     ---> 30111ec89584
+    Step 8/9 : RUN bundle install
+     ---> Using cache
+     ---> 0a4ea318ec28
+    Step 9/9 : COPY . /src
+     ---> 9cea59729eb6
+    Successfully built 9cea59729eb6
+    Successfully tagged rushstack.io-website:latest
+    Creating rushstackio-website_rushstack.io-website_1 ... done
+    ```
+
+    </p>
+    </details>
+    <br>
+
+2. Once the site has been generated you'll be able to navigate to it at [http://127.0.0.1:4000/](http://127.0.0.1:4000/).
+
+    <br>
+    <details><summary>Screenshot</summary>
+    <p>
+
+    ![website screenshot](/docs/images/website_screenshot.png)
+
+    </p>
+    </details>
+    <br>
+    
+3. To stop the running container, run the following command:
+    <br>
+    ```sh
+    $ docker-compose -f docker-compose.yml down
+    ```
+
+    <details>
+    <summary>output</summary>
+    <p>
+
+    ```sh
+    Stopping rushstackio-website_rushstack.io-website_1 ... done
+    Removing rushstackio-website_rushstack.io-website_1 ... done
+    Removing network rushstackio-website_default
+    ```
+
+    </p></details>
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
