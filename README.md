@@ -74,7 +74,7 @@ Make sure you have `docker` and `docker-compose` installed.
     <details><summary>Screenshot</summary>
     <p>
 
-    ![website screenshot](/docs/images/website_screenshot.png)
+    ![website screenshot](https://github.com/AlAskalany/rushstack.io-website/blob/askalany/docker/docs/images/website_screenshot.PNG?raw=true)
 
     </p>
     </details>
