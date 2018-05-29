@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
+gem 'jekyll'
+gem 'jekyll-theme-minimal'
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
