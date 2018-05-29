@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  rushstack.io-website:
+    build:
+      context: .
+    image: rushstack.io-website:latest
+    command: bundle exec jekyll s -P 4000 -H '0.0.0.0'
+    volumes:
+      - .:/src
+    ports:
+      - 4000:4000
