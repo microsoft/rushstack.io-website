@@ -1,5 +1,30 @@
-- text: News
-  url: https://github.com/Microsoft/web-build-tools/wiki
 
-- text: Gitter
-  url: https://gitter.im/web-build-tools/web-build-tools
+top_nav:
+  - title: Docs
+    url: /pages/news
+
+  - title: News
+    url: /pages/news
+
+  - title: GitHub
+    url: /pages/contributing
+
+  - title: Help
+    url: /pages/help/support
+
+  - title: Get Started
+    url: /pages/news
+    primary: true
+
+docs_nav:
+  - title: Introduction
+    subitems:
+      - title: Welcome to Rush!
+        url: /pages/news
+
+  - title: Help
+    subitems:
+      - title: Getting Support
+        url: /pages/help/support
+      - title: FAQ
+        url: /pages/help/faq

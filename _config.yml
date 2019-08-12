@@ -2,20 +2,30 @@
 # This file contains configuration flags to customize your site
 #
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+
+
+# ---------------------------------------------------------------------------
+# Theme variables for jekyll-theme-minimal
+# https://github.com/pages-themes/minimal
+
 
 # Name of your site (displayed in the header)
-name: Rush Stack
+title: Rush Stack
 
 # Short bio or description (displayed in the header)
-description: Web Build Tools
+description: A toolkit for large scale TypeScript development
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar:
+# Location of the Open Graph image (1200x630 recommended size, must be an absolute URL)
+logo: https://rushstack.io/images/rushstack-ograph.png
 
-#
-# Flags below are optional
-#
+# "true" or "false" to indicate whether to provide a download URL
+show_downloads: false
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
+# ---------------------------------------------------------------------------
+
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -23,7 +33,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: Microsoft/web-build-tools
+  github: Microsoft/rushstack
   instagram:
   linkedin:
   pinterest:
@@ -37,9 +47,6 @@ footer-links:
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
@@ -55,7 +62,7 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:categories/:year/:title
+permalink: pretty
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
@@ -71,10 +78,23 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+# Settings for https://github.com/algolia/jekyll-algolia
+# Our login account is: @rushbot (GitHub alias)
+algolia:
+  application_id: 'W2G1E3U5T0'
+  index_name: 'rushstack.io'
+  search_only_api_key: 'a0ab6dfc3db0c301b0ca8e725af85641'
+
+  # The default is to only consider <p> tags.  That also picks up <p> inside other
+  # tags such as <li>.
+  # But these additional tags are not containers for <p>, so we add them explicitly:
+  nodes_to_index: 'p,h1,h2,h3'
+
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-algolia # Create search index for Algolia
+#  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:
@@ -83,3 +103,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - vendor
