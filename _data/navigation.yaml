@@ -17,10 +17,10 @@ top_nav:
     primary: true
 
 docs_nav:
-  - title: Introduction
+  - title: Overview
     subitems:
-      - title: Welcome to Rush!
-        url: /pages/news
+      - title: What is Rush Stack?
+        url: /
 
   - title: Help
     subitems:

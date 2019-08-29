@@ -21,7 +21,7 @@ layout: default
 
         {% comment %} "Improve this" floating button, shown only on large displays {% endcomment %}
         {% if site.data.links.edit_this_page_base_url %}
-          {% if page.navigation_source == "docs_nav" %}
+          {% if page.navigation_source == "docs_nav" and page.improve_this_button != false %}
             <a class="btn btn-outline-secondary btn-sm d-none d-md-block"
               style="float: right; margin-top: 3rem; position: relative;"
               href="{{ site.data.links.edit_this_page_base_url }}{{ page.path }}">
