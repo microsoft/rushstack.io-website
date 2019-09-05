@@ -29,9 +29,6 @@
 }
 
 .docsite-side-nav {
-  float: right;
-  width: auto;
-
   margin-left: 2rem;
   margin-top: 2rem;
   margin-right: 1rem;
@@ -54,6 +51,10 @@
   }
 }
 
+.docsite-side-nav-ul {
+  margin-left: 1rem;
+}
+
 .docsite-side-nav-selection {
   font-weight: bold;
 
@@ -71,16 +72,56 @@
   top: var(--docsite-header-size);
   --scripted-sidebar-nudge: 300px;
   height: calc(100vh - var(--docsite-header-size) - var(--scripted-sidebar-nudge));
-  overflow-x: hidden;
-  overflow-y: auto; /* show a scrollbar when needed */
+  overflow-x: auto;
+  overflow-y: auto;
 
   padding: 0;
   margin: 0;
 }
 
-.docsite-sidebar-placeholder {
+#docsite-sidebar-placeholder {
   // Ensure this is rendered behind the docsite-sidebar
   z-index: -1000;
+}
+
+.navtree-li {
+  white-space: nowrap;
+}
+
+.navtree-li-expanded {
+  cursor: pointer;
+}
+
+.navtree-li-collapsed {
+  cursor: pointer;
+}
+
+.navtree-ul-expanded {
+  margin-left: 1rem;
+}
+
+.navtree-ul-collapsed {
+  display: none;
+}
+
+.navtree-expander {
+  fill: $gray-600;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+
+  top:50%;
+  margin-top: -5px;
+}
+
+.navtree-li-expanded > .navtree-expander {
+  transition: transform .15s ease-in-out;
+  transform: rotate(90deg);
+}
+
+.navtree-li-collapsed > .navtree-expander {
+  transition: transform .15s ease-in-out;
+  transform: rotate(0deg);
 }
 
 // When clicking a "jump link" to an anchor within the page, shift the target downwards to account for the
