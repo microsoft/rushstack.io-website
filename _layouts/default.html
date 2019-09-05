@@ -4,17 +4,22 @@
   <head>
     {% include base/meta.html %}
 
-    <title>Rush Stack - {{ page.title }}</title>
+    {% if page.title %}
+    <title>Rush Stack: {{ page.title }}</title>
+    {% else %}
+    <title>Rush Stack</title>
+    {% endif %}
 
     {% include base/styles.html %}
+
+    <script src="/scripts/docsite.js"></script>
   </head>
 
   <body>
-    {% include base/navbar.html %}
+    {% include base/top_nav.html %}
 
     {{ content }}
 
     {% include base/footer.html %}
-    {% include base/scripts.html %}
   </body>
 </html>

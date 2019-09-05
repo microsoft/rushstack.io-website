@@ -1,0 +1,2277 @@
+api_nav:
+  - title: API Reference
+    url: /pages/api/
+  - title: '@microsoft/api-documenter'
+    url: /pages/api/api-documenter
+    subitems:
+      - title: IApiDocumenterPluginManifest
+        url: /pages/api/api-documenter.iapidocumenterpluginmanifest
+        subitems:
+          - title: features
+            url: /pages/api/api-documenter.iapidocumenterpluginmanifest.features
+          - title: manifestVersion
+            url: /pages/api/api-documenter.iapidocumenterpluginmanifest.manifestversion
+      - title: IFeatureDefinition
+        url: /pages/api/api-documenter.ifeaturedefinition
+        subitems:
+          - title: featureName
+            url: /pages/api/api-documenter.ifeaturedefinition.featurename
+          - title: kind
+            url: /pages/api/api-documenter.ifeaturedefinition.kind
+          - title: subclass
+            url: /pages/api/api-documenter.ifeaturedefinition.subclass
+      - title: IMarkdownDocumenterFeatureOnBeforeWritePageArgs
+        url: /pages/api/api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs
+        subitems:
+          - title: apiItem
+            url: /pages/api/api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs.apiitem
+          - title: outputFilename
+            url: /pages/api/api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs.outputfilename
+          - title: pageContent
+            url: /pages/api/api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs.pagecontent
+      - title: IMarkdownDocumenterFeatureOnFinishedArgs
+        url: /pages/api/api-documenter.imarkdowndocumenterfeatureonfinishedargs
+      - title: MarkdownDocumenterAccessor
+        url: /pages/api/api-documenter.markdowndocumenteraccessor
+        subitems:
+          - title: getLinkForApiItem
+            url: /pages/api/api-documenter.markdowndocumenteraccessor.getlinkforapiitem
+      - title: MarkdownDocumenterFeature
+        url: /pages/api/api-documenter.markdowndocumenterfeature
+        subitems:
+          - title: context
+            url: /pages/api/api-documenter.markdowndocumenterfeature.context
+          - title: onBeforeWritePage
+            url: /pages/api/api-documenter.markdowndocumenterfeature.onbeforewritepage
+          - title: onFinished
+            url: /pages/api/api-documenter.markdowndocumenterfeature.onfinished
+      - title: MarkdownDocumenterFeatureContext
+        url: /pages/api/api-documenter.markdowndocumenterfeaturecontext
+        subitems:
+          - title: apiModel
+            url: /pages/api/api-documenter.markdowndocumenterfeaturecontext.apimodel
+          - title: documenter
+            url: /pages/api/api-documenter.markdowndocumenterfeaturecontext.documenter
+          - title: outputFolder
+            url: /pages/api/api-documenter.markdowndocumenterfeaturecontext.outputfolder
+      - title: PluginFeature
+        url: /pages/api/api-documenter.pluginfeature
+        subitems:
+          - title: context
+            url: /pages/api/api-documenter.pluginfeature.context
+          - title: onInitialized
+            url: /pages/api/api-documenter.pluginfeature.oninitialized
+      - title: PluginFeatureContext
+        url: /pages/api/api-documenter.pluginfeaturecontext
+      - title: PluginFeatureInitialization
+        url: /pages/api/api-documenter.pluginfeatureinitialization
+  - title: '@microsoft/api-extractor'
+    url: /pages/api/api-extractor
+    subitems:
+      - title: CompilerState
+        url: /pages/api/api-extractor.compilerstate
+        subitems:
+          - title: create
+            url: /pages/api/api-extractor.compilerstate.create
+          - title: program
+            url: /pages/api/api-extractor.compilerstate.program
+      - title: ConsoleMessageId
+        url: /pages/api/api-extractor.consolemessageid
+      - title: Extractor
+        url: /pages/api/api-extractor.extractor
+        subitems:
+          - title: invoke
+            url: /pages/api/api-extractor.extractor.invoke
+          - title: loadConfigAndInvoke
+            url: /pages/api/api-extractor.extractor.loadconfigandinvoke
+          - title: packageName
+            url: /pages/api/api-extractor.extractor.packagename
+          - title: version
+            url: /pages/api/api-extractor.extractor.version
+      - title: ExtractorConfig
+        url: /pages/api/api-extractor.extractorconfig
+        subitems:
+          - title: apiJsonFilePath
+            url: /pages/api/api-extractor.extractorconfig.apijsonfilepath
+          - title: apiReportEnabled
+            url: /pages/api/api-extractor.extractorconfig.apireportenabled
+          - title: betaTrimmedFilePath
+            url: /pages/api/api-extractor.extractorconfig.betatrimmedfilepath
+          - title: docModelEnabled
+            url: /pages/api/api-extractor.extractorconfig.docmodelenabled
+          - title: FILENAME
+            url: /pages/api/api-extractor.extractorconfig.filename
+          - title: getDiagnosticDump
+            url: /pages/api/api-extractor.extractorconfig.getdiagnosticdump
+          - title: hasDtsFileExtension
+            url: /pages/api/api-extractor.extractorconfig.hasdtsfileextension
+          - title: jsonSchema
+            url: /pages/api/api-extractor.extractorconfig.jsonschema
+          - title: loadFile
+            url: /pages/api/api-extractor.extractorconfig.loadfile
+          - title: loadFileAndPrepare
+            url: /pages/api/api-extractor.extractorconfig.loadfileandprepare
+          - title: mainEntryPointFilePath
+            url: /pages/api/api-extractor.extractorconfig.mainentrypointfilepath
+          - title: messages
+            url: /pages/api/api-extractor.extractorconfig.messages
+          - title: omitTrimmingComments
+            url: /pages/api/api-extractor.extractorconfig.omittrimmingcomments
+          - title: overrideTsconfig
+            url: /pages/api/api-extractor.extractorconfig.overridetsconfig
+          - title: packageFolder
+            url: /pages/api/api-extractor.extractorconfig.packagefolder
+          - title: packageJson
+            url: /pages/api/api-extractor.extractorconfig.packagejson
+          - title: prepare
+            url: /pages/api/api-extractor.extractorconfig.prepare
+          - title: projectFolder
+            url: /pages/api/api-extractor.extractorconfig.projectfolder
+          - title: publicTrimmedFilePath
+            url: /pages/api/api-extractor.extractorconfig.publictrimmedfilepath
+          - title: reportFilePath
+            url: /pages/api/api-extractor.extractorconfig.reportfilepath
+          - title: reportTempFilePath
+            url: /pages/api/api-extractor.extractorconfig.reporttempfilepath
+          - title: rollupEnabled
+            url: /pages/api/api-extractor.extractorconfig.rollupenabled
+          - title: skipLibCheck
+            url: /pages/api/api-extractor.extractorconfig.skiplibcheck
+          - title: testMode
+            url: /pages/api/api-extractor.extractorconfig.testmode
+          - title: tsconfigFilePath
+            url: /pages/api/api-extractor.extractorconfig.tsconfigfilepath
+          - title: tsdocMetadataEnabled
+            url: /pages/api/api-extractor.extractorconfig.tsdocmetadataenabled
+          - title: tsdocMetadataFilePath
+            url: /pages/api/api-extractor.extractorconfig.tsdocmetadatafilepath
+          - title: untrimmedFilePath
+            url: /pages/api/api-extractor.extractorconfig.untrimmedfilepath
+      - title: ExtractorLogLevel
+        url: /pages/api/api-extractor.extractorloglevel
+      - title: ExtractorMessage
+        url: /pages/api/api-extractor.extractormessage
+        subitems:
+          - title: category
+            url: /pages/api/api-extractor.extractormessage.category
+          - title: formatMessageWithLocation
+            url: /pages/api/api-extractor.extractormessage.formatmessagewithlocation
+          - title: formatMessageWithoutLocation
+            url: /pages/api/api-extractor.extractormessage.formatmessagewithoutlocation
+          - title: handled
+            url: /pages/api/api-extractor.extractormessage.handled
+          - title: logLevel
+            url: /pages/api/api-extractor.extractormessage.loglevel
+          - title: messageId
+            url: /pages/api/api-extractor.extractormessage.messageid
+          - title: properties
+            url: /pages/api/api-extractor.extractormessage.properties
+          - title: sourceFileColumn
+            url: /pages/api/api-extractor.extractormessage.sourcefilecolumn
+          - title: sourceFileLine
+            url: /pages/api/api-extractor.extractormessage.sourcefileline
+          - title: sourceFilePath
+            url: /pages/api/api-extractor.extractormessage.sourcefilepath
+          - title: text
+            url: /pages/api/api-extractor.extractormessage.text
+      - title: ExtractorMessageCategory
+        url: /pages/api/api-extractor.extractormessagecategory
+      - title: ExtractorMessageId
+        url: /pages/api/api-extractor.extractormessageid
+      - title: ExtractorResult
+        url: /pages/api/api-extractor.extractorresult
+        subitems:
+          - title: apiReportChanged
+            url: /pages/api/api-extractor.extractorresult.apireportchanged
+          - title: compilerState
+            url: /pages/api/api-extractor.extractorresult.compilerstate
+          - title: errorCount
+            url: /pages/api/api-extractor.extractorresult.errorcount
+          - title: extractorConfig
+            url: /pages/api/api-extractor.extractorresult.extractorconfig
+          - title: succeeded
+            url: /pages/api/api-extractor.extractorresult.succeeded
+          - title: warningCount
+            url: /pages/api/api-extractor.extractorresult.warningcount
+      - title: ICompilerStateCreateOptions
+        url: /pages/api/api-extractor.icompilerstatecreateoptions
+        subitems:
+          - title: additionalEntryPoints
+            url: /pages/api/api-extractor.icompilerstatecreateoptions.additionalentrypoints
+          - title: typescriptCompilerFolder
+            url: /pages/api/api-extractor.icompilerstatecreateoptions.typescriptcompilerfolder
+      - title: IConfigApiReport
+        url: /pages/api/api-extractor.iconfigapireport
+        subitems:
+          - title: enabled
+            url: /pages/api/api-extractor.iconfigapireport.enabled
+          - title: reportFileName
+            url: /pages/api/api-extractor.iconfigapireport.reportfilename
+          - title: reportFolder
+            url: /pages/api/api-extractor.iconfigapireport.reportfolder
+          - title: reportTempFolder
+            url: /pages/api/api-extractor.iconfigapireport.reporttempfolder
+      - title: IConfigCompiler
+        url: /pages/api/api-extractor.iconfigcompiler
+        subitems:
+          - title: overrideTsconfig
+            url: /pages/api/api-extractor.iconfigcompiler.overridetsconfig
+          - title: skipLibCheck
+            url: /pages/api/api-extractor.iconfigcompiler.skiplibcheck
+          - title: tsconfigFilePath
+            url: /pages/api/api-extractor.iconfigcompiler.tsconfigfilepath
+      - title: IConfigDocModel
+        url: /pages/api/api-extractor.iconfigdocmodel
+        subitems:
+          - title: apiJsonFilePath
+            url: /pages/api/api-extractor.iconfigdocmodel.apijsonfilepath
+          - title: enabled
+            url: /pages/api/api-extractor.iconfigdocmodel.enabled
+      - title: IConfigDtsRollup
+        url: /pages/api/api-extractor.iconfigdtsrollup
+        subitems:
+          - title: betaTrimmedFilePath
+            url: /pages/api/api-extractor.iconfigdtsrollup.betatrimmedfilepath
+          - title: enabled
+            url: /pages/api/api-extractor.iconfigdtsrollup.enabled
+          - title: omitTrimmingComments
+            url: /pages/api/api-extractor.iconfigdtsrollup.omittrimmingcomments
+          - title: publicTrimmedFilePath
+            url: /pages/api/api-extractor.iconfigdtsrollup.publictrimmedfilepath
+          - title: untrimmedFilePath
+            url: /pages/api/api-extractor.iconfigdtsrollup.untrimmedfilepath
+      - title: IConfigFile
+        url: /pages/api/api-extractor.iconfigfile
+        subitems:
+          - title: apiReport
+            url: /pages/api/api-extractor.iconfigfile.apireport
+          - title: compiler
+            url: /pages/api/api-extractor.iconfigfile.compiler
+          - title: docModel
+            url: /pages/api/api-extractor.iconfigfile.docmodel
+          - title: dtsRollup
+            url: /pages/api/api-extractor.iconfigfile.dtsrollup
+          - title: extends
+            url: /pages/api/api-extractor.iconfigfile.extends
+          - title: mainEntryPointFilePath
+            url: /pages/api/api-extractor.iconfigfile.mainentrypointfilepath
+          - title: messages
+            url: /pages/api/api-extractor.iconfigfile.messages
+          - title: projectFolder
+            url: /pages/api/api-extractor.iconfigfile.projectfolder
+          - title: testMode
+            url: /pages/api/api-extractor.iconfigfile.testmode
+          - title: tsdocMetadata
+            url: /pages/api/api-extractor.iconfigfile.tsdocmetadata
+      - title: IConfigMessageReportingRule
+        url: /pages/api/api-extractor.iconfigmessagereportingrule
+        subitems:
+          - title: addToApiReportFile
+            url: /pages/api/api-extractor.iconfigmessagereportingrule.addtoapireportfile
+          - title: logLevel
+            url: /pages/api/api-extractor.iconfigmessagereportingrule.loglevel
+      - title: IConfigMessageReportingTable
+        url: /pages/api/api-extractor.iconfigmessagereportingtable
+      - title: IConfigTsdocMetadata
+        url: /pages/api/api-extractor.iconfigtsdocmetadata
+        subitems:
+          - title: enabled
+            url: /pages/api/api-extractor.iconfigtsdocmetadata.enabled
+          - title: tsdocMetadataFilePath
+            url: /pages/api/api-extractor.iconfigtsdocmetadata.tsdocmetadatafilepath
+      - title: IExtractorConfigPrepareOptions
+        url: /pages/api/api-extractor.iextractorconfigprepareoptions
+        subitems:
+          - title: configObject
+            url: /pages/api/api-extractor.iextractorconfigprepareoptions.configobject
+          - title: configObjectFullPath
+            url: /pages/api/api-extractor.iextractorconfigprepareoptions.configobjectfullpath
+          - title: packageJson
+            url: /pages/api/api-extractor.iextractorconfigprepareoptions.packagejson
+          - title: packageJsonFullPath
+            url: /pages/api/api-extractor.iextractorconfigprepareoptions.packagejsonfullpath
+      - title: IExtractorInvokeOptions
+        url: /pages/api/api-extractor.iextractorinvokeoptions
+        subitems:
+          - title: compilerState
+            url: /pages/api/api-extractor.iextractorinvokeoptions.compilerstate
+          - title: localBuild
+            url: /pages/api/api-extractor.iextractorinvokeoptions.localbuild
+          - title: messageCallback
+            url: /pages/api/api-extractor.iextractorinvokeoptions.messagecallback
+          - title: showDiagnostics
+            url: /pages/api/api-extractor.iextractorinvokeoptions.showdiagnostics
+          - title: showVerboseMessages
+            url: /pages/api/api-extractor.iextractorinvokeoptions.showverbosemessages
+          - title: typescriptCompilerFolder
+            url: /pages/api/api-extractor.iextractorinvokeoptions.typescriptcompilerfolder
+      - title: IExtractorMessageProperties
+        url: /pages/api/api-extractor.iextractormessageproperties
+        subitems:
+          - title: exportName
+            url: /pages/api/api-extractor.iextractormessageproperties.exportname
+      - title: IExtractorMessagesConfig
+        url: /pages/api/api-extractor.iextractormessagesconfig
+        subitems:
+          - title: compilerMessageReporting
+            url: /pages/api/api-extractor.iextractormessagesconfig.compilermessagereporting
+          - title: extractorMessageReporting
+            url: /pages/api/api-extractor.iextractormessagesconfig.extractormessagereporting
+          - title: tsdocMessageReporting
+            url: /pages/api/api-extractor.iextractormessagesconfig.tsdocmessagereporting
+  - title: '@microsoft/api-extractor-model'
+    url: /pages/api/api-extractor-model
+    subitems:
+      - title: ApiCallSignature
+        url: /pages/api/api-extractor-model.apicallsignature
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apicallsignature._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apicallsignature.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apicallsignature.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apicallsignature.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apicallsignature.kind
+      - title: ApiClass
+        url: /pages/api/api-extractor-model.apiclass
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apiclass._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apiclass.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apiclass.containerkey
+          - title: extendsType
+            url: /pages/api/api-extractor-model.apiclass.extendstype
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apiclass.getcontainerkey
+          - title: implementsTypes
+            url: /pages/api/api-extractor-model.apiclass.implementstypes
+          - title: kind
+            url: /pages/api/api-extractor-model.apiclass.kind
+          - title: onDeserializeInto
+            url: /pages/api/api-extractor-model.apiclass.ondeserializeinto
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apiclass.serializeinto
+      - title: ApiConstructor
+        url: /pages/api/api-extractor-model.apiconstructor
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apiconstructor._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apiconstructor.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apiconstructor.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apiconstructor.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apiconstructor.kind
+      - title: ApiConstructSignature
+        url: /pages/api/api-extractor-model.apiconstructsignature
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apiconstructsignature._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apiconstructsignature.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apiconstructsignature.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apiconstructsignature.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apiconstructsignature.kind
+      - title: ApiDeclaredItem
+        url: /pages/api/api-extractor-model.apideclareditem
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apideclareditem._constructor_
+          - title: buildExcerpt
+            url: /pages/api/api-extractor-model.apideclareditem.buildexcerpt
+          - title: excerpt
+            url: /pages/api/api-extractor-model.apideclareditem.excerpt
+          - title: excerptTokens
+            url: /pages/api/api-extractor-model.apideclareditem.excerpttokens
+          - title: getExcerptWithModifiers
+            url: /pages/api/api-extractor-model.apideclareditem.getexcerptwithmodifiers
+          - title: onDeserializeInto
+            url: /pages/api/api-extractor-model.apideclareditem.ondeserializeinto
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apideclareditem.serializeinto
+      - title: ApiDocumentedItem
+        url: /pages/api/api-extractor-model.apidocumenteditem
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apidocumenteditem._constructor_
+          - title: onDeserializeInto
+            url: /pages/api/api-extractor-model.apidocumenteditem.ondeserializeinto
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apidocumenteditem.serializeinto
+          - title: tsdocComment
+            url: /pages/api/api-extractor-model.apidocumenteditem.tsdoccomment
+      - title: ApiEntryPoint
+        url: /pages/api/api-extractor-model.apientrypoint
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apientrypoint._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apientrypoint.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apientrypoint.containerkey
+          - title: importPath
+            url: /pages/api/api-extractor-model.apientrypoint.importpath
+          - title: kind
+            url: /pages/api/api-extractor-model.apientrypoint.kind
+      - title: ApiEnum
+        url: /pages/api/api-extractor-model.apienum
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apienum._constructor_
+          - title: addMember
+            url: /pages/api/api-extractor-model.apienum.addmember
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apienum.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apienum.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apienum.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apienum.kind
+          - title: members
+            url: /pages/api/api-extractor-model.apienum.members
+      - title: ApiEnumMember
+        url: /pages/api/api-extractor-model.apienummember
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apienummember._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apienummember.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apienummember.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apienummember.getcontainerkey
+          - title: initializerExcerpt
+            url: /pages/api/api-extractor-model.apienummember.initializerexcerpt
+          - title: kind
+            url: /pages/api/api-extractor-model.apienummember.kind
+          - title: onDeserializeInto
+            url: /pages/api/api-extractor-model.apienummember.ondeserializeinto
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apienummember.serializeinto
+      - title: ApiFunction
+        url: /pages/api/api-extractor-model.apifunction
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apifunction._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apifunction.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apifunction.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apifunction.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apifunction.kind
+      - title: ApiIndexSignature
+        url: /pages/api/api-extractor-model.apiindexsignature
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apiindexsignature._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apiindexsignature.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apiindexsignature.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apiindexsignature.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apiindexsignature.kind
+      - title: ApiInterface
+        url: /pages/api/api-extractor-model.apiinterface
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apiinterface._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apiinterface.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apiinterface.containerkey
+          - title: extendsTypes
+            url: /pages/api/api-extractor-model.apiinterface.extendstypes
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apiinterface.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apiinterface.kind
+          - title: onDeserializeInto
+            url: /pages/api/api-extractor-model.apiinterface.ondeserializeinto
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apiinterface.serializeinto
+      - title: ApiItem
+        url: /pages/api/api-extractor-model.apiitem
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apiitem._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apiitem.buildcanonicalreference
+          - title: canonicalReference
+            url: /pages/api/api-extractor-model.apiitem.canonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apiitem.containerkey
+          - title: deserialize
+            url: /pages/api/api-extractor-model.apiitem.deserialize
+          - title: displayName
+            url: /pages/api/api-extractor-model.apiitem.displayname
+          - title: getAssociatedPackage
+            url: /pages/api/api-extractor-model.apiitem.getassociatedpackage
+          - title: getHierarchy
+            url: /pages/api/api-extractor-model.apiitem.gethierarchy
+          - title: getScopedNameWithinPackage
+            url: /pages/api/api-extractor-model.apiitem.getscopednamewithinpackage
+          - title: getSortKey
+            url: /pages/api/api-extractor-model.apiitem.getsortkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apiitem.kind
+          - title: members
+            url: /pages/api/api-extractor-model.apiitem.members
+          - title: onDeserializeInto
+            url: /pages/api/api-extractor-model.apiitem.ondeserializeinto
+          - title: parent
+            url: /pages/api/api-extractor-model.apiitem.parent
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apiitem.serializeinto
+      - title: ApiItemContainerMixin
+        url: /pages/api/api-extractor-model.apiitemcontainermixin
+      - title: ApiItemContainerMixin
+        url: /pages/api/api-extractor-model.apiitemcontainermixin
+        subitems:
+          - title: addMember
+            url: /pages/api/api-extractor-model.apiitemcontainermixin.addmember
+          - title: findMembersByName
+            url: /pages/api/api-extractor-model.apiitemcontainermixin.findmembersbyname
+          - title: members
+            url: /pages/api/api-extractor-model.apiitemcontainermixin.members
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apiitemcontainermixin.serializeinto
+          - title: tryGetMemberByKey
+            url: /pages/api/api-extractor-model.apiitemcontainermixin.trygetmemberbykey
+      - title: ApiItemContainerMixin
+        url: /pages/api/api-extractor-model.apiitemcontainermixin
+        subitems:
+          - title: isBaseClassOf
+            url: /pages/api/api-extractor-model.apiitemcontainermixin.isbaseclassof
+      - title: ApiItemKind
+        url: /pages/api/api-extractor-model.apiitemkind
+      - title: ApiMethod
+        url: /pages/api/api-extractor-model.apimethod
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apimethod._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apimethod.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apimethod.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apimethod.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apimethod.kind
+      - title: ApiMethodSignature
+        url: /pages/api/api-extractor-model.apimethodsignature
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apimethodsignature._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apimethodsignature.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apimethodsignature.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apimethodsignature.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apimethodsignature.kind
+      - title: ApiModel
+        url: /pages/api/api-extractor-model.apimodel
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apimodel._constructor_
+          - title: addMember
+            url: /pages/api/api-extractor-model.apimodel.addmember
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apimodel.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apimodel.containerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apimodel.kind
+          - title: loadPackage
+            url: /pages/api/api-extractor-model.apimodel.loadpackage
+          - title: packages
+            url: /pages/api/api-extractor-model.apimodel.packages
+          - title: resolveDeclarationReference
+            url: /pages/api/api-extractor-model.apimodel.resolvedeclarationreference
+          - title: tryGetPackageByName
+            url: /pages/api/api-extractor-model.apimodel.trygetpackagebyname
+      - title: ApiNameMixin
+        url: /pages/api/api-extractor-model.apinamemixin
+      - title: ApiNameMixin
+        url: /pages/api/api-extractor-model.apinamemixin
+        subitems:
+          - title: name
+            url: /pages/api/api-extractor-model.apinamemixin.name
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apinamemixin.serializeinto
+      - title: ApiNameMixin
+        url: /pages/api/api-extractor-model.apinamemixin
+        subitems:
+          - title: isBaseClassOf
+            url: /pages/api/api-extractor-model.apinamemixin.isbaseclassof
+      - title: ApiNamespace
+        url: /pages/api/api-extractor-model.apinamespace
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apinamespace._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apinamespace.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apinamespace.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apinamespace.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apinamespace.kind
+      - title: ApiPackage
+        url: /pages/api/api-extractor-model.apipackage
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apipackage._constructor_
+          - title: addMember
+            url: /pages/api/api-extractor-model.apipackage.addmember
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apipackage.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apipackage.containerkey
+          - title: entryPoints
+            url: /pages/api/api-extractor-model.apipackage.entrypoints
+          - title: findEntryPointsByPath
+            url: /pages/api/api-extractor-model.apipackage.findentrypointsbypath
+          - title: kind
+            url: /pages/api/api-extractor-model.apipackage.kind
+          - title: loadFromJsonFile
+            url: /pages/api/api-extractor-model.apipackage.loadfromjsonfile
+          - title: saveToJsonFile
+            url: /pages/api/api-extractor-model.apipackage.savetojsonfile
+      - title: ApiParameterListMixin
+        url: /pages/api/api-extractor-model.apiparameterlistmixin
+      - title: ApiParameterListMixin
+        url: /pages/api/api-extractor-model.apiparameterlistmixin
+        subitems:
+          - title: overloadIndex
+            url: /pages/api/api-extractor-model.apiparameterlistmixin.overloadindex
+          - title: parameters
+            url: /pages/api/api-extractor-model.apiparameterlistmixin.parameters
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apiparameterlistmixin.serializeinto
+      - title: ApiParameterListMixin
+        url: /pages/api/api-extractor-model.apiparameterlistmixin
+        subitems:
+          - title: isBaseClassOf
+            url: /pages/api/api-extractor-model.apiparameterlistmixin.isbaseclassof
+      - title: ApiProperty
+        url: /pages/api/api-extractor-model.apiproperty
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apiproperty._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apiproperty.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apiproperty.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apiproperty.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apiproperty.kind
+      - title: ApiPropertyItem
+        url: /pages/api/api-extractor-model.apipropertyitem
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apipropertyitem._constructor_
+          - title: isEventProperty
+            url: /pages/api/api-extractor-model.apipropertyitem.iseventproperty
+          - title: onDeserializeInto
+            url: /pages/api/api-extractor-model.apipropertyitem.ondeserializeinto
+          - title: propertyTypeExcerpt
+            url: /pages/api/api-extractor-model.apipropertyitem.propertytypeexcerpt
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apipropertyitem.serializeinto
+      - title: ApiPropertySignature
+        url: /pages/api/api-extractor-model.apipropertysignature
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apipropertysignature._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apipropertysignature.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apipropertysignature.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apipropertysignature.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apipropertysignature.kind
+      - title: ApiReleaseTagMixin
+        url: /pages/api/api-extractor-model.apireleasetagmixin
+      - title: ApiReleaseTagMixin
+        url: /pages/api/api-extractor-model.apireleasetagmixin
+        subitems:
+          - title: releaseTag
+            url: /pages/api/api-extractor-model.apireleasetagmixin.releasetag
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apireleasetagmixin.serializeinto
+      - title: ApiReleaseTagMixin
+        url: /pages/api/api-extractor-model.apireleasetagmixin
+        subitems:
+          - title: isBaseClassOf
+            url: /pages/api/api-extractor-model.apireleasetagmixin.isbaseclassof
+      - title: ApiReturnTypeMixin
+        url: /pages/api/api-extractor-model.apireturntypemixin
+      - title: ApiReturnTypeMixin
+        url: /pages/api/api-extractor-model.apireturntypemixin
+        subitems:
+          - title: returnTypeExcerpt
+            url: /pages/api/api-extractor-model.apireturntypemixin.returntypeexcerpt
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apireturntypemixin.serializeinto
+      - title: ApiReturnTypeMixin
+        url: /pages/api/api-extractor-model.apireturntypemixin
+        subitems:
+          - title: isBaseClassOf
+            url: /pages/api/api-extractor-model.apireturntypemixin.isbaseclassof
+      - title: ApiStaticMixin
+        url: /pages/api/api-extractor-model.apistaticmixin
+      - title: ApiStaticMixin
+        url: /pages/api/api-extractor-model.apistaticmixin
+        subitems:
+          - title: isStatic
+            url: /pages/api/api-extractor-model.apistaticmixin.isstatic
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apistaticmixin.serializeinto
+      - title: ApiStaticMixin
+        url: /pages/api/api-extractor-model.apistaticmixin
+        subitems:
+          - title: isBaseClassOf
+            url: /pages/api/api-extractor-model.apistaticmixin.isbaseclassof
+      - title: ApiTypeAlias
+        url: /pages/api/api-extractor-model.apitypealias
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apitypealias._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apitypealias.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apitypealias.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apitypealias.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apitypealias.kind
+          - title: onDeserializeInto
+            url: /pages/api/api-extractor-model.apitypealias.ondeserializeinto
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apitypealias.serializeinto
+          - title: typeExcerpt
+            url: /pages/api/api-extractor-model.apitypealias.typeexcerpt
+      - title: ApiTypeParameterListMixin
+        url: /pages/api/api-extractor-model.apitypeparameterlistmixin
+      - title: ApiTypeParameterListMixin
+        url: /pages/api/api-extractor-model.apitypeparameterlistmixin
+        subitems:
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apitypeparameterlistmixin.serializeinto
+          - title: typeParameters
+            url: /pages/api/api-extractor-model.apitypeparameterlistmixin.typeparameters
+      - title: ApiTypeParameterListMixin
+        url: /pages/api/api-extractor-model.apitypeparameterlistmixin
+        subitems:
+          - title: isBaseClassOf
+            url: /pages/api/api-extractor-model.apitypeparameterlistmixin.isbaseclassof
+      - title: ApiVariable
+        url: /pages/api/api-extractor-model.apivariable
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.apivariable._constructor_
+          - title: buildCanonicalReference
+            url: /pages/api/api-extractor-model.apivariable.buildcanonicalreference
+          - title: containerKey
+            url: /pages/api/api-extractor-model.apivariable.containerkey
+          - title: getContainerKey
+            url: /pages/api/api-extractor-model.apivariable.getcontainerkey
+          - title: kind
+            url: /pages/api/api-extractor-model.apivariable.kind
+          - title: onDeserializeInto
+            url: /pages/api/api-extractor-model.apivariable.ondeserializeinto
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apivariable.serializeinto
+          - title: variableTypeExcerpt
+            url: /pages/api/api-extractor-model.apivariable.variabletypeexcerpt
+      - title: Constructor
+        url: /pages/api/api-extractor-model.constructor
+      - title: Excerpt
+        url: /pages/api/api-extractor-model.excerpt
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.excerpt._constructor_
+          - title: isEmpty
+            url: /pages/api/api-extractor-model.excerpt.isempty
+          - title: text
+            url: /pages/api/api-extractor-model.excerpt.text
+          - title: tokenRange
+            url: /pages/api/api-extractor-model.excerpt.tokenrange
+          - title: tokens
+            url: /pages/api/api-extractor-model.excerpt.tokens
+      - title: ExcerptToken
+        url: /pages/api/api-extractor-model.excerpttoken
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.excerpttoken._constructor_
+          - title: kind
+            url: /pages/api/api-extractor-model.excerpttoken.kind
+          - title: text
+            url: /pages/api/api-extractor-model.excerpttoken.text
+      - title: ExcerptTokenKind
+        url: /pages/api/api-extractor-model.excerpttokenkind
+      - title: HeritageType
+        url: /pages/api/api-extractor-model.heritagetype
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.heritagetype._constructor_
+          - title: excerpt
+            url: /pages/api/api-extractor-model.heritagetype.excerpt
+      - title: IApiCallSignatureOptions
+        url: /pages/api/api-extractor-model.iapicallsignatureoptions
+      - title: IApiClassOptions
+        url: /pages/api/api-extractor-model.iapiclassoptions
+        subitems:
+          - title: extendsTokenRange
+            url: /pages/api/api-extractor-model.iapiclassoptions.extendstokenrange
+          - title: implementsTokenRanges
+            url: /pages/api/api-extractor-model.iapiclassoptions.implementstokenranges
+      - title: IApiConstructorOptions
+        url: /pages/api/api-extractor-model.iapiconstructoroptions
+      - title: IApiConstructSignatureOptions
+        url: /pages/api/api-extractor-model.iapiconstructsignatureoptions
+      - title: IApiDeclaredItemOptions
+        url: /pages/api/api-extractor-model.iapideclareditemoptions
+        subitems:
+          - title: excerptTokens
+            url: /pages/api/api-extractor-model.iapideclareditemoptions.excerpttokens
+      - title: IApiDocumentedItemOptions
+        url: /pages/api/api-extractor-model.iapidocumenteditemoptions
+        subitems:
+          - title: docComment
+            url: /pages/api/api-extractor-model.iapidocumenteditemoptions.doccomment
+      - title: IApiEntryPointOptions
+        url: /pages/api/api-extractor-model.iapientrypointoptions
+      - title: IApiEnumMemberOptions
+        url: /pages/api/api-extractor-model.iapienummemberoptions
+        subitems:
+          - title: initializerTokenRange
+            url: /pages/api/api-extractor-model.iapienummemberoptions.initializertokenrange
+      - title: IApiEnumOptions
+        url: /pages/api/api-extractor-model.iapienumoptions
+      - title: IApiFunctionOptions
+        url: /pages/api/api-extractor-model.iapifunctionoptions
+      - title: IApiIndexSignatureOptions
+        url: /pages/api/api-extractor-model.iapiindexsignatureoptions
+      - title: IApiInterfaceOptions
+        url: /pages/api/api-extractor-model.iapiinterfaceoptions
+        subitems:
+          - title: extendsTokenRanges
+            url: /pages/api/api-extractor-model.iapiinterfaceoptions.extendstokenranges
+      - title: IApiItemConstructor
+        url: /pages/api/api-extractor-model.iapiitemconstructor
+      - title: IApiItemContainerMixinOptions
+        url: /pages/api/api-extractor-model.iapiitemcontainermixinoptions
+        subitems:
+          - title: members
+            url: /pages/api/api-extractor-model.iapiitemcontainermixinoptions.members
+      - title: IApiItemOptions
+        url: /pages/api/api-extractor-model.iapiitemoptions
+      - title: IApiMethodOptions
+        url: /pages/api/api-extractor-model.iapimethodoptions
+      - title: IApiMethodSignatureOptions
+        url: /pages/api/api-extractor-model.iapimethodsignatureoptions
+      - title: IApiNameMixinOptions
+        url: /pages/api/api-extractor-model.iapinamemixinoptions
+        subitems:
+          - title: name
+            url: /pages/api/api-extractor-model.iapinamemixinoptions.name
+      - title: IApiNamespaceOptions
+        url: /pages/api/api-extractor-model.iapinamespaceoptions
+      - title: IApiPackageOptions
+        url: /pages/api/api-extractor-model.iapipackageoptions
+      - title: IApiPackageSaveOptions
+        url: /pages/api/api-extractor-model.iapipackagesaveoptions
+        subitems:
+          - title: testMode
+            url: /pages/api/api-extractor-model.iapipackagesaveoptions.testmode
+          - title: toolPackage
+            url: /pages/api/api-extractor-model.iapipackagesaveoptions.toolpackage
+          - title: toolVersion
+            url: /pages/api/api-extractor-model.iapipackagesaveoptions.toolversion
+      - title: IApiParameterListMixinOptions
+        url: /pages/api/api-extractor-model.iapiparameterlistmixinoptions
+        subitems:
+          - title: overloadIndex
+            url: /pages/api/api-extractor-model.iapiparameterlistmixinoptions.overloadindex
+          - title: parameters
+            url: /pages/api/api-extractor-model.iapiparameterlistmixinoptions.parameters
+      - title: IApiParameterOptions
+        url: /pages/api/api-extractor-model.iapiparameteroptions
+        subitems:
+          - title: parameterName
+            url: /pages/api/api-extractor-model.iapiparameteroptions.parametername
+          - title: parameterTypeTokenRange
+            url: /pages/api/api-extractor-model.iapiparameteroptions.parametertypetokenrange
+      - title: IApiPropertyItemOptions
+        url: /pages/api/api-extractor-model.iapipropertyitemoptions
+        subitems:
+          - title: propertyTypeTokenRange
+            url: /pages/api/api-extractor-model.iapipropertyitemoptions.propertytypetokenrange
+      - title: IApiPropertyOptions
+        url: /pages/api/api-extractor-model.iapipropertyoptions
+      - title: IApiPropertySignatureOptions
+        url: /pages/api/api-extractor-model.iapipropertysignatureoptions
+      - title: IApiReleaseTagMixinOptions
+        url: /pages/api/api-extractor-model.iapireleasetagmixinoptions
+        subitems:
+          - title: releaseTag
+            url: /pages/api/api-extractor-model.iapireleasetagmixinoptions.releasetag
+      - title: IApiReturnTypeMixinOptions
+        url: /pages/api/api-extractor-model.iapireturntypemixinoptions
+        subitems:
+          - title: returnTypeTokenRange
+            url: /pages/api/api-extractor-model.iapireturntypemixinoptions.returntypetokenrange
+      - title: IApiStaticMixinOptions
+        url: /pages/api/api-extractor-model.iapistaticmixinoptions
+        subitems:
+          - title: isStatic
+            url: /pages/api/api-extractor-model.iapistaticmixinoptions.isstatic
+      - title: IApiTypeAliasOptions
+        url: /pages/api/api-extractor-model.iapitypealiasoptions
+        subitems:
+          - title: typeTokenRange
+            url: /pages/api/api-extractor-model.iapitypealiasoptions.typetokenrange
+      - title: IApiTypeParameterListMixinOptions
+        url: /pages/api/api-extractor-model.iapitypeparameterlistmixinoptions
+        subitems:
+          - title: typeParameters
+            url: /pages/api/api-extractor-model.iapitypeparameterlistmixinoptions.typeparameters
+      - title: IApiTypeParameterOptions
+        url: /pages/api/api-extractor-model.iapitypeparameteroptions
+        subitems:
+          - title: constraintTokenRange
+            url: /pages/api/api-extractor-model.iapitypeparameteroptions.constrainttokenrange
+          - title: defaultTypeTokenRange
+            url: /pages/api/api-extractor-model.iapitypeparameteroptions.defaulttypetokenrange
+          - title: typeParameterName
+            url: /pages/api/api-extractor-model.iapitypeparameteroptions.typeparametername
+      - title: IApiVariableOptions
+        url: /pages/api/api-extractor-model.iapivariableoptions
+        subitems:
+          - title: variableTypeTokenRange
+            url: /pages/api/api-extractor-model.iapivariableoptions.variabletypetokenrange
+      - title: IExcerptToken
+        url: /pages/api/api-extractor-model.iexcerpttoken
+        subitems:
+          - title: kind
+            url: /pages/api/api-extractor-model.iexcerpttoken.kind
+          - title: text
+            url: /pages/api/api-extractor-model.iexcerpttoken.text
+      - title: IExcerptTokenRange
+        url: /pages/api/api-extractor-model.iexcerpttokenrange
+        subitems:
+          - title: endIndex
+            url: /pages/api/api-extractor-model.iexcerpttokenrange.endindex
+          - title: startIndex
+            url: /pages/api/api-extractor-model.iexcerpttokenrange.startindex
+      - title: IParameterOptions
+        url: /pages/api/api-extractor-model.iparameteroptions
+        subitems:
+          - title: name
+            url: /pages/api/api-extractor-model.iparameteroptions.name
+          - title: parameterTypeExcerpt
+            url: /pages/api/api-extractor-model.iparameteroptions.parametertypeexcerpt
+          - title: parent
+            url: /pages/api/api-extractor-model.iparameteroptions.parent
+      - title: IResolveDeclarationReferenceResult
+        url: /pages/api/api-extractor-model.iresolvedeclarationreferenceresult
+        subitems:
+          - title: errorMessage
+            url: /pages/api/api-extractor-model.iresolvedeclarationreferenceresult.errormessage
+          - title: resolvedApiItem
+            url: /pages/api/api-extractor-model.iresolvedeclarationreferenceresult.resolvedapiitem
+      - title: ITypeParameterOptions
+        url: /pages/api/api-extractor-model.itypeparameteroptions
+        subitems:
+          - title: constraintExcerpt
+            url: /pages/api/api-extractor-model.itypeparameteroptions.constraintexcerpt
+          - title: defaultTypeExcerpt
+            url: /pages/api/api-extractor-model.itypeparameteroptions.defaulttypeexcerpt
+          - title: name
+            url: /pages/api/api-extractor-model.itypeparameteroptions.name
+          - title: parent
+            url: /pages/api/api-extractor-model.itypeparameteroptions.parent
+      - title: Parameter
+        url: /pages/api/api-extractor-model.parameter
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.parameter._constructor_
+          - title: name
+            url: /pages/api/api-extractor-model.parameter.name
+          - title: parameterTypeExcerpt
+            url: /pages/api/api-extractor-model.parameter.parametertypeexcerpt
+          - title: tsdocParamBlock
+            url: /pages/api/api-extractor-model.parameter.tsdocparamblock
+      - title: PropertiesOf
+        url: /pages/api/api-extractor-model.propertiesof
+      - title: ReleaseTag
+        url: /pages/api/api-extractor-model.releasetag
+      - title: ReleaseTag
+        url: /pages/api/api-extractor-model.releasetag
+        subitems:
+          - title: compare
+            url: /pages/api/api-extractor-model.releasetag.compare
+          - title: getTagName
+            url: /pages/api/api-extractor-model.releasetag.gettagname
+      - title: TypeParameter
+        url: /pages/api/api-extractor-model.typeparameter
+        subitems:
+          - title: (constructor)
+            url: /pages/api/api-extractor-model.typeparameter._constructor_
+          - title: constraintExcerpt
+            url: /pages/api/api-extractor-model.typeparameter.constraintexcerpt
+          - title: defaultTypeExcerpt
+            url: /pages/api/api-extractor-model.typeparameter.defaulttypeexcerpt
+          - title: name
+            url: /pages/api/api-extractor-model.typeparameter.name
+          - title: tsdocTypeParamBlock
+            url: /pages/api/api-extractor-model.typeparameter.tsdoctypeparamblock
+  - title: '@microsoft/node-core-library'
+    url: /pages/api/node-core-library
+    subitems:
+      - title: callback
+        url: /pages/api/node-core-library.callback
+      - title: Colors
+        url: /pages/api/node-core-library.colors
+        subitems:
+          - title: black
+            url: /pages/api/node-core-library.colors.black
+          - title: blackBackground
+            url: /pages/api/node-core-library.colors.blackbackground
+          - title: blink
+            url: /pages/api/node-core-library.colors.blink
+          - title: blue
+            url: /pages/api/node-core-library.colors.blue
+          - title: blueBackground
+            url: /pages/api/node-core-library.colors.bluebackground
+          - title: bold
+            url: /pages/api/node-core-library.colors.bold
+          - title: cyan
+            url: /pages/api/node-core-library.colors.cyan
+          - title: cyanBackground
+            url: /pages/api/node-core-library.colors.cyanbackground
+          - title: dim
+            url: /pages/api/node-core-library.colors.dim
+          - title: gray
+            url: /pages/api/node-core-library.colors.gray
+          - title: grayBackground
+            url: /pages/api/node-core-library.colors.graybackground
+          - title: green
+            url: /pages/api/node-core-library.colors.green
+          - title: greenBackground
+            url: /pages/api/node-core-library.colors.greenbackground
+          - title: hidden
+            url: /pages/api/node-core-library.colors.hidden
+          - title: invertColor
+            url: /pages/api/node-core-library.colors.invertcolor
+          - title: magenta
+            url: /pages/api/node-core-library.colors.magenta
+          - title: magentaBackground
+            url: /pages/api/node-core-library.colors.magentabackground
+          - title: red
+            url: /pages/api/node-core-library.colors.red
+          - title: redBackground
+            url: /pages/api/node-core-library.colors.redbackground
+          - title: underline
+            url: /pages/api/node-core-library.colors.underline
+          - title: white
+            url: /pages/api/node-core-library.colors.white
+          - title: whiteBackground
+            url: /pages/api/node-core-library.colors.whitebackground
+          - title: yellow
+            url: /pages/api/node-core-library.colors.yellow
+          - title: yellowBackground
+            url: /pages/api/node-core-library.colors.yellowbackground
+      - title: ColorValue
+        url: /pages/api/node-core-library.colorvalue
+      - title: ConsoleTerminalProvider
+        url: /pages/api/node-core-library.consoleterminalprovider
+        subitems:
+          - title: (constructor)
+            url: /pages/api/node-core-library.consoleterminalprovider._constructor_
+          - title: eolCharacter
+            url: /pages/api/node-core-library.consoleterminalprovider.eolcharacter
+          - title: supportsColor
+            url: /pages/api/node-core-library.consoleterminalprovider.supportscolor
+          - title: verboseEnabled
+            url: /pages/api/node-core-library.consoleterminalprovider.verboseenabled
+          - title: write
+            url: /pages/api/node-core-library.consoleterminalprovider.write
+      - title: Encoding
+        url: /pages/api/node-core-library.encoding
+      - title: Executable
+        url: /pages/api/node-core-library.executable
+        subitems:
+          - title: spawnSync
+            url: /pages/api/node-core-library.executable.spawnsync
+          - title: tryResolve
+            url: /pages/api/node-core-library.executable.tryresolve
+      - title: ExecutableStdioMapping
+        url: /pages/api/node-core-library.executablestdiomapping
+      - title: ExecutableStdioStreamMapping
+        url: /pages/api/node-core-library.executablestdiostreammapping
+      - title: FileConstants
+        url: /pages/api/node-core-library.fileconstants
+      - title: FileSystem
+        url: /pages/api/node-core-library.filesystem
+        subitems:
+          - title: appendToFile
+            url: /pages/api/node-core-library.filesystem.appendtofile
+          - title: changePosixModeBits
+            url: /pages/api/node-core-library.filesystem.changeposixmodebits
+          - title: copyFile
+            url: /pages/api/node-core-library.filesystem.copyfile
+          - title: createHardLink
+            url: /pages/api/node-core-library.filesystem.createhardlink
+          - title: createSymbolicLinkFile
+            url: /pages/api/node-core-library.filesystem.createsymboliclinkfile
+          - title: createSymbolicLinkFolder
+            url: /pages/api/node-core-library.filesystem.createsymboliclinkfolder
+          - title: createSymbolicLinkJunction
+            url: /pages/api/node-core-library.filesystem.createsymboliclinkjunction
+          - title: deleteFile
+            url: /pages/api/node-core-library.filesystem.deletefile
+          - title: deleteFolder
+            url: /pages/api/node-core-library.filesystem.deletefolder
+          - title: ensureEmptyFolder
+            url: /pages/api/node-core-library.filesystem.ensureemptyfolder
+          - title: ensureFolder
+            url: /pages/api/node-core-library.filesystem.ensurefolder
+          - title: exists
+            url: /pages/api/node-core-library.filesystem.exists
+          - title: formatPosixModeBits
+            url: /pages/api/node-core-library.filesystem.formatposixmodebits
+          - title: getLinkStatistics
+            url: /pages/api/node-core-library.filesystem.getlinkstatistics
+          - title: getPosixModeBits
+            url: /pages/api/node-core-library.filesystem.getposixmodebits
+          - title: getRealPath
+            url: /pages/api/node-core-library.filesystem.getrealpath
+          - title: getStatistics
+            url: /pages/api/node-core-library.filesystem.getstatistics
+          - title: move
+            url: /pages/api/node-core-library.filesystem.move
+          - title: readFile
+            url: /pages/api/node-core-library.filesystem.readfile
+          - title: readFileToBuffer
+            url: /pages/api/node-core-library.filesystem.readfiletobuffer
+          - title: readFolder
+            url: /pages/api/node-core-library.filesystem.readfolder
+          - title: updateTimes
+            url: /pages/api/node-core-library.filesystem.updatetimes
+          - title: writeFile
+            url: /pages/api/node-core-library.filesystem.writefile
+      - title: FileWriter
+        url: /pages/api/node-core-library.filewriter
+        subitems:
+          - title: close
+            url: /pages/api/node-core-library.filewriter.close
+          - title: open
+            url: /pages/api/node-core-library.filewriter.open
+          - title: write
+            url: /pages/api/node-core-library.filewriter.write
+      - title: FolderConstants
+        url: /pages/api/node-core-library.folderconstants
+      - title: IColorableSequence
+        url: /pages/api/node-core-library.icolorablesequence
+        subitems:
+          - title: backgroundColor
+            url: /pages/api/node-core-library.icolorablesequence.backgroundcolor
+          - title: foregroundColor
+            url: /pages/api/node-core-library.icolorablesequence.foregroundcolor
+          - title: isEol
+            url: /pages/api/node-core-library.icolorablesequence.iseol
+          - title: text
+            url: /pages/api/node-core-library.icolorablesequence.text
+          - title: textAttributes
+            url: /pages/api/node-core-library.icolorablesequence.textattributes
+      - title: IConsoleTerminalProviderOptions
+        url: /pages/api/node-core-library.iconsoleterminalprovideroptions
+        subitems:
+          - title: verboseEnabled
+            url: /pages/api/node-core-library.iconsoleterminalprovideroptions.verboseenabled
+      - title: IExecutableResolveOptions
+        url: /pages/api/node-core-library.iexecutableresolveoptions
+        subitems:
+          - title: currentWorkingDirectory
+            url: /pages/api/node-core-library.iexecutableresolveoptions.currentworkingdirectory
+          - title: environment
+            url: /pages/api/node-core-library.iexecutableresolveoptions.environment
+      - title: IExecutableSpawnSyncOptions
+        url: /pages/api/node-core-library.iexecutablespawnsyncoptions
+        subitems:
+          - title: input
+            url: /pages/api/node-core-library.iexecutablespawnsyncoptions.input
+          - title: maxBuffer
+            url: /pages/api/node-core-library.iexecutablespawnsyncoptions.maxbuffer
+          - title: stdio
+            url: /pages/api/node-core-library.iexecutablespawnsyncoptions.stdio
+          - title: timeoutMs
+            url: /pages/api/node-core-library.iexecutablespawnsyncoptions.timeoutms
+      - title: IFileSystemCopyFileOptions
+        url: /pages/api/node-core-library.ifilesystemcopyfileoptions
+        subitems:
+          - title: destinationPath
+            url: /pages/api/node-core-library.ifilesystemcopyfileoptions.destinationpath
+          - title: sourcePath
+            url: /pages/api/node-core-library.ifilesystemcopyfileoptions.sourcepath
+      - title: IFileSystemCreateLinkOptions
+        url: /pages/api/node-core-library.ifilesystemcreatelinkoptions
+        subitems:
+          - title: linkTargetPath
+            url: /pages/api/node-core-library.ifilesystemcreatelinkoptions.linktargetpath
+          - title: newLinkPath
+            url: /pages/api/node-core-library.ifilesystemcreatelinkoptions.newlinkpath
+      - title: IFileSystemDeleteFileOptions
+        url: /pages/api/node-core-library.ifilesystemdeletefileoptions
+        subitems:
+          - title: throwIfNotExists
+            url: /pages/api/node-core-library.ifilesystemdeletefileoptions.throwifnotexists
+      - title: IFileSystemMoveOptions
+        url: /pages/api/node-core-library.ifilesystemmoveoptions
+        subitems:
+          - title: destinationPath
+            url: /pages/api/node-core-library.ifilesystemmoveoptions.destinationpath
+          - title: ensureFolderExists
+            url: /pages/api/node-core-library.ifilesystemmoveoptions.ensurefolderexists
+          - title: overwrite
+            url: /pages/api/node-core-library.ifilesystemmoveoptions.overwrite
+          - title: sourcePath
+            url: /pages/api/node-core-library.ifilesystemmoveoptions.sourcepath
+      - title: IFileSystemReadFileOptions
+        url: /pages/api/node-core-library.ifilesystemreadfileoptions
+        subitems:
+          - title: convertLineEndings
+            url: /pages/api/node-core-library.ifilesystemreadfileoptions.convertlineendings
+          - title: encoding
+            url: /pages/api/node-core-library.ifilesystemreadfileoptions.encoding
+      - title: IFileSystemReadFolderOptions
+        url: /pages/api/node-core-library.ifilesystemreadfolderoptions
+        subitems:
+          - title: absolutePaths
+            url: /pages/api/node-core-library.ifilesystemreadfolderoptions.absolutepaths
+      - title: IFileSystemUpdateTimeParameters
+        url: /pages/api/node-core-library.ifilesystemupdatetimeparameters
+        subitems:
+          - title: accessedTime
+            url: /pages/api/node-core-library.ifilesystemupdatetimeparameters.accessedtime
+          - title: modifiedTime
+            url: /pages/api/node-core-library.ifilesystemupdatetimeparameters.modifiedtime
+      - title: IFileSystemWriteFileOptions
+        url: /pages/api/node-core-library.ifilesystemwritefileoptions
+        subitems:
+          - title: convertLineEndings
+            url: /pages/api/node-core-library.ifilesystemwritefileoptions.convertlineendings
+          - title: encoding
+            url: /pages/api/node-core-library.ifilesystemwritefileoptions.encoding
+          - title: ensureFolderExists
+            url: /pages/api/node-core-library.ifilesystemwritefileoptions.ensurefolderexists
+      - title: IFileWriterFlags
+        url: /pages/api/node-core-library.ifilewriterflags
+        subitems:
+          - title: append
+            url: /pages/api/node-core-library.ifilewriterflags.append
+          - title: exclusive
+            url: /pages/api/node-core-library.ifilewriterflags.exclusive
+      - title: IJsonFileSaveOptions
+        url: /pages/api/node-core-library.ijsonfilesaveoptions
+        subitems:
+          - title: ensureFolderExists
+            url: /pages/api/node-core-library.ijsonfilesaveoptions.ensurefolderexists
+          - title: onlyIfChanged
+            url: /pages/api/node-core-library.ijsonfilesaveoptions.onlyifchanged
+          - title: updateExistingFile
+            url: /pages/api/node-core-library.ijsonfilesaveoptions.updateexistingfile
+      - title: IJsonFileStringifyOptions
+        url: /pages/api/node-core-library.ijsonfilestringifyoptions
+        subitems:
+          - title: newlineConversion
+            url: /pages/api/node-core-library.ijsonfilestringifyoptions.newlineconversion
+          - title: prettyFormatting
+            url: /pages/api/node-core-library.ijsonfilestringifyoptions.prettyformatting
+      - title: IJsonSchemaErrorInfo
+        url: /pages/api/node-core-library.ijsonschemaerrorinfo
+        subitems:
+          - title: details
+            url: /pages/api/node-core-library.ijsonschemaerrorinfo.details
+      - title: IJsonSchemaFromFileOptions
+        url: /pages/api/node-core-library.ijsonschemafromfileoptions
+        subitems:
+          - title: dependentSchemas
+            url: /pages/api/node-core-library.ijsonschemafromfileoptions.dependentschemas
+      - title: IJsonSchemaValidateOptions
+        url: /pages/api/node-core-library.ijsonschemavalidateoptions
+        subitems:
+          - title: customErrorHeader
+            url: /pages/api/node-core-library.ijsonschemavalidateoptions.customerrorheader
+      - title: INodePackageJson
+        url: /pages/api/node-core-library.inodepackagejson
+        subitems:
+          - title: bin
+            url: /pages/api/node-core-library.inodepackagejson.bin
+          - title: dependencies
+            url: /pages/api/node-core-library.inodepackagejson.dependencies
+          - title: description
+            url: /pages/api/node-core-library.inodepackagejson.description
+          - title: devDependencies
+            url: /pages/api/node-core-library.inodepackagejson.devdependencies
+          - title: homepage
+            url: /pages/api/node-core-library.inodepackagejson.homepage
+          - title: license
+            url: /pages/api/node-core-library.inodepackagejson.license
+          - title: main
+            url: /pages/api/node-core-library.inodepackagejson.main
+          - title: name
+            url: /pages/api/node-core-library.inodepackagejson.name
+          - title: optionalDependencies
+            url: /pages/api/node-core-library.inodepackagejson.optionaldependencies
+          - title: peerDependencies
+            url: /pages/api/node-core-library.inodepackagejson.peerdependencies
+          - title: private
+            url: /pages/api/node-core-library.inodepackagejson.private
+          - title: repository
+            url: /pages/api/node-core-library.inodepackagejson.repository
+          - title: scripts
+            url: /pages/api/node-core-library.inodepackagejson.scripts
+          - title: tsdocMetadata
+            url: /pages/api/node-core-library.inodepackagejson.tsdocmetadata
+          - title: types
+            url: /pages/api/node-core-library.inodepackagejson.types
+          - title: typings
+            url: /pages/api/node-core-library.inodepackagejson.typings
+          - title: version
+            url: /pages/api/node-core-library.inodepackagejson.version
+      - title: InternalError
+        url: /pages/api/node-core-library.internalerror
+        subitems:
+          - title: (constructor)
+            url: /pages/api/node-core-library.internalerror._constructor_
+          - title: breakInDebugger
+            url: /pages/api/node-core-library.internalerror.breakindebugger
+          - title: toString
+            url: /pages/api/node-core-library.internalerror.tostring
+          - title: unformattedMessage
+            url: /pages/api/node-core-library.internalerror.unformattedmessage
+      - title: IPackageJson
+        url: /pages/api/node-core-library.ipackagejson
+        subitems:
+          - title: version
+            url: /pages/api/node-core-library.ipackagejson.version
+      - title: IPackageJsonDependencyTable
+        url: /pages/api/node-core-library.ipackagejsondependencytable
+      - title: IPackageJsonLookupParameters
+        url: /pages/api/node-core-library.ipackagejsonlookupparameters
+        subitems:
+          - title: loadExtraFields
+            url: /pages/api/node-core-library.ipackagejsonlookupparameters.loadextrafields
+      - title: IPackageJsonScriptTable
+        url: /pages/api/node-core-library.ipackagejsonscripttable
+      - title: IParsedPackageName
+        url: /pages/api/node-core-library.iparsedpackagename
+        subitems:
+          - title: scope
+            url: /pages/api/node-core-library.iparsedpackagename.scope
+          - title: unscopedName
+            url: /pages/api/node-core-library.iparsedpackagename.unscopedname
+      - title: IParsedPackageNameOrError
+        url: /pages/api/node-core-library.iparsedpackagenameorerror
+        subitems:
+          - title: error
+            url: /pages/api/node-core-library.iparsedpackagenameorerror.error
+      - title: IProtectableMapParameters
+        url: /pages/api/node-core-library.iprotectablemapparameters
+        subitems:
+          - title: onClear
+            url: /pages/api/node-core-library.iprotectablemapparameters.onclear
+          - title: onDelete
+            url: /pages/api/node-core-library.iprotectablemapparameters.ondelete
+          - title: onSet
+            url: /pages/api/node-core-library.iprotectablemapparameters.onset
+      - title: IStringBuilder
+        url: /pages/api/node-core-library.istringbuilder
+        subitems:
+          - title: append
+            url: /pages/api/node-core-library.istringbuilder.append
+          - title: toString
+            url: /pages/api/node-core-library.istringbuilder.tostring
+      - title: ITerminalProvider
+        url: /pages/api/node-core-library.iterminalprovider
+        subitems:
+          - title: eolCharacter
+            url: /pages/api/node-core-library.iterminalprovider.eolcharacter
+          - title: supportsColor
+            url: /pages/api/node-core-library.iterminalprovider.supportscolor
+          - title: write
+            url: /pages/api/node-core-library.iterminalprovider.write
+      - title: JsonFile
+        url: /pages/api/node-core-library.jsonfile
+        subitems:
+          - title: load
+            url: /pages/api/node-core-library.jsonfile.load
+          - title: loadAndValidate
+            url: /pages/api/node-core-library.jsonfile.loadandvalidate
+          - title: loadAndValidateWithCallback
+            url: /pages/api/node-core-library.jsonfile.loadandvalidatewithcallback
+          - title: save
+            url: /pages/api/node-core-library.jsonfile.save
+          - title: stringify
+            url: /pages/api/node-core-library.jsonfile.stringify
+          - title: updateString
+            url: /pages/api/node-core-library.jsonfile.updatestring
+          - title: validateNoUndefinedMembers
+            url: /pages/api/node-core-library.jsonfile.validatenoundefinedmembers
+      - title: JsonSchema
+        url: /pages/api/node-core-library.jsonschema
+        subitems:
+          - title: ensureCompiled
+            url: /pages/api/node-core-library.jsonschema.ensurecompiled
+          - title: fromFile
+            url: /pages/api/node-core-library.jsonschema.fromfile
+          - title: fromLoadedObject
+            url: /pages/api/node-core-library.jsonschema.fromloadedobject
+          - title: shortName
+            url: /pages/api/node-core-library.jsonschema.shortname
+          - title: validateObject
+            url: /pages/api/node-core-library.jsonschema.validateobject
+          - title: validateObjectWithCallback
+            url: /pages/api/node-core-library.jsonschema.validateobjectwithcallback
+      - title: LegacyAdapters
+        url: /pages/api/node-core-library.legacyadapters
+        subitems:
+          - title: convertCallbackToPromise
+            url: /pages/api/node-core-library.legacyadapters.convertcallbacktopromise
+          - title: convertCallbackToPromise
+            url: /pages/api/node-core-library.legacyadapters.convertcallbacktopromise_1
+          - title: convertCallbackToPromise
+            url: /pages/api/node-core-library.legacyadapters.convertcallbacktopromise_2
+          - title: scrubError
+            url: /pages/api/node-core-library.legacyadapters.scruberror
+      - title: LockFile
+        url: /pages/api/node-core-library.lockfile
+        subitems:
+          - title: acquire
+            url: /pages/api/node-core-library.lockfile.acquire
+          - title: dirtyWhenAcquired
+            url: /pages/api/node-core-library.lockfile.dirtywhenacquired
+          - title: filePath
+            url: /pages/api/node-core-library.lockfile.filepath
+          - title: getLockFilePath
+            url: /pages/api/node-core-library.lockfile.getlockfilepath
+          - title: isReleased
+            url: /pages/api/node-core-library.lockfile.isreleased
+          - title: release
+            url: /pages/api/node-core-library.lockfile.release
+          - title: tryAcquire
+            url: /pages/api/node-core-library.lockfile.tryacquire
+      - title: MapExtensions
+        url: /pages/api/node-core-library.mapextensions
+        subitems:
+          - title: mergeFromMap
+            url: /pages/api/node-core-library.mapextensions.mergefrommap
+      - title: NewlineKind
+        url: /pages/api/node-core-library.newlinekind
+      - title: PackageJsonLookup
+        url: /pages/api/node-core-library.packagejsonlookup
+        subitems:
+          - title: (constructor)
+            url: /pages/api/node-core-library.packagejsonlookup._constructor_
+          - title: clearCache
+            url: /pages/api/node-core-library.packagejsonlookup.clearcache
+          - title: loadNodePackageJson
+            url: /pages/api/node-core-library.packagejsonlookup.loadnodepackagejson
+          - title: loadOwnPackageJson
+            url: /pages/api/node-core-library.packagejsonlookup.loadownpackagejson
+          - title: loadPackageJson
+            url: /pages/api/node-core-library.packagejsonlookup.loadpackagejson
+          - title: tryGetPackageFolderFor
+            url: /pages/api/node-core-library.packagejsonlookup.trygetpackagefolderfor
+          - title: tryGetPackageJsonFilePathFor
+            url: /pages/api/node-core-library.packagejsonlookup.trygetpackagejsonfilepathfor
+          - title: tryLoadNodePackageJsonFor
+            url: /pages/api/node-core-library.packagejsonlookup.tryloadnodepackagejsonfor
+          - title: tryLoadPackageJsonFor
+            url: /pages/api/node-core-library.packagejsonlookup.tryloadpackagejsonfor
+      - title: PackageName
+        url: /pages/api/node-core-library.packagename
+        subitems:
+          - title: combineParts
+            url: /pages/api/node-core-library.packagename.combineparts
+          - title: getScope
+            url: /pages/api/node-core-library.packagename.getscope
+          - title: getUnscopedName
+            url: /pages/api/node-core-library.packagename.getunscopedname
+          - title: isValidName
+            url: /pages/api/node-core-library.packagename.isvalidname
+          - title: parse
+            url: /pages/api/node-core-library.packagename.parse
+          - title: tryParse
+            url: /pages/api/node-core-library.packagename.tryparse
+          - title: validate
+            url: /pages/api/node-core-library.packagename.validate
+      - title: Path
+        url: /pages/api/node-core-library.path
+        subitems:
+          - title: isUnder
+            url: /pages/api/node-core-library.path.isunder
+          - title: isUnderOrEqual
+            url: /pages/api/node-core-library.path.isunderorequal
+      - title: PosixModeBits
+        url: /pages/api/node-core-library.posixmodebits
+      - title: ProtectableMap
+        url: /pages/api/node-core-library.protectablemap
+        subitems:
+          - title: (constructor)
+            url: /pages/api/node-core-library.protectablemap._constructor_
+          - title: clear
+            url: /pages/api/node-core-library.protectablemap.clear
+          - title: delete
+            url: /pages/api/node-core-library.protectablemap.delete
+          - title: forEach
+            url: /pages/api/node-core-library.protectablemap.foreach
+          - title: get
+            url: /pages/api/node-core-library.protectablemap.get
+          - title: has
+            url: /pages/api/node-core-library.protectablemap.has
+          - title: protectedView
+            url: /pages/api/node-core-library.protectablemap.protectedview
+          - title: set
+            url: /pages/api/node-core-library.protectablemap.set
+          - title: size
+            url: /pages/api/node-core-library.protectablemap.size
+      - title: Sort
+        url: /pages/api/node-core-library.sort
+        subitems:
+          - title: compareByValue
+            url: /pages/api/node-core-library.sort.comparebyvalue
+          - title: isSorted
+            url: /pages/api/node-core-library.sort.issorted
+          - title: isSortedBy
+            url: /pages/api/node-core-library.sort.issortedby
+          - title: sortBy
+            url: /pages/api/node-core-library.sort.sortby
+          - title: sortMapKeys
+            url: /pages/api/node-core-library.sort.sortmapkeys
+          - title: sortSet
+            url: /pages/api/node-core-library.sort.sortset
+          - title: sortSetBy
+            url: /pages/api/node-core-library.sort.sortsetby
+      - title: StringBufferTerminalProvider
+        url: /pages/api/node-core-library.stringbufferterminalprovider
+        subitems:
+          - title: (constructor)
+            url: /pages/api/node-core-library.stringbufferterminalprovider._constructor_
+          - title: eolCharacter
+            url: /pages/api/node-core-library.stringbufferterminalprovider.eolcharacter
+          - title: getErrorOutput
+            url: /pages/api/node-core-library.stringbufferterminalprovider.geterroroutput
+          - title: getOutput
+            url: /pages/api/node-core-library.stringbufferterminalprovider.getoutput
+          - title: getVerbose
+            url: /pages/api/node-core-library.stringbufferterminalprovider.getverbose
+          - title: getWarningOutput
+            url: /pages/api/node-core-library.stringbufferterminalprovider.getwarningoutput
+          - title: supportsColor
+            url: /pages/api/node-core-library.stringbufferterminalprovider.supportscolor
+          - title: write
+            url: /pages/api/node-core-library.stringbufferterminalprovider.write
+      - title: StringBuilder
+        url: /pages/api/node-core-library.stringbuilder
+        subitems:
+          - title: (constructor)
+            url: /pages/api/node-core-library.stringbuilder._constructor_
+          - title: append
+            url: /pages/api/node-core-library.stringbuilder.append
+          - title: toString
+            url: /pages/api/node-core-library.stringbuilder.tostring
+      - title: Terminal
+        url: /pages/api/node-core-library.terminal
+        subitems:
+          - title: (constructor)
+            url: /pages/api/node-core-library.terminal._constructor_
+          - title: registerProvider
+            url: /pages/api/node-core-library.terminal.registerprovider
+          - title: unregisterProvider
+            url: /pages/api/node-core-library.terminal.unregisterprovider
+          - title: write
+            url: /pages/api/node-core-library.terminal.write
+          - title: writeError
+            url: /pages/api/node-core-library.terminal.writeerror
+          - title: writeErrorLine
+            url: /pages/api/node-core-library.terminal.writeerrorline
+          - title: writeLine
+            url: /pages/api/node-core-library.terminal.writeline
+          - title: writeVerbose
+            url: /pages/api/node-core-library.terminal.writeverbose
+          - title: writeVerboseLine
+            url: /pages/api/node-core-library.terminal.writeverboseline
+          - title: writeWarning
+            url: /pages/api/node-core-library.terminal.writewarning
+          - title: writeWarningLine
+            url: /pages/api/node-core-library.terminal.writewarningline
+      - title: TerminalProviderSeverity
+        url: /pages/api/node-core-library.terminalproviderseverity
+      - title: Text
+        url: /pages/api/node-core-library.text
+        subitems:
+          - title: convertToCrLf
+            url: /pages/api/node-core-library.text.converttocrlf
+          - title: convertToLf
+            url: /pages/api/node-core-library.text.converttolf
+          - title: ensureTrailingNewline
+            url: /pages/api/node-core-library.text.ensuretrailingnewline
+          - title: padEnd
+            url: /pages/api/node-core-library.text.padend
+          - title: padStart
+            url: /pages/api/node-core-library.text.padstart
+          - title: replaceAll
+            url: /pages/api/node-core-library.text.replaceall
+          - title: truncateWithEllipsis
+            url: /pages/api/node-core-library.text.truncatewithellipsis
+      - title: TextAttribute
+        url: /pages/api/node-core-library.textattribute
+  - title: '@microsoft/package-deps-hash'
+    url: /pages/api/package-deps-hash
+    subitems:
+      - title: getPackageDeps
+        url: /pages/api/package-deps-hash.getpackagedeps
+      - title: IPackageDeps
+        url: /pages/api/package-deps-hash.ipackagedeps
+        subitems:
+          - title: files
+            url: /pages/api/package-deps-hash.ipackagedeps.files
+  - title: '@microsoft/rush-lib'
+    url: /pages/api/rush-lib
+    subitems:
+      - title: ApprovedPackagesConfiguration
+        url: /pages/api/rush-lib.approvedpackagesconfiguration
+        subitems:
+          - title: (constructor)
+            url: /pages/api/rush-lib.approvedpackagesconfiguration._constructor_
+          - title: addOrUpdatePackage
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.addorupdatepackage
+          - title: clear
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.clear
+          - title: getItemByName
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.getitembyname
+          - title: items
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.items
+          - title: loadFromFile
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.loadfromfile
+          - title: saveToFile
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.savetofile
+          - title: tryLoadFromFile
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.tryloadfromfile
+      - title: ApprovedPackagesItem
+        url: /pages/api/rush-lib.approvedpackagesitem
+        subitems:
+          - title: allowedCategories
+            url: /pages/api/rush-lib.approvedpackagesitem.allowedcategories
+          - title: packageName
+            url: /pages/api/rush-lib.approvedpackagesitem.packagename
+      - title: ApprovedPackagesPolicy
+        url: /pages/api/rush-lib.approvedpackagespolicy
+        subitems:
+          - title: browserApprovedPackages
+            url: /pages/api/rush-lib.approvedpackagespolicy.browserapprovedpackages
+          - title: enabled
+            url: /pages/api/rush-lib.approvedpackagespolicy.enabled
+          - title: ignoredNpmScopes
+            url: /pages/api/rush-lib.approvedpackagespolicy.ignorednpmscopes
+          - title: nonbrowserApprovedPackages
+            url: /pages/api/rush-lib.approvedpackagespolicy.nonbrowserapprovedpackages
+          - title: reviewCategories
+            url: /pages/api/rush-lib.approvedpackagespolicy.reviewcategories
+      - title: BumpType
+        url: /pages/api/rush-lib.bumptype
+      - title: ChangeManager
+        url: /pages/api/rush-lib.changemanager
+        subitems:
+          - title: createEmptyChangeFiles
+            url: /pages/api/rush-lib.changemanager.createemptychangefiles
+      - title: CommonVersionsConfiguration
+        url: /pages/api/rush-lib.commonversionsconfiguration
+        subitems:
+          - title: allowedAlternativeVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.allowedalternativeversions
+          - title: filePath
+            url: /pages/api/rush-lib.commonversionsconfiguration.filepath
+          - title: getAllPreferredVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.getallpreferredversions
+          - title: loadFromFile
+            url: /pages/api/rush-lib.commonversionsconfiguration.loadfromfile
+          - title: preferredVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.preferredversions
+          - title: save
+            url: /pages/api/rush-lib.commonversionsconfiguration.save
+          - title: xstitchPreferredVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.xstitchpreferredversions
+      - title: DependencyType
+        url: /pages/api/rush-lib.dependencytype
+      - title: EnvironmentVariableNames
+        url: /pages/api/rush-lib.environmentvariablenames
+      - title: Event
+        url: /pages/api/rush-lib.event
+      - title: EventHooks
+        url: /pages/api/rush-lib.eventhooks
+        subitems:
+          - title: get
+            url: /pages/api/rush-lib.eventhooks.get
+      - title: ILaunchOptions
+        url: /pages/api/rush-lib.ilaunchoptions
+        subitems:
+          - title: alreadyReportedNodeTooNewError
+            url: /pages/api/rush-lib.ilaunchoptions.alreadyreportednodetoonewerror
+          - title: isManaged
+            url: /pages/api/rush-lib.ilaunchoptions.ismanaged
+      - title: IndividualVersionPolicy
+        url: /pages/api/rush-lib.individualversionpolicy
+        subitems:
+          - title: bump
+            url: /pages/api/rush-lib.individualversionpolicy.bump
+          - title: ensure
+            url: /pages/api/rush-lib.individualversionpolicy.ensure
+          - title: lockedMajor
+            url: /pages/api/rush-lib.individualversionpolicy.lockedmajor
+          - title: validate
+            url: /pages/api/rush-lib.individualversionpolicy.validate
+      - title: ITryFindRushJsonLocationOptions
+        url: /pages/api/rush-lib.itryfindrushjsonlocationoptions
+        subitems:
+          - title: showVerbose
+            url: /pages/api/rush-lib.itryfindrushjsonlocationoptions.showverbose
+          - title: startingFolder
+            url: /pages/api/rush-lib.itryfindrushjsonlocationoptions.startingfolder
+      - title: LockStepVersionPolicy
+        url: /pages/api/rush-lib.lockstepversionpolicy
+        subitems:
+          - title: bump
+            url: /pages/api/rush-lib.lockstepversionpolicy.bump
+          - title: ensure
+            url: /pages/api/rush-lib.lockstepversionpolicy.ensure
+          - title: mainProject
+            url: /pages/api/rush-lib.lockstepversionpolicy.mainproject
+          - title: nextBump
+            url: /pages/api/rush-lib.lockstepversionpolicy.nextbump
+          - title: update
+            url: /pages/api/rush-lib.lockstepversionpolicy.update
+          - title: validate
+            url: /pages/api/rush-lib.lockstepversionpolicy.validate
+          - title: version
+            url: /pages/api/rush-lib.lockstepversionpolicy.version
+      - title: PackageJsonDependency
+        url: /pages/api/rush-lib.packagejsondependency
+        subitems:
+          - title: (constructor)
+            url: /pages/api/rush-lib.packagejsondependency._constructor_
+          - title: dependencyType
+            url: /pages/api/rush-lib.packagejsondependency.dependencytype
+          - title: name
+            url: /pages/api/rush-lib.packagejsondependency.name
+          - title: setVersion
+            url: /pages/api/rush-lib.packagejsondependency.setversion
+          - title: version
+            url: /pages/api/rush-lib.packagejsondependency.version
+      - title: PackageJsonEditor
+        url: /pages/api/rush-lib.packagejsoneditor
+        subitems:
+          - title: addOrUpdateDependency
+            url: /pages/api/rush-lib.packagejsoneditor.addorupdatedependency
+          - title: dependencyList
+            url: /pages/api/rush-lib.packagejsoneditor.dependencylist
+          - title: devDependencyList
+            url: /pages/api/rush-lib.packagejsoneditor.devdependencylist
+          - title: filePath
+            url: /pages/api/rush-lib.packagejsoneditor.filepath
+          - title: fromObject
+            url: /pages/api/rush-lib.packagejsoneditor.fromobject
+          - title: load
+            url: /pages/api/rush-lib.packagejsoneditor.load
+          - title: name
+            url: /pages/api/rush-lib.packagejsoneditor.name
+          - title: saveIfModified
+            url: /pages/api/rush-lib.packagejsoneditor.saveifmodified
+          - title: tryGetDependency
+            url: /pages/api/rush-lib.packagejsoneditor.trygetdependency
+          - title: tryGetDevDependency
+            url: /pages/api/rush-lib.packagejsoneditor.trygetdevdependency
+          - title: version
+            url: /pages/api/rush-lib.packagejsoneditor.version
+      - title: PackageManager
+        url: /pages/api/rush-lib.packagemanager
+        subitems:
+          - title: _shrinkwrapFilename
+            url: /pages/api/rush-lib.packagemanager._shrinkwrapfilename
+          - title: packageManager
+            url: /pages/api/rush-lib.packagemanager.packagemanager
+          - title: shrinkwrapFilename
+            url: /pages/api/rush-lib.packagemanager.shrinkwrapfilename
+          - title: version
+            url: /pages/api/rush-lib.packagemanager.version
+      - title: PackageManagerName
+        url: /pages/api/rush-lib.packagemanagername
+      - title: PnpmOptionsConfiguration
+        url: /pages/api/rush-lib.pnpmoptionsconfiguration
+        subitems:
+          - title: resolutionStrategy
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.resolutionstrategy
+          - title: strictPeerDependencies
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.strictpeerdependencies
+      - title: ResolutionStrategy
+        url: /pages/api/rush-lib.resolutionstrategy
+      - title: Rush
+        url: /pages/api/rush-lib.rush
+        subitems:
+          - title: launch
+            url: /pages/api/rush-lib.rush.launch
+          - title: launchRushX
+            url: /pages/api/rush-lib.rush.launchrushx
+          - title: version
+            url: /pages/api/rush-lib.rush.version
+      - title: RushConfiguration
+        url: /pages/api/rush-lib.rushconfiguration
+        subitems:
+          - title: approvedPackagesPolicy
+            url: /pages/api/rush-lib.rushconfiguration.approvedpackagespolicy
+          - title: changesFolder
+            url: /pages/api/rush-lib.rushconfiguration.changesfolder
+          - title: committedShrinkwrapFilename
+            url: /pages/api/rush-lib.rushconfiguration.committedshrinkwrapfilename
+          - title: commonFolder
+            url: /pages/api/rush-lib.rushconfiguration.commonfolder
+          - title: commonRushConfigFolder
+            url: /pages/api/rush-lib.rushconfiguration.commonrushconfigfolder
+          - title: commonScriptsFolder
+            url: /pages/api/rush-lib.rushconfiguration.commonscriptsfolder
+          - title: commonTempFolder
+            url: /pages/api/rush-lib.rushconfiguration.commontempfolder
+          - title: commonVersions
+            url: /pages/api/rush-lib.rushconfiguration.commonversions
+          - title: currentInstalledVariant
+            url: /pages/api/rush-lib.rushconfiguration.currentinstalledvariant
+          - title: currentVariantJsonFilename
+            url: /pages/api/rush-lib.rushconfiguration.currentvariantjsonfilename
+          - title: ensureConsistentVersions
+            url: /pages/api/rush-lib.rushconfiguration.ensureconsistentversions
+          - title: eventHooks
+            url: /pages/api/rush-lib.rushconfiguration.eventhooks
+          - title: findProjectByShorthandName
+            url: /pages/api/rush-lib.rushconfiguration.findprojectbyshorthandname
+          - title: findProjectByTempName
+            url: /pages/api/rush-lib.rushconfiguration.findprojectbytempname
+          - title: getCommittedShrinkwrapFilename
+            url: /pages/api/rush-lib.rushconfiguration.getcommittedshrinkwrapfilename
+          - title: getCommonVersions
+            url: /pages/api/rush-lib.rushconfiguration.getcommonversions
+          - title: getCommonVersionsFilePath
+            url: /pages/api/rush-lib.rushconfiguration.getcommonversionsfilepath
+          - title: getPnpmfilePath
+            url: /pages/api/rush-lib.rushconfiguration.getpnpmfilepath
+          - title: getProjectByName
+            url: /pages/api/rush-lib.rushconfiguration.getprojectbyname
+          - title: gitAllowedEmailRegExps
+            url: /pages/api/rush-lib.rushconfiguration.gitallowedemailregexps
+          - title: gitSampleEmail
+            url: /pages/api/rush-lib.rushconfiguration.gitsampleemail
+          - title: gitVersionBumpCommitMessage
+            url: /pages/api/rush-lib.rushconfiguration.gitversionbumpcommitmessage
+          - title: hotfixChangeEnabled
+            url: /pages/api/rush-lib.rushconfiguration.hotfixchangeenabled
+          - title: loadFromConfigurationFile
+            url: /pages/api/rush-lib.rushconfiguration.loadfromconfigurationfile
+          - title: loadFromDefaultLocation
+            url: /pages/api/rush-lib.rushconfiguration.loadfromdefaultlocation
+          - title: npmCacheFolder
+            url: /pages/api/rush-lib.rushconfiguration.npmcachefolder
+          - title: npmTmpFolder
+            url: /pages/api/rush-lib.rushconfiguration.npmtmpfolder
+          - title: packageManager
+            url: /pages/api/rush-lib.rushconfiguration.packagemanager
+          - title: packageManagerToolFilename
+            url: /pages/api/rush-lib.rushconfiguration.packagemanagertoolfilename
+          - title: packageManagerToolVersion
+            url: /pages/api/rush-lib.rushconfiguration.packagemanagertoolversion
+          - title: packageManagerWrapper
+            url: /pages/api/rush-lib.rushconfiguration.packagemanagerwrapper
+          - title: pnpmOptions
+            url: /pages/api/rush-lib.rushconfiguration.pnpmoptions
+          - title: pnpmStoreFolder
+            url: /pages/api/rush-lib.rushconfiguration.pnpmstorefolder
+          - title: projectFolderMaxDepth
+            url: /pages/api/rush-lib.rushconfiguration.projectfoldermaxdepth
+          - title: projectFolderMinDepth
+            url: /pages/api/rush-lib.rushconfiguration.projectfoldermindepth
+          - title: projects
+            url: /pages/api/rush-lib.rushconfiguration.projects
+          - title: projectsByName
+            url: /pages/api/rush-lib.rushconfiguration.projectsbyname
+          - title: repositoryUrl
+            url: /pages/api/rush-lib.rushconfiguration.repositoryurl
+          - title: rushJsonFile
+            url: /pages/api/rush-lib.rushconfiguration.rushjsonfile
+          - title: rushJsonFolder
+            url: /pages/api/rush-lib.rushconfiguration.rushjsonfolder
+          - title: rushLinkJsonFilename
+            url: /pages/api/rush-lib.rushconfiguration.rushlinkjsonfilename
+          - title: shrinkwrapFilename
+            url: /pages/api/rush-lib.rushconfiguration.shrinkwrapfilename
+          - title: shrinkwrapFilePhrase
+            url: /pages/api/rush-lib.rushconfiguration.shrinkwrapfilephrase
+          - title: suppressNodeLtsWarning
+            url: /pages/api/rush-lib.rushconfiguration.suppressnodeltswarning
+          - title: telemetryEnabled
+            url: /pages/api/rush-lib.rushconfiguration.telemetryenabled
+          - title: tempShrinkwrapFilename
+            url: /pages/api/rush-lib.rushconfiguration.tempshrinkwrapfilename
+          - title: tempShrinkwrapPreinstallFilename
+            url: /pages/api/rush-lib.rushconfiguration.tempshrinkwrappreinstallfilename
+          - title: tryFindRushJsonLocation
+            url: /pages/api/rush-lib.rushconfiguration.tryfindrushjsonlocation
+          - title: tryGetProjectForPath
+            url: /pages/api/rush-lib.rushconfiguration.trygetprojectforpath
+          - title: versionPolicyConfiguration
+            url: /pages/api/rush-lib.rushconfiguration.versionpolicyconfiguration
+          - title: yarnCacheFolder
+            url: /pages/api/rush-lib.rushconfiguration.yarncachefolder
+          - title: yarnOptions
+            url: /pages/api/rush-lib.rushconfiguration.yarnoptions
+      - title: RushConfigurationProject
+        url: /pages/api/rush-lib.rushconfigurationproject
+        subitems:
+          - title: cyclicDependencyProjects
+            url: /pages/api/rush-lib.rushconfigurationproject.cyclicdependencyprojects
+          - title: downstreamDependencyProjects
+            url: /pages/api/rush-lib.rushconfigurationproject.downstreamdependencyprojects
+          - title: isMainProject
+            url: /pages/api/rush-lib.rushconfigurationproject.ismainproject
+          - title: packageJson
+            url: /pages/api/rush-lib.rushconfigurationproject.packagejson
+          - title: packageJsonEditor
+            url: /pages/api/rush-lib.rushconfigurationproject.packagejsoneditor
+          - title: packageName
+            url: /pages/api/rush-lib.rushconfigurationproject.packagename
+          - title: projectFolder
+            url: /pages/api/rush-lib.rushconfigurationproject.projectfolder
+          - title: projectRelativeFolder
+            url: /pages/api/rush-lib.rushconfigurationproject.projectrelativefolder
+          - title: reviewCategory
+            url: /pages/api/rush-lib.rushconfigurationproject.reviewcategory
+          - title: shouldPublish
+            url: /pages/api/rush-lib.rushconfigurationproject.shouldpublish
+          - title: skipRushCheck
+            url: /pages/api/rush-lib.rushconfigurationproject.skiprushcheck
+          - title: tempProjectName
+            url: /pages/api/rush-lib.rushconfigurationproject.tempprojectname
+          - title: unscopedTempProjectName
+            url: /pages/api/rush-lib.rushconfigurationproject.unscopedtempprojectname
+          - title: versionPolicy
+            url: /pages/api/rush-lib.rushconfigurationproject.versionpolicy
+          - title: versionPolicyName
+            url: /pages/api/rush-lib.rushconfigurationproject.versionpolicyname
+      - title: VersionPolicy
+        url: /pages/api/rush-lib.versionpolicy
+        subitems:
+          - title: bump
+            url: /pages/api/rush-lib.versionpolicy.bump
+          - title: definitionName
+            url: /pages/api/rush-lib.versionpolicy.definitionname
+          - title: ensure
+            url: /pages/api/rush-lib.versionpolicy.ensure
+          - title: exemptFromRushChange
+            url: /pages/api/rush-lib.versionpolicy.exemptfromrushchange
+          - title: isLockstepped
+            url: /pages/api/rush-lib.versionpolicy.islockstepped
+          - title: policyName
+            url: /pages/api/rush-lib.versionpolicy.policyname
+          - title: setDependenciesBeforeCommit
+            url: /pages/api/rush-lib.versionpolicy.setdependenciesbeforecommit
+          - title: setDependenciesBeforePublish
+            url: /pages/api/rush-lib.versionpolicy.setdependenciesbeforepublish
+          - title: validate
+            url: /pages/api/rush-lib.versionpolicy.validate
+      - title: VersionPolicyConfiguration
+        url: /pages/api/rush-lib.versionpolicyconfiguration
+        subitems:
+          - title: bump
+            url: /pages/api/rush-lib.versionpolicyconfiguration.bump
+          - title: getVersionPolicy
+            url: /pages/api/rush-lib.versionpolicyconfiguration.getversionpolicy
+          - title: update
+            url: /pages/api/rush-lib.versionpolicyconfiguration.update
+          - title: validate
+            url: /pages/api/rush-lib.versionpolicyconfiguration.validate
+          - title: versionPolicies
+            url: /pages/api/rush-lib.versionpolicyconfiguration.versionpolicies
+      - title: VersionPolicyDefinitionName
+        url: /pages/api/rush-lib.versionpolicydefinitionname
+      - title: YarnOptionsConfiguration
+        url: /pages/api/rush-lib.yarnoptionsconfiguration
+        subitems:
+          - title: ignoreEngines
+            url: /pages/api/rush-lib.yarnoptionsconfiguration.ignoreengines
+  - title: '@microsoft/stream-collator'
+    url: /pages/api/stream-collator
+    subitems:
+      - title: Interleaver
+        url: /pages/api/stream-collator.interleaver
+        subitems:
+          - title: registerTask
+            url: /pages/api/stream-collator.interleaver.registertask
+          - title: reset
+            url: /pages/api/stream-collator.interleaver.reset
+          - title: setStdOut
+            url: /pages/api/stream-collator.interleaver.setstdout
+      - title: ITaskWriter
+        url: /pages/api/stream-collator.itaskwriter
+        subitems:
+          - title: close
+            url: /pages/api/stream-collator.itaskwriter.close
+          - title: getStdError
+            url: /pages/api/stream-collator.itaskwriter.getstderror
+          - title: getStdOutput
+            url: /pages/api/stream-collator.itaskwriter.getstdoutput
+          - title: write
+            url: /pages/api/stream-collator.itaskwriter.write
+          - title: writeError
+            url: /pages/api/stream-collator.itaskwriter.writeerror
+          - title: writeLine
+            url: /pages/api/stream-collator.itaskwriter.writeline
+  - title: '@microsoft/ts-command-line'
+    url: /pages/api/ts-command-line
+    subitems:
+      - title: CommandLineAction
+        url: /pages/api/ts-command-line.commandlineaction
+        subitems:
+          - title: (constructor)
+            url: /pages/api/ts-command-line.commandlineaction._constructor_
+          - title: actionName
+            url: /pages/api/ts-command-line.commandlineaction.actionname
+          - title: documentation
+            url: /pages/api/ts-command-line.commandlineaction.documentation
+          - title: onDefineParameters
+            url: /pages/api/ts-command-line.commandlineaction.ondefineparameters
+          - title: onExecute
+            url: /pages/api/ts-command-line.commandlineaction.onexecute
+          - title: summary
+            url: /pages/api/ts-command-line.commandlineaction.summary
+      - title: CommandLineChoiceParameter
+        url: /pages/api/ts-command-line.commandlinechoiceparameter
+        subitems:
+          - title: alternatives
+            url: /pages/api/ts-command-line.commandlinechoiceparameter.alternatives
+          - title: appendToArgList
+            url: /pages/api/ts-command-line.commandlinechoiceparameter.appendtoarglist
+          - title: defaultValue
+            url: /pages/api/ts-command-line.commandlinechoiceparameter.defaultvalue
+          - title: kind
+            url: /pages/api/ts-command-line.commandlinechoiceparameter.kind
+          - title: value
+            url: /pages/api/ts-command-line.commandlinechoiceparameter.value
+      - title: CommandLineFlagParameter
+        url: /pages/api/ts-command-line.commandlineflagparameter
+        subitems:
+          - title: appendToArgList
+            url: /pages/api/ts-command-line.commandlineflagparameter.appendtoarglist
+          - title: kind
+            url: /pages/api/ts-command-line.commandlineflagparameter.kind
+          - title: value
+            url: /pages/api/ts-command-line.commandlineflagparameter.value
+      - title: CommandLineIntegerParameter
+        url: /pages/api/ts-command-line.commandlineintegerparameter
+        subitems:
+          - title: appendToArgList
+            url: /pages/api/ts-command-line.commandlineintegerparameter.appendtoarglist
+          - title: defaultValue
+            url: /pages/api/ts-command-line.commandlineintegerparameter.defaultvalue
+          - title: kind
+            url: /pages/api/ts-command-line.commandlineintegerparameter.kind
+          - title: value
+            url: /pages/api/ts-command-line.commandlineintegerparameter.value
+      - title: CommandLineParameter
+        url: /pages/api/ts-command-line.commandlineparameter
+        subitems:
+          - title: appendToArgList
+            url: /pages/api/ts-command-line.commandlineparameter.appendtoarglist
+          - title: description
+            url: /pages/api/ts-command-line.commandlineparameter.description
+          - title: environmentVariable
+            url: /pages/api/ts-command-line.commandlineparameter.environmentvariable
+          - title: kind
+            url: /pages/api/ts-command-line.commandlineparameter.kind
+          - title: longName
+            url: /pages/api/ts-command-line.commandlineparameter.longname
+          - title: reportInvalidData
+            url: /pages/api/ts-command-line.commandlineparameter.reportinvaliddata
+          - title: required
+            url: /pages/api/ts-command-line.commandlineparameter.required
+          - title: shortName
+            url: /pages/api/ts-command-line.commandlineparameter.shortname
+          - title: validateDefaultValue
+            url: /pages/api/ts-command-line.commandlineparameter.validatedefaultvalue
+      - title: CommandLineParameterKind
+        url: /pages/api/ts-command-line.commandlineparameterkind
+      - title: CommandLineParameterProvider
+        url: /pages/api/ts-command-line.commandlineparameterprovider
+        subitems:
+          - title: defineChoiceParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.definechoiceparameter
+          - title: defineFlagParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.defineflagparameter
+          - title: defineIntegerParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.defineintegerparameter
+          - title: defineStringListParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.definestringlistparameter
+          - title: defineStringParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.definestringparameter
+          - title: getChoiceParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.getchoiceparameter
+          - title: getFlagParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.getflagparameter
+          - title: getIntegerParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.getintegerparameter
+          - title: getStringListParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.getstringlistparameter
+          - title: getStringParameter
+            url: /pages/api/ts-command-line.commandlineparameterprovider.getstringparameter
+          - title: onDefineParameters
+            url: /pages/api/ts-command-line.commandlineparameterprovider.ondefineparameters
+          - title: parameters
+            url: /pages/api/ts-command-line.commandlineparameterprovider.parameters
+          - title: renderHelpText
+            url: /pages/api/ts-command-line.commandlineparameterprovider.renderhelptext
+      - title: CommandLineParameterWithArgument
+        url: /pages/api/ts-command-line.commandlineparameterwithargument
+        subitems:
+          - title: argumentName
+            url: /pages/api/ts-command-line.commandlineparameterwithargument.argumentname
+      - title: CommandLineParser
+        url: /pages/api/ts-command-line.commandlineparser
+        subitems:
+          - title: (constructor)
+            url: /pages/api/ts-command-line.commandlineparser._constructor_
+          - title: actions
+            url: /pages/api/ts-command-line.commandlineparser.actions
+          - title: addAction
+            url: /pages/api/ts-command-line.commandlineparser.addaction
+          - title: execute
+            url: /pages/api/ts-command-line.commandlineparser.execute
+          - title: executeWithoutErrorHandling
+            url: /pages/api/ts-command-line.commandlineparser.executewithouterrorhandling
+          - title: getAction
+            url: /pages/api/ts-command-line.commandlineparser.getaction
+          - title: onExecute
+            url: /pages/api/ts-command-line.commandlineparser.onexecute
+          - title: selectedAction
+            url: /pages/api/ts-command-line.commandlineparser.selectedaction
+          - title: toolDescription
+            url: /pages/api/ts-command-line.commandlineparser.tooldescription
+          - title: toolFilename
+            url: /pages/api/ts-command-line.commandlineparser.toolfilename
+          - title: tryGetAction
+            url: /pages/api/ts-command-line.commandlineparser.trygetaction
+      - title: CommandLineStringListParameter
+        url: /pages/api/ts-command-line.commandlinestringlistparameter
+        subitems:
+          - title: appendToArgList
+            url: /pages/api/ts-command-line.commandlinestringlistparameter.appendtoarglist
+          - title: kind
+            url: /pages/api/ts-command-line.commandlinestringlistparameter.kind
+          - title: values
+            url: /pages/api/ts-command-line.commandlinestringlistparameter.values
+      - title: CommandLineStringParameter
+        url: /pages/api/ts-command-line.commandlinestringparameter
+        subitems:
+          - title: appendToArgList
+            url: /pages/api/ts-command-line.commandlinestringparameter.appendtoarglist
+          - title: defaultValue
+            url: /pages/api/ts-command-line.commandlinestringparameter.defaultvalue
+          - title: kind
+            url: /pages/api/ts-command-line.commandlinestringparameter.kind
+          - title: value
+            url: /pages/api/ts-command-line.commandlinestringparameter.value
+      - title: DynamicCommandLineAction
+        url: /pages/api/ts-command-line.dynamiccommandlineaction
+        subitems:
+          - title: onDefineParameters
+            url: /pages/api/ts-command-line.dynamiccommandlineaction.ondefineparameters
+          - title: onExecute
+            url: /pages/api/ts-command-line.dynamiccommandlineaction.onexecute
+      - title: DynamicCommandLineParser
+        url: /pages/api/ts-command-line.dynamiccommandlineparser
+        subitems:
+          - title: onDefineParameters
+            url: /pages/api/ts-command-line.dynamiccommandlineparser.ondefineparameters
+      - title: IBaseCommandLineDefinition
+        url: /pages/api/ts-command-line.ibasecommandlinedefinition
+        subitems:
+          - title: description
+            url: /pages/api/ts-command-line.ibasecommandlinedefinition.description
+          - title: environmentVariable
+            url: /pages/api/ts-command-line.ibasecommandlinedefinition.environmentvariable
+          - title: parameterLongName
+            url: /pages/api/ts-command-line.ibasecommandlinedefinition.parameterlongname
+          - title: parameterShortName
+            url: /pages/api/ts-command-line.ibasecommandlinedefinition.parametershortname
+          - title: required
+            url: /pages/api/ts-command-line.ibasecommandlinedefinition.required
+      - title: IBaseCommandLineDefinitionWithArgument
+        url: /pages/api/ts-command-line.ibasecommandlinedefinitionwithargument
+        subitems:
+          - title: argumentName
+            url: /pages/api/ts-command-line.ibasecommandlinedefinitionwithargument.argumentname
+      - title: ICommandLineActionOptions
+        url: /pages/api/ts-command-line.icommandlineactionoptions
+        subitems:
+          - title: actionName
+            url: /pages/api/ts-command-line.icommandlineactionoptions.actionname
+          - title: documentation
+            url: /pages/api/ts-command-line.icommandlineactionoptions.documentation
+          - title: summary
+            url: /pages/api/ts-command-line.icommandlineactionoptions.summary
+      - title: ICommandLineChoiceDefinition
+        url: /pages/api/ts-command-line.icommandlinechoicedefinition
+        subitems:
+          - title: alternatives
+            url: /pages/api/ts-command-line.icommandlinechoicedefinition.alternatives
+          - title: defaultValue
+            url: /pages/api/ts-command-line.icommandlinechoicedefinition.defaultvalue
+      - title: ICommandLineFlagDefinition
+        url: /pages/api/ts-command-line.icommandlineflagdefinition
+      - title: ICommandLineIntegerDefinition
+        url: /pages/api/ts-command-line.icommandlineintegerdefinition
+        subitems:
+          - title: defaultValue
+            url: /pages/api/ts-command-line.icommandlineintegerdefinition.defaultvalue
+      - title: ICommandLineParserOptions
+        url: /pages/api/ts-command-line.icommandlineparseroptions
+        subitems:
+          - title: toolDescription
+            url: /pages/api/ts-command-line.icommandlineparseroptions.tooldescription
+          - title: toolFilename
+            url: /pages/api/ts-command-line.icommandlineparseroptions.toolfilename
+      - title: ICommandLineStringDefinition
+        url: /pages/api/ts-command-line.icommandlinestringdefinition
+        subitems:
+          - title: defaultValue
+            url: /pages/api/ts-command-line.icommandlinestringdefinition.defaultvalue
+      - title: ICommandLineStringListDefinition
+        url: /pages/api/ts-command-line.icommandlinestringlistdefinition

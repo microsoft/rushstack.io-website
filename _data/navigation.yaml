@@ -1,5 +1,29 @@
-- text: News
-  url: https://github.com/Microsoft/web-build-tools/wiki
 
-- text: Gitter
-  url: https://gitter.im/web-build-tools/web-build-tools
+top_nav:
+  - title: Docs
+    url: /
+
+  - title: API
+    url: /pages/api/
+
+  - title: News
+    url: /pages/news
+
+  - title: GitHub
+    url: /pages/contributing
+
+  - title: Help
+    url: /pages/help/support
+
+docs_nav:
+  - title: Overview
+    subitems:
+      - title: What is Rush Stack?
+        url: /
+
+  - title: Help
+    subitems:
+      - title: Getting Support
+        url: /pages/help/support
+      - title: FAQ
+        url: /pages/help/faq
