@@ -9,54 +9,94 @@ interface IJsonNode {
 }
 
 interface INode {
-  liElement: HTMLElement;
+  parentNode: INode;
   childNodes: INode[];
+
+  liElement: HTMLElement;
 
   // defined if childNodes.length > 0
   ulElement: HTMLElement | undefined;
 
   // defined if the group is expanded
   expanded: boolean;
+
+  // true if this is the current page
+  currentPage: boolean;
 }
 
 const rootNodes: INode[] = [];
 
-function updateNavNode(node: INode): void {
-  if (node.ulElement) {
-    if (node.expanded) {
-      node.liElement.className = 'navtree-li navtree-li-expanded';
-      node.ulElement.className = 'navtree-ul-expanded';
-    } else {
-      node.liElement.className = 'navtree-li navtree-li-collapsed';
-      node.ulElement.className = 'navtree-ul-collapsed';
-    }
-  } else {
-    node.liElement.className = 'navtree-li';
-  }
+function getUrlForComparison(url: string): string {
+  // remove leading/trailing slashes, convert to uppercase
+  return url.replace(/^\/+/, '')
+    .replace(/\/+$/, '')
+    .toLocaleUpperCase();
 }
 
-function renderNavNodes(nodes: INode[], jsonNodes: IJsonNode[], parentUlElement: HTMLElement): void {
+function updateNavNode(node: INode): void {
+  let liClassName: string = 'navtree-li';
+
+  if (node.ulElement) {
+    if (node.expanded) {
+      liClassName += ' navtree-li-expanded';
+      node.ulElement.className = 'navtree-ul-expanded';
+    } else {
+      liClassName += ' navtree-li-collapsed';
+      node.ulElement.className = 'navtree-ul-collapsed';
+    }
+  }
+
+  if (node.currentPage) {
+    liClassName += ' navtree-li-current';
+  }
+
+  node.liElement.className = liClassName;
+}
+
+function renderNavNodes(nodes: INode[], jsonNodes: IJsonNode[], parentUlElement: HTMLElement,
+  parentNode: INode | undefined, currentPageUrl: string): void {
 
   for (const jsonNode of jsonNodes) {
     const expandable: boolean = jsonNode.subitems && jsonNode.subitems.length > 0;
 
     const liElement: HTMLElement = document.createElement('li');
 
+    let titleContainerElement: HTMLElement = liElement;
+    let currentPage: boolean = false;
+
     if (expandable) {
       liElement.innerHTML = '<svg class="navtree-expander"><use xlink:href="#icon-expander"></use></svg>';
     } else {
       liElement.innerHTML = '<svg class="navtree-expander"></svg>';
-    }
 
-    liElement.append(jsonNode.title);
+      if (jsonNode.url) {
+        const linkElement: HTMLAnchorElement = document.createElement('a');
+        linkElement.href = jsonNode.url;
+        liElement.appendChild(linkElement);
+        titleContainerElement = linkElement;
+
+        const jsonNodeUrl: string = getUrlForComparison(jsonNode.url);
+        if (jsonNodeUrl === currentPageUrl) {
+          currentPage = true;
+
+          // expand all the parent nodes
+          for (let current = parentNode; current !== undefined; current = current.parentNode) {
+            current.expanded = true;
+          }
+        }
+      }
+    }
+    titleContainerElement.append(jsonNode.title);
 
     parentUlElement.appendChild(liElement);
 
     const node: INode = {
-      liElement: liElement,
+      parentNode,
       childNodes: [],
+      liElement: liElement,
       ulElement: undefined,
-      expanded: false
+      expanded: false,
+      currentPage
     };
     nodes.push(node);
 
@@ -65,7 +105,17 @@ function renderNavNodes(nodes: INode[], jsonNodes: IJsonNode[], parentUlElement:
       node.ulElement = ulElement;
       parentUlElement.appendChild(ulElement);
 
-      renderNavNodes(node.childNodes, jsonNode.subitems, ulElement);
+      if (jsonNode.url) {
+        // Our design doesn't allow a container to have a hyperlink; create a virtual child node
+        const virtualNode: IJsonNode = {
+          title: '(members)',
+          url: jsonNode.url,
+          subitems: []
+        };
+        renderNavNodes(node.childNodes, [virtualNode], ulElement, node, currentPageUrl);
+      }
+
+      renderNavNodes(node.childNodes, jsonNode.subitems, ulElement, node, currentPageUrl);
     }
 
     updateNavNode(node);
@@ -92,7 +142,9 @@ function renderNavTree(): void {
 
       let navRootUl = document.getElementById('nav-root-ul');
 
-      renderNavNodes(rootNodes, jsonNodes, navRootUl);
+      const currentPageUrl: string = getUrlForComparison(document.location.pathname);
+
+      renderNavNodes(rootNodes, jsonNodes, navRootUl, undefined, currentPageUrl);
 
       console.log('End renderNavTree()');
     })
