@@ -1,7 +1,10 @@
 
 top_nav:
   - title: Docs
-    url: /pages/news
+    url: /
+
+  - title: API
+    url: /pages/api/
 
   - title: News
     url: /pages/news
@@ -11,10 +14,6 @@ top_nav:
 
   - title: Help
     url: /pages/help/support
-
-  - title: Get Started
-    url: /pages/news
-    primary: true
 
 docs_nav:
   - title: Overview

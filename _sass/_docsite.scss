@@ -88,6 +88,11 @@
   white-space: nowrap;
 }
 
+.navtree-li-current {
+  background-color: $light;
+  font-weight: bold;
+}
+
 .navtree-li-expanded {
   cursor: pointer;
 }

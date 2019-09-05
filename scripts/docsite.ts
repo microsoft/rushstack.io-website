@@ -1,7 +1,3 @@
-
-
-console.log('Starting docsite.js');
-
 interface IJsonNode {
   title: string;
   url?: string;
@@ -131,22 +127,21 @@ function renderNavNodes(nodes: INode[], jsonNodes: IJsonNode[], parentUlElement:
 }
 
 function renderNavTree(): void {
-  console.log('Starting renderNavTree()');
+  let navRootUl: HTMLElement = document.getElementById('nav-root-ul');
+  if (!navRootUl) {
+    // The "nav-root-ul" element doesn't exist, so use Jekyll navigation instead
+    return;
+  }
 
+  console.log('Loading navigation');
   fetch('/assets/nav_api.json')
     .then(function(response) {
       return response.json();
     })
     .then(function(jsonNodes: IJsonNode[]) {
-      console.log(JSON.stringify(jsonNodes));
-
-      let navRootUl = document.getElementById('nav-root-ul');
-
       const currentPageUrl: string = getUrlForComparison(document.location.pathname);
 
       renderNavNodes(rootNodes, jsonNodes, navRootUl, undefined, currentPageUrl);
-
-      console.log('End renderNavTree()');
     })
     .catch(function(e) {
       console.log('ERROR: Failed to fetch navigation: '+ e.toString());
@@ -154,4 +149,3 @@ function renderNavTree(): void {
 }
 
 window.addEventListener("load", renderNavTree);
-console.log('End docsite.js');

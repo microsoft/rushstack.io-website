@@ -1,30 +1,46 @@
 {% assign side_nav_items = site.data.navigation[page.navigation_source] %}
 
-{% if side_nav_items[0] %}
-  <div class="docsite-side-nav">
+<div class="docsite-side-nav">
 
-    {% for item in side_nav_items %}
-      <div>
-        {% if item.subitems[0] %}
-          <a href="{{ item.subitems[0].url | absolute_url }}">{{ item.title }}</a>
-          <ul>
-            {% for subitem in item.subitems %}
-              {% assign temp = subitem.url | append: '/' %}
-              {% if page.url == subitem.url or page.url == temp %}
-                <li id="docsite-side-nav-selection" class="docsite-side-nav-selection">
-                  <a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
-              {% else %}
-                <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
-              {% endif %}
+{% if page.navigation_source == "api_nav" %}
+  <!-- The expander ">" used by the navigation -->
+  <svg style="display:none" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <metadata><rdf:RDF><cc:Work><dc:creator><cc:Agent><dc:title>https://github.com/octogonz</dc:title></cc:Agent></dc:creator></cc:Work></rdf:RDF></metadata>
+    <defs>
+      <symbol id="icon-expander" viewBox="0 0 26.788 45.478">
+        <g transform="translate(-81.328 -58.708)">
+          <path d="m85.352 58.708c-1.2619 0.10745-1.8903 1.4009-2.7966 2.13-0.78098 0.65778-1.6614 1.68-1.0116 2.7381 1.7656 1.963 3.7291 3.7601 5.5722 5.6581 4.071 4.071 8.1419 8.142 12.213 12.213-5.8726 5.8803-11.761 11.745-17.624 17.635-0.78998 0.90374-0.21311 2.1404 0.6343 2.7564 0.86393 0.74557 1.5181 1.7958 2.5681 2.2796 1.3947 0.39725 2.1637-1.0778 3.0664-1.839 6.5865-6.5942 13.189-13.173 19.766-19.777 0.78998-0.90374 0.21311-2.1404-0.6343-2.7564-6.8932-6.8853-13.771-13.787-20.674-20.662-0.30076-0.24725-0.69016-0.38291-1.0794-0.37607z"/>
+        </g>
+      </symbol>
+    </defs>
+  </svg>
 
-            {% endfor %}
-          </ul>
-        {% else %}
-          {{ item.title }}
-        {% endif %}
-      </div>
-    {% endfor %}
+  <ul id="nav-root-ul"></ul>
 
+{% else %}
+
+  {% for item in side_nav_items %}
+  <div>
+    {% if item.subitems[0] %}
+      <a href="{{ item.subitems[0].url | absolute_url }}">{{ item.title }}</a>
+      <ul>
+        {% for subitem in item.subitems %}
+          {% assign temp = subitem.url | append: '/' %}
+          {% if page.url == subitem.url or page.url == temp %}
+            <li id="docsite-side-nav-selection" class="docsite-side-nav-selection">
+              <a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+          {% else %}
+            <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+          {% endif %}
+
+        {% endfor %}
+      </ul>
+    {% else %}
+      {{ item.title }}
+    {% endif %}
   </div>
+  {% endfor %}
 
 {% endif %}
+
+</div>
