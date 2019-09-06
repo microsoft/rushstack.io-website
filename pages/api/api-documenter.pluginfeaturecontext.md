@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## PluginFeatureContext class
 
-Context object for [PluginFeature](./api-documenter.pluginfeature.md)<!-- -->.
+Context object for [PluginFeature](./api-documenter.pluginfeature.md)<!-- -->. Exposes various services that can be used by a plugin.
 
 <b>Signature:</b>
 

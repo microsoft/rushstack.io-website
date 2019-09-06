@@ -9,6 +9,8 @@ improve_this_button: false
 
 ## MarkdownDocumenterFeature.context property
 
+Exposes various services that can be used by a plugin.
+
 <b>Signature:</b>
 
 ```typescript

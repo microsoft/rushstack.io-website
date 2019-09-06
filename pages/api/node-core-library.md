@@ -23,7 +23,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [InternalError](./node-core-library.internalerror.md) | An <code>Error</code> subclass that should be thrown to report an unexpected state that may indicate a software defect. An application may handle this error by instructing the end user to report an issue to the application maintainers. |
 |  [JsonFile](./node-core-library.jsonfile.md) | Utilities for reading/writing JSON files. |
 |  [JsonSchema](./node-core-library.jsonschema.md) | Represents a JSON schema that can be used to validate JSON data files loaded by the JsonFile class. |
-|  [LegacyAdapters](./node-core-library.legacyadapters.md) | <b><i>(BETA)</i></b> Helper functions used when interacting with APIs that do not follow modern coding practices. |
+|  [LegacyAdapters](./node-core-library.legacyadapters.md) | Helper functions used when interacting with APIs that do not follow modern coding practices. |
 |  [LockFile](./node-core-library.lockfile.md) | A helper utility for working with file-based locks. This class should only be used for locking resources across processes, but should not be used for attempting to lock a resource in the same process. |
 |  [MapExtensions](./node-core-library.mapextensions.md) | Helper functions for working with the <code>Map&lt;K, V&gt;</code> data type. |
 |  [PackageJsonLookup](./node-core-library.packagejsonlookup.md) | This class provides methods for finding the nearest "package.json" for a folder and retrieving the name of the package. The results are cached. |
@@ -86,7 +86,7 @@ Core libraries that every NodeJS toolchain project should use.
 
 |  Type Alias | Description |
 |  --- | --- |
-|  [callback](./node-core-library.callback.md) | <b><i>(BETA)</i></b> Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md)<!-- -->. |
 |  [ExecutableStdioMapping](./node-core-library.executablestdiomapping.md) | Typings for IExecutableSpawnSyncOptions.stdio. |
 |  [ExecutableStdioStreamMapping](./node-core-library.executablestdiostreammapping.md) | Typings for one of the streams inside IExecutableSpawnSyncOptions.stdio. |
+|  [LegacyCallback](./node-core-library.legacycallback.md) | Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md)<!-- -->. |
 

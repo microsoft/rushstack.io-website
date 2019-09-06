@@ -23,5 +23,5 @@ export interface IMarkdownDocumenterFeatureOnBeforeWritePageArgs
 |  --- | --- | --- |
 |  [apiItem](./api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs.apiitem.md) | <code>ApiItem</code> | The API item corresponding to this page. |
 |  [outputFilename](./api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs.outputfilename.md) | <code>string</code> | The filename where the output will be written. |
-|  [pageContent](./api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs.pagecontent.md) | <code>string</code> | The page content. The onBeforeWritePage() handler can reassign this string to customize the page appearance. |
+|  [pageContent](./api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs.pagecontent.md) | <code>string</code> | The page content. The [MarkdownDocumenterFeature.onBeforeWritePage()](./api-documenter.markdowndocumenterfeature.onbeforewritepage.md) handler can reassign this string to customize the page appearance. |
 

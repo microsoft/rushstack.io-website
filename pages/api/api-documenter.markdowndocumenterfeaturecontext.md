@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## MarkdownDocumenterFeatureContext class
 
-Context object for [MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md)<!-- -->.
+Context object for [MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md)<!-- -->. Exposes various services that can be used by a plugin.
 
 <b>Signature:</b>
 

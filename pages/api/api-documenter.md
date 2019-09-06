@@ -15,9 +15,9 @@ improve_this_button: false
 |  --- | --- |
 |  [MarkdownDocumenterAccessor](./api-documenter.markdowndocumenteraccessor.md) | Provides access to the documenter that is generating the output. |
 |  [MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md) | Inherit from this base class to implement an API Documenter plugin feature that customizes the generation of markdown output. |
-|  [MarkdownDocumenterFeatureContext](./api-documenter.markdowndocumenterfeaturecontext.md) | Context object for [MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md)<!-- -->. |
+|  [MarkdownDocumenterFeatureContext](./api-documenter.markdowndocumenterfeaturecontext.md) | Context object for [MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md)<!-- -->. Exposes various services that can be used by a plugin. |
 |  [PluginFeature](./api-documenter.pluginfeature.md) | The abstract base class for all API Documenter plugin features. |
-|  [PluginFeatureContext](./api-documenter.pluginfeaturecontext.md) | Context object for [PluginFeature](./api-documenter.pluginfeature.md)<!-- -->. |
+|  [PluginFeatureContext](./api-documenter.pluginfeaturecontext.md) | Context object for [PluginFeature](./api-documenter.pluginfeature.md)<!-- -->. Exposes various services that can be used by a plugin. |
 |  [PluginFeatureInitialization](./api-documenter.pluginfeatureinitialization.md) | This is an internal part of the plugin infrastructure. |
 
 ## Interfaces

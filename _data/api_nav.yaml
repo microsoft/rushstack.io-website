@@ -1049,8 +1049,6 @@ api_nav:
   - title: '@microsoft/node-core-library'
     url: /pages/api/node-core-library
     subitems:
-      - title: callback
-        url: /pages/api/node-core-library.callback
       - title: Colors
         url: /pages/api/node-core-library.colors
         subitems:
@@ -1464,8 +1462,14 @@ api_nav:
             url: /pages/api/node-core-library.legacyadapters.convertcallbacktopromise_1
           - title: convertCallbackToPromise
             url: /pages/api/node-core-library.legacyadapters.convertcallbacktopromise_2
+          - title: convertCallbackToPromise
+            url: /pages/api/node-core-library.legacyadapters.convertcallbacktopromise_3
+          - title: convertCallbackToPromise
+            url: /pages/api/node-core-library.legacyadapters.convertcallbacktopromise_4
           - title: scrubError
             url: /pages/api/node-core-library.legacyadapters.scruberror
+      - title: LegacyCallback
+        url: /pages/api/node-core-library.legacycallback
       - title: LockFile
         url: /pages/api/node-core-library.lockfile
         subitems:

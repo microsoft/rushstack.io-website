@@ -21,7 +21,7 @@ export declare abstract class PluginFeature
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [context](./api-documenter.pluginfeature.context.md) |  | <code>PluginFeatureContext</code> |  |
+|  [context](./api-documenter.pluginfeature.context.md) |  | <code>PluginFeatureContext</code> | Exposes various services that can be used by a plugin. |
 
 ## Methods
 

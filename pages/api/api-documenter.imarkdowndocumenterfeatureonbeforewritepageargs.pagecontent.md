@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IMarkdownDocumenterFeatureOnBeforeWritePageArgs.pageContent property
 
-The page content. The onBeforeWritePage() handler can reassign this string to customize the page appearance.
+The page content. The [MarkdownDocumenterFeature.onBeforeWritePage()](./api-documenter.markdowndocumenterfeature.onbeforewritepage.md) handler can reassign this string to customize the page appearance.
 
 <b>Signature:</b>
 

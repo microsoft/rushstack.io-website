@@ -9,20 +9,17 @@ improve_this_button: false
 
 ## LegacyAdapters.convertCallbackToPromise() method
 
-> This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
-
 <b>Signature:</b>
 
 ```typescript
-static convertCallbackToPromise<TResult, TError, TArg1>(fn: (arg1: TArg1, cb: callback<TResult, TError>) => void, arg1: TArg1): Promise<TResult>;
+static convertCallbackToPromise<TResult, TError, TArg1>(fn: (arg1: TArg1, cb: LegacyCallback<TResult, TError>) => void, arg1: TArg1): Promise<TResult>;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  fn | <code>(arg1: TArg1, cb: callback&lt;TResult, TError&gt;) =&gt; void</code> |  |
+|  fn | <code>(arg1: TArg1, cb: LegacyCallback&lt;TResult, TError&gt;) =&gt; void</code> |  |
 |  arg1 | <code>TArg1</code> |  |
 
 <b>Returns:</b>
