@@ -160,6 +160,12 @@ body {
   margin: 0;
 }
 
+code {
+  // Bootstrap sets "word-break: break-word", which breaks up identifiers too aggressively
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
 table {
   font-size: 93%;
   margin-top: 2rem;
@@ -168,8 +174,6 @@ table {
   border-style: solid;
   border-width: 1px;
   border-color: $gray-400;
-
-  overflow-wrap: break-word;
 }
 
 th {
