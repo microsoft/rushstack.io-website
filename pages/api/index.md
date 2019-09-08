@@ -13,12 +13,12 @@ improve_this_button: false
 
 |  Package | Description |
 |  --- | --- |
-|  [@microsoft/api-documenter](./api-documenter.md) |  |
-|  [@microsoft/api-extractor](./api-extractor.md) | API Extractor helps you build better TypeScript library packages. It helps with validation, documentation, and reviewing of the exported API for a TypeScript library. |
-|  [@microsoft/api-extractor-model](./api-extractor-model.md) | API Extractor helps you build better TypeScript library packages. It helps with validation, documentation, and reviewing of the exported API for a TypeScript library. |
+|  [@microsoft/api-documenter](./api-documenter.md) | API Documenter generates an API reference website from the .api.json files created by API Extractor. The <code>@microsoft/api-documenter</code> package provides the command-line tool. It also exposes a developer API that you can use to create plugins that customize how API Documenter generates documentation. |
+|  [@microsoft/api-extractor](./api-extractor.md) | API Extractor helps with validation, documentation, and reviewing of the exported API for a TypeScript library. The <code>@microsoft/api-extractor</code> package provides the command-line tool. It also exposes a developer API that you can use to invoke API Extractor programmatically. |
+|  [@microsoft/api-extractor-model](./api-extractor-model.md) | Use this library to read and write \*.api.json files as defined by the [API Extractor](https://api-extractor.com/) tool. These files are used to generate a documentation website for your TypeScript package. The files store the API signatures and doc comments that were extracted from your package. |
 |  [@microsoft/node-core-library](./node-core-library.md) | Core libraries that every NodeJS toolchain project should use. |
-|  [@microsoft/package-deps-hash](./package-deps-hash.md) |  |
-|  [@microsoft/rush-lib](./rush-lib.md) | A library for writing scripts that interact with the Rush tool. |
-|  [@microsoft/stream-collator](./stream-collator.md) |  |
+|  [@microsoft/package-deps-hash](./package-deps-hash.md) | This package builds a JSON object containing the git hashes of all files used to produce a given NPM package. The [Rush](https://rushjs.io/) tool uses this library to implement incremental build detection. |
+|  [@microsoft/rush-lib](./rush-lib.md) | A library for writing scripts that interact with the [Rush](https://rushjs.io/) tool. |
+|  [@microsoft/stream-collator](./stream-collator.md) | This library enables a tool to display live console output from multiple asynchronous processes, while ensuring that their output does not get jumbled together. |
 |  [@microsoft/ts-command-line](./ts-command-line.md) | An object-oriented command-line parser for TypeScript projects. |
 

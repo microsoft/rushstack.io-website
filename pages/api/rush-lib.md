@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## rush-lib package
 
-A library for writing scripts that interact with the Rush tool.
+A library for writing scripts that interact with the [Rush](https://rushjs.io/) tool.
 
 ## Classes
 

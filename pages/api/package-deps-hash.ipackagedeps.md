@@ -9,6 +9,7 @@ improve_this_button: false
 
 ## IPackageDeps interface
 
+The data structure returned by [getPackageDeps()](./package-deps-hash.getpackagedeps.md)<!-- -->.
 
 <b>Signature:</b>
 
@@ -20,5 +21,6 @@ export interface IPackageDeps
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [files](./package-deps-hash.ipackagedeps.files.md) | <code>{</code><br/><code>        [key: string]: string;</code><br/><code>    }</code> |  |
+|  [arguments](./package-deps-hash.ipackagedeps.arguments.md) | <code>string</code> | An optional field used to story command-line arguments for the build. |
+|  [files](./package-deps-hash.ipackagedeps.files.md) | <code>{</code><br/><code>        [key: string]: string;</code><br/><code>    }</code> | The <code>key</code> is a source file path, relative to the package folder. The value is the Git hash. |
 

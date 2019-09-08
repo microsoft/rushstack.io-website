@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## api-extractor-model package
 
-API Extractor helps you build better TypeScript library packages. It helps with validation, documentation, and reviewing of the exported API for a TypeScript library.
+Use this library to read and write \*.api.json files as defined by the [API Extractor](https://api-extractor.com/) tool. These files are used to generate a documentation website for your TypeScript package. The files store the API signatures and doc comments that were extracted from your package.
 
 ## Classes
 

@@ -1661,6 +1661,8 @@ api_nav:
       - title: IPackageDeps
         url: /pages/api/package-deps-hash.ipackagedeps
         subitems:
+          - title: arguments
+            url: /pages/api/package-deps-hash.ipackagedeps.arguments
           - title: files
             url: /pages/api/package-deps-hash.ipackagedeps.files
   - title: '@microsoft/rush-lib'

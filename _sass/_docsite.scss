@@ -168,6 +168,8 @@ table {
   border-style: solid;
   border-width: 1px;
   border-color: $gray-400;
+
+  overflow-wrap: break-word;
 }
 
 th {

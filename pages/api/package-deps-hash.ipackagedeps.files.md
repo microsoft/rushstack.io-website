@@ -9,6 +9,8 @@ improve_this_button: false
 
 ## IPackageDeps.files property
 
+The `key` is a source file path, relative to the package folder. The value is the Git hash.
+
 <b>Signature:</b>
 
 ```typescript

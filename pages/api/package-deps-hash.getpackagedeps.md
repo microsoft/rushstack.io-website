@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## getPackageDeps() function
 
-Collects the current git filehashes for a directory
+Builds an object containing hashes for the files under the specified `packagePath` folder.
 
 <b>Signature:</b>
 
@@ -21,10 +21,12 @@ export declare function getPackageDeps(packagePath?: string, excludedPaths?: str
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packagePath | <code>string</code> |  |
-|  excludedPaths | <code>string[]</code> |  |
+|  packagePath | <code>string</code> | The folder path to derive the package dependencies from. This is typically the folder containing package.json. If omitted, the default value is the current working directory. |
+|  excludedPaths | <code>string[]</code> | An optional array of file path exclusions. If a file should be omitted from the list of dependencies, use this to exclude it. |
 
 <b>Returns:</b>
 
 `IPackageDeps`
+
+the package-deps.json file content
 
