@@ -8,8 +8,7 @@
 - **Specific strategy** that integrates popular tools like NodeJS, TypeScript, ESLint, Prettier, Webpack, Jest, etc.
 - **Family of projects** that fill in the gaps for this strategy
 
-Rush Stack is coordinated by Microsoft, but developed with an open community.  Everything is free and open source.
-
+All components are open source under an MIT license.
 
 ## What's in the stack?
 
