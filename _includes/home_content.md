@@ -31,7 +31,7 @@ These tools are built on a common framework of reusable library packages:
   used by Rush
 - [stream-collator](https://www.npmjs.com/package/@microsoft/stream-collator): the magic behind how Rush can
   display real-time log output from concurrent tasks, without ugly interleaving of the output
-- [a family of webpack plugins](https://github.com/microsoft/web-build-tools/tree/master/webpack) used in our
+- [a family of webpack plugins](https://github.com/microsoft/rushstack/tree/master/webpack) used in our
   applications
 
 

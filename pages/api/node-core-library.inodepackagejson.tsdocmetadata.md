@@ -10,9 +10,9 @@ improve_this_button: false
 ## INodePackageJson.tsdocMetadata property
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-The path to the TSDoc metadata file. This is still being standardized: https://github.com/Microsoft/tsdoc/issues/7\#issuecomment-442271815
+The path to the TSDoc metadata file. This is still being standardized: https://github.com/microsoft/tsdoc/issues/7\#issuecomment-442271815
 
 <b>Signature:</b>
 

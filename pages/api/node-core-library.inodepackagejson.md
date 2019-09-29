@@ -14,7 +14,7 @@ An interface for accessing common fields from a package.json file whose version 
 <b>Signature:</b>
 
 ```typescript
-export interface INodePackageJson 
+export interface INodePackageJson
 ```
 
 ## Properties
@@ -34,7 +34,7 @@ export interface INodePackageJson
 |  [private](./node-core-library.inodepackagejson.private.md) | <code>boolean</code> | Indicates whether this package is allowed to be published or not. |
 |  [repository](./node-core-library.inodepackagejson.repository.md) | <code>string</code> | The URL of the project's repository. |
 |  [scripts](./node-core-library.inodepackagejson.scripts.md) | <code>IPackageJsonScriptTable</code> | A table of script hooks that a package manager or build tool may invoke. |
-|  [tsdocMetadata](./node-core-library.inodepackagejson.tsdocmetadata.md) | <code>string</code> | <b><i>(BETA)</i></b> The path to the TSDoc metadata file. This is still being standardized: https://github.com/Microsoft/tsdoc/issues/7\#issuecomment-442271815 |
+|  [tsdocMetadata](./node-core-library.inodepackagejson.tsdocmetadata.md) | <code>string</code> | <b><i>(BETA)</i></b> The path to the TSDoc metadata file. This is still being standardized: https://github.com/microsoft/tsdoc/issues/7\#issuecomment-442271815 |
 |  [types](./node-core-library.inodepackagejson.types.md) | <code>string</code> | The path to the TypeScript \*.d.ts file describing the module file that will act as the main entry point. |
 |  [typings](./node-core-library.inodepackagejson.typings.md) | <code>string</code> | Alias for <code>types</code> |
 |  [version](./node-core-library.inodepackagejson.version.md) | <code>string</code> | A version number conforming to the Semantic Versioning (SemVer) standard. |
