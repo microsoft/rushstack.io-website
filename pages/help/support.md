@@ -4,9 +4,9 @@ title: Getting Support
 navigation_source: docs_nav
 ---
 
-Rush is actively developed by a team within MS Office.  Although Microsoft does not provide official support for Rush, there are various community options for help:
+The Rush Stack projects are actively developed by a team within MS Office.  Although Microsoft does not provide
+official support, there are various community options for help:
 
 - **Found a bug?** You can [open a GitHub issue](https://github.com/microsoft/rushstack/issues)
-  in the **rushstack** monorepo where Rush is developed
 
-- **Gitter**: Chat with Rush developers in the [web-build-tools Gitter community](https://gitter.im/web-build-tools/web-build-tools)
+- **Gitter**: Chat with the Rush Stack developers in the [web-build-tools Gitter community](https://gitter.im/web-build-tools/web-build-tools)
