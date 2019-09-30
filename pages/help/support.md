@@ -9,4 +9,4 @@ official support, there are various community options for help:
 
 - **Found a bug?** You can [open a GitHub issue](https://github.com/microsoft/rushstack/issues)
 
-- **Gitter**: Chat with the Rush Stack developers in the [web-build-tools Gitter community](https://gitter.im/web-build-tools/web-build-tools)
+- **Gitter**: Chat with the Rush Stack developers in the [Gitter chat room](https://gitter.im/web-build-tools/web-build-tools)

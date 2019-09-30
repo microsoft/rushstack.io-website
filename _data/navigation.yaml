@@ -10,7 +10,7 @@ top_nav:
     url: /pages/news
 
   - title: GitHub
-    url: /pages/contributing
+    url: /pages/contributing/get_started
 
   - title: Help
     url: /pages/help/support
@@ -20,10 +20,15 @@ docs_nav:
     subitems:
       - title: What is Rush Stack?
         url: /
+      - title: Project roadmap
+        url: /pages/overview/roadmap
+
+  - title: Contributing
+    subitems:
+      - title: Getting Started
+        url: /pages/contributing/get_started
 
   - title: Help
     subitems:
       - title: Getting Support
         url: /pages/help/support
-      - title: FAQ
-        url: /pages/help/faq

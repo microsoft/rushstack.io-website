@@ -8,7 +8,7 @@
 - **Specific strategy** that integrates popular tools like NodeJS, TypeScript, ESLint, Prettier, Webpack, Jest, etc.
 - **Family of projects** that fill in the gaps for this strategy
 
-All components are open source under an MIT license.
+Although various pieces of this work have been underway for years, we're now bringing them together under a common charter as **Rush Stack**.  The new website was just launched in summer of 2019.  It still has a ways to go!  Track our progress on the [News]({% link pages/news.md %}) page.
 
 ## What's in the stack?
 
@@ -54,10 +54,8 @@ Choose your compiler.  Choose your linter.  Choose your bundler, your package ma
 test runner, test assertion library, and so on.  Once you've placed your bets, integrating all these pieces
 turns out to be a software project of its own.  As you scale up, these costs can add up fast!
 
-**Rush Stack** aims to provide a reusable solution for this broader set of problems.  You can still use Rush by itself,
-of course.  But if you're tired of going it alone, we invite you to:
+In summer of 2019, we launched **Rush Stack** with the aim to provide a reusable solution for this broader set of problems.  You can still use Rush by itself, of course.  But if you're tired of going it alone, we invite you to:
 
 - Trade your flexibility for an opinionated approach backed by tooling experts who run huge monorepos
 - Join forces with an open community that's investing in this approach
 - Help us to "go deep" with integrations, optimizations, documentation, and polish to achieve a world class developer experience
-

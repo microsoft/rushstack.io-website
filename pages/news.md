@@ -3,7 +3,9 @@ layout: page
 title: What's New
 ---
 
-To see what's happening with individual projects, check out their published CHANGELOG.md file.
+For general planning updates, please see the [Project roadmap]({% link pages/overview/roadmap.md %}).
+
+To find out about recent updates for individual projects, check out their published CHANGELOG.md file.
 Here's the most common ones:
 
 Changelogs:
@@ -13,7 +15,7 @@ Changelogs:
 - [Rush](https://github.com/microsoft/rushstack/blob/master/apps/rush/CHANGELOG.md)
 - [TSDoc](https://github.com/microsoft/tsdoc/blob/master/tsdoc/CHANGELOG.md)
 
-The [rushstack/README.md](https://github.com/microsoft/rushstack#published-packages) has a complete inventory
-for all projects.
+The [rushstack/README.md](https://github.com/microsoft/rushstack#published-packages) has the full inventory
+of changelogs for all projects.
 
 <a class="twitter-timeline" data-width="500" data-dnt="true" data-link-color="#c95228" href="https://twitter.com/rushstack?ref_src=twsrc%5Etfw">Tweets by @rushstack</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
