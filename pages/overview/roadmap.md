@@ -32,6 +32,6 @@ The Rush Stack maintainers currently see these feature areas as the main priorit
   packages ([issue #1553](https://github.com/microsoft/rushstack/issues/1553))
 - Improve API Extractor to support `import * as ___ from "___";` namespaces ([issue #1029](https://github.com/microsoft/rushstack/issues/1029))
 
-If there's an area that's important to you, let us know in the
-[Gitter chat room](https://gitter.im/web-build-tools/web-build-tools).
+If there's a specific area that's important to you, let us know in the
+[Gitter chat room](https://gitter.im/rushstack/rushstack).
 And of course, even if a feature isn't listed on the road map, pull requests are always welcome!

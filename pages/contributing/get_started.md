@@ -62,4 +62,5 @@ We welcome contributions!  To submit a feature for one of the **rushstack** proj
 5. Create a [pull request](https://help.github.com/articles/creating-a-pull-request/)
 6. If your PR primarily affects a single project, add the project name as a prefix to your PR title.  For example: "**[api-extractor] Added a new API feature**" or "**[node-core-libary] Fixed a bug in the library**".
 
-Someone should review your PR within a day or so.  If nobody is responding, please contact the Rush Stack developers via the [Gitter chat room](https://gitter.im/web-build-tools/web-build-tools).
+Someone should review your PR within a day or so.  If nobody is responding, you can contact the Rush Stack developers
+in the [Gitter chat room](https://gitter.im/rushstack/rushstack).
