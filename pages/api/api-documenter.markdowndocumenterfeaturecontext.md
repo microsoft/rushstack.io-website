@@ -17,6 +17,10 @@ Context object for [MarkdownDocumenterFeature](./api-documenter.markdowndocument
 export declare class MarkdownDocumenterFeatureContext 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `MarkdownDocumenterFeatureContext` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -24,8 +28,4 @@ export declare class MarkdownDocumenterFeatureContext
 |  [apiModel](./api-documenter.markdowndocumenterfeaturecontext.apimodel.md) |  | <code>ApiModel</code> | Provides access to the <code>ApiModel</code> for the documentation being generated. |
 |  [documenter](./api-documenter.markdowndocumenterfeaturecontext.documenter.md) |  | <code>MarkdownDocumenterAccessor</code> | Exposes functionality of the documenter. |
 |  [outputFolder](./api-documenter.markdowndocumenterfeaturecontext.outputfolder.md) |  | <code>string</code> | The full path to the output folder. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `MarkdownDocumenterFeatureContext` class.
 

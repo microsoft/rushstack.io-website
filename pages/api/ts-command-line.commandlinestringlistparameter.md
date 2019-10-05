@@ -17,6 +17,10 @@ The data type returned by [CommandLineParameterProvider.defineStringListParamete
 export declare class CommandLineStringListParameter extends CommandLineParameterWithArgument 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `CommandLineStringListParameter` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -29,8 +33,4 @@ export declare class CommandLineStringListParameter extends CommandLineParameter
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [appendToArgList(argList)](./ts-command-line.commandlinestringlistparameter.appendtoarglist.md) |  | Append the parsed values to the provided string array. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `CommandLineStringListParameter` class.
 

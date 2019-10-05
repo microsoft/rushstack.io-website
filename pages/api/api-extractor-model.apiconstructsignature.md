@@ -17,26 +17,6 @@ Represents a TypeScript construct signature that belongs to an `ApiInterface`<!-
 export declare class ApiConstructSignature extends ApiConstructSignature_base 
 ```
 
-## Constructors
-
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [(constructor)(options)](./api-extractor-model.apiconstructsignature._constructor_.md) |  | Constructs a new instance of the <code>ApiConstructSignature</code> class |
-
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apiconstructsignature.containerkey.md) |  | <code>string</code> |  |
-|  [kind](./api-extractor-model.apiconstructsignature.kind.md) |  | <code>ApiItemKind</code> |  |
-
-## Methods
-
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [buildCanonicalReference()](./api-extractor-model.apiconstructsignature.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
-|  [getContainerKey(overloadIndex)](./api-extractor-model.apiconstructsignature.getcontainerkey.md) | <code>static</code> |  |
-
 ## Remarks
 
 This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
@@ -72,4 +52,24 @@ let vector: Vector = createVector(Vector, 1, 2);
 
 ```
 Compare with [ApiConstructor](./api-extractor-model.apiconstructor.md)<!-- -->, which describes the class constructor itself.
+
+## Constructors
+
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [(constructor)(options)](./api-extractor-model.apiconstructsignature._constructor_.md) |  | Constructs a new instance of the <code>ApiConstructSignature</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [containerKey](./api-extractor-model.apiconstructsignature.containerkey.md) |  | <code>string</code> |  |
+|  [kind](./api-extractor-model.apiconstructsignature.kind.md) |  | <code>ApiItemKind</code> |  |
+
+## Methods
+
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [buildCanonicalReference()](./api-extractor-model.apiconstructsignature.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
+|  [getContainerKey(overloadIndex)](./api-extractor-model.apiconstructsignature.getcontainerkey.md) | <code>static</code> |  |
 

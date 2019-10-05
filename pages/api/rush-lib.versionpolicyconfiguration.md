@@ -20,6 +20,10 @@ Use this class to load and save the "common/config/rush/version-policies.json" c
 export declare class VersionPolicyConfiguration 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `VersionPolicyConfiguration` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -34,8 +38,4 @@ export declare class VersionPolicyConfiguration
 |  [getVersionPolicy(policyName)](./rush-lib.versionpolicyconfiguration.getversionpolicy.md) |  | <b><i>(BETA)</i></b> Gets the version policy by its name. Throws error if the version policy is not found. |
 |  [update(versionPolicyName, newVersion)](./rush-lib.versionpolicyconfiguration.update.md) |  | <b><i>(BETA)</i></b> Updates the version directly for the specified version policy |
 |  [validate(projectsByName)](./rush-lib.versionpolicyconfiguration.validate.md) |  | <b><i>(BETA)</i></b> Validate the version policy configuration against the rush config |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `VersionPolicyConfiguration` class.
 

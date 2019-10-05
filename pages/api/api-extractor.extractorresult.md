@@ -17,6 +17,10 @@ This object represents the outcome of an invocation of API Extractor.
 export declare class ExtractorResult 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `ExtractorResult` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -27,8 +31,4 @@ export declare class ExtractorResult
 |  [extractorConfig](./api-extractor.extractorresult.extractorconfig.md) |  | <code>ExtractorConfig</code> | The API Extractor configuration that was used. |
 |  [succeeded](./api-extractor.extractorresult.succeeded.md) |  | <code>boolean</code> | Whether the invocation of API Extractor was successful. For example, if <code>succeeded</code> is false, then the build task would normally return a nonzero process exit code, indicating that the operation failed. |
 |  [warningCount](./api-extractor.extractorresult.warningcount.md) |  | <code>number</code> | Reports the number of warnings encountered during analysis. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `ExtractorResult` class.
 

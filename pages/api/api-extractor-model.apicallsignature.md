@@ -17,26 +17,6 @@ Represents a TypeScript function call signature.
 export declare class ApiCallSignature extends ApiCallSignature_base 
 ```
 
-## Constructors
-
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [(constructor)(options)](./api-extractor-model.apicallsignature._constructor_.md) |  | Constructs a new instance of the <code>ApiCallSignature</code> class |
-
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apicallsignature.containerkey.md) |  | <code>string</code> |  |
-|  [kind](./api-extractor-model.apicallsignature.kind.md) |  | <code>ApiItemKind</code> |  |
-
-## Methods
-
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [buildCanonicalReference()](./api-extractor-model.apicallsignature.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
-|  [getContainerKey(overloadIndex)](./api-extractor-model.apicallsignature.getcontainerkey.md) | <code>static</code> |  |
-
 ## Remarks
 
 This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
@@ -59,4 +39,24 @@ function chooseFirst<T>(x: T, y: T): T {
 let chooser: IChooser = chooseFirst;
 
 ```
+
+## Constructors
+
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [(constructor)(options)](./api-extractor-model.apicallsignature._constructor_.md) |  | Constructs a new instance of the <code>ApiCallSignature</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [containerKey](./api-extractor-model.apicallsignature.containerkey.md) |  | <code>string</code> |  |
+|  [kind](./api-extractor-model.apicallsignature.kind.md) |  | <code>ApiItemKind</code> |  |
+
+## Methods
+
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [buildCanonicalReference()](./api-extractor-model.apicallsignature.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
+|  [getContainerKey(overloadIndex)](./api-extractor-model.apicallsignature.getcontainerkey.md) | <code>static</code> |  |
 

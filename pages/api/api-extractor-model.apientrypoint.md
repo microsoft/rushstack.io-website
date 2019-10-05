@@ -17,6 +17,25 @@ Represents the entry point for an NPM package.
 export declare class ApiEntryPoint extends ApiEntryPoint_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiEntryPoint` represents the entry point to an NPM package. API Extractor does not currently support analysis of multiple entry points, but the `ApiEntryPoint` object is included to support a future feature. In the current implementation, `ApiEntryPoint.importPath` is always the empty string.
+
+For example, suppose the package.json file looks like this:
+
+```json
+{
+  "name": "example-library",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts"
+}
+
+```
+In this example, the `ApiEntryPoint` would represent the TypeScript module for `./lib/index.js`<!-- -->.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -36,23 +55,4 @@ export declare class ApiEntryPoint extends ApiEntryPoint_base
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [buildCanonicalReference()](./api-extractor-model.apientrypoint.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiEntryPoint` represents the entry point to an NPM package. API Extractor does not currently support analysis of multiple entry points, but the `ApiEntryPoint` object is included to support a future feature. In the current implementation, `ApiEntryPoint.importPath` is always the empty string.
-
-For example, suppose the package.json file looks like this:
-
-```json
-{
-  "name": "example-library",
-  "version": "1.0.0",
-  "main": "./lib/index.js",
-  "typings": "./lib/index.d.ts"
-}
-
-```
-In this example, the `ApiEntryPoint` would represent the TypeScript module for `./lib/index.js`<!-- -->.
 

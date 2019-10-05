@@ -17,6 +17,12 @@ This class is used by [ApiDeclaredItem](./api-extractor-model.apideclareditem.md
 export declare class Excerpt 
 ```
 
+## Remarks
+
+The main excerpt is parsed into an array of tokens, and the main excerpt's token range will span all of these tokens. The declaration may also have have "captured" excerpts, which are other subranges of tokens. For example, if the main excerpt is a function declaration, it will also have a captured excerpt corresponding to the return type of the function.
+
+An excerpt may be empty (i.e. a token range containing zero tokens). For example, if a function's return value is not explicitly declared, then the returnTypeExcerpt will be empty. By contrast, a class constructor cannot have a return value, so ApiConstructor has no returnTypeExcerpt property at all.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -31,10 +37,4 @@ export declare class Excerpt
 |  [text](./api-extractor-model.excerpt.text.md) |  | <code>string</code> |  |
 |  [tokenRange](./api-extractor-model.excerpt.tokenrange.md) |  | <code>Readonly&lt;IExcerptTokenRange&gt;</code> |  |
 |  [tokens](./api-extractor-model.excerpt.tokens.md) |  | <code>ReadonlyArray&lt;ExcerptToken&gt;</code> |  |
-
-## Remarks
-
-The main excerpt is parsed into an array of tokens, and the main excerpt's token range will span all of these tokens. The declaration may also have have "captured" excerpts, which are other subranges of tokens. For example, if the main excerpt is a function declaration, it will also have a captured excerpt corresponding to the return type of the function.
-
-An excerpt may be empty (i.e. a token range containing zero tokens). For example, if a function's return value is not explicitly declared, then the returnTypeExcerpt will be empty. By contrast, a class constructor cannot have a return value, so ApiConstructor has no returnTypeExcerpt property at all.
 

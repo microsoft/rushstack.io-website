@@ -17,6 +17,10 @@ Represents a JSON schema that can be used to validate JSON data files loaded by 
 export declare class JsonSchema 
 ```
 
+## Remarks
+
+The schema itself is normally loaded and compiled later, only if it is actually required to validate an input. To avoid schema errors at runtime, it's recommended to create a unit test that calls JsonSchema.ensureCompiled() for each of your schema objects.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -32,8 +36,4 @@ export declare class JsonSchema
 |  [fromLoadedObject(schemaObject)](./node-core-library.jsonschema.fromloadedobject.md) | <code>static</code> | Registers a JsonSchema that will be loaded from a file on disk. |
 |  [validateObject(jsonObject, filenameForErrors, options)](./node-core-library.jsonschema.validateobject.md) |  | Validates the specified JSON object against this JSON schema. If the validation fails, an exception will be thrown. |
 |  [validateObjectWithCallback(jsonObject, errorCallback)](./node-core-library.jsonschema.validateobjectwithcallback.md) |  | Validates the specified JSON object against this JSON schema. If the validation fails, a callback is called for each validation error. |
-
-## Remarks
-
-The schema itself is normally loaded and compiled later, only if it is actually required to validate an input. To avoid schema errors at runtime, it's recommended to create a unit test that calls JsonSchema.ensureCompiled() for each of your schema objects.
 

@@ -17,6 +17,10 @@ The abstract base class for all API Documenter plugin features.
 export declare abstract class PluginFeature 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `PluginFeature` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -28,8 +32,4 @@ export declare abstract class PluginFeature
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [onInitialized()](./api-documenter.pluginfeature.oninitialized.md) |  | This event function is called after the feature is initialized, but before any processing occurs. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `PluginFeature` class.
 

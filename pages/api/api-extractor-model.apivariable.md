@@ -17,6 +17,21 @@ Represents a TypeScript variable declaration.
 export declare class ApiVariable extends ApiVariable_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiVariable` represents an exported `const` or `let` object such as these examples:
+
+```ts
+// A variable declaration
+export let verboseLogging: boolean;
+
+// A constant variable declaration with an initializer
+export const canvas: IWidget = createCanvas();
+
+```
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -39,19 +54,4 @@ export declare class ApiVariable extends ApiVariable_base
 |  [getContainerKey(name)](./api-extractor-model.apivariable.getcontainerkey.md) | <code>static</code> |  |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apivariable.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apivariable.serializeinto.md) |  |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiVariable` represents an exported `const` or `let` object such as these examples:
-
-```ts
-// A variable declaration
-export let verboseLogging: boolean;
-
-// A constant variable declaration with an initializer
-export const canvas: IWidget = createCanvas();
-
-```
 

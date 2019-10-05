@@ -20,12 +20,13 @@ export declare class ExcerptToken
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(kind, text)](./api-extractor-model.excerpttoken._constructor_.md) |  | Constructs a new instance of the <code>ExcerptToken</code> class |
+|  [(constructor)(kind, text, canonicalReference)](./api-extractor-model.excerpttoken._constructor_.md) |  | Constructs a new instance of the <code>ExcerptToken</code> class |
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
+|  [canonicalReference](./api-extractor-model.excerpttoken.canonicalreference.md) |  | <code>DeclarationReference &#124; undefined</code> |  |
 |  [kind](./api-extractor-model.excerpttoken.kind.md) |  | <code>ExcerptTokenKind</code> |  |
 |  [text](./api-extractor-model.excerpttoken.text.md) |  | <code>string</code> |  |
 

@@ -14,7 +14,7 @@ Constructs a new instance of the `ExcerptToken` class
 <b>Signature:</b>
 
 ```typescript
-constructor(kind: ExcerptTokenKind, text: string);
+constructor(kind: ExcerptTokenKind, text: string, canonicalReference?: DeclarationReference);
 ```
 
 ## Parameters
@@ -23,4 +23,5 @@ constructor(kind: ExcerptTokenKind, text: string);
 |  --- | --- | --- |
 |  kind | <code>ExcerptTokenKind</code> |  |
 |  text | <code>string</code> |  |
+|  canonicalReference | <code>DeclarationReference</code> |  |
 

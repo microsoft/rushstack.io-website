@@ -20,6 +20,10 @@ This is the base class for version policy which controls how versions get bumped
 export declare abstract class VersionPolicy 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `VersionPolicy` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -38,8 +42,4 @@ export declare abstract class VersionPolicy
 |  [setDependenciesBeforeCommit(packageName, configuration)](./rush-lib.versionpolicy.setdependenciesbeforecommit.md) |  | <b><i>(BETA)</i></b> Tells the version policy to modify any dependencies in the target package to values used for checked-in source. |
 |  [setDependenciesBeforePublish(packageName, configuration)](./rush-lib.versionpolicy.setdependenciesbeforepublish.md) |  | <b><i>(BETA)</i></b> Tells the version policy to modify any dependencies in the target package to values used for publishing. |
 |  [validate(versionString, packageName)](./rush-lib.versionpolicy.validate.md) |  | <b><i>(BETA)</i></b> Validates the specified version and throws if the version does not satisfy the policy. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `VersionPolicy` class.
 

@@ -17,6 +17,21 @@ Represents a TypeScript enum declaration.
 export declare class ApiEnum extends ApiEnum_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiEnum` represents an enum declaration such as `FontSizes` in the example below:
+
+```ts
+export enum FontSizes {
+  Small = 100,
+  Medium = 200,
+  Large = 300
+}
+
+```
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -38,19 +53,4 @@ export declare class ApiEnum extends ApiEnum_base
 |  [addMember(member)](./api-extractor-model.apienum.addmember.md) |  |  |
 |  [buildCanonicalReference()](./api-extractor-model.apienum.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
 |  [getContainerKey(name)](./api-extractor-model.apienum.getcontainerkey.md) | <code>static</code> |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiEnum` represents an enum declaration such as `FontSizes` in the example below:
-
-```ts
-export enum FontSizes {
-  Small = 100,
-  Medium = 200,
-  Large = 300
-}
-
-```
 

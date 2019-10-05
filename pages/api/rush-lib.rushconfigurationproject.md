@@ -17,6 +17,10 @@ This represents the configuration of a project that is built by Rush, based on t
 export declare class RushConfigurationProject 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `RushConfigurationProject` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -29,6 +33,7 @@ export declare class RushConfigurationProject
 |  [packageName](./rush-lib.rushconfigurationproject.packagename.md) |  | <code>string</code> | The name of the NPM package. An error is reported if this name is not identical to packageJson.name.<!-- -->Example: <code>@scope/MyProject</code> |
 |  [projectFolder](./rush-lib.rushconfigurationproject.projectfolder.md) |  | <code>string</code> | The full path of the folder that contains the project to be built by Rush.<!-- -->Example: <code>C:\MyRepo\libraries\my-project</code> |
 |  [projectRelativeFolder](./rush-lib.rushconfigurationproject.projectrelativefolder.md) |  | <code>string</code> | The relative path of the folder that contains the project to be built by Rush.<!-- -->Example: <code>libraries\my-project</code> |
+|  [projectRushTempFolder](./rush-lib.rushconfigurationproject.projectrushtempfolder.md) |  | <code>string</code> | The project-specific Rush temp folder. This folder is used to store Rush-specific temporary files.<!-- -->Example: <code>C:\MyRepo\libraries\my-project\.rush\temp</code> |
 |  [reviewCategory](./rush-lib.rushconfigurationproject.reviewcategory.md) |  | <code>string</code> | The review category name, or undefined if no category was assigned. This name must be one of the valid choices listed in RushConfiguration.reviewCategories. |
 |  [shouldPublish](./rush-lib.rushconfigurationproject.shouldpublish.md) |  | <code>boolean</code> | A flag which indicates whether changes to this project should be published. This controls whether or not the project would show up when running <code>rush change</code>, and whether or not it should be published during <code>rush publish</code>. |
 |  [skipRushCheck](./rush-lib.rushconfigurationproject.skiprushcheck.md) |  | <code>boolean</code> | If true, then this project will be ignored by the "rush check" command. The default value is false. |
@@ -36,8 +41,4 @@ export declare class RushConfigurationProject
 |  [unscopedTempProjectName](./rush-lib.rushconfigurationproject.unscopedtempprojectname.md) |  | <code>string</code> | The unscoped temporary project name<!-- -->Example: <code>my-project-2</code> |
 |  [versionPolicy](./rush-lib.rushconfigurationproject.versionpolicy.md) |  | <code>VersionPolicy &#124; undefined</code> | <b><i>(BETA)</i></b> Version policy of the project |
 |  [versionPolicyName](./rush-lib.rushconfigurationproject.versionpolicyname.md) |  | <code>string &#124; undefined</code> | <b><i>(BETA)</i></b> Name of the version policy used by this project. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `RushConfigurationProject` class.
 

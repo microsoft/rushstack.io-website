@@ -20,6 +20,10 @@ The static functions on this class are used to produce colored text for use with
 export declare class Colors 
 ```
 
+## Example
+
+terminal.writeLine(Colors.green('Green Text!'), ' ', Colors.blue('Blue Text!'));
+
 ## Methods
 
 |  Method | Modifiers | Description |
@@ -48,8 +52,4 @@ export declare class Colors
 |  [whiteBackground(text)](./node-core-library.colors.whitebackground.md) | <code>static</code> | <b><i>(BETA)</i></b> |
 |  [yellow(text)](./node-core-library.colors.yellow.md) | <code>static</code> | <b><i>(BETA)</i></b> |
 |  [yellowBackground(text)](./node-core-library.colors.yellowbackground.md) | <code>static</code> | <b><i>(BETA)</i></b> |
-
-## Example
-
-terminal.writeLine(Colors.green('Green Text!'), ' ', Colors.blue('Blue Text!'));
 

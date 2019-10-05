@@ -17,6 +17,10 @@ The base class for the various command-line parameter types.
 export declare abstract class CommandLineParameter 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `CommandLineParameter` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -35,8 +39,4 @@ export declare abstract class CommandLineParameter
 |  [appendToArgList(argList)](./ts-command-line.commandlineparameter.appendtoarglist.md) |  | Append the parsed values to the provided string array. |
 |  [reportInvalidData(data)](./ts-command-line.commandlineparameter.reportinvaliddata.md) |  | Internal usage only. Used to report unexpected output from the argparse library. |
 |  [validateDefaultValue(hasDefaultValue)](./ts-command-line.commandlineparameter.validatedefaultvalue.md) |  |  |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `CommandLineParameter` class.
 

@@ -17,6 +17,20 @@ Represents a TypeScript function declaration.
 export declare class ApiFunction extends ApiFunction_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiFunction` represents a TypeScript declaration such as this example:
+
+```ts
+export function getAverage(x: number, y: number): number {
+  return (x + y) / 2.0;
+}
+
+```
+Functions are exported by an entry point module or by a namespace. Compare with [ApiMethod](./api-extractor-model.apimethod.md)<!-- -->, which represents a function that is a member of a class.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -36,18 +50,4 @@ export declare class ApiFunction extends ApiFunction_base
 |  --- | --- | --- |
 |  [buildCanonicalReference()](./api-extractor-model.apifunction.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
 |  [getContainerKey(name, overloadIndex)](./api-extractor-model.apifunction.getcontainerkey.md) | <code>static</code> |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiFunction` represents a TypeScript declaration such as this example:
-
-```ts
-export function getAverage(x: number, y: number): number {
-  return (x + y) / 2.0;
-}
-
-```
-Functions are exported by an entry point module or by a namespace. Compare with [ApiMethod](./api-extractor-model.apimethod.md)<!-- -->, which represents a function that is a member of a class.
 

@@ -17,6 +17,18 @@ Represents a TypeScript class declaration.
 export declare class ApiInterface extends ApiInterface_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiInterface` represents a TypeScript declaration such as this:
+
+```ts
+export interface X extends Y {
+}
+
+```
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -39,16 +51,4 @@ export declare class ApiInterface extends ApiInterface_base
 |  [getContainerKey(name)](./api-extractor-model.apiinterface.getcontainerkey.md) | <code>static</code> |  |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apiinterface.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apiinterface.serializeinto.md) |  |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiInterface` represents a TypeScript declaration such as this:
-
-```ts
-export interface X extends Y {
-}
-
-```
 

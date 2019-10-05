@@ -17,6 +17,10 @@ This is a helper object for RushConfiguration. It exposes the "approvedPackagesP
 export declare class ApprovedPackagesPolicy 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `ApprovedPackagesPolicy` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -26,8 +30,4 @@ export declare class ApprovedPackagesPolicy
 |  [ignoredNpmScopes](./rush-lib.approvedpackagespolicy.ignorednpmscopes.md) |  | <code>Set&lt;string&gt;</code> | A list of NPM package scopes that will be excluded from review (e.g. <code>@types</code>) |
 |  [nonbrowserApprovedPackages](./rush-lib.approvedpackagespolicy.nonbrowserapprovedpackages.md) |  | <code>ApprovedPackagesConfiguration</code> | Packages approved for usage everywhere \*except\* in a web browser. |
 |  [reviewCategories](./rush-lib.approvedpackagespolicy.reviewcategories.md) |  | <code>Set&lt;string&gt;</code> | A list of category names that are valid for usage as the RushConfigurationProject.reviewCategory field. This array will never be undefined. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `ApprovedPackagesPolicy` class.
 

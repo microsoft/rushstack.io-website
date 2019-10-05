@@ -523,6 +523,8 @@ api_nav:
             url: /pages/api/api-extractor-model.apiitem.getassociatedpackage
           - title: getHierarchy
             url: /pages/api/api-extractor-model.apiitem.gethierarchy
+          - title: getMergedSiblings
+            url: /pages/api/api-extractor-model.apiitem.getmergedsiblings
           - title: getScopedNameWithinPackage
             url: /pages/api/api-extractor-model.apiitem.getscopednamewithinpackage
           - title: getSortKey
@@ -823,6 +825,8 @@ api_nav:
         subitems:
           - title: (constructor)
             url: /pages/api/api-extractor-model.excerpttoken._constructor_
+          - title: canonicalReference
+            url: /pages/api/api-extractor-model.excerpttoken.canonicalreference
           - title: kind
             url: /pages/api/api-extractor-model.excerpttoken.kind
           - title: text
@@ -973,6 +977,8 @@ api_nav:
       - title: IExcerptToken
         url: /pages/api/api-extractor-model.iexcerpttoken
         subitems:
+          - title: canonicalReference
+            url: /pages/api/api-extractor-model.iexcerpttoken.canonicalreference
           - title: kind
             url: /pages/api/api-extractor-model.iexcerpttoken.kind
           - title: text
@@ -1979,6 +1985,8 @@ api_nav:
             url: /pages/api/rush-lib.rushconfigurationproject.projectfolder
           - title: projectRelativeFolder
             url: /pages/api/rush-lib.rushconfigurationproject.projectrelativefolder
+          - title: projectRushTempFolder
+            url: /pages/api/rush-lib.rushconfigurationproject.projectrushtempfolder
           - title: reviewCategory
             url: /pages/api/rush-lib.rushconfigurationproject.reviewcategory
           - title: shouldPublish

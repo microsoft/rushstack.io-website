@@ -11,6 +11,10 @@ improve_this_button: false
 
 This package builds a JSON object containing the git hashes of all files used to produce a given NPM package. The [Rush](https://rushjs.io/) tool uses this library to implement incremental build detection.
 
+## Remarks
+
+For more info, please see the package [README](https://www.npmjs.com/package/@microsoft/package-deps-hash)<!-- -->.
+
 ## Functions
 
 |  Function | Description |
@@ -22,8 +26,4 @@ This package builds a JSON object containing the git hashes of all files used to
 |  Interface | Description |
 |  --- | --- |
 |  [IPackageDeps](./package-deps-hash.ipackagedeps.md) | The data structure returned by [getPackageDeps()](./package-deps-hash.getpackagedeps.md)<!-- -->. |
-
-## Remarks
-
-For more info, please see the package [README](https://www.npmjs.com/package/@microsoft/package-deps-hash)<!-- -->.
 

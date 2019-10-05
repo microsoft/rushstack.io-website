@@ -17,6 +17,23 @@ Represents a TypeScript namespace declaration.
 export declare class ApiNamespace extends ApiNamespace_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiNamespace` represents a TypeScript declaration such `X` or `Y` in this example:
+
+```ts
+export namespace X {
+  export namespace Y {
+    export interface IWidget {
+      render(): void;
+    }
+  }
+}
+
+```
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -36,21 +53,4 @@ export declare class ApiNamespace extends ApiNamespace_base
 |  --- | --- | --- |
 |  [buildCanonicalReference()](./api-extractor-model.apinamespace.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
 |  [getContainerKey(name)](./api-extractor-model.apinamespace.getcontainerkey.md) | <code>static</code> |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiNamespace` represents a TypeScript declaration such `X` or `Y` in this example:
-
-```ts
-export namespace X {
-  export namespace Y {
-    export interface IWidget {
-      render(): void;
-    }
-  }
-}
-
-```
 

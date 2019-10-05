@@ -17,6 +17,10 @@ The data type returned by [CommandLineParameterProvider.defineChoiceParameter()]
 export declare class CommandLineChoiceParameter extends CommandLineParameter 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `CommandLineChoiceParameter` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -31,8 +35,4 @@ export declare class CommandLineChoiceParameter extends CommandLineParameter
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [appendToArgList(argList)](./ts-command-line.commandlinechoiceparameter.appendtoarglist.md) |  | Append the parsed values to the provided string array. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `CommandLineChoiceParameter` class.
 

@@ -17,14 +17,14 @@ Configures how the tsdoc-metadata.json file will be generated.
 export interface IConfigTsdocMetadata 
 ```
 
+## Remarks
+
+This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
+
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [enabled](./api-extractor.iconfigtsdocmetadata.enabled.md) | <code>boolean</code> | Whether to generate the tsdoc-metadata.json file. |
 |  [tsdocMetadataFilePath](./api-extractor.iconfigtsdocmetadata.tsdocmetadatafilepath.md) | <code>string</code> | Specifies where the TSDoc metadata file should be written. |
-
-## Remarks
-
-This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
 

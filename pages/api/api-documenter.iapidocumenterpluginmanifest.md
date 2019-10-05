@@ -17,13 +17,6 @@ The manifest for an API Documenter plugin.
 export interface IApiDocumenterPluginManifest 
 ```
 
-## Properties
-
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [features](./api-documenter.iapidocumenterpluginmanifest.features.md) | <code>IFeatureDefinition[]</code> | The list of features provided by this plugin. |
-|  [manifestVersion](./api-documenter.iapidocumenterpluginmanifest.manifestversion.md) | <code>1000</code> | The manifest version number. For now, this must always be <code>1000</code>. |
-
 ## Remarks
 
 An API documenter plugin is an NPM package. By convention, the NPM package name should have the prefix `doc-plugin-`<!-- -->. Its main entry point should export an object named `apiDocumenterPluginManifest` which implements the `IApiDocumenterPluginManifest` interface.
@@ -49,4 +42,11 @@ export const apiDocumenterPluginManifest: IApiDocumenterPluginManifest = {
 };
 
 ```
+
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [features](./api-documenter.iapidocumenterpluginmanifest.features.md) | <code>IFeatureDefinition[]</code> | The list of features provided by this plugin. |
+|  [manifestVersion](./api-documenter.iapidocumenterpluginmanifest.manifestversion.md) | <code>1000</code> | The manifest version number. For now, this must always be <code>1000</code>. |
 

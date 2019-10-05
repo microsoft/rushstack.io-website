@@ -20,6 +20,10 @@ This policy indicates all related projects should use the same version.
 export declare class LockStepVersionPolicy extends VersionPolicy 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `LockStepVersionPolicy` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -36,8 +40,4 @@ export declare class LockStepVersionPolicy extends VersionPolicy
 |  [ensure(project, force)](./rush-lib.lockstepversionpolicy.ensure.md) |  | <b><i>(BETA)</i></b> Returns an updated package json that satisfies the version policy. |
 |  [update(newVersionString)](./rush-lib.lockstepversionpolicy.update.md) |  | <b><i>(BETA)</i></b> Updates the version of the policy directly with a new value |
 |  [validate(versionString, packageName)](./rush-lib.lockstepversionpolicy.validate.md) |  | <b><i>(BETA)</i></b> Validates the specified version and throws if the version does not satisfy lockstep version. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `LockStepVersionPolicy` class.
 

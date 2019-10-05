@@ -30,7 +30,7 @@ static launch(launcherVersion: string, arg: ILaunchOptions): void;
 
 ## Remarks
 
-Earlier versions of the rush frontend used a different API contract. In the old contract, the second argument was the `isManaged` value of the  object.
+Earlier versions of the rush frontend used a different API contract. In the old contract, the second argument was the `isManaged` value of the [ILaunchOptions](./rush-lib.ilaunchoptions.md) object.
 
 Even though this API isn't documented, it is still supported for legacy compatibility.
 

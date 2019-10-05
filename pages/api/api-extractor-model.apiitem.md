@@ -17,6 +17,10 @@ The abstract base class for all members of an `ApiModel` object.
 export declare class ApiItem 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -42,12 +46,9 @@ export declare class ApiItem
 |  [deserialize(jsonObject, context)](./api-extractor-model.apiitem.deserialize.md) | <code>static</code> |  |
 |  [getAssociatedPackage()](./api-extractor-model.apiitem.getassociatedpackage.md) |  | If this item is an ApiPackage or has an ApiPackage as one of its parents, then that object is returned. Otherwise undefined is returned. |
 |  [getHierarchy()](./api-extractor-model.apiitem.gethierarchy.md) |  | Returns the chain of ancestors, starting from the root of the tree, and ending with the this item. |
+|  [getMergedSiblings()](./api-extractor-model.apiitem.getmergedsiblings.md) |  | If this item has a name (i.e. extends <code>ApiNameMixin</code>), then return all items that have the same parent and the same name. Otherwise, return all items that have the same parent and the same <code>ApiItemKind</code>. |
 |  [getScopedNameWithinPackage()](./api-extractor-model.apiitem.getscopednamewithinpackage.md) |  | This returns a scoped name such as <code>&quot;Namespace1.Namespace2.MyClass.myMember()&quot;</code>. It does not include the package name or entry point. |
 |  [getSortKey()](./api-extractor-model.apiitem.getsortkey.md) |  |  |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apiitem.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apiitem.serializeinto.md) |  |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
 

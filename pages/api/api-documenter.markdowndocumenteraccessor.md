@@ -17,13 +17,13 @@ Provides access to the documenter that is generating the output.
 export declare class MarkdownDocumenterAccessor 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `MarkdownDocumenterAccessor` class.
+
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [getLinkForApiItem(apiItem)](./api-documenter.markdowndocumenteraccessor.getlinkforapiitem.md) |  | For a given <code>ApiItem</code>, return its markdown hyperlink. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `MarkdownDocumenterAccessor` class.
 

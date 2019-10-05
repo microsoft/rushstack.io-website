@@ -17,18 +17,6 @@ Represents a type referenced via an "extends" or "implements" heritage clause fo
 export declare class HeritageType 
 ```
 
-## Constructors
-
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [(constructor)(excerpt)](./api-extractor-model.heritagetype._constructor_.md) |  | Constructs a new instance of the <code>HeritageType</code> class |
-
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [excerpt](./api-extractor-model.heritagetype.excerpt.md) |  | <code>Excerpt</code> | An excerpt corresponding to the referenced type. |
-
 ## Remarks
 
 For example, consider this declaration:
@@ -40,4 +28,16 @@ export class Widget extends Controls.WidgetBase implements Controls.IWidget, IDi
 
 ```
 The heritage types are `Controls.WidgetBase`<!-- -->, `Controls.IWidget`<!-- -->, and `IDisposable`<!-- -->.
+
+## Constructors
+
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [(constructor)(excerpt)](./api-extractor-model.heritagetype._constructor_.md) |  | Constructs a new instance of the <code>HeritageType</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [excerpt](./api-extractor-model.heritagetype.excerpt.md) |  | <code>Excerpt</code> | An excerpt corresponding to the referenced type. |
 

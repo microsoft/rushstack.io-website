@@ -17,16 +17,16 @@ Options that are only used when the PNPM package manager is selected.
 export declare class PnpmOptionsConfiguration 
 ```
 
+## Remarks
+
+It is valid to define these options in rush.json even if the PNPM package manager is not being used.
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `PnpmOptionsConfiguration` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [resolutionStrategy](./rush-lib.pnpmoptionsconfiguration.resolutionstrategy.md) |  | <code>ResolutionStrategy</code> | The resolution strategy that will be used by PNPM. |
 |  [strictPeerDependencies](./rush-lib.pnpmoptionsconfiguration.strictpeerdependencies.md) |  | <code>boolean</code> | If true, then Rush will add the "--strict-peer-dependencies" option when invoking PNPM. |
-
-## Remarks
-
-It is valid to define these options in rush.json even if the PNPM package manager is not being used.
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `PnpmOptionsConfiguration` class.
 

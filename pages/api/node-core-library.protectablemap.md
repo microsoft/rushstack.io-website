@@ -17,6 +17,12 @@ The ProtectableMap provides an easy way for an API to expose a `Map<K, V>` prope
 export declare class ProtectableMap<K, V> 
 ```
 
+## Remarks
+
+The ProtectableMap itself is intended to be a private object that only its owner can access directly. Any operations performed directly on the ProtectableMap will bypass the hooks and any validation they perform. The public property that is exposed to API consumers should return [ProtectableMap.protectedView](./node-core-library.protectablemap.protectedview.md) instead.
+
+For example, suppose you want to share your `Map<string, number>` data structure, but you want to enforce that the key must always be an upper case string: You could use the onSet() hook to validate the keys and throw an exception if the key is not uppercase.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -40,10 +46,4 @@ export declare class ProtectableMap<K, V>
 |  [get(key)](./node-core-library.protectablemap.get.md) |  | Retrieves the value for the specified key. |
 |  [has(key)](./node-core-library.protectablemap.has.md) |  | Returns true if the specified key belongs to the map. |
 |  [set(key, value)](./node-core-library.protectablemap.set.md) |  | Sets a value for the specified key. This operation does NOT invoke the ProtectableMap onSet() hook. |
-
-## Remarks
-
-The ProtectableMap itself is intended to be a private object that only its owner can access directly. Any operations performed directly on the ProtectableMap will bypass the hooks and any validation they perform. The public property that is exposed to API consumers should return [ProtectableMap.protectedView](./node-core-library.protectablemap.protectedview.md) instead.
-
-For example, suppose you want to share your `Map<string, number>` data structure, but you want to enforce that the key must always be an upper case string: You could use the onSet() hook to validate the keys and throw an exception if the key is not uppercase.
 

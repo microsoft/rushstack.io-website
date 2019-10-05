@@ -17,6 +17,23 @@ Represents a TypeScript index signature.
 export declare class ApiIndexSignature extends ApiIndexSignature_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiIndexSignature` represents a TypeScript declaration such as `[x: number]: number` in this example:
+
+```ts
+export interface INumberTable {
+  // An index signature
+  [value: number]: number;
+
+  // An overloaded index signature
+  [name: string]: number;
+}
+
+```
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -36,21 +53,4 @@ export declare class ApiIndexSignature extends ApiIndexSignature_base
 |  --- | --- | --- |
 |  [buildCanonicalReference()](./api-extractor-model.apiindexsignature.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
 |  [getContainerKey(overloadIndex)](./api-extractor-model.apiindexsignature.getcontainerkey.md) | <code>static</code> |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiIndexSignature` represents a TypeScript declaration such as `[x: number]: number` in this example:
-
-```ts
-export interface INumberTable {
-  // An index signature
-  [value: number]: number;
-
-  // An overloaded index signature
-  [name: string]: number;
-}
-
-```
 

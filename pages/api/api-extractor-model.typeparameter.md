@@ -17,21 +17,6 @@ Represents a named type parameter for a generic declaration.
 export declare class TypeParameter 
 ```
 
-## Constructors
-
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [(constructor)(options)](./api-extractor-model.typeparameter._constructor_.md) |  | Constructs a new instance of the <code>TypeParameter</code> class |
-
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [constraintExcerpt](./api-extractor-model.typeparameter.constraintexcerpt.md) |  | <code>Excerpt</code> | An [Excerpt](./api-extractor-model.excerpt.md) that describes the base constraint of the type parameter. |
-|  [defaultTypeExcerpt](./api-extractor-model.typeparameter.defaulttypeexcerpt.md) |  | <code>Excerpt</code> | An [Excerpt](./api-extractor-model.excerpt.md) that describes the default type of the type parameter. |
-|  [name](./api-extractor-model.typeparameter.name.md) |  | <code>string</code> | The parameter name. |
-|  [tsdocTypeParamBlock](./api-extractor-model.typeparameter.tsdoctypeparamblock.md) |  | <code>tsdoc.DocParamBlock &#124; undefined</code> | Returns the <code>@typeParam</code> documentation for this parameter, if present. |
-
 ## Remarks
 
 `TypeParameter` represents a TypeScript declaration such as `T` in this example:
@@ -52,4 +37,19 @@ class Book<TIdentifier extends IIdentifier = BarCode> {
 
 ```
 `TypeParameter` objects belong to the  collection.
+
+## Constructors
+
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [(constructor)(options)](./api-extractor-model.typeparameter._constructor_.md) |  | Constructs a new instance of the <code>TypeParameter</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [constraintExcerpt](./api-extractor-model.typeparameter.constraintexcerpt.md) |  | <code>Excerpt</code> | An [Excerpt](./api-extractor-model.excerpt.md) that describes the base constraint of the type parameter. |
+|  [defaultTypeExcerpt](./api-extractor-model.typeparameter.defaulttypeexcerpt.md) |  | <code>Excerpt</code> | An [Excerpt](./api-extractor-model.excerpt.md) that describes the default type of the type parameter. |
+|  [name](./api-extractor-model.typeparameter.name.md) |  | <code>string</code> | The parameter name. |
+|  [tsdocTypeParamBlock](./api-extractor-model.typeparameter.tsdoctypeparamblock.md) |  | <code>tsdoc.DocParamBlock &#124; undefined</code> | Returns the <code>@typeParam</code> documentation for this parameter, if present. |
 

@@ -17,6 +17,10 @@ An `Error` subclass that should be thrown to report an unexpected state that may
 export declare class InternalError extends Error 
 ```
 
+## Remarks
+
+Do not use this class unless you intend to solicit bug reports from end users.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -35,8 +39,4 @@ export declare class InternalError extends Error
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [toString()](./node-core-library.internalerror.tostring.md) |  |  |
-
-## Remarks
-
-Do not use this class unless you intend to solicit bug reports from end users.
 

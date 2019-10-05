@@ -17,14 +17,14 @@ An interface for a builder object that allows a large text string to be construc
 export interface IStringBuilder 
 ```
 
+## Remarks
+
+[StringBuilder](./node-core-library.stringbuilder.md) is the default implementation of this contract.
+
 ## Methods
 
 |  Method | Description |
 |  --- | --- |
 |  [append(text)](./node-core-library.istringbuilder.append.md) | Append the specified text to the buffer. |
 |  [toString()](./node-core-library.istringbuilder.tostring.md) | Returns a single string containing all the text that was appended to the buffer so far. |
-
-## Remarks
-
-[StringBuilder](./node-core-library.stringbuilder.md) is the default implementation of this contract.
 

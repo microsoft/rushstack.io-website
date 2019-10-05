@@ -17,14 +17,14 @@ Configures how the doc model file (\*.api.json) will be generated.
 export interface IConfigDocModel 
 ```
 
+## Remarks
+
+This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
+
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [apiJsonFilePath](./api-extractor.iconfigdocmodel.apijsonfilepath.md) | <code>string</code> | The output path for the doc model file. The file extension should be ".api.json". |
 |  [enabled](./api-extractor.iconfigdocmodel.enabled.md) | <code>boolean</code> | Whether to generate a doc model file. |
-
-## Remarks
-
-This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
 

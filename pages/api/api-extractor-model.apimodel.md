@@ -17,30 +17,6 @@ A serializable representation of a collection of API declarations.
 export declare class ApiModel extends ApiModel_base 
 ```
 
-## Constructors
-
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [(constructor)()](./api-extractor-model.apimodel._constructor_.md) |  | Constructs a new instance of the <code>ApiModel</code> class |
-
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apimodel.containerkey.md) |  | <code>string</code> |  |
-|  [kind](./api-extractor-model.apimodel.kind.md) |  | <code>ApiItemKind</code> |  |
-|  [packages](./api-extractor-model.apimodel.packages.md) |  | <code>ReadonlyArray&lt;ApiPackage&gt;</code> |  |
-
-## Methods
-
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [addMember(member)](./api-extractor-model.apimodel.addmember.md) |  |  |
-|  [buildCanonicalReference()](./api-extractor-model.apimodel.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
-|  [loadPackage(apiJsonFilename)](./api-extractor-model.apimodel.loadpackage.md) |  |  |
-|  [resolveDeclarationReference(declarationReference, contextApiItem)](./api-extractor-model.apimodel.resolvedeclarationreference.md) |  |  |
-|  [tryGetPackageByName(packageName)](./api-extractor-model.apimodel.trygetpackagebyname.md) |  | Efficiently finds a package by the NPM package name. |
-
 ## Remarks
 
 An `ApiModel` represents a collection of API declarations that can be serialized to disk. It captures all the important information needed to generate documentation, without any reliance on the TypeScript compiler engine.
@@ -67,4 +43,28 @@ Things that can contain other things:
 
 ```
 Normally, API Extractor writes an .api.json file to disk for each project that it builds. Then, a tool like API Documenter can load the various `ApiPackage` objects into a single `ApiModel` and process them as a group. This is useful because compilation generally occurs separately (e.g. because projects may reside in different Git repos, or because they build with different TypeScript compiler configurations that may be incompatible), whereas API Documenter cannot detect broken hyperlinks without seeing the entire documentation set.
+
+## Constructors
+
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [(constructor)()](./api-extractor-model.apimodel._constructor_.md) |  | Constructs a new instance of the <code>ApiModel</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [containerKey](./api-extractor-model.apimodel.containerkey.md) |  | <code>string</code> |  |
+|  [kind](./api-extractor-model.apimodel.kind.md) |  | <code>ApiItemKind</code> |  |
+|  [packages](./api-extractor-model.apimodel.packages.md) |  | <code>ReadonlyArray&lt;ApiPackage&gt;</code> |  |
+
+## Methods
+
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [addMember(member)](./api-extractor-model.apimodel.addmember.md) |  |  |
+|  [buildCanonicalReference()](./api-extractor-model.apimodel.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
+|  [loadPackage(apiJsonFilename)](./api-extractor-model.apimodel.loadpackage.md) |  |  |
+|  [resolveDeclarationReference(declarationReference, contextApiItem)](./api-extractor-model.apimodel.resolvedeclarationreference.md) |  |  |
+|  [tryGetPackageByName(packageName)](./api-extractor-model.apimodel.trygetpackagebyname.md) |  | Efficiently finds a package by the NPM package name. |
 

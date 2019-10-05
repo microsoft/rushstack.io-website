@@ -17,6 +17,21 @@ Represents a TypeScript property declaration that belongs to an `ApiInterface`<!
 export declare class ApiPropertySignature extends ApiPropertyItem 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiPropertySignature` represents a TypeScript declaration such as the `width` and `height` members in this example:
+
+```ts
+export interface IWidget {
+  readonly width: number;
+  height: number;
+}
+
+```
+Compare with [ApiProperty](./api-extractor-model.apiproperty.md)<!-- -->, which represents a property belonging to a class. For example, a class property can be `static` but an interface property cannot.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -36,19 +51,4 @@ export declare class ApiPropertySignature extends ApiPropertyItem
 |  --- | --- | --- |
 |  [buildCanonicalReference()](./api-extractor-model.apipropertysignature.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
 |  [getContainerKey(name)](./api-extractor-model.apipropertysignature.getcontainerkey.md) | <code>static</code> |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiPropertySignature` represents a TypeScript declaration such as the `width` and `height` members in this example:
-
-```ts
-export interface IWidget {
-  readonly width: number;
-  height: number;
-}
-
-```
-Compare with [ApiProperty](./api-extractor-model.apiproperty.md)<!-- -->, which represents a property belonging to a class. For example, a class property can be `static` but an interface property cannot.
 

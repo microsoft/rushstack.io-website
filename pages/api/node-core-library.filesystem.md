@@ -17,6 +17,12 @@ The FileSystem API provides a complete set of recommended operations for interac
 export declare class FileSystem 
 ```
 
+## Remarks
+
+We recommend to use this instead of the native `fs` API, because `fs` is a minimal set of low-level primitives that must be mapped for each supported operating system. The FileSystem API takes a philosophical approach of providing "one obvious way" to do each operation. We also prefer synchronous operations except in cases where there would be a clear performance benefit for using async, since synchronous code is much easier to read and debug. Also, indiscriminate parallelism has been seen to actually worsen performance, versus improving it.
+
+Note that in the documentation, we refer to "filesystem objects", this can be a file, folder, symbolic link, hard link, directory junction, etc.
+
 ## Methods
 
 |  Method | Modifiers | Description |
@@ -44,10 +50,4 @@ export declare class FileSystem
 |  [readFolder(folderPath, options)](./node-core-library.filesystem.readfolder.md) | <code>static</code> | Reads the contents of the folder, not including "." or "..". Behind the scenes it uses <code>fs.readdirSync()</code>. |
 |  [updateTimes(path, times)](./node-core-library.filesystem.updatetimes.md) | <code>static</code> | Updates the accessed and modified timestamps of the filesystem object referenced by path. Behind the scenes it uses <code>fs.utimesSync()</code>. The caller should specify both times in the <code>times</code> parameter. |
 |  [writeFile(filePath, contents, options)](./node-core-library.filesystem.writefile.md) | <code>static</code> | Writes a text string to a file on disk, overwriting the file if it already exists. Behind the scenes it uses <code>fs.writeFileSync()</code>. |
-
-## Remarks
-
-We recommend to use this instead of the native `fs` API, because `fs` is a minimal set of low-level primitives that must be mapped for each supported operating system. The FileSystem API takes a philosophical approach of providing "one obvious way" to do each operation. We also prefer synchronous operations except in cases where there would be a clear performance benefit for using async, since synchronous code is much easier to read and debug. Also, indiscriminate parallelism has been seen to actually worsen performance, versus improving it.
-
-Note that in the documentation, we refer to "filesystem objects", this can be a file, folder, symbolic link, hard link, directory junction, etc.
 

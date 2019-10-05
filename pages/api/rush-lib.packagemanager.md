@@ -20,6 +20,10 @@ An abstraction for controlling the supported package managers: PNPM, NPM, and Ya
 export declare abstract class PackageManager 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `PackageManager` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -28,8 +32,4 @@ export declare abstract class PackageManager
 |  [packageManager](./rush-lib.packagemanager.packagemanager.md) |  | <code>PackageManagerName</code> | <b><i>(BETA)</i></b> The package manager. |
 |  [shrinkwrapFilename](./rush-lib.packagemanager.shrinkwrapfilename.md) |  | <code>string</code> | <b><i>(BETA)</i></b> The filename of the shrinkwrap file that is used by the package manager. |
 |  [version](./rush-lib.packagemanager.version.md) |  | <code>string</code> | <b><i>(BETA)</i></b> The SemVer version of the package manager. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `PackageManager` class.
 

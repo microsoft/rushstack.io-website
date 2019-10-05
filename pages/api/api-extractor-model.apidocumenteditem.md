@@ -17,6 +17,10 @@ An abstract base class for API declarations that can have an associated TSDoc co
 export declare class ApiDocumentedItem extends ApiItem 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -35,8 +39,4 @@ export declare class ApiDocumentedItem extends ApiItem
 |  --- | --- | --- |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apidocumenteditem.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apidocumenteditem.serializeinto.md) |  |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
 

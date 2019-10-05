@@ -17,6 +17,10 @@ This is the common base class for CommandLineAction and CommandLineParser that p
 export declare abstract class CommandLineParameterProvider 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `CommandLineParameterProvider` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -39,8 +43,4 @@ export declare abstract class CommandLineParameterProvider
 |  [getStringParameter(parameterLongName)](./ts-command-line.commandlineparameterprovider.getstringparameter.md) |  | Returns the CommandLineStringParameter with the specified long name. |
 |  [onDefineParameters()](./ts-command-line.commandlineparameterprovider.ondefineparameters.md) |  | The child class should implement this hook to define its command-line parameters, e.g. by calling defineFlagParameter(). |
 |  [renderHelpText()](./ts-command-line.commandlineparameterprovider.renderhelptext.md) |  | Generates the command-line help text. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `CommandLineParameterProvider` class.
 

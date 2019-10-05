@@ -17,6 +17,27 @@ Represents a TypeScript type alias declaration.
 export declare class ApiTypeAlias extends ApiTypeAlias_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiTypeAlias` represents a definition such as one of these examples:
+
+```ts
+// A union type:
+export type Shape = Square | Triangle | Circle;
+
+// A generic type alias:
+export type BoxedValue<T> = { value: T };
+
+export type BoxedArray<T> = { array: T[] };
+
+// A conditional type alias:
+export type Boxed<T> = T extends any[] ? BoxedArray<T[number]> : BoxedValue<T>;
+
+
+```
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -39,25 +60,4 @@ export declare class ApiTypeAlias extends ApiTypeAlias_base
 |  [getContainerKey(name)](./api-extractor-model.apitypealias.getcontainerkey.md) | <code>static</code> |  |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apitypealias.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apitypealias.serializeinto.md) |  |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiTypeAlias` represents a definition such as one of these examples:
-
-```ts
-// A union type:
-export type Shape = Square | Triangle | Circle;
-
-// A generic type alias:
-export type BoxedValue<T> = { value: T };
-
-export type BoxedArray<T> = { array: T[] };
-
-// A conditional type alias:
-export type Boxed<T> = T extends any[] ? BoxedArray<T[number]> : BoxedValue<T>;
-
-
-```
 

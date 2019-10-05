@@ -17,6 +17,17 @@ Represents a TypeScript class declaration.
 export declare class ApiClass extends ApiClass_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
+`ApiClass` represents a TypeScript declaration such as this:
+
+```ts
+export class X { }
+
+```
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -40,15 +51,4 @@ export declare class ApiClass extends ApiClass_base
 |  [getContainerKey(name)](./api-extractor-model.apiclass.getcontainerkey.md) | <code>static</code> |  |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apiclass.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apiclass.serializeinto.md) |  |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
-
-`ApiClass` represents a TypeScript declaration such as this:
-
-```ts
-export class X { }
-
-```
 

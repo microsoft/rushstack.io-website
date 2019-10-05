@@ -17,6 +17,10 @@ Configures how the .d.ts rollup file will be generated.
 export interface IConfigDtsRollup 
 ```
 
+## Remarks
+
+This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
+
 ## Properties
 
 |  Property | Type | Description |
@@ -26,8 +30,4 @@ export interface IConfigDtsRollup
 |  [omitTrimmingComments](./api-extractor.iconfigdtsrollup.omittrimmingcomments.md) | <code>boolean</code> | When a declaration is trimmed, by default it will be replaced by a code comment such as "Excluded from this release type: exampleMember". Set "omitTrimmingComments" to true to remove the declaration completely. |
 |  [publicTrimmedFilePath](./api-extractor.iconfigdtsrollup.publictrimmedfilepath.md) | <code>string</code> | Specifies the output path for a .d.ts rollup file to be generated with trimming for a "public" release. |
 |  [untrimmedFilePath](./api-extractor.iconfigdtsrollup.untrimmedfilepath.md) | <code>string</code> | Specifies the output path for a .d.ts rollup file to be generated without any trimming. |
-
-## Remarks
-
-This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
 

@@ -17,6 +17,10 @@ Operations for working with strings that contain text.
 export declare class Text 
 ```
 
+## Remarks
+
+The utilities provided by this class are intended to be simple, small, and very broadly applicable.
+
 ## Methods
 
 |  Method | Modifiers | Description |
@@ -28,8 +32,4 @@ export declare class Text
 |  [padStart(s, minimumLength, paddingCharacter)](./node-core-library.text.padstart.md) | <code>static</code> | Append characters to the start of a string to ensure the result has a minimum length. |
 |  [replaceAll(input, searchValue, replaceValue)](./node-core-library.text.replaceall.md) | <code>static</code> | Returns the same thing as targetString.replace(searchValue, replaceValue), except that all matches are replaced, rather than just the first match. |
 |  [truncateWithEllipsis(s, maximumLength)](./node-core-library.text.truncatewithellipsis.md) | <code>static</code> | If the string is longer than maximumLength characters, truncate it to that length using "..." to indicate the truncation. |
-
-## Remarks
-
-The utilities provided by this class are intended to be simple, small, and very broadly applicable.
 

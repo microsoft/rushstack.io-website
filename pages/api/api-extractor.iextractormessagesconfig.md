@@ -17,6 +17,10 @@ Configures how API Extractor reports error and warning messages produced during 
 export interface IExtractorMessagesConfig 
 ```
 
+## Remarks
+
+This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
+
 ## Properties
 
 |  Property | Type | Description |
@@ -24,8 +28,4 @@ export interface IExtractorMessagesConfig
 |  [compilerMessageReporting](./api-extractor.iextractormessagesconfig.compilermessagereporting.md) | <code>IConfigMessageReportingTable</code> | Configures handling of diagnostic messages generating the TypeScript compiler while analyzing the input .d.ts files. |
 |  [extractorMessageReporting](./api-extractor.iextractormessagesconfig.extractormessagereporting.md) | <code>IConfigMessageReportingTable</code> | Configures handling of messages reported by API Extractor during its analysis. |
 |  [tsdocMessageReporting](./api-extractor.iextractormessagesconfig.tsdocmessagereporting.md) | <code>IConfigMessageReportingTable</code> | Configures handling of messages reported by the TSDoc parser when analyzing code comments. |
-
-## Remarks
-
-This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
 

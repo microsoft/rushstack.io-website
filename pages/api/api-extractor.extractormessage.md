@@ -17,6 +17,10 @@ This object is used to report an error or warning that occurred during API Extra
 export declare class ExtractorMessage 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `ExtractorMessage` class.
+
 ## Properties
 
 |  Property | Modifiers | Type | Description |
@@ -37,8 +41,4 @@ export declare class ExtractorMessage
 |  --- | --- | --- |
 |  [formatMessageWithLocation(workingPackageFolderPath)](./api-extractor.extractormessage.formatmessagewithlocation.md) |  | Returns the message formatted with its identifier and file position. |
 |  [formatMessageWithoutLocation()](./api-extractor.extractormessage.formatmessagewithoutlocation.md) |  |  |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `ExtractorMessage` class.
 

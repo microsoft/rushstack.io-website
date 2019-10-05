@@ -11,6 +11,10 @@ improve_this_button: false
 
 This library enables a tool to display live console output from multiple asynchronous processes, while ensuring that their output does not get jumbled together.
 
+## Remarks
+
+For more info, please see the package [README](https://www.npmjs.com/package/@microsoft/stream-collator)<!-- -->.
+
 ## Classes
 
 |  Class | Description |
@@ -22,8 +26,4 @@ This library enables a tool to display live console output from multiple asynchr
 |  Interface | Description |
 |  --- | --- |
 |  [ITaskWriter](./stream-collator.itaskwriter.md) | An writable interface for managing output of simultaneous processes. |
-
-## Remarks
-
-For more info, please see the package [README](https://www.npmjs.com/package/@microsoft/stream-collator)<!-- -->.
 

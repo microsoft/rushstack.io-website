@@ -12,7 +12,7 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-addOrUpdatePackage(packageName: string, reviewCategory: string): void;
+addOrUpdatePackage(packageName: string, reviewCategory: string): boolean;
 ```
 
 ## Parameters
@@ -24,5 +24,5 @@ addOrUpdatePackage(packageName: string, reviewCategory: string): void;
 
 <b>Returns:</b>
 
-`void`
+`boolean`
 

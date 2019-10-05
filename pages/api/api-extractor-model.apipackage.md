@@ -17,6 +17,10 @@ Represents an NPM package containing API declarations.
 export declare class ApiPackage extends ApiPackage_base 
 ```
 
+## Remarks
+
+This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -40,8 +44,4 @@ export declare class ApiPackage extends ApiPackage_base
 |  [findEntryPointsByPath(importPath)](./api-extractor-model.apipackage.findentrypointsbypath.md) |  |  |
 |  [loadFromJsonFile(apiJsonFilename)](./api-extractor-model.apipackage.loadfromjsonfile.md) | <code>static</code> |  |
 |  [saveToJsonFile(apiJsonFilename, options)](./api-extractor-model.apipackage.savetojsonfile.md) |  |  |
-
-## Remarks
-
-This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
 

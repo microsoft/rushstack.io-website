@@ -27,6 +27,7 @@ export declare const enum ExtractorMessageId
 |  ForgottenExport | <code>&quot;ae-forgotten-export&quot;</code> | "The symbol \_\_\_ needs to be exported by the entry point \_\_\_." |
 |  IncompatibleReleaseTags | <code>&quot;ae-incompatible-release-tags&quot;</code> | "The symbol \_\_\_ is marked as \_\_\_, but its signature references \_\_\_ which is marked as \_\_\_." |
 |  InternalMissingUnderscore | <code>&quot;ae-internal-missing-underscore&quot;</code> | "The name \_\_\_ should be prefixed with an underscore because the declaration is marked as <code>@internal</code>." |
+|  InternalMixedReleaseTag | <code>&quot;ae-internal-mixed-release-tag&quot;</code> | "Mixed release tags are not allowed for \_\_\_ because one of its declarations is marked as <code>@internal</code>." |
 |  MisplacedPackageTag | <code>&quot;ae-misplaced-package-tag&quot;</code> | "The <code>@packageDocumentation</code> comment must appear at the top of entry point \*.d.ts file." |
 |  MissingReleaseTag | <code>&quot;ae-missing-release-tag&quot;</code> | "\_\_\_ is exported by the package, but it is missing a release tag (<code>@alpha</code>, <code>@beta</code>, <code>@public</code>, or <code>@internal</code>)." |
 |  PreapprovedBadReleaseTag | <code>&quot;ae-preapproved-bad-release-tag&quot;</code> | "The <code>@preapproved</code> tag cannot be applied to \_\_\_ without an <code>@internal</code> release tag." |

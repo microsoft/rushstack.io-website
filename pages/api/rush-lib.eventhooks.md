@@ -20,13 +20,13 @@ This class represents Rush event hooks configured for this repo. Hooks are custo
 export declare class EventHooks 
 ```
 
+## Remarks
+
+The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `EventHooks` class.
+
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [get(event)](./rush-lib.eventhooks.get.md) |  | <b><i>(BETA)</i></b> Return all the scripts associated with the specified event. |
-
-## Remarks
-
-The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `EventHooks` class.
 

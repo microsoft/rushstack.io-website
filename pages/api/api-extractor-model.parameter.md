@@ -17,6 +17,18 @@ Represents a named parameter for a function-like declaration.
 export declare class Parameter 
 ```
 
+## Remarks
+
+`Parameter` represents a TypeScript declaration such as `x: number` in this example:
+
+```ts
+export function add(x: number, y: number): number {
+  return x + y;
+}
+
+```
+`Parameter` objects belong to the  collection.
+
 ## Constructors
 
 |  Constructor | Modifiers | Description |
@@ -30,16 +42,4 @@ export declare class Parameter
 |  [name](./api-extractor-model.parameter.name.md) |  | <code>string</code> | The parameter name. |
 |  [parameterTypeExcerpt](./api-extractor-model.parameter.parametertypeexcerpt.md) |  | <code>Excerpt</code> | An [Excerpt](./api-extractor-model.excerpt.md) that describes the type of the parameter. |
 |  [tsdocParamBlock](./api-extractor-model.parameter.tsdocparamblock.md) |  | <code>tsdoc.DocParamBlock &#124; undefined</code> | Returns the <code>@param</code> documentation for this parameter, if present. |
-
-## Remarks
-
-`Parameter` represents a TypeScript declaration such as `x: number` in this example:
-
-```ts
-export function add(x: number, y: number): number {
-  return x + y;
-}
-
-```
-`Parameter` objects belong to the  collection.
 

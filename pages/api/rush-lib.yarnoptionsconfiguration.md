@@ -17,15 +17,15 @@ Options that are only used when the yarn package manager is selected.
 export declare class YarnOptionsConfiguration 
 ```
 
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [ignoreEngines](./rush-lib.yarnoptionsconfiguration.ignoreengines.md) |  | <code>boolean</code> | If true, then Rush will add the "--ignore-engines" option when invoking Yarn. This allows "rush install" to succeed if there are dependencies with engines defined in package.json which do not match the current environment.<!-- -->The default value is false. |
-
 ## Remarks
 
 It is valid to define these options in rush.json even if the yarn package manager is not being used.
 
 The constructor for this class is marked as internal. Third-party code should not call the constructor directly or create subclasses that extend the `YarnOptionsConfiguration` class.
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [ignoreEngines](./rush-lib.yarnoptionsconfiguration.ignoreengines.md) |  | <code>boolean</code> | If true, then Rush will add the "--ignore-engines" option when invoking Yarn. This allows "rush install" to succeed if there are dependencies with engines defined in package.json which do not match the current environment.<!-- -->The default value is false. |
 
