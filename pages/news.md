@@ -11,7 +11,7 @@ Here's the most common ones:
 Changelogs:
 - [API Documenter](https://github.com/microsoft/rushstack/blob/master/apps/api-documenter/CHANGELOG.md)
 - [API Extractor](https://github.com/microsoft/rushstack/blob/master/apps/api-extractor/CHANGELOG.md)
-- [ESLint Config Scalable TS](https://github.com/microsoft/rushstack/blob/master/libraries/eslint-config-scalable-ts/CHANGELOG.md)
+- [@<!-- -->rushstack/eslint-config](https://github.com/microsoft/rushstack/blob/master/stack/eslint-config/CHANGELOG.md)
 - [Rush](https://github.com/microsoft/rushstack/blob/master/apps/rush/CHANGELOG.md)
 - [TSDoc](https://github.com/microsoft/tsdoc/blob/master/tsdoc/CHANGELOG.md)
 

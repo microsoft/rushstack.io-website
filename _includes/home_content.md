@@ -19,7 +19,7 @@ These tools are developed under the **Rush Stack** umbrella:
 - [API Documenter](https://api-extractor.com/pages/setup/generating_docs/): generates your API documentation website
 - **Heft (coming soon!):** a new scalable task rig that replaces the earlier
   [gulp-core-build](https://www.npmjs.com/package/@microsoft/gulp-core-build) system
-- [eslint-config-scalable-ts](https://www.npmjs.com/package/@microsoft/eslint-config-scalable-ts): our standardized
+- [@<!---->rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config): our standardized
   ESLint rule set, specifically designed for large scale TypeScript monorepos
 
 These tools are built on a common framework of reusable library packages:

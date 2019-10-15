@@ -19,7 +19,7 @@ Contributor availability is difficult to predict, so we try not to make commitme
 a particular feature will get implemented.  That said, here's some areas which people are actively working on:
 
 - Write up various design notes and guidance as articles on the new rushstack.io website
-- Complete the migration from TSLint to ESLint/Prettier using the new [@microsoft/eslint-config-scalable-ts](https://www.npmjs.com/package/@microsoft/eslint-config-scalable-ts) ruleset
+- Complete the migration from TSLint to ESLint/Prettier using the new [@<!---->rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config) ruleset
 - Rush integration with [BuildXL](https://github.com/microsoft/BuildXL) for sharded builds
 - Improve DocFX support for namespaces ([issue #1537](https://github.com/microsoft/rushstack/pull/1537))
 
