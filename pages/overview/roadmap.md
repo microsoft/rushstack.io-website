@@ -27,9 +27,9 @@ a particular feature will get implemented.  That said, here's some areas which p
 
 The Rush Stack maintainers currently see these feature areas as the main priorities for upcoming investments:
 
-- Initial prototype of "heft" revamped toolchain
 - Enable `rush install` to leverage the package manager's monorepo support, instead of the `@rushtemp`
   packages ([issue #1553](https://github.com/microsoft/rushstack/issues/1553))
+- Initial prototype of "heft" revamped toolchain
 - Improve API Extractor to support `import * as ___ from "___";` namespaces ([issue #1029](https://github.com/microsoft/rushstack/issues/1029))
 
 If there's a specific area that's important to you, let us know in the
