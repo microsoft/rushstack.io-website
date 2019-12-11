@@ -91,8 +91,8 @@ algolia:
   nodes_to_index: 'p,li,h1,h2,h3'
 
   files_to_exclude:
-    - 404.html
-    - mobile_nav.html
+    - permalinks/404.html
+    - permalinks/mobile_nav.html
     # Only index the API packages and index.md; exclude all the members so we don't exceed
     # our Algolia quota
     - pages/api/*.*.md
