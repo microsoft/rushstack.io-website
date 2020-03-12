@@ -17,6 +17,10 @@ Operations for sorting collections.
 export declare class Sort 
 ```
 
+## Remarks
+
+NOTE: Prior to Node 11.x, the `Array.sort()` algorithm is not guaranteed to be stable. For maximum compatibility, consider using [LegacyAdapters.sortStable()](./node-core-library.legacyadapters.sortstable.md) instead of `Array.sort()`<!-- -->.
+
 ## Methods
 
 |  Method | Modifiers | Description |
@@ -24,8 +28,8 @@ export declare class Sort
 |  [compareByValue(x, y)](./node-core-library.sort.comparebyvalue.md) | <code>static</code> | Compares <code>x</code> and <code>y</code> using the JavaScript <code>&gt;</code> and <code>&lt;</code> operators. This function is suitable for usage as the callback for <code>array.sort()</code>. |
 |  [isSorted(array, comparer)](./node-core-library.sort.issorted.md) | <code>static</code> | Returns true if the array is already sorted. |
 |  [isSortedBy(array, keySelector, comparer)](./node-core-library.sort.issortedby.md) | <code>static</code> | Returns true if the array is already sorted by the specified key. |
-|  [sortBy(array, keySelector, comparer)](./node-core-library.sort.sortby.md) | <code>static</code> | Sorts the array according to a key which is obtained from the array elements. |
-|  [sortMapKeys(map, keyComparer)](./node-core-library.sort.sortmapkeys.md) | <code>static</code> | Sorts the entries in a Map object according to the keys. |
-|  [sortSet(set, comparer)](./node-core-library.sort.sortset.md) | <code>static</code> | Sorts the entries in a Set object according to the keys. |
-|  [sortSetBy(set, keySelector, keyComparer)](./node-core-library.sort.sortsetby.md) | <code>static</code> | Sorts the entries in a Set object according to the keys. |
+|  [sortBy(array, keySelector, comparer)](./node-core-library.sort.sortby.md) | <code>static</code> | Sorts the array according to a key which is obtained from the array elements. The result is guaranteed to be a stable sort. |
+|  [sortMapKeys(map, keyComparer)](./node-core-library.sort.sortmapkeys.md) | <code>static</code> | Sorts the entries in a Map object according to the map keys. The result is guaranteed to be a stable sort. |
+|  [sortSet(set, comparer)](./node-core-library.sort.sortset.md) | <code>static</code> | Sorts the entries in a Set object. The result is guaranteed to be a stable sort. |
+|  [sortSetBy(set, keySelector, keyComparer)](./node-core-library.sort.sortsetby.md) | <code>static</code> | Sorts the entries in a Set object according to the specified keys. The result is guaranteed to be a stable sort. |
 

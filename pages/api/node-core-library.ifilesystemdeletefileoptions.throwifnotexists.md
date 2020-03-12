@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemDeleteFileOptions.throwIfNotExists property
 
-If true, will throw an exception if the file did not exist before `deleteFile()` was called. Defaults to `false`<!-- -->.
+If true, will throw an exception if the file did not exist before `deleteFile()` was called.
 
 <b>Signature:</b>
 

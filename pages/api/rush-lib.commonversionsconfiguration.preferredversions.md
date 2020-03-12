@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## CommonVersionsConfiguration.preferredVersions property
 
-A table that specifies a "preferred version" for a dependency package.
+A table that specifies a "preferred version" for a given NPM package. This feature is typically used to hold back an indirect dependency to a specific older version, or to reduce duplication of indirect dependencies.
 
 <b>Signature:</b>
 
@@ -19,9 +19,7 @@ readonly preferredVersions: Map<string, string>;
 
 ## Remarks
 
-The "preferred version" is typically used to hold an indirect dependency back to a specific version, however generally it can be any SemVer range specifier (e.g. "\~1.2.3"), and it will narrow any (compatible) SemVer range specifier.
+The "preferredVersions" value can be any SemVer range specifier (e.g. `~1.2.3`<!-- -->). Rush injects these values into the "dependencies" field of the top-level common/temp/package.json, which influences how the package manager will calculate versions. The specific effect depends on your package manager. Generally it will have no effect on an incompatible or already constrained SemVer range. If you are using PNPM, similar effects can be achieved using the pnpmfile.js hook. See the Rush documentation for more details.
 
-For example, suppose local project `A` depends on an external package `B`<!-- -->, and `B` asks for `C@^1.0.0`<!-- -->, which normally would select `C@1.5.0`<!-- -->. If we specify `C@~1.2.3` as our preferred version, and it selects `C@1.2.9`<!-- -->, then that will be installed for B instead of `C@1.5.0`<!-- -->. Whereas if the preferred version was `C@~2.0.0` then it would have no effect, because this is incompatible with `C@^1.0.0`<!-- -->. A compatible parent dependency will take precedence over the preferred version; for example if `A` had a direct dependency on `C@1.2.2`<!-- -->, then `B` would get `C@1.2.2` regardless of the preferred version.
-
-Rush's implementation relies on the package manager's heuristic for avoiding duplicates by trying to reuse dependencies requested by a parent in the graph: The preferred versions are simply injected into the fake common/temp/package.json file that acts as the root for all local projects in the Rush repo.
+After modifying this field, it's recommended to run `rush update --full` so that the package manager will recalculate all version selections.
 

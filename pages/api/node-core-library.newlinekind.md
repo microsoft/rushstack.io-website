@@ -23,4 +23,5 @@ export declare const enum NewlineKind
 |  --- | --- | --- |
 |  CrLf | <code>&quot;\r\n&quot;</code> | Windows-style newlines |
 |  Lf | <code>&quot;\n&quot;</code> | POSIX-style newlines |
+|  OsDefault | <code>&quot;os&quot;</code> | Default newline type for this operating system (<code>os.EOL</code>). |
 

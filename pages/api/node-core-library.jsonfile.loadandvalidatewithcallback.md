@@ -14,7 +14,7 @@ Loads a JSON file and validate its schema, reporting errors using a callback
 <b>Signature:</b>
 
 ```typescript
-static loadAndValidateWithCallback(jsonFilename: string, jsonSchema: JsonSchema, errorCallback: (errorInfo: IJsonSchemaErrorInfo) => void): any;
+static loadAndValidateWithCallback(jsonFilename: string, jsonSchema: JsonSchema, errorCallback: (errorInfo: IJsonSchemaErrorInfo) => void): JsonObject;
 ```
 
 ## Parameters
@@ -27,7 +27,7 @@ static loadAndValidateWithCallback(jsonFilename: string, jsonSchema: JsonSchema,
 
 <b>Returns:</b>
 
-`any`
+`JsonObject`
 
 ## Remarks
 

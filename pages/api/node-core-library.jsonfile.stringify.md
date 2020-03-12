@@ -14,14 +14,14 @@ Serializes the specified JSON object to a string buffer.
 <b>Signature:</b>
 
 ```typescript
-static stringify(jsonObject: Object, options?: IJsonFileStringifyOptions): string;
+static stringify(jsonObject: JsonObject, options?: IJsonFileStringifyOptions): string;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>Object</code> | the object to be serialized |
+|  jsonObject | <code>JsonObject</code> | the object to be serialized |
 |  options | <code>IJsonFileStringifyOptions</code> | other settings that control serialization |
 
 <b>Returns:</b>

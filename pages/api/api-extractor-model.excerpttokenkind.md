@@ -20,6 +20,6 @@ export declare const enum ExcerptTokenKind
 
 |  Member | Value | Description |
 |  --- | --- | --- |
-|  Content | <code>&quot;Content&quot;</code> |  |
-|  Reference | <code>&quot;Reference&quot;</code> |  |
+|  Content | <code>&quot;Content&quot;</code> | Generic text without any special properties |
+|  Reference | <code>&quot;Reference&quot;</code> | A reference to an API declaration |
 

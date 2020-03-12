@@ -19,6 +19,7 @@ For more info, please see the package [README](https://www.npmjs.com/package/@mi
 
 |  Function | Description |
 |  --- | --- |
+|  [getGitHashForFiles(filesToHash, packagePath)](./package-deps-hash.getgithashforfiles.md) | Takes a list of files and returns the current git hashes for them |
 |  [getPackageDeps(packagePath, excludedPaths)](./package-deps-hash.getpackagedeps.md) | Builds an object containing hashes for the files under the specified <code>packagePath</code> folder. |
 
 ## Interfaces

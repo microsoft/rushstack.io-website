@@ -14,14 +14,14 @@ Validates the specified JSON object against this JSON schema. If the validation 
 <b>Signature:</b>
 
 ```typescript
-validateObject(jsonObject: Object, filenameForErrors: string, options?: IJsonSchemaValidateOptions): void;
+validateObject(jsonObject: JsonObject, filenameForErrors: string, options?: IJsonSchemaValidateOptions): void;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>Object</code> | The JSON data to be validated |
+|  jsonObject | <code>JsonObject</code> | The JSON data to be validated |
 |  filenameForErrors | <code>string</code> | The filename that the JSON data was available, or an empty string if not applicable |
 |  options | <code>IJsonSchemaValidateOptions</code> | Other options that control the validation |
 

@@ -21,6 +21,6 @@ export interface IJsonFileStringifyOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [newlineConversion](./node-core-library.ijsonfilestringifyoptions.newlineconversion.md) | <code>NewlineKind</code> | If true, then <code>\n</code> will be used for newlines instead of the default <code>\r\n</code>. |
+|  [newlineConversion](./node-core-library.ijsonfilestringifyoptions.newlineconversion.md) | <code>NewlineKind</code> | If provided, the specified newline type will be used instead of the default <code>\r\n</code>. |
 |  [prettyFormatting](./node-core-library.ijsonfilestringifyoptions.prettyformatting.md) | <code>boolean</code> | If true, then the "jju" library will be used to improve the text formatting. Note that this is slightly slower than the native JSON.stringify() implementation. |
 

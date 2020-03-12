@@ -14,7 +14,7 @@ Reads the contents of the folder, not including "." or "..". Behind the scenes i
 <b>Signature:</b>
 
 ```typescript
-static readFolder(folderPath: string, options?: IFileSystemReadFolderOptions): Array<string>;
+static readFolder(folderPath: string, options?: IFileSystemReadFolderOptions): string[];
 ```
 
 ## Parameters
@@ -26,5 +26,5 @@ static readFolder(folderPath: string, options?: IFileSystemReadFolderOptions): A
 
 <b>Returns:</b>
 
-`Array<string>`
+`string[]`
 

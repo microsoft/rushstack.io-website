@@ -88,5 +88,6 @@ Core libraries that every NodeJS toolchain project should use.
 |  --- | --- |
 |  [ExecutableStdioMapping](./node-core-library.executablestdiomapping.md) | Typings for IExecutableSpawnSyncOptions.stdio. |
 |  [ExecutableStdioStreamMapping](./node-core-library.executablestdiostreammapping.md) | Typings for one of the streams inside IExecutableSpawnSyncOptions.stdio. |
+|  [JsonObject](./node-core-library.jsonobject.md) | Represents a JSON-serializable object whose type has not been determined yet. |
 |  [LegacyCallback](./node-core-library.legacycallback.md) | Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md)<!-- -->. |
 

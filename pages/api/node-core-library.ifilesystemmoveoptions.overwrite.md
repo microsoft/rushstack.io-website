@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemMoveOptions.overwrite property
 
-If true, will overwrite the file if it already exists. Defaults to true.
+If true, will overwrite the file if it already exists.
 
 <b>Signature:</b>
 

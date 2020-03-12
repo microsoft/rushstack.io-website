@@ -14,5 +14,5 @@ The TypeScript compiler's `Program` object, which represents a complete scope of
 <b>Signature:</b>
 
 ```typescript
-readonly program: ts.Program;
+readonly program: unknown;
 ```

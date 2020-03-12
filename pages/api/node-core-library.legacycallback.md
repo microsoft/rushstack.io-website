@@ -14,5 +14,5 @@ Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md)<!-- -->
 <b>Signature:</b>
 
 ```typescript
-export declare type LegacyCallback<TResult, TError> = (error: TError, result: TResult) => void;
+export declare type LegacyCallback<TResult, TError> = (error: TError | null | undefined, result: TResult) => void;
 ```

@@ -14,7 +14,7 @@ Loads a JSON file and validate its schema.
 <b>Signature:</b>
 
 ```typescript
-static loadAndValidate(jsonFilename: string, jsonSchema: JsonSchema, options?: IJsonSchemaValidateOptions): any;
+static loadAndValidate(jsonFilename: string, jsonSchema: JsonSchema, options?: IJsonSchemaValidateOptions): JsonObject;
 ```
 
 ## Parameters
@@ -27,5 +27,5 @@ static loadAndValidate(jsonFilename: string, jsonSchema: JsonSchema, options?: I
 
 <b>Returns:</b>
 
-`any`
+`JsonObject`
 

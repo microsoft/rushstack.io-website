@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemWriteFileOptions.convertLineEndings property
 
-If specified, will normalize line endings to the specified style of newline. Defaults to `NewlineKind.None`<!-- -->.
+If specified, will normalize line endings to the specified style of newline.
 
 <b>Signature:</b>
 

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## Sort.sortMapKeys() method
 
-Sorts the entries in a Map object according to the keys.
+Sorts the entries in a Map object according to the map keys. The result is guaranteed to be a stable sort.
 
 <b>Signature:</b>
 

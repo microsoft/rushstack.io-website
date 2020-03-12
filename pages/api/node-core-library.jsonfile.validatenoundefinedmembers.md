@@ -14,14 +14,14 @@ Used to validate a data structure before writing. Reports an error if there are 
 <b>Signature:</b>
 
 ```typescript
-static validateNoUndefinedMembers(jsonObject: Object): void;
+static validateNoUndefinedMembers(jsonObject: JsonObject): void;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>Object</code> |  |
+|  jsonObject | <code>JsonObject</code> |  |
 
 <b>Returns:</b>
 

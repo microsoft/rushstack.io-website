@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## Sort.sortSetBy() method
 
-Sorts the entries in a Set object according to the keys.
+Sorts the entries in a Set object according to the specified keys. The result is guaranteed to be a stable sort.
 
 <b>Signature:</b>
 
