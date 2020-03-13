@@ -22,12 +22,14 @@ export interface IConfigFile
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [apiReport](./api-extractor.iconfigfile.apireport.md) | <code>IConfigApiReport</code> | Configures how the API report files (\*.api.md) will be generated. |
+|  [bundledPackages](./api-extractor.iconfigfile.bundledpackages.md) | <code>string[]</code> | A list of NPM package names whose exports should be treated as part of this package. |
 |  [compiler](./api-extractor.iconfigfile.compiler.md) | <code>IConfigCompiler</code> | Determines how the TypeScript compiler engine will be invoked by API Extractor. |
 |  [docModel](./api-extractor.iconfigfile.docmodel.md) | <code>IConfigDocModel</code> | Configures how the doc model file (\*.api.json) will be generated. |
 |  [dtsRollup](./api-extractor.iconfigfile.dtsrollup.md) | <code>IConfigDtsRollup</code> | <b><i>(BETA)</i></b> Configures how the .d.ts rollup file will be generated. |
 |  [extends](./api-extractor.iconfigfile.extends.md) | <code>string</code> | Optionally specifies another JSON config file that this file extends from. This provides a way for standard settings to be shared across multiple projects. |
 |  [mainEntryPointFilePath](./api-extractor.iconfigfile.mainentrypointfilepath.md) | <code>string</code> | Specifies the .d.ts file to be used as the starting point for analysis. API Extractor analyzes the symbols exported by this module. |
 |  [messages](./api-extractor.iconfigfile.messages.md) | <code>IExtractorMessagesConfig</code> | Configures how API Extractor reports error and warning messages produced during analysis. |
+|  [newlineKind](./api-extractor.iconfigfile.newlinekind.md) | <code>'crlf' &#124; 'lf' &#124; 'os'</code> | Specifies what type of newlines API Extractor should use when writing output files. |
 |  [projectFolder](./api-extractor.iconfigfile.projectfolder.md) | <code>string</code> | Determines the <code>&lt;projectFolder&gt;</code> token that can be used with other config file settings. The project folder typically contains the tsconfig.json and package.json config files, but the path is user-defined. |
 |  [testMode](./api-extractor.iconfigfile.testmode.md) | <code>boolean</code> | Set to true when invoking API Extractor's test harness. |
 |  [tsdocMetadata](./api-extractor.iconfigfile.tsdocmetadata.md) | <code>IConfigTsdocMetadata</code> | <b><i>(BETA)</i></b> Configures how the tsdoc-metadata.json file will be generated. |

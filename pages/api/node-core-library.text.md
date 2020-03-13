@@ -25,6 +25,7 @@ The utilities provided by this class are intended to be simple, small, and very 
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
+|  [convertTo(input, newlineKind)](./node-core-library.text.convertto.md) | <code>static</code> | Converts all newlines in the provided string to use the specified newline type. |
 |  [convertToCrLf(input)](./node-core-library.text.converttocrlf.md) | <code>static</code> | Converts all newlines in the provided string to use Windows-style CRLF end of line characters. |
 |  [convertToLf(input)](./node-core-library.text.converttolf.md) | <code>static</code> | Converts all newlines in the provided string to use POSIX-style LF end of line characters.<!-- -->POSIX is a registered trademark of the Institute of Electrical and Electronic Engineers, Inc. |
 |  [ensureTrailingNewline(s, newlineKind)](./node-core-library.text.ensuretrailingnewline.md) | <code>static</code> | Returns the input string with a trailing <code>\n</code> character appended, if not already present. |

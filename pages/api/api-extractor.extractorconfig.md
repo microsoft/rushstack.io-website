@@ -24,11 +24,13 @@ export declare class ExtractorConfig
 |  [apiJsonFilePath](./api-extractor.extractorconfig.apijsonfilepath.md) |  | <code>string</code> | The output path for the doc model file. The file extension should be ".api.json". |
 |  [apiReportEnabled](./api-extractor.extractorconfig.apireportenabled.md) |  | <code>boolean</code> | Whether to generate an API report. |
 |  [betaTrimmedFilePath](./api-extractor.extractorconfig.betatrimmedfilepath.md) |  | <code>string</code> | Specifies the output path for a .d.ts rollup file to be generated with trimming for a "beta" release. |
+|  [bundledPackages](./api-extractor.extractorconfig.bundledpackages.md) |  | <code>string[]</code> | A list of NPM package names whose exports should be treated as part of this package. |
 |  [docModelEnabled](./api-extractor.extractorconfig.docmodelenabled.md) |  | <code>boolean</code> | Whether to generate a doc model file. |
 |  [FILENAME](./api-extractor.extractorconfig.filename.md) | <code>static</code> | <code>string</code> | The config file name "api-extractor.json". |
 |  [jsonSchema](./api-extractor.extractorconfig.jsonschema.md) | <code>static</code> | <code>JsonSchema</code> | The JSON Schema for API Extractor config file (api-extractor.schema.json). |
 |  [mainEntryPointFilePath](./api-extractor.extractorconfig.mainentrypointfilepath.md) |  | <code>string</code> | Specifies the .d.ts file to be used as the starting point for analysis. API Extractor analyzes the symbols exported by this module. |
 |  [messages](./api-extractor.extractorconfig.messages.md) |  | <code>IExtractorMessagesConfig</code> | Configures how API Extractor reports error and warning messages produced during analysis. |
+|  [newlineKind](./api-extractor.extractorconfig.newlinekind.md) |  | <code>NewlineKind</code> | Specifies what type of newlines API Extractor should use when writing output files. By default, the output files will be written with Windows-style newlines. |
 |  [omitTrimmingComments](./api-extractor.extractorconfig.omittrimmingcomments.md) |  | <code>boolean</code> | When a declaration is trimmed, by default it will be replaced by a code comment such as "Excluded from this release type: exampleMember". Set "omitTrimmingComments" to true to remove the declaration completely. |
 |  [overrideTsconfig](./api-extractor.extractorconfig.overridetsconfig.md) |  | <code>{} &#124; undefined</code> | Provides a compiler configuration that will be used instead of reading the tsconfig.json file from disk. |
 |  [packageFolder](./api-extractor.extractorconfig.packagefolder.md) |  | <code>string &#124; undefined</code> | The absolute path of the folder containing the package.json file for the working package, or undefined if API Extractor was invoked without a package.json file. |

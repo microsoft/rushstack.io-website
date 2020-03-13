@@ -14,7 +14,7 @@ Loads a JSON file.
 <b>Signature:</b>
 
 ```typescript
-static load(jsonFilename: string): any;
+static load(jsonFilename: string): JsonObject;
 ```
 
 ## Parameters
@@ -25,5 +25,5 @@ static load(jsonFilename: string): any;
 
 <b>Returns:</b>
 
-`any`
+`JsonObject`
 

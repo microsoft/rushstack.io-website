@@ -14,14 +14,14 @@ Saves the file to disk. Returns false if nothing was written due to options.only
 <b>Signature:</b>
 
 ```typescript
-static save(jsonObject: Object, jsonFilename: string, options?: IJsonFileSaveOptions): boolean;
+static save(jsonObject: JsonObject, jsonFilename: string, options?: IJsonFileSaveOptions): boolean;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>Object</code> | the object to be saved |
+|  jsonObject | <code>JsonObject</code> | the object to be saved |
 |  jsonFilename | <code>string</code> | the file path to write |
 |  options | <code>IJsonFileSaveOptions</code> | other settings that control how the file is saved |
 

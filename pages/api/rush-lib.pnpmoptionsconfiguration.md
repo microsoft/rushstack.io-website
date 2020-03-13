@@ -27,6 +27,8 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
+|  [pnpmStore](./rush-lib.pnpmoptionsconfiguration.pnpmstore.md) |  | <code>PnpmStoreOptions</code> | The method used to resolve the store used by PNPM. |
+|  [pnpmStorePath](./rush-lib.pnpmoptionsconfiguration.pnpmstorepath.md) |  | <code>string</code> | The path for PNPM to use as the store directory.<!-- -->Will be overridden by environment variable RUSH\_PNPM\_STORE\_PATH |
 |  [resolutionStrategy](./rush-lib.pnpmoptionsconfiguration.resolutionstrategy.md) |  | <code>ResolutionStrategy</code> | The resolution strategy that will be used by PNPM. |
 |  [strictPeerDependencies](./rush-lib.pnpmoptionsconfiguration.strictpeerdependencies.md) |  | <code>boolean</code> | If true, then Rush will add the "--strict-peer-dependencies" option when invoking PNPM. |
 

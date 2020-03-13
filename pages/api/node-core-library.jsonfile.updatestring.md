@@ -14,7 +14,7 @@ Serializes the specified JSON object to a string buffer.
 <b>Signature:</b>
 
 ```typescript
-static updateString(previousJson: string, newJsonObject: Object, options?: IJsonFileStringifyOptions): string;
+static updateString(previousJson: string, newJsonObject: JsonObject, options?: IJsonFileStringifyOptions): string;
 ```
 
 ## Parameters
@@ -22,7 +22,7 @@ static updateString(previousJson: string, newJsonObject: Object, options?: IJson
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  previousJson | <code>string</code> |  |
-|  newJsonObject | <code>Object</code> |  |
+|  newJsonObject | <code>JsonObject</code> |  |
 |  options | <code>IJsonFileStringifyOptions</code> | other settings that control serialization |
 
 <b>Returns:</b>

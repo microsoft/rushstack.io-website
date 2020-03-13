@@ -27,4 +27,5 @@ export declare class LegacyAdapters
 |  [convertCallbackToPromise(fn, arg1, arg2, arg3)](./node-core-library.legacyadapters.convertcallbacktopromise_3.md) | <code>static</code> |  |
 |  [convertCallbackToPromise(fn, arg1, arg2, arg3, arg4)](./node-core-library.legacyadapters.convertcallbacktopromise_4.md) | <code>static</code> |  |
 |  [scrubError(error)](./node-core-library.legacyadapters.scruberror.md) | <code>static</code> | Normalizes an object into an <code>Error</code> object. |
+|  [sortStable(array, compare)](./node-core-library.legacyadapters.sortstable.md) | <code>static</code> | Prior to Node 11.x, the <code>Array.sort()</code> algorithm is not guaranteed to be stable. If you need a stable sort, you can use <code>sortStable()</code> as a workaround. |
 

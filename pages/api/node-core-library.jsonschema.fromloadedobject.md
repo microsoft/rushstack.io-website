@@ -14,14 +14,14 @@ Registers a JsonSchema that will be loaded from a file on disk.
 <b>Signature:</b>
 
 ```typescript
-static fromLoadedObject(schemaObject: Object): JsonSchema;
+static fromLoadedObject(schemaObject: JsonObject): JsonSchema;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  schemaObject | <code>Object</code> |  |
+|  schemaObject | <code>JsonObject</code> |  |
 
 <b>Returns:</b>
 

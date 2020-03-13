@@ -21,6 +21,6 @@ export interface IFileSystemReadFileOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [convertLineEndings](./node-core-library.ifilesystemreadfileoptions.convertlineendings.md) | <code>NewlineKind</code> | If specified, will normalize line endings to the specified style of newline. Defaults to <code>NewlineKind.None</code>. |
-|  [encoding](./node-core-library.ifilesystemreadfileoptions.encoding.md) | <code>Encoding</code> | If specified, will change the encoding of the file that will be written. Defaults to <code>&quot;utf8&quot;</code>. |
+|  [convertLineEndings](./node-core-library.ifilesystemreadfileoptions.convertlineendings.md) | <code>NewlineKind</code> | If specified, will normalize line endings to the specified style of newline. |
+|  [encoding](./node-core-library.ifilesystemreadfileoptions.encoding.md) | <code>Encoding</code> | If specified, will change the encoding of the file that will be written. |
 

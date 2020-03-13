@@ -21,4 +21,7 @@ improve_this_button: false
 |  [@microsoft/rush-lib](./rush-lib.md) | A library for writing scripts that interact with the [Rush](https://rushjs.io/) tool. |
 |  [@microsoft/stream-collator](./stream-collator.md) | This library enables a tool to display live console output from multiple asynchronous processes, while ensuring that their output does not get jumbled together. |
 |  [@microsoft/ts-command-line](./ts-command-line.md) | An object-oriented command-line parser for TypeScript projects. |
+|  [@rushstack/debug-certificate-manager](./debug-certificate-manager.md) | This package is used to manage debug certificates for development servers. It is used by \[@<!-- -->microsoft/gulp-core-build-serve\](https://www.npmjs.com/package/<!-- -->@<!-- -->microsoft/gulp-core-build-serve) to generate and trust a certificate when HTTPS is turned on.<!-- -->This package provides the following utilities: - <code>CertificateStore</code> to handle retrieving and saving a debug certificate. - <code>CertificateManager</code> is a utility class containing the following public methods: \| - <code>ensureCertificate</code> will find or optionally create a debug certificate and trust it. \| - <code>untrustCertificate</code> will untrust a debug certificate. |
+|  [@rushstack/localization-plugin](./localization-plugin.md) |  |
+|  [@rushstack/typings-generator](./typings-generator.md) |  |
 

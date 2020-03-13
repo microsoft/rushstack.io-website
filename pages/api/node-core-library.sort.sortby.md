@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## Sort.sortBy() method
 
-Sorts the array according to a key which is obtained from the array elements.
+Sorts the array according to a key which is obtained from the array elements. The result is guaranteed to be a stable sort.
 
 <b>Signature:</b>
 

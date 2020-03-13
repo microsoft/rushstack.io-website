@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemReadFileOptions.encoding property
 
-If specified, will change the encoding of the file that will be written. Defaults to `"utf8"`<!-- -->.
+If specified, will change the encoding of the file that will be written.
 
 <b>Signature:</b>
 

@@ -97,6 +97,8 @@ api_nav:
             url: /pages/api/api-extractor.extractorconfig.apireportenabled
           - title: betaTrimmedFilePath
             url: /pages/api/api-extractor.extractorconfig.betatrimmedfilepath
+          - title: bundledPackages
+            url: /pages/api/api-extractor.extractorconfig.bundledpackages
           - title: docModelEnabled
             url: /pages/api/api-extractor.extractorconfig.docmodelenabled
           - title: FILENAME
@@ -115,6 +117,8 @@ api_nav:
             url: /pages/api/api-extractor.extractorconfig.mainentrypointfilepath
           - title: messages
             url: /pages/api/api-extractor.extractorconfig.messages
+          - title: newlineKind
+            url: /pages/api/api-extractor.extractorconfig.newlinekind
           - title: omitTrimmingComments
             url: /pages/api/api-extractor.extractorconfig.omittrimmingcomments
           - title: overrideTsconfig
@@ -245,6 +249,8 @@ api_nav:
         subitems:
           - title: apiReport
             url: /pages/api/api-extractor.iconfigfile.apireport
+          - title: bundledPackages
+            url: /pages/api/api-extractor.iconfigfile.bundledpackages
           - title: compiler
             url: /pages/api/api-extractor.iconfigfile.compiler
           - title: docModel
@@ -257,6 +263,8 @@ api_nav:
             url: /pages/api/api-extractor.iconfigfile.mainentrypointfilepath
           - title: messages
             url: /pages/api/api-extractor.iconfigfile.messages
+          - title: newlineKind
+            url: /pages/api/api-extractor.iconfigfile.newlinekind
           - title: projectFolder
             url: /pages/api/api-extractor.iconfigfile.projectfolder
           - title: testMode
@@ -1444,6 +1452,8 @@ api_nav:
             url: /pages/api/node-core-library.jsonfile.updatestring
           - title: validateNoUndefinedMembers
             url: /pages/api/node-core-library.jsonfile.validatenoundefinedmembers
+      - title: JsonObject
+        url: /pages/api/node-core-library.jsonobject
       - title: JsonSchema
         url: /pages/api/node-core-library.jsonschema
         subitems:
@@ -1474,6 +1484,8 @@ api_nav:
             url: /pages/api/node-core-library.legacyadapters.convertcallbacktopromise_4
           - title: scrubError
             url: /pages/api/node-core-library.legacyadapters.scruberror
+          - title: sortStable
+            url: /pages/api/node-core-library.legacyadapters.sortstable
       - title: LegacyCallback
         url: /pages/api/node-core-library.legacycallback
       - title: LockFile
@@ -1643,6 +1655,8 @@ api_nav:
       - title: Text
         url: /pages/api/node-core-library.text
         subitems:
+          - title: convertTo
+            url: /pages/api/node-core-library.text.convertto
           - title: convertToCrLf
             url: /pages/api/node-core-library.text.converttocrlf
           - title: convertToLf
@@ -1662,6 +1676,8 @@ api_nav:
   - title: '@microsoft/package-deps-hash'
     url: /pages/api/package-deps-hash
     subitems:
+      - title: getGitHashForFiles
+        url: /pages/api/package-deps-hash.getgithashforfiles
       - title: getPackageDeps
         url: /pages/api/package-deps-hash.getpackagedeps
       - title: IPackageDeps
@@ -1729,6 +1745,8 @@ api_nav:
             url: /pages/api/rush-lib.commonversionsconfiguration.filepath
           - title: getAllPreferredVersions
             url: /pages/api/rush-lib.commonversionsconfiguration.getallpreferredversions
+          - title: implicitlyPreferredVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.implicitlypreferredversions
           - title: loadFromFile
             url: /pages/api/rush-lib.commonversionsconfiguration.loadfromfile
           - title: preferredVersions
@@ -1748,6 +1766,16 @@ api_nav:
         subitems:
           - title: get
             url: /pages/api/rush-lib.eventhooks.get
+      - title: ExperimentsConfiguration
+        url: /pages/api/rush-lib.experimentsconfiguration
+        subitems:
+          - title: configuration
+            url: /pages/api/rush-lib.experimentsconfiguration.configuration
+      - title: IExperimentsJson
+        url: /pages/api/rush-lib.iexperimentsjson
+        subitems:
+          - title: legacyIncrementalBuildDependencyDetection
+            url: /pages/api/rush-lib.iexperimentsjson.legacyincrementalbuilddependencydetection
       - title: ILaunchOptions
         url: /pages/api/rush-lib.ilaunchoptions
         subitems:
@@ -1844,10 +1872,16 @@ api_nav:
       - title: PnpmOptionsConfiguration
         url: /pages/api/rush-lib.pnpmoptionsconfiguration
         subitems:
+          - title: pnpmStore
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.pnpmstore
+          - title: pnpmStorePath
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.pnpmstorepath
           - title: resolutionStrategy
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.resolutionstrategy
           - title: strictPeerDependencies
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.strictpeerdependencies
+      - title: PnpmStoreOptions
+        url: /pages/api/rush-lib.pnpmstoreoptions
       - title: ResolutionStrategy
         url: /pages/api/rush-lib.resolutionstrategy
       - title: Rush
@@ -1886,6 +1920,8 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.ensureconsistentversions
           - title: eventHooks
             url: /pages/api/rush-lib.rushconfiguration.eventhooks
+          - title: experimentsConfiguration
+            url: /pages/api/rush-lib.rushconfiguration.experimentsconfiguration
           - title: findProjectByShorthandName
             url: /pages/api/rush-lib.rushconfiguration.findprojectbyshorthandname
           - title: findProjectByTempName
@@ -1926,8 +1962,6 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.packagemanagerwrapper
           - title: pnpmOptions
             url: /pages/api/rush-lib.rushconfiguration.pnpmoptions
-          - title: pnpmStoreFolder
-            url: /pages/api/rush-lib.rushconfiguration.pnpmstorefolder
           - title: projectFolderMaxDepth
             url: /pages/api/rush-lib.rushconfiguration.projectfoldermaxdepth
           - title: projectFolderMinDepth
@@ -1936,6 +1970,12 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.projects
           - title: projectsByName
             url: /pages/api/rush-lib.rushconfiguration.projectsbyname
+          - title: repositoryDefaultBranch
+            url: /pages/api/rush-lib.rushconfiguration.repositorydefaultbranch
+          - title: repositoryDefaultFullyQualifiedRemoteBranch
+            url: /pages/api/rush-lib.rushconfiguration.repositorydefaultfullyqualifiedremotebranch
+          - title: repositoryDefaultRemote
+            url: /pages/api/rush-lib.rushconfiguration.repositorydefaultremote
           - title: repositoryUrl
             url: /pages/api/rush-lib.rushconfiguration.repositoryurl
           - title: rushJsonFile
@@ -1989,6 +2029,8 @@ api_nav:
             url: /pages/api/rush-lib.rushconfigurationproject.projectrushtempfolder
           - title: reviewCategory
             url: /pages/api/rush-lib.rushconfigurationproject.reviewcategory
+          - title: rushConfiguration
+            url: /pages/api/rush-lib.rushconfigurationproject.rushconfiguration
           - title: shouldPublish
             url: /pages/api/rush-lib.rushconfigurationproject.shouldpublish
           - title: skipRushCheck
@@ -2289,3 +2331,215 @@ api_nav:
             url: /pages/api/ts-command-line.icommandlinestringdefinition.defaultvalue
       - title: ICommandLineStringListDefinition
         url: /pages/api/ts-command-line.icommandlinestringlistdefinition
+  - title: '@rushstack/debug-certificate-manager'
+    url: /pages/api/debug-certificate-manager
+    subitems:
+      - title: CertificateManager
+        url: /pages/api/debug-certificate-manager.certificatemanager
+        subitems:
+          - title: (constructor)
+            url: /pages/api/debug-certificate-manager.certificatemanager._constructor_
+          - title: ensureCertificate
+            url: /pages/api/debug-certificate-manager.certificatemanager.ensurecertificate
+          - title: untrustCertificate
+            url: /pages/api/debug-certificate-manager.certificatemanager.untrustcertificate
+      - title: CertificateStore
+        url: /pages/api/debug-certificate-manager.certificatestore
+        subitems:
+          - title: (constructor)
+            url: /pages/api/debug-certificate-manager.certificatestore._constructor_
+          - title: certificateData
+            url: /pages/api/debug-certificate-manager.certificatestore.certificatedata
+          - title: certificatePath
+            url: /pages/api/debug-certificate-manager.certificatestore.certificatepath
+          - title: keyData
+            url: /pages/api/debug-certificate-manager.certificatestore.keydata
+      - title: ICertificate
+        url: /pages/api/debug-certificate-manager.icertificate
+        subitems:
+          - title: pemCertificate
+            url: /pages/api/debug-certificate-manager.icertificate.pemcertificate
+          - title: pemKey
+            url: /pages/api/debug-certificate-manager.icertificate.pemkey
+  - title: '@rushstack/localization-plugin'
+    url: /pages/api/localization-plugin
+    subitems:
+      - title: IDefaultLocaleOptions
+        url: /pages/api/localization-plugin.idefaultlocaleoptions
+        subitems:
+          - title: fillMissingTranslationStrings
+            url: /pages/api/localization-plugin.idefaultlocaleoptions.fillmissingtranslationstrings
+          - title: localeName
+            url: /pages/api/localization-plugin.idefaultlocaleoptions.localename
+      - title: ILocaleData
+        url: /pages/api/localization-plugin.ilocaledata
+      - title: ILocaleElementMap
+        url: /pages/api/localization-plugin.ilocaleelementmap
+      - title: ILocaleFileData
+        url: /pages/api/localization-plugin.ilocalefiledata
+      - title: ILocalizationPluginOptions
+        url: /pages/api/localization-plugin.ilocalizationpluginoptions
+        subitems:
+          - title: filesToIgnore
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.filestoignore
+          - title: localizationStats
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.localizationstats
+          - title: localizedData
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.localizeddata
+          - title: noStringsLocaleName
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.nostringslocalename
+          - title: typingsOptions
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.typingsoptions
+      - title: ILocalizationStats
+        url: /pages/api/localization-plugin.ilocalizationstats
+        subitems:
+          - title: entrypoints
+            url: /pages/api/localization-plugin.ilocalizationstats.entrypoints
+          - title: namedChunkGroups
+            url: /pages/api/localization-plugin.ilocalizationstats.namedchunkgroups
+      - title: ILocalizationStatsChunkGroup
+        url: /pages/api/localization-plugin.ilocalizationstatschunkgroup
+        subitems:
+          - title: localizedAssets
+            url: /pages/api/localization-plugin.ilocalizationstatschunkgroup.localizedassets
+      - title: ILocalizationStatsEntrypoint
+        url: /pages/api/localization-plugin.ilocalizationstatsentrypoint
+        subitems:
+          - title: localizedAssets
+            url: /pages/api/localization-plugin.ilocalizationstatsentrypoint.localizedassets
+      - title: ILocalizationStatsOptions
+        url: /pages/api/localization-plugin.ilocalizationstatsoptions
+        subitems:
+          - title: callback
+            url: /pages/api/localization-plugin.ilocalizationstatsoptions.callback
+          - title: dropPath
+            url: /pages/api/localization-plugin.ilocalizationstatsoptions.droppath
+      - title: ILocalizedData
+        url: /pages/api/localization-plugin.ilocalizeddata
+        subitems:
+          - title: defaultLocale
+            url: /pages/api/localization-plugin.ilocalizeddata.defaultlocale
+          - title: passthroughLocale
+            url: /pages/api/localization-plugin.ilocalizeddata.passthroughlocale
+          - title: pseudolocales
+            url: /pages/api/localization-plugin.ilocalizeddata.pseudolocales
+          - title: translatedStrings
+            url: /pages/api/localization-plugin.ilocalizeddata.translatedstrings
+      - title: ILocalizedStrings
+        url: /pages/api/localization-plugin.ilocalizedstrings
+      - title: ILocalizedWebpackChunk
+        url: /pages/api/localization-plugin.ilocalizedwebpackchunk
+        subitems:
+          - title: localizedFiles
+            url: /pages/api/localization-plugin.ilocalizedwebpackchunk.localizedfiles
+      - title: IPassthroughLocaleOptions
+        url: /pages/api/localization-plugin.ipassthroughlocaleoptions
+        subitems:
+          - title: passthroughLocaleName
+            url: /pages/api/localization-plugin.ipassthroughlocaleoptions.passthroughlocalename
+          - title: usePassthroughLocale
+            url: /pages/api/localization-plugin.ipassthroughlocaleoptions.usepassthroughlocale
+      - title: IPseudolocaleOptions
+        url: /pages/api/localization-plugin.ipseudolocaleoptions
+        subitems:
+          - title: append
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.append
+          - title: delimiter
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.delimiter
+          - title: endDelimiter
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.enddelimiter
+          - title: extend
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.extend
+          - title: override
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.override
+          - title: prepend
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.prepend
+          - title: startDelimiter
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.startdelimiter
+      - title: IPseudolocalesOptions
+        url: /pages/api/localization-plugin.ipseudolocalesoptions
+      - title: ITypingsGenerationOptions
+        url: /pages/api/localization-plugin.itypingsgenerationoptions
+        subitems:
+          - title: exportAsDefault
+            url: /pages/api/localization-plugin.itypingsgenerationoptions.exportasdefault
+          - title: generatedTsFolder
+            url: /pages/api/localization-plugin.itypingsgenerationoptions.generatedtsfolder
+          - title: sourceRoot
+            url: /pages/api/localization-plugin.itypingsgenerationoptions.sourceroot
+      - title: ITypingsGeneratorOptions
+        url: /pages/api/localization-plugin.itypingsgeneratoroptions
+        subitems:
+          - title: exportAsDefault
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.exportasdefault
+          - title: filesToIgnore
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.filestoignore
+          - title: generatedTsFolder
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.generatedtsfolder
+          - title: srcFolder
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.srcfolder
+          - title: terminal
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.terminal
+      - title: LocalizationPlugin
+        url: /pages/api/localization-plugin.localizationplugin
+        subitems:
+          - title: (constructor)
+            url: /pages/api/localization-plugin.localizationplugin._constructor_
+          - title: apply
+            url: /pages/api/localization-plugin.localizationplugin.apply
+      - title: TypingsGenerator
+        url: /pages/api/localization-plugin.typingsgenerator
+        subitems:
+          - title: (constructor)
+            url: /pages/api/localization-plugin.typingsgenerator._constructor_
+  - title: '@rushstack/typings-generator'
+    url: /pages/api/typings-generator
+    subitems:
+      - title: IStringValuesTypingsGeneratorOptions
+        url: /pages/api/typings-generator.istringvaluestypingsgeneratoroptions
+        subitems:
+          - title: exportAsDefault
+            url: /pages/api/typings-generator.istringvaluestypingsgeneratoroptions.exportasdefault
+      - title: IStringValueTyping
+        url: /pages/api/typings-generator.istringvaluetyping
+        subitems:
+          - title: comment
+            url: /pages/api/typings-generator.istringvaluetyping.comment
+          - title: exportName
+            url: /pages/api/typings-generator.istringvaluetyping.exportname
+      - title: IStringValueTypings
+        url: /pages/api/typings-generator.istringvaluetypings
+        subitems:
+          - title: typings
+            url: /pages/api/typings-generator.istringvaluetypings.typings
+      - title: ITypingsGeneratorOptions
+        url: /pages/api/typings-generator.itypingsgeneratoroptions
+        subitems:
+          - title: fileExtensions
+            url: /pages/api/typings-generator.itypingsgeneratoroptions.fileextensions
+          - title: filesToIgnore
+            url: /pages/api/typings-generator.itypingsgeneratoroptions.filestoignore
+          - title: generatedTsFolder
+            url: /pages/api/typings-generator.itypingsgeneratoroptions.generatedtsfolder
+          - title: parseAndGenerateTypings
+            url: /pages/api/typings-generator.itypingsgeneratoroptions.parseandgeneratetypings
+          - title: srcFolder
+            url: /pages/api/typings-generator.itypingsgeneratoroptions.srcfolder
+          - title: terminal
+            url: /pages/api/typings-generator.itypingsgeneratoroptions.terminal
+      - title: StringValuesTypingsGenerator
+        url: /pages/api/typings-generator.stringvaluestypingsgenerator
+        subitems:
+          - title: (constructor)
+            url: /pages/api/typings-generator.stringvaluestypingsgenerator._constructor_
+      - title: TypingsGenerator
+        url: /pages/api/typings-generator.typingsgenerator
+        subitems:
+          - title: _options
+            url: /pages/api/typings-generator.typingsgenerator._options
+          - title: (constructor)
+            url: /pages/api/typings-generator.typingsgenerator._constructor_
+          - title: generateTypings
+            url: /pages/api/typings-generator.typingsgenerator.generatetypings
+          - title: runWatcher
+            url: /pages/api/typings-generator.typingsgenerator.runwatcher
