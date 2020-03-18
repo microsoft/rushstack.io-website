@@ -1060,7 +1060,588 @@ api_nav:
             url: /pages/api/api-extractor-model.typeparameter.name
           - title: tsdocTypeParamBlock
             url: /pages/api/api-extractor-model.typeparameter.tsdoctypeparamblock
-  - title: '@microsoft/node-core-library'
+  - title: '@microsoft/rush-lib'
+    url: /pages/api/rush-lib
+    subitems:
+      - title: ApprovedPackagesConfiguration
+        url: /pages/api/rush-lib.approvedpackagesconfiguration
+        subitems:
+          - title: (constructor)
+            url: /pages/api/rush-lib.approvedpackagesconfiguration._constructor_
+          - title: addOrUpdatePackage
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.addorupdatepackage
+          - title: clear
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.clear
+          - title: getItemByName
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.getitembyname
+          - title: items
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.items
+          - title: loadFromFile
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.loadfromfile
+          - title: saveToFile
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.savetofile
+          - title: tryLoadFromFile
+            url: /pages/api/rush-lib.approvedpackagesconfiguration.tryloadfromfile
+      - title: ApprovedPackagesItem
+        url: /pages/api/rush-lib.approvedpackagesitem
+        subitems:
+          - title: allowedCategories
+            url: /pages/api/rush-lib.approvedpackagesitem.allowedcategories
+          - title: packageName
+            url: /pages/api/rush-lib.approvedpackagesitem.packagename
+      - title: ApprovedPackagesPolicy
+        url: /pages/api/rush-lib.approvedpackagespolicy
+        subitems:
+          - title: browserApprovedPackages
+            url: /pages/api/rush-lib.approvedpackagespolicy.browserapprovedpackages
+          - title: enabled
+            url: /pages/api/rush-lib.approvedpackagespolicy.enabled
+          - title: ignoredNpmScopes
+            url: /pages/api/rush-lib.approvedpackagespolicy.ignorednpmscopes
+          - title: nonbrowserApprovedPackages
+            url: /pages/api/rush-lib.approvedpackagespolicy.nonbrowserapprovedpackages
+          - title: reviewCategories
+            url: /pages/api/rush-lib.approvedpackagespolicy.reviewcategories
+      - title: BumpType
+        url: /pages/api/rush-lib.bumptype
+      - title: ChangeManager
+        url: /pages/api/rush-lib.changemanager
+        subitems:
+          - title: createEmptyChangeFiles
+            url: /pages/api/rush-lib.changemanager.createemptychangefiles
+      - title: CommonVersionsConfiguration
+        url: /pages/api/rush-lib.commonversionsconfiguration
+        subitems:
+          - title: allowedAlternativeVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.allowedalternativeversions
+          - title: filePath
+            url: /pages/api/rush-lib.commonversionsconfiguration.filepath
+          - title: getAllPreferredVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.getallpreferredversions
+          - title: implicitlyPreferredVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.implicitlypreferredversions
+          - title: loadFromFile
+            url: /pages/api/rush-lib.commonversionsconfiguration.loadfromfile
+          - title: preferredVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.preferredversions
+          - title: save
+            url: /pages/api/rush-lib.commonversionsconfiguration.save
+          - title: xstitchPreferredVersions
+            url: /pages/api/rush-lib.commonversionsconfiguration.xstitchpreferredversions
+      - title: DependencyType
+        url: /pages/api/rush-lib.dependencytype
+      - title: EnvironmentVariableNames
+        url: /pages/api/rush-lib.environmentvariablenames
+      - title: Event
+        url: /pages/api/rush-lib.event
+      - title: EventHooks
+        url: /pages/api/rush-lib.eventhooks
+        subitems:
+          - title: get
+            url: /pages/api/rush-lib.eventhooks.get
+      - title: ExperimentsConfiguration
+        url: /pages/api/rush-lib.experimentsconfiguration
+        subitems:
+          - title: configuration
+            url: /pages/api/rush-lib.experimentsconfiguration.configuration
+      - title: IConfigurationEnvironment
+        url: /pages/api/rush-lib.iconfigurationenvironment
+      - title: IConfigurationEnvironmentVariable
+        url: /pages/api/rush-lib.iconfigurationenvironmentvariable
+        subitems:
+          - title: override
+            url: /pages/api/rush-lib.iconfigurationenvironmentvariable.override
+          - title: value
+            url: /pages/api/rush-lib.iconfigurationenvironmentvariable.value
+      - title: IExperimentsJson
+        url: /pages/api/rush-lib.iexperimentsjson
+        subitems:
+          - title: legacyIncrementalBuildDependencyDetection
+            url: /pages/api/rush-lib.iexperimentsjson.legacyincrementalbuilddependencydetection
+      - title: ILaunchOptions
+        url: /pages/api/rush-lib.ilaunchoptions
+        subitems:
+          - title: alreadyReportedNodeTooNewError
+            url: /pages/api/rush-lib.ilaunchoptions.alreadyreportednodetoonewerror
+          - title: isManaged
+            url: /pages/api/rush-lib.ilaunchoptions.ismanaged
+      - title: IndividualVersionPolicy
+        url: /pages/api/rush-lib.individualversionpolicy
+        subitems:
+          - title: bump
+            url: /pages/api/rush-lib.individualversionpolicy.bump
+          - title: ensure
+            url: /pages/api/rush-lib.individualversionpolicy.ensure
+          - title: lockedMajor
+            url: /pages/api/rush-lib.individualversionpolicy.lockedmajor
+          - title: validate
+            url: /pages/api/rush-lib.individualversionpolicy.validate
+      - title: IPackageManagerOptionsJsonBase
+        url: /pages/api/rush-lib.ipackagemanageroptionsjsonbase
+        subitems:
+          - title: environmentVariables
+            url: /pages/api/rush-lib.ipackagemanageroptionsjsonbase.environmentvariables
+      - title: ITryFindRushJsonLocationOptions
+        url: /pages/api/rush-lib.itryfindrushjsonlocationoptions
+        subitems:
+          - title: showVerbose
+            url: /pages/api/rush-lib.itryfindrushjsonlocationoptions.showverbose
+          - title: startingFolder
+            url: /pages/api/rush-lib.itryfindrushjsonlocationoptions.startingfolder
+      - title: LockStepVersionPolicy
+        url: /pages/api/rush-lib.lockstepversionpolicy
+        subitems:
+          - title: bump
+            url: /pages/api/rush-lib.lockstepversionpolicy.bump
+          - title: ensure
+            url: /pages/api/rush-lib.lockstepversionpolicy.ensure
+          - title: mainProject
+            url: /pages/api/rush-lib.lockstepversionpolicy.mainproject
+          - title: nextBump
+            url: /pages/api/rush-lib.lockstepversionpolicy.nextbump
+          - title: update
+            url: /pages/api/rush-lib.lockstepversionpolicy.update
+          - title: validate
+            url: /pages/api/rush-lib.lockstepversionpolicy.validate
+          - title: version
+            url: /pages/api/rush-lib.lockstepversionpolicy.version
+      - title: NpmOptionsConfiguration
+        url: /pages/api/rush-lib.npmoptionsconfiguration
+      - title: PackageJsonDependency
+        url: /pages/api/rush-lib.packagejsondependency
+        subitems:
+          - title: (constructor)
+            url: /pages/api/rush-lib.packagejsondependency._constructor_
+          - title: dependencyType
+            url: /pages/api/rush-lib.packagejsondependency.dependencytype
+          - title: name
+            url: /pages/api/rush-lib.packagejsondependency.name
+          - title: setVersion
+            url: /pages/api/rush-lib.packagejsondependency.setversion
+          - title: version
+            url: /pages/api/rush-lib.packagejsondependency.version
+      - title: PackageJsonEditor
+        url: /pages/api/rush-lib.packagejsoneditor
+        subitems:
+          - title: addOrUpdateDependency
+            url: /pages/api/rush-lib.packagejsoneditor.addorupdatedependency
+          - title: dependencyList
+            url: /pages/api/rush-lib.packagejsoneditor.dependencylist
+          - title: devDependencyList
+            url: /pages/api/rush-lib.packagejsoneditor.devdependencylist
+          - title: filePath
+            url: /pages/api/rush-lib.packagejsoneditor.filepath
+          - title: fromObject
+            url: /pages/api/rush-lib.packagejsoneditor.fromobject
+          - title: load
+            url: /pages/api/rush-lib.packagejsoneditor.load
+          - title: name
+            url: /pages/api/rush-lib.packagejsoneditor.name
+          - title: saveIfModified
+            url: /pages/api/rush-lib.packagejsoneditor.saveifmodified
+          - title: tryGetDependency
+            url: /pages/api/rush-lib.packagejsoneditor.trygetdependency
+          - title: tryGetDevDependency
+            url: /pages/api/rush-lib.packagejsoneditor.trygetdevdependency
+          - title: version
+            url: /pages/api/rush-lib.packagejsoneditor.version
+      - title: PackageManager
+        url: /pages/api/rush-lib.packagemanager
+        subitems:
+          - title: _shrinkwrapFilename
+            url: /pages/api/rush-lib.packagemanager._shrinkwrapfilename
+          - title: packageManager
+            url: /pages/api/rush-lib.packagemanager.packagemanager
+          - title: shrinkwrapFilename
+            url: /pages/api/rush-lib.packagemanager.shrinkwrapfilename
+          - title: version
+            url: /pages/api/rush-lib.packagemanager.version
+      - title: PackageManagerName
+        url: /pages/api/rush-lib.packagemanagername
+      - title: PackageManagerOptionsConfigurationBase
+        url: /pages/api/rush-lib.packagemanageroptionsconfigurationbase
+        subitems:
+          - title: environmentVariables
+            url: /pages/api/rush-lib.packagemanageroptionsconfigurationbase.environmentvariables
+      - title: PnpmOptionsConfiguration
+        url: /pages/api/rush-lib.pnpmoptionsconfiguration
+        subitems:
+          - title: pnpmStore
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.pnpmstore
+          - title: pnpmStorePath
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.pnpmstorepath
+          - title: resolutionStrategy
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.resolutionstrategy
+          - title: strictPeerDependencies
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.strictpeerdependencies
+      - title: PnpmStoreOptions
+        url: /pages/api/rush-lib.pnpmstoreoptions
+      - title: ResolutionStrategy
+        url: /pages/api/rush-lib.resolutionstrategy
+      - title: Rush
+        url: /pages/api/rush-lib.rush
+        subitems:
+          - title: launch
+            url: /pages/api/rush-lib.rush.launch
+          - title: launchRushX
+            url: /pages/api/rush-lib.rush.launchrushx
+          - title: version
+            url: /pages/api/rush-lib.rush.version
+      - title: RushConfiguration
+        url: /pages/api/rush-lib.rushconfiguration
+        subitems:
+          - title: approvedPackagesPolicy
+            url: /pages/api/rush-lib.rushconfiguration.approvedpackagespolicy
+          - title: changesFolder
+            url: /pages/api/rush-lib.rushconfiguration.changesfolder
+          - title: committedShrinkwrapFilename
+            url: /pages/api/rush-lib.rushconfiguration.committedshrinkwrapfilename
+          - title: commonFolder
+            url: /pages/api/rush-lib.rushconfiguration.commonfolder
+          - title: commonRushConfigFolder
+            url: /pages/api/rush-lib.rushconfiguration.commonrushconfigfolder
+          - title: commonScriptsFolder
+            url: /pages/api/rush-lib.rushconfiguration.commonscriptsfolder
+          - title: commonTempFolder
+            url: /pages/api/rush-lib.rushconfiguration.commontempfolder
+          - title: commonVersions
+            url: /pages/api/rush-lib.rushconfiguration.commonversions
+          - title: currentInstalledVariant
+            url: /pages/api/rush-lib.rushconfiguration.currentinstalledvariant
+          - title: currentVariantJsonFilename
+            url: /pages/api/rush-lib.rushconfiguration.currentvariantjsonfilename
+          - title: ensureConsistentVersions
+            url: /pages/api/rush-lib.rushconfiguration.ensureconsistentversions
+          - title: eventHooks
+            url: /pages/api/rush-lib.rushconfiguration.eventhooks
+          - title: experimentsConfiguration
+            url: /pages/api/rush-lib.rushconfiguration.experimentsconfiguration
+          - title: findProjectByShorthandName
+            url: /pages/api/rush-lib.rushconfiguration.findprojectbyshorthandname
+          - title: findProjectByTempName
+            url: /pages/api/rush-lib.rushconfiguration.findprojectbytempname
+          - title: getCommittedShrinkwrapFilename
+            url: /pages/api/rush-lib.rushconfiguration.getcommittedshrinkwrapfilename
+          - title: getCommonVersions
+            url: /pages/api/rush-lib.rushconfiguration.getcommonversions
+          - title: getCommonVersionsFilePath
+            url: /pages/api/rush-lib.rushconfiguration.getcommonversionsfilepath
+          - title: getPnpmfilePath
+            url: /pages/api/rush-lib.rushconfiguration.getpnpmfilepath
+          - title: getProjectByName
+            url: /pages/api/rush-lib.rushconfiguration.getprojectbyname
+          - title: gitAllowedEmailRegExps
+            url: /pages/api/rush-lib.rushconfiguration.gitallowedemailregexps
+          - title: gitSampleEmail
+            url: /pages/api/rush-lib.rushconfiguration.gitsampleemail
+          - title: gitVersionBumpCommitMessage
+            url: /pages/api/rush-lib.rushconfiguration.gitversionbumpcommitmessage
+          - title: hotfixChangeEnabled
+            url: /pages/api/rush-lib.rushconfiguration.hotfixchangeenabled
+          - title: loadFromConfigurationFile
+            url: /pages/api/rush-lib.rushconfiguration.loadfromconfigurationfile
+          - title: loadFromDefaultLocation
+            url: /pages/api/rush-lib.rushconfiguration.loadfromdefaultlocation
+          - title: npmCacheFolder
+            url: /pages/api/rush-lib.rushconfiguration.npmcachefolder
+          - title: npmOptions
+            url: /pages/api/rush-lib.rushconfiguration.npmoptions
+          - title: npmTmpFolder
+            url: /pages/api/rush-lib.rushconfiguration.npmtmpfolder
+          - title: packageManager
+            url: /pages/api/rush-lib.rushconfiguration.packagemanager
+          - title: packageManagerToolFilename
+            url: /pages/api/rush-lib.rushconfiguration.packagemanagertoolfilename
+          - title: packageManagerToolVersion
+            url: /pages/api/rush-lib.rushconfiguration.packagemanagertoolversion
+          - title: packageManagerWrapper
+            url: /pages/api/rush-lib.rushconfiguration.packagemanagerwrapper
+          - title: pnpmOptions
+            url: /pages/api/rush-lib.rushconfiguration.pnpmoptions
+          - title: projectFolderMaxDepth
+            url: /pages/api/rush-lib.rushconfiguration.projectfoldermaxdepth
+          - title: projectFolderMinDepth
+            url: /pages/api/rush-lib.rushconfiguration.projectfoldermindepth
+          - title: projects
+            url: /pages/api/rush-lib.rushconfiguration.projects
+          - title: projectsByName
+            url: /pages/api/rush-lib.rushconfiguration.projectsbyname
+          - title: repositoryDefaultBranch
+            url: /pages/api/rush-lib.rushconfiguration.repositorydefaultbranch
+          - title: repositoryDefaultFullyQualifiedRemoteBranch
+            url: /pages/api/rush-lib.rushconfiguration.repositorydefaultfullyqualifiedremotebranch
+          - title: repositoryDefaultRemote
+            url: /pages/api/rush-lib.rushconfiguration.repositorydefaultremote
+          - title: repositoryUrl
+            url: /pages/api/rush-lib.rushconfiguration.repositoryurl
+          - title: rushJsonFile
+            url: /pages/api/rush-lib.rushconfiguration.rushjsonfile
+          - title: rushJsonFolder
+            url: /pages/api/rush-lib.rushconfiguration.rushjsonfolder
+          - title: rushLinkJsonFilename
+            url: /pages/api/rush-lib.rushconfiguration.rushlinkjsonfilename
+          - title: shrinkwrapFilename
+            url: /pages/api/rush-lib.rushconfiguration.shrinkwrapfilename
+          - title: shrinkwrapFilePhrase
+            url: /pages/api/rush-lib.rushconfiguration.shrinkwrapfilephrase
+          - title: suppressNodeLtsWarning
+            url: /pages/api/rush-lib.rushconfiguration.suppressnodeltswarning
+          - title: telemetryEnabled
+            url: /pages/api/rush-lib.rushconfiguration.telemetryenabled
+          - title: tempShrinkwrapFilename
+            url: /pages/api/rush-lib.rushconfiguration.tempshrinkwrapfilename
+          - title: tempShrinkwrapPreinstallFilename
+            url: /pages/api/rush-lib.rushconfiguration.tempshrinkwrappreinstallfilename
+          - title: tryFindRushJsonLocation
+            url: /pages/api/rush-lib.rushconfiguration.tryfindrushjsonlocation
+          - title: tryGetProjectForPath
+            url: /pages/api/rush-lib.rushconfiguration.trygetprojectforpath
+          - title: versionPolicyConfiguration
+            url: /pages/api/rush-lib.rushconfiguration.versionpolicyconfiguration
+          - title: yarnCacheFolder
+            url: /pages/api/rush-lib.rushconfiguration.yarncachefolder
+          - title: yarnOptions
+            url: /pages/api/rush-lib.rushconfiguration.yarnoptions
+      - title: RushConfigurationProject
+        url: /pages/api/rush-lib.rushconfigurationproject
+        subitems:
+          - title: cyclicDependencyProjects
+            url: /pages/api/rush-lib.rushconfigurationproject.cyclicdependencyprojects
+          - title: downstreamDependencyProjects
+            url: /pages/api/rush-lib.rushconfigurationproject.downstreamdependencyprojects
+          - title: isMainProject
+            url: /pages/api/rush-lib.rushconfigurationproject.ismainproject
+          - title: packageJson
+            url: /pages/api/rush-lib.rushconfigurationproject.packagejson
+          - title: packageJsonEditor
+            url: /pages/api/rush-lib.rushconfigurationproject.packagejsoneditor
+          - title: packageName
+            url: /pages/api/rush-lib.rushconfigurationproject.packagename
+          - title: projectFolder
+            url: /pages/api/rush-lib.rushconfigurationproject.projectfolder
+          - title: projectRelativeFolder
+            url: /pages/api/rush-lib.rushconfigurationproject.projectrelativefolder
+          - title: projectRushTempFolder
+            url: /pages/api/rush-lib.rushconfigurationproject.projectrushtempfolder
+          - title: reviewCategory
+            url: /pages/api/rush-lib.rushconfigurationproject.reviewcategory
+          - title: rushConfiguration
+            url: /pages/api/rush-lib.rushconfigurationproject.rushconfiguration
+          - title: shouldPublish
+            url: /pages/api/rush-lib.rushconfigurationproject.shouldpublish
+          - title: skipRushCheck
+            url: /pages/api/rush-lib.rushconfigurationproject.skiprushcheck
+          - title: tempProjectName
+            url: /pages/api/rush-lib.rushconfigurationproject.tempprojectname
+          - title: unscopedTempProjectName
+            url: /pages/api/rush-lib.rushconfigurationproject.unscopedtempprojectname
+          - title: versionPolicy
+            url: /pages/api/rush-lib.rushconfigurationproject.versionpolicy
+          - title: versionPolicyName
+            url: /pages/api/rush-lib.rushconfigurationproject.versionpolicyname
+      - title: VersionPolicy
+        url: /pages/api/rush-lib.versionpolicy
+        subitems:
+          - title: bump
+            url: /pages/api/rush-lib.versionpolicy.bump
+          - title: definitionName
+            url: /pages/api/rush-lib.versionpolicy.definitionname
+          - title: ensure
+            url: /pages/api/rush-lib.versionpolicy.ensure
+          - title: exemptFromRushChange
+            url: /pages/api/rush-lib.versionpolicy.exemptfromrushchange
+          - title: isLockstepped
+            url: /pages/api/rush-lib.versionpolicy.islockstepped
+          - title: policyName
+            url: /pages/api/rush-lib.versionpolicy.policyname
+          - title: setDependenciesBeforeCommit
+            url: /pages/api/rush-lib.versionpolicy.setdependenciesbeforecommit
+          - title: setDependenciesBeforePublish
+            url: /pages/api/rush-lib.versionpolicy.setdependenciesbeforepublish
+          - title: validate
+            url: /pages/api/rush-lib.versionpolicy.validate
+      - title: VersionPolicyConfiguration
+        url: /pages/api/rush-lib.versionpolicyconfiguration
+        subitems:
+          - title: bump
+            url: /pages/api/rush-lib.versionpolicyconfiguration.bump
+          - title: getVersionPolicy
+            url: /pages/api/rush-lib.versionpolicyconfiguration.getversionpolicy
+          - title: update
+            url: /pages/api/rush-lib.versionpolicyconfiguration.update
+          - title: validate
+            url: /pages/api/rush-lib.versionpolicyconfiguration.validate
+          - title: versionPolicies
+            url: /pages/api/rush-lib.versionpolicyconfiguration.versionpolicies
+      - title: VersionPolicyDefinitionName
+        url: /pages/api/rush-lib.versionpolicydefinitionname
+      - title: YarnOptionsConfiguration
+        url: /pages/api/rush-lib.yarnoptionsconfiguration
+        subitems:
+          - title: ignoreEngines
+            url: /pages/api/rush-lib.yarnoptionsconfiguration.ignoreengines
+  - title: '@rushstack/debug-certificate-manager'
+    url: /pages/api/debug-certificate-manager
+    subitems:
+      - title: CertificateManager
+        url: /pages/api/debug-certificate-manager.certificatemanager
+        subitems:
+          - title: (constructor)
+            url: /pages/api/debug-certificate-manager.certificatemanager._constructor_
+          - title: ensureCertificate
+            url: /pages/api/debug-certificate-manager.certificatemanager.ensurecertificate
+          - title: untrustCertificate
+            url: /pages/api/debug-certificate-manager.certificatemanager.untrustcertificate
+      - title: CertificateStore
+        url: /pages/api/debug-certificate-manager.certificatestore
+        subitems:
+          - title: (constructor)
+            url: /pages/api/debug-certificate-manager.certificatestore._constructor_
+          - title: certificateData
+            url: /pages/api/debug-certificate-manager.certificatestore.certificatedata
+          - title: certificatePath
+            url: /pages/api/debug-certificate-manager.certificatestore.certificatepath
+          - title: keyData
+            url: /pages/api/debug-certificate-manager.certificatestore.keydata
+      - title: ICertificate
+        url: /pages/api/debug-certificate-manager.icertificate
+        subitems:
+          - title: pemCertificate
+            url: /pages/api/debug-certificate-manager.icertificate.pemcertificate
+          - title: pemKey
+            url: /pages/api/debug-certificate-manager.icertificate.pemkey
+  - title: '@rushstack/localization-plugin'
+    url: /pages/api/localization-plugin
+    subitems:
+      - title: IDefaultLocaleOptions
+        url: /pages/api/localization-plugin.idefaultlocaleoptions
+        subitems:
+          - title: fillMissingTranslationStrings
+            url: /pages/api/localization-plugin.idefaultlocaleoptions.fillmissingtranslationstrings
+          - title: localeName
+            url: /pages/api/localization-plugin.idefaultlocaleoptions.localename
+      - title: ILocaleData
+        url: /pages/api/localization-plugin.ilocaledata
+      - title: ILocaleElementMap
+        url: /pages/api/localization-plugin.ilocaleelementmap
+      - title: ILocaleFileData
+        url: /pages/api/localization-plugin.ilocalefiledata
+      - title: ILocalizationPluginOptions
+        url: /pages/api/localization-plugin.ilocalizationpluginoptions
+        subitems:
+          - title: filesToIgnore
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.filestoignore
+          - title: localizationStats
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.localizationstats
+          - title: localizedData
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.localizeddata
+          - title: noStringsLocaleName
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.nostringslocalename
+          - title: typingsOptions
+            url: /pages/api/localization-plugin.ilocalizationpluginoptions.typingsoptions
+      - title: ILocalizationStats
+        url: /pages/api/localization-plugin.ilocalizationstats
+        subitems:
+          - title: entrypoints
+            url: /pages/api/localization-plugin.ilocalizationstats.entrypoints
+          - title: namedChunkGroups
+            url: /pages/api/localization-plugin.ilocalizationstats.namedchunkgroups
+      - title: ILocalizationStatsChunkGroup
+        url: /pages/api/localization-plugin.ilocalizationstatschunkgroup
+        subitems:
+          - title: localizedAssets
+            url: /pages/api/localization-plugin.ilocalizationstatschunkgroup.localizedassets
+      - title: ILocalizationStatsEntrypoint
+        url: /pages/api/localization-plugin.ilocalizationstatsentrypoint
+        subitems:
+          - title: localizedAssets
+            url: /pages/api/localization-plugin.ilocalizationstatsentrypoint.localizedassets
+      - title: ILocalizationStatsOptions
+        url: /pages/api/localization-plugin.ilocalizationstatsoptions
+        subitems:
+          - title: callback
+            url: /pages/api/localization-plugin.ilocalizationstatsoptions.callback
+          - title: dropPath
+            url: /pages/api/localization-plugin.ilocalizationstatsoptions.droppath
+      - title: ILocalizedData
+        url: /pages/api/localization-plugin.ilocalizeddata
+        subitems:
+          - title: defaultLocale
+            url: /pages/api/localization-plugin.ilocalizeddata.defaultlocale
+          - title: passthroughLocale
+            url: /pages/api/localization-plugin.ilocalizeddata.passthroughlocale
+          - title: pseudolocales
+            url: /pages/api/localization-plugin.ilocalizeddata.pseudolocales
+          - title: translatedStrings
+            url: /pages/api/localization-plugin.ilocalizeddata.translatedstrings
+      - title: ILocalizedStrings
+        url: /pages/api/localization-plugin.ilocalizedstrings
+      - title: ILocalizedWebpackChunk
+        url: /pages/api/localization-plugin.ilocalizedwebpackchunk
+        subitems:
+          - title: localizedFiles
+            url: /pages/api/localization-plugin.ilocalizedwebpackchunk.localizedfiles
+      - title: IPassthroughLocaleOptions
+        url: /pages/api/localization-plugin.ipassthroughlocaleoptions
+        subitems:
+          - title: passthroughLocaleName
+            url: /pages/api/localization-plugin.ipassthroughlocaleoptions.passthroughlocalename
+          - title: usePassthroughLocale
+            url: /pages/api/localization-plugin.ipassthroughlocaleoptions.usepassthroughlocale
+      - title: IPseudolocaleOptions
+        url: /pages/api/localization-plugin.ipseudolocaleoptions
+        subitems:
+          - title: append
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.append
+          - title: delimiter
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.delimiter
+          - title: endDelimiter
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.enddelimiter
+          - title: extend
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.extend
+          - title: override
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.override
+          - title: prepend
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.prepend
+          - title: startDelimiter
+            url: /pages/api/localization-plugin.ipseudolocaleoptions.startdelimiter
+      - title: IPseudolocalesOptions
+        url: /pages/api/localization-plugin.ipseudolocalesoptions
+      - title: ITypingsGenerationOptions
+        url: /pages/api/localization-plugin.itypingsgenerationoptions
+        subitems:
+          - title: exportAsDefault
+            url: /pages/api/localization-plugin.itypingsgenerationoptions.exportasdefault
+          - title: generatedTsFolder
+            url: /pages/api/localization-plugin.itypingsgenerationoptions.generatedtsfolder
+          - title: sourceRoot
+            url: /pages/api/localization-plugin.itypingsgenerationoptions.sourceroot
+      - title: ITypingsGeneratorOptions
+        url: /pages/api/localization-plugin.itypingsgeneratoroptions
+        subitems:
+          - title: exportAsDefault
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.exportasdefault
+          - title: filesToIgnore
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.filestoignore
+          - title: generatedTsFolder
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.generatedtsfolder
+          - title: srcFolder
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.srcfolder
+          - title: terminal
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.terminal
+      - title: LocalizationPlugin
+        url: /pages/api/localization-plugin.localizationplugin
+        subitems:
+          - title: (constructor)
+            url: /pages/api/localization-plugin.localizationplugin._constructor_
+          - title: apply
+            url: /pages/api/localization-plugin.localizationplugin.apply
+      - title: TypingsGenerator
+        url: /pages/api/localization-plugin.typingsgenerator
+        subitems:
+          - title: (constructor)
+            url: /pages/api/localization-plugin.typingsgenerator._constructor_
+  - title: '@rushstack/node-core-library'
     url: /pages/api/node-core-library
     subitems:
       - title: Colors
@@ -1673,7 +2254,7 @@ api_nav:
             url: /pages/api/node-core-library.text.truncatewithellipsis
       - title: TextAttribute
         url: /pages/api/node-core-library.textattribute
-  - title: '@microsoft/package-deps-hash'
+  - title: '@rushstack/package-deps-hash'
     url: /pages/api/package-deps-hash
     subitems:
       - title: getGitHashForFiles
@@ -1687,404 +2268,7 @@ api_nav:
             url: /pages/api/package-deps-hash.ipackagedeps.arguments
           - title: files
             url: /pages/api/package-deps-hash.ipackagedeps.files
-  - title: '@microsoft/rush-lib'
-    url: /pages/api/rush-lib
-    subitems:
-      - title: ApprovedPackagesConfiguration
-        url: /pages/api/rush-lib.approvedpackagesconfiguration
-        subitems:
-          - title: (constructor)
-            url: /pages/api/rush-lib.approvedpackagesconfiguration._constructor_
-          - title: addOrUpdatePackage
-            url: /pages/api/rush-lib.approvedpackagesconfiguration.addorupdatepackage
-          - title: clear
-            url: /pages/api/rush-lib.approvedpackagesconfiguration.clear
-          - title: getItemByName
-            url: /pages/api/rush-lib.approvedpackagesconfiguration.getitembyname
-          - title: items
-            url: /pages/api/rush-lib.approvedpackagesconfiguration.items
-          - title: loadFromFile
-            url: /pages/api/rush-lib.approvedpackagesconfiguration.loadfromfile
-          - title: saveToFile
-            url: /pages/api/rush-lib.approvedpackagesconfiguration.savetofile
-          - title: tryLoadFromFile
-            url: /pages/api/rush-lib.approvedpackagesconfiguration.tryloadfromfile
-      - title: ApprovedPackagesItem
-        url: /pages/api/rush-lib.approvedpackagesitem
-        subitems:
-          - title: allowedCategories
-            url: /pages/api/rush-lib.approvedpackagesitem.allowedcategories
-          - title: packageName
-            url: /pages/api/rush-lib.approvedpackagesitem.packagename
-      - title: ApprovedPackagesPolicy
-        url: /pages/api/rush-lib.approvedpackagespolicy
-        subitems:
-          - title: browserApprovedPackages
-            url: /pages/api/rush-lib.approvedpackagespolicy.browserapprovedpackages
-          - title: enabled
-            url: /pages/api/rush-lib.approvedpackagespolicy.enabled
-          - title: ignoredNpmScopes
-            url: /pages/api/rush-lib.approvedpackagespolicy.ignorednpmscopes
-          - title: nonbrowserApprovedPackages
-            url: /pages/api/rush-lib.approvedpackagespolicy.nonbrowserapprovedpackages
-          - title: reviewCategories
-            url: /pages/api/rush-lib.approvedpackagespolicy.reviewcategories
-      - title: BumpType
-        url: /pages/api/rush-lib.bumptype
-      - title: ChangeManager
-        url: /pages/api/rush-lib.changemanager
-        subitems:
-          - title: createEmptyChangeFiles
-            url: /pages/api/rush-lib.changemanager.createemptychangefiles
-      - title: CommonVersionsConfiguration
-        url: /pages/api/rush-lib.commonversionsconfiguration
-        subitems:
-          - title: allowedAlternativeVersions
-            url: /pages/api/rush-lib.commonversionsconfiguration.allowedalternativeversions
-          - title: filePath
-            url: /pages/api/rush-lib.commonversionsconfiguration.filepath
-          - title: getAllPreferredVersions
-            url: /pages/api/rush-lib.commonversionsconfiguration.getallpreferredversions
-          - title: implicitlyPreferredVersions
-            url: /pages/api/rush-lib.commonversionsconfiguration.implicitlypreferredversions
-          - title: loadFromFile
-            url: /pages/api/rush-lib.commonversionsconfiguration.loadfromfile
-          - title: preferredVersions
-            url: /pages/api/rush-lib.commonversionsconfiguration.preferredversions
-          - title: save
-            url: /pages/api/rush-lib.commonversionsconfiguration.save
-          - title: xstitchPreferredVersions
-            url: /pages/api/rush-lib.commonversionsconfiguration.xstitchpreferredversions
-      - title: DependencyType
-        url: /pages/api/rush-lib.dependencytype
-      - title: EnvironmentVariableNames
-        url: /pages/api/rush-lib.environmentvariablenames
-      - title: Event
-        url: /pages/api/rush-lib.event
-      - title: EventHooks
-        url: /pages/api/rush-lib.eventhooks
-        subitems:
-          - title: get
-            url: /pages/api/rush-lib.eventhooks.get
-      - title: ExperimentsConfiguration
-        url: /pages/api/rush-lib.experimentsconfiguration
-        subitems:
-          - title: configuration
-            url: /pages/api/rush-lib.experimentsconfiguration.configuration
-      - title: IExperimentsJson
-        url: /pages/api/rush-lib.iexperimentsjson
-        subitems:
-          - title: legacyIncrementalBuildDependencyDetection
-            url: /pages/api/rush-lib.iexperimentsjson.legacyincrementalbuilddependencydetection
-      - title: ILaunchOptions
-        url: /pages/api/rush-lib.ilaunchoptions
-        subitems:
-          - title: alreadyReportedNodeTooNewError
-            url: /pages/api/rush-lib.ilaunchoptions.alreadyreportednodetoonewerror
-          - title: isManaged
-            url: /pages/api/rush-lib.ilaunchoptions.ismanaged
-      - title: IndividualVersionPolicy
-        url: /pages/api/rush-lib.individualversionpolicy
-        subitems:
-          - title: bump
-            url: /pages/api/rush-lib.individualversionpolicy.bump
-          - title: ensure
-            url: /pages/api/rush-lib.individualversionpolicy.ensure
-          - title: lockedMajor
-            url: /pages/api/rush-lib.individualversionpolicy.lockedmajor
-          - title: validate
-            url: /pages/api/rush-lib.individualversionpolicy.validate
-      - title: ITryFindRushJsonLocationOptions
-        url: /pages/api/rush-lib.itryfindrushjsonlocationoptions
-        subitems:
-          - title: showVerbose
-            url: /pages/api/rush-lib.itryfindrushjsonlocationoptions.showverbose
-          - title: startingFolder
-            url: /pages/api/rush-lib.itryfindrushjsonlocationoptions.startingfolder
-      - title: LockStepVersionPolicy
-        url: /pages/api/rush-lib.lockstepversionpolicy
-        subitems:
-          - title: bump
-            url: /pages/api/rush-lib.lockstepversionpolicy.bump
-          - title: ensure
-            url: /pages/api/rush-lib.lockstepversionpolicy.ensure
-          - title: mainProject
-            url: /pages/api/rush-lib.lockstepversionpolicy.mainproject
-          - title: nextBump
-            url: /pages/api/rush-lib.lockstepversionpolicy.nextbump
-          - title: update
-            url: /pages/api/rush-lib.lockstepversionpolicy.update
-          - title: validate
-            url: /pages/api/rush-lib.lockstepversionpolicy.validate
-          - title: version
-            url: /pages/api/rush-lib.lockstepversionpolicy.version
-      - title: PackageJsonDependency
-        url: /pages/api/rush-lib.packagejsondependency
-        subitems:
-          - title: (constructor)
-            url: /pages/api/rush-lib.packagejsondependency._constructor_
-          - title: dependencyType
-            url: /pages/api/rush-lib.packagejsondependency.dependencytype
-          - title: name
-            url: /pages/api/rush-lib.packagejsondependency.name
-          - title: setVersion
-            url: /pages/api/rush-lib.packagejsondependency.setversion
-          - title: version
-            url: /pages/api/rush-lib.packagejsondependency.version
-      - title: PackageJsonEditor
-        url: /pages/api/rush-lib.packagejsoneditor
-        subitems:
-          - title: addOrUpdateDependency
-            url: /pages/api/rush-lib.packagejsoneditor.addorupdatedependency
-          - title: dependencyList
-            url: /pages/api/rush-lib.packagejsoneditor.dependencylist
-          - title: devDependencyList
-            url: /pages/api/rush-lib.packagejsoneditor.devdependencylist
-          - title: filePath
-            url: /pages/api/rush-lib.packagejsoneditor.filepath
-          - title: fromObject
-            url: /pages/api/rush-lib.packagejsoneditor.fromobject
-          - title: load
-            url: /pages/api/rush-lib.packagejsoneditor.load
-          - title: name
-            url: /pages/api/rush-lib.packagejsoneditor.name
-          - title: saveIfModified
-            url: /pages/api/rush-lib.packagejsoneditor.saveifmodified
-          - title: tryGetDependency
-            url: /pages/api/rush-lib.packagejsoneditor.trygetdependency
-          - title: tryGetDevDependency
-            url: /pages/api/rush-lib.packagejsoneditor.trygetdevdependency
-          - title: version
-            url: /pages/api/rush-lib.packagejsoneditor.version
-      - title: PackageManager
-        url: /pages/api/rush-lib.packagemanager
-        subitems:
-          - title: _shrinkwrapFilename
-            url: /pages/api/rush-lib.packagemanager._shrinkwrapfilename
-          - title: packageManager
-            url: /pages/api/rush-lib.packagemanager.packagemanager
-          - title: shrinkwrapFilename
-            url: /pages/api/rush-lib.packagemanager.shrinkwrapfilename
-          - title: version
-            url: /pages/api/rush-lib.packagemanager.version
-      - title: PackageManagerName
-        url: /pages/api/rush-lib.packagemanagername
-      - title: PnpmOptionsConfiguration
-        url: /pages/api/rush-lib.pnpmoptionsconfiguration
-        subitems:
-          - title: pnpmStore
-            url: /pages/api/rush-lib.pnpmoptionsconfiguration.pnpmstore
-          - title: pnpmStorePath
-            url: /pages/api/rush-lib.pnpmoptionsconfiguration.pnpmstorepath
-          - title: resolutionStrategy
-            url: /pages/api/rush-lib.pnpmoptionsconfiguration.resolutionstrategy
-          - title: strictPeerDependencies
-            url: /pages/api/rush-lib.pnpmoptionsconfiguration.strictpeerdependencies
-      - title: PnpmStoreOptions
-        url: /pages/api/rush-lib.pnpmstoreoptions
-      - title: ResolutionStrategy
-        url: /pages/api/rush-lib.resolutionstrategy
-      - title: Rush
-        url: /pages/api/rush-lib.rush
-        subitems:
-          - title: launch
-            url: /pages/api/rush-lib.rush.launch
-          - title: launchRushX
-            url: /pages/api/rush-lib.rush.launchrushx
-          - title: version
-            url: /pages/api/rush-lib.rush.version
-      - title: RushConfiguration
-        url: /pages/api/rush-lib.rushconfiguration
-        subitems:
-          - title: approvedPackagesPolicy
-            url: /pages/api/rush-lib.rushconfiguration.approvedpackagespolicy
-          - title: changesFolder
-            url: /pages/api/rush-lib.rushconfiguration.changesfolder
-          - title: committedShrinkwrapFilename
-            url: /pages/api/rush-lib.rushconfiguration.committedshrinkwrapfilename
-          - title: commonFolder
-            url: /pages/api/rush-lib.rushconfiguration.commonfolder
-          - title: commonRushConfigFolder
-            url: /pages/api/rush-lib.rushconfiguration.commonrushconfigfolder
-          - title: commonScriptsFolder
-            url: /pages/api/rush-lib.rushconfiguration.commonscriptsfolder
-          - title: commonTempFolder
-            url: /pages/api/rush-lib.rushconfiguration.commontempfolder
-          - title: commonVersions
-            url: /pages/api/rush-lib.rushconfiguration.commonversions
-          - title: currentInstalledVariant
-            url: /pages/api/rush-lib.rushconfiguration.currentinstalledvariant
-          - title: currentVariantJsonFilename
-            url: /pages/api/rush-lib.rushconfiguration.currentvariantjsonfilename
-          - title: ensureConsistentVersions
-            url: /pages/api/rush-lib.rushconfiguration.ensureconsistentversions
-          - title: eventHooks
-            url: /pages/api/rush-lib.rushconfiguration.eventhooks
-          - title: experimentsConfiguration
-            url: /pages/api/rush-lib.rushconfiguration.experimentsconfiguration
-          - title: findProjectByShorthandName
-            url: /pages/api/rush-lib.rushconfiguration.findprojectbyshorthandname
-          - title: findProjectByTempName
-            url: /pages/api/rush-lib.rushconfiguration.findprojectbytempname
-          - title: getCommittedShrinkwrapFilename
-            url: /pages/api/rush-lib.rushconfiguration.getcommittedshrinkwrapfilename
-          - title: getCommonVersions
-            url: /pages/api/rush-lib.rushconfiguration.getcommonversions
-          - title: getCommonVersionsFilePath
-            url: /pages/api/rush-lib.rushconfiguration.getcommonversionsfilepath
-          - title: getPnpmfilePath
-            url: /pages/api/rush-lib.rushconfiguration.getpnpmfilepath
-          - title: getProjectByName
-            url: /pages/api/rush-lib.rushconfiguration.getprojectbyname
-          - title: gitAllowedEmailRegExps
-            url: /pages/api/rush-lib.rushconfiguration.gitallowedemailregexps
-          - title: gitSampleEmail
-            url: /pages/api/rush-lib.rushconfiguration.gitsampleemail
-          - title: gitVersionBumpCommitMessage
-            url: /pages/api/rush-lib.rushconfiguration.gitversionbumpcommitmessage
-          - title: hotfixChangeEnabled
-            url: /pages/api/rush-lib.rushconfiguration.hotfixchangeenabled
-          - title: loadFromConfigurationFile
-            url: /pages/api/rush-lib.rushconfiguration.loadfromconfigurationfile
-          - title: loadFromDefaultLocation
-            url: /pages/api/rush-lib.rushconfiguration.loadfromdefaultlocation
-          - title: npmCacheFolder
-            url: /pages/api/rush-lib.rushconfiguration.npmcachefolder
-          - title: npmTmpFolder
-            url: /pages/api/rush-lib.rushconfiguration.npmtmpfolder
-          - title: packageManager
-            url: /pages/api/rush-lib.rushconfiguration.packagemanager
-          - title: packageManagerToolFilename
-            url: /pages/api/rush-lib.rushconfiguration.packagemanagertoolfilename
-          - title: packageManagerToolVersion
-            url: /pages/api/rush-lib.rushconfiguration.packagemanagertoolversion
-          - title: packageManagerWrapper
-            url: /pages/api/rush-lib.rushconfiguration.packagemanagerwrapper
-          - title: pnpmOptions
-            url: /pages/api/rush-lib.rushconfiguration.pnpmoptions
-          - title: projectFolderMaxDepth
-            url: /pages/api/rush-lib.rushconfiguration.projectfoldermaxdepth
-          - title: projectFolderMinDepth
-            url: /pages/api/rush-lib.rushconfiguration.projectfoldermindepth
-          - title: projects
-            url: /pages/api/rush-lib.rushconfiguration.projects
-          - title: projectsByName
-            url: /pages/api/rush-lib.rushconfiguration.projectsbyname
-          - title: repositoryDefaultBranch
-            url: /pages/api/rush-lib.rushconfiguration.repositorydefaultbranch
-          - title: repositoryDefaultFullyQualifiedRemoteBranch
-            url: /pages/api/rush-lib.rushconfiguration.repositorydefaultfullyqualifiedremotebranch
-          - title: repositoryDefaultRemote
-            url: /pages/api/rush-lib.rushconfiguration.repositorydefaultremote
-          - title: repositoryUrl
-            url: /pages/api/rush-lib.rushconfiguration.repositoryurl
-          - title: rushJsonFile
-            url: /pages/api/rush-lib.rushconfiguration.rushjsonfile
-          - title: rushJsonFolder
-            url: /pages/api/rush-lib.rushconfiguration.rushjsonfolder
-          - title: rushLinkJsonFilename
-            url: /pages/api/rush-lib.rushconfiguration.rushlinkjsonfilename
-          - title: shrinkwrapFilename
-            url: /pages/api/rush-lib.rushconfiguration.shrinkwrapfilename
-          - title: shrinkwrapFilePhrase
-            url: /pages/api/rush-lib.rushconfiguration.shrinkwrapfilephrase
-          - title: suppressNodeLtsWarning
-            url: /pages/api/rush-lib.rushconfiguration.suppressnodeltswarning
-          - title: telemetryEnabled
-            url: /pages/api/rush-lib.rushconfiguration.telemetryenabled
-          - title: tempShrinkwrapFilename
-            url: /pages/api/rush-lib.rushconfiguration.tempshrinkwrapfilename
-          - title: tempShrinkwrapPreinstallFilename
-            url: /pages/api/rush-lib.rushconfiguration.tempshrinkwrappreinstallfilename
-          - title: tryFindRushJsonLocation
-            url: /pages/api/rush-lib.rushconfiguration.tryfindrushjsonlocation
-          - title: tryGetProjectForPath
-            url: /pages/api/rush-lib.rushconfiguration.trygetprojectforpath
-          - title: versionPolicyConfiguration
-            url: /pages/api/rush-lib.rushconfiguration.versionpolicyconfiguration
-          - title: yarnCacheFolder
-            url: /pages/api/rush-lib.rushconfiguration.yarncachefolder
-          - title: yarnOptions
-            url: /pages/api/rush-lib.rushconfiguration.yarnoptions
-      - title: RushConfigurationProject
-        url: /pages/api/rush-lib.rushconfigurationproject
-        subitems:
-          - title: cyclicDependencyProjects
-            url: /pages/api/rush-lib.rushconfigurationproject.cyclicdependencyprojects
-          - title: downstreamDependencyProjects
-            url: /pages/api/rush-lib.rushconfigurationproject.downstreamdependencyprojects
-          - title: isMainProject
-            url: /pages/api/rush-lib.rushconfigurationproject.ismainproject
-          - title: packageJson
-            url: /pages/api/rush-lib.rushconfigurationproject.packagejson
-          - title: packageJsonEditor
-            url: /pages/api/rush-lib.rushconfigurationproject.packagejsoneditor
-          - title: packageName
-            url: /pages/api/rush-lib.rushconfigurationproject.packagename
-          - title: projectFolder
-            url: /pages/api/rush-lib.rushconfigurationproject.projectfolder
-          - title: projectRelativeFolder
-            url: /pages/api/rush-lib.rushconfigurationproject.projectrelativefolder
-          - title: projectRushTempFolder
-            url: /pages/api/rush-lib.rushconfigurationproject.projectrushtempfolder
-          - title: reviewCategory
-            url: /pages/api/rush-lib.rushconfigurationproject.reviewcategory
-          - title: rushConfiguration
-            url: /pages/api/rush-lib.rushconfigurationproject.rushconfiguration
-          - title: shouldPublish
-            url: /pages/api/rush-lib.rushconfigurationproject.shouldpublish
-          - title: skipRushCheck
-            url: /pages/api/rush-lib.rushconfigurationproject.skiprushcheck
-          - title: tempProjectName
-            url: /pages/api/rush-lib.rushconfigurationproject.tempprojectname
-          - title: unscopedTempProjectName
-            url: /pages/api/rush-lib.rushconfigurationproject.unscopedtempprojectname
-          - title: versionPolicy
-            url: /pages/api/rush-lib.rushconfigurationproject.versionpolicy
-          - title: versionPolicyName
-            url: /pages/api/rush-lib.rushconfigurationproject.versionpolicyname
-      - title: VersionPolicy
-        url: /pages/api/rush-lib.versionpolicy
-        subitems:
-          - title: bump
-            url: /pages/api/rush-lib.versionpolicy.bump
-          - title: definitionName
-            url: /pages/api/rush-lib.versionpolicy.definitionname
-          - title: ensure
-            url: /pages/api/rush-lib.versionpolicy.ensure
-          - title: exemptFromRushChange
-            url: /pages/api/rush-lib.versionpolicy.exemptfromrushchange
-          - title: isLockstepped
-            url: /pages/api/rush-lib.versionpolicy.islockstepped
-          - title: policyName
-            url: /pages/api/rush-lib.versionpolicy.policyname
-          - title: setDependenciesBeforeCommit
-            url: /pages/api/rush-lib.versionpolicy.setdependenciesbeforecommit
-          - title: setDependenciesBeforePublish
-            url: /pages/api/rush-lib.versionpolicy.setdependenciesbeforepublish
-          - title: validate
-            url: /pages/api/rush-lib.versionpolicy.validate
-      - title: VersionPolicyConfiguration
-        url: /pages/api/rush-lib.versionpolicyconfiguration
-        subitems:
-          - title: bump
-            url: /pages/api/rush-lib.versionpolicyconfiguration.bump
-          - title: getVersionPolicy
-            url: /pages/api/rush-lib.versionpolicyconfiguration.getversionpolicy
-          - title: update
-            url: /pages/api/rush-lib.versionpolicyconfiguration.update
-          - title: validate
-            url: /pages/api/rush-lib.versionpolicyconfiguration.validate
-          - title: versionPolicies
-            url: /pages/api/rush-lib.versionpolicyconfiguration.versionpolicies
-      - title: VersionPolicyDefinitionName
-        url: /pages/api/rush-lib.versionpolicydefinitionname
-      - title: YarnOptionsConfiguration
-        url: /pages/api/rush-lib.yarnoptionsconfiguration
-        subitems:
-          - title: ignoreEngines
-            url: /pages/api/rush-lib.yarnoptionsconfiguration.ignoreengines
-  - title: '@microsoft/stream-collator'
+  - title: '@rushstack/stream-collator'
     url: /pages/api/stream-collator
     subitems:
       - title: Interleaver
@@ -2111,7 +2295,7 @@ api_nav:
             url: /pages/api/stream-collator.itaskwriter.writeerror
           - title: writeLine
             url: /pages/api/stream-collator.itaskwriter.writeline
-  - title: '@microsoft/ts-command-line'
+  - title: '@rushstack/ts-command-line'
     url: /pages/api/ts-command-line
     subitems:
       - title: CommandLineAction
@@ -2331,167 +2515,6 @@ api_nav:
             url: /pages/api/ts-command-line.icommandlinestringdefinition.defaultvalue
       - title: ICommandLineStringListDefinition
         url: /pages/api/ts-command-line.icommandlinestringlistdefinition
-  - title: '@rushstack/debug-certificate-manager'
-    url: /pages/api/debug-certificate-manager
-    subitems:
-      - title: CertificateManager
-        url: /pages/api/debug-certificate-manager.certificatemanager
-        subitems:
-          - title: (constructor)
-            url: /pages/api/debug-certificate-manager.certificatemanager._constructor_
-          - title: ensureCertificate
-            url: /pages/api/debug-certificate-manager.certificatemanager.ensurecertificate
-          - title: untrustCertificate
-            url: /pages/api/debug-certificate-manager.certificatemanager.untrustcertificate
-      - title: CertificateStore
-        url: /pages/api/debug-certificate-manager.certificatestore
-        subitems:
-          - title: (constructor)
-            url: /pages/api/debug-certificate-manager.certificatestore._constructor_
-          - title: certificateData
-            url: /pages/api/debug-certificate-manager.certificatestore.certificatedata
-          - title: certificatePath
-            url: /pages/api/debug-certificate-manager.certificatestore.certificatepath
-          - title: keyData
-            url: /pages/api/debug-certificate-manager.certificatestore.keydata
-      - title: ICertificate
-        url: /pages/api/debug-certificate-manager.icertificate
-        subitems:
-          - title: pemCertificate
-            url: /pages/api/debug-certificate-manager.icertificate.pemcertificate
-          - title: pemKey
-            url: /pages/api/debug-certificate-manager.icertificate.pemkey
-  - title: '@rushstack/localization-plugin'
-    url: /pages/api/localization-plugin
-    subitems:
-      - title: IDefaultLocaleOptions
-        url: /pages/api/localization-plugin.idefaultlocaleoptions
-        subitems:
-          - title: fillMissingTranslationStrings
-            url: /pages/api/localization-plugin.idefaultlocaleoptions.fillmissingtranslationstrings
-          - title: localeName
-            url: /pages/api/localization-plugin.idefaultlocaleoptions.localename
-      - title: ILocaleData
-        url: /pages/api/localization-plugin.ilocaledata
-      - title: ILocaleElementMap
-        url: /pages/api/localization-plugin.ilocaleelementmap
-      - title: ILocaleFileData
-        url: /pages/api/localization-plugin.ilocalefiledata
-      - title: ILocalizationPluginOptions
-        url: /pages/api/localization-plugin.ilocalizationpluginoptions
-        subitems:
-          - title: filesToIgnore
-            url: /pages/api/localization-plugin.ilocalizationpluginoptions.filestoignore
-          - title: localizationStats
-            url: /pages/api/localization-plugin.ilocalizationpluginoptions.localizationstats
-          - title: localizedData
-            url: /pages/api/localization-plugin.ilocalizationpluginoptions.localizeddata
-          - title: noStringsLocaleName
-            url: /pages/api/localization-plugin.ilocalizationpluginoptions.nostringslocalename
-          - title: typingsOptions
-            url: /pages/api/localization-plugin.ilocalizationpluginoptions.typingsoptions
-      - title: ILocalizationStats
-        url: /pages/api/localization-plugin.ilocalizationstats
-        subitems:
-          - title: entrypoints
-            url: /pages/api/localization-plugin.ilocalizationstats.entrypoints
-          - title: namedChunkGroups
-            url: /pages/api/localization-plugin.ilocalizationstats.namedchunkgroups
-      - title: ILocalizationStatsChunkGroup
-        url: /pages/api/localization-plugin.ilocalizationstatschunkgroup
-        subitems:
-          - title: localizedAssets
-            url: /pages/api/localization-plugin.ilocalizationstatschunkgroup.localizedassets
-      - title: ILocalizationStatsEntrypoint
-        url: /pages/api/localization-plugin.ilocalizationstatsentrypoint
-        subitems:
-          - title: localizedAssets
-            url: /pages/api/localization-plugin.ilocalizationstatsentrypoint.localizedassets
-      - title: ILocalizationStatsOptions
-        url: /pages/api/localization-plugin.ilocalizationstatsoptions
-        subitems:
-          - title: callback
-            url: /pages/api/localization-plugin.ilocalizationstatsoptions.callback
-          - title: dropPath
-            url: /pages/api/localization-plugin.ilocalizationstatsoptions.droppath
-      - title: ILocalizedData
-        url: /pages/api/localization-plugin.ilocalizeddata
-        subitems:
-          - title: defaultLocale
-            url: /pages/api/localization-plugin.ilocalizeddata.defaultlocale
-          - title: passthroughLocale
-            url: /pages/api/localization-plugin.ilocalizeddata.passthroughlocale
-          - title: pseudolocales
-            url: /pages/api/localization-plugin.ilocalizeddata.pseudolocales
-          - title: translatedStrings
-            url: /pages/api/localization-plugin.ilocalizeddata.translatedstrings
-      - title: ILocalizedStrings
-        url: /pages/api/localization-plugin.ilocalizedstrings
-      - title: ILocalizedWebpackChunk
-        url: /pages/api/localization-plugin.ilocalizedwebpackchunk
-        subitems:
-          - title: localizedFiles
-            url: /pages/api/localization-plugin.ilocalizedwebpackchunk.localizedfiles
-      - title: IPassthroughLocaleOptions
-        url: /pages/api/localization-plugin.ipassthroughlocaleoptions
-        subitems:
-          - title: passthroughLocaleName
-            url: /pages/api/localization-plugin.ipassthroughlocaleoptions.passthroughlocalename
-          - title: usePassthroughLocale
-            url: /pages/api/localization-plugin.ipassthroughlocaleoptions.usepassthroughlocale
-      - title: IPseudolocaleOptions
-        url: /pages/api/localization-plugin.ipseudolocaleoptions
-        subitems:
-          - title: append
-            url: /pages/api/localization-plugin.ipseudolocaleoptions.append
-          - title: delimiter
-            url: /pages/api/localization-plugin.ipseudolocaleoptions.delimiter
-          - title: endDelimiter
-            url: /pages/api/localization-plugin.ipseudolocaleoptions.enddelimiter
-          - title: extend
-            url: /pages/api/localization-plugin.ipseudolocaleoptions.extend
-          - title: override
-            url: /pages/api/localization-plugin.ipseudolocaleoptions.override
-          - title: prepend
-            url: /pages/api/localization-plugin.ipseudolocaleoptions.prepend
-          - title: startDelimiter
-            url: /pages/api/localization-plugin.ipseudolocaleoptions.startdelimiter
-      - title: IPseudolocalesOptions
-        url: /pages/api/localization-plugin.ipseudolocalesoptions
-      - title: ITypingsGenerationOptions
-        url: /pages/api/localization-plugin.itypingsgenerationoptions
-        subitems:
-          - title: exportAsDefault
-            url: /pages/api/localization-plugin.itypingsgenerationoptions.exportasdefault
-          - title: generatedTsFolder
-            url: /pages/api/localization-plugin.itypingsgenerationoptions.generatedtsfolder
-          - title: sourceRoot
-            url: /pages/api/localization-plugin.itypingsgenerationoptions.sourceroot
-      - title: ITypingsGeneratorOptions
-        url: /pages/api/localization-plugin.itypingsgeneratoroptions
-        subitems:
-          - title: exportAsDefault
-            url: /pages/api/localization-plugin.itypingsgeneratoroptions.exportasdefault
-          - title: filesToIgnore
-            url: /pages/api/localization-plugin.itypingsgeneratoroptions.filestoignore
-          - title: generatedTsFolder
-            url: /pages/api/localization-plugin.itypingsgeneratoroptions.generatedtsfolder
-          - title: srcFolder
-            url: /pages/api/localization-plugin.itypingsgeneratoroptions.srcfolder
-          - title: terminal
-            url: /pages/api/localization-plugin.itypingsgeneratoroptions.terminal
-      - title: LocalizationPlugin
-        url: /pages/api/localization-plugin.localizationplugin
-        subitems:
-          - title: (constructor)
-            url: /pages/api/localization-plugin.localizationplugin._constructor_
-          - title: apply
-            url: /pages/api/localization-plugin.localizationplugin.apply
-      - title: TypingsGenerator
-        url: /pages/api/localization-plugin.typingsgenerator
-        subitems:
-          - title: (constructor)
-            url: /pages/api/localization-plugin.typingsgenerator._constructor_
   - title: '@rushstack/typings-generator'
     url: /pages/api/typings-generator
     subitems:

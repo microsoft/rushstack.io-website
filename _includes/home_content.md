@@ -23,13 +23,13 @@ These tools are developed under the **Rush Stack** umbrella:
   ESLint rule set, specifically designed for large scale TypeScript monorepos
 
 These tools are built on a common framework of reusable library packages:
-- [ts-command-line](https://www.npmjs.com/package/@microsoft/ts-command-line): a strict command-line parser
+- [ts-command-line](https://www.npmjs.com/package/@rushstack/ts-command-line): a strict command-line parser
   whose options/docs can be augmented by toolchain packages
-- [node-core-library](https://www.npmjs.com/package/@microsoft/node-core-library): the standard base library
+- [node-core-library](https://www.npmjs.com/package/@rushstack/node-core-library): the standard base library
   used by all our projects
-- [package-deps-hash](https://www.npmjs.com/package/@microsoft/package-deps-hash): the incremental build engine
+- [package-deps-hash](https://www.npmjs.com/package/@rushstack/package-deps-hash): the incremental build engine
   used by Rush
-- [stream-collator](https://www.npmjs.com/package/@microsoft/stream-collator): the magic behind how Rush can
+- [stream-collator](https://www.npmjs.com/package/@rushstack/stream-collator): the magic behind how Rush can
   display real-time log output from concurrent tasks, without ugly interleaving of the output
 - [a family of webpack plugins](https://github.com/microsoft/rushstack/tree/master/webpack) used in our
   applications
