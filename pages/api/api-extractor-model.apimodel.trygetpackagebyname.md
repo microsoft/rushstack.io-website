@@ -29,5 +29,5 @@ tryGetPackageByName(packageName: string): ApiPackage | undefined;
 
 ## Remarks
 
-If the NPM scope is omitted in the package name, it will still be found provided that it is an unambiguous match. For example, it's often convenient to write `{@link node-core-library#JsonFile}` instead of `{@link @microsoft/node-core-library#JsonFile}`<!-- -->.
+If the NPM scope is omitted in the package name, it will still be found provided that it is an unambiguous match. For example, it's often convenient to write `{@link node-core-library#JsonFile}` instead of `{@link @rushstack/node-core-library#JsonFile}`<!-- -->.
 

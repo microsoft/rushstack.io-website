@@ -24,9 +24,11 @@ A library for writing scripts that interact with the [Rush](https://rushjs.io/) 
 |  [ExperimentsConfiguration](./rush-lib.experimentsconfiguration.md) | <b><i>(BETA)</i></b> Use this class to load the "common/config/rush/experiments.json" config file. This file allows repo maintainers to enable and disable experimental Rush features. |
 |  [IndividualVersionPolicy](./rush-lib.individualversionpolicy.md) | <b><i>(BETA)</i></b> This policy indicates all related projects get version bump driven by their own changes. |
 |  [LockStepVersionPolicy](./rush-lib.lockstepversionpolicy.md) | <b><i>(BETA)</i></b> This policy indicates all related projects should use the same version. |
+|  [NpmOptionsConfiguration](./rush-lib.npmoptionsconfiguration.md) | Options that are only used when the NPM package manager is selected. |
 |  [PackageJsonDependency](./rush-lib.packagejsondependency.md) | <b><i>(BETA)</i></b> |
 |  [PackageJsonEditor](./rush-lib.packagejsoneditor.md) | <b><i>(BETA)</i></b> |
 |  [PackageManager](./rush-lib.packagemanager.md) | <b><i>(BETA)</i></b> An abstraction for controlling the supported package managers: PNPM, NPM, and Yarn. |
+|  [PackageManagerOptionsConfigurationBase](./rush-lib.packagemanageroptionsconfigurationbase.md) | Options that all package managers share. |
 |  [PnpmOptionsConfiguration](./rush-lib.pnpmoptionsconfiguration.md) | Options that are only used when the PNPM package manager is selected. |
 |  [Rush](./rush-lib.rush.md) | General operations for the Rush engine. |
 |  [RushConfiguration](./rush-lib.rushconfiguration.md) | This represents the Rush configuration for a repository, based on the "rush.json" configuration file. |
@@ -49,8 +51,11 @@ A library for writing scripts that interact with the [Rush](https://rushjs.io/) 
 
 |  Interface | Description |
 |  --- | --- |
+|  [IConfigurationEnvironment](./rush-lib.iconfigurationenvironment.md) | A collection of environment variables |
+|  [IConfigurationEnvironmentVariable](./rush-lib.iconfigurationenvironmentvariable.md) | Represents the value of an environment variable, and if the value should be overridden if the variable is set in the parent environment. |
 |  [IExperimentsJson](./rush-lib.iexperimentsjson.md) | <b><i>(BETA)</i></b> This interface represents the raw experiments.json file which allows repo maintainers to enable and disable experimental Rush features. |
 |  [ILaunchOptions](./rush-lib.ilaunchoptions.md) | Options to pass to the rush "launch" functions. |
+|  [IPackageManagerOptionsJsonBase](./rush-lib.ipackagemanageroptionsjsonbase.md) | Options for the package manager. |
 |  [ITryFindRushJsonLocationOptions](./rush-lib.itryfindrushjsonlocationoptions.md) | Options for <code>RushConfiguration.tryFindRushJsonLocation</code>. |
 
 ## Type Aliases

@@ -14,7 +14,7 @@ Options that are only used when the yarn package manager is selected.
 <b>Signature:</b>
 
 ```typescript
-export declare class YarnOptionsConfiguration 
+export declare class YarnOptionsConfiguration extends PackageManagerOptionsConfigurationBase 
 ```
 
 ## Remarks

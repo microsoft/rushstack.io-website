@@ -14,7 +14,7 @@ Options that are only used when the PNPM package manager is selected.
 <b>Signature:</b>
 
 ```typescript
-export declare class PnpmOptionsConfiguration 
+export declare class PnpmOptionsConfiguration extends PackageManagerOptionsConfigurationBase 
 ```
 
 ## Remarks
