@@ -18,7 +18,7 @@ A library for writing scripts that interact with the [Rush](https://rushjs.io/) 
 |  [ApprovedPackagesConfiguration](./rush-lib.approvedpackagesconfiguration.md) | This represents the JSON file specified via the "approvedPackagesFile" option in rush.json. |
 |  [ApprovedPackagesItem](./rush-lib.approvedpackagesitem.md) | An item returned by ApprovedPackagesConfiguration |
 |  [ApprovedPackagesPolicy](./rush-lib.approvedpackagespolicy.md) | This is a helper object for RushConfiguration. It exposes the "approvedPackagesPolicy" feature from rush.json. |
-|  [ChangeManager](./rush-lib.changemanager.md) | A class that helps with programatically interacting with Rush's change files. |
+|  [ChangeManager](./rush-lib.changemanager.md) | A class that helps with programmatically interacting with Rush's change files. |
 |  [CommonVersionsConfiguration](./rush-lib.commonversionsconfiguration.md) | Use this class to load and save the "common/config/rush/common-versions.json" config file. This config file stores dependency version information that affects all projects in the repo. |
 |  [EventHooks](./rush-lib.eventhooks.md) | <b><i>(BETA)</i></b> This class represents Rush event hooks configured for this repo. Hooks are customized script actions that Rush executes when specific events occur. The actions are expressed as a command-line that is executed using the operating system shell. |
 |  [ExperimentsConfiguration](./rush-lib.experimentsconfiguration.md) | <b><i>(BETA)</i></b> Use this class to load the "common/config/rush/experiments.json" config file. This file allows repo maintainers to enable and disable experimental Rush features. |

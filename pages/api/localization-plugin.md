@@ -35,6 +35,7 @@ improve_this_button: false
 |  [IPassthroughLocaleOptions](./localization-plugin.ipassthroughlocaleoptions.md) | Options for the passthrough locale. |
 |  [IPseudolocaleOptions](./localization-plugin.ipseudolocaleoptions.md) | Options for the pseudolocale library. |
 |  [IPseudolocalesOptions](./localization-plugin.ipseudolocalesoptions.md) | Options for generated pseudolocales. |
+|  [IResolvedMissingTranslations](./localization-plugin.iresolvedmissingtranslations.md) |  |
 |  [ITypingsGenerationOptions](./localization-plugin.itypingsgenerationoptions.md) | Options for typing generation. |
 |  [ITypingsGeneratorOptions](./localization-plugin.itypingsgeneratoroptions.md) |  |
 

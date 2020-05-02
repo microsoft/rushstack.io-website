@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IPackageManagerOptionsJsonBase.environmentVariables property
 
-Enviroment variables for the package manager
+Environment variables for the package manager
 
 <b>Signature:</b>
 

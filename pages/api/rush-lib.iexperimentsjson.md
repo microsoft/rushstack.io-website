@@ -25,4 +25,5 @@ export interface IExperimentsJson
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [legacyIncrementalBuildDependencyDetection](./rush-lib.iexperimentsjson.legacyincrementalbuilddependencydetection.md) | <code>boolean</code> | <b><i>(BETA)</i></b> If this setting is enabled, incremental builds should use repo-wide dependency tracking instead of project-specific tracking. |
+|  [noChmodFieldInTarHeaderNormalization](./rush-lib.iexperimentsjson.nochmodfieldintarheadernormalization.md) | <code>boolean</code> | <b><i>(BETA)</i></b> If true, the chmod field in temporary project tar headers will not be normalized. This normalization can help ensure consistent tarball integrity across platforms. |
 

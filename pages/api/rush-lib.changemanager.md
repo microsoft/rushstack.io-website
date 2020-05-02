@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ChangeManager class
 
-A class that helps with programatically interacting with Rush's change files.
+A class that helps with programmatically interacting with Rush's change files.
 
 <b>Signature:</b>
 

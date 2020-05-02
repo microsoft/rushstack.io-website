@@ -1158,6 +1158,8 @@ api_nav:
         subitems:
           - title: legacyIncrementalBuildDependencyDetection
             url: /pages/api/rush-lib.iexperimentsjson.legacyincrementalbuilddependencydetection
+          - title: noChmodFieldInTarHeaderNormalization
+            url: /pages/api/rush-lib.iexperimentsjson.nochmodfieldintarheadernormalization
       - title: ILaunchOptions
         url: /pages/api/rush-lib.ilaunchoptions
         subitems:
@@ -1270,6 +1272,8 @@ api_nav:
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.pnpmstore
           - title: pnpmStorePath
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.pnpmstorepath
+          - title: preventManualShrinkwrapChanges
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.preventmanualshrinkwrapchanges
           - title: resolutionStrategy
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.resolutionstrategy
           - title: strictPeerDependencies
@@ -1350,6 +1354,8 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.npmtmpfolder
           - title: packageManager
             url: /pages/api/rush-lib.rushconfiguration.packagemanager
+          - title: packageManagerOptions
+            url: /pages/api/rush-lib.rushconfiguration.packagemanageroptions
           - title: packageManagerToolFilename
             url: /pages/api/rush-lib.rushconfiguration.packagemanagertoolfilename
           - title: packageManagerToolVersion
@@ -1568,10 +1574,14 @@ api_nav:
         subitems:
           - title: defaultLocale
             url: /pages/api/localization-plugin.ilocalizeddata.defaultlocale
+          - title: normalizeResxNewlines
+            url: /pages/api/localization-plugin.ilocalizeddata.normalizeresxnewlines
           - title: passthroughLocale
             url: /pages/api/localization-plugin.ilocalizeddata.passthroughlocale
           - title: pseudolocales
             url: /pages/api/localization-plugin.ilocalizeddata.pseudolocales
+          - title: resolveMissingTranslatedStrings
+            url: /pages/api/localization-plugin.ilocalizeddata.resolvemissingtranslatedstrings
           - title: translatedStrings
             url: /pages/api/localization-plugin.ilocalizeddata.translatedstrings
       - title: ILocalizedStrings
@@ -1607,6 +1617,8 @@ api_nav:
             url: /pages/api/localization-plugin.ipseudolocaleoptions.startdelimiter
       - title: IPseudolocalesOptions
         url: /pages/api/localization-plugin.ipseudolocalesoptions
+      - title: IResolvedMissingTranslations
+        url: /pages/api/localization-plugin.iresolvedmissingtranslations
       - title: ITypingsGenerationOptions
         url: /pages/api/localization-plugin.itypingsgenerationoptions
         subitems:
@@ -1625,6 +1637,8 @@ api_nav:
             url: /pages/api/localization-plugin.itypingsgeneratoroptions.filestoignore
           - title: generatedTsFolder
             url: /pages/api/localization-plugin.itypingsgeneratoroptions.generatedtsfolder
+          - title: resxNewlineNormalization
+            url: /pages/api/localization-plugin.itypingsgeneratoroptions.resxnewlinenormalization
           - title: srcFolder
             url: /pages/api/localization-plugin.itypingsgeneratoroptions.srcfolder
           - title: terminal
