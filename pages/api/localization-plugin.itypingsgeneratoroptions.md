@@ -23,7 +23,7 @@ export interface ITypingsGeneratorOptions
 |  [exportAsDefault](./localization-plugin.itypingsgeneratoroptions.exportasdefault.md) | <code>boolean</code> |  |
 |  [filesToIgnore](./localization-plugin.itypingsgeneratoroptions.filestoignore.md) | <code>string[]</code> |  |
 |  [generatedTsFolder](./localization-plugin.itypingsgeneratoroptions.generatedtsfolder.md) | <code>string</code> |  |
-|  [resxNewlineNormalization](./localization-plugin.itypingsgeneratoroptions.resxnewlinenormalization.md) | <code>NewlineKind &#124; undefined</code> |  |
+|  [resxNewlineNormalization](./localization-plugin.itypingsgeneratoroptions.resxnewlinenormalization.md) | [NewlineKind](./node-core-library.newlinekind.md)<code> &#124; undefined</code> |  |
 |  [srcFolder](./localization-plugin.itypingsgeneratoroptions.srcfolder.md) | <code>string</code> |  |
-|  [terminal](./localization-plugin.itypingsgeneratoroptions.terminal.md) | <code>Terminal</code> |  |
+|  [terminal](./localization-plugin.itypingsgeneratoroptions.terminal.md) | [Terminal](./node-core-library.terminal.md) |  |
 

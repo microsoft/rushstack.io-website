@@ -25,7 +25,7 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [parameters](./ts-command-line.commandlineparameterprovider.parameters.md) |  | <code>ReadonlyArray&lt;CommandLineParameter&gt;</code> | Returns a collection of the parameters that were defined for this object. |
+|  [parameters](./ts-command-line.commandlineparameterprovider.parameters.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[CommandLineParameter](./ts-command-line.commandlineparameter.md)<code>&gt;</code> | Returns a collection of the parameters that were defined for this object. |
 
 ## Methods
 

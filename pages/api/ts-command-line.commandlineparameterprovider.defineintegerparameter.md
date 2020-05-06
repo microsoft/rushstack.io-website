@@ -21,11 +21,11 @@ defineIntegerParameter(definition: ICommandLineIntegerDefinition): CommandLineIn
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  definition | <code>ICommandLineIntegerDefinition</code> |  |
+|  definition | [ICommandLineIntegerDefinition](./ts-command-line.icommandlineintegerdefinition.md) |  |
 
 <b>Returns:</b>
 
-`CommandLineIntegerParameter`
+[CommandLineIntegerParameter](./ts-command-line.commandlineintegerparameter.md)
 
 ## Remarks
 

@@ -25,7 +25,7 @@ static parse(packageName: string): IParsedPackageName;
 
 <b>Returns:</b>
 
-`IParsedPackageName`
+[IParsedPackageName](./node-core-library.iparsedpackagename.md)
 
 ## Remarks
 

@@ -21,5 +21,5 @@ constructor(options: IApiTypeAliasOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IApiTypeAliasOptions</code> |  |
+|  options | [IApiTypeAliasOptions](./api-extractor-model.iapitypealiasoptions.md) |  |
 

@@ -23,5 +23,5 @@ getItemByName(packageName: string): ApprovedPackagesItem | undefined;
 
 <b>Returns:</b>
 
-`ApprovedPackagesItem | undefined`
+[ApprovedPackagesItem](./rush-lib.approvedpackagesitem.md)` | undefined`
 

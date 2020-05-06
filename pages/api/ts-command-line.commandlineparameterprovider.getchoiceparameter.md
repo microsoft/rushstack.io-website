@@ -25,7 +25,7 @@ getChoiceParameter(parameterLongName: string): CommandLineChoiceParameter;
 
 <b>Returns:</b>
 
-`CommandLineChoiceParameter`
+[CommandLineChoiceParameter](./ts-command-line.commandlinechoiceparameter.md)
 
 ## Remarks
 

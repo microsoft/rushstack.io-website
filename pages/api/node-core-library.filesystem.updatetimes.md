@@ -22,7 +22,7 @@ static updateTimes(path: string, times: IFileSystemUpdateTimeParameters): void;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  path | <code>string</code> | The path of the file that should be modified. |
-|  times | <code>IFileSystemUpdateTimeParameters</code> | The times that the object should be updated to reflect. |
+|  times | [IFileSystemUpdateTimeParameters](./node-core-library.ifilesystemupdatetimeparameters.md) | The times that the object should be updated to reflect. |
 
 <b>Returns:</b>
 

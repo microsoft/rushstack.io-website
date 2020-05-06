@@ -22,9 +22,9 @@ static greenBackground(text: string | IColorableSequence): IColorableSequence;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  text | <code>string &#124; IColorableSequence</code> |  |
+|  text | <code>string &#124; </code>[IColorableSequence](./node-core-library.icolorablesequence.md) |  |
 
 <b>Returns:</b>
 
-`IColorableSequence`
+[IColorableSequence](./node-core-library.icolorablesequence.md)
 

@@ -24,7 +24,7 @@ addOrUpdateDependency(packageName: string, newVersion: string, dependencyType: D
 |  --- | --- | --- |
 |  packageName | <code>string</code> |  |
 |  newVersion | <code>string</code> |  |
-|  dependencyType | <code>DependencyType</code> |  |
+|  dependencyType | [DependencyType](./rush-lib.dependencytype.md) |  |
 
 <b>Returns:</b>
 

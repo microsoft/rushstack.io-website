@@ -21,7 +21,7 @@ static sortMapKeys<K, V>(map: Map<K, V>, keyComparer?: (x: K, y: K) => number): 
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  map | <code>Map&lt;K, V&gt;</code> |  |
+|  map | <code>Map</code><code>&lt;K, V&gt;</code> |  |
 |  keyComparer | <code>(x: K, y: K) =&gt; number</code> |  |
 
 <b>Returns:</b>

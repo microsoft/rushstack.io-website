@@ -24,7 +24,7 @@ bump(bumpType?: BumpType, identifier?: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  bumpType | <code>BumpType</code> | bump type |
+|  bumpType | [BumpType](./rush-lib.bumptype.md) | bump type |
 |  identifier | <code>string</code> | prerelease id |
 
 <b>Returns:</b>

@@ -25,5 +25,5 @@ findMembersByName(name: string): ReadonlyArray<ApiItem>;
 
 <b>Returns:</b>
 
-`ReadonlyArray<ApiItem>`
+`ReadonlyArray``<`[ApiItem](./api-extractor-model.apiitem.md)`>`
 

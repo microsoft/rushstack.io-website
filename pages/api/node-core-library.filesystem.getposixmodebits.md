@@ -25,5 +25,5 @@ static getPosixModeBits(path: string): PosixModeBits;
 
 <b>Returns:</b>
 
-`PosixModeBits`
+[PosixModeBits](./node-core-library.posixmodebits.md)
 

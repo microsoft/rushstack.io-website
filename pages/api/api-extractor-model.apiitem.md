@@ -34,9 +34,9 @@ This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of c
 |  [canonicalReference](./api-extractor-model.apiitem.canonicalreference.md) |  | <code>DeclarationReference</code> | <b><i>(BETA)</i></b> Warning: This API is used internally by API extractor but is not yet ready for general usage. |
 |  [containerKey](./api-extractor-model.apiitem.containerkey.md) |  | <code>string</code> | Returns a string key that can be used to efficiently retrieve an <code>ApiItem</code> from an <code>ApiItemContainerMixin</code>. The key is unique within the container. Its format is undocumented and may change at any time. |
 |  [displayName](./api-extractor-model.apiitem.displayname.md) |  | <code>string</code> | Returns a name for this object that can be used in diagnostic messages, for example. |
-|  [kind](./api-extractor-model.apiitem.kind.md) |  | <code>ApiItemKind</code> | Identifies the subclass of the <code>ApiItem</code> base class. |
-|  [members](./api-extractor-model.apiitem.members.md) |  | <code>ReadonlyArray&lt;ApiItem&gt;</code> | This property supports a visitor pattern for walking the tree. For items with ApiItemContainerMixin, it returns the contained items. Otherwise it returns an empty array. |
-|  [parent](./api-extractor-model.apiitem.parent.md) |  | <code>ApiItem &#124; undefined</code> | If this item was added to a ApiItemContainerMixin item, then this returns the container item. If this is an Parameter that was added to a method or function, then this returns the function item. Otherwise, it returns undefined. |
+|  [kind](./api-extractor-model.apiitem.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) | Identifies the subclass of the <code>ApiItem</code> base class. |
+|  [members](./api-extractor-model.apiitem.members.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[ApiItem](./api-extractor-model.apiitem.md)<code>&gt;</code> | This property supports a visitor pattern for walking the tree. For items with ApiItemContainerMixin, it returns the contained items. Otherwise it returns an empty array. |
+|  [parent](./api-extractor-model.apiitem.parent.md) |  | [ApiItem](./api-extractor-model.apiitem.md)<code> &#124; undefined</code> | If this item was added to a ApiItemContainerMixin item, then this returns the container item. If this is an Parameter that was added to a method or function, then this returns the function item. Otherwise, it returns undefined. |
 
 ## Methods
 

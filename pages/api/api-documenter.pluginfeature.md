@@ -25,7 +25,7 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [context](./api-documenter.pluginfeature.context.md) |  | <code>PluginFeatureContext</code> | Exposes various services that can be used by a plugin. |
+|  [context](./api-documenter.pluginfeature.context.md) |  | [PluginFeatureContext](./api-documenter.pluginfeaturecontext.md) | Exposes various services that can be used by a plugin. |
 
 ## Methods
 

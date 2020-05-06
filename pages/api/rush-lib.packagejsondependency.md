@@ -29,7 +29,7 @@ export declare class PackageJsonDependency
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [dependencyType](./rush-lib.packagejsondependency.dependencytype.md) |  | <code>DependencyType</code> | <b><i>(BETA)</i></b> |
+|  [dependencyType](./rush-lib.packagejsondependency.dependencytype.md) |  | [DependencyType](./rush-lib.dependencytype.md) | <b><i>(BETA)</i></b> |
 |  [name](./rush-lib.packagejsondependency.name.md) |  | <code>string</code> | <b><i>(BETA)</i></b> |
 |  [version](./rush-lib.packagejsondependency.version.md) |  | <code>string</code> | <b><i>(BETA)</i></b> |
 

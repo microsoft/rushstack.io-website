@@ -21,5 +21,5 @@ constructor(options: IApiDocumentedItemOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IApiDocumentedItemOptions</code> |  |
+|  options | [IApiDocumentedItemOptions](./api-extractor-model.iapidocumenteditemoptions.md) |  |
 

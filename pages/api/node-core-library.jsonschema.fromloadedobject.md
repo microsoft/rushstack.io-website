@@ -21,11 +21,11 @@ static fromLoadedObject(schemaObject: JsonObject): JsonSchema;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  schemaObject | <code>JsonObject</code> |  |
+|  schemaObject | [JsonObject](./node-core-library.jsonobject.md) |  |
 
 <b>Returns:</b>
 
-`JsonSchema`
+[JsonSchema](./node-core-library.jsonschema.md)
 
 ## Remarks
 

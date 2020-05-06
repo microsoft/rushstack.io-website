@@ -21,5 +21,5 @@ constructor(options: ITypingsGeneratorOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>ITypingsGeneratorOptions</code> |  |
+|  options | [ITypingsGeneratorOptions](./typings-generator.itypingsgeneratoroptions.md) |  |
 

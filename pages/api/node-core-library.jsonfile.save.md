@@ -21,9 +21,9 @@ static save(jsonObject: JsonObject, jsonFilename: string, options?: IJsonFileSav
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>JsonObject</code> | the object to be saved |
+|  jsonObject | [JsonObject](./node-core-library.jsonobject.md) | the object to be saved |
 |  jsonFilename | <code>string</code> | the file path to write |
-|  options | <code>IJsonFileSaveOptions</code> | other settings that control how the file is saved |
+|  options | [IJsonFileSaveOptions](./node-core-library.ijsonfilesaveoptions.md) | other settings that control how the file is saved |
 
 <b>Returns:</b>
 

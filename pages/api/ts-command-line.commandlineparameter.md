@@ -27,7 +27,7 @@ The constructor for this class is marked as internal. Third-party code should no
 |  --- | --- | --- | --- |
 |  [description](./ts-command-line.commandlineparameter.description.md) |  | <code>string</code> | Documentation for the flag, that will be shown when invoking the tool with "--help" |
 |  [environmentVariable](./ts-command-line.commandlineparameter.environmentvariable.md) |  | <code>string &#124; undefined</code> | The name of an environment variable that the parameter value will be read from, if it was omitted from the command-line. An error will be reported if the environment value cannot be parsed. |
-|  [kind](./ts-command-line.commandlineparameter.kind.md) |  | <code>CommandLineParameterKind</code> | Indicates the type of parameter. |
+|  [kind](./ts-command-line.commandlineparameter.kind.md) |  | [CommandLineParameterKind](./ts-command-line.commandlineparameterkind.md) | Indicates the type of parameter. |
 |  [longName](./ts-command-line.commandlineparameter.longname.md) |  | <code>string</code> | The long name of the flag including double dashes, e.g. "--do-something" |
 |  [required](./ts-command-line.commandlineparameter.required.md) |  | <code>boolean</code> | If true, then an error occurs if the parameter was not included on the command-line. |
 |  [shortName](./ts-command-line.commandlineparameter.shortname.md) |  | <code>string &#124; undefined</code> | An optional short name for the flag including the dash, e.g. "-d" |

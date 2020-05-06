@@ -32,8 +32,8 @@ This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of c
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apipackage.containerkey.md) |  | <code>string</code> |  |
-|  [entryPoints](./api-extractor-model.apipackage.entrypoints.md) |  | <code>ReadonlyArray&lt;ApiEntryPoint&gt;</code> |  |
-|  [kind](./api-extractor-model.apipackage.kind.md) |  | <code>ApiItemKind</code> |  |
+|  [entryPoints](./api-extractor-model.apipackage.entrypoints.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[ApiEntryPoint](./api-extractor-model.apientrypoint.md)<code>&gt;</code> |  |
+|  [kind](./api-extractor-model.apipackage.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods
 

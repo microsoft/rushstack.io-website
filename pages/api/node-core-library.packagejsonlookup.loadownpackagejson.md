@@ -25,7 +25,7 @@ static loadOwnPackageJson(dirnameOfCaller: string): IPackageJson;
 
 <b>Returns:</b>
 
-`IPackageJson`
+[IPackageJson](./node-core-library.ipackagejson.md)
 
 This function always returns a valid `IPackageJson` object. If any problems are encountered during loading, an exception will be thrown instead.
 

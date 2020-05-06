@@ -21,7 +21,7 @@ getLinkForApiItem(apiItem: ApiItem): string | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  apiItem | <code>ApiItem</code> |  |
+|  apiItem | [ApiItem](./api-extractor-model.apiitem.md) |  |
 
 <b>Returns:</b>
 

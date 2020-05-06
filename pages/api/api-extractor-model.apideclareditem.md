@@ -33,8 +33,8 @@ Most `ApiItem` subclasses have declarations and thus extend `ApiDeclaredItem`<!-
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [excerpt](./api-extractor-model.apideclareditem.excerpt.md) |  | <code>Excerpt</code> | The source code excerpt where the API item is declared. |
-|  [excerptTokens](./api-extractor-model.apideclareditem.excerpttokens.md) |  | <code>ReadonlyArray&lt;ExcerptToken&gt;</code> | The individual source code tokens that comprise the main excerpt. |
+|  [excerpt](./api-extractor-model.apideclareditem.excerpt.md) |  | [Excerpt](./api-extractor-model.excerpt.md) | The source code excerpt where the API item is declared. |
+|  [excerptTokens](./api-extractor-model.apideclareditem.excerpttokens.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[ExcerptToken](./api-extractor-model.excerpttoken.md)<code>&gt;</code> | The individual source code tokens that comprise the main excerpt. |
 
 ## Methods
 

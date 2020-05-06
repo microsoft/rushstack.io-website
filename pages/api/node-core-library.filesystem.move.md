@@ -21,7 +21,7 @@ static move(options: IFileSystemMoveOptions): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IFileSystemMoveOptions</code> |  |
+|  options | [IFileSystemMoveOptions](./node-core-library.ifilesystemmoveoptions.md) |  |
 
 <b>Returns:</b>
 

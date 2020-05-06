@@ -28,5 +28,5 @@ getVersionPolicy(policyName: string): VersionPolicy;
 
 <b>Returns:</b>
 
-`VersionPolicy`
+[VersionPolicy](./rush-lib.versionpolicy.md)
 

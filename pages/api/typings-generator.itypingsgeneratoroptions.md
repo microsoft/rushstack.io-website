@@ -25,5 +25,5 @@ export interface ITypingsGeneratorOptions<TTypingsResult = string>
 |  [generatedTsFolder](./typings-generator.itypingsgeneratoroptions.generatedtsfolder.md) | <code>string</code> |  |
 |  [parseAndGenerateTypings](./typings-generator.itypingsgeneratoroptions.parseandgeneratetypings.md) | <code>(fileContents: string, filePath: string) =&gt; TTypingsResult</code> |  |
 |  [srcFolder](./typings-generator.itypingsgeneratoroptions.srcfolder.md) | <code>string</code> |  |
-|  [terminal](./typings-generator.itypingsgeneratoroptions.terminal.md) | <code>Terminal</code> |  |
+|  [terminal](./typings-generator.itypingsgeneratoroptions.terminal.md) | [Terminal](./node-core-library.terminal.md) |  |
 

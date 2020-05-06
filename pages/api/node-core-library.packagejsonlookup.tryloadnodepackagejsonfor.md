@@ -25,5 +25,5 @@ tryLoadNodePackageJsonFor(fileOrFolderPath: string): INodePackageJson | undefine
 
 <b>Returns:</b>
 
-`INodePackageJson | undefined`
+[INodePackageJson](./node-core-library.inodepackagejson.md)` | undefined`
 

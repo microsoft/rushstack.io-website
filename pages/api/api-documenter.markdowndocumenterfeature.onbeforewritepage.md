@@ -22,7 +22,7 @@ onBeforeWritePage(eventArgs: IMarkdownDocumenterFeatureOnBeforeWritePageArgs): v
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  eventArgs | <code>IMarkdownDocumenterFeatureOnBeforeWritePageArgs</code> |  |
+|  eventArgs | [IMarkdownDocumenterFeatureOnBeforeWritePageArgs](./api-documenter.imarkdowndocumenterfeatureonbeforewritepageargs.md) |  |
 
 <b>Returns:</b>
 

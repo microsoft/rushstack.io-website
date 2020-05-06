@@ -21,7 +21,7 @@ static onDeserializeInto(options: Partial<IApiVariableOptions>, context: Deseria
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>Partial&lt;IApiVariableOptions&gt;</code> |  |
+|  options | <code>Partial</code><code>&lt;</code>[IApiVariableOptions](./api-extractor-model.iapivariableoptions.md)<code>&gt;</code> |  |
 |  context | <code>DeserializerContext</code> |  |
 |  jsonObject | <code>IApiVariableJson</code> |  |
 

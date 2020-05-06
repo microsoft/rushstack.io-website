@@ -21,5 +21,5 @@ export interface IJsonSchemaFromFileOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [dependentSchemas](./node-core-library.ijsonschemafromfileoptions.dependentschemas.md) | <code>JsonSchema[]</code> | Other schemas that this schema references, e.g. via the "$ref" directive. |
+|  [dependentSchemas](./node-core-library.ijsonschemafromfileoptions.dependentschemas.md) | [JsonSchema](./node-core-library.jsonschema.md)<code>[]</code> | Other schemas that this schema references, e.g. via the "$ref" directive. |
 

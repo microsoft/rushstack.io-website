@@ -22,7 +22,7 @@ onFinished(eventArgs: IMarkdownDocumenterFeatureOnFinishedArgs): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  eventArgs | <code>IMarkdownDocumenterFeatureOnFinishedArgs</code> |  |
+|  eventArgs | [IMarkdownDocumenterFeatureOnFinishedArgs](./api-documenter.imarkdowndocumenterfeatureonfinishedargs.md) |  |
 
 <b>Returns:</b>
 

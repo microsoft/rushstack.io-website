@@ -21,5 +21,5 @@ constructor(options: IApiNamespaceOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IApiNamespaceOptions</code> |  |
+|  options | [IApiNamespaceOptions](./api-extractor-model.iapinamespaceoptions.md) |  |
 

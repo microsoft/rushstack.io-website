@@ -21,7 +21,7 @@ static validateNoUndefinedMembers(jsonObject: JsonObject): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>JsonObject</code> |  |
+|  jsonObject | [JsonObject](./node-core-library.jsonobject.md) |  |
 
 <b>Returns:</b>
 

@@ -25,7 +25,7 @@ getStringParameter(parameterLongName: string): CommandLineStringParameter;
 
 <b>Returns:</b>
 
-`CommandLineStringParameter`
+[CommandLineStringParameter](./ts-command-line.commandlinestringparameter.md)
 
 ## Remarks
 

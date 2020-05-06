@@ -21,7 +21,7 @@ addMember(member: ApiEnumMember): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  member | <code>ApiEnumMember</code> |  |
+|  member | [ApiEnumMember](./api-extractor-model.apienummember.md) |  |
 
 <b>Returns:</b>
 

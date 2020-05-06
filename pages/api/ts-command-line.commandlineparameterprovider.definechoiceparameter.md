@@ -21,11 +21,11 @@ defineChoiceParameter(definition: ICommandLineChoiceDefinition): CommandLineChoi
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  definition | <code>ICommandLineChoiceDefinition</code> |  |
+|  definition | [ICommandLineChoiceDefinition](./ts-command-line.icommandlinechoicedefinition.md) |  |
 
 <b>Returns:</b>
 
-`CommandLineChoiceParameter`
+[CommandLineChoiceParameter](./ts-command-line.commandlinechoiceparameter.md)
 
 ## Remarks
 

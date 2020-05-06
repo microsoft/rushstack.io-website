@@ -25,7 +25,7 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [kind](./ts-command-line.commandlineflagparameter.kind.md) |  | <code>CommandLineParameterKind</code> | Indicates the type of parameter. |
+|  [kind](./ts-command-line.commandlineflagparameter.kind.md) |  | [CommandLineParameterKind](./ts-command-line.commandlineparameterkind.md) | Indicates the type of parameter. |
 |  [value](./ts-command-line.commandlineflagparameter.value.md) |  | <code>boolean</code> | Returns a boolean indicating whether the parameter was included in the command line. |
 
 ## Methods

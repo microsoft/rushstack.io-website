@@ -21,7 +21,7 @@ static tryFindRushJsonLocation(options?: ITryFindRushJsonLocationOptions): strin
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>ITryFindRushJsonLocationOptions</code> |  |
+|  options | [ITryFindRushJsonLocationOptions](./rush-lib.itryfindrushjsonlocationoptions.md) |  |
 
 <b>Returns:</b>
 

@@ -21,7 +21,7 @@ addMember(member: ApiEntryPoint): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  member | <code>ApiEntryPoint</code> |  |
+|  member | [ApiEntryPoint](./api-extractor-model.apientrypoint.md) |  |
 
 <b>Returns:</b>
 

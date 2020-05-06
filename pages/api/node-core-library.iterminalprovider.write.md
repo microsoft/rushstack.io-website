@@ -25,7 +25,7 @@ write(data: string, severity: TerminalProviderSeverity): void;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  data | <code>string</code> | The terminal message. |
-|  severity | <code>TerminalProviderSeverity</code> | The message severity. Terminal providers can route different kinds of messages to different streams and may choose to ignore verbose messages. |
+|  severity | [TerminalProviderSeverity](./node-core-library.terminalproviderseverity.md) | The message severity. Terminal providers can route different kinds of messages to different streams and may choose to ignore verbose messages. |
 
 <b>Returns:</b>
 

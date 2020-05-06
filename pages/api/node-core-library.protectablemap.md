@@ -33,7 +33,7 @@ For example, suppose you want to share your `Map<string, number>` data structure
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [protectedView](./node-core-library.protectablemap.protectedview.md) |  | <code>Map&lt;K, V&gt;</code> | The owner of the protectable map should return this object via its public API. |
+|  [protectedView](./node-core-library.protectablemap.protectedview.md) |  | <code>Map</code><code>&lt;K, V&gt;</code> | The owner of the protectable map should return this object via its public API. |
 |  [size](./node-core-library.protectablemap.size.md) |  | <code>number</code> | Returns the number of (key, value) entries in the map. |
 
 ## Methods

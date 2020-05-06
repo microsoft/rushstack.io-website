@@ -25,5 +25,5 @@ executeWithoutErrorHandling(args?: string[]): Promise<void>;
 
 <b>Returns:</b>
 
-`Promise<void>`
+`Promise``<void>`
 

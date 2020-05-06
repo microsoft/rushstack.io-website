@@ -24,7 +24,7 @@ abstract bump(bumpType?: BumpType, identifier?: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  bumpType | <code>BumpType</code> | (optional) override bump type |
+|  bumpType | [BumpType](./rush-lib.bumptype.md) | (optional) override bump type |
 |  identifier | <code>string</code> | (optional) override prerelease Id |
 
 <b>Returns:</b>

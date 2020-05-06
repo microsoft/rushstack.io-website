@@ -21,5 +21,5 @@ constructor(options: ICommandLineParserOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>ICommandLineParserOptions</code> |  |
+|  options | [ICommandLineParserOptions](./ts-command-line.icommandlineparseroptions.md) |  |
 

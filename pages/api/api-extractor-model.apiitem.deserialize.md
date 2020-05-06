@@ -24,5 +24,5 @@ static deserialize(jsonObject: IApiItemJson, context: DeserializerContext): ApiI
 
 <b>Returns:</b>
 
-`ApiItem`
+[ApiItem](./api-extractor-model.apiitem.md)
 

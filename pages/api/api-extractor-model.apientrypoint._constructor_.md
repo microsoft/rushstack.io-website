@@ -21,5 +21,5 @@ constructor(options: IApiEntryPointOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IApiEntryPointOptions</code> |  |
+|  options | [IApiEntryPointOptions](./api-extractor-model.iapientrypointoptions.md) |  |
 

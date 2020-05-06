@@ -21,7 +21,7 @@ untrustCertificate(terminal: Terminal): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  terminal | <code>Terminal</code> |  |
+|  terminal | [Terminal](./node-core-library.terminal.md) |  |
 
 <b>Returns:</b>
 

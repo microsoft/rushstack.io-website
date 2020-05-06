@@ -21,8 +21,8 @@ export interface ITypeParameterOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [constraintExcerpt](./api-extractor-model.itypeparameteroptions.constraintexcerpt.md) | <code>Excerpt</code> |  |
-|  [defaultTypeExcerpt](./api-extractor-model.itypeparameteroptions.defaulttypeexcerpt.md) | <code>Excerpt</code> |  |
+|  [constraintExcerpt](./api-extractor-model.itypeparameteroptions.constraintexcerpt.md) | [Excerpt](./api-extractor-model.excerpt.md) |  |
+|  [defaultTypeExcerpt](./api-extractor-model.itypeparameteroptions.defaulttypeexcerpt.md) | [Excerpt](./api-extractor-model.excerpt.md) |  |
 |  [name](./api-extractor-model.itypeparameteroptions.name.md) | <code>string</code> |  |
-|  [parent](./api-extractor-model.itypeparameteroptions.parent.md) | <code>ApiTypeParameterListMixin</code> |  |
+|  [parent](./api-extractor-model.itypeparameteroptions.parent.md) | [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md) |  |
 

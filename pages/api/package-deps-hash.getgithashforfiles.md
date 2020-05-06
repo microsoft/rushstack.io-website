@@ -26,5 +26,5 @@ export declare function getGitHashForFiles(filesToHash: string[], packagePath: s
 
 <b>Returns:</b>
 
-`Map<string, string>`
+`Map``<string, string>`
 

@@ -25,7 +25,7 @@ setDependenciesBeforePublish(packageName: string, configuration: RushConfigurati
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  packageName | <code>string</code> |  |
-|  configuration | <code>RushConfiguration</code> |  |
+|  configuration | [RushConfiguration](./rush-lib.rushconfiguration.md) |  |
 
 <b>Returns:</b>
 

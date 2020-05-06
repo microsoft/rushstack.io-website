@@ -21,5 +21,5 @@ constructor(options: IApiEnumMemberOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IApiEnumMemberOptions</code> |  |
+|  options | [IApiEnumMemberOptions](./api-extractor-model.iapienummemberoptions.md) |  |
 

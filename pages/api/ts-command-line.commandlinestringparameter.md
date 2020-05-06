@@ -26,7 +26,7 @@ The constructor for this class is marked as internal. Third-party code should no
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [defaultValue](./ts-command-line.commandlinestringparameter.defaultvalue.md) |  | <code>string &#124; undefined</code> | The default value which will be used if the parameter is omitted from the command line. |
-|  [kind](./ts-command-line.commandlinestringparameter.kind.md) |  | <code>CommandLineParameterKind</code> | Indicates the type of parameter. |
+|  [kind](./ts-command-line.commandlinestringparameter.kind.md) |  | [CommandLineParameterKind](./ts-command-line.commandlineparameterkind.md) | Indicates the type of parameter. |
 |  [value](./ts-command-line.commandlinestringparameter.value.md) |  | <code>string &#124; undefined</code> | Returns the argument value for a string parameter that was parsed from the command line. |
 
 ## Methods

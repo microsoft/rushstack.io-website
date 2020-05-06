@@ -25,5 +25,5 @@ getProjectByName(projectName: string): RushConfigurationProject | undefined;
 
 <b>Returns:</b>
 
-`RushConfigurationProject | undefined`
+[RushConfigurationProject](./rush-lib.rushconfigurationproject.md)` | undefined`
 

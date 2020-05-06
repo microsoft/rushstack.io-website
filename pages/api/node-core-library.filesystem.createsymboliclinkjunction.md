@@ -21,7 +21,7 @@ static createSymbolicLinkJunction(options: IFileSystemCreateLinkOptions): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IFileSystemCreateLinkOptions</code> |  |
+|  options | [IFileSystemCreateLinkOptions](./node-core-library.ifilesystemcreatelinkoptions.md) |  |
 
 <b>Returns:</b>
 

@@ -20,5 +20,5 @@ export interface ILocalizationStatsChunkGroup
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [localizedAssets](./localization-plugin.ilocalizationstatschunkgroup.localizedassets.md) | <code>ILocaleElementMap</code> |  |
+|  [localizedAssets](./localization-plugin.ilocalizationstatschunkgroup.localizedassets.md) | [ILocaleElementMap](./localization-plugin.ilocaleelementmap.md) |  |
 

@@ -20,10 +20,10 @@ export interface ILocalizedData
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [defaultLocale](./localization-plugin.ilocalizeddata.defaultlocale.md) | <code>IDefaultLocaleOptions</code> | Options for the locale used in the source localized data files. |
+|  [defaultLocale](./localization-plugin.ilocalizeddata.defaultlocale.md) | [IDefaultLocaleOptions](./localization-plugin.idefaultlocaleoptions.md) | Options for the locale used in the source localized data files. |
 |  [normalizeResxNewlines](./localization-plugin.ilocalizeddata.normalizeresxnewlines.md) | <code>'lf' &#124; 'crlf'</code> | Normalize newlines in RESX files to either CRLF (Windows-style) or LF ('nix style) |
-|  [passthroughLocale](./localization-plugin.ilocalizeddata.passthroughlocale.md) | <code>IPassthroughLocaleOptions</code> | Options around including a passthrough locale. |
-|  [pseudolocales](./localization-plugin.ilocalizeddata.pseudolocales.md) | <code>IPseudolocalesOptions</code> | Options for pseudo-localization. |
-|  [resolveMissingTranslatedStrings](./localization-plugin.ilocalizeddata.resolvemissingtranslatedstrings.md) | <code>(locales: string[], filePath: string) =&gt; IResolvedMissingTranslations</code> | Use this paramter to specify a function used to load translations missing from the [ILocalizedData.translatedStrings](./localization-plugin.ilocalizeddata.translatedstrings.md) parameter. |
-|  [translatedStrings](./localization-plugin.ilocalizeddata.translatedstrings.md) | <code>ILocalizedStrings</code> | Use this parameter to specify the translated data. |
+|  [passthroughLocale](./localization-plugin.ilocalizeddata.passthroughlocale.md) | [IPassthroughLocaleOptions](./localization-plugin.ipassthroughlocaleoptions.md) | Options around including a passthrough locale. |
+|  [pseudolocales](./localization-plugin.ilocalizeddata.pseudolocales.md) | [IPseudolocalesOptions](./localization-plugin.ipseudolocalesoptions.md) | Options for pseudo-localization. |
+|  [resolveMissingTranslatedStrings](./localization-plugin.ilocalizeddata.resolvemissingtranslatedstrings.md) | <code>(locales: string[], filePath: string) =&gt; </code>[IResolvedMissingTranslations](./localization-plugin.iresolvedmissingtranslations.md) | Use this paramter to specify a function used to load translations missing from the [ILocalizedData.translatedStrings](./localization-plugin.ilocalizeddata.translatedstrings.md) parameter. |
+|  [translatedStrings](./localization-plugin.ilocalizeddata.translatedstrings.md) | [ILocalizedStrings](./localization-plugin.ilocalizedstrings.md) | Use this parameter to specify the translated data. |
 

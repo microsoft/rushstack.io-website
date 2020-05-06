@@ -31,7 +31,7 @@ This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of c
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [tsdocComment](./api-extractor-model.apidocumenteditem.tsdoccomment.md) |  | <code>tsdoc.DocComment &#124; undefined</code> |  |
+|  [tsdocComment](./api-extractor-model.apidocumenteditem.tsdoccomment.md) |  | <code>tsdoc.</code><code>DocComment</code><code> &#124; undefined</code> |  |
 
 ## Methods
 

@@ -22,5 +22,5 @@ export interface IApiParameterListMixinOptions extends IApiItemOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [overloadIndex](./api-extractor-model.iapiparameterlistmixinoptions.overloadindex.md) | <code>number</code> |  |
-|  [parameters](./api-extractor-model.iapiparameterlistmixinoptions.parameters.md) | <code>IApiParameterOptions[]</code> |  |
+|  [parameters](./api-extractor-model.iapiparameterlistmixinoptions.parameters.md) | [IApiParameterOptions](./api-extractor-model.iapiparameteroptions.md)<code>[]</code> |  |
 

@@ -21,9 +21,9 @@ buildExcerpt(tokenRange: IExcerptTokenRange): Excerpt;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  tokenRange | <code>IExcerptTokenRange</code> |  |
+|  tokenRange | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
 
 <b>Returns:</b>
 
-`Excerpt`
+[Excerpt](./api-extractor-model.excerpt.md)
 

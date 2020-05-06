@@ -23,5 +23,5 @@ static loadFromJsonFile(apiJsonFilename: string): ApiPackage;
 
 <b>Returns:</b>
 
-`ApiPackage`
+[ApiPackage](./api-extractor-model.apipackage.md)
 

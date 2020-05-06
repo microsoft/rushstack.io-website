@@ -45,7 +45,7 @@ export interface INumberTable {
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apiindexsignature.containerkey.md) |  | <code>string</code> |  |
-|  [kind](./api-extractor-model.apiindexsignature.kind.md) |  | <code>ApiItemKind</code> |  |
+|  [kind](./api-extractor-model.apiindexsignature.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods
 

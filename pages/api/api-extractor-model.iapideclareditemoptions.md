@@ -21,5 +21,5 @@ export interface IApiDeclaredItemOptions extends IApiDocumentedItemOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [excerptTokens](./api-extractor-model.iapideclareditemoptions.excerpttokens.md) | <code>IExcerptToken[]</code> |  |
+|  [excerptTokens](./api-extractor-model.iapideclareditemoptions.excerpttokens.md) | [IExcerptToken](./api-extractor-model.iexcerpttoken.md)<code>[]</code> |  |
 

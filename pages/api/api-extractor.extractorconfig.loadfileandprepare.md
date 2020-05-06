@@ -25,7 +25,7 @@ static loadFileAndPrepare(configJsonFilePath: string): ExtractorConfig;
 
 <b>Returns:</b>
 
-`ExtractorConfig`
+[ExtractorConfig](./api-extractor.extractorconfig.md)
 
 ## Remarks
 

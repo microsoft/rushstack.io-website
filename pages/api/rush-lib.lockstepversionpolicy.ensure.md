@@ -24,10 +24,10 @@ ensure(project: IPackageJson, force?: boolean): IPackageJson | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  project | <code>IPackageJson</code> | input package json |
+|  project | [IPackageJson](./node-core-library.ipackagejson.md) | input package json |
 |  force | <code>boolean</code> | force update even when the project version is higher than the policy version. |
 
 <b>Returns:</b>
 
-`IPackageJson | undefined`
+[IPackageJson](./node-core-library.ipackagejson.md)` | undefined`
 

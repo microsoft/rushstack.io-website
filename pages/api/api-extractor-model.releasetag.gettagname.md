@@ -21,7 +21,7 @@ function getTagName(releaseTag: ReleaseTag): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  releaseTag | <code>ReleaseTag</code> |  |
+|  releaseTag | [ReleaseTag](./api-extractor-model.releasetag.md) |  |
 
 <b>Returns:</b>
 

@@ -21,7 +21,7 @@ export declare class MarkdownDocumenterFeature extends PluginFeature
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [context](./api-documenter.markdowndocumenterfeature.context.md) |  | <code>MarkdownDocumenterFeatureContext</code> | Exposes various services that can be used by a plugin. |
+|  [context](./api-documenter.markdowndocumenterfeature.context.md) |  | [MarkdownDocumenterFeatureContext](./api-documenter.markdowndocumenterfeaturecontext.md) | Exposes various services that can be used by a plugin. |
 
 ## Methods
 

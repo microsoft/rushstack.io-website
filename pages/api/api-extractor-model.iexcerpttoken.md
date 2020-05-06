@@ -21,6 +21,6 @@ export interface IExcerptToken
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [canonicalReference](./api-extractor-model.iexcerpttoken.canonicalreference.md) | <code>string</code> |  |
-|  [kind](./api-extractor-model.iexcerpttoken.kind.md) | <code>ExcerptTokenKind</code> |  |
+|  [kind](./api-extractor-model.iexcerpttoken.kind.md) | [ExcerptTokenKind](./api-extractor-model.excerpttokenkind.md) |  |
 |  [text](./api-extractor-model.iexcerpttoken.text.md) | <code>string</code> |  |
 

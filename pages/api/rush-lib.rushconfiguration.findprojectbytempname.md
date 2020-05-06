@@ -25,7 +25,7 @@ findProjectByTempName(tempProjectName: string): RushConfigurationProject | undef
 
 <b>Returns:</b>
 
-`RushConfigurationProject | undefined`
+[RushConfigurationProject](./rush-lib.rushconfigurationproject.md)` | undefined`
 
 The found project, or undefined if no match was found.
 

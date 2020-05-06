@@ -21,7 +21,7 @@ static sortSetBy<T>(set: Set<T>, keySelector: (element: T) => any, keyComparer?:
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  set | <code>Set&lt;T&gt;</code> |  |
+|  set | <code>Set</code><code>&lt;T&gt;</code> |  |
 |  keySelector | <code>(element: T) =&gt; any</code> |  |
 |  keyComparer | <code>(x: T, y: T) =&gt; number</code> |  |
 

@@ -25,7 +25,7 @@ tryLoadPackageJsonFor(fileOrFolderPath: string): IPackageJson | undefined;
 
 <b>Returns:</b>
 
-`IPackageJson | undefined`
+[IPackageJson](./node-core-library.ipackagejson.md)` | undefined`
 
 an IPackageJson object, or undefined if the fileOrFolderPath does not belong to a package
 

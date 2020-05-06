@@ -43,8 +43,8 @@ export const canvas: IWidget = createCanvas();
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apivariable.containerkey.md) |  | <code>string</code> |  |
-|  [kind](./api-extractor-model.apivariable.kind.md) |  | <code>ApiItemKind</code> |  |
-|  [variableTypeExcerpt](./api-extractor-model.apivariable.variabletypeexcerpt.md) |  | <code>Excerpt</code> | An [Excerpt](./api-extractor-model.excerpt.md) that describes the type of the variable. |
+|  [kind](./api-extractor-model.apivariable.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
+|  [variableTypeExcerpt](./api-extractor-model.apivariable.variabletypeexcerpt.md) |  | [Excerpt](./api-extractor-model.excerpt.md) | An [Excerpt](./api-extractor-model.excerpt.md) that describes the type of the variable. |
 
 ## Methods
 

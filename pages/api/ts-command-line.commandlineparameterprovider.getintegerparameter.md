@@ -25,7 +25,7 @@ getIntegerParameter(parameterLongName: string): CommandLineIntegerParameter;
 
 <b>Returns:</b>
 
-`CommandLineIntegerParameter`
+[CommandLineIntegerParameter](./ts-command-line.commandlineintegerparameter.md)
 
 ## Remarks
 

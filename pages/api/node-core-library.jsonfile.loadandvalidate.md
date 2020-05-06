@@ -22,10 +22,10 @@ static loadAndValidate(jsonFilename: string, jsonSchema: JsonSchema, options?: I
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  jsonFilename | <code>string</code> |  |
-|  jsonSchema | <code>JsonSchema</code> |  |
-|  options | <code>IJsonSchemaValidateOptions</code> |  |
+|  jsonSchema | [JsonSchema](./node-core-library.jsonschema.md) |  |
+|  options | [IJsonSchemaValidateOptions](./node-core-library.ijsonschemavalidateoptions.md) |  |
 
 <b>Returns:</b>
 
-`JsonObject`
+[JsonObject](./node-core-library.jsonobject.md)
 

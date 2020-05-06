@@ -21,5 +21,5 @@ constructor(options: IStringValuesTypingsGeneratorOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IStringValuesTypingsGeneratorOptions</code> |  |
+|  options | [IStringValuesTypingsGeneratorOptions](./typings-generator.istringvaluestypingsgeneratoroptions.md) |  |
 

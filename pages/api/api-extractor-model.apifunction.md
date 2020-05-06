@@ -42,7 +42,7 @@ Functions are exported by an entry point module or by a namespace. Compare with 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apifunction.containerkey.md) |  | <code>string</code> |  |
-|  [kind](./api-extractor-model.apifunction.kind.md) |  | <code>ApiItemKind</code> |  |
+|  [kind](./api-extractor-model.apifunction.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods
 

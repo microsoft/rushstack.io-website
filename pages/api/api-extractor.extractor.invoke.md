@@ -21,10 +21,10 @@ static invoke(extractorConfig: ExtractorConfig, options?: IExtractorInvokeOption
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  extractorConfig | <code>ExtractorConfig</code> |  |
-|  options | <code>IExtractorInvokeOptions</code> |  |
+|  extractorConfig | [ExtractorConfig](./api-extractor.extractorconfig.md) |  |
+|  options | [IExtractorInvokeOptions](./api-extractor.iextractorinvokeoptions.md) |  |
 
 <b>Returns:</b>
 
-`ExtractorResult`
+[ExtractorResult](./api-extractor.extractorresult.md)
 

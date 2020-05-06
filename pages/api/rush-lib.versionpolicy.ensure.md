@@ -24,10 +24,10 @@ abstract ensure(project: IPackageJson, force?: boolean): IPackageJson | undefine
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  project | <code>IPackageJson</code> | package json |
+|  project | [IPackageJson](./node-core-library.ipackagejson.md) | package json |
 |  force | <code>boolean</code> | force update even when the project version is higher than the policy version. |
 
 <b>Returns:</b>
 
-`IPackageJson | undefined`
+[IPackageJson](./node-core-library.ipackagejson.md)` | undefined`
 

@@ -25,7 +25,7 @@ execute(args?: string[]): Promise<boolean>;
 
 <b>Returns:</b>
 
-`Promise<boolean>`
+`Promise``<boolean>`
 
 ## Remarks
 
