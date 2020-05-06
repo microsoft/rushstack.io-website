@@ -25,7 +25,7 @@ getFlagParameter(parameterLongName: string): CommandLineFlagParameter;
 
 <b>Returns:</b>
 
-`CommandLineFlagParameter`
+[CommandLineFlagParameter](./ts-command-line.commandlineflagparameter.md)
 
 ## Remarks
 

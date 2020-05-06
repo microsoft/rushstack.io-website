@@ -22,7 +22,7 @@ static convertTo(input: string, newlineKind: NewlineKind): string;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  input | <code>string</code> |  |
-|  newlineKind | <code>NewlineKind</code> |  |
+|  newlineKind | [NewlineKind](./node-core-library.newlinekind.md) |  |
 
 <b>Returns:</b>
 

@@ -20,5 +20,5 @@ export interface ILocalizationStatsEntrypoint
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [localizedAssets](./localization-plugin.ilocalizationstatsentrypoint.localizedassets.md) | <code>ILocaleElementMap</code> |  |
+|  [localizedAssets](./localization-plugin.ilocalizationstatsentrypoint.localizedassets.md) | [ILocaleElementMap](./localization-plugin.ilocaleelementmap.md) |  |
 

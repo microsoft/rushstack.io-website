@@ -21,5 +21,5 @@ export interface IApiVariableOptions extends IApiNameMixinOptions, IApiReleaseTa
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [variableTypeTokenRange](./api-extractor-model.iapivariableoptions.variabletypetokenrange.md) | <code>IExcerptTokenRange</code> |  |
+|  [variableTypeTokenRange](./api-extractor-model.iapivariableoptions.variabletypetokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
 

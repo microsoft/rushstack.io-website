@@ -21,5 +21,5 @@ constructor(options: IParameterOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IParameterOptions</code> |  |
+|  options | [IParameterOptions](./api-extractor-model.iparameteroptions.md) |  |
 

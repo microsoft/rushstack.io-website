@@ -25,7 +25,7 @@ loadPackageJson(jsonFilename: string): IPackageJson;
 
 <b>Returns:</b>
 
-`IPackageJson`
+[IPackageJson](./node-core-library.ipackagejson.md)
 
 ## Remarks
 

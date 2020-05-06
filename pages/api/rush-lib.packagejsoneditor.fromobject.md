@@ -22,10 +22,10 @@ static fromObject(object: IPackageJson, filename: string): PackageJsonEditor;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  object | <code>IPackageJson</code> |  |
+|  object | [IPackageJson](./node-core-library.ipackagejson.md) |  |
 |  filename | <code>string</code> |  |
 
 <b>Returns:</b>
 
-`PackageJsonEditor`
+[PackageJsonEditor](./rush-lib.packagejsoneditor.md)
 

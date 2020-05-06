@@ -26,5 +26,5 @@ static load(filePath: string): PackageJsonEditor;
 
 <b>Returns:</b>
 
-`PackageJsonEditor`
+[PackageJsonEditor](./rush-lib.packagejsoneditor.md)
 

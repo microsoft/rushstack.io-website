@@ -25,7 +25,7 @@ This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [compilerMessageReporting](./api-extractor.iextractormessagesconfig.compilermessagereporting.md) | <code>IConfigMessageReportingTable</code> | Configures handling of diagnostic messages generating the TypeScript compiler while analyzing the input .d.ts files. |
-|  [extractorMessageReporting](./api-extractor.iextractormessagesconfig.extractormessagereporting.md) | <code>IConfigMessageReportingTable</code> | Configures handling of messages reported by API Extractor during its analysis. |
-|  [tsdocMessageReporting](./api-extractor.iextractormessagesconfig.tsdocmessagereporting.md) | <code>IConfigMessageReportingTable</code> | Configures handling of messages reported by the TSDoc parser when analyzing code comments. |
+|  [compilerMessageReporting](./api-extractor.iextractormessagesconfig.compilermessagereporting.md) | [IConfigMessageReportingTable](./api-extractor.iconfigmessagereportingtable.md) | Configures handling of diagnostic messages generating the TypeScript compiler while analyzing the input .d.ts files. |
+|  [extractorMessageReporting](./api-extractor.iextractormessagesconfig.extractormessagereporting.md) | [IConfigMessageReportingTable](./api-extractor.iconfigmessagereportingtable.md) | Configures handling of messages reported by API Extractor during its analysis. |
+|  [tsdocMessageReporting](./api-extractor.iextractormessagesconfig.tsdocmessagereporting.md) | [IConfigMessageReportingTable](./api-extractor.iconfigmessagereportingtable.md) | Configures handling of messages reported by the TSDoc parser when analyzing code comments. |
 

@@ -39,5 +39,5 @@ The heritage types are `Controls.WidgetBase`<!-- -->, `Controls.IWidget`<!-- -->
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [excerpt](./api-extractor-model.heritagetype.excerpt.md) |  | <code>Excerpt</code> | An excerpt corresponding to the referenced type. |
+|  [excerpt](./api-extractor-model.heritagetype.excerpt.md) |  | [Excerpt](./api-extractor-model.excerpt.md) | An excerpt corresponding to the referenced type. |
 

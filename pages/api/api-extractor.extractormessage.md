@@ -25,11 +25,11 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [category](./api-extractor.extractormessage.category.md) |  | <code>ExtractorMessageCategory</code> | The category of issue. |
+|  [category](./api-extractor.extractormessage.category.md) |  | [ExtractorMessageCategory](./api-extractor.extractormessagecategory.md) | The category of issue. |
 |  [handled](./api-extractor.extractormessage.handled.md) |  | <code>boolean</code> | If the [IExtractorInvokeOptions.messageCallback](./api-extractor.iextractorinvokeoptions.messagecallback.md) sets this property to true, it will prevent the message from being displayed by API Extractor. |
-|  [logLevel](./api-extractor.extractormessage.loglevel.md) |  | <code>ExtractorLogLevel</code> | Specifies how the message should be reported. |
-|  [messageId](./api-extractor.extractormessage.messageid.md) |  | <code>tsdoc.TSDocMessageId &#124; ExtractorMessageId &#124; ConsoleMessageId &#124; string</code> | A text string that uniquely identifies the issue type. This identifier can be used to suppress or configure the reporting of issues, and also to search for help about an issue. |
-|  [properties](./api-extractor.extractormessage.properties.md) |  | <code>IExtractorMessageProperties</code> | Additional contextual information about the message that may be useful when reporting errors. All properties are optional. |
+|  [logLevel](./api-extractor.extractormessage.loglevel.md) |  | [ExtractorLogLevel](./api-extractor.extractorloglevel.md) | Specifies how the message should be reported. |
+|  [messageId](./api-extractor.extractormessage.messageid.md) |  | <code>tsdoc.</code><code>TSDocMessageId</code><code> &#124; </code>[ExtractorMessageId](./api-extractor.extractormessageid.md)<code> &#124; </code>[ConsoleMessageId](./api-extractor.consolemessageid.md)<code> &#124; string</code> | A text string that uniquely identifies the issue type. This identifier can be used to suppress or configure the reporting of issues, and also to search for help about an issue. |
+|  [properties](./api-extractor.extractormessage.properties.md) |  | [IExtractorMessageProperties](./api-extractor.iextractormessageproperties.md) | Additional contextual information about the message that may be useful when reporting errors. All properties are optional. |
 |  [sourceFileColumn](./api-extractor.extractormessage.sourcefilecolumn.md) |  | <code>number &#124; undefined</code> | The column number where the issue occurred in the input source file. This is not used if <code>sourceFilePath</code> is undefined. The first column number is 1. |
 |  [sourceFileLine](./api-extractor.extractormessage.sourcefileline.md) |  | <code>number &#124; undefined</code> | The line number where the issue occurred in the input source file. This is not used if <code>sourceFilePath</code> is undefined. The first line number is 1. |
 |  [sourceFilePath](./api-extractor.extractormessage.sourcefilepath.md) |  | <code>string &#124; undefined</code> | The absolute path to the affected input source file, if there is one. |

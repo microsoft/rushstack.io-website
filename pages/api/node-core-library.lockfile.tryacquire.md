@@ -26,5 +26,5 @@ static tryAcquire(resourceDir: string, resourceName: string): LockFile | undefin
 
 <b>Returns:</b>
 
-`LockFile | undefined`
+[LockFile](./node-core-library.lockfile.md)` | undefined`
 

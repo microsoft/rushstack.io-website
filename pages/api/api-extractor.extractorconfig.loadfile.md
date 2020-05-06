@@ -25,7 +25,7 @@ static loadFile(jsonFilePath: string): IConfigFile;
 
 <b>Returns:</b>
 
-`IConfigFile`
+[IConfigFile](./api-extractor.iconfigfile.md)
 
 ## Remarks
 

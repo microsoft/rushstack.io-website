@@ -26,5 +26,5 @@ tryGetDevDependency(packageName: string): PackageJsonDependency | undefined;
 
 <b>Returns:</b>
 
-`PackageJsonDependency | undefined`
+[PackageJsonDependency](./rush-lib.packagejsondependency.md)` | undefined`
 

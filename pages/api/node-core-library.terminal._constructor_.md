@@ -24,5 +24,5 @@ constructor(provider: ITerminalProvider);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  provider | <code>ITerminalProvider</code> |  |
+|  provider | [ITerminalProvider](./node-core-library.iterminalprovider.md) |  |
 

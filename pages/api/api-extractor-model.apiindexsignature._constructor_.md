@@ -21,5 +21,5 @@ constructor(options: IApiIndexSignatureOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IApiIndexSignatureOptions</code> |  |
+|  options | [IApiIndexSignatureOptions](./api-extractor-model.iapiindexsignatureoptions.md) |  |
 

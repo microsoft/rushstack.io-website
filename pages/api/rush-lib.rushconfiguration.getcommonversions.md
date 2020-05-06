@@ -25,5 +25,5 @@ getCommonVersions(variant?: string | undefined): CommonVersionsConfiguration;
 
 <b>Returns:</b>
 
-`CommonVersionsConfiguration`
+[CommonVersionsConfiguration](./rush-lib.commonversionsconfiguration.md)
 

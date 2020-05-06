@@ -21,10 +21,10 @@ static create(extractorConfig: ExtractorConfig, options?: ICompilerStateCreateOp
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  extractorConfig | <code>ExtractorConfig</code> |  |
-|  options | <code>ICompilerStateCreateOptions</code> |  |
+|  extractorConfig | [ExtractorConfig](./api-extractor.extractorconfig.md) |  |
+|  options | [ICompilerStateCreateOptions](./api-extractor.icompilerstatecreateoptions.md) |  |
 
 <b>Returns:</b>
 
-`CompilerState`
+[CompilerState](./api-extractor.compilerstate.md)
 

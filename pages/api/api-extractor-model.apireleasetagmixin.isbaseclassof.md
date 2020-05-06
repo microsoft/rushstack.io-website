@@ -21,11 +21,11 @@ function isBaseClassOf(apiItem: ApiItem): apiItem is ApiReleaseTagMixin;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  apiItem | <code>ApiItem</code> |  |
+|  apiItem | [ApiItem](./api-extractor-model.apiitem.md) |  |
 
 <b>Returns:</b>
 
-`apiItem is ApiReleaseTagMixin`
+`apiItem`` is `[ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md)
 
 ## Remarks
 

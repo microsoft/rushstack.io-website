@@ -21,11 +21,11 @@ export declare class CommonVersionsConfiguration
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [allowedAlternativeVersions](./rush-lib.commonversionsconfiguration.allowedalternativeversions.md) |  | <code>Map&lt;string, ReadonlyArray&lt;string&gt;&gt;</code> | A table that stores, for a given dependency, a list of SemVer ranges that will be accepted by "rush check" in addition to the normal version range. |
+|  [allowedAlternativeVersions](./rush-lib.commonversionsconfiguration.allowedalternativeversions.md) |  | <code>Map</code><code>&lt;string, </code><code>ReadonlyArray</code><code>&lt;string&gt;&gt;</code> | A table that stores, for a given dependency, a list of SemVer ranges that will be accepted by "rush check" in addition to the normal version range. |
 |  [filePath](./rush-lib.commonversionsconfiguration.filepath.md) |  | <code>string</code> | Get the absolute file path of the common-versions.json file. |
 |  [implicitlyPreferredVersions](./rush-lib.commonversionsconfiguration.implicitlypreferredversions.md) |  | <code>boolean &#124; undefined</code> | When set to true, for all projects in the repo, all dependencies will be automatically added as preferredVersions, except in cases where different projects specify different version ranges for a given dependency. For older package managers, this tended to reduce duplication of indirect dependencies. However, it can sometimes cause trouble for indirect dependencies with incompatible peerDependencies ranges.<!-- -->If the value is <code>undefined</code>, then the default value is <code>true</code>. |
-|  [preferredVersions](./rush-lib.commonversionsconfiguration.preferredversions.md) |  | <code>Map&lt;string, string&gt;</code> | A table that specifies a "preferred version" for a given NPM package. This feature is typically used to hold back an indirect dependency to a specific older version, or to reduce duplication of indirect dependencies. |
-|  [xstitchPreferredVersions](./rush-lib.commonversionsconfiguration.xstitchpreferredversions.md) |  | <code>Map&lt;string, string&gt;</code> | A table of specifies preferred versions maintained by the XStitch tool. |
+|  [preferredVersions](./rush-lib.commonversionsconfiguration.preferredversions.md) |  | <code>Map</code><code>&lt;string, string&gt;</code> | A table that specifies a "preferred version" for a given NPM package. This feature is typically used to hold back an indirect dependency to a specific older version, or to reduce duplication of indirect dependencies. |
+|  [xstitchPreferredVersions](./rush-lib.commonversionsconfiguration.xstitchpreferredversions.md) |  | <code>Map</code><code>&lt;string, string&gt;</code> | A table of specifies preferred versions maintained by the XStitch tool. |
 
 ## Methods
 

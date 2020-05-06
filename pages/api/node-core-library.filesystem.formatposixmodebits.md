@@ -21,7 +21,7 @@ static formatPosixModeBits(modeBits: PosixModeBits): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  modeBits | <code>PosixModeBits</code> | POSIX-style file mode bits specified using the [PosixModeBits](./node-core-library.posixmodebits.md) enum |
+|  modeBits | [PosixModeBits](./node-core-library.posixmodebits.md) | POSIX-style file mode bits specified using the [PosixModeBits](./node-core-library.posixmodebits.md) enum |
 
 <b>Returns:</b>
 

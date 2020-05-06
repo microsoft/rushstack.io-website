@@ -25,5 +25,5 @@ static loadFromConfigurationFile(rushJsonFilename: string): RushConfiguration;
 
 <b>Returns:</b>
 
-`RushConfiguration`
+[RushConfiguration](./rush-lib.rushconfiguration.md)
 

@@ -21,7 +21,7 @@ addAction(action: CommandLineAction): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  action | <code>CommandLineAction</code> |  |
+|  action | [CommandLineAction](./ts-command-line.commandlineaction.md) |  |
 
 <b>Returns:</b>
 

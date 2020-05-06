@@ -21,5 +21,5 @@ export interface IApiPropertyItemOptions extends IApiNameMixinOptions, IApiRelea
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [propertyTypeTokenRange](./api-extractor-model.iapipropertyitemoptions.propertytypetokenrange.md) | <code>IExcerptTokenRange</code> |  |
+|  [propertyTypeTokenRange](./api-extractor-model.iapipropertyitemoptions.propertytypetokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
 

@@ -21,5 +21,5 @@ constructor(options: IApiFunctionOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IApiFunctionOptions</code> |  |
+|  options | [IApiFunctionOptions](./api-extractor-model.iapifunctionoptions.md) |  |
 

@@ -21,5 +21,5 @@ constructor(options: IApiDeclaredItemOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IApiDeclaredItemOptions</code> |  |
+|  options | [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md) |  |
 

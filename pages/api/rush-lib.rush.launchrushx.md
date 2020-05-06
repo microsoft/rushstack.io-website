@@ -22,7 +22,7 @@ static launchRushX(launcherVersion: string, options: ILaunchOptions): void;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  launcherVersion | <code>string</code> | The version of the <code>@microsoft/rush</code> wrapper used to call invoke the CLI. |
-|  options | <code>ILaunchOptions</code> |  |
+|  options | [ILaunchOptions](./rush-lib.ilaunchoptions.md) |  |
 
 <b>Returns:</b>
 

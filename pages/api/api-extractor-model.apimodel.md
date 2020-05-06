@@ -55,8 +55,8 @@ Normally, API Extractor writes an .api.json file to disk for each project that i
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apimodel.containerkey.md) |  | <code>string</code> |  |
-|  [kind](./api-extractor-model.apimodel.kind.md) |  | <code>ApiItemKind</code> |  |
-|  [packages](./api-extractor-model.apimodel.packages.md) |  | <code>ReadonlyArray&lt;ApiPackage&gt;</code> |  |
+|  [kind](./api-extractor-model.apimodel.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
+|  [packages](./api-extractor-model.apimodel.packages.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[ApiPackage](./api-extractor-model.apipackage.md)<code>&gt;</code> |  |
 
 ## Methods
 

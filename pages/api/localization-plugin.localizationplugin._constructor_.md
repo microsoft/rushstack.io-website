@@ -21,5 +21,5 @@ constructor(options: ILocalizationPluginOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>ILocalizationPluginOptions</code> |  |
+|  options | [ILocalizationPluginOptions](./localization-plugin.ilocalizationpluginoptions.md) |  |
 

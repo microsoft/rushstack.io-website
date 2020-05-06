@@ -25,5 +25,5 @@ static loadFromFile(jsonFilename: string): CommonVersionsConfiguration;
 
 <b>Returns:</b>
 
-`CommonVersionsConfiguration`
+[CommonVersionsConfiguration](./rush-lib.commonversionsconfiguration.md)
 

@@ -21,5 +21,5 @@ export interface IApiEnumMemberOptions extends IApiNameMixinOptions, IApiRelease
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [initializerTokenRange](./api-extractor-model.iapienummemberoptions.initializertokenrange.md) | <code>IExcerptTokenRange</code> |  |
+|  [initializerTokenRange](./api-extractor-model.iapienummemberoptions.initializertokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
 

@@ -21,11 +21,11 @@ defineFlagParameter(definition: ICommandLineFlagDefinition): CommandLineFlagPara
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  definition | <code>ICommandLineFlagDefinition</code> |  |
+|  definition | [ICommandLineFlagDefinition](./ts-command-line.icommandlineflagdefinition.md) |  |
 
 <b>Returns:</b>
 
-`CommandLineFlagParameter`
+[CommandLineFlagParameter](./ts-command-line.commandlineflagparameter.md)
 
 ## Remarks
 

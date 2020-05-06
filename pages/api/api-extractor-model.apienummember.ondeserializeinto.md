@@ -21,7 +21,7 @@ static onDeserializeInto(options: Partial<IApiEnumMemberOptions>, context: Deser
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>Partial&lt;IApiEnumMemberOptions&gt;</code> |  |
+|  options | <code>Partial</code><code>&lt;</code>[IApiEnumMemberOptions](./api-extractor-model.iapienummemberoptions.md)<code>&gt;</code> |  |
 |  context | <code>DeserializerContext</code> |  |
 |  jsonObject | <code>IApiEnumMemberJson</code> |  |
 

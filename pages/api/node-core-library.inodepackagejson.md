@@ -30,18 +30,18 @@ Use the `INodePackageJson` interface when loading such files. Use `IPackageJson`
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [bin](./node-core-library.inodepackagejson.bin.md) | <code>string</code> | The main entry point for the package. |
-|  [dependencies](./node-core-library.inodepackagejson.dependencies.md) | <code>IPackageJsonDependencyTable</code> | An array of dependencies that must always be installed for this package. |
+|  [dependencies](./node-core-library.inodepackagejson.dependencies.md) | [IPackageJsonDependencyTable](./node-core-library.ipackagejsondependencytable.md) | An array of dependencies that must always be installed for this package. |
 |  [description](./node-core-library.inodepackagejson.description.md) | <code>string</code> | A brief description of the package. |
-|  [devDependencies](./node-core-library.inodepackagejson.devdependencies.md) | <code>IPackageJsonDependencyTable</code> | An array of dependencies that must only be installed for developers who will build this package. |
+|  [devDependencies](./node-core-library.inodepackagejson.devdependencies.md) | [IPackageJsonDependencyTable](./node-core-library.ipackagejsondependencytable.md) | An array of dependencies that must only be installed for developers who will build this package. |
 |  [homepage](./node-core-library.inodepackagejson.homepage.md) | <code>string</code> | The URL to the project's web page. |
 |  [license](./node-core-library.inodepackagejson.license.md) | <code>string</code> | The name of the license. |
 |  [main](./node-core-library.inodepackagejson.main.md) | <code>string</code> | The path to the module file that will act as the main entry point. |
 |  [name](./node-core-library.inodepackagejson.name.md) | <code>string</code> | The name of the package. |
-|  [optionalDependencies](./node-core-library.inodepackagejson.optionaldependencies.md) | <code>IPackageJsonDependencyTable</code> | An array of optional dependencies that may be installed for this package. |
-|  [peerDependencies](./node-core-library.inodepackagejson.peerdependencies.md) | <code>IPackageJsonDependencyTable</code> | An array of dependencies that must be installed by a consumer of this package, but which will not be automatically installed by this package. |
+|  [optionalDependencies](./node-core-library.inodepackagejson.optionaldependencies.md) | [IPackageJsonDependencyTable](./node-core-library.ipackagejsondependencytable.md) | An array of optional dependencies that may be installed for this package. |
+|  [peerDependencies](./node-core-library.inodepackagejson.peerdependencies.md) | [IPackageJsonDependencyTable](./node-core-library.ipackagejsondependencytable.md) | An array of dependencies that must be installed by a consumer of this package, but which will not be automatically installed by this package. |
 |  [private](./node-core-library.inodepackagejson.private.md) | <code>boolean</code> | Indicates whether this package is allowed to be published or not. |
 |  [repository](./node-core-library.inodepackagejson.repository.md) | <code>string</code> | The URL of the project's repository. |
-|  [scripts](./node-core-library.inodepackagejson.scripts.md) | <code>IPackageJsonScriptTable</code> | A table of script hooks that a package manager or build tool may invoke. |
+|  [scripts](./node-core-library.inodepackagejson.scripts.md) | [IPackageJsonScriptTable](./node-core-library.ipackagejsonscripttable.md) | A table of script hooks that a package manager or build tool may invoke. |
 |  [tsdocMetadata](./node-core-library.inodepackagejson.tsdocmetadata.md) | <code>string</code> | <b><i>(BETA)</i></b> The path to the TSDoc metadata file. This is still being standardized: https://github.com/microsoft/tsdoc/issues/7\#issuecomment-442271815 |
 |  [types](./node-core-library.inodepackagejson.types.md) | <code>string</code> | The path to the TypeScript \*.d.ts file describing the module file that will act as the main entry point. |
 |  [typings](./node-core-library.inodepackagejson.typings.md) | <code>string</code> | Alias for <code>types</code> |

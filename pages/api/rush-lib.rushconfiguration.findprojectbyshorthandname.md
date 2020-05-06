@@ -25,5 +25,5 @@ findProjectByShorthandName(shorthandProjectName: string): RushConfigurationProje
 
 <b>Returns:</b>
 
-`RushConfigurationProject | undefined`
+[RushConfigurationProject](./rush-lib.rushconfigurationproject.md)` | undefined`
 

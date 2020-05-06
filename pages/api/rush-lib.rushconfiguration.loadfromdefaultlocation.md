@@ -19,9 +19,9 @@ static loadFromDefaultLocation(options?: ITryFindRushJsonLocationOptions): RushC
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>ITryFindRushJsonLocationOptions</code> |  |
+|  options | [ITryFindRushJsonLocationOptions](./rush-lib.itryfindrushjsonlocationoptions.md) |  |
 
 <b>Returns:</b>
 
-`RushConfiguration`
+[RushConfiguration](./rush-lib.rushconfiguration.md)
 

@@ -21,8 +21,8 @@ function compare(a: ReleaseTag, b: ReleaseTag): number;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  a | <code>ReleaseTag</code> |  |
-|  b | <code>ReleaseTag</code> |  |
+|  a | [ReleaseTag](./api-extractor-model.releasetag.md) |  |
+|  b | [ReleaseTag](./api-extractor-model.releasetag.md) |  |
 
 <b>Returns:</b>
 

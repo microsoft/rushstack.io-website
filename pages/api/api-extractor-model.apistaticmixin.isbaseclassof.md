@@ -21,11 +21,11 @@ function isBaseClassOf(apiItem: ApiItem): apiItem is ApiStaticMixin;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  apiItem | <code>ApiItem</code> |  |
+|  apiItem | [ApiItem](./api-extractor-model.apiitem.md) |  |
 
 <b>Returns:</b>
 
-`apiItem is ApiStaticMixin`
+`apiItem`` is `[ApiStaticMixin](./api-extractor-model.apistaticmixin.md)
 
 ## Remarks
 

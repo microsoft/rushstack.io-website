@@ -24,7 +24,7 @@ get(event: Event): string[];
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  event | <code>Event</code> | Rush event |
+|  event | [Event](./rush-lib.event.md) | Rush event |
 
 <b>Returns:</b>
 

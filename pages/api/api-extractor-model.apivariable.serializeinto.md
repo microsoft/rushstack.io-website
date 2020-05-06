@@ -21,7 +21,7 @@ serializeInto(jsonObject: Partial<IApiVariableJson>): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>Partial&lt;IApiVariableJson&gt;</code> |  |
+|  jsonObject | <code>Partial</code><code>&lt;</code><code>IApiVariableJson</code><code>&gt;</code> |  |
 
 <b>Returns:</b>
 

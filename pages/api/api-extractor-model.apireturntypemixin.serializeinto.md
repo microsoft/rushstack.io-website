@@ -21,7 +21,7 @@ serializeInto(jsonObject: Partial<IApiReturnTypeMixinJson>): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>Partial&lt;IApiReturnTypeMixinJson&gt;</code> |  |
+|  jsonObject | <code>Partial</code><code>&lt;</code><code>IApiReturnTypeMixinJson</code><code>&gt;</code> |  |
 
 <b>Returns:</b>
 

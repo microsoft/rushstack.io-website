@@ -21,7 +21,7 @@ addMember(member: ApiPackage): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  member | <code>ApiPackage</code> |  |
+|  member | [ApiPackage](./api-extractor-model.apipackage.md) |  |
 
 <b>Returns:</b>
 

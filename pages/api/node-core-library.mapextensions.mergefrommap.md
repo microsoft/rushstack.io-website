@@ -21,8 +21,8 @@ static mergeFromMap<K, V>(targetMap: Map<K, V>, sourceMap: ReadonlyMap<K, V>): v
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  targetMap | <code>Map&lt;K, V&gt;</code> | The map that entries will be added to |
-|  sourceMap | <code>ReadonlyMap&lt;K, V&gt;</code> | The map containing the entries to be added |
+|  targetMap | <code>Map</code><code>&lt;K, V&gt;</code> | The map that entries will be added to |
+|  sourceMap | <code>ReadonlyMap</code><code>&lt;K, V&gt;</code> | The map containing the entries to be added |
 
 <b>Returns:</b>
 

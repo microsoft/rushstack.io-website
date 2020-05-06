@@ -27,7 +27,7 @@ export declare class TypingsGenerator
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_options](./typings-generator.typingsgenerator._options.md) |  | <code>ITypingsGeneratorOptions</code> |  |
+|  [\_options](./typings-generator.typingsgenerator._options.md) |  | [ITypingsGeneratorOptions](./typings-generator.itypingsgeneratoroptions.md) |  |
 
 ## Methods
 

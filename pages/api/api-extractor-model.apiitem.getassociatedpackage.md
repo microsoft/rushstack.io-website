@@ -18,5 +18,5 @@ getAssociatedPackage(): ApiPackage | undefined;
 ```
 <b>Returns:</b>
 
-`ApiPackage | undefined`
+[ApiPackage](./api-extractor-model.apipackage.md)` | undefined`
 

@@ -21,11 +21,11 @@ defineStringListParameter(definition: ICommandLineStringListDefinition): Command
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  definition | <code>ICommandLineStringListDefinition</code> |  |
+|  definition | [ICommandLineStringListDefinition](./ts-command-line.icommandlinestringlistdefinition.md) |  |
 
 <b>Returns:</b>
 
-`CommandLineStringListParameter`
+[CommandLineStringListParameter](./ts-command-line.commandlinestringlistparameter.md)
 
 ## Remarks
 

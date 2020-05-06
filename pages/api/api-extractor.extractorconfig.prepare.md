@@ -21,9 +21,9 @@ static prepare(options: IExtractorConfigPrepareOptions): ExtractorConfig;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IExtractorConfigPrepareOptions</code> |  |
+|  options | [IExtractorConfigPrepareOptions](./api-extractor.iextractorconfigprepareoptions.md) |  |
 
 <b>Returns:</b>
 
-`ExtractorConfig`
+[ExtractorConfig](./api-extractor.extractorconfig.md)
 

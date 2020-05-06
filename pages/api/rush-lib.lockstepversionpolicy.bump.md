@@ -24,7 +24,7 @@ bump(bumpType?: BumpType, identifier?: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  bumpType | <code>BumpType</code> | Overwrite bump type in version-policy.json with the provided value. |
+|  bumpType | [BumpType](./rush-lib.bumptype.md) | Overwrite bump type in version-policy.json with the provided value. |
 |  identifier | <code>string</code> | Prerelease identifier if bump type is prerelease. |
 
 <b>Returns:</b>

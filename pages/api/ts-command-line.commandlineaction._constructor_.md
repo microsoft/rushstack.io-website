@@ -21,5 +21,5 @@ constructor(options: ICommandLineActionOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>ICommandLineActionOptions</code> |  |
+|  options | [ICommandLineActionOptions](./ts-command-line.icommandlineactionoptions.md) |  |
 

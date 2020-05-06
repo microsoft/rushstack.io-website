@@ -27,7 +27,7 @@ static acquire(resourceDir: string, resourceName: string, maxWaitMs?: number): P
 
 <b>Returns:</b>
 
-`Promise<LockFile>`
+`Promise``<`[LockFile](./node-core-library.lockfile.md)`>`
 
 ## Remarks
 

@@ -26,5 +26,5 @@ static registerTask(taskName: string, quietMode?: boolean): ITaskWriter;
 
 <b>Returns:</b>
 
-`ITaskWriter`
+[ITaskWriter](./stream-collator.itaskwriter.md)
 

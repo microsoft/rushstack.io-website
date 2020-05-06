@@ -25,7 +25,7 @@ static tryParse(packageName: string): IParsedPackageNameOrError;
 
 <b>Returns:</b>
 
-`IParsedPackageNameOrError`
+[IParsedPackageNameOrError](./node-core-library.iparsedpackagenameorerror.md)
 
 an [IParsedPackageNameOrError](./node-core-library.iparsedpackagenameorerror.md) structure whose `error` property will be nonempty if the string could not be parsed.
 

@@ -25,7 +25,7 @@ getStringListParameter(parameterLongName: string): CommandLineStringListParamete
 
 <b>Returns:</b>
 
-`CommandLineStringListParameter`
+[CommandLineStringListParameter](./ts-command-line.commandlinestringlistparameter.md)
 
 ## Remarks
 

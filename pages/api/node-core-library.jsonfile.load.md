@@ -25,5 +25,5 @@ static load(jsonFilename: string): JsonObject;
 
 <b>Returns:</b>
 
-`JsonObject`
+[JsonObject](./node-core-library.jsonobject.md)
 

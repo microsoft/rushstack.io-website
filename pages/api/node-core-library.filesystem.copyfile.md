@@ -21,7 +21,7 @@ static copyFile(options: IFileSystemCopyFileOptions): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IFileSystemCopyFileOptions</code> |  |
+|  options | [IFileSystemCopyFileOptions](./node-core-library.ifilesystemcopyfileoptions.md) |  |
 
 <b>Returns:</b>
 

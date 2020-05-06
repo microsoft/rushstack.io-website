@@ -24,7 +24,7 @@ writeVerboseLine(...messageParts: (string | IColorableSequence)[]): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  messageParts | <code>(string &#124; IColorableSequence)[]</code> |  |
+|  messageParts | <code>(string &#124; </code>[IColorableSequence](./node-core-library.icolorablesequence.md)<code>)[]</code> |  |
 
 <b>Returns:</b>
 

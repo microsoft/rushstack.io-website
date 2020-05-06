@@ -25,5 +25,5 @@ getAction(actionName: string): CommandLineAction;
 
 <b>Returns:</b>
 
-`CommandLineAction`
+[CommandLineAction](./ts-command-line.commandlineaction.md)
 

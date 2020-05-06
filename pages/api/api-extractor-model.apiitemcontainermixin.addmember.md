@@ -21,7 +21,7 @@ addMember(member: ApiItem): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  member | <code>ApiItem</code> |  |
+|  member | [ApiItem](./api-extractor-model.apiitem.md) |  |
 
 <b>Returns:</b>
 

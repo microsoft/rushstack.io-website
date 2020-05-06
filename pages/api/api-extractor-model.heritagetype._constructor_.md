@@ -21,5 +21,5 @@ constructor(excerpt: Excerpt);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  excerpt | <code>Excerpt</code> |  |
+|  excerpt | [Excerpt](./api-extractor-model.excerpt.md) |  |
 

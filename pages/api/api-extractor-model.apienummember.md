@@ -43,8 +43,8 @@ export enum FontSizes {
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apienummember.containerkey.md) |  | <code>string</code> |  |
-|  [initializerExcerpt](./api-extractor-model.apienummember.initializerexcerpt.md) |  | <code>Excerpt</code> | An [Excerpt](./api-extractor-model.excerpt.md) that describes the value of the enum member. |
-|  [kind](./api-extractor-model.apienummember.kind.md) |  | <code>ApiItemKind</code> |  |
+|  [initializerExcerpt](./api-extractor-model.apienummember.initializerexcerpt.md) |  | [Excerpt](./api-extractor-model.excerpt.md) | An [Excerpt](./api-extractor-model.excerpt.md) that describes the value of the enum member. |
+|  [kind](./api-extractor-model.apienummember.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods
 

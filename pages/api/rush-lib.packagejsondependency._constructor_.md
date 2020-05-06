@@ -26,6 +26,6 @@ constructor(name: string, version: string, type: DependencyType, onChange: () =>
 |  --- | --- | --- |
 |  name | <code>string</code> |  |
 |  version | <code>string</code> |  |
-|  type | <code>DependencyType</code> |  |
+|  type | [DependencyType](./rush-lib.dependencytype.md) |  |
 |  onChange | <code>() =&gt; void</code> |  |
 

@@ -48,8 +48,8 @@ class Book<TIdentifier extends IIdentifier = BarCode> {
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [constraintExcerpt](./api-extractor-model.typeparameter.constraintexcerpt.md) |  | <code>Excerpt</code> | An [Excerpt](./api-extractor-model.excerpt.md) that describes the base constraint of the type parameter. |
-|  [defaultTypeExcerpt](./api-extractor-model.typeparameter.defaulttypeexcerpt.md) |  | <code>Excerpt</code> | An [Excerpt](./api-extractor-model.excerpt.md) that describes the default type of the type parameter. |
+|  [constraintExcerpt](./api-extractor-model.typeparameter.constraintexcerpt.md) |  | [Excerpt](./api-extractor-model.excerpt.md) | An [Excerpt](./api-extractor-model.excerpt.md) that describes the base constraint of the type parameter. |
+|  [defaultTypeExcerpt](./api-extractor-model.typeparameter.defaulttypeexcerpt.md) |  | [Excerpt](./api-extractor-model.excerpt.md) | An [Excerpt](./api-extractor-model.excerpt.md) that describes the default type of the type parameter. |
 |  [name](./api-extractor-model.typeparameter.name.md) |  | <code>string</code> | The parameter name. |
-|  [tsdocTypeParamBlock](./api-extractor-model.typeparameter.tsdoctypeparamblock.md) |  | <code>tsdoc.DocParamBlock &#124; undefined</code> | Returns the <code>@typeParam</code> documentation for this parameter, if present. |
+|  [tsdocTypeParamBlock](./api-extractor-model.typeparameter.tsdoctypeparamblock.md) |  | <code>tsdoc.</code><code>DocParamBlock</code><code> &#124; undefined</code> | Returns the <code>@typeParam</code> documentation for this parameter, if present. |
 

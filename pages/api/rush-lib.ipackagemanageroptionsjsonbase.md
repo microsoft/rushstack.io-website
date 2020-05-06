@@ -21,5 +21,5 @@ export interface IPackageManagerOptionsJsonBase
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [environmentVariables](./rush-lib.ipackagemanageroptionsjsonbase.environmentvariables.md) | <code>IConfigurationEnvironment</code> | Environment variables for the package manager |
+|  [environmentVariables](./rush-lib.ipackagemanageroptionsjsonbase.environmentvariables.md) | [IConfigurationEnvironment](./rush-lib.iconfigurationenvironment.md) | Environment variables for the package manager |
 

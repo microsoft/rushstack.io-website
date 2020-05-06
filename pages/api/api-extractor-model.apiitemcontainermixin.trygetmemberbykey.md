@@ -25,7 +25,7 @@ tryGetMemberByKey(containerKey: string): ApiItem | undefined;
 
 <b>Returns:</b>
 
-`ApiItem | undefined`
+[ApiItem](./api-extractor-model.apiitem.md)` | undefined`
 
 ## Remarks
 

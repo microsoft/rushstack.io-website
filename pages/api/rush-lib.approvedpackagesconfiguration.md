@@ -27,7 +27,7 @@ export declare class ApprovedPackagesConfiguration
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [items](./rush-lib.approvedpackagesconfiguration.items.md) |  | <code>ApprovedPackagesItem[]</code> |  |
+|  [items](./rush-lib.approvedpackagesconfiguration.items.md) |  | [ApprovedPackagesItem](./rush-lib.approvedpackagesitem.md)<code>[]</code> |  |
 
 ## Methods
 

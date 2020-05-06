@@ -26,7 +26,7 @@ export declare function getPackageDeps(packagePath?: string, excludedPaths?: str
 
 <b>Returns:</b>
 
-`IPackageDeps`
+[IPackageDeps](./package-deps-hash.ipackagedeps.md)
 
 the package-deps.json file content
 

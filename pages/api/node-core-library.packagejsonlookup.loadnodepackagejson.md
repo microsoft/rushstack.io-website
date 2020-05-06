@@ -25,5 +25,5 @@ loadNodePackageJson(jsonFilename: string): INodePackageJson;
 
 <b>Returns:</b>
 
-`INodePackageJson`
+[INodePackageJson](./node-core-library.inodepackagejson.md)
 

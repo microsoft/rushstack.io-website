@@ -25,8 +25,8 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [kind](./ts-command-line.commandlinestringlistparameter.kind.md) |  | <code>CommandLineParameterKind</code> | Indicates the type of parameter. |
-|  [values](./ts-command-line.commandlinestringlistparameter.values.md) |  | <code>ReadonlyArray&lt;string&gt;</code> | Returns the string arguments for a string list parameter that was parsed from the command line. |
+|  [kind](./ts-command-line.commandlinestringlistparameter.kind.md) |  | [CommandLineParameterKind](./ts-command-line.commandlineparameterkind.md) | Indicates the type of parameter. |
+|  [values](./ts-command-line.commandlinestringlistparameter.values.md) |  | <code>ReadonlyArray</code><code>&lt;string&gt;</code> | Returns the string arguments for a string list parameter that was parsed from the command line. |
 
 ## Methods
 

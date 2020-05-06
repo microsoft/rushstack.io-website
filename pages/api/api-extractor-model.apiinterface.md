@@ -40,8 +40,8 @@ export interface X extends Y {
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apiinterface.containerkey.md) |  | <code>string</code> |  |
-|  [extendsTypes](./api-extractor-model.apiinterface.extendstypes.md) |  | <code>ReadonlyArray&lt;HeritageType&gt;</code> | The list of base interfaces that this interface inherits from using the <code>extends</code> keyword. |
-|  [kind](./api-extractor-model.apiinterface.kind.md) |  | <code>ApiItemKind</code> |  |
+|  [extendsTypes](./api-extractor-model.apiinterface.extendstypes.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[HeritageType](./api-extractor-model.heritagetype.md)<code>&gt;</code> | The list of base interfaces that this interface inherits from using the <code>extends</code> keyword. |
+|  [kind](./api-extractor-model.apiinterface.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods
 

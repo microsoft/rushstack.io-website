@@ -25,9 +25,9 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [browserApprovedPackages](./rush-lib.approvedpackagespolicy.browserapprovedpackages.md) |  | <code>ApprovedPackagesConfiguration</code> | Packages approved for usage in a web browser. This is the stricter of the two types, so by default all new packages are added to this file. |
+|  [browserApprovedPackages](./rush-lib.approvedpackagespolicy.browserapprovedpackages.md) |  | [ApprovedPackagesConfiguration](./rush-lib.approvedpackagesconfiguration.md) | Packages approved for usage in a web browser. This is the stricter of the two types, so by default all new packages are added to this file. |
 |  [enabled](./rush-lib.approvedpackagespolicy.enabled.md) |  | <code>boolean</code> | Whether the feature is enabled. The feature is enabled if the "approvedPackagesPolicy" field is assigned in rush.json. |
-|  [ignoredNpmScopes](./rush-lib.approvedpackagespolicy.ignorednpmscopes.md) |  | <code>Set&lt;string&gt;</code> | A list of NPM package scopes that will be excluded from review (e.g. <code>@types</code>) |
-|  [nonbrowserApprovedPackages](./rush-lib.approvedpackagespolicy.nonbrowserapprovedpackages.md) |  | <code>ApprovedPackagesConfiguration</code> | Packages approved for usage everywhere \*except\* in a web browser. |
-|  [reviewCategories](./rush-lib.approvedpackagespolicy.reviewcategories.md) |  | <code>Set&lt;string&gt;</code> | A list of category names that are valid for usage as the RushConfigurationProject.reviewCategory field. This array will never be undefined. |
+|  [ignoredNpmScopes](./rush-lib.approvedpackagespolicy.ignorednpmscopes.md) |  | <code>Set</code><code>&lt;string&gt;</code> | A list of NPM package scopes that will be excluded from review (e.g. <code>@types</code>) |
+|  [nonbrowserApprovedPackages](./rush-lib.approvedpackagespolicy.nonbrowserapprovedpackages.md) |  | [ApprovedPackagesConfiguration](./rush-lib.approvedpackagesconfiguration.md) | Packages approved for usage everywhere \*except\* in a web browser. |
+|  [reviewCategories](./rush-lib.approvedpackagespolicy.reviewcategories.md) |  | <code>Set</code><code>&lt;string&gt;</code> | A list of category names that are valid for usage as the RushConfigurationProject.reviewCategory field. This array will never be undefined. |
 

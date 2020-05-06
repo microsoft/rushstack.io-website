@@ -21,11 +21,11 @@ defineStringParameter(definition: ICommandLineStringDefinition): CommandLineStri
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  definition | <code>ICommandLineStringDefinition</code> |  |
+|  definition | [ICommandLineStringDefinition](./ts-command-line.icommandlinestringdefinition.md) |  |
 
 <b>Returns:</b>
 
-`CommandLineStringParameter`
+[CommandLineStringParameter](./ts-command-line.commandlinestringparameter.md)
 
 ## Remarks
 

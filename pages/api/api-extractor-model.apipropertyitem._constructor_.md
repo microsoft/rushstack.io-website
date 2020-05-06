@@ -21,5 +21,5 @@ constructor(options: IApiPropertyItemOptions);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>IApiPropertyItemOptions</code> |  |
+|  options | [IApiPropertyItemOptions](./api-extractor-model.iapipropertyitemoptions.md) |  |
 

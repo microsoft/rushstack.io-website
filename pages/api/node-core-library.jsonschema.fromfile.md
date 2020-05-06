@@ -22,11 +22,11 @@ static fromFile(filename: string, options?: IJsonSchemaFromFileOptions): JsonSch
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  filename | <code>string</code> |  |
-|  options | <code>IJsonSchemaFromFileOptions</code> |  |
+|  options | [IJsonSchemaFromFileOptions](./node-core-library.ijsonschemafromfileoptions.md) |  |
 
 <b>Returns:</b>
 
-`JsonSchema`
+[JsonSchema](./node-core-library.jsonschema.md)
 
 ## Remarks
 

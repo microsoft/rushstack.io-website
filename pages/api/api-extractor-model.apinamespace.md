@@ -45,7 +45,7 @@ export namespace X {
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apinamespace.containerkey.md) |  | <code>string</code> |  |
-|  [kind](./api-extractor-model.apinamespace.kind.md) |  | <code>ApiItemKind</code> |  |
+|  [kind](./api-extractor-model.apinamespace.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods
 
