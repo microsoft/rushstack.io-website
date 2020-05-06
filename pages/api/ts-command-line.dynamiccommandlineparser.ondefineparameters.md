@@ -16,5 +16,5 @@ protected onDefineParameters(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

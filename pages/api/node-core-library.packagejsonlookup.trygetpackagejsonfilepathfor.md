@@ -21,11 +21,11 @@ tryGetPackageJsonFilePathFor(fileOrFolderPath: string): string | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  fileOrFolderPath | <code>string</code> | a relative or absolute path to a source file or folder that may be part of a package |
+|  fileOrFolderPath | string | a relative or absolute path to a source file or folder that may be part of a package |
 
 <b>Returns:</b>
 
-`string | undefined`
+string \| undefined
 
 an absolute path to \* package.json file
 

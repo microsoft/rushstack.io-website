@@ -47,6 +47,6 @@ export const apiDocumenterPluginManifest: IApiDocumenterPluginManifest = {
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [features](./api-documenter.iapidocumenterpluginmanifest.features.md) | [IFeatureDefinition](./api-documenter.ifeaturedefinition.md)<code>[]</code> | The list of features provided by this plugin. |
-|  [manifestVersion](./api-documenter.iapidocumenterpluginmanifest.manifestversion.md) | <code>1000</code> | The manifest version number. For now, this must always be <code>1000</code>. |
+|  [features](./api-documenter.iapidocumenterpluginmanifest.features.md) | [IFeatureDefinition](./api-documenter.ifeaturedefinition.md)<!-- -->\[\] | The list of features provided by this plugin. |
+|  [manifestVersion](./api-documenter.iapidocumenterpluginmanifest.manifestversion.md) | 1000 | The manifest version number. For now, this must always be <code>1000</code>. |
 

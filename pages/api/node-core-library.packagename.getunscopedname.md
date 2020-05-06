@@ -21,11 +21,11 @@ static getUnscopedName(packageName: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
+|  packageName | string |  |
 
 <b>Returns:</b>
 
-`string`
+string
 
 ## Remarks
 

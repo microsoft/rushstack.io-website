@@ -21,7 +21,7 @@ export interface ITypingsGenerationOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [exportAsDefault](./localization-plugin.itypingsgenerationoptions.exportasdefault.md) | <code>boolean</code> | If this option is set to <code>true</code>, loc modules typings will be exported wrapped in a <code>default</code> property. |
-|  [generatedTsFolder](./localization-plugin.itypingsgenerationoptions.generatedtsfolder.md) | <code>string</code> | This property specifies the folder in which <code>.d.ts</code> files for loc files should be dropped. |
-|  [sourceRoot](./localization-plugin.itypingsgenerationoptions.sourceroot.md) | <code>string</code> | This optional property overrides the compiler context for discovery of localization files for which typings should be generated. |
+|  [exportAsDefault](./localization-plugin.itypingsgenerationoptions.exportasdefault.md) | boolean | If this option is set to <code>true</code>, loc modules typings will be exported wrapped in a <code>default</code> property. |
+|  [generatedTsFolder](./localization-plugin.itypingsgenerationoptions.generatedtsfolder.md) | string | This property specifies the folder in which <code>.d.ts</code> files for loc files should be dropped. |
+|  [sourceRoot](./localization-plugin.itypingsgenerationoptions.sourceroot.md) | string | This optional property overrides the compiler context for discovery of localization files for which typings should be generated. |
 

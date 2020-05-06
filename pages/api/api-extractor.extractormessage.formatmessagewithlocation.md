@@ -21,11 +21,11 @@ formatMessageWithLocation(workingPackageFolderPath: string | undefined): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  workingPackageFolderPath | <code>string &#124; undefined</code> |  |
+|  workingPackageFolderPath | string \| undefined |  |
 
 <b>Returns:</b>
 
-`string`
+string
 
 ## Remarks
 

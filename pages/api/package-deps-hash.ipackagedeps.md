@@ -21,6 +21,6 @@ export interface IPackageDeps
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [arguments](./package-deps-hash.ipackagedeps.arguments.md) | <code>string</code> | An optional field used to story command-line arguments for the build. |
-|  [files](./package-deps-hash.ipackagedeps.files.md) | <code>{</code><br/><code>        [key: string]: string;</code><br/><code>    }</code> | The <code>key</code> is a source file path, relative to the package folder. The value is the Git hash. |
+|  [arguments](./package-deps-hash.ipackagedeps.arguments.md) | string | An optional field used to story command-line arguments for the build. |
+|  [files](./package-deps-hash.ipackagedeps.files.md) | { \[key: string\]: string; } | The <code>key</code> is a source file path, relative to the package folder. The value is the Git hash. |
 

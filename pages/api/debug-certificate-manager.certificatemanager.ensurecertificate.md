@@ -21,7 +21,7 @@ ensureCertificate(canGenerateNewCertificate: boolean, terminal: Terminal): ICert
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  canGenerateNewCertificate | <code>boolean</code> |  |
+|  canGenerateNewCertificate | boolean |  |
 |  terminal | [Terminal](./node-core-library.terminal.md) |  |
 
 <b>Returns:</b>

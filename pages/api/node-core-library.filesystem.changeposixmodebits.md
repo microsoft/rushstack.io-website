@@ -21,10 +21,10 @@ static changePosixModeBits(path: string, mode: PosixModeBits): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  path | <code>string</code> | The absolute or relative path to the object that should be updated. |
+|  path | string | The absolute or relative path to the object that should be updated. |
 |  mode | [PosixModeBits](./node-core-library.posixmodebits.md) |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

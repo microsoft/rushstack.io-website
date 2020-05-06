@@ -21,10 +21,10 @@ set(key: K, value: V): this;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  key | <code>K</code> |  |
-|  value | <code>V</code> |  |
+|  key | K |  |
+|  value | V |  |
 
 <b>Returns:</b>
 
-`this`
+this
 

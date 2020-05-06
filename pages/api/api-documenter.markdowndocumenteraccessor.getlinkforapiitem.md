@@ -25,7 +25,7 @@ getLinkForApiItem(apiItem: ApiItem): string | undefined;
 
 <b>Returns:</b>
 
-`string | undefined`
+string \| undefined
 
 The hyperlink, or `undefined` if the `ApiItem` object does not have a hyperlink.
 

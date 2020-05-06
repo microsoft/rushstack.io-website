@@ -28,9 +28,9 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [mainProject](./rush-lib.lockstepversionpolicy.mainproject.md) |  | <code>string &#124; undefined</code> | <b><i>(BETA)</i></b> The main project for the version policy.<!-- -->If the value is provided, change logs will only be generated in that project. If the value is not provided, change logs will be hosted in each project associated with the policy. |
+|  [mainProject](./rush-lib.lockstepversionpolicy.mainproject.md) |  | string \| undefined | <b><i>(BETA)</i></b> The main project for the version policy.<!-- -->If the value is provided, change logs will only be generated in that project. If the value is not provided, change logs will be hosted in each project associated with the policy. |
 |  [nextBump](./rush-lib.lockstepversionpolicy.nextbump.md) |  | [BumpType](./rush-lib.bumptype.md) | <b><i>(BETA)</i></b> The type of bump for next bump. |
-|  [version](./rush-lib.lockstepversionpolicy.version.md) |  | <code>string</code> | <b><i>(BETA)</i></b> The value of the lockstep version |
+|  [version](./rush-lib.lockstepversionpolicy.version.md) |  | string | <b><i>(BETA)</i></b> The value of the lockstep version |
 
 ## Methods
 

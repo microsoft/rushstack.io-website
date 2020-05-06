@@ -21,13 +21,13 @@ static padStart(s: string, minimumLength: number, paddingCharacter?: string): st
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  s | <code>string</code> |  |
-|  minimumLength | <code>number</code> |  |
-|  paddingCharacter | <code>string</code> |  |
+|  s | string |  |
+|  minimumLength | number |  |
+|  paddingCharacter | string |  |
 
 <b>Returns:</b>
 
-`string`
+string
 
 ## Remarks
 

@@ -21,9 +21,9 @@ tryLoadFromFile(approvedPackagesPolicyEnabled: boolean): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  approvedPackagesPolicyEnabled | <code>boolean</code> |  |
+|  approvedPackagesPolicyEnabled | boolean |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

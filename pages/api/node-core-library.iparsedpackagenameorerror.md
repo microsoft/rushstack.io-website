@@ -21,5 +21,5 @@ export interface IParsedPackageNameOrError extends IParsedPackageName
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [error](./node-core-library.iparsedpackagenameorerror.error.md) | <code>string</code> | If the input string could not be parsed, then this string will contain a nonempty error message. Otherwise it will be an empty string. |
+|  [error](./node-core-library.iparsedpackagenameorerror.error.md) | string | If the input string could not be parsed, then this string will contain a nonempty error message. Otherwise it will be an empty string. |
 

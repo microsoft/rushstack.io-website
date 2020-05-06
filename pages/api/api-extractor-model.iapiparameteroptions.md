@@ -21,6 +21,6 @@ export interface IApiParameterOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [parameterName](./api-extractor-model.iapiparameteroptions.parametername.md) | <code>string</code> |  |
+|  [parameterName](./api-extractor-model.iapiparameteroptions.parametername.md) | string |  |
 |  [parameterTypeTokenRange](./api-extractor-model.iapiparameteroptions.parametertypetokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
 

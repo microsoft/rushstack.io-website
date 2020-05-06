@@ -18,5 +18,5 @@ save(): boolean;
 ```
 <b>Returns:</b>
 
-`boolean`
+boolean
 

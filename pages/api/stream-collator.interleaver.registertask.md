@@ -21,8 +21,8 @@ static registerTask(taskName: string, quietMode?: boolean): ITaskWriter;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  taskName | <code>string</code> |  |
-|  quietMode | <code>boolean</code> |  |
+|  taskName | string |  |
+|  quietMode | boolean |  |
 
 <b>Returns:</b>
 

@@ -23,7 +23,7 @@ static fromObject(object: IPackageJson, filename: string): PackageJsonEditor;
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  object | [IPackageJson](./node-core-library.ipackagejson.md) |  |
-|  filename | <code>string</code> |  |
+|  filename | string |  |
 
 <b>Returns:</b>
 

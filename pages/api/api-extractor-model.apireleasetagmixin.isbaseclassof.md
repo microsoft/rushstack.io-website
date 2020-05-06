@@ -25,7 +25,7 @@ function isBaseClassOf(apiItem: ApiItem): apiItem is ApiReleaseTagMixin;
 
 <b>Returns:</b>
 
-`apiItem`` is `[ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md)
+apiItem is [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md)
 
 ## Remarks
 

@@ -25,10 +25,10 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [apiReportChanged](./api-extractor.extractorresult.apireportchanged.md) |  | <code>boolean</code> | Returns true if the API report was found to have changed. |
+|  [apiReportChanged](./api-extractor.extractorresult.apireportchanged.md) |  | boolean | Returns true if the API report was found to have changed. |
 |  [compilerState](./api-extractor.extractorresult.compilerstate.md) |  | [CompilerState](./api-extractor.compilerstate.md) | The TypeScript compiler state that was used. |
-|  [errorCount](./api-extractor.extractorresult.errorcount.md) |  | <code>number</code> | Reports the number of errors encountered during analysis. |
+|  [errorCount](./api-extractor.extractorresult.errorcount.md) |  | number | Reports the number of errors encountered during analysis. |
 |  [extractorConfig](./api-extractor.extractorresult.extractorconfig.md) |  | [ExtractorConfig](./api-extractor.extractorconfig.md) | The API Extractor configuration that was used. |
-|  [succeeded](./api-extractor.extractorresult.succeeded.md) |  | <code>boolean</code> | Whether the invocation of API Extractor was successful. For example, if <code>succeeded</code> is false, then the build task would normally return a nonzero process exit code, indicating that the operation failed. |
-|  [warningCount](./api-extractor.extractorresult.warningcount.md) |  | <code>number</code> | Reports the number of warnings encountered during analysis. |
+|  [succeeded](./api-extractor.extractorresult.succeeded.md) |  | boolean | Whether the invocation of API Extractor was successful. For example, if <code>succeeded</code> is false, then the build task would normally return a nonzero process exit code, indicating that the operation failed. |
+|  [warningCount](./api-extractor.extractorresult.warningcount.md) |  | number | Reports the number of warnings encountered during analysis. |
 

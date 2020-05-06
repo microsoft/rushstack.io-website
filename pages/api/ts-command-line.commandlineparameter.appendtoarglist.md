@@ -21,11 +21,11 @@ abstract appendToArgList(argList: string[]): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  argList | <code>string[]</code> | the parsed strings will be appended to this string array |
+|  argList | string\[\] | the parsed strings will be appended to this string array |
 
 <b>Returns:</b>
 
-`void`
+void
 
 ## Remarks
 

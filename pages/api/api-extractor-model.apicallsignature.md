@@ -50,7 +50,7 @@ let chooser: IChooser = chooseFirst;
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apicallsignature.containerkey.md) |  | <code>string</code> |  |
+|  [containerKey](./api-extractor-model.apicallsignature.containerkey.md) |  | string |  |
 |  [kind](./api-extractor-model.apicallsignature.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods

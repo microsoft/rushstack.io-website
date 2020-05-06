@@ -21,11 +21,11 @@ static exists(path: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  path | <code>string</code> | The absolute or relative path to the filesystem object. |
+|  path | string | The absolute or relative path to the filesystem object. |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 
 ## Remarks
 

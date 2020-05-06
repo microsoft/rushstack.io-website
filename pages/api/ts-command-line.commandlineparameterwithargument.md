@@ -27,5 +27,5 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [argumentName](./ts-command-line.commandlineparameterwithargument.argumentname.md) |  | <code>string</code> | The name of the argument, which will be shown in the command-line help. |
+|  [argumentName](./ts-command-line.commandlineparameterwithargument.argumentname.md) |  | string | The name of the argument, which will be shown in the command-line help. |
 

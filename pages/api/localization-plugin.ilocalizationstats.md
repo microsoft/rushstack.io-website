@@ -20,6 +20,6 @@ export interface ILocalizationStats
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [entrypoints](./localization-plugin.ilocalizationstats.entrypoints.md) | <code>{</code><br/><code>        [name: string]: </code>[ILocalizationStatsEntrypoint](./localization-plugin.ilocalizationstatsentrypoint.md)<code>;</code><br/><code>    }</code> |  |
-|  [namedChunkGroups](./localization-plugin.ilocalizationstats.namedchunkgroups.md) | <code>{</code><br/><code>        [name: string]: </code>[ILocalizationStatsChunkGroup](./localization-plugin.ilocalizationstatschunkgroup.md)<code>;</code><br/><code>    }</code> |  |
+|  [entrypoints](./localization-plugin.ilocalizationstats.entrypoints.md) | { \[name: string\]: [ILocalizationStatsEntrypoint](./localization-plugin.ilocalizationstatsentrypoint.md)<!-- -->; } |  |
+|  [namedChunkGroups](./localization-plugin.ilocalizationstats.namedchunkgroups.md) | { \[name: string\]: [ILocalizationStatsChunkGroup](./localization-plugin.ilocalizationstatschunkgroup.md)<!-- -->; } |  |
 

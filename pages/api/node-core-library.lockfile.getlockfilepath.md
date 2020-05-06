@@ -21,11 +21,11 @@ static getLockFilePath(resourceDir: string, resourceName: string, pid?: number):
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  resourceDir | <code>string</code> |  |
-|  resourceName | <code>string</code> |  |
-|  pid | <code>number</code> |  |
+|  resourceDir | string |  |
+|  resourceName | string |  |
+|  pid | number |  |
 
 <b>Returns:</b>
 
-`string`
+string
 

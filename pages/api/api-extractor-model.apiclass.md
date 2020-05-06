@@ -38,9 +38,9 @@ export class X { }
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apiclass.containerkey.md) |  | <code>string</code> |  |
-|  [extendsType](./api-extractor-model.apiclass.extendstype.md) |  | [HeritageType](./api-extractor-model.heritagetype.md)<code> &#124; undefined</code> | The base class that this class inherits from (using the <code>extends</code> keyword), or undefined if there is no base class. |
-|  [implementsTypes](./api-extractor-model.apiclass.implementstypes.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[HeritageType](./api-extractor-model.heritagetype.md)<code>&gt;</code> | The list of interfaces that this class implements using the <code>implements</code> keyword. |
+|  [containerKey](./api-extractor-model.apiclass.containerkey.md) |  | string |  |
+|  [extendsType](./api-extractor-model.apiclass.extendstype.md) |  | [HeritageType](./api-extractor-model.heritagetype.md) \| undefined | The base class that this class inherits from (using the <code>extends</code> keyword), or undefined if there is no base class. |
+|  [implementsTypes](./api-extractor-model.apiclass.implementstypes.md) |  | ReadonlyArray&lt;[HeritageType](./api-extractor-model.heritagetype.md)<!-- -->&gt; | The list of interfaces that this class implements using the <code>implements</code> keyword. |
 |  [kind](./api-extractor-model.apiclass.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods

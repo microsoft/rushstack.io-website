@@ -22,7 +22,7 @@ static magentaBackground(text: string | IColorableSequence): IColorableSequence;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  text | <code>string &#124; </code>[IColorableSequence](./node-core-library.icolorablesequence.md) |  |
+|  text | string \| [IColorableSequence](./node-core-library.icolorablesequence.md) |  |
 
 <b>Returns:</b>
 

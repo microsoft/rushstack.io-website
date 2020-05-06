@@ -25,5 +25,5 @@ An argument is an accompanying command-line token, such as "123" in the example 
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [argumentName](./ts-command-line.ibasecommandlinedefinitionwithargument.argumentname.md) | <code>string</code> | The name of the argument, which will be shown in the command-line help. |
+|  [argumentName](./ts-command-line.ibasecommandlinedefinitionwithargument.argumentname.md) | string | The name of the argument, which will be shown in the command-line help. |
 

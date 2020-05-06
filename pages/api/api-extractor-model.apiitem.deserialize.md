@@ -19,8 +19,8 @@ static deserialize(jsonObject: IApiItemJson, context: DeserializerContext): ApiI
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>IApiItemJson</code> |  |
-|  context | <code>DeserializerContext</code> |  |
+|  jsonObject | IApiItemJson |  |
+|  context | DeserializerContext |  |
 
 <b>Returns:</b>
 

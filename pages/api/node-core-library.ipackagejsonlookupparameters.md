@@ -21,5 +21,5 @@ export interface IPackageJsonLookupParameters
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [loadExtraFields](./node-core-library.ipackagejsonlookupparameters.loadextrafields.md) | <code>boolean</code> | Certain package.json fields such as "contributors" can be very large, and may significantly increase the memory footprint for the PackageJsonLookup cache. By default, PackageJsonLookup only loads a subset of standard commonly used fields names. Set loadExtraFields=true to always return all fields. |
+|  [loadExtraFields](./node-core-library.ipackagejsonlookupparameters.loadextrafields.md) | boolean | Certain package.json fields such as "contributors" can be very large, and may significantly increase the memory footprint for the PackageJsonLookup cache. By default, PackageJsonLookup only loads a subset of standard commonly used fields names. Set loadExtraFields=true to always return all fields. |
 

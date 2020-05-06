@@ -20,5 +20,5 @@ export interface IStringValueTypings
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [typings](./typings-generator.istringvaluetypings.typings.md) | [IStringValueTyping](./typings-generator.istringvaluetyping.md)<code>[]</code> |  |
+|  [typings](./typings-generator.istringvaluetypings.typings.md) | [IStringValueTyping](./typings-generator.istringvaluetyping.md)<!-- -->\[\] |  |
 

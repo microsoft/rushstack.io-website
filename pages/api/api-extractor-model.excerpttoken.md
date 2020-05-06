@@ -26,7 +26,7 @@ export declare class ExcerptToken
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [canonicalReference](./api-extractor-model.excerpttoken.canonicalreference.md) |  | <code>DeclarationReference</code><code> &#124; undefined</code> |  |
+|  [canonicalReference](./api-extractor-model.excerpttoken.canonicalreference.md) |  | DeclarationReference \| undefined |  |
 |  [kind](./api-extractor-model.excerpttoken.kind.md) |  | [ExcerptTokenKind](./api-extractor-model.excerpttokenkind.md) |  |
-|  [text](./api-extractor-model.excerpttoken.text.md) |  | <code>string</code> |  |
+|  [text](./api-extractor-model.excerpttoken.text.md) |  | string |  |
 

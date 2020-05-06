@@ -21,9 +21,9 @@ static scrubError(error: Error | string | any): Error;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  error | <code>Error</code><code> &#124; string &#124; any</code> |  |
+|  error | Error \| string \| any |  |
 
 <b>Returns:</b>
 
-`Error`
+Error
 

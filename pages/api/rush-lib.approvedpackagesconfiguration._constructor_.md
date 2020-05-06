@@ -21,5 +21,5 @@ constructor(jsonFilename: string);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonFilename | <code>string</code> |  |
+|  jsonFilename | string |  |
 

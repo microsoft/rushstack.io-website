@@ -21,5 +21,5 @@ export interface IApiTypeParameterListMixinOptions extends IApiItemOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [typeParameters](./api-extractor-model.iapitypeparameterlistmixinoptions.typeparameters.md) | [IApiTypeParameterOptions](./api-extractor-model.iapitypeparameteroptions.md)<code>[]</code> |  |
+|  [typeParameters](./api-extractor-model.iapitypeparameterlistmixinoptions.typeparameters.md) | [IApiTypeParameterOptions](./api-extractor-model.iapitypeparameteroptions.md)<!-- -->\[\] |  |
 

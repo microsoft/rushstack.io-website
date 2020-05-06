@@ -19,10 +19,10 @@ addOrUpdatePackage(packageName: string, reviewCategory: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
-|  reviewCategory | <code>string</code> |  |
+|  packageName | string |  |
+|  reviewCategory | string |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

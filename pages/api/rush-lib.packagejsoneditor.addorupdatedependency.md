@@ -22,11 +22,11 @@ addOrUpdateDependency(packageName: string, newVersion: string, dependencyType: D
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
-|  newVersion | <code>string</code> |  |
+|  packageName | string |  |
+|  newVersion | string |  |
 |  dependencyType | [DependencyType](./rush-lib.dependencytype.md) |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

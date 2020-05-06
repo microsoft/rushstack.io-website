@@ -21,9 +21,9 @@ static hasDtsFileExtension(filePath: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  filePath | <code>string</code> |  |
+|  filePath | string |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

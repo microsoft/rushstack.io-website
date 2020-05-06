@@ -20,10 +20,10 @@ export interface ITypingsGeneratorOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [exportAsDefault](./localization-plugin.itypingsgeneratoroptions.exportasdefault.md) | <code>boolean</code> |  |
-|  [filesToIgnore](./localization-plugin.itypingsgeneratoroptions.filestoignore.md) | <code>string[]</code> |  |
-|  [generatedTsFolder](./localization-plugin.itypingsgeneratoroptions.generatedtsfolder.md) | <code>string</code> |  |
-|  [resxNewlineNormalization](./localization-plugin.itypingsgeneratoroptions.resxnewlinenormalization.md) | [NewlineKind](./node-core-library.newlinekind.md)<code> &#124; undefined</code> |  |
-|  [srcFolder](./localization-plugin.itypingsgeneratoroptions.srcfolder.md) | <code>string</code> |  |
+|  [exportAsDefault](./localization-plugin.itypingsgeneratoroptions.exportasdefault.md) | boolean |  |
+|  [filesToIgnore](./localization-plugin.itypingsgeneratoroptions.filestoignore.md) | string\[\] |  |
+|  [generatedTsFolder](./localization-plugin.itypingsgeneratoroptions.generatedtsfolder.md) | string |  |
+|  [resxNewlineNormalization](./localization-plugin.itypingsgeneratoroptions.resxnewlinenormalization.md) | [NewlineKind](./node-core-library.newlinekind.md) \| undefined |  |
+|  [srcFolder](./localization-plugin.itypingsgeneratoroptions.srcfolder.md) | string |  |
 |  [terminal](./localization-plugin.itypingsgeneratoroptions.terminal.md) | [Terminal](./node-core-library.terminal.md) |  |
 

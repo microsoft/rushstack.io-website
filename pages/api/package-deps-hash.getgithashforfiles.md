@@ -21,10 +21,10 @@ export declare function getGitHashForFiles(filesToHash: string[], packagePath: s
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  filesToHash | <code>string[]</code> |  |
-|  packagePath | <code>string</code> |  |
+|  filesToHash | string\[\] |  |
+|  packagePath | string |  |
 
 <b>Returns:</b>
 
-`Map``<string, string>`
+Map&lt;string, string&gt;
 

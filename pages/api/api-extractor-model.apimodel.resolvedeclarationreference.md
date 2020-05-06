@@ -19,8 +19,8 @@ resolveDeclarationReference(declarationReference: DocDeclarationReference, conte
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  declarationReference | <code>DocDeclarationReference</code> |  |
-|  contextApiItem | [ApiItem](./api-extractor-model.apiitem.md)<code> &#124; undefined</code> |  |
+|  declarationReference | DocDeclarationReference |  |
+|  contextApiItem | [ApiItem](./api-extractor-model.apiitem.md) \| undefined |  |
 
 <b>Returns:</b>
 

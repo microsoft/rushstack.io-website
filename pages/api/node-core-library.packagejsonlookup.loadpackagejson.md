@@ -21,7 +21,7 @@ loadPackageJson(jsonFilename: string): IPackageJson;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonFilename | <code>string</code> | a relative or absolute path to a package.json file |
+|  jsonFilename | string | a relative or absolute path to a package.json file |
 
 <b>Returns:</b>
 

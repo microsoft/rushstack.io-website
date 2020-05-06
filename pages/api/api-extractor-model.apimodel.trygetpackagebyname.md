@@ -21,11 +21,11 @@ tryGetPackageByName(packageName: string): ApiPackage | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
+|  packageName | string |  |
 
 <b>Returns:</b>
 
-[ApiPackage](./api-extractor-model.apipackage.md)` | undefined`
+[ApiPackage](./api-extractor-model.apipackage.md) \| undefined
 
 ## Remarks
 

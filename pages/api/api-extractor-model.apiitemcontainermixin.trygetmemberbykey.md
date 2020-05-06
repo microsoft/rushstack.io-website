@@ -21,11 +21,11 @@ tryGetMemberByKey(containerKey: string): ApiItem | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  containerKey | <code>string</code> |  |
+|  containerKey | string |  |
 
 <b>Returns:</b>
 
-[ApiItem](./api-extractor-model.apiitem.md)` | undefined`
+[ApiItem](./api-extractor-model.apiitem.md) \| undefined
 
 ## Remarks
 

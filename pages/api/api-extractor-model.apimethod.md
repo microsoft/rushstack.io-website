@@ -41,7 +41,7 @@ Compare with [ApiMethodSignature](./api-extractor-model.apimethodsignature.md)<!
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apimethod.containerkey.md) |  | <code>string</code> |  |
+|  [containerKey](./api-extractor-model.apimethod.containerkey.md) |  | string |  |
 |  [kind](./api-extractor-model.apimethod.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods

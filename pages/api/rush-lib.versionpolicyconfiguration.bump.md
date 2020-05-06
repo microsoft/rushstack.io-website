@@ -24,12 +24,12 @@ bump(versionPolicyName?: string, bumpType?: BumpType, identifier?: string, shoul
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  versionPolicyName | <code>string</code> | version policy name |
+|  versionPolicyName | string | version policy name |
 |  bumpType | [BumpType](./rush-lib.bumptype.md) | bump type to override what policy has defined. |
-|  identifier | <code>string</code> | prerelease identifier to override what policy has defined. |
-|  shouldCommit | <code>boolean</code> | should save to disk |
+|  identifier | string | prerelease identifier to override what policy has defined. |
+|  shouldCommit | boolean | should save to disk |
 
 <b>Returns:</b>
 
-`void`
+void
 

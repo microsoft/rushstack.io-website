@@ -18,5 +18,5 @@ protected abstract onDefineParameters(): void;
 ```
 <b>Returns:</b>
 
-`void`
+void
 

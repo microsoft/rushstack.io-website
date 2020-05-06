@@ -53,7 +53,7 @@ Compare with [ApiPropertySignature](./api-extractor-model.apipropertysignature.m
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apiproperty.containerkey.md) |  | <code>string</code> |  |
+|  [containerKey](./api-extractor-model.apiproperty.containerkey.md) |  | string |  |
 |  [kind](./api-extractor-model.apiproperty.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods

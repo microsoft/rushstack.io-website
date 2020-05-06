@@ -21,5 +21,5 @@ export interface IApiNameMixinOptions extends IApiItemOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [name](./api-extractor-model.iapinamemixinoptions.name.md) | <code>string</code> |  |
+|  [name](./api-extractor-model.iapinamemixinoptions.name.md) | string |  |
 

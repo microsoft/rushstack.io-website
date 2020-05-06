@@ -21,11 +21,11 @@ static ensureFolder(folderPath: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  folderPath | <code>string</code> | The absolute or relative path of the folder which should be created. |
+|  folderPath | string | The absolute or relative path of the folder which should be created. |
 
 <b>Returns:</b>
 
-`void`
+void
 
 ## Remarks
 

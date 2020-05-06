@@ -21,10 +21,10 @@ static ensureTrailingNewline(s: string, newlineKind?: NewlineKind): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  s | <code>string</code> |  |
+|  s | string |  |
 |  newlineKind | [NewlineKind](./node-core-library.newlinekind.md) |  |
 
 <b>Returns:</b>
 
-`string`
+string
 

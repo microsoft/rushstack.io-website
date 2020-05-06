@@ -26,5 +26,5 @@ onBeforeWritePage(eventArgs: IMarkdownDocumenterFeatureOnBeforeWritePageArgs): v
 
 <b>Returns:</b>
 
-`void`
+void
 

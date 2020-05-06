@@ -21,9 +21,9 @@ static getRealPath(linkPath: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  linkPath | <code>string</code> | The path to the link. |
+|  linkPath | string | The path to the link. |
 
 <b>Returns:</b>
 
-`string`
+string
 

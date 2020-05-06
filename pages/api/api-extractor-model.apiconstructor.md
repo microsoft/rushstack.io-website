@@ -48,7 +48,7 @@ Compare with [ApiConstructSignature](./api-extractor-model.apiconstructsignature
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apiconstructor.containerkey.md) |  | <code>string</code> |  |
+|  [containerKey](./api-extractor-model.apiconstructor.containerkey.md) |  | string |  |
 |  [kind](./api-extractor-model.apiconstructor.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods

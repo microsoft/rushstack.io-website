@@ -25,5 +25,5 @@ addMember(member: ApiEnumMember): void;
 
 <b>Returns:</b>
 
-`void`
+void
 

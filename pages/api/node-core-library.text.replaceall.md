@@ -21,11 +21,11 @@ static replaceAll(input: string, searchValue: string, replaceValue: string): str
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  input | <code>string</code> | The string to be modified |
-|  searchValue | <code>string</code> | The value to search for |
-|  replaceValue | <code>string</code> | The replacement text |
+|  input | string | The string to be modified |
+|  searchValue | string | The value to search for |
+|  replaceValue | string | The replacement text |
 
 <b>Returns:</b>
 
-`string`
+string
 

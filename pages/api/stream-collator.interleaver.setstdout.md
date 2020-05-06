@@ -23,9 +23,9 @@ static setStdOut(stdout: {
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  stdout | <code>{</code><br/><code>        write: (text: string) =&gt; void;</code><br/><code>    }</code> |  |
+|  stdout | { write: (text: string) =&gt; void; } |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

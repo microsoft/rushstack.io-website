@@ -21,6 +21,6 @@ export interface IApiClassOptions extends IApiItemContainerMixinOptions, IApiNam
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [extendsTokenRange](./api-extractor-model.iapiclassoptions.extendstokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)<code> &#124; undefined</code> |  |
-|  [implementsTokenRanges](./api-extractor-model.iapiclassoptions.implementstokenranges.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)<code>[]</code> |  |
+|  [extendsTokenRange](./api-extractor-model.iapiclassoptions.extendstokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) \| undefined |  |
+|  [implementsTokenRanges](./api-extractor-model.iapiclassoptions.implementstokenranges.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)<!-- -->\[\] |  |
 

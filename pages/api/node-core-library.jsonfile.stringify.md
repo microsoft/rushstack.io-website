@@ -26,7 +26,7 @@ static stringify(jsonObject: JsonObject, options?: IJsonFileStringifyOptions): s
 
 <b>Returns:</b>
 
-`string`
+string
 
 a JSON string, with newlines, and indented with two spaces
 

@@ -19,9 +19,9 @@ protected validateDefaultValue(hasDefaultValue: boolean): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  hasDefaultValue | <code>boolean</code> |  |
+|  hasDefaultValue | boolean |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

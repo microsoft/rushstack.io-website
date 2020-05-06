@@ -29,9 +29,9 @@ The constructor for this class is marked as internal. Third-party code should no
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [definitionName](./rush-lib.versionpolicy.definitionname.md) |  | [VersionPolicyDefinitionName](./rush-lib.versionpolicydefinitionname.md) | <b><i>(BETA)</i></b> Version policy definition name |
-|  [exemptFromRushChange](./rush-lib.versionpolicy.exemptfromrushchange.md) |  | <code>boolean</code> | <b><i>(BETA)</i></b> Determines if a version policy wants to opt out of changelog files. |
-|  [isLockstepped](./rush-lib.versionpolicy.islockstepped.md) |  | <code>boolean</code> | <b><i>(BETA)</i></b> Whether it is a lockstepped version policy |
-|  [policyName](./rush-lib.versionpolicy.policyname.md) |  | <code>string</code> | <b><i>(BETA)</i></b> Version policy name |
+|  [exemptFromRushChange](./rush-lib.versionpolicy.exemptfromrushchange.md) |  | boolean | <b><i>(BETA)</i></b> Determines if a version policy wants to opt out of changelog files. |
+|  [isLockstepped](./rush-lib.versionpolicy.islockstepped.md) |  | boolean | <b><i>(BETA)</i></b> Whether it is a lockstepped version policy |
+|  [policyName](./rush-lib.versionpolicy.policyname.md) |  | string | <b><i>(BETA)</i></b> Version policy name |
 
 ## Methods
 

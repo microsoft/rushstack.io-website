@@ -25,7 +25,7 @@ function isBaseClassOf(apiItem: ApiItem): apiItem is ApiParameterListMixin;
 
 <b>Returns:</b>
 
-`apiItem`` is `[ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md)
+apiItem is [ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md)
 
 ## Remarks
 

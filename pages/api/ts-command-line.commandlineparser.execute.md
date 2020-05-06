@@ -21,11 +21,11 @@ execute(args?: string[]): Promise<boolean>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  args | <code>string[]</code> | the command-line arguments to be parsed; if omitted, then the process.argv will be used |
+|  args | string\[\] | the command-line arguments to be parsed; if omitted, then the process.argv will be used |
 
 <b>Returns:</b>
 
-`Promise``<boolean>`
+Promise&lt;boolean&gt;
 
 ## Remarks
 

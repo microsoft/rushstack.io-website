@@ -21,7 +21,7 @@ static loadFile(jsonFilePath: string): IConfigFile;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonFilePath | <code>string</code> |  |
+|  jsonFilePath | string |  |
 
 <b>Returns:</b>
 

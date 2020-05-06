@@ -21,6 +21,6 @@ export interface ILaunchOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [alreadyReportedNodeTooNewError](./rush-lib.ilaunchoptions.alreadyreportednodetoonewerror.md) | <code>boolean</code> | If true, the wrapper process already printed a warning that the version of Node.js hasn't been tested with this version of Rush, so we shouldn't print a similar error. |
-|  [isManaged](./rush-lib.ilaunchoptions.ismanaged.md) | <code>boolean</code> | True if the tool was invoked from within a project with a rush.json file, otherwise false. We consider a project without a rush.json to be "unmanaged" and we'll print that to the command line when the tool is executed. This is mainly used for debugging purposes. |
+|  [alreadyReportedNodeTooNewError](./rush-lib.ilaunchoptions.alreadyreportednodetoonewerror.md) | boolean | If true, the wrapper process already printed a warning that the version of Node.js hasn't been tested with this version of Rush, so we shouldn't print a similar error. |
+|  [isManaged](./rush-lib.ilaunchoptions.ismanaged.md) | boolean | True if the tool was invoked from within a project with a rush.json file, otherwise false. We consider a project without a rush.json to be "unmanaged" and we'll print that to the command line when the tool is executed. This is mainly used for debugging purposes. |
 

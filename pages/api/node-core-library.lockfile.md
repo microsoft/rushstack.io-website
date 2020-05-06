@@ -21,9 +21,9 @@ export declare class LockFile
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [dirtyWhenAcquired](./node-core-library.lockfile.dirtywhenacquired.md) |  | <code>boolean</code> | Returns the initial state of the lock. This can be used to detect if the previous process was terminated before releasing the resource. |
-|  [filePath](./node-core-library.lockfile.filepath.md) |  | <code>string</code> | Returns the absolute path to the lockfile |
-|  [isReleased](./node-core-library.lockfile.isreleased.md) |  | <code>boolean</code> | Returns true if this lock is currently being held. |
+|  [dirtyWhenAcquired](./node-core-library.lockfile.dirtywhenacquired.md) |  | boolean | Returns the initial state of the lock. This can be used to detect if the previous process was terminated before releasing the resource. |
+|  [filePath](./node-core-library.lockfile.filepath.md) |  | string | Returns the absolute path to the lockfile |
+|  [isReleased](./node-core-library.lockfile.isreleased.md) |  | boolean | Returns true if this lock is currently being held. |
 
 ## Methods
 

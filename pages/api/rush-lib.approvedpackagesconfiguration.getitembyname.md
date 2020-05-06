@@ -19,9 +19,9 @@ getItemByName(packageName: string): ApprovedPackagesItem | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
+|  packageName | string |  |
 
 <b>Returns:</b>
 
-[ApprovedPackagesItem](./rush-lib.approvedpackagesitem.md)` | undefined`
+[ApprovedPackagesItem](./rush-lib.approvedpackagesitem.md) \| undefined
 

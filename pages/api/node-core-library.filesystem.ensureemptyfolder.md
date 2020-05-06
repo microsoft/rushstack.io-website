@@ -21,11 +21,11 @@ static ensureEmptyFolder(folderPath: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  folderPath | <code>string</code> | The absolute or relative path to the folder which should have its contents deleted. |
+|  folderPath | string | The absolute or relative path to the folder which should have its contents deleted. |
 
 <b>Returns:</b>
 
-`void`
+void
 
 ## Remarks
 

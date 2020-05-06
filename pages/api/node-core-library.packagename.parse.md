@@ -21,7 +21,7 @@ static parse(packageName: string): IParsedPackageName;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
+|  packageName | string |  |
 
 <b>Returns:</b>
 

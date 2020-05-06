@@ -21,6 +21,6 @@ export interface ICommandLineChoiceDefinition extends IBaseCommandLineDefinition
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [alternatives](./ts-command-line.icommandlinechoicedefinition.alternatives.md) | <code>string[]</code> | A list of strings (which contain no spaces), of possible options which can be selected |
-|  [defaultValue](./ts-command-line.icommandlinechoicedefinition.defaultvalue.md) | <code>string</code> | The default value which will be used if the parameter is omitted from the command line. |
+|  [alternatives](./ts-command-line.icommandlinechoicedefinition.alternatives.md) | string\[\] | A list of strings (which contain no spaces), of possible options which can be selected |
+|  [defaultValue](./ts-command-line.icommandlinechoicedefinition.defaultvalue.md) | string | The default value which will be used if the parameter is omitted from the command line. |
 

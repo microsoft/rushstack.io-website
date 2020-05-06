@@ -21,7 +21,7 @@ export interface IParameterOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [name](./api-extractor-model.iparameteroptions.name.md) | <code>string</code> |  |
+|  [name](./api-extractor-model.iparameteroptions.name.md) | string |  |
 |  [parameterTypeExcerpt](./api-extractor-model.iparameteroptions.parametertypeexcerpt.md) | [Excerpt](./api-extractor-model.excerpt.md) |  |
 |  [parent](./api-extractor-model.iparameteroptions.parent.md) | [ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md) |  |
 

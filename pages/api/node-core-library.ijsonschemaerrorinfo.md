@@ -21,5 +21,5 @@ export interface IJsonSchemaErrorInfo
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [details](./node-core-library.ijsonschemaerrorinfo.details.md) | <code>string</code> | The z-schema error tree, formatted as an indented text string. |
+|  [details](./node-core-library.ijsonschemaerrorinfo.details.md) | string | The z-schema error tree, formatted as an indented text string. |
 

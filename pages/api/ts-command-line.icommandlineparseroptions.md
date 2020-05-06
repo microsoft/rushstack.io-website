@@ -21,6 +21,6 @@ export interface ICommandLineParserOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [toolDescription](./ts-command-line.icommandlineparseroptions.tooldescription.md) | <code>string</code> | General documentation that is included in the "--help" main page |
-|  [toolFilename](./ts-command-line.icommandlineparseroptions.toolfilename.md) | <code>string</code> | The name of your tool when invoked from the command line |
+|  [toolDescription](./ts-command-line.icommandlineparseroptions.tooldescription.md) | string | General documentation that is included in the "--help" main page |
+|  [toolFilename](./ts-command-line.icommandlineparseroptions.toolfilename.md) | string | The name of your tool when invoked from the command line |
 

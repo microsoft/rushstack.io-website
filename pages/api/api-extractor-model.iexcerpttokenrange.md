@@ -20,6 +20,6 @@ export interface IExcerptTokenRange
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [endIndex](./api-extractor-model.iexcerpttokenrange.endindex.md) | <code>number</code> |  |
-|  [startIndex](./api-extractor-model.iexcerpttokenrange.startindex.md) | <code>number</code> |  |
+|  [endIndex](./api-extractor-model.iexcerpttokenrange.endindex.md) | number |  |
+|  [startIndex](./api-extractor-model.iexcerpttokenrange.startindex.md) | number |  |
 

@@ -21,7 +21,7 @@ getIntegerParameter(parameterLongName: string): CommandLineIntegerParameter;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  parameterLongName | <code>string</code> |  |
+|  parameterLongName | string |  |
 
 <b>Returns:</b>
 

@@ -46,8 +46,8 @@ In this example, the `ApiEntryPoint` would represent the TypeScript module for `
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apientrypoint.containerkey.md) |  | <code>string</code> |  |
-|  [importPath](./api-extractor-model.apientrypoint.importpath.md) |  | <code>string</code> | The module path for this entry point, relative to the parent <code>ApiPackage</code>. In the current implementation, this is always the empty string, indicating the default entry point. |
+|  [containerKey](./api-extractor-model.apientrypoint.containerkey.md) |  | string |  |
+|  [importPath](./api-extractor-model.apientrypoint.importpath.md) |  | string | The module path for this entry point, relative to the parent <code>ApiPackage</code>. In the current implementation, this is always the empty string, indicating the default entry point. |
 |  [kind](./api-extractor-model.apientrypoint.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods

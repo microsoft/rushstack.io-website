@@ -21,5 +21,5 @@ export interface ICommandLineStringDefinition extends IBaseCommandLineDefinition
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [defaultValue](./ts-command-line.icommandlinestringdefinition.defaultvalue.md) | <code>string</code> | The default value which will be used if the parameter is omitted from the command line. |
+|  [defaultValue](./ts-command-line.icommandlinestringdefinition.defaultvalue.md) | string | The default value which will be used if the parameter is omitted from the command line. |
 

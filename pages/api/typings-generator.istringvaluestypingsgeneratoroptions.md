@@ -20,5 +20,5 @@ export interface IStringValuesTypingsGeneratorOptions extends ITypingsGeneratorO
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [exportAsDefault](./typings-generator.istringvaluestypingsgeneratoroptions.exportasdefault.md) | <code>boolean</code> |  |
+|  [exportAsDefault](./typings-generator.istringvaluestypingsgeneratoroptions.exportasdefault.md) | boolean |  |
 

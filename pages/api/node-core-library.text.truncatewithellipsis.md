@@ -21,12 +21,12 @@ static truncateWithEllipsis(s: string, maximumLength: number): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  s | <code>string</code> |  |
-|  maximumLength | <code>number</code> |  |
+|  s | string |  |
+|  maximumLength | number |  |
 
 <b>Returns:</b>
 
-`string`
+string
 
 ## Remarks
 

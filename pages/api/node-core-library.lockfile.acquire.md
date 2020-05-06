@@ -21,13 +21,13 @@ static acquire(resourceDir: string, resourceName: string, maxWaitMs?: number): P
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  resourceDir | <code>string</code> |  |
-|  resourceName | <code>string</code> |  |
-|  maxWaitMs | <code>number</code> |  |
+|  resourceDir | string |  |
+|  resourceName | string |  |
+|  maxWaitMs | number |  |
 
 <b>Returns:</b>
 
-`Promise``<`[LockFile](./node-core-library.lockfile.md)`>`
+Promise&lt;[LockFile](./node-core-library.lockfile.md)<!-- -->&gt;
 
 ## Remarks
 

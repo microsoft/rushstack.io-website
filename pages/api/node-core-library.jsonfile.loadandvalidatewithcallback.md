@@ -21,9 +21,9 @@ static loadAndValidateWithCallback(jsonFilename: string, jsonSchema: JsonSchema,
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonFilename | <code>string</code> |  |
+|  jsonFilename | string |  |
 |  jsonSchema | [JsonSchema](./node-core-library.jsonschema.md) |  |
-|  errorCallback | <code>(errorInfo: </code>[IJsonSchemaErrorInfo](./node-core-library.ijsonschemaerrorinfo.md)<code>) =&gt; void</code> |  |
+|  errorCallback | (errorInfo: [IJsonSchemaErrorInfo](./node-core-library.ijsonschemaerrorinfo.md)<!-- -->) =&gt; void |  |
 
 <b>Returns:</b>
 

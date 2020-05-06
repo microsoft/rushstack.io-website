@@ -21,12 +21,12 @@ static isUnder(childPath: string, parentFolderPath: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  childPath | <code>string</code> |  |
-|  parentFolderPath | <code>string</code> |  |
+|  childPath | string |  |
+|  parentFolderPath | string |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 
 ## Remarks
 

@@ -21,7 +21,7 @@ static loadOwnPackageJson(dirnameOfCaller: string): IPackageJson;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  dirnameOfCaller | <code>string</code> | The NodeJS <code>__dirname</code> macro for the caller. |
+|  dirnameOfCaller | string | The NodeJS <code>__dirname</code> macro for the caller. |
 
 <b>Returns:</b>
 

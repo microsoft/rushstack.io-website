@@ -25,5 +25,5 @@ addAction(action: CommandLineAction): void;
 
 <b>Returns:</b>
 
-`void`
+void
 

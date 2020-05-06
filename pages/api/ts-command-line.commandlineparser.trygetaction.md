@@ -21,9 +21,9 @@ tryGetAction(actionName: string): CommandLineAction | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  actionName | <code>string</code> |  |
+|  actionName | string |  |
 
 <b>Returns:</b>
 
-[CommandLineAction](./ts-command-line.commandlineaction.md)` | undefined`
+[CommandLineAction](./ts-command-line.commandlineaction.md) \| undefined
 

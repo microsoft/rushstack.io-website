@@ -21,11 +21,11 @@ static deleteFolder(folderPath: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  folderPath | <code>string</code> | The absolute or relative path to the folder which should be deleted. |
+|  folderPath | string | The absolute or relative path to the folder which should be deleted. |
 
 <b>Returns:</b>
 
-`void`
+void
 
 ## Remarks
 

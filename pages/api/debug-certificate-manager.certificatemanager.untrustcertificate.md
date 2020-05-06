@@ -25,5 +25,5 @@ untrustCertificate(terminal: Terminal): boolean;
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

@@ -26,7 +26,7 @@ function compare(a: ReleaseTag, b: ReleaseTag): number;
 
 <b>Returns:</b>
 
-`number`
+number
 
 0 if `a` and `b` are equal, a positive number if `a` is more public than `b`<!-- -->, and a negative number if `a` is less public than `b`<!-- -->.
 

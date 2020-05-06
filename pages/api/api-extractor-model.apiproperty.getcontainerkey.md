@@ -19,10 +19,10 @@ static getContainerKey(name: string, isStatic: boolean): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> |  |
-|  isStatic | <code>boolean</code> |  |
+|  name | string |  |
+|  isStatic | boolean |  |
 
 <b>Returns:</b>
 
-`string`
+string
 

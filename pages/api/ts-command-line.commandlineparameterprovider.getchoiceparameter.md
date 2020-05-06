@@ -21,7 +21,7 @@ getChoiceParameter(parameterLongName: string): CommandLineChoiceParameter;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  parameterLongName | <code>string</code> |  |
+|  parameterLongName | string |  |
 
 <b>Returns:</b>
 

@@ -28,8 +28,8 @@ The constructor for this class is marked as internal. Third-party code should no
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [pnpmStore](./rush-lib.pnpmoptionsconfiguration.pnpmstore.md) |  | [PnpmStoreOptions](./rush-lib.pnpmstoreoptions.md) | The method used to resolve the store used by PNPM. |
-|  [pnpmStorePath](./rush-lib.pnpmoptionsconfiguration.pnpmstorepath.md) |  | <code>string</code> | The path for PNPM to use as the store directory.<!-- -->Will be overridden by environment variable RUSH\_PNPM\_STORE\_PATH |
-|  [preventManualShrinkwrapChanges](./rush-lib.pnpmoptionsconfiguration.preventmanualshrinkwrapchanges.md) |  | <code>boolean</code> | If true, then <code>rush install</code> will report an error if manual modifications were made to the PNPM shrinkwrap file without running <code>rush update</code> afterwards. |
+|  [pnpmStorePath](./rush-lib.pnpmoptionsconfiguration.pnpmstorepath.md) |  | string | The path for PNPM to use as the store directory.<!-- -->Will be overridden by environment variable RUSH\_PNPM\_STORE\_PATH |
+|  [preventManualShrinkwrapChanges](./rush-lib.pnpmoptionsconfiguration.preventmanualshrinkwrapchanges.md) |  | boolean | If true, then <code>rush install</code> will report an error if manual modifications were made to the PNPM shrinkwrap file without running <code>rush update</code> afterwards. |
 |  [resolutionStrategy](./rush-lib.pnpmoptionsconfiguration.resolutionstrategy.md) |  | [ResolutionStrategy](./rush-lib.resolutionstrategy.md) | The resolution strategy that will be used by PNPM. |
-|  [strictPeerDependencies](./rush-lib.pnpmoptionsconfiguration.strictpeerdependencies.md) |  | <code>boolean</code> | If true, then Rush will add the "--strict-peer-dependencies" option when invoking PNPM. |
+|  [strictPeerDependencies](./rush-lib.pnpmoptionsconfiguration.strictpeerdependencies.md) |  | boolean | If true, then Rush will add the "--strict-peer-dependencies" option when invoking PNPM. |
 

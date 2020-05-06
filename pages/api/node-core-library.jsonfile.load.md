@@ -21,7 +21,7 @@ static load(jsonFilename: string): JsonObject;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonFilename | <code>string</code> |  |
+|  jsonFilename | string |  |
 
 <b>Returns:</b>
 

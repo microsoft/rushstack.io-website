@@ -19,9 +19,9 @@ apply(compiler: Webpack.Compiler): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  compiler | <code>Webpack.Compiler</code> |  |
+|  compiler | Webpack.Compiler |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

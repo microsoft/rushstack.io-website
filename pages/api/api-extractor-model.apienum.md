@@ -42,9 +42,9 @@ export enum FontSizes {
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apienum.containerkey.md) |  | <code>string</code> |  |
+|  [containerKey](./api-extractor-model.apienum.containerkey.md) |  | string |  |
 |  [kind](./api-extractor-model.apienum.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
-|  [members](./api-extractor-model.apienum.members.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[ApiEnumMember](./api-extractor-model.apienummember.md)<code>&gt;</code> |  |
+|  [members](./api-extractor-model.apienum.members.md) |  | ReadonlyArray&lt;[ApiEnumMember](./api-extractor-model.apienummember.md)<!-- -->&gt; |  |
 
 ## Methods
 

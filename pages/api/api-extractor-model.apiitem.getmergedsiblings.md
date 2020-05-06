@@ -18,7 +18,7 @@ getMergedSiblings(): ReadonlyArray<ApiItem>;
 ```
 <b>Returns:</b>
 
-`ReadonlyArray``<`[ApiItem](./api-extractor-model.apiitem.md)`>`
+ReadonlyArray&lt;[ApiItem](./api-extractor-model.apiitem.md)<!-- -->&gt;
 
 ## Remarks
 

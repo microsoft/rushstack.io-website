@@ -25,7 +25,7 @@ function isBaseClassOf(apiItem: ApiItem): apiItem is ApiReturnTypeMixin;
 
 <b>Returns:</b>
 
-`apiItem`` is `[ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md)
+apiItem is [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md)
 
 ## Remarks
 

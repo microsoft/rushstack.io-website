@@ -20,6 +20,6 @@ export interface IDefaultLocaleOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [fillMissingTranslationStrings](./localization-plugin.idefaultlocaleoptions.fillmissingtranslationstrings.md) | <code>boolean</code> | If this option is set to <code>true</code>, strings that are missing from <code>localizedData.translatedStrings</code> will be provided by the default locale |
-|  [localeName](./localization-plugin.idefaultlocaleoptions.localename.md) | <code>string</code> | This required property specifies the name of the locale used in the <code>.resx</code> and <code>.loc.json</code> files in the source |
+|  [fillMissingTranslationStrings](./localization-plugin.idefaultlocaleoptions.fillmissingtranslationstrings.md) | boolean | If this option is set to <code>true</code>, strings that are missing from <code>localizedData.translatedStrings</code> will be provided by the default locale |
+|  [localeName](./localization-plugin.idefaultlocaleoptions.localename.md) | string | This required property specifies the name of the locale used in the <code>.resx</code> and <code>.loc.json</code> files in the source |
 

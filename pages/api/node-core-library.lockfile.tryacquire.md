@@ -21,10 +21,10 @@ static tryAcquire(resourceDir: string, resourceName: string): LockFile | undefin
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  resourceDir | <code>string</code> |  |
-|  resourceName | <code>string</code> | the name of the resource we are locking on. Should be an alphabetic string. |
+|  resourceDir | string |  |
+|  resourceName | string | the name of the resource we are locking on. Should be an alphabetic string. |
 
 <b>Returns:</b>
 
-[LockFile](./node-core-library.lockfile.md)` | undefined`
+[LockFile](./node-core-library.lockfile.md) \| undefined
 

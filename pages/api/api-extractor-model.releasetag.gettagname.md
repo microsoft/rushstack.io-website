@@ -25,7 +25,7 @@ function getTagName(releaseTag: ReleaseTag): string;
 
 <b>Returns:</b>
 
-`string`
+string
 
 ## Remarks
 

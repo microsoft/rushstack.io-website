@@ -25,5 +25,5 @@ static validateNoUndefinedMembers(jsonObject: JsonObject): void;
 
 <b>Returns:</b>
 
-`void`
+void
 

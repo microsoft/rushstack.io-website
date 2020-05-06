@@ -21,7 +21,7 @@ static getPosixModeBits(path: string): PosixModeBits;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  path | <code>string</code> | The absolute or relative path to the object that should be updated. |
+|  path | string | The absolute or relative path to the object that should be updated. |
 
 <b>Returns:</b>
 

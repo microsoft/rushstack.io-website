@@ -21,12 +21,12 @@ static compareByValue(x: any, y: any): number;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  x | <code>any</code> |  |
-|  y | <code>any</code> |  |
+|  x | any |  |
+|  y | any |  |
 
 <b>Returns:</b>
 
-`number`
+number
 
 -1 if `x` is smaller than `y`<!-- -->, 1 if `x` is greater than `y`<!-- -->, or 0 if the values are equal.
 

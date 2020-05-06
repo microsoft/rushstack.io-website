@@ -21,12 +21,12 @@ static combineParts(scope: string, unscopedName: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  scope | <code>string</code> | Must be either an empty string, or a scope name such as "<!-- -->@<!-- -->example" |
-|  unscopedName | <code>string</code> | Must be a nonempty package name that does not contain a scope |
+|  scope | string | Must be either an empty string, or a scope name such as "<!-- -->@<!-- -->example" |
+|  unscopedName | string | Must be a nonempty package name that does not contain a scope |
 
 <b>Returns:</b>
 
-`string`
+string
 
 A full package name such as "<!-- -->@<!-- -->example/some-library".
 

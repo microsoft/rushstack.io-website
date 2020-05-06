@@ -21,9 +21,9 @@ tryGetProjectForPath(currentFolderPath: string): RushConfigurationProject | unde
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  currentFolderPath | <code>string</code> |  |
+|  currentFolderPath | string |  |
 
 <b>Returns:</b>
 
-[RushConfigurationProject](./rush-lib.rushconfigurationproject.md)` | undefined`
+[RushConfigurationProject](./rush-lib.rushconfigurationproject.md) \| undefined
 

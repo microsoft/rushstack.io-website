@@ -25,5 +25,5 @@ static createSymbolicLinkJunction(options: IFileSystemCreateLinkOptions): void;
 
 <b>Returns:</b>
 
-`void`
+void
 

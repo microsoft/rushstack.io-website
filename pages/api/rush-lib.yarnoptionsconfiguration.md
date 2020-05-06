@@ -27,5 +27,5 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [ignoreEngines](./rush-lib.yarnoptionsconfiguration.ignoreengines.md) |  | <code>boolean</code> | If true, then Rush will add the "--ignore-engines" option when invoking Yarn. This allows "rush install" to succeed if there are dependencies with engines defined in package.json which do not match the current environment.<!-- -->The default value is false. |
+|  [ignoreEngines](./rush-lib.yarnoptionsconfiguration.ignoreengines.md) |  | boolean | If true, then Rush will add the "--ignore-engines" option when invoking Yarn. This allows "rush install" to succeed if there are dependencies with engines defined in package.json which do not match the current environment.<!-- -->The default value is false. |
 

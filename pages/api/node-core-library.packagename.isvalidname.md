@@ -21,11 +21,11 @@ static isValidName(packageName: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
+|  packageName | string |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 
 ## Remarks
 

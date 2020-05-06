@@ -33,8 +33,8 @@ An excerpt may be empty (i.e. a token range containing zero tokens). For example
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [isEmpty](./api-extractor-model.excerpt.isempty.md) |  | <code>boolean</code> |  |
-|  [text](./api-extractor-model.excerpt.text.md) |  | <code>string</code> |  |
-|  [tokenRange](./api-extractor-model.excerpt.tokenrange.md) |  | <code>Readonly</code><code>&lt;</code>[IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)<code>&gt;</code> |  |
-|  [tokens](./api-extractor-model.excerpt.tokens.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[ExcerptToken](./api-extractor-model.excerpttoken.md)<code>&gt;</code> |  |
+|  [isEmpty](./api-extractor-model.excerpt.isempty.md) |  | boolean |  |
+|  [text](./api-extractor-model.excerpt.text.md) |  | string |  |
+|  [tokenRange](./api-extractor-model.excerpt.tokenrange.md) |  | Readonly&lt;[IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)<!-- -->&gt; |  |
+|  [tokens](./api-extractor-model.excerpt.tokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)<!-- -->&gt; |  |
 

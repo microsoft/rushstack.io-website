@@ -21,10 +21,10 @@ static readFolder(folderPath: string, options?: IFileSystemReadFolderOptions): s
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  folderPath | <code>string</code> | The absolute or relative path to the folder which should be read. |
+|  folderPath | string | The absolute or relative path to the folder which should be read. |
 |  options | [IFileSystemReadFolderOptions](./node-core-library.ifilesystemreadfolderoptions.md) | Optional settings that can change the behavior. Type: <code>IReadFolderOptions</code> |
 
 <b>Returns:</b>
 
-`string[]`
+string\[\]
 

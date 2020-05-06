@@ -21,12 +21,12 @@ static sortStable<T>(array: T[], compare?: (a: T, b: T) => number): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  array | <code>T[]</code> |  |
-|  compare | <code>(a: T, b: T) =&gt; number</code> |  |
+|  array | T\[\] |  |
+|  compare | (a: T, b: T) =&gt; number |  |
 
 <b>Returns:</b>
 
-`void`
+void
 
 ## Remarks
 

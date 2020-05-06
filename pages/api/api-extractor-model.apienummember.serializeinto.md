@@ -21,9 +21,9 @@ serializeInto(jsonObject: Partial<IApiEnumMemberJson>): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonObject | <code>Partial</code><code>&lt;</code><code>IApiEnumMemberJson</code><code>&gt;</code> |  |
+|  jsonObject | Partial&lt;IApiEnumMemberJson&gt; |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

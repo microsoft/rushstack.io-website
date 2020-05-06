@@ -25,5 +25,5 @@ addMember(member: ApiEntryPoint): void;
 
 <b>Returns:</b>
 
-`void`
+void
 

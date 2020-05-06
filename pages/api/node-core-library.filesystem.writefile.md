@@ -21,13 +21,13 @@ static writeFile(filePath: string, contents: string | Buffer, options?: IFileSys
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  filePath | <code>string</code> | The absolute or relative path of the file. |
-|  contents | <code>string &#124; </code><code>Buffer</code> | The text that should be written to the file. |
+|  filePath | string | The absolute or relative path of the file. |
+|  contents | string \| Buffer | The text that should be written to the file. |
 |  options | [IFileSystemWriteFileOptions](./node-core-library.ifilesystemwritefileoptions.md) | Optional settings that can change the behavior. Type: <code>IWriteFileOptions</code> |
 
 <b>Returns:</b>
 
-`void`
+void
 
 ## Remarks
 

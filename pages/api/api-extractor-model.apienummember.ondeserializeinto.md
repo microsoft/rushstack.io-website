@@ -21,11 +21,11 @@ static onDeserializeInto(options: Partial<IApiEnumMemberOptions>, context: Deser
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | <code>Partial</code><code>&lt;</code>[IApiEnumMemberOptions](./api-extractor-model.iapienummemberoptions.md)<code>&gt;</code> |  |
-|  context | <code>DeserializerContext</code> |  |
-|  jsonObject | <code>IApiEnumMemberJson</code> |  |
+|  options | Partial&lt;[IApiEnumMemberOptions](./api-extractor-model.iapienummemberoptions.md)<!-- -->&gt; |  |
+|  context | DeserializerContext |  |
+|  jsonObject | IApiEnumMemberJson |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

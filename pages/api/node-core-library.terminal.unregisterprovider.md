@@ -28,5 +28,5 @@ unregisterProvider(provider: ITerminalProvider): void;
 
 <b>Returns:</b>
 
-`void`
+void
 

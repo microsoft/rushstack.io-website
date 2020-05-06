@@ -21,9 +21,9 @@ static getLinkStatistics(path: string): fs.Stats;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  path | <code>string</code> | The absolute or relative path to the filesystem object. |
+|  path | string | The absolute or relative path to the filesystem object. |
 
 <b>Returns:</b>
 
-`fs.Stats`
+fs.Stats
 

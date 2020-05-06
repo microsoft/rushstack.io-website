@@ -20,10 +20,10 @@ export interface ITypingsGeneratorOptions<TTypingsResult = string>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [fileExtensions](./typings-generator.itypingsgeneratoroptions.fileextensions.md) | <code>string[]</code> |  |
-|  [filesToIgnore](./typings-generator.itypingsgeneratoroptions.filestoignore.md) | <code>string[]</code> |  |
-|  [generatedTsFolder](./typings-generator.itypingsgeneratoroptions.generatedtsfolder.md) | <code>string</code> |  |
-|  [parseAndGenerateTypings](./typings-generator.itypingsgeneratoroptions.parseandgeneratetypings.md) | <code>(fileContents: string, filePath: string) =&gt; TTypingsResult</code> |  |
-|  [srcFolder](./typings-generator.itypingsgeneratoroptions.srcfolder.md) | <code>string</code> |  |
+|  [fileExtensions](./typings-generator.itypingsgeneratoroptions.fileextensions.md) | string\[\] |  |
+|  [filesToIgnore](./typings-generator.itypingsgeneratoroptions.filestoignore.md) | string\[\] |  |
+|  [generatedTsFolder](./typings-generator.itypingsgeneratoroptions.generatedtsfolder.md) | string |  |
+|  [parseAndGenerateTypings](./typings-generator.itypingsgeneratoroptions.parseandgeneratetypings.md) | (fileContents: string, filePath: string) =&gt; TTypingsResult |  |
+|  [srcFolder](./typings-generator.itypingsgeneratoroptions.srcfolder.md) | string |  |
 |  [terminal](./typings-generator.itypingsgeneratoroptions.terminal.md) | [Terminal](./node-core-library.terminal.md) |  |
 

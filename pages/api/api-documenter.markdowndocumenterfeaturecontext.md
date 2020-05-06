@@ -27,5 +27,5 @@ The constructor for this class is marked as internal. Third-party code should no
 |  --- | --- | --- | --- |
 |  [apiModel](./api-documenter.markdowndocumenterfeaturecontext.apimodel.md) |  | [ApiModel](./api-extractor-model.apimodel.md) | Provides access to the <code>ApiModel</code> for the documentation being generated. |
 |  [documenter](./api-documenter.markdowndocumenterfeaturecontext.documenter.md) |  | [MarkdownDocumenterAccessor](./api-documenter.markdowndocumenteraccessor.md) | Exposes functionality of the documenter. |
-|  [outputFolder](./api-documenter.markdowndocumenterfeaturecontext.outputfolder.md) |  | <code>string</code> | The full path to the output folder. |
+|  [outputFolder](./api-documenter.markdowndocumenterfeaturecontext.outputfolder.md) |  | string | The full path to the output folder. |
 

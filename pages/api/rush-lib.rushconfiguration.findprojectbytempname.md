@@ -21,11 +21,11 @@ findProjectByTempName(tempProjectName: string): RushConfigurationProject | undef
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  tempProjectName | <code>string</code> |  |
+|  tempProjectName | string |  |
 
 <b>Returns:</b>
 
-[RushConfigurationProject](./rush-lib.rushconfigurationproject.md)` | undefined`
+[RushConfigurationProject](./rush-lib.rushconfigurationproject.md) \| undefined
 
 The found project, or undefined if no match was found.
 

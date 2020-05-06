@@ -24,10 +24,10 @@ update(versionPolicyName: string, newVersion: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  versionPolicyName | <code>string</code> | version policy name |
-|  newVersion | <code>string</code> | new version |
+|  versionPolicyName | string | version policy name |
+|  newVersion | string | new version |
 
 <b>Returns:</b>
 
-`void`
+void
 

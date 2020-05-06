@@ -22,9 +22,9 @@ setVersion(newVersion: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  newVersion | <code>string</code> |  |
+|  newVersion | string |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

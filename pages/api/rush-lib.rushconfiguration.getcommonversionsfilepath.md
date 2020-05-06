@@ -21,9 +21,9 @@ getCommonVersionsFilePath(variant?: string | undefined): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  variant | <code>string &#124; undefined</code> | The name of the current variant in use by the active command. |
+|  variant | string \| undefined | The name of the current variant in use by the active command. |
 
 <b>Returns:</b>
 
-`string`
+string
 

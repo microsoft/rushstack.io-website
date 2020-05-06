@@ -21,9 +21,9 @@ static validate(packageName: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
+|  packageName | string |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

@@ -48,7 +48,7 @@ export type Boxed<T> = T extends any[] ? BoxedArray<T[number]> : BoxedValue<T>;
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [containerKey](./api-extractor-model.apitypealias.containerkey.md) |  | <code>string</code> |  |
+|  [containerKey](./api-extractor-model.apitypealias.containerkey.md) |  | string |  |
 |  [kind](./api-extractor-model.apitypealias.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 |  [typeExcerpt](./api-extractor-model.apitypealias.typeexcerpt.md) |  | [Excerpt](./api-extractor-model.excerpt.md) | An [Excerpt](./api-extractor-model.excerpt.md) that describes the type of the alias. |
 

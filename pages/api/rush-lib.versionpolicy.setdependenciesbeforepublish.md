@@ -24,10 +24,10 @@ setDependenciesBeforePublish(packageName: string, configuration: RushConfigurati
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
+|  packageName | string |  |
 |  configuration | [RushConfiguration](./rush-lib.rushconfiguration.md) |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

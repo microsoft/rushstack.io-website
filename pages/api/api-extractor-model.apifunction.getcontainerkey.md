@@ -19,10 +19,10 @@ static getContainerKey(name: string, overloadIndex: number): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> |  |
-|  overloadIndex | <code>number</code> |  |
+|  name | string |  |
+|  overloadIndex | number |  |
 
 <b>Returns:</b>
 
-`string`
+string
 

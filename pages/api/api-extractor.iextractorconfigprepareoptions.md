@@ -22,7 +22,7 @@ export interface IExtractorConfigPrepareOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [configObject](./api-extractor.iextractorconfigprepareoptions.configobject.md) | [IConfigFile](./api-extractor.iconfigfile.md) | A configuration object as returned by [ExtractorConfig.loadFile()](./api-extractor.extractorconfig.loadfile.md)<!-- -->. |
-|  [configObjectFullPath](./api-extractor.iextractorconfigprepareoptions.configobjectfullpath.md) | <code>string &#124; undefined</code> | The absolute path of the file that the <code>configObject</code> object was loaded from. This is used for error messages and when probing for <code>tsconfig.json</code>. |
-|  [packageJson](./api-extractor.iextractorconfigprepareoptions.packagejson.md) | [INodePackageJson](./node-core-library.inodepackagejson.md)<code> &#124; undefined</code> | The parsed package.json file for the working package, or undefined if API Extractor was invoked without a package.json file. |
-|  [packageJsonFullPath](./api-extractor.iextractorconfigprepareoptions.packagejsonfullpath.md) | <code>string &#124; undefined</code> | The absolute path of the file that the <code>packageJson</code> object was loaded from, or undefined if API Extractor was invoked without a package.json file. |
+|  [configObjectFullPath](./api-extractor.iextractorconfigprepareoptions.configobjectfullpath.md) | string \| undefined | The absolute path of the file that the <code>configObject</code> object was loaded from. This is used for error messages and when probing for <code>tsconfig.json</code>. |
+|  [packageJson](./api-extractor.iextractorconfigprepareoptions.packagejson.md) | [INodePackageJson](./node-core-library.inodepackagejson.md) \| undefined | The parsed package.json file for the working package, or undefined if API Extractor was invoked without a package.json file. |
+|  [packageJsonFullPath](./api-extractor.iextractorconfigprepareoptions.packagejsonfullpath.md) | string \| undefined | The absolute path of the file that the <code>packageJson</code> object was loaded from, or undefined if API Extractor was invoked without a package.json file. |
 

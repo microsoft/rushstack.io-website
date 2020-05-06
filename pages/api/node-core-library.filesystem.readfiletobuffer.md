@@ -21,9 +21,9 @@ static readFileToBuffer(filePath: string): Buffer;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  filePath | <code>string</code> | The relative or absolute path to the file whose contents should be read. |
+|  filePath | string | The relative or absolute path to the file whose contents should be read. |
 
 <b>Returns:</b>
 
-`Buffer`
+Buffer
 

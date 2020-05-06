@@ -25,5 +25,5 @@ static createSymbolicLinkFile(options: IFileSystemCreateLinkOptions): void;
 
 <b>Returns:</b>
 
-`void`
+void
 

@@ -21,10 +21,10 @@ static convertTo(input: string, newlineKind: NewlineKind): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  input | <code>string</code> |  |
+|  input | string |  |
 |  newlineKind | [NewlineKind](./node-core-library.newlinekind.md) |  |
 
 <b>Returns:</b>
 
-`string`
+string
 

@@ -27,10 +27,10 @@ export declare abstract class CommandLineParser extends CommandLineParameterProv
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [actions](./ts-command-line.commandlineparser.actions.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[CommandLineAction](./ts-command-line.commandlineaction.md)<code>&gt;</code> | Returns the list of actions that were defined for this CommandLineParser object. |
-|  [selectedAction](./ts-command-line.commandlineparser.selectedaction.md) |  | [CommandLineAction](./ts-command-line.commandlineaction.md)<code> &#124; undefined</code> | Reports which CommandLineAction was specified on the command line. |
-|  [toolDescription](./ts-command-line.commandlineparser.tooldescription.md) |  | <code>string</code> | General documentation that is included in the "--help" main page |
-|  [toolFilename](./ts-command-line.commandlineparser.toolfilename.md) |  | <code>string</code> | The name of your tool when invoked from the command line |
+|  [actions](./ts-command-line.commandlineparser.actions.md) |  | ReadonlyArray&lt;[CommandLineAction](./ts-command-line.commandlineaction.md)<!-- -->&gt; | Returns the list of actions that were defined for this CommandLineParser object. |
+|  [selectedAction](./ts-command-line.commandlineparser.selectedaction.md) |  | [CommandLineAction](./ts-command-line.commandlineaction.md) \| undefined | Reports which CommandLineAction was specified on the command line. |
+|  [toolDescription](./ts-command-line.commandlineparser.tooldescription.md) |  | string | General documentation that is included in the "--help" main page |
+|  [toolFilename](./ts-command-line.commandlineparser.toolfilename.md) |  | string | The name of your tool when invoked from the command line |
 
 ## Methods
 

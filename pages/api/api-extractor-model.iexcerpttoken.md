@@ -20,7 +20,7 @@ export interface IExcerptToken
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [canonicalReference](./api-extractor-model.iexcerpttoken.canonicalreference.md) | <code>string</code> |  |
+|  [canonicalReference](./api-extractor-model.iexcerpttoken.canonicalreference.md) | string |  |
 |  [kind](./api-extractor-model.iexcerpttoken.kind.md) | [ExcerptTokenKind](./api-extractor-model.excerpttokenkind.md) |  |
-|  [text](./api-extractor-model.iexcerpttoken.text.md) | <code>string</code> |  |
+|  [text](./api-extractor-model.iexcerpttoken.text.md) | string |  |
 

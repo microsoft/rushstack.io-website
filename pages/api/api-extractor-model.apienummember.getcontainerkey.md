@@ -19,9 +19,9 @@ static getContainerKey(name: string): string;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  name | <code>string</code> |  |
+|  name | string |  |
 
 <b>Returns:</b>
 
-`string`
+string
 

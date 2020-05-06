@@ -25,5 +25,5 @@ static createSymbolicLinkFolder(options: IFileSystemCreateLinkOptions): void;
 
 <b>Returns:</b>
 
-`void`
+void
 

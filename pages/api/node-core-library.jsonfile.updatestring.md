@@ -21,13 +21,13 @@ static updateString(previousJson: string, newJsonObject: JsonObject, options?: I
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  previousJson | <code>string</code> |  |
+|  previousJson | string |  |
 |  newJsonObject | [JsonObject](./node-core-library.jsonobject.md) |  |
 |  options | [IJsonFileStringifyOptions](./node-core-library.ijsonfilestringifyoptions.md) | other settings that control serialization |
 
 <b>Returns:</b>
 
-`string`
+string
 
 a JSON string, with newlines, and indented with two spaces
 

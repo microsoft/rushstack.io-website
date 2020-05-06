@@ -21,9 +21,9 @@ has(key: K): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  key | <code>K</code> |  |
+|  key | K |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

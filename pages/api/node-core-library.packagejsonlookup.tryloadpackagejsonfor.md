@@ -21,11 +21,11 @@ tryLoadPackageJsonFor(fileOrFolderPath: string): IPackageJson | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  fileOrFolderPath | <code>string</code> | a relative or absolute path to a source file or folder that may be part of a package |
+|  fileOrFolderPath | string | a relative or absolute path to a source file or folder that may be part of a package |
 
 <b>Returns:</b>
 
-[IPackageJson](./node-core-library.ipackagejson.md)` | undefined`
+[IPackageJson](./node-core-library.ipackagejson.md) \| undefined
 
 an IPackageJson object, or undefined if the fileOrFolderPath does not belong to a package
 

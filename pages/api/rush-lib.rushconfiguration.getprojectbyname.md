@@ -21,9 +21,9 @@ getProjectByName(projectName: string): RushConfigurationProject | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  projectName | <code>string</code> |  |
+|  projectName | string |  |
 
 <b>Returns:</b>
 
-[RushConfigurationProject](./rush-lib.rushconfigurationproject.md)` | undefined`
+[RushConfigurationProject](./rush-lib.rushconfigurationproject.md) \| undefined
 

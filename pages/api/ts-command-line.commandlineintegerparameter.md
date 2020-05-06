@@ -25,9 +25,9 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [defaultValue](./ts-command-line.commandlineintegerparameter.defaultvalue.md) |  | <code>number &#124; undefined</code> | The default value which will be used if the parameter is omitted from the command line. |
+|  [defaultValue](./ts-command-line.commandlineintegerparameter.defaultvalue.md) |  | number \| undefined | The default value which will be used if the parameter is omitted from the command line. |
 |  [kind](./ts-command-line.commandlineintegerparameter.kind.md) |  | [CommandLineParameterKind](./ts-command-line.commandlineparameterkind.md) | Indicates the type of parameter. |
-|  [value](./ts-command-line.commandlineintegerparameter.value.md) |  | <code>number &#124; undefined</code> | Returns the argument value for an integer parameter that was parsed from the command line. |
+|  [value](./ts-command-line.commandlineintegerparameter.value.md) |  | number \| undefined | Returns the argument value for an integer parameter that was parsed from the command line. |
 
 ## Methods
 

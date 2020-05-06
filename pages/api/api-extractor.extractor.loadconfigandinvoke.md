@@ -21,7 +21,7 @@ static loadConfigAndInvoke(configFilePath: string, options?: IExtractorInvokeOpt
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  configFilePath | <code>string</code> |  |
+|  configFilePath | string |  |
 |  options | [IExtractorInvokeOptions](./api-extractor.iextractorinvokeoptions.md) |  |
 
 <b>Returns:</b>

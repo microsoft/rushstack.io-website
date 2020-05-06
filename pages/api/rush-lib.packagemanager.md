@@ -28,8 +28,8 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [\_shrinkwrapFilename](./rush-lib.packagemanager._shrinkwrapfilename.md) |  | <code>string</code> | <b><i>(BETA)</i></b> |
+|  [\_shrinkwrapFilename](./rush-lib.packagemanager._shrinkwrapfilename.md) |  | string | <b><i>(BETA)</i></b> |
 |  [packageManager](./rush-lib.packagemanager.packagemanager.md) |  | [PackageManagerName](./rush-lib.packagemanagername.md) | <b><i>(BETA)</i></b> The package manager. |
-|  [shrinkwrapFilename](./rush-lib.packagemanager.shrinkwrapfilename.md) |  | <code>string</code> | <b><i>(BETA)</i></b> The filename of the shrinkwrap file that is used by the package manager. |
-|  [version](./rush-lib.packagemanager.version.md) |  | <code>string</code> | <b><i>(BETA)</i></b> The SemVer version of the package manager. |
+|  [shrinkwrapFilename](./rush-lib.packagemanager.shrinkwrapfilename.md) |  | string | <b><i>(BETA)</i></b> The filename of the shrinkwrap file that is used by the package manager. |
+|  [version](./rush-lib.packagemanager.version.md) |  | string | <b><i>(BETA)</i></b> The SemVer version of the package manager. |
 

@@ -25,7 +25,7 @@ static formatPosixModeBits(modeBits: PosixModeBits): string;
 
 <b>Returns:</b>
 
-`string`
+string
 
 ## Remarks
 

@@ -24,10 +24,10 @@ validate(versionString: string, packageName: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  versionString | <code>string</code> | version string |
-|  packageName | <code>string</code> | package name |
+|  versionString | string | version string |
+|  packageName | string | package name |
 
 <b>Returns:</b>
 
-`void`
+void
 

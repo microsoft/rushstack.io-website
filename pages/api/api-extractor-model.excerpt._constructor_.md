@@ -21,6 +21,6 @@ constructor(tokens: ReadonlyArray<ExcerptToken>, tokenRange: IExcerptTokenRange)
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  tokens | <code>ReadonlyArray</code><code>&lt;</code>[ExcerptToken](./api-extractor-model.excerpttoken.md)<code>&gt;</code> |  |
+|  tokens | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)<!-- -->&gt; |  |
 |  tokenRange | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
 

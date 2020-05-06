@@ -19,5 +19,5 @@ protected buildCanonicalReference(): DeclarationReference;
 ```
 <b>Returns:</b>
 
-`DeclarationReference`
+DeclarationReference
 

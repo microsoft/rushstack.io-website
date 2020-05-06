@@ -24,8 +24,8 @@ export interface ITerminalProvider
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [eolCharacter](./node-core-library.iterminalprovider.eolcharacter.md) | <code>string</code> | <b><i>(BETA)</i></b> This property should return the newline character the terminal provider expects. |
-|  [supportsColor](./node-core-library.iterminalprovider.supportscolor.md) | <code>boolean</code> | <b><i>(BETA)</i></b> This property should return true only if the terminal provider supports rendering console colors. |
+|  [eolCharacter](./node-core-library.iterminalprovider.eolcharacter.md) | string | <b><i>(BETA)</i></b> This property should return the newline character the terminal provider expects. |
+|  [supportsColor](./node-core-library.iterminalprovider.supportscolor.md) | boolean | <b><i>(BETA)</i></b> This property should return true only if the terminal provider supports rendering console colors. |
 
 ## Methods
 

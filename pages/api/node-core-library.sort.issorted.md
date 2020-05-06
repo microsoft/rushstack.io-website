@@ -21,10 +21,10 @@ static isSorted<T>(array: T[], comparer?: (x: any, y: any) => number): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  array | <code>T[]</code> |  |
-|  comparer | <code>(x: any, y: any) =&gt; number</code> |  |
+|  array | T\[\] |  |
+|  comparer | (x: any, y: any) =&gt; number |  |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

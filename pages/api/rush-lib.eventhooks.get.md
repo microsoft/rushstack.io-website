@@ -28,5 +28,5 @@ get(event: Event): string[];
 
 <b>Returns:</b>
 
-`string[]`
+string\[\]
 

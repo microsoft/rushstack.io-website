@@ -18,5 +18,5 @@ getAllPreferredVersions(): Map<string, string>;
 ```
 <b>Returns:</b>
 
-`Map``<string, string>`
+Map&lt;string, string&gt;
 

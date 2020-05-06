@@ -21,7 +21,7 @@ getStringListParameter(parameterLongName: string): CommandLineStringListParamete
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  parameterLongName | <code>string</code> |  |
+|  parameterLongName | string |  |
 
 <b>Returns:</b>
 

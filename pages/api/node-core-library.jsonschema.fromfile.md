@@ -21,7 +21,7 @@ static fromFile(filename: string, options?: IJsonSchemaFromFileOptions): JsonSch
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  filename | <code>string</code> |  |
+|  filename | string |  |
 |  options | [IJsonSchemaFromFileOptions](./node-core-library.ijsonschemafromfileoptions.md) |  |
 
 <b>Returns:</b>

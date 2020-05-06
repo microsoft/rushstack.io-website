@@ -21,7 +21,7 @@ static loadFromConfigurationFile(rushJsonFilename: string): RushConfiguration;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  rushJsonFilename | <code>string</code> |  |
+|  rushJsonFilename | string |  |
 
 <b>Returns:</b>
 

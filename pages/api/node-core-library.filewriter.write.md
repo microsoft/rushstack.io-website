@@ -21,9 +21,9 @@ write(text: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  text | <code>string</code> | The text to write to the file. |
+|  text | string | The text to write to the file. |
 
 <b>Returns:</b>
 
-`void`
+void
 

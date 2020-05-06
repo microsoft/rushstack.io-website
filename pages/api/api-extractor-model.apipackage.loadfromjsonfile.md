@@ -19,7 +19,7 @@ static loadFromJsonFile(apiJsonFilename: string): ApiPackage;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  apiJsonFilename | <code>string</code> |  |
+|  apiJsonFilename | string |  |
 
 <b>Returns:</b>
 

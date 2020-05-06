@@ -21,7 +21,7 @@ export interface IFeatureDefinition
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [featureName](./api-documenter.ifeaturedefinition.featurename.md) | <code>string</code> | The name of this feature, as it will appear in the config file.<!-- -->The name should consist of one or more words separated by hyphens. Each word should consist of lower case letters and numbers. Example: <code>my-feature</code> |
-|  [kind](./api-documenter.ifeaturedefinition.kind.md) | <code>'MarkdownDocumenterFeature'</code> | Determines the kind of feature. The specified value is the name of the base class that <code>subclass</code> inherits from. |
-|  [subclass](./api-documenter.ifeaturedefinition.subclass.md) | <code>{</code><br/><code>        new (initialization: </code>[PluginFeatureInitialization](./api-documenter.pluginfeatureinitialization.md)<code>): </code>[MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md)<code>;</code><br/><code>    }</code> | Your subclass that extends from the base class. |
+|  [featureName](./api-documenter.ifeaturedefinition.featurename.md) | string | The name of this feature, as it will appear in the config file.<!-- -->The name should consist of one or more words separated by hyphens. Each word should consist of lower case letters and numbers. Example: <code>my-feature</code> |
+|  [kind](./api-documenter.ifeaturedefinition.kind.md) | 'MarkdownDocumenterFeature' | Determines the kind of feature. The specified value is the name of the base class that <code>subclass</code> inherits from. |
+|  [subclass](./api-documenter.ifeaturedefinition.subclass.md) | { new (initialization: [PluginFeatureInitialization](./api-documenter.pluginfeatureinitialization.md)<!-- -->): [MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md)<!-- -->; } | Your subclass that extends from the base class. |
 

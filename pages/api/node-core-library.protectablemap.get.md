@@ -21,11 +21,11 @@ get(key: K): V | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  key | <code>K</code> |  |
+|  key | K |  |
 
 <b>Returns:</b>
 
-`V | undefined`
+V \| undefined
 
 undefined if the value is undefined OR if the key is missing; otherwise returns the value associated with the key.
 

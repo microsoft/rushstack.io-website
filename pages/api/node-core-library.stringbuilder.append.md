@@ -21,9 +21,9 @@ append(text: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  text | <code>string</code> |  |
+|  text | string |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

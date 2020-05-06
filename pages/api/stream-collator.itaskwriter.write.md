@@ -19,9 +19,9 @@ write(data: string): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  data | <code>string</code> |  |
+|  data | string |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

@@ -30,9 +30,9 @@ export declare class ConsoleTerminalProvider implements ITerminalProvider
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [eolCharacter](./node-core-library.consoleterminalprovider.eolcharacter.md) |  | <code>string</code> | <b><i>(BETA)</i></b> This property should return the newline character the terminal provider expects. |
-|  [supportsColor](./node-core-library.consoleterminalprovider.supportscolor.md) |  | <code>boolean</code> | <b><i>(BETA)</i></b> This property should return true only if the terminal provider supports rendering console colors. |
-|  [verboseEnabled](./node-core-library.consoleterminalprovider.verboseenabled.md) |  | <code>boolean</code> | <b><i>(BETA)</i></b> If true, verbose-level messages should be written to the console. |
+|  [eolCharacter](./node-core-library.consoleterminalprovider.eolcharacter.md) |  | string | <b><i>(BETA)</i></b> This property should return the newline character the terminal provider expects. |
+|  [supportsColor](./node-core-library.consoleterminalprovider.supportscolor.md) |  | boolean | <b><i>(BETA)</i></b> This property should return true only if the terminal provider supports rendering console colors. |
+|  [verboseEnabled](./node-core-library.consoleterminalprovider.verboseenabled.md) |  | boolean | <b><i>(BETA)</i></b> If true, verbose-level messages should be written to the console. |
 
 ## Methods
 

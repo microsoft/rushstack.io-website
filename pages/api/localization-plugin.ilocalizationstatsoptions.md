@@ -21,6 +21,6 @@ export interface ILocalizationStatsOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [callback](./localization-plugin.ilocalizationstatsoptions.callback.md) | <code>(stats: </code>[ILocalizationStats](./localization-plugin.ilocalizationstats.md)<code>) =&gt; void</code> | This option is used to specify a callback to be called with the stats data that would be dropped at <code>localizationStats.dropPath</code> after compilation completes. |
-|  [dropPath](./localization-plugin.ilocalizationstatsoptions.droppath.md) | <code>string</code> | This option is used to designate a path at which a JSON file describing the localized assets produced should be written. |
+|  [callback](./localization-plugin.ilocalizationstatsoptions.callback.md) | (stats: [ILocalizationStats](./localization-plugin.ilocalizationstats.md)<!-- -->) =&gt; void | This option is used to specify a callback to be called with the stats data that would be dropped at <code>localizationStats.dropPath</code> after compilation completes. |
+|  [dropPath](./localization-plugin.ilocalizationstatsoptions.droppath.md) | string | This option is used to designate a path at which a JSON file describing the localized assets produced should be written. |
 

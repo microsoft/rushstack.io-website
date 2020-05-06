@@ -21,7 +21,7 @@ getFlagParameter(parameterLongName: string): CommandLineFlagParameter;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  parameterLongName | <code>string</code> |  |
+|  parameterLongName | string |  |
 
 <b>Returns:</b>
 

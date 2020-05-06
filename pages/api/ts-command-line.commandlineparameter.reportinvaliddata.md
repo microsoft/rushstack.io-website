@@ -21,9 +21,9 @@ protected reportInvalidData(data: any): never;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  data | <code>any</code> |  |
+|  data | any |  |
 
 <b>Returns:</b>
 
-`never`
+never
 

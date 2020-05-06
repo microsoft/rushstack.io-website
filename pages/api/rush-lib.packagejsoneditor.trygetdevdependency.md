@@ -22,9 +22,9 @@ tryGetDevDependency(packageName: string): PackageJsonDependency | undefined;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
+|  packageName | string |  |
 
 <b>Returns:</b>
 
-[PackageJsonDependency](./rush-lib.packagejsondependency.md)` | undefined`
+[PackageJsonDependency](./rush-lib.packagejsondependency.md) \| undefined
 

@@ -23,11 +23,11 @@ export declare class PackageJsonEditor
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [dependencyList](./rush-lib.packagejsoneditor.dependencylist.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[PackageJsonDependency](./rush-lib.packagejsondependency.md)<code>&gt;</code> | <b><i>(BETA)</i></b> The list of dependencies of type DependencyType.Regular, DependencyType.Optional, or DependencyType.Peer. |
-|  [devDependencyList](./rush-lib.packagejsoneditor.devdependencylist.md) |  | <code>ReadonlyArray</code><code>&lt;</code>[PackageJsonDependency](./rush-lib.packagejsondependency.md)<code>&gt;</code> | <b><i>(BETA)</i></b> The list of dependencies of type DependencyType.Dev. |
-|  [filePath](./rush-lib.packagejsoneditor.filepath.md) |  | <code>string</code> | <b><i>(BETA)</i></b> |
-|  [name](./rush-lib.packagejsoneditor.name.md) |  | <code>string</code> | <b><i>(BETA)</i></b> |
-|  [version](./rush-lib.packagejsoneditor.version.md) |  | <code>string</code> | <b><i>(BETA)</i></b> |
+|  [dependencyList](./rush-lib.packagejsoneditor.dependencylist.md) |  | ReadonlyArray&lt;[PackageJsonDependency](./rush-lib.packagejsondependency.md)<!-- -->&gt; | <b><i>(BETA)</i></b> The list of dependencies of type DependencyType.Regular, DependencyType.Optional, or DependencyType.Peer. |
+|  [devDependencyList](./rush-lib.packagejsoneditor.devdependencylist.md) |  | ReadonlyArray&lt;[PackageJsonDependency](./rush-lib.packagejsondependency.md)<!-- -->&gt; | <b><i>(BETA)</i></b> The list of dependencies of type DependencyType.Dev. |
+|  [filePath](./rush-lib.packagejsoneditor.filepath.md) |  | string | <b><i>(BETA)</i></b> |
+|  [name](./rush-lib.packagejsoneditor.name.md) |  | string | <b><i>(BETA)</i></b> |
+|  [version](./rush-lib.packagejsoneditor.version.md) |  | string | <b><i>(BETA)</i></b> |
 
 ## Methods
 

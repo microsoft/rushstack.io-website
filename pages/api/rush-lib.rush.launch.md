@@ -21,12 +21,12 @@ static launch(launcherVersion: string, arg: ILaunchOptions): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  launcherVersion | <code>string</code> | The version of the <code>@microsoft/rush</code> wrapper used to call invoke the CLI. |
+|  launcherVersion | string | The version of the <code>@microsoft/rush</code> wrapper used to call invoke the CLI. |
 |  arg | [ILaunchOptions](./rush-lib.ilaunchoptions.md) |  |
 
 <b>Returns:</b>
 
-`void`
+void
 
 ## Remarks
 

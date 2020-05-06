@@ -24,9 +24,9 @@ update(newVersionString: string): boolean;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  newVersionString | <code>string</code> | New version |
+|  newVersionString | string | New version |
 
 <b>Returns:</b>
 
-`boolean`
+boolean
 

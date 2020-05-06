@@ -21,7 +21,7 @@ loadNodePackageJson(jsonFilename: string): INodePackageJson;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonFilename | <code>string</code> |  |
+|  jsonFilename | string |  |
 
 <b>Returns:</b>
 

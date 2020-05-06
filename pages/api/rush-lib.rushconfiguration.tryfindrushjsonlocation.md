@@ -25,5 +25,5 @@ static tryFindRushJsonLocation(options?: ITryFindRushJsonLocationOptions): strin
 
 <b>Returns:</b>
 
-`string | undefined`
+string \| undefined
 

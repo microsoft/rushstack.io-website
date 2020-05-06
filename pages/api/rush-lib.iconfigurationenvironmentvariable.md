@@ -21,6 +21,6 @@ export interface IConfigurationEnvironmentVariable
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [override](./rush-lib.iconfigurationenvironmentvariable.override.md) | <code>boolean</code> | Set to true to override the environment variable even if it is set in the parent environment. The default value is false. |
-|  [value](./rush-lib.iconfigurationenvironmentvariable.value.md) | <code>string</code> | Value of the environment variable |
+|  [override](./rush-lib.iconfigurationenvironmentvariable.override.md) | boolean | Set to true to override the environment variable even if it is set in the parent environment. The default value is false. |
+|  [value](./rush-lib.iconfigurationenvironmentvariable.value.md) | string | Value of the environment variable |
 

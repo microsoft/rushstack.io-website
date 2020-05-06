@@ -24,9 +24,9 @@ validate(projectsByName: Map<string, RushConfigurationProject>): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  projectsByName | <code>Map</code><code>&lt;string, </code>[RushConfigurationProject](./rush-lib.rushconfigurationproject.md)<code>&gt;</code> |  |
+|  projectsByName | Map&lt;string, [RushConfigurationProject](./rush-lib.rushconfigurationproject.md)<!-- -->&gt; |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

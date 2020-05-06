@@ -21,8 +21,8 @@ export interface IExecutableSpawnSyncOptions extends IExecutableResolveOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [input](./node-core-library.iexecutablespawnsyncoptions.input.md) | <code>string</code> | The content to be passed to the child process's stdin.<!-- -->NOTE: If specified, this content replaces any IExecutableSpawnSyncOptions.stdio\[0\] mapping for stdin. |
-|  [maxBuffer](./node-core-library.iexecutablespawnsyncoptions.maxbuffer.md) | <code>number</code> | The largest amount of bytes allowed on stdout or stderr for this synchonous operation. If exceeded, the child process will be terminated. The default is 200 \* 1024. |
+|  [input](./node-core-library.iexecutablespawnsyncoptions.input.md) | string | The content to be passed to the child process's stdin.<!-- -->NOTE: If specified, this content replaces any IExecutableSpawnSyncOptions.stdio\[0\] mapping for stdin. |
+|  [maxBuffer](./node-core-library.iexecutablespawnsyncoptions.maxbuffer.md) | number | The largest amount of bytes allowed on stdout or stderr for this synchonous operation. If exceeded, the child process will be terminated. The default is 200 \* 1024. |
 |  [stdio](./node-core-library.iexecutablespawnsyncoptions.stdio.md) | [ExecutableStdioMapping](./node-core-library.executablestdiomapping.md) | The stdio mappings for the child process.<!-- -->NOTE: If IExecutableSpawnSyncOptions.input is provided, it will take precedence over the stdin mapping (stdio\[0\]). |
-|  [timeoutMs](./node-core-library.iexecutablespawnsyncoptions.timeoutms.md) | <code>number</code> | The maximum time the process is allowed to run before it will be terminated. |
+|  [timeoutMs](./node-core-library.iexecutablespawnsyncoptions.timeoutms.md) | number | The maximum time the process is allowed to run before it will be terminated. |
 

@@ -16,5 +16,5 @@ getStdOutput(): string;
 ```
 <b>Returns:</b>
 
-`string`
+string
 

@@ -24,10 +24,10 @@ setDependenciesBeforeCommit(packageName: string, configuration: RushConfiguratio
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  packageName | <code>string</code> |  |
+|  packageName | string |  |
 |  configuration | [RushConfiguration](./rush-lib.rushconfiguration.md) |  |
 
 <b>Returns:</b>
 
-`void`
+void
 

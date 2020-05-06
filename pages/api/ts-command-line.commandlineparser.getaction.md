@@ -21,7 +21,7 @@ getAction(actionName: string): CommandLineAction;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  actionName | <code>string</code> |  |
+|  actionName | string |  |
 
 <b>Returns:</b>
 

@@ -22,7 +22,7 @@ static load(filePath: string): PackageJsonEditor;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  filePath | <code>string</code> |  |
+|  filePath | string |  |
 
 <b>Returns:</b>
 

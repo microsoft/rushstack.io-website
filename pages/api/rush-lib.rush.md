@@ -21,7 +21,7 @@ export declare class Rush
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [version](./rush-lib.rush.version.md) | <code>static</code> | <code>string</code> | The currently executing version of the "rush-lib" library. This is the same as the Rush tool version for that release. |
+|  [version](./rush-lib.rush.version.md) | <code>static</code> | string | The currently executing version of the "rush-lib" library. This is the same as the Rush tool version for that release. |
 
 ## Methods
 

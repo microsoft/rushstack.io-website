@@ -21,7 +21,7 @@ static loadFileAndPrepare(configJsonFilePath: string): ExtractorConfig;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  configJsonFilePath | <code>string</code> |  |
+|  configJsonFilePath | string |  |
 
 <b>Returns:</b>
 

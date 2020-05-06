@@ -24,5 +24,5 @@ constructor(supportsColor?: boolean);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  supportsColor | <code>boolean</code> |  |
+|  supportsColor | boolean |  |
 

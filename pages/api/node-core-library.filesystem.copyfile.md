@@ -25,5 +25,5 @@ static copyFile(options: IFileSystemCopyFileOptions): void;
 
 <b>Returns:</b>
 
-`void`
+void
 

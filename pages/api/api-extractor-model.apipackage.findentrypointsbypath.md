@@ -19,9 +19,9 @@ findEntryPointsByPath(importPath: string): ReadonlyArray<ApiEntryPoint>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  importPath | <code>string</code> |  |
+|  importPath | string |  |
 
 <b>Returns:</b>
 
-`ReadonlyArray``<`[ApiEntryPoint](./api-extractor-model.apientrypoint.md)`>`
+ReadonlyArray&lt;[ApiEntryPoint](./api-extractor-model.apientrypoint.md)<!-- -->&gt;
 

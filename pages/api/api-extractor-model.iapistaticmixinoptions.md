@@ -21,5 +21,5 @@ export interface IApiStaticMixinOptions extends IApiItemOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [isStatic](./api-extractor-model.iapistaticmixinoptions.isstatic.md) | <code>boolean</code> |  |
+|  [isStatic](./api-extractor-model.iapistaticmixinoptions.isstatic.md) | boolean |  |
 

@@ -21,7 +21,7 @@ static loadFromFile(jsonFilename: string): CommonVersionsConfiguration;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonFilename | <code>string</code> |  |
+|  jsonFilename | string |  |
 
 <b>Returns:</b>
 

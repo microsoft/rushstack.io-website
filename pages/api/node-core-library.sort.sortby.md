@@ -21,13 +21,13 @@ static sortBy<T>(array: T[], keySelector: (element: T) => any, comparer?: (x: an
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  array | <code>T[]</code> |  |
-|  keySelector | <code>(element: T) =&gt; any</code> |  |
-|  comparer | <code>(x: any, y: any) =&gt; number</code> |  |
+|  array | T\[\] |  |
+|  keySelector | (element: T) =&gt; any |  |
+|  comparer | (x: any, y: any) =&gt; number |  |
 
 <b>Returns:</b>
 
-`void`
+void
 
 ## Example
 

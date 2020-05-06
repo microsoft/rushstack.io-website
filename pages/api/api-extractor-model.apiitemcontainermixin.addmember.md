@@ -25,7 +25,7 @@ addMember(member: ApiItem): void;
 
 <b>Returns:</b>
 
-`void`
+void
 
 ## Remarks
 
