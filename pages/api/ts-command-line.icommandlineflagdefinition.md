@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ICommandLineFlagDefinition interface
 
-For use with CommandLineParser, this interface represents a command line parameter that is a boolean flag.
+For use with [CommandLineParameterProvider.defineFlagParameter()](./ts-command-line.commandlineparameterprovider.defineflagparameter.md)<!-- -->, this interface defines a command line parameter that is a boolean flag.
 
 <b>Signature:</b>
 

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## CommandLineParameterProvider.defineStringParameter() method
 
-Defines a command-line parameter whose value is a single text string.
+Defines a command-line parameter whose argument is a single text string.
 
 <b>Signature:</b>
 
@@ -29,5 +29,10 @@ defineStringParameter(definition: ICommandLineStringDefinition): CommandLineStri
 
 ## Remarks
 
-Example: example-tool --message "Hello, world!"
+Example usage of a string parameter:
+
+```
+example-tool --message "Hello, world!"
+
+```
 

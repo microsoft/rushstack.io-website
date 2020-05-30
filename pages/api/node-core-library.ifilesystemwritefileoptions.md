@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemWriteFileOptions interface
 
-The options for FileSystem.writeFile()
+The options for [FileSystem.writeFile()](./node-core-library.filesystem.writefile.md)
 
 <b>Signature:</b>
 

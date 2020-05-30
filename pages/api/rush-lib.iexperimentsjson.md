@@ -26,4 +26,5 @@ export interface IExperimentsJson
 |  --- | --- | --- |
 |  [legacyIncrementalBuildDependencyDetection](./rush-lib.iexperimentsjson.legacyincrementalbuilddependencydetection.md) | boolean | <b><i>(BETA)</i></b> If this setting is enabled, incremental builds should use repo-wide dependency tracking instead of project-specific tracking. |
 |  [noChmodFieldInTarHeaderNormalization](./rush-lib.iexperimentsjson.nochmodfieldintarheadernormalization.md) | boolean | <b><i>(BETA)</i></b> If true, the chmod field in temporary project tar headers will not be normalized. This normalization can help ensure consistent tarball integrity across platforms. |
+|  [usePnpmFrozenLockfileForRushInstall](./rush-lib.iexperimentsjson.usepnpmfrozenlockfileforrushinstall.md) | boolean | <b><i>(BETA)</i></b> By default, rush passes --no-prefer-frozen-lockfile to 'pnpm install'. Set this option to true to pass '--frozen-lockfile' instead. |
 

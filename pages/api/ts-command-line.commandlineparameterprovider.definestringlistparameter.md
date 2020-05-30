@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## CommandLineParameterProvider.defineStringListParameter() method
 
-Defines a command-line parameter whose value is one or more text strings.
+Defines a command-line parameter whose argument is a single text string. The parameter can be specified multiple times to build a list.
 
 <b>Signature:</b>
 
@@ -29,5 +29,10 @@ defineStringListParameter(definition: ICommandLineStringListDefinition): Command
 
 ## Remarks
 
-Example: example-tool --add file1.txt --add file2.txt --add file3.txt
+Example usage of a string list parameter:
+
+```
+example-tool --add file1.txt --add file2.txt --add file3.txt
+
+```
 

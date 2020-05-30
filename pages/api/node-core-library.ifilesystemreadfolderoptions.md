@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemReadFolderOptions interface
 
-The options for FileSystem.readFolder()
+The options for [FileSystem.readFolder()](./node-core-library.filesystem.readfolder.md)
 
 <b>Signature:</b>
 

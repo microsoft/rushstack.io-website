@@ -25,7 +25,7 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [description](./ts-command-line.commandlineparameter.description.md) |  | string | Documentation for the flag, that will be shown when invoking the tool with "--help" |
+|  [description](./ts-command-line.commandlineparameter.description.md) |  | string | Documentation for the parameter that will be shown when invoking the tool with "--help" |
 |  [environmentVariable](./ts-command-line.commandlineparameter.environmentvariable.md) |  | string \| undefined | The name of an environment variable that the parameter value will be read from, if it was omitted from the command-line. An error will be reported if the environment value cannot be parsed. |
 |  [kind](./ts-command-line.commandlineparameter.kind.md) |  | [CommandLineParameterKind](./ts-command-line.commandlineparameterkind.md) | Indicates the type of parameter. |
 |  [longName](./ts-command-line.commandlineparameter.longname.md) |  | string | The long name of the flag including double dashes, e.g. "--do-something" |

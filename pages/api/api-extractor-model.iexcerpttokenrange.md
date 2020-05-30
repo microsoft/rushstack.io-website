@@ -9,6 +9,7 @@ improve_this_button: false
 
 ## IExcerptTokenRange interface
 
+Used by [Excerpt](./api-extractor-model.excerpt.md) to indicate a range of indexes within an array of `ExcerptToken` objects.
 
 <b>Signature:</b>
 
@@ -20,6 +21,6 @@ export interface IExcerptTokenRange
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [endIndex](./api-extractor-model.iexcerpttokenrange.endindex.md) | number |  |
-|  [startIndex](./api-extractor-model.iexcerpttokenrange.startindex.md) | number |  |
+|  [endIndex](./api-extractor-model.iexcerpttokenrange.endindex.md) | number | The index of the last member of the span, plus one. |
+|  [startIndex](./api-extractor-model.iexcerpttokenrange.startindex.md) | number | The starting index of the span. |
 

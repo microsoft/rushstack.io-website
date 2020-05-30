@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ICommandLineStringDefinition interface
 
-For use with CommandLineParser, this interface represents a command line parameter whose argument is a string value.
+For use with [CommandLineParameterProvider.defineStringParameter()](./ts-command-line.commandlineparameterprovider.definestringparameter.md)<!-- -->, this interface defines a command line parameter whose argument is a string value.
 
 <b>Signature:</b>
 

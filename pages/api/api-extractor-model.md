@@ -38,8 +38,8 @@ Use this library to read and write \*.api.json files as defined by the [API Extr
 |  [ApiPropertySignature](./api-extractor-model.apipropertysignature.md) | Represents a TypeScript property declaration that belongs to an <code>ApiInterface</code>. |
 |  [ApiTypeAlias](./api-extractor-model.apitypealias.md) | Represents a TypeScript type alias declaration. |
 |  [ApiVariable](./api-extractor-model.apivariable.md) | Represents a TypeScript variable declaration. |
-|  [Excerpt](./api-extractor-model.excerpt.md) | This class is used by [ApiDeclaredItem](./api-extractor-model.apideclareditem.md) to represent a source code excerpt containing a TypeScript declaration. |
-|  [ExcerptToken](./api-extractor-model.excerpttoken.md) |  |
+|  [Excerpt](./api-extractor-model.excerpt.md) | The <code>Excerpt</code> class is used by [ApiDeclaredItem](./api-extractor-model.apideclareditem.md) to represent a TypeScript code fragment that may be annotated with hyperlinks to declared types (and in the future, source code locations). |
+|  [ExcerptToken](./api-extractor-model.excerpttoken.md) | Represents a fragment of text belonging to an [Excerpt](./api-extractor-model.excerpt.md) object. |
 |  [HeritageType](./api-extractor-model.heritagetype.md) | Represents a type referenced via an "extends" or "implements" heritage clause for a TypeScript class. |
 |  [Parameter](./api-extractor-model.parameter.md) | Represents a named parameter for a function-like declaration. |
 |  [TypeParameter](./api-extractor-model.typeparameter.md) | Represents a named type parameter for a generic declaration. |
@@ -109,7 +109,7 @@ Use this library to read and write \*.api.json files as defined by the [API Extr
 |  [IApiTypeParameterOptions](./api-extractor-model.iapitypeparameteroptions.md) | Represents parameter information that is part of [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md) |
 |  [IApiVariableOptions](./api-extractor-model.iapivariableoptions.md) | Constructor options for [ApiVariable](./api-extractor-model.apivariable.md)<!-- -->. |
 |  [IExcerptToken](./api-extractor-model.iexcerpttoken.md) |  |
-|  [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
+|  [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) | Used by [Excerpt](./api-extractor-model.excerpt.md) to indicate a range of indexes within an array of <code>ExcerptToken</code> objects. |
 |  [IParameterOptions](./api-extractor-model.iparameteroptions.md) | Constructor options for [Parameter](./api-extractor-model.parameter.md)<!-- -->. |
 |  [IResolveDeclarationReferenceResult](./api-extractor-model.iresolvedeclarationreferenceresult.md) | Result object for [ApiModel.resolveDeclarationReference()](./api-extractor-model.apimodel.resolvedeclarationreference.md)<!-- -->. |
 |  [ITypeParameterOptions](./api-extractor-model.itypeparameteroptions.md) | Constructor options for [TypeParameter](./api-extractor-model.typeparameter.md)<!-- -->. |

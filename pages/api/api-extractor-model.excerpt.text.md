@@ -9,6 +9,8 @@ improve_this_button: false
 
 ## Excerpt.text property
 
+The excerpted text, formed by concatenating the text of the `spannedTokens` strings.
+
 <b>Signature:</b>
 
 ```typescript

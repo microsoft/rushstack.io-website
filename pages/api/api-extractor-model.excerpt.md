@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## Excerpt class
 
-This class is used by [ApiDeclaredItem](./api-extractor-model.apideclareditem.md) to represent a source code excerpt containing a TypeScript declaration.
+The `Excerpt` class is used by [ApiDeclaredItem](./api-extractor-model.apideclareditem.md) to represent a TypeScript code fragment that may be annotated with hyperlinks to declared types (and in the future, source code locations).
 
 <b>Signature:</b>
 
@@ -19,7 +19,15 @@ export declare class Excerpt
 
 ## Remarks
 
-The main excerpt is parsed into an array of tokens, and the main excerpt's token range will span all of these tokens. The declaration may also have have "captured" excerpts, which are other subranges of tokens. For example, if the main excerpt is a function declaration, it will also have a captured excerpt corresponding to the return type of the function.
+API Extractor's .api.json file format stores excerpts compactly as a start/end indexes into an array of tokens. Every `ApiDeclaredItem` has a "main excerpt" corresponding to the full list of tokens. The declaration may also have have "captured" excerpts that correspond to subranges of tokens.
+
+For example, if the main excerpt is:
+
+```
+function parse(s: string): Vector | undefined;
+
+```
+...then this entire signature is the "main excerpt", whereas the function's return type `Vector | undefined` is a captured excerpt. The `Vector` token might be a hyperlink to that API item.
 
 An excerpt may be empty (i.e. a token range containing zero tokens). For example, if a function's return value is not explicitly declared, then the returnTypeExcerpt will be empty. By contrast, a class constructor cannot have a return value, so ApiConstructor has no returnTypeExcerpt property at all.
 
@@ -33,8 +41,9 @@ An excerpt may be empty (i.e. a token range containing zero tokens). For example
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [isEmpty](./api-extractor-model.excerpt.isempty.md) |  | boolean |  |
-|  [text](./api-extractor-model.excerpt.text.md) |  | string |  |
-|  [tokenRange](./api-extractor-model.excerpt.tokenrange.md) |  | Readonly&lt;[IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)<!-- -->&gt; |  |
-|  [tokens](./api-extractor-model.excerpt.tokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)<!-- -->&gt; |  |
+|  [isEmpty](./api-extractor-model.excerpt.isempty.md) |  | boolean | Returns true if the excerpt is an empty range. |
+|  [spannedTokens](./api-extractor-model.excerpt.spannedtokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)<!-- -->&gt; | The tokens spanned by this excerpt. It is the range of the <code>tokens</code> array as specified by the <code>tokenRange</code> property. |
+|  [text](./api-extractor-model.excerpt.text.md) |  | string | The excerpted text, formed by concatenating the text of the <code>spannedTokens</code> strings. |
+|  [tokenRange](./api-extractor-model.excerpt.tokenrange.md) |  | Readonly&lt;[IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)<!-- -->&gt; | Specifies the excerpt's range within the <code>tokens</code> array. |
+|  [tokens](./api-extractor-model.excerpt.tokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)<!-- -->&gt; | The complete list of tokens for the source code fragment that this excerpt is based upon. If this object is the main excerpt, then it will span all of the tokens; otherwise, it will correspond to a range within the array. |
 

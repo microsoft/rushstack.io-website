@@ -14,7 +14,7 @@ Gets the statistics of a filesystem object. Does NOT follow the link to its targ
 <b>Signature:</b>
 
 ```typescript
-static getLinkStatistics(path: string): fs.Stats;
+static getLinkStatistics(path: string): FileSystemStats;
 ```
 
 ## Parameters
@@ -25,5 +25,5 @@ static getLinkStatistics(path: string): fs.Stats;
 
 <b>Returns:</b>
 
-fs.Stats
+[FileSystemStats](./node-core-library.filesystemstats.md)
 

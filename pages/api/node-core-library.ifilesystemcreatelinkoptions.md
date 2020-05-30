@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemCreateLinkOptions interface
 
-The options for `FileSystem.createSymbolicLinkJunction()`<!-- -->, `createSymbolicLinkFile()`<!-- -->, `createSymbolicLinkFolder()`<!-- -->, and `createHardLink()`<!-- -->.
+The options for [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md)<!-- -->, [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md)<!-- -->, [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md)<!-- -->, and [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md)<!-- -->.
 
 <b>Signature:</b>
 

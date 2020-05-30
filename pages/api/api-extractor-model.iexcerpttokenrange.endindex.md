@@ -9,8 +9,15 @@ improve_this_button: false
 
 ## IExcerptTokenRange.endIndex property
 
+The index of the last member of the span, plus one.
+
 <b>Signature:</b>
 
 ```typescript
 endIndex: number;
 ```
+
+## Remarks
+
+If `startIndex` and `endIndex` are the same number, then the span is empty.
+

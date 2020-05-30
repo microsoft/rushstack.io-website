@@ -12,14 +12,14 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-resolveDeclarationReference(declarationReference: DocDeclarationReference, contextApiItem: ApiItem | undefined): IResolveDeclarationReferenceResult;
+resolveDeclarationReference(declarationReference: DocDeclarationReference | DeclarationReference, contextApiItem: ApiItem | undefined): IResolveDeclarationReferenceResult;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  declarationReference | DocDeclarationReference |  |
+|  declarationReference | DocDeclarationReference \| DeclarationReference |  |
 |  contextApiItem | [ApiItem](./api-extractor-model.apiitem.md) \| undefined |  |
 
 <b>Returns:</b>
