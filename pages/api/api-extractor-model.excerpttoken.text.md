@@ -9,6 +9,8 @@ improve_this_button: false
 
 ## ExcerptToken.text property
 
+The text fragment.
+
 <b>Signature:</b>
 
 ```typescript

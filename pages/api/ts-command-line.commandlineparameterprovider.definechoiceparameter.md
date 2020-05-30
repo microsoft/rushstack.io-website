@@ -29,5 +29,10 @@ defineChoiceParameter(definition: ICommandLineChoiceDefinition): CommandLineChoi
 
 ## Remarks
 
-Example: example-tool --log-level warn
+Example of a choice parameter:
+
+```
+example-tool --log-level warn
+
+```
 

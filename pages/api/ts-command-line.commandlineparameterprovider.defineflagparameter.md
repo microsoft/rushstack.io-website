@@ -29,5 +29,10 @@ defineFlagParameter(definition: ICommandLineFlagDefinition): CommandLineFlagPara
 
 ## Remarks
 
-Example: example-tool --debug
+Example usage of a flag parameter:
+
+```
+example-tool --debug
+
+```
 

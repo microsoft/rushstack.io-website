@@ -26,16 +26,18 @@ The constructor for this class is marked as internal. Third-party code should no
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [parameters](./ts-command-line.commandlineparameterprovider.parameters.md) |  | ReadonlyArray&lt;[CommandLineParameter](./ts-command-line.commandlineparameter.md)<!-- -->&gt; | Returns a collection of the parameters that were defined for this object. |
+|  [remainder](./ts-command-line.commandlineparameterprovider.remainder.md) |  | [CommandLineRemainder](./ts-command-line.commandlineremainder.md) \| undefined | If [CommandLineParameterProvider.defineCommandLineRemainder()](./ts-command-line.commandlineparameterprovider.definecommandlineremainder.md) was called, this object captures any remaining command line arguments after the recognized portion. |
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [defineChoiceParameter(definition)](./ts-command-line.commandlineparameterprovider.definechoiceparameter.md) |  | Defines a command-line parameter whose value must be a string from a fixed set of allowable choices (similar to an enum). |
+|  [defineCommandLineRemainder(definition)](./ts-command-line.commandlineparameterprovider.definecommandlineremainder.md) |  | Defines a rule that captures any remaining command line arguments after the recognized portion. |
 |  [defineFlagParameter(definition)](./ts-command-line.commandlineparameterprovider.defineflagparameter.md) |  | Defines a command-line switch whose boolean value is true if the switch is provided, and false otherwise. |
-|  [defineIntegerParameter(definition)](./ts-command-line.commandlineparameterprovider.defineintegerparameter.md) |  | Defines a command-line parameter whose value is an integer. |
-|  [defineStringListParameter(definition)](./ts-command-line.commandlineparameterprovider.definestringlistparameter.md) |  | Defines a command-line parameter whose value is one or more text strings. |
-|  [defineStringParameter(definition)](./ts-command-line.commandlineparameterprovider.definestringparameter.md) |  | Defines a command-line parameter whose value is a single text string. |
+|  [defineIntegerParameter(definition)](./ts-command-line.commandlineparameterprovider.defineintegerparameter.md) |  | Defines a command-line parameter whose argument is an integer. |
+|  [defineStringListParameter(definition)](./ts-command-line.commandlineparameterprovider.definestringlistparameter.md) |  | Defines a command-line parameter whose argument is a single text string. The parameter can be specified multiple times to build a list. |
+|  [defineStringParameter(definition)](./ts-command-line.commandlineparameterprovider.definestringparameter.md) |  | Defines a command-line parameter whose argument is a single text string. |
 |  [getChoiceParameter(parameterLongName)](./ts-command-line.commandlineparameterprovider.getchoiceparameter.md) |  | Returns the CommandLineChoiceParameter with the specified long name. |
 |  [getFlagParameter(parameterLongName)](./ts-command-line.commandlineparameterprovider.getflagparameter.md) |  | Returns the CommandLineFlagParameter with the specified long name. |
 |  [getIntegerParameter(parameterLongName)](./ts-command-line.commandlineparameterprovider.getintegerparameter.md) |  | Returns the CommandLineIntegerParameter with the specified long name. |

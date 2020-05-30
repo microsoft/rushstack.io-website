@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.copyFile() method
 
-Copies a file from one location to another. By default, destinationPath is overwritten if it already exists. Behind the scenes it uses `fs.copyFileSync()`<!-- -->.
+Copies a single file from one location to another. By default, destinationPath is overwritten if it already exists.
 
 <b>Signature:</b>
 
@@ -26,4 +26,10 @@ static copyFile(options: IFileSystemCopyFileOptions): void;
 <b>Returns:</b>
 
 void
+
+## Remarks
+
+The `copyFile()` API cannot be used to copy folders. It copies at most one file. Use [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md) if you need to recursively copy a tree of folders.
+
+The implementation is based on `copySync()` from the `fs-extra` package.
 

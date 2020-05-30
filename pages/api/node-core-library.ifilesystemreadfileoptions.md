@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemReadFileOptions interface
 
-The options for FileSystem.readFile()
+The options for [FileSystem.readFile()](./node-core-library.filesystem.readfile.md)
 
 <b>Signature:</b>
 

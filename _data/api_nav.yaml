@@ -822,6 +822,8 @@ api_nav:
             url: /pages/api/api-extractor-model.excerpt._constructor_
           - title: isEmpty
             url: /pages/api/api-extractor-model.excerpt.isempty
+          - title: spannedTokens
+            url: /pages/api/api-extractor-model.excerpt.spannedtokens
           - title: text
             url: /pages/api/api-extractor-model.excerpt.text
           - title: tokenRange
@@ -1160,6 +1162,8 @@ api_nav:
             url: /pages/api/rush-lib.iexperimentsjson.legacyincrementalbuilddependencydetection
           - title: noChmodFieldInTarHeaderNormalization
             url: /pages/api/rush-lib.iexperimentsjson.nochmodfieldintarheadernormalization
+          - title: usePnpmFrozenLockfileForRushInstall
+            url: /pages/api/rush-lib.iexperimentsjson.usepnpmfrozenlockfileforrushinstall
       - title: ILaunchOptions
         url: /pages/api/rush-lib.ilaunchoptions
         subitems:
@@ -1294,6 +1298,8 @@ api_nav:
       - title: RushConfiguration
         url: /pages/api/rush-lib.rushconfiguration
         subitems:
+          - title: allowMostlyStandardPackageNames
+            url: /pages/api/rush-lib.rushconfiguration.allowmostlystandardpackagenames
           - title: approvedPackagesPolicy
             url: /pages/api/rush-lib.rushconfiguration.approvedpackagespolicy
           - title: changesFolder
@@ -1362,6 +1368,8 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.packagemanagertoolversion
           - title: packageManagerWrapper
             url: /pages/api/rush-lib.rushconfiguration.packagemanagerwrapper
+          - title: packageNameParser
+            url: /pages/api/rush-lib.rushconfiguration.packagenameparser
           - title: pnpmOptions
             url: /pages/api/rush-lib.rushconfiguration.pnpmoptions
           - title: projectFolderMaxDepth
@@ -1658,6 +1666,8 @@ api_nav:
   - title: '@rushstack/node-core-library'
     url: /pages/api/node-core-library
     subitems:
+      - title: AlreadyExistsBehavior
+        url: /pages/api/node-core-library.alreadyexistsbehavior
       - title: Colors
         url: /pages/api/node-core-library.colors
         subitems:
@@ -1744,50 +1754,114 @@ api_nav:
         subitems:
           - title: appendToFile
             url: /pages/api/node-core-library.filesystem.appendtofile
+          - title: appendToFileAsync
+            url: /pages/api/node-core-library.filesystem.appendtofileasync
           - title: changePosixModeBits
             url: /pages/api/node-core-library.filesystem.changeposixmodebits
+          - title: changePosixModeBitsAsync
+            url: /pages/api/node-core-library.filesystem.changeposixmodebitsasync
           - title: copyFile
             url: /pages/api/node-core-library.filesystem.copyfile
+          - title: copyFileAsync
+            url: /pages/api/node-core-library.filesystem.copyfileasync
+          - title: copyFiles
+            url: /pages/api/node-core-library.filesystem.copyfiles
+          - title: copyFilesAsync
+            url: /pages/api/node-core-library.filesystem.copyfilesasync
           - title: createHardLink
             url: /pages/api/node-core-library.filesystem.createhardlink
+          - title: createHardLinkAsync
+            url: /pages/api/node-core-library.filesystem.createhardlinkasync
           - title: createSymbolicLinkFile
             url: /pages/api/node-core-library.filesystem.createsymboliclinkfile
+          - title: createSymbolicLinkFileAsync
+            url: /pages/api/node-core-library.filesystem.createsymboliclinkfileasync
           - title: createSymbolicLinkFolder
             url: /pages/api/node-core-library.filesystem.createsymboliclinkfolder
+          - title: createSymbolicLinkFolderAsync
+            url: /pages/api/node-core-library.filesystem.createsymboliclinkfolderasync
           - title: createSymbolicLinkJunction
             url: /pages/api/node-core-library.filesystem.createsymboliclinkjunction
+          - title: createSymbolicLinkJunctionAsync
+            url: /pages/api/node-core-library.filesystem.createsymboliclinkjunctionasync
           - title: deleteFile
             url: /pages/api/node-core-library.filesystem.deletefile
+          - title: deleteFileAsync
+            url: /pages/api/node-core-library.filesystem.deletefileasync
           - title: deleteFolder
             url: /pages/api/node-core-library.filesystem.deletefolder
+          - title: deleteFolderAsync
+            url: /pages/api/node-core-library.filesystem.deletefolderasync
           - title: ensureEmptyFolder
             url: /pages/api/node-core-library.filesystem.ensureemptyfolder
+          - title: ensureEmptyFolderAsync
+            url: /pages/api/node-core-library.filesystem.ensureemptyfolderasync
           - title: ensureFolder
             url: /pages/api/node-core-library.filesystem.ensurefolder
+          - title: ensureFolderAsync
+            url: /pages/api/node-core-library.filesystem.ensurefolderasync
           - title: exists
             url: /pages/api/node-core-library.filesystem.exists
           - title: formatPosixModeBits
             url: /pages/api/node-core-library.filesystem.formatposixmodebits
           - title: getLinkStatistics
             url: /pages/api/node-core-library.filesystem.getlinkstatistics
+          - title: getLinkStatisticsAsync
+            url: /pages/api/node-core-library.filesystem.getlinkstatisticsasync
           - title: getPosixModeBits
             url: /pages/api/node-core-library.filesystem.getposixmodebits
+          - title: getPosixModeBitsAsync
+            url: /pages/api/node-core-library.filesystem.getposixmodebitsasync
           - title: getRealPath
             url: /pages/api/node-core-library.filesystem.getrealpath
+          - title: getRealPathAsync
+            url: /pages/api/node-core-library.filesystem.getrealpathasync
           - title: getStatistics
             url: /pages/api/node-core-library.filesystem.getstatistics
+          - title: getStatisticsAsync
+            url: /pages/api/node-core-library.filesystem.getstatisticsasync
+          - title: isErrnoException
+            url: /pages/api/node-core-library.filesystem.iserrnoexception
+          - title: isFileDoesNotExistError
+            url: /pages/api/node-core-library.filesystem.isfiledoesnotexisterror
+          - title: isFolderDoesNotExistError
+            url: /pages/api/node-core-library.filesystem.isfolderdoesnotexisterror
+          - title: isNotExistError
+            url: /pages/api/node-core-library.filesystem.isnotexisterror
           - title: move
             url: /pages/api/node-core-library.filesystem.move
+          - title: moveAsync
+            url: /pages/api/node-core-library.filesystem.moveasync
           - title: readFile
             url: /pages/api/node-core-library.filesystem.readfile
+          - title: readFileAsync
+            url: /pages/api/node-core-library.filesystem.readfileasync
           - title: readFileToBuffer
             url: /pages/api/node-core-library.filesystem.readfiletobuffer
+          - title: readFileToBufferAsync
+            url: /pages/api/node-core-library.filesystem.readfiletobufferasync
           - title: readFolder
             url: /pages/api/node-core-library.filesystem.readfolder
+          - title: readFolderAsync
+            url: /pages/api/node-core-library.filesystem.readfolderasync
+          - title: readLink
+            url: /pages/api/node-core-library.filesystem.readlink
+          - title: readLinkAsync
+            url: /pages/api/node-core-library.filesystem.readlinkasync
           - title: updateTimes
             url: /pages/api/node-core-library.filesystem.updatetimes
+          - title: updateTimesAsync
+            url: /pages/api/node-core-library.filesystem.updatetimesasync
           - title: writeFile
             url: /pages/api/node-core-library.filesystem.writefile
+          - title: writeFileAsync
+            url: /pages/api/node-core-library.filesystem.writefileasync
+      - title: FileSystemCopyFilesAsyncFilter
+        url: /pages/api/node-core-library.filesystemcopyfilesasyncfilter
+      - title: FileSystemCopyFilesFilter
+        url: /pages/api/node-core-library.filesystemcopyfilesfilter
+      - title: FileSystemStats
+        url: /pages/api/node-core-library.filesystemstats
       - title: FileWriter
         url: /pages/api/node-core-library.filewriter
         subitems:
@@ -1838,10 +1912,32 @@ api_nav:
       - title: IFileSystemCopyFileOptions
         url: /pages/api/node-core-library.ifilesystemcopyfileoptions
         subitems:
+          - title: alreadyExistsBehavior
+            url: /pages/api/node-core-library.ifilesystemcopyfileoptions.alreadyexistsbehavior
           - title: destinationPath
             url: /pages/api/node-core-library.ifilesystemcopyfileoptions.destinationpath
           - title: sourcePath
             url: /pages/api/node-core-library.ifilesystemcopyfileoptions.sourcepath
+      - title: IFileSystemCopyFilesAsyncOptions
+        url: /pages/api/node-core-library.ifilesystemcopyfilesasyncoptions
+        subitems:
+          - title: alreadyExistsBehavior
+            url: /pages/api/node-core-library.ifilesystemcopyfilesasyncoptions.alreadyexistsbehavior
+          - title: dereferenceSymlinks
+            url: /pages/api/node-core-library.ifilesystemcopyfilesasyncoptions.dereferencesymlinks
+          - title: destinationPath
+            url: /pages/api/node-core-library.ifilesystemcopyfilesasyncoptions.destinationpath
+          - title: filter
+            url: /pages/api/node-core-library.ifilesystemcopyfilesasyncoptions.filter
+          - title: preserveTimestamps
+            url: /pages/api/node-core-library.ifilesystemcopyfilesasyncoptions.preservetimestamps
+          - title: sourcePath
+            url: /pages/api/node-core-library.ifilesystemcopyfilesasyncoptions.sourcepath
+      - title: IFileSystemCopyFilesOptions
+        url: /pages/api/node-core-library.ifilesystemcopyfilesoptions
+        subitems:
+          - title: filter
+            url: /pages/api/node-core-library.ifilesystemcopyfilesoptions.filter
       - title: IFileSystemCreateLinkOptions
         url: /pages/api/node-core-library.ifilesystemcreatelinkoptions
         subitems:
@@ -1993,6 +2089,11 @@ api_nav:
             url: /pages/api/node-core-library.ipackagejsonlookupparameters.loadextrafields
       - title: IPackageJsonScriptTable
         url: /pages/api/node-core-library.ipackagejsonscripttable
+      - title: IPackageNameParserOptions
+        url: /pages/api/node-core-library.ipackagenameparseroptions
+        subitems:
+          - title: allowUpperCase
+            url: /pages/api/node-core-library.ipackagenameparseroptions.allowuppercase
       - title: IParsedPackageName
         url: /pages/api/node-core-library.iparsedpackagename
         subitems:
@@ -2037,10 +2138,20 @@ api_nav:
             url: /pages/api/node-core-library.jsonfile.load
           - title: loadAndValidate
             url: /pages/api/node-core-library.jsonfile.loadandvalidate
+          - title: loadAndValidateAsync
+            url: /pages/api/node-core-library.jsonfile.loadandvalidateasync
           - title: loadAndValidateWithCallback
             url: /pages/api/node-core-library.jsonfile.loadandvalidatewithcallback
+          - title: loadAndValidateWithCallbackAsync
+            url: /pages/api/node-core-library.jsonfile.loadandvalidatewithcallbackasync
+          - title: loadAsync
+            url: /pages/api/node-core-library.jsonfile.loadasync
+          - title: parseString
+            url: /pages/api/node-core-library.jsonfile.parsestring
           - title: save
             url: /pages/api/node-core-library.jsonfile.save
+          - title: saveAsync
+            url: /pages/api/node-core-library.jsonfile.saveasync
           - title: stringify
             url: /pages/api/node-core-library.jsonfile.stringify
           - title: updateString
@@ -2145,6 +2256,25 @@ api_nav:
             url: /pages/api/node-core-library.packagename.tryparse
           - title: validate
             url: /pages/api/node-core-library.packagename.validate
+      - title: PackageNameParser
+        url: /pages/api/node-core-library.packagenameparser
+        subitems:
+          - title: (constructor)
+            url: /pages/api/node-core-library.packagenameparser._constructor_
+          - title: combineParts
+            url: /pages/api/node-core-library.packagenameparser.combineparts
+          - title: getScope
+            url: /pages/api/node-core-library.packagenameparser.getscope
+          - title: getUnscopedName
+            url: /pages/api/node-core-library.packagenameparser.getunscopedname
+          - title: isValidName
+            url: /pages/api/node-core-library.packagenameparser.isvalidname
+          - title: parse
+            url: /pages/api/node-core-library.packagenameparser.parse
+          - title: tryParse
+            url: /pages/api/node-core-library.packagenameparser.tryparse
+          - title: validate
+            url: /pages/api/node-core-library.packagenameparser.validate
       - title: Path
         url: /pages/api/node-core-library.path
         subitems:
@@ -2388,6 +2518,8 @@ api_nav:
         subitems:
           - title: defineChoiceParameter
             url: /pages/api/ts-command-line.commandlineparameterprovider.definechoiceparameter
+          - title: defineCommandLineRemainder
+            url: /pages/api/ts-command-line.commandlineparameterprovider.definecommandlineremainder
           - title: defineFlagParameter
             url: /pages/api/ts-command-line.commandlineparameterprovider.defineflagparameter
           - title: defineIntegerParameter
@@ -2410,6 +2542,8 @@ api_nav:
             url: /pages/api/ts-command-line.commandlineparameterprovider.ondefineparameters
           - title: parameters
             url: /pages/api/ts-command-line.commandlineparameterprovider.parameters
+          - title: remainder
+            url: /pages/api/ts-command-line.commandlineparameterprovider.remainder
           - title: renderHelpText
             url: /pages/api/ts-command-line.commandlineparameterprovider.renderhelptext
       - title: CommandLineParameterWithArgument
@@ -2442,6 +2576,15 @@ api_nav:
             url: /pages/api/ts-command-line.commandlineparser.toolfilename
           - title: tryGetAction
             url: /pages/api/ts-command-line.commandlineparser.trygetaction
+      - title: CommandLineRemainder
+        url: /pages/api/ts-command-line.commandlineremainder
+        subitems:
+          - title: appendToArgList
+            url: /pages/api/ts-command-line.commandlineremainder.appendtoarglist
+          - title: description
+            url: /pages/api/ts-command-line.commandlineremainder.description
+          - title: values
+            url: /pages/api/ts-command-line.commandlineremainder.values
       - title: CommandLineStringListParameter
         url: /pages/api/ts-command-line.commandlinestringlistparameter
         subitems:
@@ -2522,6 +2665,11 @@ api_nav:
             url: /pages/api/ts-command-line.icommandlineparseroptions.tooldescription
           - title: toolFilename
             url: /pages/api/ts-command-line.icommandlineparseroptions.toolfilename
+      - title: ICommandLineRemainderDefinition
+        url: /pages/api/ts-command-line.icommandlineremainderdefinition
+        subitems:
+          - title: description
+            url: /pages/api/ts-command-line.icommandlineremainderdefinition.description
       - title: ICommandLineStringDefinition
         url: /pages/api/ts-command-line.icommandlinestringdefinition
         subitems:

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemDeleteFileOptions interface
 
-The options for FileSystem.deleteFile()
+The options for [FileSystem.deleteFile()](./node-core-library.filesystem.deletefile.md)
 
 <b>Signature:</b>
 

@@ -9,6 +9,8 @@ improve_this_button: false
 
 ## Excerpt.tokenRange property
 
+Specifies the excerpt's range within the `tokens` array.
+
 <b>Signature:</b>
 
 ```typescript

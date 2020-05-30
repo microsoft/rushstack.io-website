@@ -9,6 +9,7 @@ improve_this_button: false
 
 ## ExcerptToken class
 
+Represents a fragment of text belonging to an [Excerpt](./api-extractor-model.excerpt.md) object.
 
 <b>Signature:</b>
 
@@ -26,7 +27,7 @@ export declare class ExcerptToken
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [canonicalReference](./api-extractor-model.excerpttoken.canonicalreference.md) |  | DeclarationReference \| undefined |  |
-|  [kind](./api-extractor-model.excerpttoken.kind.md) |  | [ExcerptTokenKind](./api-extractor-model.excerpttokenkind.md) |  |
-|  [text](./api-extractor-model.excerpttoken.text.md) |  | string |  |
+|  [canonicalReference](./api-extractor-model.excerpttoken.canonicalreference.md) |  | DeclarationReference \| undefined | The hyperlink target for a token whose type is <code>ExcerptTokenKind.Reference</code>. For other token types, this property will be <code>undefined</code>. |
+|  [kind](./api-extractor-model.excerpttoken.kind.md) |  | [ExcerptTokenKind](./api-extractor-model.excerpttokenkind.md) | Indicates the kind of token. |
+|  [text](./api-extractor-model.excerpttoken.text.md) |  | string | The text fragment. |
 

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemCopyFileOptions interface
 
-The options for FileSystem.copyFile()
+The options for [FileSystem.copyFile()](./node-core-library.filesystem.copyfile.md)
 
 <b>Signature:</b>
 
@@ -21,6 +21,7 @@ export interface IFileSystemCopyFileOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
+|  [alreadyExistsBehavior](./node-core-library.ifilesystemcopyfileoptions.alreadyexistsbehavior.md) | [AlreadyExistsBehavior](./node-core-library.alreadyexistsbehavior.md) | Specifies what to do if the target object already exists. |
 |  [destinationPath](./node-core-library.ifilesystemcopyfileoptions.destinationpath.md) | string | The path that the object will be copied to. The path may be absolute or relative. |
 |  [sourcePath](./node-core-library.ifilesystemcopyfileoptions.sourcepath.md) | string | The path of the existing object to be copied. The path may be absolute or relative. |
 

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## CommandLineParameterProvider.defineIntegerParameter() method
 
-Defines a command-line parameter whose value is an integer.
+Defines a command-line parameter whose argument is an integer.
 
 <b>Signature:</b>
 
@@ -29,5 +29,10 @@ defineIntegerParameter(definition: ICommandLineIntegerDefinition): CommandLineIn
 
 ## Remarks
 
-Example: example-tool --max-attempts 5
+Example usage of an integer parameter:
+
+```
+example-tool --max-attempts 5
+
+```
 

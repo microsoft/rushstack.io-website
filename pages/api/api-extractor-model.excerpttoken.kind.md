@@ -9,6 +9,8 @@ improve_this_button: false
 
 ## ExcerptToken.kind property
 
+Indicates the kind of token.
+
 <b>Signature:</b>
 
 ```typescript

@@ -27,7 +27,8 @@ Core libraries that every NodeJS toolchain project should use.
 |  [LockFile](./node-core-library.lockfile.md) | A helper utility for working with file-based locks. This class should only be used for locking resources across processes, but should not be used for attempting to lock a resource in the same process. |
 |  [MapExtensions](./node-core-library.mapextensions.md) | Helper functions for working with the <code>Map&lt;K, V&gt;</code> data type. |
 |  [PackageJsonLookup](./node-core-library.packagejsonlookup.md) | This class provides methods for finding the nearest "package.json" for a folder and retrieving the name of the package. The results are cached. |
-|  [PackageName](./node-core-library.packagename.md) | Various functions for working with package names that may include scopes. |
+|  [PackageName](./node-core-library.packagename.md) | Provides basic operations for validating and manipulating NPM package names such as <code>my-package</code> or <code>@scope/my-package</code>. |
+|  [PackageNameParser](./node-core-library.packagenameparser.md) | A configurable parser for validating and manipulating NPM package names such as <code>my-package</code> or <code>@scope/my-package</code>. |
 |  [Path](./node-core-library.path.md) | Common operations for manipulating file and directory paths. |
 |  [ProtectableMap](./node-core-library.protectablemap.md) | The ProtectableMap provides an easy way for an API to expose a <code>Map&lt;K, V&gt;</code> property while intercepting and validating any write operations that are performed by consumers of the API. |
 |  [Sort](./node-core-library.sort.md) | Operations for sorting collections. |
@@ -40,6 +41,7 @@ Core libraries that every NodeJS toolchain project should use.
 
 |  Enumeration | Description |
 |  --- | --- |
+|  [AlreadyExistsBehavior](./node-core-library.alreadyexistsbehavior.md) | Specifies the behavior of [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md) in a situation where the target object already exists. |
 |  [ColorValue](./node-core-library.colorvalue.md) | <b><i>(BETA)</i></b> Colors used with [IColorableSequence](./node-core-library.icolorablesequence.md)<!-- -->. |
 |  [Encoding](./node-core-library.encoding.md) | The allowed types of encodings, as supported by Node.js |
 |  [FileConstants](./node-core-library.fileconstants.md) | String constants for common filenames and parts of filenames. |
@@ -57,14 +59,16 @@ Core libraries that every NodeJS toolchain project should use.
 |  [IConsoleTerminalProviderOptions](./node-core-library.iconsoleterminalprovideroptions.md) | <b><i>(BETA)</i></b> Options to be provided to a [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) |
 |  [IExecutableResolveOptions](./node-core-library.iexecutableresolveoptions.md) | Options for Executable.tryResolve(). |
 |  [IExecutableSpawnSyncOptions](./node-core-library.iexecutablespawnsyncoptions.md) | Options for Executable.execute(). |
-|  [IFileSystemCopyFileOptions](./node-core-library.ifilesystemcopyfileoptions.md) | The options for FileSystem.copyFile() |
-|  [IFileSystemCreateLinkOptions](./node-core-library.ifilesystemcreatelinkoptions.md) | The options for <code>FileSystem.createSymbolicLinkJunction()</code>, <code>createSymbolicLinkFile()</code>, <code>createSymbolicLinkFolder()</code>, and <code>createHardLink()</code>. |
-|  [IFileSystemDeleteFileOptions](./node-core-library.ifilesystemdeletefileoptions.md) | The options for FileSystem.deleteFile() |
-|  [IFileSystemMoveOptions](./node-core-library.ifilesystemmoveoptions.md) | The options for FileSystem.move() |
-|  [IFileSystemReadFileOptions](./node-core-library.ifilesystemreadfileoptions.md) | The options for FileSystem.readFile() |
-|  [IFileSystemReadFolderOptions](./node-core-library.ifilesystemreadfolderoptions.md) | The options for FileSystem.readFolder() |
-|  [IFileSystemUpdateTimeParameters](./node-core-library.ifilesystemupdatetimeparameters.md) | The parameters for <code>updateTimes()</code>. Both times must be specified. |
-|  [IFileSystemWriteFileOptions](./node-core-library.ifilesystemwritefileoptions.md) | The options for FileSystem.writeFile() |
+|  [IFileSystemCopyFileOptions](./node-core-library.ifilesystemcopyfileoptions.md) | The options for [FileSystem.copyFile()](./node-core-library.filesystem.copyfile.md) |
+|  [IFileSystemCopyFilesAsyncOptions](./node-core-library.ifilesystemcopyfilesasyncoptions.md) | The options for [FileSystem.copyFilesAsync()](./node-core-library.filesystem.copyfilesasync.md) |
+|  [IFileSystemCopyFilesOptions](./node-core-library.ifilesystemcopyfilesoptions.md) | The options for [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md) |
+|  [IFileSystemCreateLinkOptions](./node-core-library.ifilesystemcreatelinkoptions.md) | The options for [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md)<!-- -->, [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md)<!-- -->, [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md)<!-- -->, and [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md)<!-- -->. |
+|  [IFileSystemDeleteFileOptions](./node-core-library.ifilesystemdeletefileoptions.md) | The options for [FileSystem.deleteFile()](./node-core-library.filesystem.deletefile.md) |
+|  [IFileSystemMoveOptions](./node-core-library.ifilesystemmoveoptions.md) | The options for [FileSystem.move()](./node-core-library.filesystem.move.md) |
+|  [IFileSystemReadFileOptions](./node-core-library.ifilesystemreadfileoptions.md) | The options for [FileSystem.readFile()](./node-core-library.filesystem.readfile.md) |
+|  [IFileSystemReadFolderOptions](./node-core-library.ifilesystemreadfolderoptions.md) | The options for [FileSystem.readFolder()](./node-core-library.filesystem.readfolder.md) |
+|  [IFileSystemUpdateTimeParameters](./node-core-library.ifilesystemupdatetimeparameters.md) | The options for [FileSystem.updateTimes()](./node-core-library.filesystem.updatetimes.md) Both times must be specified. |
+|  [IFileSystemWriteFileOptions](./node-core-library.ifilesystemwritefileoptions.md) | The options for [FileSystem.writeFile()](./node-core-library.filesystem.writefile.md) |
 |  [IFileWriterFlags](./node-core-library.ifilewriterflags.md) | Interface which represents the flags about which mode the file should be opened in. |
 |  [IJsonFileSaveOptions](./node-core-library.ijsonfilesaveoptions.md) | Options for JsonFile.saveJsonFile() |
 |  [IJsonFileStringifyOptions](./node-core-library.ijsonfilestringifyoptions.md) | Options for JsonFile.stringify() |
@@ -76,6 +80,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [IPackageJsonDependencyTable](./node-core-library.ipackagejsondependencytable.md) | This interface is part of the IPackageJson file format. It is used for the "dependencies", "optionalDependencies", and "devDependencies" fields. |
 |  [IPackageJsonLookupParameters](./node-core-library.ipackagejsonlookupparameters.md) | Constructor parameters for [PackageJsonLookup](./node-core-library.packagejsonlookup.md) |
 |  [IPackageJsonScriptTable](./node-core-library.ipackagejsonscripttable.md) | This interface is part of the IPackageJson file format. It is used for the "scripts" field. |
+|  [IPackageNameParserOptions](./node-core-library.ipackagenameparseroptions.md) | Options that configure the validation rules used by a [PackageNameParser](./node-core-library.packagenameparser.md) instance. |
 |  [IParsedPackageName](./node-core-library.iparsedpackagename.md) | A package name that has been separated into its scope and unscoped name. |
 |  [IParsedPackageNameOrError](./node-core-library.iparsedpackagenameorerror.md) | Result object returned by [PackageName.tryParse()](./node-core-library.packagename.tryparse.md) |
 |  [IProtectableMapParameters](./node-core-library.iprotectablemapparameters.md) | Constructor parameters for [ProtectableMap](./node-core-library.protectablemap.md) |
@@ -88,6 +93,9 @@ Core libraries that every NodeJS toolchain project should use.
 |  --- | --- |
 |  [ExecutableStdioMapping](./node-core-library.executablestdiomapping.md) | Typings for IExecutableSpawnSyncOptions.stdio. |
 |  [ExecutableStdioStreamMapping](./node-core-library.executablestdiostreammapping.md) | Typings for one of the streams inside IExecutableSpawnSyncOptions.stdio. |
+|  [FileSystemCopyFilesAsyncFilter](./node-core-library.filesystemcopyfilesasyncfilter.md) | Callback function type for [IFileSystemCopyFilesAsyncOptions.filter](./node-core-library.ifilesystemcopyfilesasyncoptions.filter.md) |
+|  [FileSystemCopyFilesFilter](./node-core-library.filesystemcopyfilesfilter.md) | Callback function type for [IFileSystemCopyFilesOptions.filter](./node-core-library.ifilesystemcopyfilesoptions.filter.md) |
+|  [FileSystemStats](./node-core-library.filesystemstats.md) | An alias for the Node.js <code>fs.Stats</code> object. |
 |  [JsonObject](./node-core-library.jsonobject.md) | Represents a JSON-serializable object whose type has not been determined yet. |
 |  [LegacyCallback](./node-core-library.legacycallback.md) | Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md)<!-- -->. |
 

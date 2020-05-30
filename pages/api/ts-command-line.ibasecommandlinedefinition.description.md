@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IBaseCommandLineDefinition.description property
 
-Documentation for the flag, that will be shown when invoking the tool with "--help"
+Documentation for the parameter that will be shown when invoking the tool with "--help"
 
 <b>Signature:</b>
 

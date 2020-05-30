@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ICommandLineIntegerDefinition interface
 
-For use with CommandLineParser, this interface represents a command line parameter whose argument is an integer value.
+For use with [CommandLineParameterProvider.defineIntegerParameter()](./ts-command-line.commandlineparameterprovider.defineintegerparameter.md)<!-- -->, this interface defines a command line parameter whose argument is an integer value.
 
 <b>Signature:</b>
 

@@ -9,6 +9,8 @@ improve_this_button: false
 
 ## IExcerptTokenRange.startIndex property
 
+The starting index of the span.
+
 <b>Signature:</b>
 
 ```typescript

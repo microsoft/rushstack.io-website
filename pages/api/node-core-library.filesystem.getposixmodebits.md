@@ -27,3 +27,7 @@ static getPosixModeBits(path: string): PosixModeBits;
 
 [PosixModeBits](./node-core-library.posixmodebits.md)
 
+## Remarks
+
+This calls [FileSystem.getStatistics()](./node-core-library.filesystem.getstatistics.md) to get the POSIX mode bits. If statistics in addition to the mode bits are needed, it is more efficient to call [FileSystem.getStatistics()](./node-core-library.filesystem.getstatistics.md) directly instead.
+

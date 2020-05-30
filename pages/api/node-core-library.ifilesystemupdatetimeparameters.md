@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemUpdateTimeParameters interface
 
-The parameters for `updateTimes()`<!-- -->. Both times must be specified.
+The options for [FileSystem.updateTimes()](./node-core-library.filesystem.updatetimes.md) Both times must be specified.
 
 <b>Signature:</b>
 

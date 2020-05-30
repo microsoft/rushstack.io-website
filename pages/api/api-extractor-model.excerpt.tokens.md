@@ -9,6 +9,8 @@ improve_this_button: false
 
 ## Excerpt.tokens property
 
+The complete list of tokens for the source code fragment that this excerpt is based upon. If this object is the main excerpt, then it will span all of the tokens; otherwise, it will correspond to a range within the array.
+
 <b>Signature:</b>
 
 ```typescript

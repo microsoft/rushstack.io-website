@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemMoveOptions interface
 
-The options for FileSystem.move()
+The options for [FileSystem.move()](./node-core-library.filesystem.move.md)
 
 <b>Signature:</b>
 

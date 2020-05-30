@@ -9,13 +9,17 @@ improve_this_button: false
 
 ## PackageName class
 
-Various functions for working with package names that may include scopes.
+Provides basic operations for validating and manipulating NPM package names such as `my-package` or `@scope/my-package`<!-- -->.
 
 <b>Signature:</b>
 
 ```typescript
 export declare class PackageName 
 ```
+
+## Remarks
+
+This is the default implementation of [PackageNameParser](./node-core-library.packagenameparser.md)<!-- -->, exposed as a convenient static class. If you need to configure the parsing rules, use `PackageNameParser` instead.
 
 ## Methods
 
