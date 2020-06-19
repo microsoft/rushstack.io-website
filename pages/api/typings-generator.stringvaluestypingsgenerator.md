@@ -16,6 +16,7 @@ This is a simple tool that generates .d.ts files for non-TS files that can be re
 ```typescript
 export declare class StringValuesTypingsGenerator extends TypingsGenerator 
 ```
+<b>Extends:</b> [TypingsGenerator](./typings-generator.typingsgenerator.md)
 
 ## Constructors
 

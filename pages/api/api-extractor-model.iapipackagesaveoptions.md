@@ -16,6 +16,7 @@ Options for [ApiPackage.saveToJsonFile()](./api-extractor-model.apipackage.savet
 ```typescript
 export interface IApiPackageSaveOptions extends IJsonFileSaveOptions 
 ```
+<b>Extends:</b> [IJsonFileSaveOptions](./node-core-library.ijsonfilesaveoptions.md)
 
 ## Properties
 

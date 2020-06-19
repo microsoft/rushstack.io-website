@@ -16,3 +16,5 @@ Constructor options for [ApiEntryPoint](./api-extractor-model.apientrypoint.md)<
 ```typescript
 export interface IApiEntryPointOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions 
 ```
+<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md)<!-- -->, [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)
+

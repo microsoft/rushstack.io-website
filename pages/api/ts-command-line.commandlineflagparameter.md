@@ -16,6 +16,7 @@ The data type returned by [CommandLineParameterProvider.defineFlagParameter()](.
 ```typescript
 export declare class CommandLineFlagParameter extends CommandLineParameter 
 ```
+<b>Extends:</b> [CommandLineParameter](./ts-command-line.commandlineparameter.md)
 
 ## Remarks
 

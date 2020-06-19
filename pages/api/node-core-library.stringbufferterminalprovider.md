@@ -19,6 +19,7 @@ Terminal provider that stores written data in buffers separated by severity. Thi
 ```typescript
 export declare class StringBufferTerminalProvider implements ITerminalProvider 
 ```
+<b>Implements:</b> [ITerminalProvider](./node-core-library.iterminalprovider.md)
 
 ## Constructors
 

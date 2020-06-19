@@ -9,22 +9,24 @@ improve_this_button: false
 
 ## LockFile.tryAcquire() method
 
-Attempts to create a lockfile with the given filePath. If successful, returns a LockFile instance. If unable to get a lock, returns undefined.
+Attempts to create a lockfile with the given filePath.
 
 <b>Signature:</b>
 
 ```typescript
-static tryAcquire(resourceDir: string, resourceName: string): LockFile | undefined;
+static tryAcquire(resourceFolder: string, resourceName: string): LockFile | undefined;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  resourceDir | string |  |
-|  resourceName | string | the name of the resource we are locking on. Should be an alphabetic string. |
+|  resourceFolder | string | The folder where the lock file will be created |
+|  resourceName | string | An alphanumeric name that describes the resource being locked. This will become the filename of the temporary file created to manage the lock. |
 
 <b>Returns:</b>
 
 [LockFile](./node-core-library.lockfile.md) \| undefined
+
+If successful, returns a `LockFile` instance. If unable to get a lock, returns `undefined`<!-- -->.
 

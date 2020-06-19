@@ -16,6 +16,7 @@ A serializable representation of a collection of API declarations.
 ```typescript
 export declare class ApiModel extends ApiModel_base 
 ```
+<b>Extends:</b> ApiModel\_base
 
 ## Remarks
 

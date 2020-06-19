@@ -19,6 +19,7 @@ Terminal provider that prints to STDOUT (for log- and verbose-level messages) an
 ```typescript
 export declare class ConsoleTerminalProvider implements ITerminalProvider 
 ```
+<b>Implements:</b> [ITerminalProvider](./node-core-library.iterminalprovider.md)
 
 ## Constructors
 

@@ -16,3 +16,5 @@ For use with [CommandLineParameterProvider.defineStringListParameter()](./ts-com
 ```typescript
 export interface ICommandLineStringListDefinition extends IBaseCommandLineDefinitionWithArgument 
 ```
+<b>Extends:</b> [IBaseCommandLineDefinitionWithArgument](./ts-command-line.ibasecommandlinedefinitionwithargument.md)
+

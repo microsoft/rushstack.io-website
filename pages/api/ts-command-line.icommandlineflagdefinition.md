@@ -16,3 +16,5 @@ For use with [CommandLineParameterProvider.defineFlagParameter()](./ts-command-l
 ```typescript
 export interface ICommandLineFlagDefinition extends IBaseCommandLineDefinition 
 ```
+<b>Extends:</b> [IBaseCommandLineDefinition](./ts-command-line.ibasecommandlinedefinition.md)
+

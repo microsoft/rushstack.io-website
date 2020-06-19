@@ -16,6 +16,7 @@ Result object returned by [PackageName.tryParse()](./node-core-library.packagena
 ```typescript
 export interface IParsedPackageNameOrError extends IParsedPackageName 
 ```
+<b>Extends:</b> [IParsedPackageName](./node-core-library.iparsedpackagename.md)
 
 ## Properties
 

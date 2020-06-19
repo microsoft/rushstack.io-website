@@ -24,7 +24,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [JsonFile](./node-core-library.jsonfile.md) | Utilities for reading/writing JSON files. |
 |  [JsonSchema](./node-core-library.jsonschema.md) | Represents a JSON schema that can be used to validate JSON data files loaded by the JsonFile class. |
 |  [LegacyAdapters](./node-core-library.legacyadapters.md) | Helper functions used when interacting with APIs that do not follow modern coding practices. |
-|  [LockFile](./node-core-library.lockfile.md) | A helper utility for working with file-based locks. This class should only be used for locking resources across processes, but should not be used for attempting to lock a resource in the same process. |
+|  [LockFile](./node-core-library.lockfile.md) | The <code>LockFile</code> implements a file-based mutex for synchronizing access to a shared resource between multiple Node.js processes. It is not recommended for synchronization solely within a single Node.js process. |
 |  [MapExtensions](./node-core-library.mapextensions.md) | Helper functions for working with the <code>Map&lt;K, V&gt;</code> data type. |
 |  [PackageJsonLookup](./node-core-library.packagejsonlookup.md) | This class provides methods for finding the nearest "package.json" for a folder and retrieving the name of the package. The results are cached. |
 |  [PackageName](./node-core-library.packagename.md) | Provides basic operations for validating and manipulating NPM package names such as <code>my-package</code> or <code>@scope/my-package</code>. |

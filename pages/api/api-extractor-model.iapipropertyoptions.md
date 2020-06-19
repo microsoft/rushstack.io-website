@@ -16,3 +16,5 @@ Constructor options for [ApiProperty](./api-extractor-model.apiproperty.md)<!-- 
 ```typescript
 export interface IApiPropertyOptions extends IApiPropertyItemOptions, IApiStaticMixinOptions 
 ```
+<b>Extends:</b> [IApiPropertyItemOptions](./api-extractor-model.iapipropertyitemoptions.md)<!-- -->, [IApiStaticMixinOptions](./api-extractor-model.iapistaticmixinoptions.md)
+

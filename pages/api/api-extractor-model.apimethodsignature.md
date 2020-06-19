@@ -16,6 +16,7 @@ Represents a TypeScript member function declaration that belongs to an `ApiInter
 ```typescript
 export declare class ApiMethodSignature extends ApiMethodSignature_base 
 ```
+<b>Extends:</b> ApiMethodSignature\_base
 
 ## Remarks
 

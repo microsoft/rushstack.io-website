@@ -16,6 +16,7 @@ The common base interface for parameter types that accept an argument.
 ```typescript
 export interface IBaseCommandLineDefinitionWithArgument extends IBaseCommandLineDefinition 
 ```
+<b>Extends:</b> [IBaseCommandLineDefinition](./ts-command-line.ibasecommandlinedefinition.md)
 
 ## Remarks
 

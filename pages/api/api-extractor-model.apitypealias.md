@@ -16,6 +16,7 @@ Represents a TypeScript type alias declaration.
 ```typescript
 export declare class ApiTypeAlias extends ApiTypeAlias_base 
 ```
+<b>Extends:</b> ApiTypeAlias\_base
 
 ## Remarks
 

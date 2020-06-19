@@ -15,6 +15,7 @@ improve_this_button: false
 ```typescript
 export interface IStringValuesTypingsGeneratorOptions extends ITypingsGeneratorOptions<IStringValueTypings> 
 ```
+<b>Extends:</b> [ITypingsGeneratorOptions](./typings-generator.itypingsgeneratoroptions.md)<!-- -->&lt;[IStringValueTypings](./typings-generator.istringvaluetypings.md)<!-- -->&gt;
 
 ## Properties
 

@@ -16,6 +16,7 @@ Options that all package managers share.
 ```typescript
 export declare abstract class PackageManagerOptionsConfigurationBase implements IPackageManagerOptionsJsonBase 
 ```
+<b>Implements:</b> [IPackageManagerOptionsJsonBase](./rush-lib.ipackagemanageroptionsjsonbase.md)
 
 ## Remarks
 

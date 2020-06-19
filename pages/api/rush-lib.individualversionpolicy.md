@@ -19,6 +19,7 @@ This policy indicates all related projects get version bump driven by their own 
 ```typescript
 export declare class IndividualVersionPolicy extends VersionPolicy 
 ```
+<b>Extends:</b> [VersionPolicy](./rush-lib.versionpolicy.md)
 
 ## Remarks
 

@@ -16,6 +16,7 @@ Constructor options for [ApiPropertyItem](./api-extractor-model.apipropertyitem.
 ```typescript
 export interface IApiPropertyItemOptions extends IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions 
 ```
+<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
 
 ## Properties
 

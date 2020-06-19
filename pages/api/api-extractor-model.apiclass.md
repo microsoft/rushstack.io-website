@@ -16,6 +16,7 @@ Represents a TypeScript class declaration.
 ```typescript
 export declare class ApiClass extends ApiClass_base 
 ```
+<b>Extends:</b> ApiClass\_base
 
 ## Remarks
 

@@ -16,6 +16,7 @@ Represents an NPM package containing API declarations.
 ```typescript
 export declare class ApiPackage extends ApiPackage_base 
 ```
+<b>Extends:</b> ApiPackage\_base
 
 ## Remarks
 

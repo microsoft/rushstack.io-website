@@ -16,6 +16,7 @@ Represents a TypeScript enum declaration.
 ```typescript
 export declare class ApiEnum extends ApiEnum_base 
 ```
+<b>Extends:</b> ApiEnum\_base
 
 ## Remarks
 

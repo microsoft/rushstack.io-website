@@ -16,6 +16,7 @@ An `Error` subclass that should be thrown to report an unexpected state that may
 ```typescript
 export declare class InternalError extends Error 
 ```
+<b>Extends:</b> Error
 
 ## Remarks
 

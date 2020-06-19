@@ -16,6 +16,7 @@ Options for Executable.execute().
 ```typescript
 export interface IExecutableSpawnSyncOptions extends IExecutableResolveOptions 
 ```
+<b>Extends:</b> [IExecutableResolveOptions](./node-core-library.iexecutableresolveoptions.md)
 
 ## Properties
 

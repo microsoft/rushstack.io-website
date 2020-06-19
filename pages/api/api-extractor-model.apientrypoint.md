@@ -16,6 +16,7 @@ Represents the entry point for an NPM package.
 ```typescript
 export declare class ApiEntryPoint extends ApiEntryPoint_base 
 ```
+<b>Extends:</b> ApiEntryPoint\_base
 
 ## Remarks
 

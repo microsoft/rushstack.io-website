@@ -16,6 +16,7 @@ An abstract base class for API declarations that can have an associated TSDoc co
 ```typescript
 export declare class ApiDocumentedItem extends ApiItem 
 ```
+<b>Extends:</b> [ApiItem](./api-extractor-model.apiitem.md)
 
 ## Remarks
 

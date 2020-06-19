@@ -16,6 +16,7 @@ The base class for API items that have an associated source code excerpt contain
 ```typescript
 export declare class ApiDeclaredItem extends ApiDocumentedItem 
 ```
+<b>Extends:</b> [ApiDocumentedItem](./api-extractor-model.apidocumenteditem.md)
 
 ## Remarks
 

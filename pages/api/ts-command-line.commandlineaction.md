@@ -18,6 +18,7 @@ The action name should be comprised of lower case words separated by hyphens or 
 ```typescript
 export declare abstract class CommandLineAction extends CommandLineParameterProvider 
 ```
+<b>Extends:</b> [CommandLineParameterProvider](./ts-command-line.commandlineparameterprovider.md)
 
 ## Constructors
 

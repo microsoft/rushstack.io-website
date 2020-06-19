@@ -16,6 +16,7 @@ Constructor options for [ApiDocumentedItem](./api-extractor-model.apidocumentedi
 ```typescript
 export interface IApiDocumentedItemOptions extends IApiItemOptions 
 ```
+<b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
 
 ## Properties
 

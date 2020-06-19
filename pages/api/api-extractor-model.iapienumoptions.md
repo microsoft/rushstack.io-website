@@ -16,3 +16,5 @@ Constructor options for [ApiEnum](./api-extractor-model.apienum.md)<!-- -->.
 ```typescript
 export interface IApiEnumOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions 
 ```
+<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md)<!-- -->, [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
+

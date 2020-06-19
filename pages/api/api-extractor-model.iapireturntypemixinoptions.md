@@ -16,6 +16,7 @@ Constructor options for .
 ```typescript
 export interface IApiReturnTypeMixinOptions extends IApiItemOptions 
 ```
+<b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
 
 ## Properties
 

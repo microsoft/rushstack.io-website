@@ -16,6 +16,7 @@ For use with CommandLineParser, this interface represents a parameter which is c
 ```typescript
 export interface ICommandLineChoiceDefinition extends IBaseCommandLineDefinition 
 ```
+<b>Extends:</b> [IBaseCommandLineDefinition](./ts-command-line.ibasecommandlinedefinition.md)
 
 ## Properties
 

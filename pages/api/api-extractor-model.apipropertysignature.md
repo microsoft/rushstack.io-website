@@ -16,6 +16,7 @@ Represents a TypeScript property declaration that belongs to an `ApiInterface`<!
 ```typescript
 export declare class ApiPropertySignature extends ApiPropertyItem 
 ```
+<b>Extends:</b> [ApiPropertyItem](./api-extractor-model.apipropertyitem.md)
 
 ## Remarks
 

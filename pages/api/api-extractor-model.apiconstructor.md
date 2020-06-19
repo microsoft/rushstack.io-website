@@ -16,6 +16,7 @@ Represents a TypeScript class constructor declaration that belongs to an `ApiCla
 ```typescript
 export declare class ApiConstructor extends ApiConstructor_base 
 ```
+<b>Extends:</b> ApiConstructor\_base
 
 ## Remarks
 

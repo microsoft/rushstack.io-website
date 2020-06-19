@@ -16,6 +16,7 @@ The data type returned by [CommandLineParameterProvider.defineStringListParamete
 ```typescript
 export declare class CommandLineStringListParameter extends CommandLineParameterWithArgument 
 ```
+<b>Extends:</b> [CommandLineParameterWithArgument](./ts-command-line.commandlineparameterwithargument.md)
 
 ## Remarks
 

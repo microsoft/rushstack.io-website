@@ -16,3 +16,5 @@ Constructor options for [ApiMethod](./api-extractor-model.apimethod.md)<!-- -->.
 ```typescript
 export interface IApiMethodOptions extends IApiNameMixinOptions, IApiTypeParameterListMixinOptions, IApiParameterListMixinOptions, IApiReleaseTagMixinOptions, IApiReturnTypeMixinOptions, IApiStaticMixinOptions, IApiDeclaredItemOptions 
 ```
+<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md)<!-- -->, [IApiParameterListMixinOptions](./api-extractor-model.iapiparameterlistmixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiReturnTypeMixinOptions](./api-extractor-model.iapireturntypemixinoptions.md)<!-- -->, [IApiStaticMixinOptions](./api-extractor-model.iapistaticmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
+

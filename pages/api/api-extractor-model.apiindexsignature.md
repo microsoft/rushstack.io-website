@@ -16,6 +16,7 @@ Represents a TypeScript index signature.
 ```typescript
 export declare class ApiIndexSignature extends ApiIndexSignature_base 
 ```
+<b>Extends:</b> ApiIndexSignature\_base
 
 ## Remarks
 

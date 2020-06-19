@@ -16,6 +16,7 @@ Constructor options for [ApiVariable](./api-extractor-model.apivariable.md)<!-- 
 ```typescript
 export interface IApiVariableOptions extends IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions 
 ```
+<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
 
 ## Properties
 

@@ -16,6 +16,7 @@ Represents a TypeScript function call signature.
 ```typescript
 export declare class ApiCallSignature extends ApiCallSignature_base 
 ```
+<b>Extends:</b> ApiCallSignature\_base
 
 ## Remarks
 

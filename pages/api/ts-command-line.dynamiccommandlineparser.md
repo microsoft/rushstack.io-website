@@ -15,6 +15,7 @@ improve_this_button: false
 ```typescript
 export declare class DynamicCommandLineParser extends CommandLineParser 
 ```
+<b>Extends:</b> [CommandLineParser](./ts-command-line.commandlineparser.md)
 
 ## Methods
 

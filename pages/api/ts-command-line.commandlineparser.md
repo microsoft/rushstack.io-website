@@ -16,6 +16,7 @@ The "argparse" library is a relatively advanced command-line parser with feature
 ```typescript
 export declare abstract class CommandLineParser extends CommandLineParameterProvider 
 ```
+<b>Extends:</b> [CommandLineParameterProvider](./ts-command-line.commandlineparameterprovider.md)
 
 ## Constructors
 

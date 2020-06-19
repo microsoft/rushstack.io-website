@@ -19,6 +19,7 @@ This policy indicates all related projects should use the same version.
 ```typescript
 export declare class LockStepVersionPolicy extends VersionPolicy 
 ```
+<b>Extends:</b> [VersionPolicy](./rush-lib.versionpolicy.md)
 
 ## Remarks
 

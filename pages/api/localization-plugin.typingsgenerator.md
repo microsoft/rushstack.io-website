@@ -16,6 +16,7 @@ This is a simple tool that generates .d.ts files for .loc.json and .resx files.
 ```typescript
 export declare class LocFileTypingsGenerator extends StringValuesTypingsGenerator 
 ```
+<b>Extends:</b> [StringValuesTypingsGenerator](./typings-generator.stringvaluestypingsgenerator.md)
 
 ## Constructors
 

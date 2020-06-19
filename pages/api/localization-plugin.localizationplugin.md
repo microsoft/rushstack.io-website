@@ -16,6 +16,7 @@ This plugin facilitates localization in webpack.
 ```typescript
 export declare class LocalizationPlugin implements Webpack.Plugin 
 ```
+<b>Implements:</b> Webpack.Plugin
 
 ## Constructors
 

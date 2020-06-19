@@ -16,6 +16,7 @@ The data type returned by [CommandLineParameterProvider.defineIntegerParameter()
 ```typescript
 export declare class CommandLineIntegerParameter extends CommandLineParameterWithArgument 
 ```
+<b>Extends:</b> [CommandLineParameterWithArgument](./ts-command-line.commandlineparameterwithargument.md)
 
 ## Remarks
 

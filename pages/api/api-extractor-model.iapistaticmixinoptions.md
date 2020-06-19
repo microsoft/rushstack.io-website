@@ -16,6 +16,7 @@ Constructor options for [IApiStaticMixinOptions](./api-extractor-model.iapistati
 ```typescript
 export interface IApiStaticMixinOptions extends IApiItemOptions 
 ```
+<b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
 
 ## Properties
 

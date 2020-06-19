@@ -16,6 +16,7 @@ The options for [FileSystem.copyFiles()](./node-core-library.filesystem.copyfile
 ```typescript
 export interface IFileSystemCopyFilesOptions extends IFileSystemCopyFilesAsyncOptions 
 ```
+<b>Extends:</b> [IFileSystemCopyFilesAsyncOptions](./node-core-library.ifilesystemcopyfilesasyncoptions.md)
 
 ## Properties
 

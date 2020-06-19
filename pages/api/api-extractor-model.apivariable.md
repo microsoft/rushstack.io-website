@@ -16,6 +16,7 @@ Represents a TypeScript variable declaration.
 ```typescript
 export declare class ApiVariable extends ApiVariable_base 
 ```
+<b>Extends:</b> ApiVariable\_base
 
 ## Remarks
 

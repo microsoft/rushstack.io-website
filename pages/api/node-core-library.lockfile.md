@@ -9,13 +9,17 @@ improve_this_button: false
 
 ## LockFile class
 
-A helper utility for working with file-based locks. This class should only be used for locking resources across processes, but should not be used for attempting to lock a resource in the same process.
+The `LockFile` implements a file-based mutex for synchronizing access to a shared resource between multiple Node.js processes. It is not recommended for synchronization solely within a single Node.js process.
 
 <b>Signature:</b>
 
 ```typescript
 export declare class LockFile 
 ```
+
+## Remarks
+
+The implementation works on Windows, Mac, and Linux without requiring any native helpers. On non-Windows systems, the algorithm requires access to the `ps` shell command. On Linux, it requires access the `/proc/${pidString}/stat` filesystem.
 
 ## Properties
 
@@ -29,8 +33,8 @@ export declare class LockFile
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [acquire(resourceDir, resourceName, maxWaitMs)](./node-core-library.lockfile.acquire.md) | <code>static</code> | Attempts to create the lockfile. Will continue to loop at every 100ms until the lock becomes available or the maxWaitMs is surpassed. |
-|  [getLockFilePath(resourceDir, resourceName, pid)](./node-core-library.lockfile.getlockfilepath.md) | <code>static</code> | Returns the path to the lockfile, should it be created successfully. |
+|  [acquire(resourceFolder, resourceName, maxWaitMs)](./node-core-library.lockfile.acquire.md) | <code>static</code> | Attempts to create the lockfile. Will continue to loop at every 100ms until the lock becomes available or the maxWaitMs is surpassed. |
+|  [getLockFilePath(resourceFolder, resourceName, pid)](./node-core-library.lockfile.getlockfilepath.md) | <code>static</code> | Returns the path of the lockfile that will be created when a lock is successfully acquired. |
 |  [release()](./node-core-library.lockfile.release.md) |  | Unlocks a file and removes it from disk. This can only be called once. |
-|  [tryAcquire(resourceDir, resourceName)](./node-core-library.lockfile.tryacquire.md) | <code>static</code> | Attempts to create a lockfile with the given filePath. If successful, returns a LockFile instance. If unable to get a lock, returns undefined. |
+|  [tryAcquire(resourceFolder, resourceName)](./node-core-library.lockfile.tryacquire.md) | <code>static</code> | Attempts to create a lockfile with the given filePath. |
 

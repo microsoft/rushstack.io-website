@@ -16,6 +16,7 @@ Options that are only used when the NPM package manager is selected.
 ```typescript
 export declare class NpmOptionsConfiguration extends PackageManagerOptionsConfigurationBase 
 ```
+<b>Extends:</b> [PackageManagerOptionsConfigurationBase](./rush-lib.packagemanageroptionsconfigurationbase.md)
 
 ## Remarks
 

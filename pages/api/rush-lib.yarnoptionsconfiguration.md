@@ -16,6 +16,7 @@ Options that are only used when the yarn package manager is selected.
 ```typescript
 export declare class YarnOptionsConfiguration extends PackageManagerOptionsConfigurationBase 
 ```
+<b>Extends:</b> [PackageManagerOptionsConfigurationBase](./rush-lib.packagemanageroptionsconfigurationbase.md)
 
 ## Remarks
 

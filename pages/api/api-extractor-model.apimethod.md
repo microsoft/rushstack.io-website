@@ -16,6 +16,7 @@ Represents a TypeScript member function declaration that belongs to an `ApiClass
 ```typescript
 export declare class ApiMethod extends ApiMethod_base 
 ```
+<b>Extends:</b> ApiMethod\_base
 
 ## Remarks
 

@@ -16,6 +16,7 @@ The abstract base class for [ApiProperty](./api-extractor-model.apiproperty.md) 
 ```typescript
 export declare class ApiPropertyItem extends ApiPropertyItem_base 
 ```
+<b>Extends:</b> ApiPropertyItem\_base
 
 ## Constructors
 

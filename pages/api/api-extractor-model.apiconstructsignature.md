@@ -16,6 +16,7 @@ Represents a TypeScript construct signature that belongs to an `ApiInterface`<!-
 ```typescript
 export declare class ApiConstructSignature extends ApiConstructSignature_base 
 ```
+<b>Extends:</b> ApiConstructSignature\_base
 
 ## Remarks
 

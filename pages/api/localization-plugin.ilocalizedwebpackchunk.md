@@ -15,6 +15,7 @@ improve_this_button: false
 ```typescript
 export interface ILocalizedWebpackChunk extends webpack.compilation.Chunk 
 ```
+<b>Extends:</b> webpack.compilation.Chunk
 
 ## Properties
 

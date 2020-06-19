@@ -16,3 +16,5 @@ Constructor options for [ApiPropertySignature](./api-extractor-model.apiproperty
 ```typescript
 export interface IApiPropertySignatureOptions extends IApiPropertyItemOptions 
 ```
+<b>Extends:</b> [IApiPropertyItemOptions](./api-extractor-model.iapipropertyitemoptions.md)
+

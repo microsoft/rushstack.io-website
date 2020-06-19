@@ -16,6 +16,7 @@ Options for JsonFile.saveJsonFile()
 ```typescript
 export interface IJsonFileSaveOptions extends IJsonFileStringifyOptions 
 ```
+<b>Extends:</b> [IJsonFileStringifyOptions](./node-core-library.ijsonfilestringifyoptions.md)
 
 ## Properties
 

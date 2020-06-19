@@ -16,6 +16,7 @@ The data type returned by [CommandLineParameterProvider.defineChoiceParameter()]
 ```typescript
 export declare class CommandLineChoiceParameter extends CommandLineParameter 
 ```
+<b>Extends:</b> [CommandLineParameter](./ts-command-line.commandlineparameter.md)
 
 ## Remarks
 

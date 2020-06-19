@@ -16,6 +16,7 @@ The common base class for parameters types that receive an argument.
 ```typescript
 export declare abstract class CommandLineParameterWithArgument extends CommandLineParameter 
 ```
+<b>Extends:</b> [CommandLineParameter](./ts-command-line.commandlineparameter.md)
 
 ## Remarks
 

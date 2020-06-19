@@ -16,6 +16,7 @@ This class allows a large text string to be constructed incrementally by appendi
 ```typescript
 export declare class StringBuilder implements IStringBuilder 
 ```
+<b>Implements:</b> [IStringBuilder](./node-core-library.istringbuilder.md)
 
 ## Remarks
 

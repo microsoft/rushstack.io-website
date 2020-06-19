@@ -16,6 +16,7 @@ An interface for accessing common fields from a package.json file.
 ```typescript
 export interface IPackageJson extends INodePackageJson 
 ```
+<b>Extends:</b> [INodePackageJson](./node-core-library.inodepackagejson.md)
 
 ## Remarks
 

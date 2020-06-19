@@ -16,6 +16,7 @@ Inherit from this base class to implement an API Documenter plugin feature that 
 ```typescript
 export declare class MarkdownDocumenterFeature extends PluginFeature 
 ```
+<b>Extends:</b> [PluginFeature](./api-documenter.pluginfeature.md)
 
 ## Properties
 

@@ -16,6 +16,7 @@ Represents a TypeScript namespace declaration.
 ```typescript
 export declare class ApiNamespace extends ApiNamespace_base 
 ```
+<b>Extends:</b> ApiNamespace\_base
 
 ## Remarks
 

@@ -16,6 +16,7 @@ Represents a TypeScript property declaration that belongs to an `ApiClass`<!-- -
 ```typescript
 export declare class ApiProperty extends ApiProperty_base 
 ```
+<b>Extends:</b> ApiProperty\_base
 
 ## Remarks
 

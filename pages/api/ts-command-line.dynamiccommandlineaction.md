@@ -15,6 +15,7 @@ improve_this_button: false
 ```typescript
 export declare class DynamicCommandLineAction extends CommandLineAction 
 ```
+<b>Extends:</b> [CommandLineAction](./ts-command-line.commandlineaction.md)
 
 ## Methods
 

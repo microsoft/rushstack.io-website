@@ -16,6 +16,7 @@ For use with [CommandLineParameterProvider.defineIntegerParameter()](./ts-comman
 ```typescript
 export interface ICommandLineIntegerDefinition extends IBaseCommandLineDefinitionWithArgument 
 ```
+<b>Extends:</b> [IBaseCommandLineDefinitionWithArgument](./ts-command-line.ibasecommandlinedefinitionwithargument.md)
 
 ## Properties
 

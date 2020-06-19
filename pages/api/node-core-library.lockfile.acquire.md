@@ -14,16 +14,16 @@ Attempts to create the lockfile. Will continue to loop at every 100ms until the 
 <b>Signature:</b>
 
 ```typescript
-static acquire(resourceDir: string, resourceName: string, maxWaitMs?: number): Promise<LockFile>;
+static acquire(resourceFolder: string, resourceName: string, maxWaitMs?: number): Promise<LockFile>;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  resourceDir | string |  |
-|  resourceName | string |  |
-|  maxWaitMs | number |  |
+|  resourceFolder | string | The folder where the lock file will be created |
+|  resourceName | string | An alphanumeric name that describes the resource being locked. This will become the filename of the temporary file created to manage the lock. |
+|  maxWaitMs | number | The maximum number of milliseconds to wait for the lock before reporting an error |
 
 <b>Returns:</b>
 

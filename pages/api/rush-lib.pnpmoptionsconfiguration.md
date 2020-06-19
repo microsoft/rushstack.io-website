@@ -16,6 +16,7 @@ Options that are only used when the PNPM package manager is selected.
 ```typescript
 export declare class PnpmOptionsConfiguration extends PackageManagerOptionsConfigurationBase 
 ```
+<b>Extends:</b> [PackageManagerOptionsConfigurationBase](./rush-lib.packagemanageroptionsconfigurationbase.md)
 
 ## Remarks
 

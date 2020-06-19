@@ -16,6 +16,7 @@ For use with [CommandLineParameterProvider.defineStringParameter()](./ts-command
 ```typescript
 export interface ICommandLineStringDefinition extends IBaseCommandLineDefinitionWithArgument 
 ```
+<b>Extends:</b> [IBaseCommandLineDefinitionWithArgument](./ts-command-line.ibasecommandlinedefinitionwithargument.md)
 
 ## Properties
 
