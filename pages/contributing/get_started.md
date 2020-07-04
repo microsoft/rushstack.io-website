@@ -11,8 +11,8 @@ The Rush Stack projects are all developed in the **rushstack** monorepo on GitHu
 For documentation fixes, each website has its own GitHub repo:
 
 - Rush Stack website: [https://github.com/microsoft/rushstack.io-website](https://github.com/microsoft/rushstack.io-website)
-- Rush website: [https://github.com/microsoft/rushjs.io-website](https://github.com/microsoft/rushjs.io-website)
-- API Extractor website: [https://github.com/microsoft/api-extractor.com-website](https://github.com/microsoft/api-extractor.com-website)
+- [Rush](https://rushjs.io/) website: [https://github.com/microsoft/rushjs.io-website](https://github.com/microsoft/rushjs.io-website)
+- [API Extractor](https://api-extractor.com/) website: [https://github.com/microsoft/api-extractor.com-website](https://github.com/microsoft/api-extractor.com-website)
 
 
 ## Setting up your machine
