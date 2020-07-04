@@ -4,14 +4,20 @@ title: Getting Started
 navigation_source: docs_nav
 ---
 
-The Rush Stack projects are developed in the **rushstack** monorepo on GitHub:
+The Rush Stack projects are all developed in the **rushstack** monorepo on GitHub:
 
-  [https://github.com/microsoft/rushstack](https://github.com/microsoft/rushstack)
+&nbsp;&nbsp;&nbsp;&nbsp; [https://github.com/microsoft/rushstack](https://github.com/microsoft/rushstack)
+
+For documentation fixes, each website has its own GitHub repo:
+
+- Rush Stack website: [https://github.com/microsoft/rushstack.io-website](https://github.com/microsoft/rushstack.io-website)
+- Rush website: [https://github.com/microsoft/rushjs.io-website](https://github.com/microsoft/rushjs.io-website)
+- API Extractor website: [https://github.com/microsoft/api-extractor.com-website](https://github.com/microsoft/api-extractor.com-website)
 
 
 ## Setting up your machine
 
-- **NodeJS 8 or newer**: We recommend to use [nvm](https://github.com/creationix/nvm) (for Mac/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows) (for Windows) so that you can easily switch between different NodeJS engine verisons.  When installing NodeJS, make sure to first uninstall any previous versions and clean up their files.  See [FAQ: After installing Rush, why am I stilling see the old version?](https://github.com/Microsoft/rushstack/wiki/Rush-~-FAQ#after-installing-rush-why-am-i-stilling-see-the-old-version) for more about this.
+- **Node.js 12**: We recommend to use [nvm](https://github.com/creationix/nvm) (for Mac/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows) (for Windows) so that you can easily switch between different Node.js engine verisons.  When installing Node.js, make sure to first uninstall any previous versions and clean up their files.  See [FAQ: After installing Rush, why am I stilling see the old version?](https://github.com/Microsoft/rushstack/wiki/Rush-~-FAQ#after-installing-rush-why-am-i-stilling-see-the-old-version) for more about this.
 
 - **Visual Studio Code** (recommended):  You can use any editor, but we suggest [VS Code](https://code.visualstudio.com).  It's great!
 
