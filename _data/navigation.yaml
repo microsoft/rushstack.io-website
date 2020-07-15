@@ -23,6 +23,11 @@ docs_nav:
       - title: Project roadmap
         url: /pages/overview/roadmap
 
+  - title: Heft
+    subitems:
+      - title: Overview
+        url: /pages/heft/overview
+
   - title: Contributing
     subitems:
       - title: Getting Started
