@@ -4,9 +4,9 @@ title:
 navigation_source: docs_nav
 ---
 
-<img src="{{ site.baseurl }}/images/heft-300x120.png" alt="heft" title="heft" style="width: 300px;"/>
+🚨 *This is an early preview release. Please report issues!* 🚨
 
-🚨 *The Heft project is still in early preview. Please report any issues you encounter.* 🚨
+<img src="{{ site.baseurl }}/images/heft-300x120.png" alt="heft" title="heft" style="width: 300px;"/>
 
 Heft is an extensible build system designed for use with the [Rush Stack](https://rushstack.io/) family of tools.
 You don't need a monorepo to use Heft, though.  It also works well for small standalone projects.  Compared to
@@ -34,9 +34,9 @@ other similar systems, Heft has some unique design goals:
   Working from a more standardized foundation makes custom rigs more understandable for newcomers.
 
 - **Optimized**: Heft tracks fine-grained performance metrics at each step.  Although Heft is still in its
-  early stages, it already implements optimizations such as: incremental compilation, symlinking of cache files
-  to avoid copying, reuse of compiler state across multiple emit targets, and a single compiler pass for
-  Jest and Webpack.
+  early stages, the TypeScript plugin already implements optimizations such as: filesystem caching,
+  incremental compilation, symlinking of cache files to avoid copying, hosting the compiler in a separate
+  worker process, and a single compiler pass for Jest and Webpack.
 
 
 ## How do I use it?
@@ -44,7 +44,7 @@ other similar systems, Heft has some unique design goals:
 Heft is still under active development; more documentation will be coming soon.  In the meantime, here are
 a couple test projects that illustrate Heft setups:
 
-- [heft-test-01](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-test-01): A basic Node.js
+- [heft-node-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-node-test): A basic Node.js
   application with Jest and API Extractor
-- [heft-test-webpack](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-test-webpack): A basic
+- [heft-webpack-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-webpack-test): A basic
   web application bundled using Webpack
