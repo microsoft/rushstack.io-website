@@ -26,8 +26,10 @@ export declare const enum ConsoleMessageId
 |  ApiReportFolderMissing | <code>&quot;console-api-report-folder-missing&quot;</code> | "Unable to create the API report file. Please make sure the target folder exists: \_\_\_" |
 |  ApiReportNotCopied | <code>&quot;console-api-report-not-copied&quot;</code> | "You have changed the public API signature for this project. Please copy the file \_\_\_ to \_\_\_, or perform a local build (which does this automatically). See the Git repo documentation for more info."<!-- -->OR<!-- -->"The API report file is missing. Please copy the file \_\_\_ to \_\_\_, or perform a local build (which does this automatically). See the Git repo documentation for more info." |
 |  ApiReportUnchanged | <code>&quot;console-api-report-unchanged&quot;</code> | "The API report is up to date: \_\_\_" |
+|  CompilerVersionNotice | <code>&quot;console-compiler-version-notice&quot;</code> | "The target project appears to use TypeScript \_\_\_ which is newer than the bundled compiler engine; consider upgrading API Extractor." |
 |  Diagnostics | <code>&quot;console-diagnostics&quot;</code> | Used for the information printed when the "--diagnostics" flag is enabled. |
 |  FoundTSDocMetadata | <code>&quot;console-found-tsdoc-metadata&quot;</code> | "Found metadata in \_\_\_" |
+|  Preamble | <code>&quot;console-preamble&quot;</code> | "Analysis will use the bundled TypeScript version \_\_\_" |
 |  WritingDocModelFile | <code>&quot;console-writing-doc-model-file&quot;</code> | "Writing: \_\_\_" |
 |  WritingDtsRollup | <code>&quot;console-writing-dts-rollup&quot;</code> | "Writing package typings: \_\_\_" |
 

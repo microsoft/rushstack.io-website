@@ -32,6 +32,7 @@ export declare class CommonVersionsConfiguration
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [getAllPreferredVersions()](./rush-lib.commonversionsconfiguration.getallpreferredversions.md) |  | Returns the union of preferredVersions and xstitchPreferredVersions. |
+|  [getPreferredVersionsHash()](./rush-lib.commonversionsconfiguration.getpreferredversionshash.md) |  | Get a sha1 hash of the preferred versions. |
 |  [loadFromFile(jsonFilename)](./rush-lib.commonversionsconfiguration.loadfromfile.md) | <code>static</code> | Loads the common-versions.json data from the specified file path. If the file has not been created yet, then an empty object is returned. |
 |  [save()](./rush-lib.commonversionsconfiguration.save.md) |  | Writes the "common-versions.json" file to disk, using the filename that was passed to loadFromFile(). |
 

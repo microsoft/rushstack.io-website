@@ -33,4 +33,5 @@ The constructor for this class is marked as internal. Third-party code should no
 |  [preventManualShrinkwrapChanges](./rush-lib.pnpmoptionsconfiguration.preventmanualshrinkwrapchanges.md) |  | boolean | If true, then <code>rush install</code> will report an error if manual modifications were made to the PNPM shrinkwrap file without running <code>rush update</code> afterwards. |
 |  [resolutionStrategy](./rush-lib.pnpmoptionsconfiguration.resolutionstrategy.md) |  | [ResolutionStrategy](./rush-lib.resolutionstrategy.md) | The resolution strategy that will be used by PNPM. |
 |  [strictPeerDependencies](./rush-lib.pnpmoptionsconfiguration.strictpeerdependencies.md) |  | boolean | If true, then Rush will add the "--strict-peer-dependencies" option when invoking PNPM. |
+|  [useWorkspaces](./rush-lib.pnpmoptionsconfiguration.useworkspaces.md) |  | boolean | If true, then Rush will use the workspaces feature to install and link packages when invoking PNPM. |
 

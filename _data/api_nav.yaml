@@ -1120,6 +1120,8 @@ api_nav:
             url: /pages/api/rush-lib.commonversionsconfiguration.filepath
           - title: getAllPreferredVersions
             url: /pages/api/rush-lib.commonversionsconfiguration.getallpreferredversions
+          - title: getPreferredVersionsHash
+            url: /pages/api/rush-lib.commonversionsconfiguration.getpreferredversionshash
           - title: implicitlyPreferredVersions
             url: /pages/api/rush-lib.commonversionsconfiguration.implicitlypreferredversions
           - title: loadFromFile
@@ -1282,8 +1284,23 @@ api_nav:
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.resolutionstrategy
           - title: strictPeerDependencies
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.strictpeerdependencies
+          - title: useWorkspaces
+            url: /pages/api/rush-lib.pnpmoptionsconfiguration.useworkspaces
       - title: PnpmStoreOptions
         url: /pages/api/rush-lib.pnpmstoreoptions
+      - title: RepoStateFile
+        url: /pages/api/rush-lib.repostatefile
+        subitems:
+          - title: filePath
+            url: /pages/api/rush-lib.repostatefile.filepath
+          - title: loadFromFile
+            url: /pages/api/rush-lib.repostatefile.loadfromfile
+          - title: pnpmShrinkwrapHash
+            url: /pages/api/rush-lib.repostatefile.pnpmshrinkwraphash
+          - title: preferredVersionsHash
+            url: /pages/api/rush-lib.repostatefile.preferredversionshash
+          - title: refreshState
+            url: /pages/api/rush-lib.repostatefile.refreshstate
       - title: ResolutionStrategy
         url: /pages/api/rush-lib.resolutionstrategy
       - title: Rush
@@ -1306,6 +1323,8 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.changesfolder
           - title: committedShrinkwrapFilename
             url: /pages/api/rush-lib.rushconfiguration.committedshrinkwrapfilename
+          - title: commonAutoinstallersFolder
+            url: /pages/api/rush-lib.rushconfiguration.commonautoinstallersfolder
           - title: commonFolder
             url: /pages/api/rush-lib.rushconfiguration.commonfolder
           - title: commonRushConfigFolder
@@ -1340,6 +1359,10 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.getpnpmfilepath
           - title: getProjectByName
             url: /pages/api/rush-lib.rushconfiguration.getprojectbyname
+          - title: getRepoState
+            url: /pages/api/rush-lib.rushconfiguration.getrepostate
+          - title: getRepoStateFilePath
+            url: /pages/api/rush-lib.rushconfiguration.getrepostatefilepath
           - title: gitAllowedEmailRegExps
             url: /pages/api/rush-lib.rushconfiguration.gitallowedemailregexps
           - title: gitSampleEmail
@@ -1524,6 +1547,288 @@ api_nav:
             url: /pages/api/debug-certificate-manager.icertificate.pemcertificate
           - title: pemKey
             url: /pages/api/debug-certificate-manager.icertificate.pemkey
+  - title: '@rushstack/heft'
+    url: /pages/api/heft
+    subitems:
+      - title: ActionHooksBase
+        url: /pages/api/heft.actionhooksbase
+        subitems:
+          - title: afterLoadActionConfiguration
+            url: /pages/api/heft.actionhooksbase.afterloadactionconfiguration
+          - title: loadActionConfiguration
+            url: /pages/api/heft.actionhooksbase.loadactionconfiguration
+          - title: overrideAction
+            url: /pages/api/heft.actionhooksbase.overrideaction
+      - title: BuildHooks
+        url: /pages/api/heft.buildhooks
+        subitems:
+          - title: bundle
+            url: /pages/api/heft.buildhooks.bundle
+          - title: compile
+            url: /pages/api/heft.buildhooks.compile
+          - title: postBuild
+            url: /pages/api/heft.buildhooks.postbuild
+          - title: preCompile
+            url: /pages/api/heft.buildhooks.precompile
+      - title: BuildStageHooksBase
+        url: /pages/api/heft.buildstagehooksbase
+        subitems:
+          - title: run
+            url: /pages/api/heft.buildstagehooksbase.run
+      - title: BundleStageHooks
+        url: /pages/api/heft.bundlestagehooks
+        subitems:
+          - title: afterConfigureWebpack
+            url: /pages/api/heft.bundlestagehooks.afterconfigurewebpack
+          - title: configureWebpack
+            url: /pages/api/heft.bundlestagehooks.configurewebpack
+      - title: CleanHooks
+        url: /pages/api/heft.cleanhooks
+        subitems:
+          - title: deletePath
+            url: /pages/api/heft.cleanhooks.deletepath
+      - title: CompileStageHooks
+        url: /pages/api/heft.compilestagehooks
+        subitems:
+          - title: afterConfigureCopyStaticAssets
+            url: /pages/api/heft.compilestagehooks.afterconfigurecopystaticassets
+          - title: afterConfigureTypeScript
+            url: /pages/api/heft.compilestagehooks.afterconfiguretypescript
+          - title: configureCopyStaticAssets
+            url: /pages/api/heft.compilestagehooks.configurecopystaticassets
+          - title: configureTypeScript
+            url: /pages/api/heft.compilestagehooks.configuretypescript
+      - title: CopyFromCacheMode
+        url: /pages/api/heft.copyfromcachemode
+      - title: DevDeployHooks
+        url: /pages/api/heft.devdeployhooks
+      - title: HeftConfiguration
+        url: /pages/api/heft.heftconfiguration
+        subitems:
+          - title: buildCacheFolder
+            url: /pages/api/heft.heftconfiguration.buildcachefolder
+          - title: buildFolder
+            url: /pages/api/heft.heftconfiguration.buildfolder
+          - title: compilerPackage
+            url: /pages/api/heft.heftconfiguration.compilerpackage
+          - title: heftPackageJson
+            url: /pages/api/heft.heftconfiguration.heftpackagejson
+          - title: projectHeftDataFolder
+            url: /pages/api/heft.heftconfiguration.projectheftdatafolder
+          - title: projectPackageJson
+            url: /pages/api/heft.heftconfiguration.projectpackagejson
+          - title: terminal
+            url: /pages/api/heft.heftconfiguration.terminal
+          - title: terminalProvider
+            url: /pages/api/heft.heftconfiguration.terminalprovider
+      - title: HeftSession
+        url: /pages/api/heft.heftsession
+        subitems:
+          - title: debugMode
+            url: /pages/api/heft.heftsession.debugmode
+          - title: hooks
+            url: /pages/api/heft.heftsession.hooks
+      - title: IActionContext
+        url: /pages/api/heft.iactioncontext
+        subitems:
+          - title: hooks
+            url: /pages/api/heft.iactioncontext.hooks
+          - title: properties
+            url: /pages/api/heft.iactioncontext.properties
+      - title: IBuildActionContext
+        url: /pages/api/heft.ibuildactioncontext
+      - title: IBuildActionProperties
+        url: /pages/api/heft.ibuildactionproperties
+        subitems:
+          - title: cleanFlag
+            url: /pages/api/heft.ibuildactionproperties.cleanflag
+          - title: liteFlag
+            url: /pages/api/heft.ibuildactionproperties.liteflag
+          - title: locale
+            url: /pages/api/heft.ibuildactionproperties.locale
+          - title: maxOldSpaceSize
+            url: /pages/api/heft.ibuildactionproperties.maxoldspacesize
+          - title: noTest
+            url: /pages/api/heft.ibuildactionproperties.notest
+          - title: productionFlag
+            url: /pages/api/heft.ibuildactionproperties.productionflag
+          - title: verboseFlag
+            url: /pages/api/heft.ibuildactionproperties.verboseflag
+          - title: watchMode
+            url: /pages/api/heft.ibuildactionproperties.watchmode
+          - title: webpackStats
+            url: /pages/api/heft.ibuildactionproperties.webpackstats
+      - title: IBuildStage
+        url: /pages/api/heft.ibuildstage
+        subitems:
+          - title: hooks
+            url: /pages/api/heft.ibuildstage.hooks
+          - title: properties
+            url: /pages/api/heft.ibuildstage.properties
+      - title: IBundleStage
+        url: /pages/api/heft.ibundlestage
+      - title: IBundleStageProperties
+        url: /pages/api/heft.ibundlestageproperties
+        subitems:
+          - title: webpackConfigFilePath
+            url: /pages/api/heft.ibundlestageproperties.webpackconfigfilepath
+          - title: webpackConfiguration
+            url: /pages/api/heft.ibundlestageproperties.webpackconfiguration
+      - title: ICleanActionContext
+        url: /pages/api/heft.icleanactioncontext
+      - title: ICleanActionProperties
+        url: /pages/api/heft.icleanactionproperties
+        subitems:
+          - title: deleteCache
+            url: /pages/api/heft.icleanactionproperties.deletecache
+          - title: pathsToDelete
+            url: /pages/api/heft.icleanactionproperties.pathstodelete
+      - title: ICompilerPackage
+        url: /pages/api/heft.icompilerpackage
+        subitems:
+          - title: apiExtractorPackagePath
+            url: /pages/api/heft.icompilerpackage.apiextractorpackagepath
+          - title: eslintPackagePath
+            url: /pages/api/heft.icompilerpackage.eslintpackagepath
+          - title: tslintPackagePath
+            url: /pages/api/heft.icompilerpackage.tslintpackagepath
+          - title: typeScriptPackagePath
+            url: /pages/api/heft.icompilerpackage.typescriptpackagepath
+      - title: ICompileStage
+        url: /pages/api/heft.icompilestage
+      - title: ICompileStageProperties
+        url: /pages/api/heft.icompilestageproperties
+        subitems:
+          - title: copyStaticAssetsConfiguration
+            url: /pages/api/heft.icompilestageproperties.copystaticassetsconfiguration
+          - title: typeScriptConfiguration
+            url: /pages/api/heft.icompilestageproperties.typescriptconfiguration
+      - title: ICopyStaticAssetsConfiguration
+        url: /pages/api/heft.icopystaticassetsconfiguration
+        subitems:
+          - title: destinationFolderNames
+            url: /pages/api/heft.icopystaticassetsconfiguration.destinationfoldernames
+          - title: sourceFolderName
+            url: /pages/api/heft.icopystaticassetsconfiguration.sourcefoldername
+      - title: IDevDeployActionContext
+        url: /pages/api/heft.idevdeployactioncontext
+      - title: IDevDeployActionProperties
+        url: /pages/api/heft.idevdeployactionproperties
+      - title: IEmitModuleKind
+        url: /pages/api/heft.iemitmodulekind
+      - title: IEmitModuleKindBase
+        url: /pages/api/heft.iemitmodulekindbase
+        subitems:
+          - title: moduleKind
+            url: /pages/api/heft.iemitmodulekindbase.modulekind
+          - title: outFolderPath
+            url: /pages/api/heft.iemitmodulekindbase.outfolderpath
+      - title: IHeftActionConfiguration
+        url: /pages/api/heft.iheftactionconfiguration
+      - title: IHeftActionConfigurationOptions
+        url: /pages/api/heft.iheftactionconfigurationoptions
+        subitems:
+          - title: mergeArrays
+            url: /pages/api/heft.iheftactionconfigurationoptions.mergearrays
+      - title: IHeftPlugin
+        url: /pages/api/heft.iheftplugin
+        subitems:
+          - title: apply
+            url: /pages/api/heft.iheftplugin.apply
+          - title: displayName
+            url: /pages/api/heft.iheftplugin.displayname
+      - title: IHeftSessionHooks
+        url: /pages/api/heft.iheftsessionhooks
+        subitems:
+          - title: build
+            url: /pages/api/heft.iheftsessionhooks.build
+          - title: clean
+            url: /pages/api/heft.iheftsessionhooks.clean
+          - title: devDeploy
+            url: /pages/api/heft.iheftsessionhooks.devdeploy
+          - title: metricsCollector
+            url: /pages/api/heft.iheftsessionhooks.metricscollector
+          - title: start
+            url: /pages/api/heft.iheftsessionhooks.start
+          - title: test
+            url: /pages/api/heft.iheftsessionhooks.test
+      - title: IMetricsData
+        url: /pages/api/heft.imetricsdata
+        subitems:
+          - title: command
+            url: /pages/api/heft.imetricsdata.command
+          - title: machineArch
+            url: /pages/api/heft.imetricsdata.machinearch
+          - title: machineCores
+            url: /pages/api/heft.imetricsdata.machinecores
+          - title: machineOs
+            url: /pages/api/heft.imetricsdata.machineos
+          - title: machineProcessor
+            url: /pages/api/heft.imetricsdata.machineprocessor
+          - title: machineTotalMemoryMB
+            url: /pages/api/heft.imetricsdata.machinetotalmemorymb
+          - title: taskTotalExecutionMs
+            url: /pages/api/heft.imetricsdata.tasktotalexecutionms
+      - title: IPostBuildStage
+        url: /pages/api/heft.ipostbuildstage
+      - title: IPreCompileStage
+        url: /pages/api/heft.iprecompilestage
+      - title: ISharedCopyStaticAssetsConfiguration
+        url: /pages/api/heft.isharedcopystaticassetsconfiguration
+        subitems:
+          - title: excludeGlobs
+            url: /pages/api/heft.isharedcopystaticassetsconfiguration.excludeglobs
+          - title: fileExtensions
+            url: /pages/api/heft.isharedcopystaticassetsconfiguration.fileextensions
+          - title: includeGlobs
+            url: /pages/api/heft.isharedcopystaticassetsconfiguration.includeglobs
+      - title: ISharedTypeScriptConfiguration
+        url: /pages/api/heft.isharedtypescriptconfiguration
+        subitems:
+          - title: additionalModuleKindsToEmit
+            url: /pages/api/heft.isharedtypescriptconfiguration.additionalmodulekindstoemit
+          - title: copyFromCacheMode
+            url: /pages/api/heft.isharedtypescriptconfiguration.copyfromcachemode
+          - title: maxWriteParallelism
+            url: /pages/api/heft.isharedtypescriptconfiguration.maxwriteparallelism
+      - title: IStartActionContext
+        url: /pages/api/heft.istartactioncontext
+      - title: IStartActionProperties
+        url: /pages/api/heft.istartactionproperties
+      - title: ITestActionContext
+        url: /pages/api/heft.itestactioncontext
+      - title: ITestActionProperties
+        url: /pages/api/heft.itestactionproperties
+        subitems:
+          - title: productionFlag
+            url: /pages/api/heft.itestactionproperties.productionflag
+          - title: watchMode
+            url: /pages/api/heft.itestactionproperties.watchmode
+      - title: ITypeScriptConfiguration
+        url: /pages/api/heft.itypescriptconfiguration
+        subitems:
+          - title: isLintingEnabled
+            url: /pages/api/heft.itypescriptconfiguration.islintingenabled
+          - title: tsconfigPaths
+            url: /pages/api/heft.itypescriptconfiguration.tsconfigpaths
+      - title: MetricsCollectorHooks
+        url: /pages/api/heft.metricscollectorhooks
+        subitems:
+          - title: flush
+            url: /pages/api/heft.metricscollectorhooks.flush
+          - title: flushAndTeardown
+            url: /pages/api/heft.metricscollectorhooks.flushandteardown
+          - title: recordMetric
+            url: /pages/api/heft.metricscollectorhooks.recordmetric
+      - title: StartHooks
+        url: /pages/api/heft.starthooks
+      - title: TestHooks
+        url: /pages/api/heft.testhooks
+        subitems:
+          - title: configureTest
+            url: /pages/api/heft.testhooks.configuretest
+          - title: run
+            url: /pages/api/heft.testhooks.run
   - title: '@rushstack/localization-plugin'
     url: /pages/api/localization-plugin
     subitems:
@@ -1663,6 +1968,194 @@ api_nav:
         subitems:
           - title: (constructor)
             url: /pages/api/localization-plugin.typingsgenerator._constructor_
+  - title: '@rushstack/module-minifier-plugin'
+    url: /pages/api/module-minifier-plugin
+    subitems:
+      - title: CHUNK_MODULES_TOKEN
+        url: /pages/api/module-minifier-plugin.chunk_modules_token
+      - title: generateLicenseFileForAsset
+        url: /pages/api/module-minifier-plugin.generatelicensefileforasset
+      - title: IAssetInfo
+        url: /pages/api/module-minifier-plugin.iassetinfo
+        subitems:
+          - title: chunk
+            url: /pages/api/module-minifier-plugin.iassetinfo.chunk
+          - title: extractedComments
+            url: /pages/api/module-minifier-plugin.iassetinfo.extractedcomments
+          - title: fileName
+            url: /pages/api/module-minifier-plugin.iassetinfo.filename
+          - title: modules
+            url: /pages/api/module-minifier-plugin.iassetinfo.modules
+          - title: source
+            url: /pages/api/module-minifier-plugin.iassetinfo.source
+      - title: IAssetMap
+        url: /pages/api/module-minifier-plugin.iassetmap
+      - title: IDehydratedAssets
+        url: /pages/api/module-minifier-plugin.idehydratedassets
+        subitems:
+          - title: assets
+            url: /pages/api/module-minifier-plugin.idehydratedassets.assets
+          - title: modules
+            url: /pages/api/module-minifier-plugin.idehydratedassets.modules
+      - title: IDENTIFIER_LEADING_DIGITS
+        url: /pages/api/module-minifier-plugin.identifier_leading_digits
+      - title: IDENTIFIER_TRAILING_DIGITS
+        url: /pages/api/module-minifier-plugin.identifier_trailing_digits
+      - title: IExtendedModule
+        url: /pages/api/module-minifier-plugin.iextendedmodule
+        subitems:
+          - title: id
+            url: /pages/api/module-minifier-plugin.iextendedmodule.id
+          - title: identifier
+            url: /pages/api/module-minifier-plugin.iextendedmodule.identifier
+          - title: readableIdentifier
+            url: /pages/api/module-minifier-plugin.iextendedmodule.readableidentifier
+          - title: resource
+            url: /pages/api/module-minifier-plugin.iextendedmodule.resource
+          - title: skipMinification
+            url: /pages/api/module-minifier-plugin.iextendedmodule.skipminification
+      - title: IModuleInfo
+        url: /pages/api/module-minifier-plugin.imoduleinfo
+        subitems:
+          - title: extractedComments
+            url: /pages/api/module-minifier-plugin.imoduleinfo.extractedcomments
+          - title: module
+            url: /pages/api/module-minifier-plugin.imoduleinfo.module
+          - title: source
+            url: /pages/api/module-minifier-plugin.imoduleinfo.source
+      - title: IModuleMap
+        url: /pages/api/module-minifier-plugin.imodulemap
+      - title: IModuleMinificationCallback
+        url: /pages/api/module-minifier-plugin.imoduleminificationcallback
+      - title: IModuleMinificationErrorResult
+        url: /pages/api/module-minifier-plugin.imoduleminificationerrorresult
+        subitems:
+          - title: code
+            url: /pages/api/module-minifier-plugin.imoduleminificationerrorresult.code
+          - title: error
+            url: /pages/api/module-minifier-plugin.imoduleminificationerrorresult.error
+          - title: extractedComments
+            url: /pages/api/module-minifier-plugin.imoduleminificationerrorresult.extractedcomments
+          - title: hash
+            url: /pages/api/module-minifier-plugin.imoduleminificationerrorresult.hash
+          - title: map
+            url: /pages/api/module-minifier-plugin.imoduleminificationerrorresult.map
+      - title: IModuleMinificationRequest
+        url: /pages/api/module-minifier-plugin.imoduleminificationrequest
+        subitems:
+          - title: code
+            url: /pages/api/module-minifier-plugin.imoduleminificationrequest.code
+          - title: hash
+            url: /pages/api/module-minifier-plugin.imoduleminificationrequest.hash
+          - title: nameForMap
+            url: /pages/api/module-minifier-plugin.imoduleminificationrequest.nameformap
+      - title: IModuleMinificationResult
+        url: /pages/api/module-minifier-plugin.imoduleminificationresult
+      - title: IModuleMinificationSuccessResult
+        url: /pages/api/module-minifier-plugin.imoduleminificationsuccessresult
+        subitems:
+          - title: code
+            url: /pages/api/module-minifier-plugin.imoduleminificationsuccessresult.code
+          - title: error
+            url: /pages/api/module-minifier-plugin.imoduleminificationsuccessresult.error
+          - title: extractedComments
+            url: /pages/api/module-minifier-plugin.imoduleminificationsuccessresult.extractedcomments
+          - title: hash
+            url: /pages/api/module-minifier-plugin.imoduleminificationsuccessresult.hash
+          - title: map
+            url: /pages/api/module-minifier-plugin.imoduleminificationsuccessresult.map
+      - title: IModuleMinifier
+        url: /pages/api/module-minifier-plugin.imoduleminifier
+        subitems:
+          - title: minify
+            url: /pages/api/module-minifier-plugin.imoduleminifier.minify
+          - title: ref
+            url: /pages/api/module-minifier-plugin.imoduleminifier.ref
+      - title: IModuleMinifierFunction
+        url: /pages/api/module-minifier-plugin.imoduleminifierfunction
+      - title: IModuleMinifierPluginHooks
+        url: /pages/api/module-minifier-plugin.imoduleminifierpluginhooks
+        subitems:
+          - title: finalModuleId
+            url: /pages/api/module-minifier-plugin.imoduleminifierpluginhooks.finalmoduleid
+          - title: postProcessCodeFragment
+            url: /pages/api/module-minifier-plugin.imoduleminifierpluginhooks.postprocesscodefragment
+          - title: rehydrateAssets
+            url: /pages/api/module-minifier-plugin.imoduleminifierpluginhooks.rehydrateassets
+      - title: IModuleMinifierPluginOptions
+        url: /pages/api/module-minifier-plugin.imoduleminifierpluginoptions
+        subitems:
+          - title: minifier
+            url: /pages/api/module-minifier-plugin.imoduleminifierpluginoptions.minifier
+          - title: sourceMap
+            url: /pages/api/module-minifier-plugin.imoduleminifierpluginoptions.sourcemap
+          - title: usePortableModules
+            url: /pages/api/module-minifier-plugin.imoduleminifierpluginoptions.useportablemodules
+      - title: ISynchronousMinifierOptions
+        url: /pages/api/module-minifier-plugin.isynchronousminifieroptions
+        subitems:
+          - title: terserOptions
+            url: /pages/api/module-minifier-plugin.isynchronousminifieroptions.terseroptions
+      - title: IWorkerPoolMinifierOptions
+        url: /pages/api/module-minifier-plugin.iworkerpoolminifieroptions
+        subitems:
+          - title: maxThreads
+            url: /pages/api/module-minifier-plugin.iworkerpoolminifieroptions.maxthreads
+          - title: terserOptions
+            url: /pages/api/module-minifier-plugin.iworkerpoolminifieroptions.terseroptions
+      - title: MODULE_WRAPPER_PREFIX
+        url: /pages/api/module-minifier-plugin.module_wrapper_prefix
+      - title: MODULE_WRAPPER_SUFFIX
+        url: /pages/api/module-minifier-plugin.module_wrapper_suffix
+      - title: ModuleMinifierPlugin
+        url: /pages/api/module-minifier-plugin.moduleminifierplugin
+        subitems:
+          - title: (constructor)
+            url: /pages/api/module-minifier-plugin.moduleminifierplugin._constructor_
+          - title: apply
+            url: /pages/api/module-minifier-plugin.moduleminifierplugin.apply
+          - title: hooks
+            url: /pages/api/module-minifier-plugin.moduleminifierplugin.hooks
+          - title: minifier
+            url: /pages/api/module-minifier-plugin.moduleminifierplugin.minifier
+      - title: NoopMinifier
+        url: /pages/api/module-minifier-plugin.noopminifier
+        subitems:
+          - title: minify
+            url: /pages/api/module-minifier-plugin.noopminifier.minify
+      - title: PortableMinifierModuleIdsPlugin
+        url: /pages/api/module-minifier-plugin.portableminifiermoduleidsplugin
+        subitems:
+          - title: (constructor)
+            url: /pages/api/module-minifier-plugin.portableminifiermoduleidsplugin._constructor_
+          - title: apply
+            url: /pages/api/module-minifier-plugin.portableminifiermoduleidsplugin.apply
+      - title: rehydrateAsset
+        url: /pages/api/module-minifier-plugin.rehydrateasset
+      - title: STAGE_AFTER
+        url: /pages/api/module-minifier-plugin.stage_after
+      - title: STAGE_BEFORE
+        url: /pages/api/module-minifier-plugin.stage_before
+      - title: SynchronousMinifier
+        url: /pages/api/module-minifier-plugin.synchronousminifier
+        subitems:
+          - title: (constructor)
+            url: /pages/api/module-minifier-plugin.synchronousminifier._constructor_
+          - title: minify
+            url: /pages/api/module-minifier-plugin.synchronousminifier.minify
+          - title: terserOptions
+            url: /pages/api/module-minifier-plugin.synchronousminifier.terseroptions
+      - title: WorkerPoolMinifier
+        url: /pages/api/module-minifier-plugin.workerpoolminifier
+        subitems:
+          - title: (constructor)
+            url: /pages/api/module-minifier-plugin.workerpoolminifier._constructor_
+          - title: maxThreads
+            url: /pages/api/module-minifier-plugin.workerpoolminifier.maxthreads
+          - title: minify
+            url: /pages/api/module-minifier-plugin.workerpoolminifier.minify
+          - title: ref
+            url: /pages/api/module-minifier-plugin.workerpoolminifier.ref
   - title: '@rushstack/node-core-library'
     url: /pages/api/node-core-library
     subitems:
@@ -2216,6 +2709,8 @@ api_nav:
         subitems:
           - title: mergeFromMap
             url: /pages/api/node-core-library.mapextensions.mergefrommap
+          - title: toObject
+            url: /pages/api/node-core-library.mapextensions.toobject
       - title: NewlineKind
         url: /pages/api/node-core-library.newlinekind
       - title: PackageJsonLookup

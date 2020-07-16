@@ -19,7 +19,7 @@ readonly preventManualShrinkwrapChanges: boolean;
 
 ## Remarks
 
-This feature protects against accidental inconsistencies that may be introduced if the PNPM shrinkwrap file (`pnpm-lock.yaml`<!-- -->) is manually edited. When this feature is enabled, `rush update` will append a hash to the file as a YAML comment, and then `rush update` and `rush install` will validate the hash. Note that this does not prohibit manual modifications, but merely requires `rush update` be run afterwards, ensuring that PNPM can report or repair any potential inconsistencies.
+This feature protects against accidental inconsistencies that may be introduced if the PNPM shrinkwrap file (`pnpm-lock.yaml`<!-- -->) is manually edited. When this feature is enabled, `rush update` will write a hash of the shrinkwrap contents to repo-state.json, and then `rush update` and `rush install` will validate the hash. Note that this does not prohibit manual modifications, but merely requires `rush update` be run afterwards, ensuring that PNPM can report or repair any potential inconsistencies.
 
 To temporarily disable this validation when invoking `rush install`<!-- -->, use the `--bypass-policy` command-line parameter.
 

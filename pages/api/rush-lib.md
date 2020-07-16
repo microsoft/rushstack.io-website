@@ -30,6 +30,7 @@ A library for writing scripts that interact with the [Rush](https://rushjs.io/) 
 |  [PackageManager](./rush-lib.packagemanager.md) | <b><i>(BETA)</i></b> An abstraction for controlling the supported package managers: PNPM, NPM, and Yarn. |
 |  [PackageManagerOptionsConfigurationBase](./rush-lib.packagemanageroptionsconfigurationbase.md) | Options that all package managers share. |
 |  [PnpmOptionsConfiguration](./rush-lib.pnpmoptionsconfiguration.md) | Options that are only used when the PNPM package manager is selected. |
+|  [RepoStateFile](./rush-lib.repostatefile.md) | This file is used to track the state of various Rush-related features. It is generated and updated by Rush. |
 |  [Rush](./rush-lib.rush.md) | General operations for the Rush engine. |
 |  [RushConfiguration](./rush-lib.rushconfiguration.md) | This represents the Rush configuration for a repository, based on the "rush.json" configuration file. |
 |  [RushConfigurationProject](./rush-lib.rushconfigurationproject.md) | This represents the configuration of a project that is built by Rush, based on the Rush.json configuration file. |

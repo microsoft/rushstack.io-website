@@ -22,4 +22,5 @@ export declare class MapExtensions
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [mergeFromMap(targetMap, sourceMap)](./node-core-library.mapextensions.mergefrommap.md) | <code>static</code> | Adds all the (key, value) pairs from the source map into the target map. |
+|  [toObject(map)](./node-core-library.mapextensions.toobject.md) | <code>static</code> | Converts a string-keyed map to an object. |
 
