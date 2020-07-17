@@ -29,12 +29,12 @@ docs_nav:
         url: /pages/heft/overview
       - title: Architecture
         url: /pages/heft/architecture
-      - title: Core Plugins
+      - title: Core plugins
         url: /pages/heft/core_plugins
-      - title: Heft Command Line
+      - title: Heft command line
         url: /pages/heft/cli
 
-  - title: Heft Tasks
+  - title: Heft tasks
     subitems:
       - title: api-extractor
         url: /pages/heft_tasks/api-extractor
@@ -51,12 +51,25 @@ docs_nav:
       - title: webpack
         url: /pages/heft_tasks/webpack
 
+  - title: Heft config files
+    subitems:
+      - title: clean.json
+        url: /pages/heft_configs/clean_json
+      - title: copy-static-assets.json
+        url: /pages/heft_configs/copy-static-assets_json
+      - title: plugins.json
+        url: /pages/heft_configs/plugins_json
+      - title: typescript.json
+        url: /pages/heft_configs/typescript_json
+      - title: webpack.json
+        url: /pages/heft_configs/webpack_json
+
   - title: Contributing
     subitems:
-      - title: Getting Started
+      - title: Getting started
         url: /pages/contributing/get_started
 
   - title: Help
     subitems:
-      - title: Getting Support
+      - title: Getting support
         url: /pages/help/support

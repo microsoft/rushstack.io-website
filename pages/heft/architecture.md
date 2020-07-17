@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Heft Architecture
+title: Heft architecture
 navigation_source: docs_nav
 ---
 
@@ -15,5 +15,5 @@ Heft's operation is organized around the following concepts:
 
 &nbsp;
 > **Future plans:** Today Rush commands can only invoke Heft actions.  However, in the future we want to implement a "multiphase build" feature that will enable Rush to orchestrate more granular steps of work.  For example, once a library dependency has compiled its output, Rush could start building the application before the library finishes running its unit tests.  This feature will bring some additional jargon:
-> - **command** - A monorepo command-line action as defined globally in [command-line.json](https://rushjs.io/pages/configs/command_line_json/).
+> - **command** - A monorepo command-line action as defined globally in [command-line.json](https://rushjs.io/pages/configs/command-line_json/).
 > - **phase** - This is similar to Heft's "stage", except that phases will be defined globally so that Rush can model their dependency relationships.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Heft Command Line
+title: Heft command line
 navigation_source: docs_nav
 ---
 
