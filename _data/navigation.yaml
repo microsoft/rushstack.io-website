@@ -25,8 +25,31 @@ docs_nav:
 
   - title: Heft
     subitems:
-      - title: Overview
+      - title: Introduction
         url: /pages/heft/overview
+      - title: Architecture
+        url: /pages/heft/architecture
+      - title: Core Plugins
+        url: /pages/heft/core_plugins
+      - title: Heft Command Line
+        url: /pages/heft/cli
+
+  - title: Heft Tasks
+    subitems:
+      - title: api-extractor
+        url: /pages/heft_tasks/api-extractor
+      - title: copy-static-assets
+        url: /pages/heft_tasks/copy-static-assets
+      - title: eslint
+        url: /pages/heft_tasks/eslint
+      - title: jest
+        url: /pages/heft_tasks/jest
+      - title: tslint
+        url: /pages/heft_tasks/tslint
+      - title: typescript
+        url: /pages/heft_tasks/typescript
+      - title: webpack
+        url: /pages/heft_tasks/webpack
 
   - title: Contributing
     subitems:
