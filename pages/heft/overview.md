@@ -4,9 +4,9 @@ title:
 navigation_source: docs_nav
 ---
 
-🚨 *This is an early preview release. Please report issues!* 🚨
-
 <img src="{{ site.baseurl }}/images/heft-300x120.png" alt="heft" title="heft" style="width: 300px;"/>
+
+🚨 *This is an early preview release. Please report issues!* 🚨
 
 Heft is an extensible build system designed for use with the [Rush Stack](https://rushstack.io/) family of tools.
 You don't need a monorepo to use Heft, though.  It also works well for small standalone projects.  Compared to
