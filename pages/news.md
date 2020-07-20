@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What's New
+title: What's new
 ---
 
 For general planning updates, please see the [Project roadmap]({% link pages/overview/roadmap.md %}).
