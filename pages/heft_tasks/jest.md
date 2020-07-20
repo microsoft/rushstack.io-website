@@ -33,7 +33,7 @@ Generally your Jest configuration should simply extend Heft's standard preset:
 }
 ```
 
-***Note:** If you find yourself frequently adding lots of custom settings to this file, please create a GitHub issue and tell us about it.  Our aim is to provide a configuration that minimizes the need for project-specific customizations.*
+_**Note:** If you find yourself frequently adding lots of custom settings to this file, please create a GitHub issue and tell us about it.  Our aim is to provide a configuration that minimizes the need for project-specific customizations._
 
 
 ## package.json dependencies

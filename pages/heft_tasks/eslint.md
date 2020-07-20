@@ -29,7 +29,7 @@ There isn't a Heft-specific file for this task.  Heft looks for ESLint's config 
 - **Consistency:** Using one standard name **".eslintrc.js"** makes it easy to search these files, perform bulk edits, and copy configuration recipes between projects.
 - **Workarounds:** Using the `.js` file extension enables JavaScript expressions in the file.  This is practice is generally discouraged because code expressions are harder to validate, and expressions can depend on environmental inputs that are invisible to caches.  However, for historical reasons, ESLint's config file format has some limitations that can only be solved with scripts (for example using `__dirname` to resolve file paths).
 
-Do not place a centralized **.eslintrc.js** in the monorepo root folder. This violates Rush's principle that projects should be independent and easily movable between monorepos.
+It's not recommended to place a centralized **.eslintrc.js** in the monorepo root folder. This violates Rush's principle that projects should be independent and easily movable between monorepos.
 
 Instead, each project should have its own **.eslintrc.js** file.  We recommend to use the [@rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config) shared configuration, which is specifically tailored for large scale monorepos, and based on the [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) parser and ruleset.  If you need additional custom lint rules, it's recommended to create a custom NPM package that extends from `@rushstack/eslint-config`.
 
@@ -55,3 +55,5 @@ However, if you use the [VS Code extension for ESLint](https://marketplace.visua
 ```bash
 $ rush add --package eslint --dev
 ```
+
+(Alternatively, the VS Code extension is also able to load a globally installed `eslint` package; however, its version may not match the version required by the local branch.)
