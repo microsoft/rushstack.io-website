@@ -61,8 +61,6 @@ docs_nav:
         url: /pages/heft_configs/plugins_json
       - title: typescript.json
         url: /pages/heft_configs/typescript_json
-      - title: webpack.json
-        url: /pages/heft_configs/webpack_json
 
   - title: Contributing
     subitems:

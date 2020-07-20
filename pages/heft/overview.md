@@ -8,6 +8,10 @@ navigation_source: docs_nav
 
 🚨 *This project is an early preview release. Please report issues!* 🚨
 
+<!-- --------------------------------------------------------------------------- -->
+<!-- Text below this line should stay in sync with heft's package README.md file -->
+<!-- --------------------------------------------------------------------------- -->
+
 Heft is an extensible build system designed for use with the [Rush Stack](https://rushstack.io/) family of tools.
 You don't need a monorepo to use Heft, however.  It also works well for small standalone projects.  Compared to
 other similar systems, Heft has some unique design goals:
@@ -41,6 +45,10 @@ other similar systems, Heft has some unique design goals:
 - **Professional**: The Rush Stack projects are developed by and for engineers who ship major commercial services.
   Each feature is designed, discussed in the open, and thoughtfully code reviewed.  Despite being a free community
   collaboration, this software is developed with the mindset that we'll be depending on it for many years to come.
+
+<!-- --------------------------------------------------------------------------- -->
+<!-- Text above this line should stay in sync with heft's package README.md file -->
+<!-- --------------------------------------------------------------------------- -->
 
 
 ## How do I use it?
