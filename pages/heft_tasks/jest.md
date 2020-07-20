@@ -35,6 +35,7 @@ Generally your Jest configuration should simply extend Heft's standard preset:
 
 ***Note:** If you find yourself frequently adding lots of custom settings to this file, please create a GitHub issue and tell us about it.  Our aim is to provide a configuration that minimizes the need for project-specific customizations.*
 
+
 ## package.json dependencies
 
 Heft has direct dependencies on the Jest packages that it needs, so you don't need to add Jest to your project's **package.json** file.

@@ -30,6 +30,7 @@ We recommend to use API Extractor for every TypeScript library project, especial
 
 There isn't a Heft-specific file for this task.  Heft looks for API Extractor's config file [config/api-extractor.json](https://api-extractor.com/pages/commands/config_file/). This file can be created by invoking the [api-extractor init](https://api-extractor.com/pages/commands/api-extractor_init/) command.
 
+
 ## package.json dependencies
 
 None -- Heft loads the `@microsoft/api-extractor` package from the `@microsoft/rush-stack-compiler-*` bundle.  See the [typescript]({% link pages/heft_tasks/typescript.md %}) task documentation for details.

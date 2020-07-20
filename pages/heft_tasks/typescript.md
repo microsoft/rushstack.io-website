@@ -50,6 +50,7 @@ To use this system, your **tsconfig.json** file should extend from one of the `i
 
 For advanced scenarios, Heft also provides an optional [typescript.json]({% link pages/heft_configs/typescript_json.md %}) config file that can be used to configure toolchain features such as multiple emit targets for the TypeScript compiler.
 
+
 ## package.json dependencies
 
 Heft itself does not require your project to depend on the `typescript` NPM package.  Instead, the TypeScript task will follow the `"extends"` references from **tsconfig.json**, and then call `require("typescript")` from that folder (**&lt;project folder&gt;/node_modules/@microsoft/rush-stack-compiler-3.9/** in the above example).  This reduces **package.json** boilerplate in a large monorepo.

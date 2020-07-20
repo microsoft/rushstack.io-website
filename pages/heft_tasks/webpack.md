@@ -59,6 +59,7 @@ module.exports = {
 };
 ```
 
+
 ## package.json dependencies
 
 None -- Heft loads the `@microsoft/api-extractor` package from the `@microsoft/rush-stack-compiler-*` bundle.  See the [typescript]({% link pages/heft_tasks/typescript.md %}) task documentation for details.

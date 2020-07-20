@@ -6,9 +6,10 @@ navigation_source: docs_nav
 
 This task invokes the [ESLint](https://eslint.org/) tool which reports errors about common coding problems.
 
+
 ## When to use it
 
-ESLint fits together with several other tools as part of Rush Stack's strategy for code validation:
+ESLint fits together with several other tools as part of Rush Stack's recommended strategy for code validation:
 
 - [Prettier](https://prettier.io/): This tool manages trivial syntax aspects such as spaces, commas, and semicolons. Because these aspects normally don't affect code semantics, we never bother the developer with error messages about it, nor is it part of the build.  Instead, Prettier reformats the code automatically via a `git commit` hook (and also whenever you save a file, if you enable the editor extension).
 
@@ -17,6 +18,8 @@ ESLint fits together with several other tools as part of Rush Stack's strategy f
 - **ESLint**: The lint rules supplement the compiler's checks with additional stylistic rules that are more subjective and highly customizable.  Whereas TypeScript might detect that *"This function parameter is a string but was declared as a number"*, the linter would detect an issue such as *This class name should use PascalCase instead of camelCase.*  Unlike Prettier issues, fixing a lint issue may be a significant change and may even break an API contract.
 
 - [API Extractor]({% link pages/heft_tasks/api-extractor.md %}): This is an additional validation check for library packages only.  It ensures their API contracts are well-formed and properly documented.
+
+Although it's recommended to set up your build system in this way, Heft doesn't require a particular approach.  Each of these components is optional, and other configurations are possible.  For example, older code bases may need to use [TSLint]({% link pages/heft_tasks/tslint.md %}) instead of ESLint.
 
 
 ## Config files
@@ -41,6 +44,7 @@ module.exports = {
   parserOptions: { tsconfigRootDir: __dirname }
 };
 ```
+
 
 ## package.json dependencies
 

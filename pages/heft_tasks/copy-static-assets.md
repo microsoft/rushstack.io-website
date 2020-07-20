@@ -6,6 +6,7 @@ navigation_source: docs_nav
 
 This is a lightweight task that simply copies input files into output folders.
 
+
 ## When to use it
 
 This task is mainly used to copy assets into the compiler's target folder so that they can be referenced by compiled code.  In Heft's standard configuration, the TypeScript compiler reads **src/\*\*/.ts** inputs and writes **lib/\*\*/.js** outputs.  For example, a React project may have a file that loads an **src/index.css** asset like this:
@@ -28,6 +29,7 @@ When Webpack is invoked on **lib/index.js**, it will process the resulting `requ
 ## Config files
 
 Configure this task using the [copy-static-assets.json]({% link pages/heft_configs/copy-static-assets_json.md %}) config file.
+
 
 ## package.json dependencies
 
