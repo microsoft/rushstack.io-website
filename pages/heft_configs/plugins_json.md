@@ -15,7 +15,7 @@ navigation_source: docs_nav
 /**
  * Specifies the plugins that will be loaded by Heft.
  */
- {
+{
   "$schema": "https://developer.microsoft.com/json-schemas/heft/plugins.schema.json",
 
   /**
@@ -25,7 +25,6 @@ navigation_source: docs_nav
     /**
      * The list of Heft plugins to be loaded.
      */
-
     // {
     //  /**
     //   * The path to the plugin package.

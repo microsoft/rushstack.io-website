@@ -15,7 +15,7 @@ navigation_source: docs_nav
 /**
  * Configures the TypeScript plugin for Heft.  This plugin also manages linting.
  */
- {
+{
   "$schema": "https://developer.microsoft.com/json-schemas/heft/typescript.schema.json",
 
   /**
@@ -55,5 +55,4 @@ navigation_source: docs_nav
    */
   // "maxWriteParallelism": 50
 }
-
 ```

@@ -28,7 +28,9 @@ We recommend to use API Extractor for every TypeScript library project, especial
 
 ## Configuration
 
-There isn't a Heft-specific file for this task.  Heft looks for API Extractor's config file [config/api-extractor.json](https://api-extractor.com/pages/commands/config_file/). This file can be created by invoking the [api-extractor init](https://api-extractor.com/pages/commands/api-extractor_init/) command.
+Heft looks for API Extractor's config file [config/api-extractor.json](https://api-extractor.com/pages/commands/config_file/). This file can be created by invoking the [api-extractor init](https://api-extractor.com/pages/commands/api-extractor_init/) command.
+
+For advanced scenarios, the optional [api-extractor-task.json]({% link pages/heft_configs/api-extractor-task_json.md %}) config file provides some additional Heft-specific settings.
 
 
 ## package.json dependencies

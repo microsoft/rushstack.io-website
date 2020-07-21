@@ -15,7 +15,7 @@ navigation_source: docs_nav
 /**
  * Configures the "clean" stage for Heft.
  */
- {
+{
   "$schema": "https://developer.microsoft.com/json-schemas/heft/clean.schema.json",
 
   /**
