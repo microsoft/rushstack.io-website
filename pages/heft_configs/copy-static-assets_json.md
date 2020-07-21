@@ -15,7 +15,7 @@ navigation_source: docs_nav
 /**
  * Configures the "copy-static-assets" task for Heft.
  */
- {
+{
   "$schema": "https://developer.microsoft.com/json-schemas/heft/copy-static-assets.schema.json",
 
   /**

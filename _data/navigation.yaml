@@ -53,6 +53,8 @@ docs_nav:
 
   - title: Heft config files
     subitems:
+      - title: api-extractor-task.json
+        url: /pages/heft_configs/api-extractor-task_json
       - title: clean.json
         url: /pages/heft_configs/clean_json
       - title: copy-static-assets.json
