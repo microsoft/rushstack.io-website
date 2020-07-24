@@ -34,6 +34,17 @@ docs_nav:
       - title: Heft command line
         url: /pages/heft/cli
 
+  - title: Heft tutorials
+    subitems:
+      - title: Getting started with Heft
+        url: /pages/heft_tutorials/getting_started
+      - title: Adding more tasks
+        url: /pages/heft_tutorials/adding_tasks
+      - title: Everyday Heft commands
+        url: /pages/heft_tutorials/everyday_commands
+      - title: Interfacing with Rush
+        url: /pages/heft_tutorials/heft_and_rush
+
   - title: Heft tasks
     subitems:
       - title: api-extractor

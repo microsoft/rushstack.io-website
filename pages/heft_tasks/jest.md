@@ -22,7 +22,7 @@ That said, if for some reason you need to run tests in some other runtime such a
 
 ## Config files
 
-There isn't a Heft-specific file for this task.  Heft looks for Jest's normal config file in the standard path  `config/jest.config.json`.  Although Jest supports other config file names and even embedding settings in your **package.json** file, Heft only supports the name `jest.config.json`.  Using one standard filename makes it easy to search these files, perform bulk edits, and copy configuration recipes between projects.
+There isn't a Heft-specific file for this task.  Heft looks for [Jest's config file](https://jestjs.io/docs/en/configuration) in the standard path  `config/jest.config.json`.  Although Jest supports other config file names and even embedding settings in your **package.json** file, Heft only supports the name `jest.config.json`.  Using one standard filename makes it easy to search these files, perform bulk edits, and copy configuration recipes between projects.
 
 Generally your Jest configuration should simply extend Heft's standard preset:
 
@@ -56,3 +56,8 @@ $ rush add --package @types/jest --exact  --dev
   }
 }
 ```
+
+## See also
+
+- Jest's [API reference](https://jestjs.io/docs/en/api)
+- [jest.config.json](https://jestjs.io/docs/en/configuration) documentation
