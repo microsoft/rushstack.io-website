@@ -50,12 +50,10 @@ module.exports = {
 
 ## package.json dependencies
 
-Heft loads the `eslint` package from the `@microsoft/rush-stack-compiler-*` bundle.  See the [typescript]({% link pages/heft_tasks/typescript.md %}) task documentation for details.
-
-However, if you use the [VS Code extension for ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), it will try to resolve the `eslint` package from your project folder. Thus it may be useful to add it to your **package.json** file:
+You will need to add the `eslint` package to your project:
 
 ```bash
 $ rush add --package eslint --dev
 ```
 
-(Alternatively, the VS Code extension is also able to load a globally installed `eslint` package; however, its version may not match the version required by the local branch.)
+Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) article.  However, if you use the [ESLint extension for VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), it will try to resolve the `eslint` package from your project folder. Thus it may be useful to add it to your **package.json** file.  (The extension is also able to load a globally installed `eslint` package; however, its version may not match the version required by the local branch.)

@@ -21,4 +21,10 @@ There isn't a Heft-specific file for this task.  Heft looks for TSLint's config 
 
 ## package.json dependencies
 
-None -- Heft loads the `tslint` package from the `@microsoft/rush-stack-compiler-*` bundle.  See the [typescript]({% link pages/heft_tasks/typescript.md %}) task documentation for details.
+You will need to add the `tslint` package to your project:
+
+```bash
+$ rush add --package tslint --dev
+```
+
+Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) article.

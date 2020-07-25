@@ -37,7 +37,7 @@ If config files can "extend" from a standard template, that provides a nice midd
 - **config/api-extractor.json** for the [api-extractor task]({% link pages/heft_tasks/api-extractor.md %})
 - **webpack.config.js** does not explicitly support inheritance, but being a JavaScript module, it can call `require()` to load shared settings.
 
-For these inheritable files, a copy must still exist in each project folder.  Its presence tells Heft to invoke the task, and may communicate the configuration to other tools such as the ESLint extension for VS Code.  Fortunately, the file will be a tiny stub that rarely needs to be updated, because all the settings are obtained from the shared package.  We refer to the shared package as a **"rig"**.  Often the rig package is just another Rush project in the same monorepo.
+For these inheritable files, a copy must still exist in each project folder.  Its presence tells Heft to invoke the task, and may communicate the configuration to other tools such as the ESLint extension for VS Code.  Fortunately, the file will be a tiny stub that rarely needs to be updated, because all the settings are obtained from the shared package.  We refer to the shared package as a **"rig package"**.  Often the rig is just another Rush project in the same monorepo.
 
 For example, ESLint's stub might look like this:
 

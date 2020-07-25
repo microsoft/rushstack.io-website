@@ -35,4 +35,10 @@ For advanced scenarios, the optional [api-extractor-task.json]({% link pages/hef
 
 ## package.json dependencies
 
-None -- Heft loads the `@microsoft/api-extractor` package from the `@microsoft/rush-stack-compiler-*` bundle.  See the [typescript]({% link pages/heft_tasks/typescript.md %}) task documentation for details.
+You will need to add the `@microsoft/api-extractor` package to your project:
+
+```bash
+$ rush add --package @microsoft/api-extractor --dev
+```
+
+Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) article.
