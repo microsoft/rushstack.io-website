@@ -60,8 +60,7 @@ and [ESlint]({% link pages/heft_tasks/eslint.md %}).
     }
     ```
 
-4. Now we need to add a unit test.  Jest supports quite a lot of features, but for this tutorial we'll create a trivial test file:
-
+4. Now we need to add a unit test.  Jest supports quite a lot of features, but for this tutorial we'll create a trivial test file.  The `.test.ts` file extension causes Heft to look for unit tests in this file:
 
     **my-app/src/example.test.ts**
     ```ts
@@ -130,7 +129,7 @@ That's it for Jest!  More detail can be found in the [jest task]({% link pages/h
 
     _Note: If your project uses the [React](https://reactjs.org/) framework, you should also extend from `"@rushstack/eslint-config/react"`.  See [the documentation](https://www.npmjs.com/package/@rushstack/eslint-config) for instructions._
 
-3. To test it out, try updating your test.ts to introduce a lint issue:
+3. To test it out, try updating your **start.ts** source file to introduce a lint issue:
 
     **my-app/src/start.ts**
     ```ts
@@ -153,7 +152,7 @@ That's it for Jest!  More detail can be found in the [jest task]({% link pages/h
     . . .
     ```
 
-    To fix the problem, change the code to look like this, and it should now build successfully:
+    To fix the problem, fix the code to add the missing return type, and it should now build successfully:
 
     **my-app/src/start.ts**
     ```ts

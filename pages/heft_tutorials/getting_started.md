@@ -11,9 +11,9 @@ This walkthrough will get you started with Heft by creating a basic Node.js cons
 > and [heft-webpack-basic-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-webpack-basic-test)
 > folders illustrate a fully worked out example of a simple project that builds using Heft.
 
-We'll begin by creating a simple standalone project without Rush.  (Later the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) tutorial will show what changes in a monorepo environment.)
+We'll begin by creating a simple standalone project without Rush.  (Later, the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) tutorial will examine what's different when using Heft in a monorepo.)
 
-1. We'll use the [PNPM package manager](https://pnpm.js.org/) for this demo.  (Its command line is very similar to NPM, so could substitute `npm` for `pnpm` in these steps.)  There are [various ways](https://pnpm.js.org/en/installation.html) to install PNPM, but the simplest is like this:
+1. We'll use the [PNPM package manager](https://pnpm.js.org/) for this demo.  (Its command line is very similar to NPM, so you can substitute `npm` for `pnpm` in these steps.)  There are [various ways](https://pnpm.js.org/en/installation.html) to install PNPM, but the simplest is like this:
 
     ```shell
     $ npm install --global pnpm
@@ -99,9 +99,12 @@ We'll begin by creating a simple standalone project without Rush.  (Later the [I
 
     # Build the project
     $ ./node_modules/.bin/heft build
+
+    # To see more detail about what Heft is doing, add you can the "--verbose" flag
+    $ ./node_modules/.bin/heft build --verbose
     ```
 
-    You should see output like this:
+    Invoking `heft build` should produce console output like this:
 
     ```
     Project build folder is "/path/to/my-app"
@@ -118,9 +121,7 @@ We'll begin by creating a simple standalone project without Rush.  (Later the [I
     Node version: v12.17.0
     ```
 
-    To see more detail about what Heft is doing, try `./node_modules/.bin/heft build --verbose`.  If you encounter problems, you can do `./node_modules/.bin/heft --debug build` for even more detail.
-
-    > Some terminology:  When we invoke the `heft build` command from the shell, the "build" verb is called an **action**.  Actions are user interface concepts, sort of like macros.  The action causes Heft to invoke multiple **tasks** such as `[typescript]` or `[copy-static-assets]`.  These tasks often run in parallel.  The operations are grouped into **stages** such as "Compile" and "Bundle" in the above log.  Stages represent major steps of the operation.  These concepts are explained in more depth in the [Heft architecture]({% link pages/heft/architecture.md %}) article.
+    > Some terminology:  When we invoke the `heft build` command from the shell, the "build" verb is called an **action**.  Actions are user interface concepts, sort of like macros.  The action causes Heft to invoke multiple **tasks** such as `[typescript]` or `[copy-static-assets]`.  These tasks often run in parallel.  The tasks are grouped into **stages** such as "Compile" and "Bundle" in the above log.  Stages represent major steps of the overall operation.  These concepts are explained in more depth in the [Heft architecture]({% link pages/heft/architecture.md %}) article.
 
     After the build finishes, confirm that it produced several output files in your `lib` folder:
     - **start.js** - the compiled JavaScript code

@@ -57,6 +57,11 @@ $ rush add --package @types/jest --exact  --dev
 }
 ```
 
+## Caveat
+
+Heft does NOT support [inline snapshots](https://jestjs.io/docs/en/snapshot-testing.html#inline-snapshots) or Jest's `toMatchInlineSnapshot()` API.  This is a limitation of a performance optimization, where Jest runs on .js files that are the output of Heft's compiler task, rather than reinvoking the compiler separately via a plugin such as `ts-jest`.  With this setup, the inline snapshot feature would rewrite the .js intermediary file, and there is no easy way to map those changes back to the original .ts source file.
+
+
 ## See also
 
 - Jest's [API reference](https://jestjs.io/docs/en/api)
