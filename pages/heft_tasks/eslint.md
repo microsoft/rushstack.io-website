@@ -45,6 +45,8 @@ module.exports = {
 };
 ```
 
+> NOTE: If your project uses the [React](https://reactjs.org/) framework, you should also extend from `"@rushstack/eslint-config/react"`.  See the [@rushstack/eslint-config documentation](https://www.npmjs.com/package/@rushstack/eslint-config) for instructions.
+
 
 ## package.json dependencies
 

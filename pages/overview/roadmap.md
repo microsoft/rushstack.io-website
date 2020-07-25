@@ -8,11 +8,12 @@ navigation_source: docs_nav
 
 These milestones were completed recently:
 
-- Set up the website and plan for Rush Stack
-- Improve the GitHub issue/PR triage process to improve turnaround times
-- Rename our GitHub repo and Gitter chat room from "web-build-tools" to "rushstack"
-- Set up a [@rushstack](https://twitter.com/rushstack) Twitter feed
 - Improve DocFX support for namespaces ([issue #1537](https://github.com/microsoft/rushstack/pull/1537))
+- Complete the migration from TSLint to ESLint/Prettier using the new [@<!---->rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config) ruleset
+- Initial release of "heft" revamped toolchain
+- Initial release of the `rush deploy` feature
+- API Extractor support for TypeScript 3.9
+
 
 ## In progress
 
@@ -22,18 +23,19 @@ a particular feature will get implemented.  That said, here's some areas which p
 - Migrate our NPM packages to use the new `@rushstack` NPM scope:  now mostly complete with
   [PR 1784](https://github.com/microsoft/rushstack/pull/1784); Rush and API Extractor are a more disruptive rename,
   so they will be handled very carefully once the dust has settled
-- Write up various design notes and guidance as articles on the new rushstack.io website
-- Complete the migration from TSLint to ESLint/Prettier using the new [@<!---->rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config) ruleset
+- Improve documentation for Rush Stack projects
+- Enable `rush install` to leverage the package manager's monorepo support, instead of the `@rushtemp`
+  packages ([issue #1553](https://github.com/microsoft/rushstack/issues/1553))
 - Rush integration with [BuildXL](https://github.com/microsoft/BuildXL) for sharded builds
+
 
 ## Soon, hopefully
 
 The Rush Stack maintainers currently see these feature areas as the main priorities for upcoming investments:
 
-- Enable `rush install` to leverage the package manager's monorepo support, instead of the `@rushtemp`
-  packages ([issue #1553](https://github.com/microsoft/rushstack/issues/1553))
-- Initial prototype of "heft" revamped toolchain
 - Improve API Extractor to support `import * as ___ from "___";` namespaces ([issue #1029](https://github.com/microsoft/rushstack/issues/1029))
+- Multi-project "watch mode"
+- Multiphase builds for Rush
 
 If there's a specific area that's important to you, let us know in the
 [Gitter chat room](https://gitter.im/rushstack/rushstack).

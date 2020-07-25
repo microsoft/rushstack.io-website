@@ -1,0 +1,170 @@
+---
+layout: page
+title: Adding more tasks
+navigation_source: docs_nav
+---
+
+_This section continues the tutorial project from the [Getting started with Heft]({% link pages/heft_tutorials/getting_started.md %}) article._
+
+Heft comes with a number of built-in tasks that become enabled automatically based on config files that you create.
+All the tasks are documented in the [Heft tasks]({% link pages/heft_tasks/api-extractor.md %}) section.
+In this section, we'll enable the two most common tasks: [Jest]({% link pages/heft_tasks/jest.md %})
+and [ESlint]({% link pages/heft_tasks/eslint.md %}).
+
+## Adding unit tests to your project
+
+1. First, we need to install the TypeScript typings for Jest.  These steps continue the **my-app** project from the [Getting started with Heft]({% link pages/heft_tutorials/getting_started.md %}) article.  Recall that this project is not using Rush yet, so we will invoke PNPM directly to add the dependency to our **package.json** file:
+
+    ```shell
+    $ cd my-app
+
+    # Typings should always use "--save-exact" version specifiers.
+    $ pnpm install --save-dev --save-exact @types/jest
+    ```
+
+2. Since [Jest's API](https://jestjs.io/docs/en/api) consists of global variables, we need to load them globally (whereas most other `@types` packages can be loaded via `import` statements in your source code).  Update your **tsconfig.json** file to say `"types": ["jest", "node"]` instead of just `"types": ["node"]`.  The result should look like this:
+
+    **my-app/tsconfig.json**
+    ```js
+    {
+      "$schema": "http://json.schemastore.org/tsconfig",
+
+      "compilerOptions": {
+        "outDir": "lib",
+        "rootDirs": ["src/"],
+
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "sourceMap": true,
+        "declarationMap": true,
+        "inlineSources": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "types": ["jest", "node"],
+
+        "module": "commonjs",
+        "target": "es2017",
+        "lib": ["es2017"]
+      },
+      "include": ["src/**/*.ts"],
+      "exclude": ["node_modules", "lib"]
+    }
+    ```
+
+3. Next, we need to add the [jest.config.json](https://jestjs.io/docs/en/configuration) config file.  The presence of this file causes Heft to invoke the Jest test runner.  Since it is not a Heft-specific file, it goes in the **config** folder instead of the **.heft** folder.  For most cases, your Jest configuration should simply extend Heft's standard preset as shown below:
+
+    **my-app/config/jest.config.json**
+    ```js
+    {
+      "preset": "./node_modules/@rushstack/heft/includes/jest-shared.config.json"
+    }
+    ```
+
+4. Now we need to add a unit test.  Jest supports quite a lot of features, but for this tutorial we'll create a trivial test file:
+
+
+    **my-app/src/example.test.ts**
+    ```ts
+    describe('Example Test', () => {
+      it('correctly runs a test', () => {
+        expect(true).toBeTruthy();
+      });
+    });
+    ```
+
+5. To run the test, we need to use the `heft test` action, because `heft build` normally skips testing to speed up development.
+
+    ```shell
+    # For Windows, use backslashes for all these commands
+
+    # View the command line help
+    $ ./node_modules/.bin/heft test --help
+
+    # Build the project and run tests
+    $ ./node_modules/.bin/heft test
+    ```
+
+    We should update our **package.json** script to invoke `heft test` instead of `heft build` as well.  That way `pnpm run build` will also run the Jest tests:
+
+    **my-app/package.json**
+    ```
+    {
+      . . .
+      "scripts": {
+        "build": "heft test --clean",
+        "start": "node lib/start.js"
+      }
+      . . .
+    }
+    ```
+
+That's it for Jest!  More detail can be found in the [jest task]({% link pages/heft_tasks/jest.md %}) reference.
+
+
+## Enabling linting
+
+1. To ensure best practices and catch common mistakes, let's also enable the [@rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config) standard ruleset.  First we need to add a few more NPM dependencies to our **package.json** file.
+
+    ```shell
+    $ cd my-app
+
+    # Add the ESLint engine.
+    $ pnpm install --save-dev eslint
+
+    # Add Rush Stack's all-in-one ruleset
+    $ pnpm install --save-dev @rushstack/eslint-config
+    ```
+
+2. Next, create the [.eslintrc.js](https://eslint.org/docs/user-guide/configuring) config file.  The presence of this file causes Heft to invoke the ESLint task.:
+
+    **my-app/.eslintrc.js**
+    ```js
+    // This is a workaround for https://github.com/eslint/eslint/issues/3458
+    require('@rushstack/eslint-config/patch/modern-module-resolution');
+
+    module.exports = {
+      extends: [ "@rushstack/eslint-config" ],
+      parserOptions: { tsconfigRootDir: __dirname }
+    };
+    ```
+
+    _Note: If your project uses the [React](https://reactjs.org/) framework, you should also extend from `"@rushstack/eslint-config/react"`.  See [the documentation](https://www.npmjs.com/package/@rushstack/eslint-config) for instructions._
+
+3. To test it out, try updating your test.ts to introduce a lint issue:
+
+    **my-app/src/start.ts**
+    ```ts
+    console.log("Hello, world!");
+
+    export function f() {   // <--- oops
+    }
+    ```
+
+    When you run `pnpm run build`, you should see a log message like this:
+
+    ```
+    . . .
+    ---- Compile started ----
+    [copy-static-assets] Copied 0 static assets in 0ms
+    [typescript] Using TypeScript version 3.9.7
+    [eslint] Using ESLint version 7.5.0
+    [eslint] Encountered 1 ESLint error:
+    [eslint]   ERROR: src\start.ts:3:8 - (@typescript-eslint/explicit-function-return-type) Missing return type on function.
+    . . .
+    ```
+
+    To fix the problem, change the code to look like this, and it should now build successfully:
+
+    **my-app/src/start.ts**
+    ```ts
+    console.log("Hello, world!");
+
+    export function f(): void {   // <--- okay
+    }
+    ```
+
+
+That's it for ESLint!  More detail can be found in the [eslint task]({% link pages/heft_tasks/eslint.md %}) reference.
+
+
+#### Next up: [Everyday Heft commands]({% link pages/heft_tutorials/everyday_commands.md %})

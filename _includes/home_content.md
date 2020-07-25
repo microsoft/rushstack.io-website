@@ -8,17 +8,16 @@
 - **Specific strategy** that integrates popular tools like NodeJS, TypeScript, ESLint, Prettier, Webpack, Jest, etc.
 - **Family of projects** that fill in the gaps for this strategy
 
-Although various pieces of this work have been underway for years, we're now bringing them together under a common charter as **Rush Stack**.  The new website was just launched in summer of 2019.  It still has a ways to go!  Track our progress on the [News]({% link pages/news.md %}) page.
+Although various pieces of this work have been underway for years, we're now bringing them together under a common charter as **Rush Stack**.  Track our progress on the [News]({% link pages/news.md %}) page and [Roadmap]({% link pages/overview/roadmap.md %}).
 
 ## What's in the stack?
 
 These tools are developed under the **Rush Stack** umbrella:
 
-- [Rush](https://rushjs.io/): the scalable build orchestrator
+- [Rush](https://rushjs.io/): the scalable monorepo build orchestrator
+- [Heft]({% link pages/heft/overview.md %}): an extensible build system that interfaces with Rush
 - [API Extractor](https://api-extractor.com/): coordinates API reviews, and generates .d.ts rollups
 - [API Documenter](https://api-extractor.com/pages/setup/generating_docs/): generates your API documentation website
-- **Heft (coming soon!):** a new scalable task rig that replaces the earlier
-  [gulp-core-build](https://www.npmjs.com/package/@microsoft/gulp-core-build) system
 - [@<!---->rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config): our standardized
   ESLint rule set, specifically designed for large scale TypeScript monorepos
 

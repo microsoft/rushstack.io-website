@@ -51,12 +51,25 @@ other similar systems, Heft has some unique design goals:
 <!-- --------------------------------------------------------------------------- -->
 
 
-## How do I use it?
+## Where to begin?
 
-Heft is still under active development; more documentation and tutorials will be coming soon.  In the meantime,
-we recommend to use the test projects for examples of Heft setups:
+- The [Getting started with Heft]({% link pages/heft_tutorials/getting_started.md %}) tutorial provides a quick
+  walkthrough of the steps for setting up a project to build using Heft
 
-- [heft-node-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-node-test): A basic Node.js
-  application with Jest and API Extractor
-- [heft-webpack-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-webpack-test): A basic
+- The NPM package page is here: [@rushstack/heft](https://www.npmjs.com/package/@rushstack/heft)
+
+- [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) explains how Heft and Rush interact
+
+- The [Heft architecture]({% link pages/heft/architecture.md %}) article provides more detail about the
+  build system's design
+
+
+## Sample projects
+
+For a couple quick examples of Heft projects in a real Rush monorepo, take a look at these folders:
+
+- [heft-node-basic-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-node-basic-test): A basic Node.js
+  application with Jest and ESLint
+
+- [heft-webpack-basic-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-webpack-basic-test): A basic
   web application bundled using Webpack
