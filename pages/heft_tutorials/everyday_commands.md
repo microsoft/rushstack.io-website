@@ -15,11 +15,11 @@ If you're diagnosing problems with the Heft build, there are a couple useful par
 - `--debug`: For even more detail, you can run `heft --debug build` to see call stacks and additional trace information.  Note that `--debug` is a global parameter, so it must precede the `build` action name.
 
 
-## Building with --watch
+## Building with -<!---->-watch
 
 If you run `heft build --watch`, the TypeScript compiler will continue running and wait for changes to source files.  Whenever a file is changed, Heft will rebuild only the affected files, as a minimal incremental update that can be very fast.
 
-When using Webpack, `heft start` invokes a localhost dev server (see [DevServer](https://webpack.js.org/configuration/dev-server/)) that uses this mode to automatically refresh the web browser with the recompiled code, every time a source file is saved.  The `--watch` parameter is not needed with `heft start`, because that action implicitly watches.
+When using Webpack, `heft start` invokes a localhost dev server (see [DevServer](https://webpack.js.org/configuration/dev-server/)) that uses this mode to automatically reload the web browser with the recompiled code, every time a source file is saved.  This can save a lot of time when tuning UI layouts!  The `--watch` parameter is not needed with `heft start`, because watch mode is always enabled for that action.
 
 
 ## Jest interactive shell
