@@ -45,6 +45,14 @@ navigation_source: docs_nav
   ]
 
   /**
+   * Specifies the intermediary folder that Jest will use for its input.  Because Jest uses the
+   * Node.js runtime to execute tests, the module format must be CommonJS.
+   *
+   * The default value is "lib".
+   */
+  // "emitFolderPathForJest": "lib-commonjs",
+
+  /**
    * If set to "true", the TSlint task will not be invoked.
    */
   // "disableTslint": true,

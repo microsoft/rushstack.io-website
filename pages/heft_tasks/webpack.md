@@ -55,6 +55,55 @@ If you want to use a slightly different configuration when developing using the 
 
 To start the localhost dev server, use the `heft start` command.
 
+### Interaction with Jest
+
+Webpack works best with the `esnext` module format, whereas Jest must use the `commonjs` module format because its tests are executed by the Node.js runtime.  Thus, in order to use Webpack and Jest together, you will need to emit both module formats.  An easy way to accomplish this is to use `additionalModuleKindsToEmit` to configure a secondary output folder, and then use `emitFolderPathForJest` to tell Jest to use the CommonJS output.  For example:
+
+**.heft/typescript.json**
+```js
+/**
+ * Configures the TypeScript plugin for Heft.  This plugin also manages linting.
+ */
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/heft/typescript.schema.json",
+
+   . . .
+
+  /**
+   * If provided, emit these module kinds in addition to the modules specified in the tsconfig.
+   * Note that this option only applies to the main tsconfig.json configuration.
+   */
+  "additionalModuleKindsToEmit": [
+    // {
+    //   /**
+    //    * (Required) Must be one of "commonjs", "amd", "umd", "system", "es2015", "esnext"
+    //    */
+    //  "moduleKind": "amd",
+    //
+    //   /**
+    //    * (Required) The path where the output will be written.
+    //    */
+    //    "outFolderPath": "lib-amd"
+    // }
+    {
+      "moduleKind": "commonjs",
+      "outFolderPath": "lib-commonjs"
+    }
+  ],
+
+  /**
+   * Specifies the intermediary folder that Jest will use for its input.  Because Jest uses the
+   * Node.js runtime to execute tests, the module format must be CommonJS.
+   *
+   * The default value is "lib".
+   */
+  "emitFolderPathForJest": "lib-commonjs"
+  . . .
+}
+```
+
+See the [typescript.json]({% link pages/heft_configs/typescript_json.md %}) config file documentation for details.
+
 
 ## package.json dependencies
 
