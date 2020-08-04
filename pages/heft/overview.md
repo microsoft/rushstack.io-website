@@ -4,9 +4,12 @@ title:
 navigation_source: docs_nav
 ---
 
-<img src="{{ site.baseurl }}/images/heft-300x120.png" alt="heft" title="heft" style="width: 300px;"/>
-
 🚨 *This project is an early preview release. Please report issues!* 🚨
+
+<div>
+  <img src="{{ site.baseurl }}/images/heft-logo-horse.svg" alt="heft" title="heft" style="width: 380px; padding-top: 30px;" />
+  <p />
+</div>
 
 <!-- --------------------------------------------------------------------------- -->
 <!-- Text below this line should stay in sync with heft's package README.md file -->
