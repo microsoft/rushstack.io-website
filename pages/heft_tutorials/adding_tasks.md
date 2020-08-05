@@ -162,6 +162,9 @@ That's it for Jest!  More detail can be found in the [jest task]({% link pages/h
     }
     ```
 
+4.  The `@rushstack/eslint-config` ruleset is designed to work together with the Prettier code formatter.
+    To set that up, see the [Enabling Prettier](https://rushjs.io/pages/maintainer/enabling_prettier/) article
+    on the Rush website.
 
 That's it for ESLint!  More detail can be found in the [eslint task]({% link pages/heft_tasks/eslint.md %}) reference.
 
