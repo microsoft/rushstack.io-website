@@ -12,5 +12,5 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-apiExtractorPackagePath: string;
+apiExtractorPackagePath: string | undefined;
 ```

@@ -22,6 +22,7 @@ export interface IAssetInfo
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [chunk](./module-minifier-plugin.iassetinfo.chunk.md) | webpack.compilation.Chunk | The raw chunk object from Webpack, in case information from it is necessary for reconstruction |
+|  [externalNames](./module-minifier-plugin.iassetinfo.externalnames.md) | Map&lt;string, string&gt; | The set of external names to postprocess |
 |  [extractedComments](./module-minifier-plugin.iassetinfo.extractedcomments.md) | string\[\] | The extracted comments from the boilerplate. Will usually be empty unless the minifier configuration and a plugin inject a comment that needs extraction in the runtime. |
 |  [fileName](./module-minifier-plugin.iassetinfo.filename.md) | string | The name of the asset, used to index into compilation.assets |
 |  [modules](./module-minifier-plugin.iassetinfo.modules.md) | (string \| number)\[\] | The ids of the modules that are part of the chunk corresponding to this asset |

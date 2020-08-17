@@ -9,6 +9,11 @@ improve_this_button: false
 
 ## RushConfiguration.rushLinkJsonFilename property
 
+> Warning: This API is now obsolete.
+> 
+> The "rush-link.json" file was removed in Rush 5.30.0. Use `RushConfigurationProject.localDependencyProjects` instead.
+> 
+
 The filename of the build dependency data file. By default this is called 'rush-link.json' resides in the Rush common folder. Its data structure is defined by IRushLinkJson.
 
 Example: `C:\MyRepo\common\temp\rush-link.json`

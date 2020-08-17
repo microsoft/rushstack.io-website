@@ -23,9 +23,9 @@ export declare class HeftConfiguration
 |  [buildCacheFolder](./heft.heftconfiguration.buildcachefolder.md) |  | string | The project's build cache folder.<!-- -->This folder exists at &lt;<!-- -->project root<!-- -->&gt;<!-- -->/.heft/build-cache. TypeScript's output goes into this folder and then is either copied or linked to the final output folder |
 |  [buildFolder](./heft.heftconfiguration.buildfolder.md) |  | string | Project build folder. This is the folder containing the project's package.json file. |
 |  [compilerPackage](./heft.heftconfiguration.compilerpackage.md) |  | [ICompilerPackage](./heft.icompilerpackage.md) \| undefined | If used by the project being built, the tool package paths exported from the rush-stack-compiler-\* package. |
+|  [globalTerminal](./heft.heftconfiguration.globalterminal.md) |  | [Terminal](./node-core-library.terminal.md) | Terminal instance to facilitate logging. |
 |  [heftPackageJson](./heft.heftconfiguration.heftpackagejson.md) |  | [IPackageJson](./node-core-library.ipackagejson.md) | The Heft tool's package.json |
 |  [projectHeftDataFolder](./heft.heftconfiguration.projectheftdatafolder.md) |  | string | The path to the project's ".heft" folder. |
 |  [projectPackageJson](./heft.heftconfiguration.projectpackagejson.md) |  | [IPackageJson](./node-core-library.ipackagejson.md) | The package.json of the project being built |
-|  [terminal](./heft.heftconfiguration.terminal.md) |  | [Terminal](./node-core-library.terminal.md) | Terminal instance to facilitate logging. |
 |  [terminalProvider](./heft.heftconfiguration.terminalprovider.md) |  | [ITerminalProvider](./node-core-library.iterminalprovider.md) | Terminal provider for the provided terminal. |
 

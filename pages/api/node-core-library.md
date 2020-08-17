@@ -15,6 +15,7 @@ Core libraries that every NodeJS toolchain project should use.
 
 |  Class | Description |
 |  --- | --- |
+|  [AlreadyReportedError](./node-core-library.alreadyreportederror.md) | This exception can be thrown to indicate that an operation failed and an error message has already been reported appropriately. Thus, the catch handler does not have responsibility for reporting the error. |
 |  [Colors](./node-core-library.colors.md) | <b><i>(BETA)</i></b> The static functions on this class are used to produce colored text for use with the node-core-library terminal. |
 |  [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) | <b><i>(BETA)</i></b> Terminal provider that prints to STDOUT (for log- and verbose-level messages) and STDERR (for warning- and error-level messsages). |
 |  [Executable](./node-core-library.executable.md) | The Executable class provides a safe, portable, recommended solution for tools that need to launch child processes. |
@@ -36,6 +37,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [StringBuilder](./node-core-library.stringbuilder.md) | This class allows a large text string to be constructed incrementally by appending small chunks. The final string can be obtained by calling StringBuilder.toString(). |
 |  [Terminal](./node-core-library.terminal.md) | <b><i>(BETA)</i></b> This class facilitates writing to a console. |
 |  [Text](./node-core-library.text.md) | Operations for working with strings that contain text. |
+|  [TypeUuid](./node-core-library.typeuuid.md) | Provides a version-independent implementation of the JavaScript <code>instanceof</code> operator. |
 
 ## Enumerations
 

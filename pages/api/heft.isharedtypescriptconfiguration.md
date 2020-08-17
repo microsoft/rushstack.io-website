@@ -22,5 +22,6 @@ export interface ISharedTypeScriptConfiguration
 |  --- | --- | --- |
 |  [additionalModuleKindsToEmit](./heft.isharedtypescriptconfiguration.additionalmodulekindstoemit.md) | [IEmitModuleKind](./heft.iemitmodulekind.md)<!-- -->\[\] \| undefined | If provided, emit these module kinds in addition to the modules specified in the tsconfig. Note that this option only applies to the main tsconfig.json configuration. |
 |  [copyFromCacheMode](./heft.isharedtypescriptconfiguration.copyfromcachemode.md) | [CopyFromCacheMode](./heft.copyfromcachemode.md) \| undefined | Can be set to 'copy' or 'hardlink'. If set to 'copy', copy files from cache. If set to 'hardlink', files will be hardlinked to the cache location. This option is useful when producing a tarball of build output as TAR files don't handle these hardlinks correctly. 'hardlink' is the default behavior. |
-|  [maxWriteParallelism](./heft.isharedtypescriptconfiguration.maxwriteparallelism.md) | number | Set this to change the maximum write parallelism. The default is 50. |
+|  [emitFolderPathForJest](./heft.isharedtypescriptconfiguration.emitfolderpathforjest.md) | string | Specifies the intermediary folder that Jest will use for its input. Because Jest uses the Node.js runtime to execute tests, the module format must be CommonJS.<!-- -->The default value is "lib". |
+|  [maxWriteParallelism](./heft.isharedtypescriptconfiguration.maxwriteparallelism.md) | number | Set this to change the maximum number of file handles that will be opened concurrently for writing. The default is 50. |
 

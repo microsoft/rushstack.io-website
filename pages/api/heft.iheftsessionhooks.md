@@ -20,10 +20,9 @@ export interface IHeftSessionHooks
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [build](./heft.iheftsessionhooks.build.md) | SyncHook&lt;[IBuildActionContext](./heft.ibuildactioncontext.md)<!-- -->&gt; |  |
-|  [clean](./heft.iheftsessionhooks.clean.md) | SyncHook&lt;[ICleanActionContext](./heft.icleanactioncontext.md)<!-- -->&gt; |  |
-|  [devDeploy](./heft.iheftsessionhooks.devdeploy.md) | SyncHook&lt;[IDevDeployActionContext](./heft.idevdeployactioncontext.md)<!-- -->&gt; |  |
+|  [build](./heft.iheftsessionhooks.build.md) | SyncHook&lt;[IBuildStageContext](./heft.ibuildstagecontext.md)<!-- -->&gt; |  |
+|  [clean](./heft.iheftsessionhooks.clean.md) | SyncHook&lt;[ICleanStageContext](./heft.icleanstagecontext.md)<!-- -->&gt; |  |
+|  [devDeploy](./heft.iheftsessionhooks.devdeploy.md) | SyncHook&lt;[IDevDeployStageContext](./heft.idevdeploystagecontext.md)<!-- -->&gt; |  |
 |  [metricsCollector](./heft.iheftsessionhooks.metricscollector.md) | [MetricsCollectorHooks](./heft.metricscollectorhooks.md) |  |
-|  [start](./heft.iheftsessionhooks.start.md) | SyncHook&lt;[IStartActionContext](./heft.istartactioncontext.md)<!-- -->&gt; |  |
-|  [test](./heft.iheftsessionhooks.test.md) | SyncHook&lt;[ITestActionContext](./heft.itestactioncontext.md)<!-- -->&gt; |  |
+|  [test](./heft.iheftsessionhooks.test.md) | SyncHook&lt;[ITestStageContext](./heft.iteststagecontext.md)<!-- -->&gt; |  |
 

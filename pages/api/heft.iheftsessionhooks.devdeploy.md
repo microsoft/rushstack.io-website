@@ -12,5 +12,5 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-devDeploy: SyncHook<IDevDeployActionContext>;
+devDeploy: SyncHook<IDevDeployStageContext>;
 ```

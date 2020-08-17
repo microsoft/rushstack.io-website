@@ -12,5 +12,5 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-clean: SyncHook<ICleanActionContext>;
+clean: SyncHook<ICleanStageContext>;
 ```

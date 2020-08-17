@@ -31,5 +31,6 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
+|  [\[Symbol.hasInstance\](instance)](./api-documenter.pluginfeature._symbol.hasinstance_.md) | <code>static</code> |  |
 |  [onInitialized()](./api-documenter.pluginfeature.oninitialized.md) |  | This event function is called after the feature is initialized, but before any processing occurs. |
 

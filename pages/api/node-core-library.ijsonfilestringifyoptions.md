@@ -21,6 +21,7 @@ export interface IJsonFileStringifyOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
+|  [headerComment](./node-core-library.ijsonfilestringifyoptions.headercomment.md) | string | If specified, this header will be prepended to the start of the file. The header must consist of lines prefixed by "//" characters. |
 |  [newlineConversion](./node-core-library.ijsonfilestringifyoptions.newlineconversion.md) | [NewlineKind](./node-core-library.newlinekind.md) | If provided, the specified newline type will be used instead of the default <code>\r\n</code>. |
 |  [prettyFormatting](./node-core-library.ijsonfilestringifyoptions.prettyformatting.md) | boolean | If true, then the "jju" library will be used to improve the text formatting. Note that this is slightly slower than the native JSON.stringify() implementation. |
 

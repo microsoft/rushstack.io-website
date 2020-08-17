@@ -22,6 +22,7 @@ export interface IModuleMinificationRequest
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [code](./module-minifier-plugin.imoduleminificationrequest.code.md) | string | The raw code fragment |
+|  [externals](./module-minifier-plugin.imoduleminificationrequest.externals.md) | string\[\] \| undefined | Reserved variable names, e.g. \_\_WEBPACK\_EXTERNAL\_MODULE\_1\_\_ |
 |  [hash](./module-minifier-plugin.imoduleminificationrequest.hash.md) | string | Identity of the request. Will be included in the response. |
 |  [nameForMap](./module-minifier-plugin.imoduleminificationrequest.nameformap.md) | string \| undefined | File name to show for the source code in the source map |
 

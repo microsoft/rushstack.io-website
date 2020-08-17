@@ -14,14 +14,15 @@ Extension of the webpack Module typings with members that are used by this Plugi
 <b>Signature:</b>
 
 ```typescript
-export interface IExtendedModule extends webpack.compilation.Module, webpack.Module 
+export interface IExtendedModule extends webpack.compilation.Module 
 ```
-<b>Extends:</b> webpack.compilation.Module, webpack.Module
+<b>Extends:</b> webpack.compilation.Module
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
+|  [external](./module-minifier-plugin.iextendedmodule.external.md) | boolean | Is this module external? |
 |  [id](./module-minifier-plugin.iextendedmodule.id.md) | string \| number \| null | Id for the module |
 |  [resource](./module-minifier-plugin.iextendedmodule.resource.md) | string | Path to the physical file this module represents |
 |  [skipMinification](./module-minifier-plugin.iextendedmodule.skipminification.md) | boolean | If set, bypass the minifier for this module. Useful if the code is known to already be minified. |

@@ -20,8 +20,8 @@ export interface ICompilerPackage
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [apiExtractorPackagePath](./heft.icompilerpackage.apiextractorpackagepath.md) | string |  |
-|  [eslintPackagePath](./heft.icompilerpackage.eslintpackagepath.md) | string |  |
-|  [tslintPackagePath](./heft.icompilerpackage.tslintpackagepath.md) | string |  |
+|  [apiExtractorPackagePath](./heft.icompilerpackage.apiextractorpackagepath.md) | string \| undefined |  |
+|  [eslintPackagePath](./heft.icompilerpackage.eslintpackagepath.md) | string \| undefined |  |
+|  [tslintPackagePath](./heft.icompilerpackage.tslintpackagepath.md) | string \| undefined |  |
 |  [typeScriptPackagePath](./heft.icompilerpackage.typescriptpackagepath.md) | string |  |
 

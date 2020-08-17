@@ -28,6 +28,7 @@ export declare class MarkdownDocumenterFeature extends PluginFeature
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
+|  [\[Symbol.hasInstance\](instance)](./api-documenter.markdowndocumenterfeature._symbol.hasinstance_.md) | <code>static</code> |  |
 |  [onBeforeWritePage(eventArgs)](./api-documenter.markdowndocumenterfeature.onbeforewritepage.md) |  | This event occurs before each markdown file is written. It provides an opportunity to customize the content of the file. |
 |  [onFinished(eventArgs)](./api-documenter.markdowndocumenterfeature.onfinished.md) |  | This event occurs after all output files have been written. |
 

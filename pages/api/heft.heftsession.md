@@ -26,3 +26,9 @@ The constructor for this class is marked as internal. Third-party code should no
 |  [debugMode](./heft.heftsession.debugmode.md) |  | boolean | If set to true, the build is running with the --debug flag |
 |  [hooks](./heft.heftsession.hooks.md) |  | [IHeftSessionHooks](./heft.iheftsessionhooks.md) |  |
 
+## Methods
+
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [requestScopedLogger(loggerName)](./heft.heftsession.requestscopedlogger.md) |  | Call this function to request a logger with the specified name. |
+

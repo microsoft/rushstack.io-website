@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ISharedTypeScriptConfiguration.maxWriteParallelism property
 
-Set this to change the maximum write parallelism. The default is 50.
+Set this to change the maximum number of file handles that will be opened concurrently for writing. The default is 50.
 
 <b>Signature:</b>
 

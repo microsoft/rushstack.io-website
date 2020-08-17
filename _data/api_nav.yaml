@@ -39,6 +39,8 @@ api_nav:
       - title: MarkdownDocumenterFeature
         url: /pages/api/api-documenter.markdowndocumenterfeature
         subitems:
+          - title: '[Symbol.hasInstance]'
+            url: /pages/api/api-documenter.markdowndocumenterfeature._symbol.hasinstance_
           - title: context
             url: /pages/api/api-documenter.markdowndocumenterfeature.context
           - title: onBeforeWritePage
@@ -57,6 +59,8 @@ api_nav:
       - title: PluginFeature
         url: /pages/api/api-documenter.pluginfeature
         subitems:
+          - title: '[Symbol.hasInstance]'
+            url: /pages/api/api-documenter.pluginfeature._symbol.hasinstance_
           - title: context
             url: /pages/api/api-documenter.pluginfeature.context
           - title: onInitialized
@@ -1448,6 +1452,8 @@ api_nav:
             url: /pages/api/rush-lib.rushconfigurationproject.downstreamdependencyprojects
           - title: isMainProject
             url: /pages/api/rush-lib.rushconfigurationproject.ismainproject
+          - title: localDependencyProjects
+            url: /pages/api/rush-lib.rushconfigurationproject.localdependencyprojects
           - title: packageJson
             url: /pages/api/rush-lib.rushconfigurationproject.packagejson
           - title: packageJsonEditor
@@ -1550,58 +1556,51 @@ api_nav:
   - title: '@rushstack/heft'
     url: /pages/api/heft
     subitems:
-      - title: ActionHooksBase
-        url: /pages/api/heft.actionhooksbase
-        subitems:
-          - title: afterLoadActionConfiguration
-            url: /pages/api/heft.actionhooksbase.afterloadactionconfiguration
-          - title: loadActionConfiguration
-            url: /pages/api/heft.actionhooksbase.loadactionconfiguration
-          - title: overrideAction
-            url: /pages/api/heft.actionhooksbase.overrideaction
-      - title: BuildHooks
-        url: /pages/api/heft.buildhooks
+      - title: BuildStageHooks
+        url: /pages/api/heft.buildstagehooks
         subitems:
           - title: bundle
-            url: /pages/api/heft.buildhooks.bundle
+            url: /pages/api/heft.buildstagehooks.bundle
           - title: compile
-            url: /pages/api/heft.buildhooks.compile
+            url: /pages/api/heft.buildstagehooks.compile
           - title: postBuild
-            url: /pages/api/heft.buildhooks.postbuild
+            url: /pages/api/heft.buildstagehooks.postbuild
           - title: preCompile
-            url: /pages/api/heft.buildhooks.precompile
-      - title: BuildStageHooksBase
-        url: /pages/api/heft.buildstagehooksbase
+            url: /pages/api/heft.buildstagehooks.precompile
+      - title: BuildSubstageHooksBase
+        url: /pages/api/heft.buildsubstagehooksbase
         subitems:
           - title: run
-            url: /pages/api/heft.buildstagehooksbase.run
-      - title: BundleStageHooks
-        url: /pages/api/heft.bundlestagehooks
+            url: /pages/api/heft.buildsubstagehooksbase.run
+      - title: BundleSubstageHooks
+        url: /pages/api/heft.bundlesubstagehooks
         subitems:
           - title: afterConfigureWebpack
-            url: /pages/api/heft.bundlestagehooks.afterconfigurewebpack
+            url: /pages/api/heft.bundlesubstagehooks.afterconfigurewebpack
+          - title: configureApiExtractor
+            url: /pages/api/heft.bundlesubstagehooks.configureapiextractor
           - title: configureWebpack
-            url: /pages/api/heft.bundlestagehooks.configurewebpack
-      - title: CleanHooks
-        url: /pages/api/heft.cleanhooks
+            url: /pages/api/heft.bundlesubstagehooks.configurewebpack
+      - title: CleanStageHooks
+        url: /pages/api/heft.cleanstagehooks
         subitems:
           - title: deletePath
-            url: /pages/api/heft.cleanhooks.deletepath
-      - title: CompileStageHooks
-        url: /pages/api/heft.compilestagehooks
+            url: /pages/api/heft.cleanstagehooks.deletepath
+      - title: CompileSubstageHooks
+        url: /pages/api/heft.compilesubstagehooks
         subitems:
           - title: afterConfigureCopyStaticAssets
-            url: /pages/api/heft.compilestagehooks.afterconfigurecopystaticassets
+            url: /pages/api/heft.compilesubstagehooks.afterconfigurecopystaticassets
           - title: afterConfigureTypeScript
-            url: /pages/api/heft.compilestagehooks.afterconfiguretypescript
+            url: /pages/api/heft.compilesubstagehooks.afterconfiguretypescript
           - title: configureCopyStaticAssets
-            url: /pages/api/heft.compilestagehooks.configurecopystaticassets
+            url: /pages/api/heft.compilesubstagehooks.configurecopystaticassets
           - title: configureTypeScript
-            url: /pages/api/heft.compilestagehooks.configuretypescript
+            url: /pages/api/heft.compilesubstagehooks.configuretypescript
       - title: CopyFromCacheMode
         url: /pages/api/heft.copyfromcachemode
-      - title: DevDeployHooks
-        url: /pages/api/heft.devdeployhooks
+      - title: DevDeployStageHooks
+        url: /pages/api/heft.devdeploystagehooks
       - title: HeftConfiguration
         url: /pages/api/heft.heftconfiguration
         subitems:
@@ -1611,14 +1610,14 @@ api_nav:
             url: /pages/api/heft.heftconfiguration.buildfolder
           - title: compilerPackage
             url: /pages/api/heft.heftconfiguration.compilerpackage
+          - title: globalTerminal
+            url: /pages/api/heft.heftconfiguration.globalterminal
           - title: heftPackageJson
             url: /pages/api/heft.heftconfiguration.heftpackagejson
           - title: projectHeftDataFolder
             url: /pages/api/heft.heftconfiguration.projectheftdatafolder
           - title: projectPackageJson
             url: /pages/api/heft.heftconfiguration.projectpackagejson
-          - title: terminal
-            url: /pages/api/heft.heftconfiguration.terminal
           - title: terminalProvider
             url: /pages/api/heft.heftconfiguration.terminalprovider
       - title: HeftSession
@@ -1628,61 +1627,55 @@ api_nav:
             url: /pages/api/heft.heftsession.debugmode
           - title: hooks
             url: /pages/api/heft.heftsession.hooks
-      - title: IActionContext
-        url: /pages/api/heft.iactioncontext
+          - title: requestScopedLogger
+            url: /pages/api/heft.heftsession.requestscopedlogger
+      - title: IApiExtractorConfiguration
+        url: /pages/api/heft.iapiextractorconfiguration
         subitems:
-          - title: hooks
-            url: /pages/api/heft.iactioncontext.hooks
-          - title: properties
-            url: /pages/api/heft.iactioncontext.properties
-      - title: IBuildActionContext
-        url: /pages/api/heft.ibuildactioncontext
-      - title: IBuildActionProperties
-        url: /pages/api/heft.ibuildactionproperties
+          - title: useProjectTypescriptVersion
+            url: /pages/api/heft.iapiextractorconfiguration.useprojecttypescriptversion
+      - title: IBuildStageContext
+        url: /pages/api/heft.ibuildstagecontext
+      - title: IBuildStageProperties
+        url: /pages/api/heft.ibuildstageproperties
         subitems:
-          - title: cleanFlag
-            url: /pages/api/heft.ibuildactionproperties.cleanflag
-          - title: liteFlag
-            url: /pages/api/heft.ibuildactionproperties.liteflag
+          - title: lite
+            url: /pages/api/heft.ibuildstageproperties.lite
           - title: locale
-            url: /pages/api/heft.ibuildactionproperties.locale
+            url: /pages/api/heft.ibuildstageproperties.locale
           - title: maxOldSpaceSize
-            url: /pages/api/heft.ibuildactionproperties.maxoldspacesize
-          - title: noTest
-            url: /pages/api/heft.ibuildactionproperties.notest
-          - title: productionFlag
-            url: /pages/api/heft.ibuildactionproperties.productionflag
-          - title: verboseFlag
-            url: /pages/api/heft.ibuildactionproperties.verboseflag
+            url: /pages/api/heft.ibuildstageproperties.maxoldspacesize
+          - title: production
+            url: /pages/api/heft.ibuildstageproperties.production
+          - title: serveMode
+            url: /pages/api/heft.ibuildstageproperties.servemode
           - title: watchMode
-            url: /pages/api/heft.ibuildactionproperties.watchmode
+            url: /pages/api/heft.ibuildstageproperties.watchmode
           - title: webpackStats
-            url: /pages/api/heft.ibuildactionproperties.webpackstats
-      - title: IBuildStage
-        url: /pages/api/heft.ibuildstage
+            url: /pages/api/heft.ibuildstageproperties.webpackstats
+      - title: IBuildSubstage
+        url: /pages/api/heft.ibuildsubstage
         subitems:
           - title: hooks
-            url: /pages/api/heft.ibuildstage.hooks
+            url: /pages/api/heft.ibuildsubstage.hooks
           - title: properties
-            url: /pages/api/heft.ibuildstage.properties
-      - title: IBundleStage
-        url: /pages/api/heft.ibundlestage
-      - title: IBundleStageProperties
-        url: /pages/api/heft.ibundlestageproperties
+            url: /pages/api/heft.ibuildsubstage.properties
+      - title: IBundleSubstage
+        url: /pages/api/heft.ibundlesubstage
+      - title: IBundleSubstageProperties
+        url: /pages/api/heft.ibundlesubstageproperties
         subitems:
-          - title: webpackConfigFilePath
-            url: /pages/api/heft.ibundlestageproperties.webpackconfigfilepath
           - title: webpackConfiguration
-            url: /pages/api/heft.ibundlestageproperties.webpackconfiguration
-      - title: ICleanActionContext
-        url: /pages/api/heft.icleanactioncontext
-      - title: ICleanActionProperties
-        url: /pages/api/heft.icleanactionproperties
+            url: /pages/api/heft.ibundlesubstageproperties.webpackconfiguration
+      - title: ICleanStageContext
+        url: /pages/api/heft.icleanstagecontext
+      - title: ICleanStageProperties
+        url: /pages/api/heft.icleanstageproperties
         subitems:
           - title: deleteCache
-            url: /pages/api/heft.icleanactionproperties.deletecache
+            url: /pages/api/heft.icleanstageproperties.deletecache
           - title: pathsToDelete
-            url: /pages/api/heft.icleanactionproperties.pathstodelete
+            url: /pages/api/heft.icleanstageproperties.pathstodelete
       - title: ICompilerPackage
         url: /pages/api/heft.icompilerpackage
         subitems:
@@ -1694,15 +1687,15 @@ api_nav:
             url: /pages/api/heft.icompilerpackage.tslintpackagepath
           - title: typeScriptPackagePath
             url: /pages/api/heft.icompilerpackage.typescriptpackagepath
-      - title: ICompileStage
-        url: /pages/api/heft.icompilestage
-      - title: ICompileStageProperties
-        url: /pages/api/heft.icompilestageproperties
+      - title: ICompileSubstage
+        url: /pages/api/heft.icompilesubstage
+      - title: ICompileSubstageProperties
+        url: /pages/api/heft.icompilesubstageproperties
         subitems:
           - title: copyStaticAssetsConfiguration
-            url: /pages/api/heft.icompilestageproperties.copystaticassetsconfiguration
+            url: /pages/api/heft.icompilesubstageproperties.copystaticassetsconfiguration
           - title: typeScriptConfiguration
-            url: /pages/api/heft.icompilestageproperties.typescriptconfiguration
+            url: /pages/api/heft.icompilesubstageproperties.typescriptconfiguration
       - title: ICopyStaticAssetsConfiguration
         url: /pages/api/heft.icopystaticassetsconfiguration
         subitems:
@@ -1710,10 +1703,10 @@ api_nav:
             url: /pages/api/heft.icopystaticassetsconfiguration.destinationfoldernames
           - title: sourceFolderName
             url: /pages/api/heft.icopystaticassetsconfiguration.sourcefoldername
-      - title: IDevDeployActionContext
-        url: /pages/api/heft.idevdeployactioncontext
-      - title: IDevDeployActionProperties
-        url: /pages/api/heft.idevdeployactionproperties
+      - title: IDevDeployStageContext
+        url: /pages/api/heft.idevdeploystagecontext
+      - title: IDevDeployStageProperties
+        url: /pages/api/heft.idevdeploystageproperties
       - title: IEmitModuleKind
         url: /pages/api/heft.iemitmodulekind
       - title: IEmitModuleKindBase
@@ -1748,8 +1741,6 @@ api_nav:
             url: /pages/api/heft.iheftsessionhooks.devdeploy
           - title: metricsCollector
             url: /pages/api/heft.iheftsessionhooks.metricscollector
-          - title: start
-            url: /pages/api/heft.iheftsessionhooks.start
           - title: test
             url: /pages/api/heft.iheftsessionhooks.test
       - title: IMetricsData
@@ -1769,10 +1760,24 @@ api_nav:
             url: /pages/api/heft.imetricsdata.machinetotalmemorymb
           - title: taskTotalExecutionMs
             url: /pages/api/heft.imetricsdata.tasktotalexecutionms
-      - title: IPostBuildStage
-        url: /pages/api/heft.ipostbuildstage
-      - title: IPreCompileStage
-        url: /pages/api/heft.iprecompilestage
+      - title: IPostBuildSubstage
+        url: /pages/api/heft.ipostbuildsubstage
+      - title: IPreCompileSubstage
+        url: /pages/api/heft.iprecompilesubstage
+      - title: IScopedLogger
+        url: /pages/api/heft.iscopedlogger
+        subitems:
+          - title: emitError
+            url: /pages/api/heft.iscopedlogger.emiterror
+          - title: emitWarning
+            url: /pages/api/heft.iscopedlogger.emitwarning
+          - title: terminal
+            url: /pages/api/heft.iscopedlogger.terminal
+      - title: ISharedBundleSubstageWebpackProperties
+        url: /pages/api/heft.isharedbundlesubstagewebpackproperties
+        subitems:
+          - title: apiExtractorConfiguration
+            url: /pages/api/heft.isharedbundlesubstagewebpackproperties.apiextractorconfiguration
       - title: ISharedCopyStaticAssetsConfiguration
         url: /pages/api/heft.isharedcopystaticassetsconfiguration
         subitems:
@@ -1789,21 +1794,38 @@ api_nav:
             url: /pages/api/heft.isharedtypescriptconfiguration.additionalmodulekindstoemit
           - title: copyFromCacheMode
             url: /pages/api/heft.isharedtypescriptconfiguration.copyfromcachemode
+          - title: emitFolderPathForJest
+            url: /pages/api/heft.isharedtypescriptconfiguration.emitfolderpathforjest
           - title: maxWriteParallelism
             url: /pages/api/heft.isharedtypescriptconfiguration.maxwriteparallelism
-      - title: IStartActionContext
-        url: /pages/api/heft.istartactioncontext
-      - title: IStartActionProperties
-        url: /pages/api/heft.istartactionproperties
-      - title: ITestActionContext
-        url: /pages/api/heft.itestactioncontext
-      - title: ITestActionProperties
-        url: /pages/api/heft.itestactionproperties
+      - title: IStageContext
+        url: /pages/api/heft.istagecontext
         subitems:
-          - title: productionFlag
-            url: /pages/api/heft.itestactionproperties.productionflag
+          - title: hooks
+            url: /pages/api/heft.istagecontext.hooks
+          - title: properties
+            url: /pages/api/heft.istagecontext.properties
+      - title: ITestStageContext
+        url: /pages/api/heft.iteststagecontext
+      - title: ITestStageProperties
+        url: /pages/api/heft.iteststageproperties
+        subitems:
+          - title: debugHeftReporter
+            url: /pages/api/heft.iteststageproperties.debugheftreporter
+          - title: findRelatedTests
+            url: /pages/api/heft.iteststageproperties.findrelatedtests
+          - title: production
+            url: /pages/api/heft.iteststageproperties.production
+          - title: silent
+            url: /pages/api/heft.iteststageproperties.silent
+          - title: testNamePattern
+            url: /pages/api/heft.iteststageproperties.testnamepattern
+          - title: testPathPattern
+            url: /pages/api/heft.iteststageproperties.testpathpattern
+          - title: testTimeout
+            url: /pages/api/heft.iteststageproperties.testtimeout
           - title: watchMode
-            url: /pages/api/heft.itestactionproperties.watchmode
+            url: /pages/api/heft.iteststageproperties.watchmode
       - title: ITypeScriptConfiguration
         url: /pages/api/heft.itypescriptconfiguration
         subitems:
@@ -1811,6 +1833,8 @@ api_nav:
             url: /pages/api/heft.itypescriptconfiguration.islintingenabled
           - title: tsconfigPaths
             url: /pages/api/heft.itypescriptconfiguration.tsconfigpaths
+      - title: IWebpackConfiguration
+        url: /pages/api/heft.iwebpackconfiguration
       - title: MetricsCollectorHooks
         url: /pages/api/heft.metricscollectorhooks
         subitems:
@@ -1820,15 +1844,39 @@ api_nav:
             url: /pages/api/heft.metricscollectorhooks.flushandteardown
           - title: recordMetric
             url: /pages/api/heft.metricscollectorhooks.recordmetric
-      - title: StartHooks
-        url: /pages/api/heft.starthooks
-      - title: TestHooks
-        url: /pages/api/heft.testhooks
+      - title: ScopedLogger
+        url: /pages/api/heft.scopedlogger
+        subitems:
+          - title: emitError
+            url: /pages/api/heft.scopedlogger.emiterror
+          - title: emitWarning
+            url: /pages/api/heft.scopedlogger.emitwarning
+          - title: errors
+            url: /pages/api/heft.scopedlogger.errors
+          - title: loggerName
+            url: /pages/api/heft.scopedlogger.loggername
+          - title: terminal
+            url: /pages/api/heft.scopedlogger.terminal
+          - title: terminalProvider
+            url: /pages/api/heft.scopedlogger.terminalprovider
+          - title: warnings
+            url: /pages/api/heft.scopedlogger.warnings
+      - title: StageHooksBase
+        url: /pages/api/heft.stagehooksbase
+        subitems:
+          - title: afterLoadStageConfiguration
+            url: /pages/api/heft.stagehooksbase.afterloadstageconfiguration
+          - title: loadStageConfiguration
+            url: /pages/api/heft.stagehooksbase.loadstageconfiguration
+          - title: overrideStage
+            url: /pages/api/heft.stagehooksbase.overridestage
+      - title: TestStageHooks
+        url: /pages/api/heft.teststagehooks
         subitems:
           - title: configureTest
-            url: /pages/api/heft.testhooks.configuretest
+            url: /pages/api/heft.teststagehooks.configuretest
           - title: run
-            url: /pages/api/heft.testhooks.run
+            url: /pages/api/heft.teststagehooks.run
   - title: '@rushstack/localization-plugin'
     url: /pages/api/localization-plugin
     subitems:
@@ -1980,6 +2028,8 @@ api_nav:
         subitems:
           - title: chunk
             url: /pages/api/module-minifier-plugin.iassetinfo.chunk
+          - title: externalNames
+            url: /pages/api/module-minifier-plugin.iassetinfo.externalnames
           - title: extractedComments
             url: /pages/api/module-minifier-plugin.iassetinfo.extractedcomments
           - title: fileName
@@ -2004,6 +2054,8 @@ api_nav:
       - title: IExtendedModule
         url: /pages/api/module-minifier-plugin.iextendedmodule
         subitems:
+          - title: external
+            url: /pages/api/module-minifier-plugin.iextendedmodule.external
           - title: id
             url: /pages/api/module-minifier-plugin.iextendedmodule.id
           - title: identifier
@@ -2045,6 +2097,8 @@ api_nav:
         subitems:
           - title: code
             url: /pages/api/module-minifier-plugin.imoduleminificationrequest.code
+          - title: externals
+            url: /pages/api/module-minifier-plugin.imoduleminificationrequest.externals
           - title: hash
             url: /pages/api/module-minifier-plugin.imoduleminificationrequest.hash
           - title: nameForMap
@@ -2161,6 +2215,13 @@ api_nav:
     subitems:
       - title: AlreadyExistsBehavior
         url: /pages/api/node-core-library.alreadyexistsbehavior
+      - title: AlreadyReportedError
+        url: /pages/api/node-core-library.alreadyreportederror
+        subitems:
+          - title: '[Symbol.hasInstance]'
+            url: /pages/api/node-core-library.alreadyreportederror._symbol.hasinstance_
+          - title: (constructor)
+            url: /pages/api/node-core-library.alreadyreportederror._constructor_
       - title: Colors
         url: /pages/api/node-core-library.colors
         subitems:
@@ -2501,6 +2562,8 @@ api_nav:
       - title: IJsonFileStringifyOptions
         url: /pages/api/node-core-library.ijsonfilestringifyoptions
         subitems:
+          - title: headerComment
+            url: /pages/api/node-core-library.ijsonfilestringifyoptions.headercomment
           - title: newlineConversion
             url: /pages/api/node-core-library.ijsonfilestringifyoptions.newlineconversion
           - title: prettyFormatting
@@ -2893,6 +2956,13 @@ api_nav:
             url: /pages/api/node-core-library.text.truncatewithellipsis
       - title: TextAttribute
         url: /pages/api/node-core-library.textattribute
+      - title: TypeUuid
+        url: /pages/api/node-core-library.typeuuid
+        subitems:
+          - title: isInstanceOf
+            url: /pages/api/node-core-library.typeuuid.isinstanceof
+          - title: registerClass
+            url: /pages/api/node-core-library.typeuuid.registerclass
   - title: '@rushstack/package-deps-hash'
     url: /pages/api/package-deps-hash
     subitems:
