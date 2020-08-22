@@ -38,9 +38,9 @@ export declare class StringBufferTerminalProvider implements ITerminalProvider
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [getErrorOutput()](./node-core-library.stringbufferterminalprovider.geterroroutput.md) |  | <b><i>(BETA)</i></b> Get everything that has been written at error-level severity. |
-|  [getOutput()](./node-core-library.stringbufferterminalprovider.getoutput.md) |  | <b><i>(BETA)</i></b> Get everything that has been written at log-level severity. |
-|  [getVerbose()](./node-core-library.stringbufferterminalprovider.getverbose.md) |  | <b><i>(BETA)</i></b> Get everything that has been written at verbose-level severity. |
-|  [getWarningOutput()](./node-core-library.stringbufferterminalprovider.getwarningoutput.md) |  | <b><i>(BETA)</i></b> Get everything that has been written at warning-level severity. |
+|  [getErrorOutput(options)](./node-core-library.stringbufferterminalprovider.geterroroutput.md) |  | <b><i>(BETA)</i></b> Get everything that has been written at error-level severity. |
+|  [getOutput(options)](./node-core-library.stringbufferterminalprovider.getoutput.md) |  | <b><i>(BETA)</i></b> Get everything that has been written at log-level severity. |
+|  [getVerbose(options)](./node-core-library.stringbufferterminalprovider.getverbose.md) |  | <b><i>(BETA)</i></b> Get everything that has been written at verbose-level severity. |
+|  [getWarningOutput(options)](./node-core-library.stringbufferterminalprovider.getwarningoutput.md) |  | <b><i>(BETA)</i></b> Get everything that has been written at warning-level severity. |
 |  [write(data, severity)](./node-core-library.stringbufferterminalprovider.write.md) |  | <b><i>(BETA)</i></b> This function gets called on every terminal provider upon every message function call on the terminal instance. |
 

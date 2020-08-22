@@ -2259,6 +2259,8 @@ api_nav:
             url: /pages/api/node-core-library.colors.magenta
           - title: magentaBackground
             url: /pages/api/node-core-library.colors.magentabackground
+          - title: normalizeColorTokensForTest
+            url: /pages/api/node-core-library.colors.normalizecolortokensfortest
           - title: red
             url: /pages/api/node-core-library.colors.red
           - title: redBackground
@@ -2583,6 +2585,11 @@ api_nav:
         subitems:
           - title: customErrorHeader
             url: /pages/api/node-core-library.ijsonschemavalidateoptions.customerrorheader
+      - title: Import
+        url: /pages/api/node-core-library.import
+        subitems:
+          - title: lazy
+            url: /pages/api/node-core-library.import.lazy
       - title: INodePackageJson
         url: /pages/api/node-core-library.inodepackagejson
         subitems:
@@ -2671,6 +2678,11 @@ api_nav:
             url: /pages/api/node-core-library.iprotectablemapparameters.ondelete
           - title: onSet
             url: /pages/api/node-core-library.iprotectablemapparameters.onset
+      - title: IStringBufferOutputOptions
+        url: /pages/api/node-core-library.istringbufferoutputoptions
+        subitems:
+          - title: normalizeSpecialCharacters
+            url: /pages/api/node-core-library.istringbufferoutputoptions.normalizespecialcharacters
       - title: IStringBuilder
         url: /pages/api/node-core-library.istringbuilder
         subitems:
@@ -2714,6 +2726,8 @@ api_nav:
             url: /pages/api/node-core-library.jsonfile.updatestring
           - title: validateNoUndefinedMembers
             url: /pages/api/node-core-library.jsonfile.validatenoundefinedmembers
+      - title: JsonNull
+        url: /pages/api/node-core-library.jsonnull
       - title: JsonObject
         url: /pages/api/node-core-library.jsonobject
       - title: JsonSchema
@@ -3029,12 +3043,16 @@ api_nav:
             url: /pages/api/ts-command-line.commandlinechoiceparameter.alternatives
           - title: appendToArgList
             url: /pages/api/ts-command-line.commandlinechoiceparameter.appendtoarglist
+          - title: completions
+            url: /pages/api/ts-command-line.commandlinechoiceparameter.completions
           - title: defaultValue
             url: /pages/api/ts-command-line.commandlinechoiceparameter.defaultvalue
           - title: kind
             url: /pages/api/ts-command-line.commandlinechoiceparameter.kind
           - title: value
             url: /pages/api/ts-command-line.commandlinechoiceparameter.value
+      - title: CommandLineConstants
+        url: /pages/api/ts-command-line.commandlineconstants
       - title: CommandLineFlagParameter
         url: /pages/api/ts-command-line.commandlineflagparameter
         subitems:
@@ -3044,6 +3062,11 @@ api_nav:
             url: /pages/api/ts-command-line.commandlineflagparameter.kind
           - title: value
             url: /pages/api/ts-command-line.commandlineflagparameter.value
+      - title: CommandLineHelper
+        url: /pages/api/ts-command-line.commandlinehelper
+        subitems:
+          - title: isTabCompletionActionRequest
+            url: /pages/api/ts-command-line.commandlinehelper.istabcompletionactionrequest
       - title: CommandLineIntegerParameter
         url: /pages/api/ts-command-line.commandlineintegerparameter
         subitems:
@@ -3074,6 +3097,8 @@ api_nav:
             url: /pages/api/ts-command-line.commandlineparameter.required
           - title: shortName
             url: /pages/api/ts-command-line.commandlineparameter.shortname
+          - title: undocumentedSynonyms
+            url: /pages/api/ts-command-line.commandlineparameter.undocumentedsynonyms
           - title: validateDefaultValue
             url: /pages/api/ts-command-line.commandlineparameter.validatedefaultvalue
       - title: CommandLineParameterKind
@@ -3116,6 +3141,8 @@ api_nav:
         subitems:
           - title: argumentName
             url: /pages/api/ts-command-line.commandlineparameterwithargument.argumentname
+          - title: completions
+            url: /pages/api/ts-command-line.commandlineparameterwithargument.completions
       - title: CommandLineParser
         url: /pages/api/ts-command-line.commandlineparser
         subitems:
@@ -3135,10 +3162,6 @@ api_nav:
             url: /pages/api/ts-command-line.commandlineparser.onexecute
           - title: selectedAction
             url: /pages/api/ts-command-line.commandlineparser.selectedaction
-          - title: toolDescription
-            url: /pages/api/ts-command-line.commandlineparser.tooldescription
-          - title: toolFilename
-            url: /pages/api/ts-command-line.commandlineparser.toolfilename
           - title: tryGetAction
             url: /pages/api/ts-command-line.commandlineparser.trygetaction
       - title: CommandLineRemainder
@@ -3195,11 +3218,15 @@ api_nav:
             url: /pages/api/ts-command-line.ibasecommandlinedefinition.parametershortname
           - title: required
             url: /pages/api/ts-command-line.ibasecommandlinedefinition.required
+          - title: undocumentedSynonyms
+            url: /pages/api/ts-command-line.ibasecommandlinedefinition.undocumentedsynonyms
       - title: IBaseCommandLineDefinitionWithArgument
         url: /pages/api/ts-command-line.ibasecommandlinedefinitionwithargument
         subitems:
           - title: argumentName
             url: /pages/api/ts-command-line.ibasecommandlinedefinitionwithargument.argumentname
+          - title: completions
+            url: /pages/api/ts-command-line.ibasecommandlinedefinitionwithargument.completions
       - title: ICommandLineActionOptions
         url: /pages/api/ts-command-line.icommandlineactionoptions
         subitems:
@@ -3214,6 +3241,8 @@ api_nav:
         subitems:
           - title: alternatives
             url: /pages/api/ts-command-line.icommandlinechoicedefinition.alternatives
+          - title: completions
+            url: /pages/api/ts-command-line.icommandlinechoicedefinition.completions
           - title: defaultValue
             url: /pages/api/ts-command-line.icommandlinechoicedefinition.defaultvalue
       - title: ICommandLineFlagDefinition
@@ -3226,6 +3255,8 @@ api_nav:
       - title: ICommandLineParserOptions
         url: /pages/api/ts-command-line.icommandlineparseroptions
         subitems:
+          - title: enableTabCompletionAction
+            url: /pages/api/ts-command-line.icommandlineparseroptions.enabletabcompletionaction
           - title: toolDescription
             url: /pages/api/ts-command-line.icommandlineparseroptions.tooldescription
           - title: toolFilename

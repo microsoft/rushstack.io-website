@@ -17,8 +17,15 @@ Get everything that has been written at verbose-level severity.
 <b>Signature:</b>
 
 ```typescript
-getVerbose(): string;
+getVerbose(options?: IStringBufferOutputOptions): string;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IStringBufferOutputOptions](./node-core-library.istringbufferoutputoptions.md) |  |
+
 <b>Returns:</b>
 
 string

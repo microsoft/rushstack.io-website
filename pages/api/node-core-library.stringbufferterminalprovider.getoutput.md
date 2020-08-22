@@ -17,8 +17,15 @@ Get everything that has been written at log-level severity.
 <b>Signature:</b>
 
 ```typescript
-getOutput(): string;
+getOutput(options?: IStringBufferOutputOptions): string;
 ```
+
+## Parameters
+
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  options | [IStringBufferOutputOptions](./node-core-library.istringbufferoutputoptions.md) |  |
+
 <b>Returns:</b>
 
 string

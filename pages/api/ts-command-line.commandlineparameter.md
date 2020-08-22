@@ -31,6 +31,7 @@ The constructor for this class is marked as internal. Third-party code should no
 |  [longName](./ts-command-line.commandlineparameter.longname.md) |  | string | The long name of the flag including double dashes, e.g. "--do-something" |
 |  [required](./ts-command-line.commandlineparameter.required.md) |  | boolean | If true, then an error occurs if the parameter was not included on the command-line. |
 |  [shortName](./ts-command-line.commandlineparameter.shortname.md) |  | string \| undefined | An optional short name for the flag including the dash, e.g. "-d" |
+|  [undocumentedSynonyms](./ts-command-line.commandlineparameter.undocumentedsynonyms.md) |  | string\[\] \| undefined | Specifies additional names for this parameter that are accepted but not displayed in the command line help. |
 
 ## Methods
 

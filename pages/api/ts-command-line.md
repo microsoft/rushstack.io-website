@@ -18,6 +18,7 @@ An object-oriented command-line parser for TypeScript projects.
 |  [CommandLineAction](./ts-command-line.commandlineaction.md) | Represents a sub-command that is part of the CommandLineParser command line. Applications should create subclasses of CommandLineAction corresponding to each action that they want to expose.<!-- -->The action name should be comprised of lower case words separated by hyphens or colons. The name should include an English verb (e.g. "deploy"). Use a hyphen to separate words (e.g. "upload-docs"). A group of related commands can be prefixed with a colon (e.g. "docs:generate", "docs:deploy", "docs:serve", etc). |
 |  [CommandLineChoiceParameter](./ts-command-line.commandlinechoiceparameter.md) | The data type returned by [CommandLineParameterProvider.defineChoiceParameter()](./ts-command-line.commandlineparameterprovider.definechoiceparameter.md)<!-- -->. |
 |  [CommandLineFlagParameter](./ts-command-line.commandlineflagparameter.md) | The data type returned by [CommandLineParameterProvider.defineFlagParameter()](./ts-command-line.commandlineparameterprovider.defineflagparameter.md)<!-- -->. |
+|  [CommandLineHelper](./ts-command-line.commandlinehelper.md) | Helpers for working with the ts-command-line API. |
 |  [CommandLineIntegerParameter](./ts-command-line.commandlineintegerparameter.md) | The data type returned by [CommandLineParameterProvider.defineIntegerParameter()](./ts-command-line.commandlineparameterprovider.defineintegerparameter.md)<!-- -->. |
 |  [CommandLineParameter](./ts-command-line.commandlineparameter.md) | The base class for the various command-line parameter types. |
 |  [CommandLineParameterProvider](./ts-command-line.commandlineparameterprovider.md) | This is the common base class for CommandLineAction and CommandLineParser that provides functionality for defining command-line parameters. |
@@ -33,6 +34,7 @@ An object-oriented command-line parser for TypeScript projects.
 
 |  Enumeration | Description |
 |  --- | --- |
+|  [CommandLineConstants](./ts-command-line.commandlineconstants.md) | String constants for command line processing. |
 |  [CommandLineParameterKind](./ts-command-line.commandlineparameterkind.md) | Identifies the kind of a CommandLineParameter. |
 
 ## Interfaces

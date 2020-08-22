@@ -21,6 +21,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [Executable](./node-core-library.executable.md) | The Executable class provides a safe, portable, recommended solution for tools that need to launch child processes. |
 |  [FileSystem](./node-core-library.filesystem.md) | The FileSystem API provides a complete set of recommended operations for interacting with the file system. |
 |  [FileWriter](./node-core-library.filewriter.md) | API for interacting with file handles. |
+|  [Import](./node-core-library.import.md) | Helpers for resolving and importing Node.js modules. |
 |  [InternalError](./node-core-library.internalerror.md) | An <code>Error</code> subclass that should be thrown to report an unexpected state that may indicate a software defect. An application may handle this error by instructing the end user to report an issue to the application maintainers. |
 |  [JsonFile](./node-core-library.jsonfile.md) | Utilities for reading/writing JSON files. |
 |  [JsonSchema](./node-core-library.jsonschema.md) | Represents a JSON schema that can be used to validate JSON data files loaded by the JsonFile class. |
@@ -86,6 +87,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [IParsedPackageName](./node-core-library.iparsedpackagename.md) | A package name that has been separated into its scope and unscoped name. |
 |  [IParsedPackageNameOrError](./node-core-library.iparsedpackagenameorerror.md) | Result object returned by [PackageName.tryParse()](./node-core-library.packagename.tryparse.md) |
 |  [IProtectableMapParameters](./node-core-library.iprotectablemapparameters.md) | Constructor parameters for [ProtectableMap](./node-core-library.protectablemap.md) |
+|  [IStringBufferOutputOptions](./node-core-library.istringbufferoutputoptions.md) | <b><i>(BETA)</i></b> |
 |  [IStringBuilder](./node-core-library.istringbuilder.md) | An interface for a builder object that allows a large text string to be constructed incrementally by appending small chunks. |
 |  [ITerminalProvider](./node-core-library.iterminalprovider.md) | <b><i>(BETA)</i></b> Implement the interface to create a terminal provider. Terminal providers can be registered to a [Terminal](./node-core-library.terminal.md) instance to receive messages. |
 
@@ -98,6 +100,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [FileSystemCopyFilesAsyncFilter](./node-core-library.filesystemcopyfilesasyncfilter.md) | Callback function type for [IFileSystemCopyFilesAsyncOptions.filter](./node-core-library.ifilesystemcopyfilesasyncoptions.filter.md) |
 |  [FileSystemCopyFilesFilter](./node-core-library.filesystemcopyfilesfilter.md) | Callback function type for [IFileSystemCopyFilesOptions.filter](./node-core-library.ifilesystemcopyfilesoptions.filter.md) |
 |  [FileSystemStats](./node-core-library.filesystemstats.md) | An alias for the Node.js <code>fs.Stats</code> object. |
+|  [JsonNull](./node-core-library.jsonnull.md) | The Rush Stack lint rules discourage usage of <code>null</code>. However, JSON parsers always return JavaScript's <code>null</code> to keep the two syntaxes consistent. When creating interfaces that describe JSON structures, use <code>JsonNull</code> to avoid triggering the lint rule. Do not use <code>JsonNull</code> for any other purpose. |
 |  [JsonObject](./node-core-library.jsonobject.md) | Represents a JSON-serializable object whose type has not been determined yet. |
 |  [LegacyCallback](./node-core-library.legacycallback.md) | Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md)<!-- -->. |
 

@@ -26,4 +26,5 @@ export interface IBaseCommandLineDefinition
 |  [parameterLongName](./ts-command-line.ibasecommandlinedefinition.parameterlongname.md) | string | The long name of the flag including double dashes, e.g. "--do-something" |
 |  [parameterShortName](./ts-command-line.ibasecommandlinedefinition.parametershortname.md) | string | An optional short name for the flag including the dash, e.g. "-d" |
 |  [required](./ts-command-line.ibasecommandlinedefinition.required.md) | boolean | If true, then an error occurs if the parameter was not included on the command-line. |
+|  [undocumentedSynonyms](./ts-command-line.ibasecommandlinedefinition.undocumentedsynonyms.md) | string\[\] | Specifies additional names for this parameter that are accepted but not displayed in the command line help. |
 
