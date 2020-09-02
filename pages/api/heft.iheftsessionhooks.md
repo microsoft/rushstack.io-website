@@ -22,7 +22,6 @@ export interface IHeftSessionHooks
 |  --- | --- | --- |
 |  [build](./heft.iheftsessionhooks.build.md) | SyncHook&lt;[IBuildStageContext](./heft.ibuildstagecontext.md)<!-- -->&gt; |  |
 |  [clean](./heft.iheftsessionhooks.clean.md) | SyncHook&lt;[ICleanStageContext](./heft.icleanstagecontext.md)<!-- -->&gt; |  |
-|  [devDeploy](./heft.iheftsessionhooks.devdeploy.md) | SyncHook&lt;[IDevDeployStageContext](./heft.idevdeploystagecontext.md)<!-- -->&gt; |  |
 |  [metricsCollector](./heft.iheftsessionhooks.metricscollector.md) | [MetricsCollectorHooks](./heft.metricscollectorhooks.md) |  |
 |  [test](./heft.iheftsessionhooks.test.md) | SyncHook&lt;[ITestStageContext](./heft.iteststagecontext.md)<!-- -->&gt; |  |
 

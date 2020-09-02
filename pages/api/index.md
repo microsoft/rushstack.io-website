@@ -19,6 +19,7 @@ improve_this_button: false
 |  [@microsoft/rush-lib](./rush-lib.md) | A library for writing scripts that interact with the [Rush](https://rushjs.io/) tool. |
 |  [@rushstack/debug-certificate-manager](./debug-certificate-manager.md) | This package is used to manage debug certificates for development servers. It is used by \[@<!-- -->microsoft/gulp-core-build-serve\](https://www.npmjs.com/package/<!-- -->@<!-- -->microsoft/gulp-core-build-serve) to generate and trust a certificate when HTTPS is turned on.<!-- -->This package provides the following utilities: - <code>CertificateStore</code> to handle retrieving and saving a debug certificate. - <code>CertificateManager</code> is a utility class containing the following public methods: \| - <code>ensureCertificate</code> will find or optionally create a debug certificate and trust it. \| - <code>untrustCertificate</code> will untrust a debug certificate. |
 |  [@rushstack/heft](./heft.md) |  |
+|  [@rushstack/heft-config-file](./heft-config-file.md) |  |
 |  [@rushstack/localization-plugin](./localization-plugin.md) |  |
 |  [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) |  |
 |  [@rushstack/node-core-library](./node-core-library.md) | Core libraries that every NodeJS toolchain project should use. |

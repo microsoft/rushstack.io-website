@@ -25,6 +25,8 @@ The constructor for this class is marked as internal. Third-party code should no
 |  --- | --- | --- | --- |
 |  [debugMode](./heft.heftsession.debugmode.md) |  | boolean | If set to true, the build is running with the --debug flag |
 |  [hooks](./heft.heftsession.hooks.md) |  | [IHeftSessionHooks](./heft.iheftsessionhooks.md) |  |
+|  [registerAction](./heft.heftsession.registeraction.md) |  | [RegisterAction](./heft.registeraction.md) | <b><i>(BETA)</i></b> |
+|  [requestAccessToPluginByName](./heft.heftsession.requestaccesstopluginbyname.md) |  | [RequestAccessToPluginByNameCallback](./heft.requestaccesstopluginbynamecallback.md) | <b><i>(BETA)</i></b> Call this function to receive a callback with the plugin if and after the specified plugin has been applied. This is used to tap hooks on another plugin. |
 
 ## Methods
 
