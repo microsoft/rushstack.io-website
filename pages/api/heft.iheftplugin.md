@@ -20,6 +20,12 @@ export interface IHeftPlugin<TOptions = void>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [apply](./heft.iheftplugin.apply.md) | (heftSession: [HeftSession](./heft.heftsession.md)<!-- -->, heftConfiguration: [HeftConfiguration](./heft.heftconfiguration.md)<!-- -->, options?: TOptions) =&gt; void |  |
-|  [displayName](./heft.iheftplugin.displayname.md) | string |  |
+|  [accessor](./heft.iheftplugin.accessor.md) | object |  |
+|  [pluginName](./heft.iheftplugin.pluginname.md) | string |  |
+
+## Methods
+
+|  Method | Description |
+|  --- | --- |
+|  [apply(heftSession, heftConfiguration, options)](./heft.iheftplugin.apply.md) |  |
 

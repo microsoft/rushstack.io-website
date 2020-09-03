@@ -22,10 +22,10 @@ export interface ITestStageProperties
 |  --- | --- | --- |
 |  [debugHeftReporter](./heft.iteststageproperties.debugheftreporter.md) | boolean \| undefined |  |
 |  [findRelatedTests](./heft.iteststageproperties.findrelatedtests.md) | ReadonlyArray&lt;string&gt; \| undefined |  |
-|  [production](./heft.iteststageproperties.production.md) | boolean |  |
 |  [silent](./heft.iteststageproperties.silent.md) | boolean \| undefined |  |
 |  [testNamePattern](./heft.iteststageproperties.testnamepattern.md) | string \| undefined |  |
 |  [testPathPattern](./heft.iteststageproperties.testpathpattern.md) | ReadonlyArray&lt;string&gt; \| undefined |  |
 |  [testTimeout](./heft.iteststageproperties.testtimeout.md) | number \| undefined |  |
+|  [updateSnapshots](./heft.iteststageproperties.updatesnapshots.md) | boolean |  |
 |  [watchMode](./heft.iteststageproperties.watchmode.md) | boolean |  |
 

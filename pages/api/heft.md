@@ -18,7 +18,6 @@ improve_this_button: false
 |  [BundleSubstageHooks](./heft.bundlesubstagehooks.md) |  |
 |  [CleanStageHooks](./heft.cleanstagehooks.md) |  |
 |  [CompileSubstageHooks](./heft.compilesubstagehooks.md) |  |
-|  [DevDeployStageHooks](./heft.devdeploystagehooks.md) |  |
 |  [HeftConfiguration](./heft.heftconfiguration.md) |  |
 |  [HeftSession](./heft.heftsession.md) |  |
 |  [MetricsCollectorHooks](./heft.metricscollectorhooks.md) | Tap these hooks to record build metrics, to a file, for example. |
@@ -42,8 +41,12 @@ improve_this_button: false
 |  [ICompileSubstage](./heft.icompilesubstage.md) |  |
 |  [ICompileSubstageProperties](./heft.icompilesubstageproperties.md) |  |
 |  [ICopyStaticAssetsConfiguration](./heft.icopystaticassetsconfiguration.md) |  |
-|  [IDevDeployStageContext](./heft.idevdeploystagecontext.md) |  |
-|  [IDevDeployStageProperties](./heft.idevdeploystageproperties.md) |  |
+|  [ICustomActionOptions](./heft.icustomactionoptions.md) | <b><i>(BETA)</i></b> |
+|  [ICustomActionParameterBase](./heft.icustomactionparameterbase.md) | <b><i>(BETA)</i></b> |
+|  [ICustomActionParameterFlag](./heft.icustomactionparameterflag.md) | <b><i>(BETA)</i></b> |
+|  [ICustomActionParameterInteger](./heft.icustomactionparameterinteger.md) | <b><i>(BETA)</i></b> |
+|  [ICustomActionParameterString](./heft.icustomactionparameterstring.md) | <b><i>(BETA)</i></b> |
+|  [ICustomActionParameterStringList](./heft.icustomactionparameterstringlist.md) | <b><i>(BETA)</i></b> |
 |  [IEmitModuleKindBase](./heft.iemitmodulekindbase.md) |  |
 |  [IHeftActionConfiguration](./heft.iheftactionconfiguration.md) | The base action configuration that all custom action configuration files should inherit from. |
 |  [IHeftActionConfigurationOptions](./heft.iheftactionconfigurationoptions.md) | Options to be used when retrieving the action configuration. |
@@ -66,6 +69,10 @@ improve_this_button: false
 |  Type Alias | Description |
 |  --- | --- |
 |  [CopyFromCacheMode](./heft.copyfromcachemode.md) |  |
+|  [CustomActionParameterType](./heft.customactionparametertype.md) | <b><i>(BETA)</i></b> |
+|  [ICustomActionParameter](./heft.icustomactionparameter.md) | <b><i>(BETA)</i></b> |
 |  [IEmitModuleKind](./heft.iemitmodulekind.md) |  |
 |  [IWebpackConfiguration](./heft.iwebpackconfiguration.md) |  |
+|  [RegisterAction](./heft.registeraction.md) | <b><i>(BETA)</i></b> |
+|  [RequestAccessToPluginByNameCallback](./heft.requestaccesstopluginbynamecallback.md) | <b><i>(BETA)</i></b> |
 

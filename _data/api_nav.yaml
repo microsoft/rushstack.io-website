@@ -1599,8 +1599,8 @@ api_nav:
             url: /pages/api/heft.compilesubstagehooks.configuretypescript
       - title: CopyFromCacheMode
         url: /pages/api/heft.copyfromcachemode
-      - title: DevDeployStageHooks
-        url: /pages/api/heft.devdeploystagehooks
+      - title: CustomActionParameterType
+        url: /pages/api/heft.customactionparametertype
       - title: HeftConfiguration
         url: /pages/api/heft.heftconfiguration
         subitems:
@@ -1627,6 +1627,10 @@ api_nav:
             url: /pages/api/heft.heftsession.debugmode
           - title: hooks
             url: /pages/api/heft.heftsession.hooks
+          - title: registerAction
+            url: /pages/api/heft.heftsession.registeraction
+          - title: requestAccessToPluginByName
+            url: /pages/api/heft.heftsession.requestaccesstopluginbyname
           - title: requestScopedLogger
             url: /pages/api/heft.heftsession.requestscopedlogger
       - title: IApiExtractorConfiguration
@@ -1703,10 +1707,50 @@ api_nav:
             url: /pages/api/heft.icopystaticassetsconfiguration.destinationfoldernames
           - title: sourceFolderName
             url: /pages/api/heft.icopystaticassetsconfiguration.sourcefoldername
-      - title: IDevDeployStageContext
-        url: /pages/api/heft.idevdeploystagecontext
-      - title: IDevDeployStageProperties
-        url: /pages/api/heft.idevdeploystageproperties
+      - title: ICustomActionOptions
+        url: /pages/api/heft.icustomactionoptions
+        subitems:
+          - title: actionName
+            url: /pages/api/heft.icustomactionoptions.actionname
+          - title: callback
+            url: /pages/api/heft.icustomactionoptions.callback
+          - title: documentation
+            url: /pages/api/heft.icustomactionoptions.documentation
+          - title: parameters
+            url: /pages/api/heft.icustomactionoptions.parameters
+          - title: summary
+            url: /pages/api/heft.icustomactionoptions.summary
+      - title: ICustomActionParameter
+        url: /pages/api/heft.icustomactionparameter
+      - title: ICustomActionParameterBase
+        url: /pages/api/heft.icustomactionparameterbase
+        subitems:
+          - title: description
+            url: /pages/api/heft.icustomactionparameterbase.description
+          - title: kind
+            url: /pages/api/heft.icustomactionparameterbase.kind
+          - title: paramterLongName
+            url: /pages/api/heft.icustomactionparameterbase.paramterlongname
+      - title: ICustomActionParameterFlag
+        url: /pages/api/heft.icustomactionparameterflag
+        subitems:
+          - title: kind
+            url: /pages/api/heft.icustomactionparameterflag.kind
+      - title: ICustomActionParameterInteger
+        url: /pages/api/heft.icustomactionparameterinteger
+        subitems:
+          - title: kind
+            url: /pages/api/heft.icustomactionparameterinteger.kind
+      - title: ICustomActionParameterString
+        url: /pages/api/heft.icustomactionparameterstring
+        subitems:
+          - title: kind
+            url: /pages/api/heft.icustomactionparameterstring.kind
+      - title: ICustomActionParameterStringList
+        url: /pages/api/heft.icustomactionparameterstringlist
+        subitems:
+          - title: kind
+            url: /pages/api/heft.icustomactionparameterstringlist.kind
       - title: IEmitModuleKind
         url: /pages/api/heft.iemitmodulekind
       - title: IEmitModuleKindBase
@@ -1726,10 +1770,12 @@ api_nav:
       - title: IHeftPlugin
         url: /pages/api/heft.iheftplugin
         subitems:
+          - title: accessor
+            url: /pages/api/heft.iheftplugin.accessor
           - title: apply
             url: /pages/api/heft.iheftplugin.apply
-          - title: displayName
-            url: /pages/api/heft.iheftplugin.displayname
+          - title: pluginName
+            url: /pages/api/heft.iheftplugin.pluginname
       - title: IHeftSessionHooks
         url: /pages/api/heft.iheftsessionhooks
         subitems:
@@ -1737,8 +1783,6 @@ api_nav:
             url: /pages/api/heft.iheftsessionhooks.build
           - title: clean
             url: /pages/api/heft.iheftsessionhooks.clean
-          - title: devDeploy
-            url: /pages/api/heft.iheftsessionhooks.devdeploy
           - title: metricsCollector
             url: /pages/api/heft.iheftsessionhooks.metricscollector
           - title: test
@@ -1814,8 +1858,6 @@ api_nav:
             url: /pages/api/heft.iteststageproperties.debugheftreporter
           - title: findRelatedTests
             url: /pages/api/heft.iteststageproperties.findrelatedtests
-          - title: production
-            url: /pages/api/heft.iteststageproperties.production
           - title: silent
             url: /pages/api/heft.iteststageproperties.silent
           - title: testNamePattern
@@ -1824,6 +1866,8 @@ api_nav:
             url: /pages/api/heft.iteststageproperties.testpathpattern
           - title: testTimeout
             url: /pages/api/heft.iteststageproperties.testtimeout
+          - title: updateSnapshots
+            url: /pages/api/heft.iteststageproperties.updatesnapshots
           - title: watchMode
             url: /pages/api/heft.iteststageproperties.watchmode
       - title: ITypeScriptConfiguration
@@ -1844,6 +1888,10 @@ api_nav:
             url: /pages/api/heft.metricscollectorhooks.flushandteardown
           - title: recordMetric
             url: /pages/api/heft.metricscollectorhooks.recordmetric
+      - title: RegisterAction
+        url: /pages/api/heft.registeraction
+      - title: RequestAccessToPluginByNameCallback
+        url: /pages/api/heft.requestaccesstopluginbynamecallback
       - title: ScopedLogger
         url: /pages/api/heft.scopedlogger
         subitems:
@@ -1877,6 +1925,49 @@ api_nav:
             url: /pages/api/heft.teststagehooks.configuretest
           - title: run
             url: /pages/api/heft.teststagehooks.run
+  - title: '@rushstack/heft-config-file'
+    url: /pages/api/heft-config-file
+    subitems:
+      - title: ConfigurationFile
+        url: /pages/api/heft-config-file.configurationfile
+        subitems:
+          - title: (constructor)
+            url: /pages/api/heft-config-file.configurationfile._constructor_
+          - title: (constructor)
+            url: /pages/api/heft-config-file.configurationfile._constructor__1
+          - title: getObjectSourceFilePath
+            url: /pages/api/heft-config-file.configurationfile.getobjectsourcefilepath
+          - title: getPropertyOriginalValue
+            url: /pages/api/heft-config-file.configurationfile.getpropertyoriginalvalue
+          - title: loadConfigurationFileAsync
+            url: /pages/api/heft-config-file.configurationfile.loadconfigurationfileasync
+      - title: IConfigurationFileOptions
+        url: /pages/api/heft-config-file.iconfigurationfileoptions
+        subitems:
+          - title: jsonPathMetadata
+            url: /pages/api/heft-config-file.iconfigurationfileoptions.jsonpathmetadata
+          - title: propertyInheritanceTypes
+            url: /pages/api/heft-config-file.iconfigurationfileoptions.propertyinheritancetypes
+      - title: IJsonPathMetadata
+        url: /pages/api/heft-config-file.ijsonpathmetadata
+        subitems:
+          - title: pathResolutionMethod
+            url: /pages/api/heft-config-file.ijsonpathmetadata.pathresolutionmethod
+      - title: IJsonPathsMetadata
+        url: /pages/api/heft-config-file.ijsonpathsmetadata
+      - title: InheritanceType
+        url: /pages/api/heft-config-file.inheritancetype
+      - title: IOriginalValueOptions
+        url: /pages/api/heft-config-file.ioriginalvalueoptions
+        subitems:
+          - title: parentObject
+            url: /pages/api/heft-config-file.ioriginalvalueoptions.parentobject
+          - title: propertyName
+            url: /pages/api/heft-config-file.ioriginalvalueoptions.propertyname
+      - title: IPropertyInheritanceTypes
+        url: /pages/api/heft-config-file.ipropertyinheritancetypes
+      - title: PathResolutionMethod
+        url: /pages/api/heft-config-file.pathresolutionmethod
   - title: '@rushstack/localization-plugin'
     url: /pages/api/localization-plugin
     subitems:
@@ -2552,6 +2643,25 @@ api_nav:
             url: /pages/api/node-core-library.ifilewriterflags.append
           - title: exclusive
             url: /pages/api/node-core-library.ifilewriterflags.exclusive
+      - title: IImportResolveModuleOptions
+        url: /pages/api/node-core-library.iimportresolvemoduleoptions
+        subitems:
+          - title: modulePath
+            url: /pages/api/node-core-library.iimportresolvemoduleoptions.modulepath
+      - title: IImportResolveOptions
+        url: /pages/api/node-core-library.iimportresolveoptions
+        subitems:
+          - title: allowSelfReference
+            url: /pages/api/node-core-library.iimportresolveoptions.allowselfreference
+          - title: baseFolderPath
+            url: /pages/api/node-core-library.iimportresolveoptions.basefolderpath
+          - title: includeSystemModules
+            url: /pages/api/node-core-library.iimportresolveoptions.includesystemmodules
+      - title: IImportResolvePackageOptions
+        url: /pages/api/node-core-library.iimportresolvepackageoptions
+        subitems:
+          - title: packageName
+            url: /pages/api/node-core-library.iimportresolvepackageoptions.packagename
       - title: IJsonFileSaveOptions
         url: /pages/api/node-core-library.ijsonfilesaveoptions
         subitems:
@@ -2590,6 +2700,10 @@ api_nav:
         subitems:
           - title: lazy
             url: /pages/api/node-core-library.import.lazy
+          - title: resolveModule
+            url: /pages/api/node-core-library.import.resolvemodule
+          - title: resolvePackage
+            url: /pages/api/node-core-library.import.resolvepackage
       - title: INodePackageJson
         url: /pages/api/node-core-library.inodepackagejson
         subitems:
@@ -2797,6 +2911,8 @@ api_nav:
             url: /pages/api/node-core-library.packagejsonlookup._constructor_
           - title: clearCache
             url: /pages/api/node-core-library.packagejsonlookup.clearcache
+          - title: instance
+            url: /pages/api/node-core-library.packagejsonlookup.instance
           - title: loadNodePackageJson
             url: /pages/api/node-core-library.packagejsonlookup.loadnodepackagejson
           - title: loadOwnPackageJson

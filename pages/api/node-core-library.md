@@ -73,6 +73,9 @@ Core libraries that every NodeJS toolchain project should use.
 |  [IFileSystemUpdateTimeParameters](./node-core-library.ifilesystemupdatetimeparameters.md) | The options for [FileSystem.updateTimes()](./node-core-library.filesystem.updatetimes.md) Both times must be specified. |
 |  [IFileSystemWriteFileOptions](./node-core-library.ifilesystemwritefileoptions.md) | The options for [FileSystem.writeFile()](./node-core-library.filesystem.writefile.md) |
 |  [IFileWriterFlags](./node-core-library.ifilewriterflags.md) | Interface which represents the flags about which mode the file should be opened in. |
+|  [IImportResolveModuleOptions](./node-core-library.iimportresolvemoduleoptions.md) | Options for [Import.resolveModule()](./node-core-library.import.resolvemodule.md) |
+|  [IImportResolveOptions](./node-core-library.iimportresolveoptions.md) | Common options shared by [IImportResolveModuleOptions](./node-core-library.iimportresolvemoduleoptions.md) and [IImportResolvePackageOptions](./node-core-library.iimportresolvepackageoptions.md) |
+|  [IImportResolvePackageOptions](./node-core-library.iimportresolvepackageoptions.md) | Options for [Import.resolvePackage()](./node-core-library.import.resolvepackage.md) |
 |  [IJsonFileSaveOptions](./node-core-library.ijsonfilesaveoptions.md) | Options for JsonFile.saveJsonFile() |
 |  [IJsonFileStringifyOptions](./node-core-library.ijsonfilestringifyoptions.md) | Options for JsonFile.stringify() |
 |  [IJsonSchemaErrorInfo](./node-core-library.ijsonschemaerrorinfo.md) | Callback function arguments for JsonSchema.validateObjectWithCallback(); |
