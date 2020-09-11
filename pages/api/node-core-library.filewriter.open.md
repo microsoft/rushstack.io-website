@@ -14,14 +14,14 @@ Opens a new file handle to the file at the specified path and given mode. Behind
 <b>Signature:</b>
 
 ```typescript
-static open(path: string, flags?: IFileWriterFlags): FileWriter;
+static open(filePath: string, flags?: IFileWriterFlags): FileWriter;
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  path | string | The absolute or relative path to the file handle that should be opened. |
+|  filePath | string | The absolute or relative path to the file handle that should be opened. |
 |  flags | [IFileWriterFlags](./node-core-library.ifilewriterflags.md) | The flags for opening the handle |
 
 <b>Returns:</b>

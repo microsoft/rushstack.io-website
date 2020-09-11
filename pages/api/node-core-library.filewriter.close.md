@@ -20,3 +20,7 @@ close(): void;
 
 void
 
+## Remarks
+
+The `close()` method can be called more than once; additional calls are ignored.
+

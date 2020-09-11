@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## stream-collator package
 
-This library enables a tool to display live console output from multiple asynchronous processes, while ensuring that their output does not get jumbled together.
+This library enables a tool to display live console output from multiple concurrent processes, while ensuring that their output does not get jumbled together.
 
 ## Remarks
 
@@ -19,11 +19,13 @@ For more info, please see the package [README](https://www.npmjs.com/package/@ru
 
 |  Class | Description |
 |  --- | --- |
-|  [Interleaver](./stream-collator.interleaver.md) | A static class which manages the output of multiple threads. |
+|  [CollatedTerminal](./stream-collator.collatedterminal.md) | <b><i>(BETA)</i></b> This API was introduced as a temporary measure. |
+|  [CollatedWriter](./stream-collator.collatedwriter.md) | <b><i>(BETA)</i></b> An writable interface for managing output of simultaneous processes. |
+|  [StreamCollator](./stream-collator.streamcollator.md) | <b><i>(BETA)</i></b> A static class which manages the output of multiple threads. |
 
 ## Interfaces
 
 |  Interface | Description |
 |  --- | --- |
-|  [ITaskWriter](./stream-collator.itaskwriter.md) | An writable interface for managing output of simultaneous processes. |
+|  [IStreamCollatorOptions](./stream-collator.istreamcollatoroptions.md) | <b><i>(BETA)</i></b> Constructor options for [StreamCollator](./stream-collator.streamcollator.md)<!-- -->. |
 

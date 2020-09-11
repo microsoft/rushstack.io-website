@@ -1858,6 +1858,8 @@ api_nav:
             url: /pages/api/heft.iteststageproperties.debugheftreporter
           - title: findRelatedTests
             url: /pages/api/heft.iteststageproperties.findrelatedtests
+          - title: maxWorkers
+            url: /pages/api/heft.iteststageproperties.maxworkers
           - title: silent
             url: /pages/api/heft.iteststageproperties.silent
           - title: testNamePattern
@@ -2313,6 +2315,15 @@ api_nav:
             url: /pages/api/node-core-library.alreadyreportederror._symbol.hasinstance_
           - title: (constructor)
             url: /pages/api/node-core-library.alreadyreportederror._constructor_
+      - title: AnsiEscape
+        url: /pages/api/node-core-library.ansiescape
+        subitems:
+          - title: formatForTests
+            url: /pages/api/node-core-library.ansiescape.formatfortests
+          - title: removeCodes
+            url: /pages/api/node-core-library.ansiescape.removecodes
+      - title: Brand
+        url: /pages/api/node-core-library.brand
       - title: Colors
         url: /pages/api/node-core-library.colors
         subitems:
@@ -2350,8 +2361,6 @@ api_nav:
             url: /pages/api/node-core-library.colors.magenta
           - title: magentaBackground
             url: /pages/api/node-core-library.colors.magentabackground
-          - title: normalizeColorTokensForTest
-            url: /pages/api/node-core-library.colors.normalizecolortokensfortest
           - title: red
             url: /pages/api/node-core-library.colors.red
           - title: redBackground
@@ -2514,12 +2523,19 @@ api_nav:
         subitems:
           - title: close
             url: /pages/api/node-core-library.filewriter.close
+          - title: filePath
+            url: /pages/api/node-core-library.filewriter.filepath
           - title: open
             url: /pages/api/node-core-library.filewriter.open
           - title: write
             url: /pages/api/node-core-library.filewriter.write
       - title: FolderConstants
         url: /pages/api/node-core-library.folderconstants
+      - title: IAnsiEscapeConvertForTestsOptions
+        url: /pages/api/node-core-library.iansiescapeconvertfortestsoptions
+        subitems:
+          - title: encodeNewlines
+            url: /pages/api/node-core-library.iansiescapeconvertfortestsoptions.encodenewlines
       - title: IColorableSequence
         url: /pages/api/node-core-library.icolorablesequence
         subitems:
@@ -3076,6 +3092,8 @@ api_nav:
             url: /pages/api/node-core-library.text.converttolf
           - title: ensureTrailingNewline
             url: /pages/api/node-core-library.text.ensuretrailingnewline
+          - title: getNewline
+            url: /pages/api/node-core-library.text.getnewline
           - title: padEnd
             url: /pages/api/node-core-library.text.padend
           - title: padStart
@@ -3110,30 +3128,267 @@ api_nav:
   - title: '@rushstack/stream-collator'
     url: /pages/api/stream-collator
     subitems:
-      - title: Interleaver
-        url: /pages/api/stream-collator.interleaver
+      - title: CollatedTerminal
+        url: /pages/api/stream-collator.collatedterminal
         subitems:
+          - title: (constructor)
+            url: /pages/api/stream-collator.collatedterminal._constructor_
+          - title: writeChunk
+            url: /pages/api/stream-collator.collatedterminal.writechunk
+          - title: writeStderrLine
+            url: /pages/api/stream-collator.collatedterminal.writestderrline
+          - title: writeStdoutLine
+            url: /pages/api/stream-collator.collatedterminal.writestdoutline
+      - title: CollatedWriter
+        url: /pages/api/stream-collator.collatedwriter
+        subitems:
+          - title: (constructor)
+            url: /pages/api/stream-collator.collatedwriter._constructor_
+          - title: bufferedChunks
+            url: /pages/api/stream-collator.collatedwriter.bufferedchunks
+          - title: isActive
+            url: /pages/api/stream-collator.collatedwriter.isactive
+          - title: onClose
+            url: /pages/api/stream-collator.collatedwriter.onclose
+          - title: onWriteChunk
+            url: /pages/api/stream-collator.collatedwriter.onwritechunk
+          - title: taskName
+            url: /pages/api/stream-collator.collatedwriter.taskname
+          - title: terminal
+            url: /pages/api/stream-collator.collatedwriter.terminal
+      - title: IStreamCollatorOptions
+        url: /pages/api/stream-collator.istreamcollatoroptions
+        subitems:
+          - title: destination
+            url: /pages/api/stream-collator.istreamcollatoroptions.destination
+          - title: onWriterActive
+            url: /pages/api/stream-collator.istreamcollatoroptions.onwriteractive
+      - title: StreamCollator
+        url: /pages/api/stream-collator.streamcollator
+        subitems:
+          - title: (constructor)
+            url: /pages/api/stream-collator.streamcollator._constructor_
+          - title: activeTaskName
+            url: /pages/api/stream-collator.streamcollator.activetaskname
+          - title: activeWriter
+            url: /pages/api/stream-collator.streamcollator.activewriter
+          - title: destination
+            url: /pages/api/stream-collator.streamcollator.destination
           - title: registerTask
-            url: /pages/api/stream-collator.interleaver.registertask
+            url: /pages/api/stream-collator.streamcollator.registertask
+          - title: terminal
+            url: /pages/api/stream-collator.streamcollator.terminal
+          - title: writers
+            url: /pages/api/stream-collator.streamcollator.writers
+  - title: '@rushstack/terminal'
+    url: /pages/api/terminal
+    subitems:
+      - title: CallbackWritable
+        url: /pages/api/terminal.callbackwritable
+        subitems:
+          - title: (constructor)
+            url: /pages/api/terminal.callbackwritable._constructor_
+          - title: onWriteChunk
+            url: /pages/api/terminal.callbackwritable.onwritechunk
+      - title: DiscardStdoutTransform
+        url: /pages/api/terminal.discardstdouttransform
+        subitems:
+          - title: (constructor)
+            url: /pages/api/terminal.discardstdouttransform._constructor_
+          - title: onWriteChunk
+            url: /pages/api/terminal.discardstdouttransform.onwritechunk
+      - title: ICallbackWritableOptions
+        url: /pages/api/terminal.icallbackwritableoptions
+        subitems:
+          - title: onWriteChunk
+            url: /pages/api/terminal.icallbackwritableoptions.onwritechunk
+      - title: IDiscardStdoutTransformOptions
+        url: /pages/api/terminal.idiscardstdouttransformoptions
+      - title: INormalizeNewlinesTextRewriterOptions
+        url: /pages/api/terminal.inormalizenewlinestextrewriteroptions
+        subitems:
+          - title: ensureNewlineAtEnd
+            url: /pages/api/terminal.inormalizenewlinestextrewriteroptions.ensurenewlineatend
+          - title: newlineKind
+            url: /pages/api/terminal.inormalizenewlinestextrewriteroptions.newlinekind
+      - title: ISplitterTransformOptions
+        url: /pages/api/terminal.isplittertransformoptions
+        subitems:
+          - title: destinations
+            url: /pages/api/terminal.isplittertransformoptions.destinations
+      - title: IStdioLineTransformOptions
+        url: /pages/api/terminal.istdiolinetransformoptions
+        subitems:
+          - title: newlineKind
+            url: /pages/api/terminal.istdiolinetransformoptions.newlinekind
+      - title: IStdioSummarizerOptions
+        url: /pages/api/terminal.istdiosummarizeroptions
+        subitems:
+          - title: leadingLines
+            url: /pages/api/terminal.istdiosummarizeroptions.leadinglines
+          - title: trailingLines
+            url: /pages/api/terminal.istdiosummarizeroptions.trailinglines
+      - title: ITerminalChunk
+        url: /pages/api/terminal.iterminalchunk
+        subitems:
+          - title: kind
+            url: /pages/api/terminal.iterminalchunk.kind
+          - title: text
+            url: /pages/api/terminal.iterminalchunk.text
+      - title: ITerminalTransformOptions
+        url: /pages/api/terminal.iterminaltransformoptions
+        subitems:
+          - title: destination
+            url: /pages/api/terminal.iterminaltransformoptions.destination
+          - title: preventDestinationAutoclose
+            url: /pages/api/terminal.iterminaltransformoptions.preventdestinationautoclose
+      - title: ITerminalWritableOptions
+        url: /pages/api/terminal.iterminalwritableoptions
+        subitems:
+          - title: preventAutoclose
+            url: /pages/api/terminal.iterminalwritableoptions.preventautoclose
+      - title: ITextRewriterTransformOptions
+        url: /pages/api/terminal.itextrewritertransformoptions
+        subitems:
+          - title: ensureNewlineAtEnd
+            url: /pages/api/terminal.itextrewritertransformoptions.ensurenewlineatend
+          - title: normalizeNewlines
+            url: /pages/api/terminal.itextrewritertransformoptions.normalizenewlines
+          - title: removeColors
+            url: /pages/api/terminal.itextrewritertransformoptions.removecolors
+          - title: textRewriters
+            url: /pages/api/terminal.itextrewritertransformoptions.textrewriters
+      - title: MockWritable
+        url: /pages/api/terminal.mockwritable
+        subitems:
+          - title: chunks
+            url: /pages/api/terminal.mockwritable.chunks
+          - title: getAllOutput
+            url: /pages/api/terminal.mockwritable.getalloutput
+          - title: getFormattedChunks
+            url: /pages/api/terminal.mockwritable.getformattedchunks
+          - title: onWriteChunk
+            url: /pages/api/terminal.mockwritable.onwritechunk
           - title: reset
-            url: /pages/api/stream-collator.interleaver.reset
-          - title: setStdOut
-            url: /pages/api/stream-collator.interleaver.setstdout
-      - title: ITaskWriter
-        url: /pages/api/stream-collator.itaskwriter
+            url: /pages/api/terminal.mockwritable.reset
+      - title: NormalizeNewlinesTextRewriter
+        url: /pages/api/terminal.normalizenewlinestextrewriter
+        subitems:
+          - title: (constructor)
+            url: /pages/api/terminal.normalizenewlinestextrewriter._constructor_
+          - title: close
+            url: /pages/api/terminal.normalizenewlinestextrewriter.close
+          - title: ensureNewlineAtEnd
+            url: /pages/api/terminal.normalizenewlinestextrewriter.ensurenewlineatend
+          - title: initialize
+            url: /pages/api/terminal.normalizenewlinestextrewriter.initialize
+          - title: newline
+            url: /pages/api/terminal.normalizenewlinestextrewriter.newline
+          - title: newlineKind
+            url: /pages/api/terminal.normalizenewlinestextrewriter.newlinekind
+          - title: process
+            url: /pages/api/terminal.normalizenewlinestextrewriter.process
+      - title: RemoveColorsTextRewriter
+        url: /pages/api/terminal.removecolorstextrewriter
         subitems:
           - title: close
-            url: /pages/api/stream-collator.itaskwriter.close
-          - title: getStdError
-            url: /pages/api/stream-collator.itaskwriter.getstderror
-          - title: getStdOutput
-            url: /pages/api/stream-collator.itaskwriter.getstdoutput
-          - title: write
-            url: /pages/api/stream-collator.itaskwriter.write
-          - title: writeError
-            url: /pages/api/stream-collator.itaskwriter.writeerror
-          - title: writeLine
-            url: /pages/api/stream-collator.itaskwriter.writeline
+            url: /pages/api/terminal.removecolorstextrewriter.close
+          - title: initialize
+            url: /pages/api/terminal.removecolorstextrewriter.initialize
+          - title: process
+            url: /pages/api/terminal.removecolorstextrewriter.process
+      - title: SplitterTransform
+        url: /pages/api/terminal.splittertransform
+        subitems:
+          - title: (constructor)
+            url: /pages/api/terminal.splittertransform._constructor_
+          - title: destinations
+            url: /pages/api/terminal.splittertransform.destinations
+          - title: onClose
+            url: /pages/api/terminal.splittertransform.onclose
+          - title: onWriteChunk
+            url: /pages/api/terminal.splittertransform.onwritechunk
+      - title: StderrLineTransform
+        url: /pages/api/terminal.stderrlinetransform
+        subitems:
+          - title: (constructor)
+            url: /pages/api/terminal.stderrlinetransform._constructor_
+          - title: newline
+            url: /pages/api/terminal.stderrlinetransform.newline
+          - title: onClose
+            url: /pages/api/terminal.stderrlinetransform.onclose
+          - title: onWriteChunk
+            url: /pages/api/terminal.stderrlinetransform.onwritechunk
+      - title: StdioSummarizer
+        url: /pages/api/terminal.stdiosummarizer
+        subitems:
+          - title: (constructor)
+            url: /pages/api/terminal.stdiosummarizer._constructor_
+          - title: getReport
+            url: /pages/api/terminal.stdiosummarizer.getreport
+          - title: onWriteChunk
+            url: /pages/api/terminal.stdiosummarizer.onwritechunk
+      - title: StdioWritable
+        url: /pages/api/terminal.stdiowritable
+        subitems:
+          - title: instance
+            url: /pages/api/terminal.stdiowritable.instance
+          - title: onWriteChunk
+            url: /pages/api/terminal.stdiowritable.onwritechunk
+      - title: TerminalChunkKind
+        url: /pages/api/terminal.terminalchunkkind
+      - title: TerminalTransform
+        url: /pages/api/terminal.terminaltransform
+        subitems:
+          - title: (constructor)
+            url: /pages/api/terminal.terminaltransform._constructor_
+          - title: autocloseDestination
+            url: /pages/api/terminal.terminaltransform.autoclosedestination
+          - title: destination
+            url: /pages/api/terminal.terminaltransform.destination
+          - title: onClose
+            url: /pages/api/terminal.terminaltransform.onclose
+          - title: preventDestinationAutoclose
+            url: /pages/api/terminal.terminaltransform.preventdestinationautoclose
+      - title: TerminalWritable
+        url: /pages/api/terminal.terminalwritable
+        subitems:
+          - title: (constructor)
+            url: /pages/api/terminal.terminalwritable._constructor_
+          - title: close
+            url: /pages/api/terminal.terminalwritable.close
+          - title: isOpen
+            url: /pages/api/terminal.terminalwritable.isopen
+          - title: onClose
+            url: /pages/api/terminal.terminalwritable.onclose
+          - title: onWriteChunk
+            url: /pages/api/terminal.terminalwritable.onwritechunk
+          - title: preventAutoclose
+            url: /pages/api/terminal.terminalwritable.preventautoclose
+          - title: writeChunk
+            url: /pages/api/terminal.terminalwritable.writechunk
+      - title: TextRewriter
+        url: /pages/api/terminal.textrewriter
+        subitems:
+          - title: close
+            url: /pages/api/terminal.textrewriter.close
+          - title: initialize
+            url: /pages/api/terminal.textrewriter.initialize
+          - title: process
+            url: /pages/api/terminal.textrewriter.process
+      - title: TextRewriterState
+        url: /pages/api/terminal.textrewriterstate
+      - title: TextRewriterTransform
+        url: /pages/api/terminal.textrewritertransform
+        subitems:
+          - title: (constructor)
+            url: /pages/api/terminal.textrewritertransform._constructor_
+          - title: onClose
+            url: /pages/api/terminal.textrewritertransform.onclose
+          - title: onWriteChunk
+            url: /pages/api/terminal.textrewritertransform.onwritechunk
+          - title: textRewriters
+            url: /pages/api/terminal.textrewritertransform.textrewriters
   - title: '@rushstack/ts-command-line'
     url: /pages/api/ts-command-line
     subitems:

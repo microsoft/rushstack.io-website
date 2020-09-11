@@ -45,7 +45,6 @@ terminal.writeLine(Colors.green('Green Text!'), ' ', Colors.blue('Blue Text!'));
 |  [invertColor(text)](./node-core-library.colors.invertcolor.md) | <code>static</code> | <b><i>(BETA)</i></b> |
 |  [magenta(text)](./node-core-library.colors.magenta.md) | <code>static</code> | <b><i>(BETA)</i></b> |
 |  [magentaBackground(text)](./node-core-library.colors.magentabackground.md) | <code>static</code> | <b><i>(BETA)</i></b> |
-|  [normalizeColorTokensForTest(text)](./node-core-library.colors.normalizecolortokensfortest.md) | <code>static</code> | <b><i>(BETA)</i></b> This utility function can be used to normalize color codes into human-readable tokens. This is useful for producing more readable test snapshots. |
 |  [red(text)](./node-core-library.colors.red.md) | <code>static</code> | <b><i>(BETA)</i></b> |
 |  [redBackground(text)](./node-core-library.colors.redbackground.md) | <code>static</code> | <b><i>(BETA)</i></b> |
 |  [underline(text)](./node-core-library.colors.underline.md) | <code>static</code> | <b><i>(BETA)</i></b> |

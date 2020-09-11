@@ -16,6 +16,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  Class | Description |
 |  --- | --- |
 |  [AlreadyReportedError](./node-core-library.alreadyreportederror.md) | This exception can be thrown to indicate that an operation failed and an error message has already been reported appropriately. Thus, the catch handler does not have responsibility for reporting the error. |
+|  [AnsiEscape](./node-core-library.ansiescape.md) | Operations for working with text strings that contain [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code)<!-- -->. The most commonly used escape codes set the foreground/background color for console output. |
 |  [Colors](./node-core-library.colors.md) | <b><i>(BETA)</i></b> The static functions on this class are used to produce colored text for use with the node-core-library terminal. |
 |  [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) | <b><i>(BETA)</i></b> Terminal provider that prints to STDOUT (for log- and verbose-level messages) and STDERR (for warning- and error-level messsages). |
 |  [Executable](./node-core-library.executable.md) | The Executable class provides a safe, portable, recommended solution for tools that need to launch child processes. |
@@ -58,6 +59,7 @@ Core libraries that every NodeJS toolchain project should use.
 
 |  Interface | Description |
 |  --- | --- |
+|  [IAnsiEscapeConvertForTestsOptions](./node-core-library.iansiescapeconvertfortestsoptions.md) | Options for [AnsiEscape.formatForTests()](./node-core-library.ansiescape.formatfortests.md)<!-- -->. |
 |  [IColorableSequence](./node-core-library.icolorablesequence.md) | <b><i>(BETA)</i></b> |
 |  [IConsoleTerminalProviderOptions](./node-core-library.iconsoleterminalprovideroptions.md) | <b><i>(BETA)</i></b> Options to be provided to a [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) |
 |  [IExecutableResolveOptions](./node-core-library.iexecutableresolveoptions.md) | Options for Executable.tryResolve(). |
@@ -98,6 +100,7 @@ Core libraries that every NodeJS toolchain project should use.
 
 |  Type Alias | Description |
 |  --- | --- |
+|  [Brand](./node-core-library.brand.md) | A "branded type" is a primitive type with a compile-type key that makes it incompatible with other aliases for the primitive type. |
 |  [ExecutableStdioMapping](./node-core-library.executablestdiomapping.md) | Typings for IExecutableSpawnSyncOptions.stdio. |
 |  [ExecutableStdioStreamMapping](./node-core-library.executablestdiostreammapping.md) | Typings for one of the streams inside IExecutableSpawnSyncOptions.stdio. |
 |  [FileSystemCopyFilesAsyncFilter](./node-core-library.filesystemcopyfilesasyncfilter.md) | Callback function type for [IFileSystemCopyFilesAsyncOptions.filter](./node-core-library.ifilesystemcopyfilesasyncoptions.filter.md) |
