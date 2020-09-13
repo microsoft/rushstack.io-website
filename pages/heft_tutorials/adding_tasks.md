@@ -19,10 +19,10 @@ and [ESlint]({% link pages/heft_tasks/eslint.md %}).
     $ cd my-app
 
     # Typings should always use "--save-exact" version specifiers.
-    $ pnpm install --save-dev --save-exact @types/jest
+    $ pnpm install --save-dev --save-exact @types/heft-jest
     ```
 
-2. Since [Jest's API](https://jestjs.io/docs/en/api) consists of global variables, we need to load them globally (whereas most other `@types` packages can be loaded via `import` statements in your source code).  Update your **tsconfig.json** file to say `"types": ["jest", "node"]` instead of just `"types": ["node"]`.  The result should look like this:
+2. Since [Jest's API](https://jestjs.io/docs/en/api) consists of global variables, we need to load them globally (whereas most other `@types` packages can be loaded via `import` statements in your source code).  Update your **tsconfig.json** file to say `"types": ["heft-jest", "node"]` instead of just `"types": ["node"]`.  The result should look like this:
 
     **my-app/tsconfig.json**
     ```js
@@ -40,7 +40,7 @@ and [ESlint]({% link pages/heft_tasks/eslint.md %}).
         "inlineSources": true,
         "strictNullChecks": true,
         "noUnusedLocals": true,
-        "types": ["jest", "node"],
+        "types": ["heft-jest", "node"],
 
         "module": "commonjs",
         "target": "es2017",
@@ -97,7 +97,9 @@ and [ESlint]({% link pages/heft_tasks/eslint.md %}).
     }
     ```
 
-That's it for Jest!  More detail can be found in the [jest task]({% link pages/heft_tasks/jest.md %}) reference.
+> **Note:** Do not invoke the `jest` command line directly, since it only runs tests and will not perform Heft's other build steps.
+
+That's it for setting up Jest!  Further information, including instructions for debugging tests, can be found in the ["jest" task]({% link pages/heft_tasks/jest.md %}) reference.
 
 
 ## Enabling linting
