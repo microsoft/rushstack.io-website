@@ -40,10 +40,10 @@ _**Note:** If you find yourself frequently adding lots of custom settings to thi
 
 Heft has direct dependencies on the Jest packages that it needs, so you don't need to add Jest to your project's **package.json** file.
 
-You will need to add `@types/jest` to your project:
+Your project should get its typings from `@types/heft-jest` instead of `@types/jest`:
 
 ```bash
-$ rush add --package @types/jest --exact  --dev
+$ rush add --package @types/heft-jest --exact --dev
 ```
 
 ...and then reference it in your **tsconfig.json** file like this:
@@ -52,14 +52,56 @@ $ rush add --package @types/jest --exact  --dev
 {
   "extends": "./node_modules/@microsoft/rush-stack-compiler-3.9/includes/tsconfig-node.json",
   "compilerOptions": {
-    "types": ["jest"] // <---- ADD THIS
+    "types": ["heft-jest"] // <---- ADD THIS
   }
 }
 ```
 
-## Caveat
+## Differences from ts-jest
 
-Heft currently does NOT support [inline snapshots](https://jestjs.io/docs/en/snapshot-testing.html#inline-snapshots) or Jest's `toMatchInlineSnapshot()` API.  This is a limitation of a performance optimization, where Jest runs on .js files that are the output of Heft's compiler task, rather than reinvoking the compiler separately via a plugin such as `ts-jest`.  We may improve this in the future.
+Internally, Jest supports TypeScript compilation via plugins called [transforms](https://jestjs.io/docs/en/tutorial-react#custom-transformers), which are modeled as a synchronous function that receives a single `.ts` file as input, and returns a `.js` file and `.map` file as its output. The official `babel-jest` transform compiles one file at a time, but this approach cannot support language features such as `const enum` that require analyzing referenced files.  The `ts-jest` transform solves this problem by performing a full compiler analysis and reusing it each time the transform is invoked, but this cannot invoke other build steps such as preprocessors.  Both `babel-jest` and `ts-jest` also impose a performance cost, since compiling everything a second time is expensive.
+
+Heft's transform avoids these limitations by performing a normal build, and then invoking Jest afterwards.  If your build targets a browser runtime, then you'll need to use the [emitFolderPathForJest]({% link pages/heft_tasks/webpack.md %}) setting to emit CommonJS outputs in a secondary folder (which is still much faster than invoking the compiler twice).  Heft's `jest-build-transform.js` does not compile anything itself, but rather returns the output of the full pipeline.
+
+What you need to know when using Jest with Heft:
+
+- Invoke Jest using the `heft` command line.  Invoking the `jest` command line will successfully run tests, but it will not compile anything.
+
+- Do not add `ts-jest` or `babel-jest` as a dependency for your project.
+
+- Instead of `import { mocked } from "ts-jest/utils";`, use the global `mocked()` function that is provided by `@types/heft-jest`.  Besides this difference, the [API documentation](https://kulshekhar.github.io/ts-jest/user/test-helpers) from `ts-jest` is still applicable.
+
+- The official transform will magically "hoist" calls to `jest.mock();`.  Heft does not consider this a best practice. Instead, the [@rushstack/hoist-jest-mock](https://www.npmjs.com/package/@rushstack/eslint-plugin#rushstackhoist-jest-mock) lint rule is provided to remind users to manually hoist their calls.  It is enabled by default with [@rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config).
+
+Some helpful examples of Jest techniques can be found in the [heft-node-jest-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-node-jest-test) project folder.
+
+
+## Debugging Jest tests
+
+To debug your Jest tests, it's recommended create a VS Code [launch.json file](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) like this:
+
+**my-app/.vscode/launch.json**
+```
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Jest tests",
+      "program": "${workspaceFolder}/node_modules/@rushstack/heft/lib/start.js",
+      "cwd": "${workspaceFolder}",
+      "args": ["--debug", "test", "--clean"],
+      "console": "integratedTerminal",
+      "sourceMaps": true
+    },
+  ]
+}
+```
+
+This launches the full Heft toolchain, and the `--debug` switch prevents Jest from being spawned as a background process.  The `--clean` file is optional, but minimizes problems that occur sometimes due to inaccuracies in Jest's "haste-map" caching.
+
+To direct the debugger to run a specific test, you can add the `--test-name-pattern` parameter. (See [here]({% link pages/heft/cli.md %}) for command-line documentation.)  Another option is to use the [test.only()](https://jestjs.io/docs/en/api#testonlyname-fn-timeout) API.
 
 
 ## See also
