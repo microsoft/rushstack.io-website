@@ -1577,8 +1577,6 @@ api_nav:
         subitems:
           - title: afterConfigureWebpack
             url: /pages/api/heft.bundlesubstagehooks.afterconfigurewebpack
-          - title: configureApiExtractor
-            url: /pages/api/heft.bundlesubstagehooks.configureapiextractor
           - title: configureWebpack
             url: /pages/api/heft.bundlesubstagehooks.configurewebpack
       - title: CleanStageHooks
@@ -1588,15 +1586,6 @@ api_nav:
             url: /pages/api/heft.cleanstagehooks.deletepath
       - title: CompileSubstageHooks
         url: /pages/api/heft.compilesubstagehooks
-        subitems:
-          - title: afterConfigureCopyStaticAssets
-            url: /pages/api/heft.compilesubstagehooks.afterconfigurecopystaticassets
-          - title: afterConfigureTypeScript
-            url: /pages/api/heft.compilesubstagehooks.afterconfiguretypescript
-          - title: configureCopyStaticAssets
-            url: /pages/api/heft.compilesubstagehooks.configurecopystaticassets
-          - title: configureTypeScript
-            url: /pages/api/heft.compilesubstagehooks.configuretypescript
       - title: CopyFromCacheMode
         url: /pages/api/heft.copyfromcachemode
       - title: CustomActionParameterType
@@ -1633,11 +1622,6 @@ api_nav:
             url: /pages/api/heft.heftsession.requestaccesstopluginbyname
           - title: requestScopedLogger
             url: /pages/api/heft.heftsession.requestscopedlogger
-      - title: IApiExtractorConfiguration
-        url: /pages/api/heft.iapiextractorconfiguration
-        subitems:
-          - title: useProjectTypescriptVersion
-            url: /pages/api/heft.iapiextractorconfiguration.useprojecttypescriptversion
       - title: IBuildStageContext
         url: /pages/api/heft.ibuildstagecontext
       - title: IBuildStageProperties
@@ -1696,17 +1680,8 @@ api_nav:
       - title: ICompileSubstageProperties
         url: /pages/api/heft.icompilesubstageproperties
         subitems:
-          - title: copyStaticAssetsConfiguration
-            url: /pages/api/heft.icompilesubstageproperties.copystaticassetsconfiguration
-          - title: typeScriptConfiguration
-            url: /pages/api/heft.icompilesubstageproperties.typescriptconfiguration
-      - title: ICopyStaticAssetsConfiguration
-        url: /pages/api/heft.icopystaticassetsconfiguration
-        subitems:
-          - title: destinationFolderNames
-            url: /pages/api/heft.icopystaticassetsconfiguration.destinationfoldernames
-          - title: sourceFolderName
-            url: /pages/api/heft.icopystaticassetsconfiguration.sourcefoldername
+          - title: typescriptMaxWriteParallelism
+            url: /pages/api/heft.icompilesubstageproperties.typescriptmaxwriteparallelism
       - title: ICustomActionOptions
         url: /pages/api/heft.icustomactionoptions
         subitems:
@@ -1751,15 +1726,6 @@ api_nav:
         subitems:
           - title: kind
             url: /pages/api/heft.icustomactionparameterstringlist.kind
-      - title: IEmitModuleKind
-        url: /pages/api/heft.iemitmodulekind
-      - title: IEmitModuleKindBase
-        url: /pages/api/heft.iemitmodulekindbase
-        subitems:
-          - title: moduleKind
-            url: /pages/api/heft.iemitmodulekindbase.modulekind
-          - title: outFolderPath
-            url: /pages/api/heft.iemitmodulekindbase.outfolderpath
       - title: IHeftActionConfiguration
         url: /pages/api/heft.iheftactionconfiguration
       - title: IHeftActionConfigurationOptions
@@ -1817,31 +1783,6 @@ api_nav:
             url: /pages/api/heft.iscopedlogger.emitwarning
           - title: terminal
             url: /pages/api/heft.iscopedlogger.terminal
-      - title: ISharedBundleSubstageWebpackProperties
-        url: /pages/api/heft.isharedbundlesubstagewebpackproperties
-        subitems:
-          - title: apiExtractorConfiguration
-            url: /pages/api/heft.isharedbundlesubstagewebpackproperties.apiextractorconfiguration
-      - title: ISharedCopyStaticAssetsConfiguration
-        url: /pages/api/heft.isharedcopystaticassetsconfiguration
-        subitems:
-          - title: excludeGlobs
-            url: /pages/api/heft.isharedcopystaticassetsconfiguration.excludeglobs
-          - title: fileExtensions
-            url: /pages/api/heft.isharedcopystaticassetsconfiguration.fileextensions
-          - title: includeGlobs
-            url: /pages/api/heft.isharedcopystaticassetsconfiguration.includeglobs
-      - title: ISharedTypeScriptConfiguration
-        url: /pages/api/heft.isharedtypescriptconfiguration
-        subitems:
-          - title: additionalModuleKindsToEmit
-            url: /pages/api/heft.isharedtypescriptconfiguration.additionalmodulekindstoemit
-          - title: copyFromCacheMode
-            url: /pages/api/heft.isharedtypescriptconfiguration.copyfromcachemode
-          - title: emitFolderPathForJest
-            url: /pages/api/heft.isharedtypescriptconfiguration.emitfolderpathforjest
-          - title: maxWriteParallelism
-            url: /pages/api/heft.isharedtypescriptconfiguration.maxwriteparallelism
       - title: IStageContext
         url: /pages/api/heft.istagecontext
         subitems:
@@ -1872,13 +1813,6 @@ api_nav:
             url: /pages/api/heft.iteststageproperties.updatesnapshots
           - title: watchMode
             url: /pages/api/heft.iteststageproperties.watchmode
-      - title: ITypeScriptConfiguration
-        url: /pages/api/heft.itypescriptconfiguration
-        subitems:
-          - title: isLintingEnabled
-            url: /pages/api/heft.itypescriptconfiguration.islintingenabled
-          - title: tsconfigPaths
-            url: /pages/api/heft.itypescriptconfiguration.tsconfigpaths
       - title: IWebpackConfiguration
         url: /pages/api/heft.iwebpackconfiguration
       - title: MetricsCollectorHooks
@@ -1935,8 +1869,6 @@ api_nav:
         subitems:
           - title: (constructor)
             url: /pages/api/heft-config-file.configurationfile._constructor_
-          - title: (constructor)
-            url: /pages/api/heft-config-file.configurationfile._constructor__1
           - title: getObjectSourceFilePath
             url: /pages/api/heft-config-file.configurationfile.getobjectsourcefilepath
           - title: getPropertyOriginalValue
@@ -1948,6 +1880,8 @@ api_nav:
         subitems:
           - title: jsonPathMetadata
             url: /pages/api/heft-config-file.iconfigurationfileoptions.jsonpathmetadata
+          - title: jsonSchemaPath
+            url: /pages/api/heft-config-file.iconfigurationfileoptions.jsonschemapath
           - title: propertyInheritanceTypes
             url: /pages/api/heft-config-file.iconfigurationfileoptions.propertyinheritancetypes
       - title: IJsonPathMetadata
@@ -2458,6 +2392,8 @@ api_nav:
             url: /pages/api/node-core-library.filesystem.ensurefolderasync
           - title: exists
             url: /pages/api/node-core-library.filesystem.exists
+          - title: existsAsync
+            url: /pages/api/node-core-library.filesystem.existsasync
           - title: formatPosixModeBits
             url: /pages/api/node-core-library.filesystem.formatposixmodebits
           - title: getLinkStatistics
@@ -3389,6 +3325,24 @@ api_nav:
             url: /pages/api/terminal.textrewritertransform.onwritechunk
           - title: textRewriters
             url: /pages/api/terminal.textrewritertransform.textrewriters
+  - title: '@rushstack/tree-pattern'
+    url: /pages/api/tree-pattern
+    subitems:
+      - title: ITreePatternCaptureSet
+        url: /pages/api/tree-pattern.itreepatterncaptureset
+      - title: TreeNode
+        url: /pages/api/tree-pattern.treenode
+      - title: TreePattern
+        url: /pages/api/tree-pattern.treepattern
+        subitems:
+          - title: (constructor)
+            url: /pages/api/tree-pattern.treepattern._constructor_
+          - title: match
+            url: /pages/api/tree-pattern.treepattern.match
+          - title: oneOf
+            url: /pages/api/tree-pattern.treepattern.oneof
+          - title: tag
+            url: /pages/api/tree-pattern.treepattern.tag
   - title: '@rushstack/ts-command-line'
     url: /pages/api/ts-command-line
     subitems:
@@ -3691,7 +3645,7 @@ api_nav:
             url: /pages/api/typings-generator.typingsgenerator._options
           - title: (constructor)
             url: /pages/api/typings-generator.typingsgenerator._constructor_
-          - title: generateTypings
-            url: /pages/api/typings-generator.typingsgenerator.generatetypings
-          - title: runWatcher
-            url: /pages/api/typings-generator.typingsgenerator.runwatcher
+          - title: generateTypingsAsync
+            url: /pages/api/typings-generator.typingsgenerator.generatetypingsasync
+          - title: runWatcherAsync
+            url: /pages/api/typings-generator.typingsgenerator.runwatcherasync

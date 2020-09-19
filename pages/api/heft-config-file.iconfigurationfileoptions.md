@@ -24,5 +24,6 @@ export interface IConfigurationFileOptions<TConfigurationFile>
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [jsonPathMetadata](./heft-config-file.iconfigurationfileoptions.jsonpathmetadata.md) | [IJsonPathsMetadata](./heft-config-file.ijsonpathsmetadata.md) | <b><i>(BETA)</i></b> Use this property to specify how JSON nodes are postprocessed. |
+|  [jsonSchemaPath](./heft-config-file.iconfigurationfileoptions.jsonschemapath.md) | string | <b><i>(BETA)</i></b> The path to the schema for the configuration file. |
 |  [propertyInheritanceTypes](./heft-config-file.iconfigurationfileoptions.propertyinheritancetypes.md) | [IPropertyInheritanceTypes](./heft-config-file.ipropertyinheritancetypes.md)<!-- -->&lt;TConfigurationFile&gt; | <b><i>(BETA)</i></b> Use this property to control how root-level properties are handled between parent and child configuration files. |
 

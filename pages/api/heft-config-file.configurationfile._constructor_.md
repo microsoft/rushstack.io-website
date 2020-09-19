@@ -17,13 +17,12 @@ Constructs a new instance of the `ConfigurationFile` class
 <b>Signature:</b>
 
 ```typescript
-constructor(jsonSchemaPath: string, options?: IConfigurationFileOptions<TConfigurationFile>);
+constructor(options: IConfigurationFileOptions<TConfigurationFile>);
 ```
 
 ## Parameters
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  jsonSchemaPath | string |  |
 |  options | [IConfigurationFileOptions](./heft-config-file.iconfigurationfileoptions.md)<!-- -->&lt;TConfigurationFile&gt; |  |
 

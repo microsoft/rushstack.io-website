@@ -13,9 +13,8 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface IBundleSubstageProperties extends ISharedBundleSubstageWebpackProperties 
+export interface IBundleSubstageProperties 
 ```
-<b>Extends:</b> [ISharedBundleSubstageWebpackProperties](./heft.isharedbundlesubstagewebpackproperties.md)
 
 ## Properties
 

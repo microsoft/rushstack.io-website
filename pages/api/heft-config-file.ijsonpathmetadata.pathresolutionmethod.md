@@ -12,6 +12,8 @@ improve_this_button: false
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
 > 
 
+If this property describes a filesystem path, use this property to describe how the path should be resolved.
+
 <b>Signature:</b>
 
 ```typescript

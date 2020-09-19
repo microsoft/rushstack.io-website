@@ -29,7 +29,6 @@ improve_this_button: false
 
 |  Interface | Description |
 |  --- | --- |
-|  [IApiExtractorConfiguration](./heft.iapiextractorconfiguration.md) |  |
 |  [IBuildStageContext](./heft.ibuildstagecontext.md) |  |
 |  [IBuildStageProperties](./heft.ibuildstageproperties.md) |  |
 |  [IBuildSubstage](./heft.ibuildsubstage.md) |  |
@@ -40,14 +39,12 @@ improve_this_button: false
 |  [ICompilerPackage](./heft.icompilerpackage.md) |  |
 |  [ICompileSubstage](./heft.icompilesubstage.md) |  |
 |  [ICompileSubstageProperties](./heft.icompilesubstageproperties.md) |  |
-|  [ICopyStaticAssetsConfiguration](./heft.icopystaticassetsconfiguration.md) |  |
 |  [ICustomActionOptions](./heft.icustomactionoptions.md) | <b><i>(BETA)</i></b> |
 |  [ICustomActionParameterBase](./heft.icustomactionparameterbase.md) | <b><i>(BETA)</i></b> |
 |  [ICustomActionParameterFlag](./heft.icustomactionparameterflag.md) | <b><i>(BETA)</i></b> |
 |  [ICustomActionParameterInteger](./heft.icustomactionparameterinteger.md) | <b><i>(BETA)</i></b> |
 |  [ICustomActionParameterString](./heft.icustomactionparameterstring.md) | <b><i>(BETA)</i></b> |
 |  [ICustomActionParameterStringList](./heft.icustomactionparameterstringlist.md) | <b><i>(BETA)</i></b> |
-|  [IEmitModuleKindBase](./heft.iemitmodulekindbase.md) |  |
 |  [IHeftActionConfiguration](./heft.iheftactionconfiguration.md) | The base action configuration that all custom action configuration files should inherit from. |
 |  [IHeftActionConfigurationOptions](./heft.iheftactionconfigurationoptions.md) | Options to be used when retrieving the action configuration. |
 |  [IHeftPlugin](./heft.iheftplugin.md) |  |
@@ -56,13 +53,9 @@ improve_this_button: false
 |  [IPostBuildSubstage](./heft.ipostbuildsubstage.md) |  |
 |  [IPreCompileSubstage](./heft.iprecompilesubstage.md) |  |
 |  [IScopedLogger](./heft.iscopedlogger.md) |  |
-|  [ISharedBundleSubstageWebpackProperties](./heft.isharedbundlesubstagewebpackproperties.md) |  |
-|  [ISharedCopyStaticAssetsConfiguration](./heft.isharedcopystaticassetsconfiguration.md) |  |
-|  [ISharedTypeScriptConfiguration](./heft.isharedtypescriptconfiguration.md) |  |
 |  [IStageContext](./heft.istagecontext.md) |  |
 |  [ITestStageContext](./heft.iteststagecontext.md) |  |
 |  [ITestStageProperties](./heft.iteststageproperties.md) |  |
-|  [ITypeScriptConfiguration](./heft.itypescriptconfiguration.md) |  |
 
 ## Type Aliases
 
@@ -71,7 +64,6 @@ improve_this_button: false
 |  [CopyFromCacheMode](./heft.copyfromcachemode.md) |  |
 |  [CustomActionParameterType](./heft.customactionparametertype.md) | <b><i>(BETA)</i></b> |
 |  [ICustomActionParameter](./heft.icustomactionparameter.md) | <b><i>(BETA)</i></b> |
-|  [IEmitModuleKind](./heft.iemitmodulekind.md) |  |
 |  [IWebpackConfiguration](./heft.iwebpackconfiguration.md) |  |
 |  [RegisterAction](./heft.registeraction.md) | <b><i>(BETA)</i></b> |
 |  [RequestAccessToPluginByNameCallback](./heft.requestaccesstopluginbynamecallback.md) | <b><i>(BETA)</i></b> |

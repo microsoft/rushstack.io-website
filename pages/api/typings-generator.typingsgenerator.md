@@ -33,6 +33,6 @@ export declare class TypingsGenerator
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [generateTypings()](./typings-generator.typingsgenerator.generatetypings.md) |  |  |
-|  [runWatcher()](./typings-generator.typingsgenerator.runwatcher.md) |  |  |
+|  [generateTypingsAsync()](./typings-generator.typingsgenerator.generatetypingsasync.md) |  |  |
+|  [runWatcherAsync()](./typings-generator.typingsgenerator.runwatcherasync.md) |  |  |
 

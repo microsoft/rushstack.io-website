@@ -22,7 +22,7 @@ export declare class ApiModel extends ApiModel_base
 
 An `ApiModel` represents a collection of API declarations that can be serialized to disk. It captures all the important information needed to generate documentation, without any reliance on the TypeScript compiler engine.
 
-An `ApiModel` acts as the root of a tree of objects that all inherit from the `ApiItem` base class. The tree children are determined by the  mixin base class. The model contains packages. Packages have an entry point (today, only one). And the entry point can contain various types of API declarations. The container relationships might look like this:
+An `ApiModel` acts as the root of a tree of objects that all inherit from the `ApiItem` base class. The tree children are determined by the [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md) mixin base class. The model contains packages. Packages have an entry point (today, only one). And the entry point can contain various types of API declarations. The container relationships might look like this:
 
 ```
 Things that can contain other things:

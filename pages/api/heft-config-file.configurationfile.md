@@ -23,8 +23,7 @@ export declare class ConfigurationFile<TConfigurationFile>
 
 |  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [(constructor)(jsonSchemaPath, options)](./heft-config-file.configurationfile._constructor_.md) |  | <b><i>(BETA)</i></b> Constructs a new instance of the <code>ConfigurationFile</code> class |
-|  [(constructor)(jsonSchema, options)](./heft-config-file.configurationfile._constructor__1.md) |  | <b><i>(BETA)</i></b> Constructs a new instance of the <code>ConfigurationFile</code> class |
+|  [(constructor)(options)](./heft-config-file.configurationfile._constructor_.md) |  | <b><i>(BETA)</i></b> Constructs a new instance of the <code>ConfigurationFile</code> class |
 
 ## Methods
 

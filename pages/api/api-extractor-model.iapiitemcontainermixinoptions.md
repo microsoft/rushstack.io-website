@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IApiItemContainerMixinOptions interface
 
-Constructor options for .
+Constructor options for [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md)<!-- -->.
 
 <b>Signature:</b>
 

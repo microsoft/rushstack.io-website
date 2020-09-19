@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IApiParameterListMixinOptions interface
 
-Constructor options for .
+Constructor options for [ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md)<!-- -->.
 
 <b>Signature:</b>
 

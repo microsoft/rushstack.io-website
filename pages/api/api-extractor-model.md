@@ -57,12 +57,12 @@ Use this library to read and write \*.api.json files as defined by the [API Extr
 |  Function | Description |
 |  --- | --- |
 |  [ApiItemContainerMixin(baseClass)](./api-extractor-model.apiitemcontainermixin.md) | Mixin function for [ApiDeclaredItem](./api-extractor-model.apideclareditem.md)<!-- -->. |
-|  [ApiNameMixin(baseClass)](./api-extractor-model.apinamemixin.md) | Mixin function for . |
-|  [ApiParameterListMixin(baseClass)](./api-extractor-model.apiparameterlistmixin.md) | Mixin function for . |
-|  [ApiReleaseTagMixin(baseClass)](./api-extractor-model.apireleasetagmixin.md) | Mixin function for . |
-|  [ApiReturnTypeMixin(baseClass)](./api-extractor-model.apireturntypemixin.md) | Mixin function for . |
-|  [ApiStaticMixin(baseClass)](./api-extractor-model.apistaticmixin.md) | Mixin function for . |
-|  [ApiTypeParameterListMixin(baseClass)](./api-extractor-model.apitypeparameterlistmixin.md) | Mixin function for . |
+|  [ApiNameMixin(baseClass)](./api-extractor-model.apinamemixin.md) | Mixin function for [ApiNameMixin](./api-extractor-model.apinamemixin.md)<!-- -->. |
+|  [ApiParameterListMixin(baseClass)](./api-extractor-model.apiparameterlistmixin.md) | Mixin function for [ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md)<!-- -->. |
+|  [ApiReleaseTagMixin(baseClass)](./api-extractor-model.apireleasetagmixin.md) | Mixin function for [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md)<!-- -->. |
+|  [ApiReturnTypeMixin(baseClass)](./api-extractor-model.apireturntypemixin.md) | Mixin function for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md)<!-- -->. |
+|  [ApiStaticMixin(baseClass)](./api-extractor-model.apistaticmixin.md) | Mixin function for [ApiStaticMixin](./api-extractor-model.apistaticmixin.md)<!-- -->. |
+|  [ApiTypeParameterListMixin(baseClass)](./api-extractor-model.apitypeparameterlistmixin.md) | Mixin function for [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md)<!-- -->. |
 
 ## Interfaces
 
@@ -88,7 +88,7 @@ Use this library to read and write \*.api.json files as defined by the [API Extr
 |  [IApiIndexSignatureOptions](./api-extractor-model.iapiindexsignatureoptions.md) | Constructor options for [ApiIndexSignature](./api-extractor-model.apiindexsignature.md)<!-- -->. |
 |  [IApiInterfaceOptions](./api-extractor-model.iapiinterfaceoptions.md) | Constructor options for [ApiInterface](./api-extractor-model.apiinterface.md)<!-- -->. |
 |  [IApiItemConstructor](./api-extractor-model.iapiitemconstructor.md) | This abstraction is used by the mixin pattern. It describes a class type that inherits from [ApiItem](./api-extractor-model.apiitem.md)<!-- -->. |
-|  [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md) | Constructor options for . |
+|  [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md) | Constructor options for [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md)<!-- -->. |
 |  [IApiItemOptions](./api-extractor-model.iapiitemoptions.md) | Constructor options for [ApiItem](./api-extractor-model.apiitem.md)<!-- -->. |
 |  [IApiMethodOptions](./api-extractor-model.iapimethodoptions.md) | Constructor options for [ApiMethod](./api-extractor-model.apimethod.md)<!-- -->. |
 |  [IApiMethodSignatureOptions](./api-extractor-model.iapimethodsignatureoptions.md) |  |
@@ -96,16 +96,16 @@ Use this library to read and write \*.api.json files as defined by the [API Extr
 |  [IApiNamespaceOptions](./api-extractor-model.iapinamespaceoptions.md) | Constructor options for [ApiClass](./api-extractor-model.apiclass.md)<!-- -->. |
 |  [IApiPackageOptions](./api-extractor-model.iapipackageoptions.md) | Constructor options for [ApiPackage](./api-extractor-model.apipackage.md)<!-- -->. |
 |  [IApiPackageSaveOptions](./api-extractor-model.iapipackagesaveoptions.md) | Options for [ApiPackage.saveToJsonFile()](./api-extractor-model.apipackage.savetojsonfile.md)<!-- -->. |
-|  [IApiParameterListMixinOptions](./api-extractor-model.iapiparameterlistmixinoptions.md) | Constructor options for . |
+|  [IApiParameterListMixinOptions](./api-extractor-model.iapiparameterlistmixinoptions.md) | Constructor options for [ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md)<!-- -->. |
 |  [IApiParameterOptions](./api-extractor-model.iapiparameteroptions.md) | Represents parameter information that is part of [IApiParameterListMixinOptions](./api-extractor-model.iapiparameterlistmixinoptions.md) |
 |  [IApiPropertyItemOptions](./api-extractor-model.iapipropertyitemoptions.md) | Constructor options for [ApiPropertyItem](./api-extractor-model.apipropertyitem.md)<!-- -->. |
 |  [IApiPropertyOptions](./api-extractor-model.iapipropertyoptions.md) | Constructor options for [ApiProperty](./api-extractor-model.apiproperty.md)<!-- -->. |
 |  [IApiPropertySignatureOptions](./api-extractor-model.iapipropertysignatureoptions.md) | Constructor options for [ApiPropertySignature](./api-extractor-model.apipropertysignature.md)<!-- -->. |
-|  [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md) | Constructor options for . |
-|  [IApiReturnTypeMixinOptions](./api-extractor-model.iapireturntypemixinoptions.md) | Constructor options for . |
+|  [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md) | Constructor options for [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md)<!-- -->. |
+|  [IApiReturnTypeMixinOptions](./api-extractor-model.iapireturntypemixinoptions.md) | Constructor options for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md)<!-- -->. |
 |  [IApiStaticMixinOptions](./api-extractor-model.iapistaticmixinoptions.md) | Constructor options for [IApiStaticMixinOptions](./api-extractor-model.iapistaticmixinoptions.md)<!-- -->. |
 |  [IApiTypeAliasOptions](./api-extractor-model.iapitypealiasoptions.md) | Constructor options for [ApiTypeAlias](./api-extractor-model.apitypealias.md)<!-- -->. |
-|  [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md) | Constructor options for . |
+|  [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md) | Constructor options for [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md)<!-- -->. |
 |  [IApiTypeParameterOptions](./api-extractor-model.iapitypeparameteroptions.md) | Represents parameter information that is part of [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md) |
 |  [IApiVariableOptions](./api-extractor-model.iapivariableoptions.md) | Constructor options for [ApiVariable](./api-extractor-model.apivariable.md)<!-- -->. |
 |  [IExcerptToken](./api-extractor-model.iexcerpttoken.md) |  |
@@ -118,13 +118,13 @@ Use this library to read and write \*.api.json files as defined by the [API Extr
 
 |  Namespace | Description |
 |  --- | --- |
-|  [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md) | Static members for . |
-|  [ApiNameMixin](./api-extractor-model.apinamemixin.md) | Static members for . |
-|  [ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md) | Static members for . |
-|  [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md) | Static members for . |
-|  [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md) | Static members for . |
-|  [ApiStaticMixin](./api-extractor-model.apistaticmixin.md) | Static members for . |
-|  [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md) | Static members for . |
+|  [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md) | Static members for [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md)<!-- -->. |
+|  [ApiNameMixin](./api-extractor-model.apinamemixin.md) | Static members for [ApiNameMixin](./api-extractor-model.apinamemixin.md)<!-- -->. |
+|  [ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md) | Static members for [ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md)<!-- -->. |
+|  [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md) | Static members for [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md)<!-- -->. |
+|  [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md) | Static members for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md)<!-- -->. |
+|  [ApiStaticMixin](./api-extractor-model.apistaticmixin.md) | Static members for [ApiStaticMixin](./api-extractor-model.apistaticmixin.md)<!-- -->. |
+|  [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md) | Static members for [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md)<!-- -->. |
 |  [ReleaseTag](./api-extractor-model.releasetag.md) | Helper functions for working with the <code>ReleaseTag</code> enum. |
 
 ## Type Aliases

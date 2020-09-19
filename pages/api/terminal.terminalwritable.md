@@ -39,9 +39,9 @@ Consider a console application whose output may need to be processed in differen
                       [write to build.log]
 
 ```
-The application uses the `Terminal` API to print stdout/stderr messages, for example with standardized formatting for errors and warnings, and ANSI escapes to make nice colors. Maybe it also includes text received from external processes, whose newlines may be inconsistent. Ultimately we want to write the output to the shell console and a `build.log` file, but we don't want to put ANSI colors in the build log.
+The application uses the `Terminal` API to print `stdout` and `stderr` messages, for example with standardized formatting for errors and warnings, and ANSI escapes to make nice colors. Maybe it also includes text received from external processes, whose newlines may be inconsistent. Ultimately we want to write the output to the shell console and a `build.log` file, but we don't want to put ANSI colors in the build log.
 
-For the above example, `[shell console]` and `[write to build.log]` would be modeled as subclasses of `TerminalWritable`<!-- -->. The `[normalize newlines]` and `[remove ANSI colors]` steps are modeled as subclasses of [TerminalTransform](./terminal.terminaltransform.md)<!-- -->, because they receive an input. The `[splitter]` would be implemented using [SplitterTransform](./terminal.splittertransform.md)<!-- -->.
+For the above example, `[shell console]` and `[write to build.log]` would be modeled as subclasses of `TerminalWritable`<!-- -->. The `[normalize newlines]` and `[remove ANSI colors]` steps are modeled as subclasses of [TerminalTransform](./terminal.terminaltransform.md)<!-- -->, because they output to a "destination" object. The `[splitter]` would be implemented using [SplitterTransform](./terminal.splittertransform.md)<!-- -->.
 
 The stream of messages are [ITerminalChunk](./terminal.iterminalchunk.md) objects, which can represent both `stdout` and `stderr` channels. The pipeline operates synchronously on each chunk, but by processing one chunk at a time, it avoids storing the entire output in memory. This means that operations like `[remove ANSI colors]` cannot be simple regular expressions -- they must be implemented as state machines ([TextRewriter](./terminal.textrewriter.md) subclasses) capable of matching substrings that span multiple chunks.
 

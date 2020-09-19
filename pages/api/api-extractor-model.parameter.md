@@ -27,7 +27,7 @@ export function add(x: number, y: number): number {
 }
 
 ```
-`Parameter` objects belong to the  collection.
+`Parameter` objects belong to the [ApiParameterListMixin.parameters](./api-extractor-model.apiparameterlistmixin.parameters.md) collection.
 
 ## Constructors
 

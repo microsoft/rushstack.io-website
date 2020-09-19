@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ApiReturnTypeMixin namespace
 
-Static members for .
+Static members for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md)<!-- -->.
 
 <b>Signature:</b>
 

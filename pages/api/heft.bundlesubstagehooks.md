@@ -22,6 +22,5 @@ export declare class BundleSubstageHooks extends BuildSubstageHooksBase
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [afterConfigureWebpack](./heft.bundlesubstagehooks.afterconfigurewebpack.md) |  | AsyncSeriesHook |  |
-|  [configureApiExtractor](./heft.bundlesubstagehooks.configureapiextractor.md) |  | AsyncSeriesWaterfallHook&lt;[IApiExtractorConfiguration](./heft.iapiextractorconfiguration.md)<!-- -->&gt; |  |
 |  [configureWebpack](./heft.bundlesubstagehooks.configurewebpack.md) |  | AsyncSeriesWaterfallHook&lt;[IWebpackConfiguration](./heft.iwebpackconfiguration.md)<!-- -->&gt; |  |
 

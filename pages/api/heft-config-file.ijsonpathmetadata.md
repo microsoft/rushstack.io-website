@@ -24,5 +24,5 @@ export interface IJsonPathMetadata
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [pathResolutionMethod](./heft-config-file.ijsonpathmetadata.pathresolutionmethod.md) | [PathResolutionMethod](./heft-config-file.pathresolutionmethod.md) | <b><i>(BETA)</i></b> |
+|  [pathResolutionMethod](./heft-config-file.ijsonpathmetadata.pathresolutionmethod.md) | [PathResolutionMethod](./heft-config-file.pathresolutionmethod.md) | <b><i>(BETA)</i></b> If this property describes a filesystem path, use this property to describe how the path should be resolved. |
 

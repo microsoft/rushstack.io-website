@@ -36,7 +36,7 @@ class Book<TIdentifier extends IIdentifier = BarCode> {
 }
 
 ```
-`TypeParameter` objects belong to the  collection.
+`TypeParameter` objects belong to the [ApiTypeParameterListMixin.typeParameters](./api-extractor-model.apitypeparameterlistmixin.typeparameters.md) collection.
 
 ## Constructors
 

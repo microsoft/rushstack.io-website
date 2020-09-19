@@ -20,6 +20,5 @@ export interface ICompileSubstageProperties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [copyStaticAssetsConfiguration](./heft.icompilesubstageproperties.copystaticassetsconfiguration.md) | [ICopyStaticAssetsConfiguration](./heft.icopystaticassetsconfiguration.md) |  |
-|  [typeScriptConfiguration](./heft.icompilesubstageproperties.typescriptconfiguration.md) | [ITypeScriptConfiguration](./heft.itypescriptconfiguration.md) |  |
+|  [typescriptMaxWriteParallelism](./heft.icompilesubstageproperties.typescriptmaxwriteparallelism.md) | number \| undefined |  |
 

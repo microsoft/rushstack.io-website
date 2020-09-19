@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ApiNameMixin namespace
 
-Static members for .
+Static members for [ApiNameMixin](./api-extractor-model.apinamemixin.md)<!-- -->.
 
 <b>Signature:</b>
 

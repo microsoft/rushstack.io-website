@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ApiItemContainerMixin namespace
 
-Static members for .
+Static members for [ApiItemContainerMixin](./api-extractor-model.apiitemcontainermixin.md)<!-- -->.
 
 <b>Signature:</b>
 

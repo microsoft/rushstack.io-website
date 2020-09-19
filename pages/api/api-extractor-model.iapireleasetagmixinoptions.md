@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IApiReleaseTagMixinOptions interface
 
-Constructor options for .
+Constructor options for [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md)<!-- -->.
 
 <b>Signature:</b>
 

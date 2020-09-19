@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ApiTypeParameterListMixin namespace
 
-Static members for .
+Static members for [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md)<!-- -->.
 
 <b>Signature:</b>
 

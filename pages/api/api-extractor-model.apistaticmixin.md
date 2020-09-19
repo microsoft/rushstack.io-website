@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ApiStaticMixin namespace
 
-Static members for .
+Static members for [ApiStaticMixin](./api-extractor-model.apistaticmixin.md)<!-- -->.
 
 <b>Signature:</b>
 

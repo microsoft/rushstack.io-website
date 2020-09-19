@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IApiReturnTypeMixinOptions interface
 
-Constructor options for .
+Constructor options for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md)<!-- -->.
 
 <b>Signature:</b>
 

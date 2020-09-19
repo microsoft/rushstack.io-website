@@ -17,12 +17,3 @@ export declare class CompileSubstageHooks extends BuildSubstageHooksBase
 ```
 <b>Extends:</b> [BuildSubstageHooksBase](./heft.buildsubstagehooksbase.md)
 
-## Properties
-
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [afterConfigureCopyStaticAssets](./heft.compilesubstagehooks.afterconfigurecopystaticassets.md) |  | AsyncSeriesHook |  |
-|  [afterConfigureTypeScript](./heft.compilesubstagehooks.afterconfiguretypescript.md) |  | AsyncSeriesHook |  |
-|  [configureCopyStaticAssets](./heft.compilesubstagehooks.configurecopystaticassets.md) |  | AsyncSeriesHook |  |
-|  [configureTypeScript](./heft.compilesubstagehooks.configuretypescript.md) |  | AsyncSeriesHook |  |
-
