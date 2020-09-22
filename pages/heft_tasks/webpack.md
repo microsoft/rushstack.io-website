@@ -83,11 +83,11 @@ Webpack works best with the `esnext` module format, whereas Jest must use the `c
     //   /**
     //    * (Required) The path where the output will be written.
     //    */
-    //    "outFolderPath": "lib-amd"
+    //    "outFolderName": "lib-amd"
     // }
     {
       "moduleKind": "commonjs",
-      "outFolderPath": "lib-commonjs"
+      "outFolderName": "lib-commonjs"
     }
   ],
 

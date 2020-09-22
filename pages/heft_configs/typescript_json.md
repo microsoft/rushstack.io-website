@@ -40,7 +40,7 @@ navigation_source: docs_nav
     //   /**
     //    * (Required) The path where the output will be written.
     //    */
-    //    "outFolderPath": "lib-amd"
+    //    "outFolderName": "lib-amd"
     // }
   ]
 
