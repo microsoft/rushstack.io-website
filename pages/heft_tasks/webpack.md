@@ -57,7 +57,7 @@ To start the localhost dev server, use the `heft start` command.
 
 ### Interaction with Jest
 
-Webpack works best with the `esnext` module format, whereas Jest must use the `commonjs` module format because its tests are executed by the Node.js runtime.  Thus, in order to use Webpack and Jest together, you will need to emit both module formats.  An easy way to accomplish this is to use `additionalModuleKindsToEmit` to configure a secondary output folder, and then use `emitFolderPathForJest` to tell Jest to use the CommonJS output.  For example:
+Webpack works best with the `esnext` module format, whereas Jest must use the `commonjs` module format because its tests are executed by the Node.js runtime.  Thus, in order to use Webpack and Jest together, you will need to emit both module formats.  An easy way to accomplish this is to use `additionalModuleKindsToEmit` to configure a secondary output folder, and then use `emitFolderNameForJest` to tell Jest to use the CommonJS output.  For example:
 
 **.heft/typescript.json**
 ```js
@@ -97,7 +97,7 @@ Webpack works best with the `esnext` module format, whereas Jest must use the `c
    *
    * The default value is "lib".
    */
-  "emitFolderPathForJest": "lib-commonjs"
+  "emitFolderNameForJest": "lib-commonjs"
   . . .
 }
 ```

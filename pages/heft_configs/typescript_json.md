@@ -50,7 +50,7 @@ navigation_source: docs_nav
    *
    * The default value is "lib".
    */
-  // "emitFolderPathForJest": "lib-commonjs",
+  // "emitFolderNameForJest": "lib-commonjs",
 
   /**
    * If set to "true", the TSlint task will not be invoked.
