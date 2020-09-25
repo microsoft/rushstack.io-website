@@ -12,7 +12,7 @@ Although various pieces of this work have been underway for years, we're now bri
 
 ## What's in the stack?
 
-These tools are developed under the **Rush Stack** umbrella:
+These major tools are developed under the **Rush Stack** umbrella:
 
 - [Rush](https://rushjs.io/): the scalable monorepo build orchestrator
 - [Heft]({% link pages/heft/overview.md %}): an extensible build system that interfaces with Rush
@@ -20,16 +20,19 @@ These tools are developed under the **Rush Stack** umbrella:
 - [API Documenter](https://api-extractor.com/pages/setup/generating_docs/): generates your API documentation website
 - [@<!---->rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config): our standardized
   ESLint rule set, specifically designed for large scale TypeScript monorepos
+- [Rundown](https://www.npmjs.com/package/@rushstack/rundown): a tool for optimizing Node.js process startup times
 
-These tools are built on a common framework of reusable library packages:
+The projects are built on a common framework of reusable library packages, which includes:
 - [ts-command-line](https://www.npmjs.com/package/@rushstack/ts-command-line): a strict command-line parser
   whose options/docs can be augmented by toolchain packages
 - [node-core-library](https://www.npmjs.com/package/@rushstack/node-core-library): the standard base library
   used by all our projects
 - [package-deps-hash](https://www.npmjs.com/package/@rushstack/package-deps-hash): the incremental build engine
   used by Rush
+- [rig-package](https://www.npmjs.com/package/@rushstack/rig-package): a system for sharing tool configurations between projects without duplicating config files
 - [stream-collator](https://www.npmjs.com/package/@rushstack/stream-collator): the magic behind how Rush can
   display real-time log output from concurrent tasks, without ugly interleaving of the output
+- [tree-pattern](https://www.npmjs.com/package/@rushstack/tree-pattern): a simple, fast pattern matcher for JavaScript tree structures.
 - [a family of webpack plugins](https://github.com/microsoft/rushstack/tree/master/webpack) used in our
   applications
 
