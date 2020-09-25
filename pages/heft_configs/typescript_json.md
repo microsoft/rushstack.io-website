@@ -6,7 +6,6 @@ navigation_source: docs_nav
 
 ## Supported file paths
 
-- **common/config/heft/typescript.json**
 - **&lt;project folder&gt;/.heft/typescript.json**
 
 ## Template
