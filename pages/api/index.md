@@ -24,6 +24,7 @@ improve_this_button: false
 |  [@rushstack/module-minifier-plugin](./module-minifier-plugin.md) |  |
 |  [@rushstack/node-core-library](./node-core-library.md) | Core libraries that every NodeJS toolchain project should use. |
 |  [@rushstack/package-deps-hash](./package-deps-hash.md) | This package builds a JSON object containing the git hashes of all files used to produce a given NPM package. The [Rush](https://rushjs.io/) tool uses this library to implement incremental build detection. |
+|  [@rushstack/rig-package](./rig-package.md) | A system for sharing tool configurations between projects without duplicating config files. |
 |  [@rushstack/stream-collator](./stream-collator.md) | This library enables a tool to display live console output from multiple concurrent processes, while ensuring that their output does not get jumbled together. |
 |  [@rushstack/terminal](./terminal.md) | This library implements a system for processing human readable text that will be output by console applications. |
 |  [@rushstack/tree-pattern](./tree-pattern.md) | A fast, lightweight pattern matcher for tree structures such as an Abstract Syntax Tree (AST). |

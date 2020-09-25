@@ -3061,6 +3061,41 @@ api_nav:
             url: /pages/api/package-deps-hash.ipackagedeps.arguments
           - title: files
             url: /pages/api/package-deps-hash.ipackagedeps.files
+  - title: '@rushstack/rig-package'
+    url: /pages/api/rig-package
+    subitems:
+      - title: ILoadForProjectFolderOptions
+        url: /pages/api/rig-package.iloadforprojectfolderoptions
+        subitems:
+          - title: projectFolderPath
+            url: /pages/api/rig-package.iloadforprojectfolderoptions.projectfolderpath
+      - title: RigConfig
+        url: /pages/api/rig-package.rigconfig
+        subitems:
+          - title: filePath
+            url: /pages/api/rig-package.rigconfig.filepath
+          - title: getResolvedProfileFolder
+            url: /pages/api/rig-package.rigconfig.getresolvedprofilefolder
+          - title: getResolvedProfileFolderAsync
+            url: /pages/api/rig-package.rigconfig.getresolvedprofilefolderasync
+          - title: jsonSchemaObject
+            url: /pages/api/rig-package.rigconfig.jsonschemaobject
+          - title: jsonSchemaPath
+            url: /pages/api/rig-package.rigconfig.jsonschemapath
+          - title: loadForProjectFolder
+            url: /pages/api/rig-package.rigconfig.loadforprojectfolder
+          - title: loadForProjectFolderAsync
+            url: /pages/api/rig-package.rigconfig.loadforprojectfolderasync
+          - title: projectFolderPath
+            url: /pages/api/rig-package.rigconfig.projectfolderpath
+          - title: relativeProfileFolderPath
+            url: /pages/api/rig-package.rigconfig.relativeprofilefolderpath
+          - title: rigFound
+            url: /pages/api/rig-package.rigconfig.rigfound
+          - title: rigPackageName
+            url: /pages/api/rig-package.rigconfig.rigpackagename
+          - title: rigProfile
+            url: /pages/api/rig-package.rigconfig.rigprofile
   - title: '@rushstack/stream-collator'
     url: /pages/api/stream-collator
     subitems:
