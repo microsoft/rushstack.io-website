@@ -17,5 +17,5 @@ Name of the version policy used by this project.
 <b>Signature:</b>
 
 ```typescript
-readonly versionPolicyName: string | undefined;
+get versionPolicyName(): string | undefined;
 ```

@@ -14,5 +14,5 @@ The list of interfaces that this class implements using the `implements` keyword
 <b>Signature:</b>
 
 ```typescript
-readonly implementsTypes: ReadonlyArray<HeritageType>;
+get implementsTypes(): ReadonlyArray<HeritageType>;
 ```

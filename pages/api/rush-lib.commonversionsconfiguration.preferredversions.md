@@ -14,7 +14,7 @@ A table that specifies a "preferred version" for a given NPM package. This featu
 <b>Signature:</b>
 
 ```typescript
-readonly preferredVersions: Map<string, string>;
+get preferredVersions(): Map<string, string>;
 ```
 
 ## Remarks

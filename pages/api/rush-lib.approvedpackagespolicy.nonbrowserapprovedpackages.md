@@ -14,7 +14,7 @@ Packages approved for usage everywhere \*except\* in a web browser.
 <b>Signature:</b>
 
 ```typescript
-readonly nonbrowserApprovedPackages: ApprovedPackagesConfiguration;
+get nonbrowserApprovedPackages(): ApprovedPackagesConfiguration;
 ```
 
 ## Remarks

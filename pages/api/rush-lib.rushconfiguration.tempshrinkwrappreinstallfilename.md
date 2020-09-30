@@ -14,7 +14,7 @@ The full path of a backup copy of tempShrinkwrapFilename. This backup copy is ma
 <b>Signature:</b>
 
 ```typescript
-readonly tempShrinkwrapPreinstallFilename: string;
+get tempShrinkwrapPreinstallFilename(): string;
 ```
 
 ## Remarks

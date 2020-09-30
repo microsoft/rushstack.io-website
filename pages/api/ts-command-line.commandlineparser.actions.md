@@ -14,5 +14,5 @@ Returns the list of actions that were defined for this CommandLineParser object.
 <b>Signature:</b>
 
 ```typescript
-readonly actions: ReadonlyArray<CommandLineAction>;
+get actions(): ReadonlyArray<CommandLineAction>;
 ```

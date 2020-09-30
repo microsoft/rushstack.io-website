@@ -15,5 +15,5 @@ This property is initially `true` when the object is constructed, and becomes `f
 
 ```typescript
 /** @sealed */
-readonly isOpen: boolean;
+get isOpen(): boolean;
 ```

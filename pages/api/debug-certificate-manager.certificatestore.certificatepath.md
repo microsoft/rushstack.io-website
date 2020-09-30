@@ -14,5 +14,5 @@ Path to the saved debug certificate
 <b>Signature:</b>
 
 ```typescript
-readonly certificatePath: string;
+get certificatePath(): string;
 ```

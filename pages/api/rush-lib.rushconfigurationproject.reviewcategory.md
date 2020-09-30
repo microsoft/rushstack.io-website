@@ -14,5 +14,5 @@ The review category name, or undefined if no category was assigned. This name mu
 <b>Signature:</b>
 
 ```typescript
-readonly reviewCategory: string;
+get reviewCategory(): string | undefined;
 ```

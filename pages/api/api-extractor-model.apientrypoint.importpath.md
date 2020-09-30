@@ -14,7 +14,7 @@ The module path for this entry point, relative to the parent `ApiPackage`<!-- --
 <b>Signature:</b>
 
 ```typescript
-readonly importPath: string;
+get importPath(): string;
 ```
 
 ## Remarks

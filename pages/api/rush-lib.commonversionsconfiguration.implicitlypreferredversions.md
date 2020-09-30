@@ -16,5 +16,5 @@ If the value is `undefined`<!-- -->, then the default value is `true`<!-- -->.
 <b>Signature:</b>
 
 ```typescript
-readonly implicitlyPreferredVersions: boolean | undefined;
+get implicitlyPreferredVersions(): boolean | undefined;
 ```

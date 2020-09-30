@@ -17,7 +17,7 @@ An abstraction for controlling the supported package managers: PNPM, NPM, and Ya
 <b>Signature:</b>
 
 ```typescript
-readonly packageManagerWrapper: PackageManager;
+get packageManagerWrapper(): PackageManager;
 ```
 
 ## Remarks

@@ -24,5 +24,6 @@ export declare enum InheritanceType
 |  Member | Value | Description |
 |  --- | --- | --- |
 |  append | <code>&quot;append&quot;</code> | <b><i>(BETA)</i></b> Append additional elements after elements from the parent file's property |
+|  custom | <code>&quot;custom&quot;</code> | <b><i>(BETA)</i></b> Custom inheritance functionality |
 |  replace | <code>&quot;replace&quot;</code> | <b><i>(BETA)</i></b> Discard elements from the parent file's property |
 

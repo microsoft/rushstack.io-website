@@ -14,5 +14,5 @@ The default branch name. This tells "rush change" which remote branch to compare
 <b>Signature:</b>
 
 ```typescript
-readonly repositoryDefaultBranch: string;
+get repositoryDefaultBranch(): string;
 ```

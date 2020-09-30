@@ -16,5 +16,5 @@ Example: `@rush-temp/MyProject-2`
 <b>Signature:</b>
 
 ```typescript
-readonly tempProjectName: string;
+get tempProjectName(): string;
 ```

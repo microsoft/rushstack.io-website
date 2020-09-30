@@ -15,5 +15,5 @@ This property supports a visitor pattern for walking the tree. For items with Ap
 
 ```typescript
 /** @virtual */
-readonly members: ReadonlyArray<ApiItem>;
+get members(): ReadonlyArray<ApiItem>;
 ```

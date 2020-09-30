@@ -17,5 +17,5 @@ The list of dependencies of type DependencyType.Dev.
 <b>Signature:</b>
 
 ```typescript
-readonly devDependencyList: ReadonlyArray<PackageJsonDependency>;
+get devDependencyList(): ReadonlyArray<PackageJsonDependency>;
 ```

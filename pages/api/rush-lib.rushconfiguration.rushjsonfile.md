@@ -14,5 +14,5 @@ The absolute path to the "rush.json" configuration file that was loaded to const
 <b>Signature:</b>
 
 ```typescript
-readonly rushJsonFile: string;
+get rushJsonFile(): string;
 ```

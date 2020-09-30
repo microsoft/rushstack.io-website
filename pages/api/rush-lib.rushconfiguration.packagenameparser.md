@@ -14,5 +14,5 @@ The rush hooks. It allows customized scripts to run at the specified point.
 <b>Signature:</b>
 
 ```typescript
-readonly packageNameParser: PackageNameParser;
+get packageNameParser(): PackageNameParser;
 ```

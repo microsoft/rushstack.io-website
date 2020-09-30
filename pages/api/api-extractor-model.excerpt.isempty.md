@@ -14,5 +14,5 @@ Returns true if the excerpt is an empty range.
 <b>Signature:</b>
 
 ```typescript
-readonly isEmpty: boolean;
+get isEmpty(): boolean;
 ```

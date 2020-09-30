@@ -14,5 +14,5 @@ Get the absolute file path of the repo-state.json file.
 <b>Signature:</b>
 
 ```typescript
-readonly filePath: string;
+get filePath(): string;
 ```

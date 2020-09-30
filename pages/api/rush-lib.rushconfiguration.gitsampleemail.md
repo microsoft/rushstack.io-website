@@ -14,5 +14,5 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-readonly gitSampleEmail: string;
+get gitSampleEmail(): string;
 ```

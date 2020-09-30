@@ -43,6 +43,7 @@ API Extractor helps with validation, documentation, and reviewing of the exporte
 |  [IConfigMessageReportingRule](./api-extractor.iconfigmessagereportingrule.md) | Configures reporting for a given message identifier. |
 |  [IConfigMessageReportingTable](./api-extractor.iconfigmessagereportingtable.md) | Specifies a table of reporting rules for different message identifiers, and also the default rule used for identifiers that do not appear in the table. |
 |  [IConfigTsdocMetadata](./api-extractor.iconfigtsdocmetadata.md) | Configures how the tsdoc-metadata.json file will be generated. |
+|  [IExtractorConfigLoadForFolderOptions](./api-extractor.iextractorconfigloadforfolderoptions.md) | Options for [ExtractorConfig.tryLoadForFolder()](./api-extractor.extractorconfig.tryloadforfolder.md)<!-- -->. |
 |  [IExtractorConfigPrepareOptions](./api-extractor.iextractorconfigprepareoptions.md) | Options for [ExtractorConfig.prepare()](./api-extractor.extractorconfig.prepare.md)<!-- -->. |
 |  [IExtractorInvokeOptions](./api-extractor.iextractorinvokeoptions.md) | Runtime options for Extractor. |
 |  [IExtractorMessageProperties](./api-extractor.iextractormessageproperties.md) | Used by [ExtractorMessage.properties](./api-extractor.extractormessage.properties.md)<!-- -->. |

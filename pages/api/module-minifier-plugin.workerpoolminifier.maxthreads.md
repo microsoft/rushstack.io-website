@@ -12,5 +12,7 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-maxThreads: number;
+get maxThreads(): number;
+
+set maxThreads(threads: number);
 ```

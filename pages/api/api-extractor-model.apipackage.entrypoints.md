@@ -12,5 +12,5 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-readonly entryPoints: ReadonlyArray<ApiEntryPoint>;
+get entryPoints(): ReadonlyArray<ApiEntryPoint>;
 ```

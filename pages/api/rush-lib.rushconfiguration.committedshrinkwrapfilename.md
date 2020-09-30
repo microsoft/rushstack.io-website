@@ -19,7 +19,7 @@ The full path of the shrinkwrap file that is tracked by Git. (The "rush install"
 <b>Signature:</b>
 
 ```typescript
-readonly committedShrinkwrapFilename: string;
+get committedShrinkwrapFilename(): string;
 ```
 
 ## Remarks

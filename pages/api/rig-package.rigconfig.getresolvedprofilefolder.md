@@ -22,7 +22,7 @@ string
 
 ## Remarks
 
-If no `rig.json` file was found, then this method throws an error.
+If no `rig.json` file was found, then this method throws an error. The first time this method is called, the result is cached and will be returned by all subsequent calls.
 
 Example: `/path/to/your-project/node_modules/example-rig/profiles/example-profile`
 

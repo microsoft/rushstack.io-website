@@ -14,7 +14,7 @@ Returns the string arguments for a string list parameter that was parsed from th
 <b>Signature:</b>
 
 ```typescript
-readonly values: ReadonlyArray<string>;
+get values(): ReadonlyArray<string>;
 ```
 
 ## Remarks

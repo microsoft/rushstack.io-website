@@ -14,5 +14,5 @@ A list of projects within the Rush configuration which directly depend on this p
 <b>Signature:</b>
 
 ```typescript
-readonly downstreamDependencyProjects: string[];
+get downstreamDependencyProjects(): string[];
 ```

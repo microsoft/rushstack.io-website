@@ -14,5 +14,5 @@ Returns the initial state of the lock. This can be used to detect if the previou
 <b>Signature:</b>
 
 ```typescript
-readonly dirtyWhenAcquired: boolean;
+get dirtyWhenAcquired(): boolean;
 ```

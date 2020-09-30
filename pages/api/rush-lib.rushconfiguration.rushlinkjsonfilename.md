@@ -21,5 +21,5 @@ Example: `C:\MyRepo\common\temp\rush-link.json`
 <b>Signature:</b>
 
 ```typescript
-readonly rushLinkJsonFilename: string;
+get rushLinkJsonFilename(): string;
 ```

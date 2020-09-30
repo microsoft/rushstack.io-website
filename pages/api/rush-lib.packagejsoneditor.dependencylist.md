@@ -17,5 +17,5 @@ The list of dependencies of type DependencyType.Regular, DependencyType.Optional
 <b>Signature:</b>
 
 ```typescript
-readonly dependencyList: ReadonlyArray<PackageJsonDependency>;
+get dependencyList(): ReadonlyArray<PackageJsonDependency>;
 ```

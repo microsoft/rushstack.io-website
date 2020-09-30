@@ -16,5 +16,5 @@ Example: `C:\MyRepo\common\config\rush`
 <b>Signature:</b>
 
 ```typescript
-readonly commonRushConfigFolder: string;
+get commonRushConfigFolder(): string;
 ```

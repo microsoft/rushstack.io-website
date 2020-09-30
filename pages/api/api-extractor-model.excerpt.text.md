@@ -14,5 +14,5 @@ The excerpted text, formed by concatenating the text of the `spannedTokens` stri
 <b>Signature:</b>
 
 ```typescript
-readonly text: string;
+get text(): string;
 ```

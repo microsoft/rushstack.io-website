@@ -17,5 +17,5 @@ This property should return the newline character the terminal provider expects.
 <b>Signature:</b>
 
 ```typescript
-readonly eolCharacter: string;
+get eolCharacter(): string;
 ```

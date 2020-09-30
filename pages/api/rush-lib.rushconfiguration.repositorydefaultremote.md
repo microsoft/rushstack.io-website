@@ -14,5 +14,5 @@ The default remote. This tells "rush change" which remote to compare against if 
 <b>Signature:</b>
 
 ```typescript
-readonly repositoryDefaultRemote: string;
+get repositoryDefaultRemote(): string;
 ```

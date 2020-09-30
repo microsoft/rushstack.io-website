@@ -19,5 +19,5 @@ If the value is provided, change logs will only be generated in that project. If
 <b>Signature:</b>
 
 ```typescript
-readonly mainProject: string | undefined;
+get mainProject(): string | undefined;
 ```

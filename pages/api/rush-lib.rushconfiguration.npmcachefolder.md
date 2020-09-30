@@ -16,5 +16,5 @@ Example: `C:\MyRepo\common\temp\npm-cache`
 <b>Signature:</b>
 
 ```typescript
-readonly npmCacheFolder: string;
+get npmCacheFolder(): string;
 ```

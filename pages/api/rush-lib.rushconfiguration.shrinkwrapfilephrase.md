@@ -14,5 +14,5 @@ Returns an English phrase such as "shrinkwrap file" that can be used in logging 
 <b>Signature:</b>
 
 ```typescript
-readonly shrinkwrapFilePhrase: string;
+get shrinkwrapFilePhrase(): string;
 ```

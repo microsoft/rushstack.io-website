@@ -14,5 +14,5 @@ The currently executing version of the "rush-lib" library. This is the same as t
 <b>Signature:</b>
 
 ```typescript
-static readonly version: string;
+static get version(): string;
 ```

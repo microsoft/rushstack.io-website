@@ -14,7 +14,7 @@ Returns any remaining command line arguments after the recognized portion that w
 <b>Signature:</b>
 
 ```typescript
-readonly values: ReadonlyArray<string>;
+get values(): ReadonlyArray<string>;
 ```
 
 ## Remarks

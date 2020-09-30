@@ -15,5 +15,5 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-readonly name: string;
+get name(): string;
 ```

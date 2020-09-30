@@ -17,5 +17,5 @@ The value of the lockstep version
 <b>Signature:</b>
 
 ```typescript
-readonly version: string;
+get version(): string;
 ```

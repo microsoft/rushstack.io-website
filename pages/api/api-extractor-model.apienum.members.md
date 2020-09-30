@@ -14,5 +14,5 @@ improve_this_button: false
 
 ```typescript
 /** @override */
-readonly members: ReadonlyArray<ApiEnumMember>;
+get members(): ReadonlyArray<ApiEnumMember>;
 ```

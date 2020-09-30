@@ -14,5 +14,5 @@ The hash of all preferred versions at the end of the last update.
 <b>Signature:</b>
 
 ```typescript
-readonly preferredVersionsHash: string | undefined;
+get preferredVersionsHash(): string | undefined;
 ```

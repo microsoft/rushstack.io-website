@@ -16,5 +16,5 @@ The default value is false.
 <b>Signature:</b>
 
 ```typescript
-readonly allowMostlyStandardPackageNames: boolean;
+get allowMostlyStandardPackageNames(): boolean;
 ```

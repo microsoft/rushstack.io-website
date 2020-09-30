@@ -14,5 +14,5 @@ The individual source code tokens that comprise the main excerpt.
 <b>Signature:</b>
 
 ```typescript
-readonly excerptTokens: ReadonlyArray<ExcerptToken>;
+get excerptTokens(): ReadonlyArray<ExcerptToken>;
 ```

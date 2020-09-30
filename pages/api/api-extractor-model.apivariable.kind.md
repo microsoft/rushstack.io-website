@@ -14,5 +14,5 @@ improve_this_button: false
 
 ```typescript
 /** @override */
-readonly kind: ApiItemKind;
+get kind(): ApiItemKind;
 ```

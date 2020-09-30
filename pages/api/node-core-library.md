@@ -19,6 +19,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [AnsiEscape](./node-core-library.ansiescape.md) | Operations for working with text strings that contain [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code)<!-- -->. The most commonly used escape codes set the foreground/background color for console output. |
 |  [Colors](./node-core-library.colors.md) | <b><i>(BETA)</i></b> The static functions on this class are used to produce colored text for use with the node-core-library terminal. |
 |  [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) | <b><i>(BETA)</i></b> Terminal provider that prints to STDOUT (for log- and verbose-level messages) and STDERR (for warning- and error-level messsages). |
+|  [Enum](./node-core-library.enum.md) | A helper for looking up TypeScript <code>enum</code> keys/values. |
 |  [Executable](./node-core-library.executable.md) | The Executable class provides a safe, portable, recommended solution for tools that need to launch child processes. |
 |  [FileSystem](./node-core-library.filesystem.md) | The FileSystem API provides a complete set of recommended operations for interacting with the file system. |
 |  [FileWriter](./node-core-library.filewriter.md) | API for interacting with file handles. |
@@ -91,6 +92,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [IPackageNameParserOptions](./node-core-library.ipackagenameparseroptions.md) | Options that configure the validation rules used by a [PackageNameParser](./node-core-library.packagenameparser.md) instance. |
 |  [IParsedPackageName](./node-core-library.iparsedpackagename.md) | A package name that has been separated into its scope and unscoped name. |
 |  [IParsedPackageNameOrError](./node-core-library.iparsedpackagenameorerror.md) | Result object returned by [PackageName.tryParse()](./node-core-library.packagename.tryparse.md) |
+|  [IPathFormatConciselyOptions](./node-core-library.ipathformatconciselyoptions.md) | Options for [Path.formatConcisely()](./node-core-library.path.formatconcisely.md)<!-- -->. |
 |  [IProtectableMapParameters](./node-core-library.iprotectablemapparameters.md) | Constructor parameters for [ProtectableMap](./node-core-library.protectablemap.md) |
 |  [IStringBufferOutputOptions](./node-core-library.istringbufferoutputoptions.md) | <b><i>(BETA)</i></b> |
 |  [IStringBuilder](./node-core-library.istringbuilder.md) | An interface for a builder object that allows a large text string to be constructed incrementally by appending small chunks. |

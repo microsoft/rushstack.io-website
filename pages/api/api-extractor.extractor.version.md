@@ -14,5 +14,5 @@ Returns the version number of the API Extractor NPM package.
 <b>Signature:</b>
 
 ```typescript
-static readonly version: string;
+static get version(): string;
 ```

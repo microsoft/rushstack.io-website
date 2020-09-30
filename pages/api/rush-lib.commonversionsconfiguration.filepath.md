@@ -14,5 +14,5 @@ Get the absolute file path of the common-versions.json file.
 <b>Signature:</b>
 
 ```typescript
-readonly filePath: string;
+get filePath(): string;
 ```

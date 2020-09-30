@@ -14,5 +14,5 @@ The default fully-qualified git remote branch of the repository. This helps "rus
 <b>Signature:</b>
 
 ```typescript
-readonly repositoryDefaultFullyQualifiedRemoteBranch: string;
+get repositoryDefaultFullyQualifiedRemoteBranch(): string;
 ```

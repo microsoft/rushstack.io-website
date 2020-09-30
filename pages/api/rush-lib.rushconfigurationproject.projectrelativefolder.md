@@ -16,5 +16,5 @@ Example: `libraries\my-project`
 <b>Signature:</b>
 
 ```typescript
-readonly projectRelativeFolder: string;
+get projectRelativeFolder(): string;
 ```

@@ -16,5 +16,5 @@ Rush normally prints a warning if it detects a pre-LTS Node.js version. If you a
 <b>Signature:</b>
 
 ```typescript
-readonly suppressNodeLtsWarning: boolean;
+get suppressNodeLtsWarning(): boolean;
 ```

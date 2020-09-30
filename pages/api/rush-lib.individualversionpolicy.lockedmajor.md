@@ -17,5 +17,5 @@ The major version that has been locked
 <b>Signature:</b>
 
 ```typescript
-readonly lockedMajor: number | undefined;
+get lockedMajor(): number | undefined;
 ```

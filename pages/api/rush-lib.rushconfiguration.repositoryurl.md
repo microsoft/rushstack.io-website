@@ -14,5 +14,5 @@ The remote url of the repository. This helps "rush change" find the right remote
 <b>Signature:</b>
 
 ```typescript
-readonly repositoryUrl: string | undefined;
+get repositoryUrl(): string | undefined;
 ```

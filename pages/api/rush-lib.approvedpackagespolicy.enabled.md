@@ -14,5 +14,5 @@ Whether the feature is enabled. The feature is enabled if the "approvedPackagesP
 <b>Signature:</b>
 
 ```typescript
-readonly enabled: boolean;
+get enabled(): boolean;
 ```

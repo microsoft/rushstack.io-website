@@ -17,5 +17,5 @@ This property should return true only if the terminal provider supports renderin
 <b>Signature:</b>
 
 ```typescript
-readonly supportsColor: boolean;
+get supportsColor(): boolean;
 ```

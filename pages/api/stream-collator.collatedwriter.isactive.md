@@ -17,5 +17,5 @@ Returns true if this is the active writer for its associated [StreamCollator](./
 <b>Signature:</b>
 
 ```typescript
-readonly isActive: boolean;
+get isActive(): boolean;
 ```

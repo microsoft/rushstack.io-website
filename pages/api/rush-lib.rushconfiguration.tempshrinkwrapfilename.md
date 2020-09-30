@@ -14,7 +14,7 @@ The full path of the temporary shrinkwrap file that is used during "rush install
 <b>Signature:</b>
 
 ```typescript
-readonly tempShrinkwrapFilename: string;
+get tempShrinkwrapFilename(): string;
 ```
 
 ## Remarks

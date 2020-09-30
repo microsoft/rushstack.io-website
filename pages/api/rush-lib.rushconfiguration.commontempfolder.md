@@ -14,5 +14,5 @@ The folder where temporary files will be stored. This is always a subfolder call
 <b>Signature:</b>
 
 ```typescript
-readonly commonTempFolder: string;
+get commonTempFolder(): string;
 ```

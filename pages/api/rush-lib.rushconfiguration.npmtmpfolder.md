@@ -16,5 +16,5 @@ Example: `C:\MyRepo\common\temp\npm-tmp`
 <b>Signature:</b>
 
 ```typescript
-readonly npmTmpFolder: string;
+get npmTmpFolder(): string;
 ```

@@ -15,7 +15,7 @@ Returns a name for this object that can be used in diagnostic messages, for exam
 
 ```typescript
 /** @virtual */
-readonly displayName: string;
+get displayName(): string;
 ```
 
 ## Remarks

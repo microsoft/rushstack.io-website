@@ -17,5 +17,5 @@ Version policy definition name
 <b>Signature:</b>
 
 ```typescript
-readonly definitionName: VersionPolicyDefinitionName;
+get definitionName(): VersionPolicyDefinitionName;
 ```

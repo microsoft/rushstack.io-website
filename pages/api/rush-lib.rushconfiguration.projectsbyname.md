@@ -12,5 +12,5 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-readonly projectsByName: Map<string, RushConfigurationProject>;
+get projectsByName(): Map<string, RushConfigurationProject>;
 ```

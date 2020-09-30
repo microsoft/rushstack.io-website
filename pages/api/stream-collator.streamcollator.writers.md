@@ -17,5 +17,5 @@ The list of writers that have been registered by calling [StreamCollator.registe
 <b>Signature:</b>
 
 ```typescript
-readonly writers: ReadonlySet<CollatedWriter>;
+get writers(): ReadonlySet<CollatedWriter>;
 ```

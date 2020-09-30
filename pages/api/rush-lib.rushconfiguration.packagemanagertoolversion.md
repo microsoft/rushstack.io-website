@@ -14,5 +14,5 @@ The version of the locally installed NPM tool. (Example: "1.2.3")
 <b>Signature:</b>
 
 ```typescript
-readonly packageManagerToolVersion: string;
+get packageManagerToolVersion(): string;
 ```

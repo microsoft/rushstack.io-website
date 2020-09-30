@@ -14,5 +14,5 @@ The folder that contains all change files.
 <b>Signature:</b>
 
 ```typescript
-readonly changesFolder: string;
+get changesFolder(): string;
 ```

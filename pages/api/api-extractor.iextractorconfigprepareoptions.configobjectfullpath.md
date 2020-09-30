@@ -19,5 +19,5 @@ configObjectFullPath: string | undefined;
 
 ## Remarks
 
-If this is omitted, then the `projectFolder` must not be specified using the `<lookup>` token.
+If `configObjectFullPath` and `projectFolderLookupToken` are both unspecified, then the api-extractor.json config file must explicitly specify a `projectFolder` setting rather than relying on the `<lookup>` token.
 

@@ -16,5 +16,5 @@ These are package names that would be found by RushConfiguration.getProjectByNam
 <b>Signature:</b>
 
 ```typescript
-readonly cyclicDependencyProjects: Set<string>;
+get cyclicDependencyProjects(): Set<string>;
 ```

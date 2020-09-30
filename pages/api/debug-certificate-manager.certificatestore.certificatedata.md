@@ -14,5 +14,7 @@ Debug certificate pem file contents.
 <b>Signature:</b>
 
 ```typescript
-certificateData: string | undefined;
+get certificateData(): string | undefined;
+
+set certificateData(certificate: string | undefined);
 ```

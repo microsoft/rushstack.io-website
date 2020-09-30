@@ -14,7 +14,7 @@ A table of specifies preferred versions maintained by the XStitch tool.
 <b>Signature:</b>
 
 ```typescript
-readonly xstitchPreferredVersions: Map<string, string>;
+get xstitchPreferredVersions(): Map<string, string>;
 ```
 
 ## Remarks

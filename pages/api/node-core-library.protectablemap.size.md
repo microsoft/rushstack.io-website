@@ -14,5 +14,5 @@ Returns the number of (key, value) entries in the map.
 <b>Signature:</b>
 
 ```typescript
-readonly size: number;
+get size(): number;
 ```

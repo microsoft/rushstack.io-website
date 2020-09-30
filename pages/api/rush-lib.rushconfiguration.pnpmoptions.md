@@ -14,7 +14,7 @@ Options that are only used when the PNPM package manager is selected.
 <b>Signature:</b>
 
 ```typescript
-readonly pnpmOptions: PnpmOptionsConfiguration;
+get pnpmOptions(): PnpmOptionsConfiguration;
 ```
 
 ## Remarks

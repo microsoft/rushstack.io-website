@@ -14,5 +14,5 @@ If true, then this project will be ignored by the "rush check" command. The defa
 <b>Signature:</b>
 
 ```typescript
-readonly skipRushCheck: boolean;
+get skipRushCheck(): boolean;
 ```

@@ -14,5 +14,5 @@ The name of the package manager being used to install dependencies
 <b>Signature:</b>
 
 ```typescript
-readonly packageManager: PackageManagerName;
+get packageManager(): PackageManagerName;
 ```

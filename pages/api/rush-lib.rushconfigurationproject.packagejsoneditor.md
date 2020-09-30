@@ -17,5 +17,5 @@ A useful wrapper around the package.json file for making modifications
 <b>Signature:</b>
 
 ```typescript
-readonly packageJsonEditor: PackageJsonEditor;
+get packageJsonEditor(): PackageJsonEditor;
 ```

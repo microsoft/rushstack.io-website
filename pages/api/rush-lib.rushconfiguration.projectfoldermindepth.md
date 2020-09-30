@@ -14,5 +14,5 @@ The minimum allowable folder depth for the projectFolder field in the rush.json 
 <b>Signature:</b>
 
 ```typescript
-readonly projectFolderMinDepth: number;
+get projectFolderMinDepth(): number;
 ```

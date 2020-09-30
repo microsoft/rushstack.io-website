@@ -14,5 +14,5 @@ Returns true if this lock is currently being held.
 <b>Signature:</b>
 
 ```typescript
-readonly isReleased: boolean;
+get isReleased(): boolean;
 ```

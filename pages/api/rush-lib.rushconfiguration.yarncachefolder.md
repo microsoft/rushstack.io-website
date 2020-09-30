@@ -16,5 +16,5 @@ Example: `C:\MyRepo\common\temp\yarn-cache`
 <b>Signature:</b>
 
 ```typescript
-readonly yarnCacheFolder: string;
+get yarnCacheFolder(): string;
 ```

@@ -14,5 +14,5 @@ The list of base interfaces that this interface inherits from using the `extends
 <b>Signature:</b>
 
 ```typescript
-readonly extendsTypes: ReadonlyArray<HeritageType>;
+get extendsTypes(): ReadonlyArray<HeritageType>;
 ```

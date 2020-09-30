@@ -14,5 +14,5 @@ Gets the currently-installed variant, if an installation has occurred. For Rush 
 <b>Signature:</b>
 
 ```typescript
-readonly currentInstalledVariant: string | undefined;
+get currentInstalledVariant(): string | undefined;
 ```

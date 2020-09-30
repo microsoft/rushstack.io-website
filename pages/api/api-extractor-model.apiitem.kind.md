@@ -15,5 +15,5 @@ Identifies the subclass of the `ApiItem` base class.
 
 ```typescript
 /** @virtual */
-readonly kind: ApiItemKind;
+get kind(): ApiItemKind;
 ```

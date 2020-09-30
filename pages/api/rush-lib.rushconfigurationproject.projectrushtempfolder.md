@@ -16,5 +16,5 @@ Example: `C:\MyRepo\libraries\my-project\.rush\temp`
 <b>Signature:</b>
 
 ```typescript
-readonly projectRushTempFolder: string;
+get projectRushTempFolder(): string;
 ```

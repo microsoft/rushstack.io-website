@@ -17,5 +17,5 @@ Get the experiments configuration.
 <b>Signature:</b>
 
 ```typescript
-readonly configuration: Readonly<IExperimentsJson>;
+get configuration(): Readonly<IExperimentsJson>;
 ```

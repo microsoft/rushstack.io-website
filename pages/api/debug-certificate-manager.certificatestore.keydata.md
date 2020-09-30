@@ -14,5 +14,7 @@ Key used to sign the debug pem certificate.
 <b>Signature:</b>
 
 ```typescript
-keyData: string | undefined;
+get keyData(): string | undefined;
+
+set keyData(key: string | undefined);
 ```

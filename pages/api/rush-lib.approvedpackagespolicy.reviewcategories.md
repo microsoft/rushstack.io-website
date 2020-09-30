@@ -14,5 +14,5 @@ A list of category names that are valid for usage as the RushConfigurationProjec
 <b>Signature:</b>
 
 ```typescript
-readonly reviewCategories: Set<string>;
+get reviewCategories(): Set<string>;
 ```

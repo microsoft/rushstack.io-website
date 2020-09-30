@@ -14,5 +14,5 @@ Returns a collection of the parameters that were defined for this object.
 <b>Signature:</b>
 
 ```typescript
-readonly parameters: ReadonlyArray<CommandLineParameter>;
+get parameters(): ReadonlyArray<CommandLineParameter>;
 ```

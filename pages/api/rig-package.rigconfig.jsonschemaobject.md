@@ -14,7 +14,7 @@ The JSON contents of the [RigConfig.jsonSchemaPath](./rig-package.rigconfig.json
 <b>Signature:</b>
 
 ```typescript
-static readonly jsonSchemaObject: object;
+static get jsonSchemaObject(): object;
 ```
 
 ## Remarks

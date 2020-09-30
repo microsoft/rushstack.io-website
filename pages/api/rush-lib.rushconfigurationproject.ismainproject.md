@@ -19,5 +19,5 @@ False if the project is not for publishing. True if the project is individually 
 <b>Signature:</b>
 
 ```typescript
-readonly isMainProject: boolean;
+get isMainProject(): boolean;
 ```

@@ -17,5 +17,5 @@ Gets all the version policies
 <b>Signature:</b>
 
 ```typescript
-readonly versionPolicies: Map<string, VersionPolicy>;
+get versionPolicies(): Map<string, VersionPolicy>;
 ```

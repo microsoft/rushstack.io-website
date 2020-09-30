@@ -19,5 +19,5 @@ The parsed NPM "package.json" file from projectFolder.
 <b>Signature:</b>
 
 ```typescript
-readonly packageJson: IPackageJson;
+get packageJson(): IPackageJson;
 ```

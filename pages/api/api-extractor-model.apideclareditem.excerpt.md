@@ -14,5 +14,5 @@ The source code excerpt where the API item is declared.
 <b>Signature:</b>
 
 ```typescript
-readonly excerpt: Excerpt;
+get excerpt(): Excerpt;
 ```

@@ -14,7 +14,9 @@ Specifies how the message should be reported.
 <b>Signature:</b>
 
 ```typescript
-logLevel: ExtractorLogLevel;
+get logLevel(): ExtractorLogLevel;
+
+set logLevel(value: ExtractorLogLevel);
 ```
 
 ## Remarks

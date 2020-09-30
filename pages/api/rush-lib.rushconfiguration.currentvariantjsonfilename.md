@@ -16,5 +16,5 @@ Example: `C:\MyRepo\common\temp\current-variant.json`
 <b>Signature:</b>
 
 ```typescript
-readonly currentVariantJsonFilename: string;
+get currentVariantJsonFilename(): string;
 ```

@@ -19,7 +19,7 @@ Settings from the common-versions.json config file.
 <b>Signature:</b>
 
 ```typescript
-readonly commonVersions: CommonVersionsConfiguration;
+get commonVersions(): CommonVersionsConfiguration;
 ```
 
 ## Remarks

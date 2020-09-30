@@ -14,5 +14,5 @@ If true, then consistent version specifiers for dependencies will be enforced. I
 <b>Signature:</b>
 
 ```typescript
-readonly ensureConsistentVersions: boolean;
+get ensureConsistentVersions(): boolean;
 ```

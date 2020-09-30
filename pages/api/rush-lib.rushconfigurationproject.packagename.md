@@ -16,5 +16,5 @@ Example: `@scope/MyProject`
 <b>Signature:</b>
 
 ```typescript
-readonly packageName: string;
+get packageName(): string;
 ```

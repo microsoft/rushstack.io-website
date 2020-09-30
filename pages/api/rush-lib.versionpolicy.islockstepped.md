@@ -17,5 +17,5 @@ Whether it is a lockstepped version policy
 <b>Signature:</b>
 
 ```typescript
-readonly isLockstepped: boolean;
+get isLockstepped(): boolean;
 ```

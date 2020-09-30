@@ -17,7 +17,7 @@ The filename of the shrinkwrap file that is used by the package manager.
 <b>Signature:</b>
 
 ```typescript
-readonly shrinkwrapFilename: string;
+get shrinkwrapFilename(): string;
 ```
 
 ## Remarks

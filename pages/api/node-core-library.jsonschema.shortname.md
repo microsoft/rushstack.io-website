@@ -14,7 +14,7 @@ Returns a short name for this schema, for use in error messages.
 <b>Signature:</b>
 
 ```typescript
-readonly shortName: string;
+get shortName(): string;
 ```
 
 ## Remarks

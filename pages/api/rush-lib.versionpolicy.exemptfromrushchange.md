@@ -17,5 +17,5 @@ Determines if a version policy wants to opt out of changelog files.
 <b>Signature:</b>
 
 ```typescript
-readonly exemptFromRushChange: boolean;
+get exemptFromRushChange(): boolean;
 ```

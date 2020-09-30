@@ -14,5 +14,5 @@ A map of projects within the Rush configuration which are directly depended on b
 <b>Signature:</b>
 
 ```typescript
-readonly localDependencyProjects: ReadonlyArray<RushConfigurationProject>;
+get localDependencyProjects(): ReadonlyArray<RushConfigurationProject>;
 ```

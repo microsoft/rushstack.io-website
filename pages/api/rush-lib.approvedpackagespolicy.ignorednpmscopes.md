@@ -14,5 +14,5 @@ A list of NPM package scopes that will be excluded from review (e.g. `@types`<!-
 <b>Signature:</b>
 
 ```typescript
-readonly ignoredNpmScopes: Set<string>;
+get ignoredNpmScopes(): Set<string>;
 ```

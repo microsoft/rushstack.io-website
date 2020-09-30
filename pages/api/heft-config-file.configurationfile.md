@@ -31,5 +31,6 @@ export declare class ConfigurationFile<TConfigurationFile>
 |  --- | --- | --- |
 |  [getObjectSourceFilePath(obj)](./heft-config-file.configurationfile.getobjectsourcefilepath.md) |  | <b><i>(BETA)</i></b> Get the path to the source file that the referenced property was originally loaded from. |
 |  [getPropertyOriginalValue(options)](./heft-config-file.configurationfile.getpropertyoriginalvalue.md) |  | <b><i>(BETA)</i></b> Get the value of the specified property on the specified object that was originally loaded from a configuration file. |
-|  [loadConfigurationFileAsync(configurationFilePath)](./heft-config-file.configurationfile.loadconfigurationfileasync.md) |  | <b><i>(BETA)</i></b> |
+|  [loadConfigurationFileForProjectAsync(terminal, projectPath, rigConfig)](./heft-config-file.configurationfile.loadconfigurationfileforprojectasync.md) |  | <b><i>(BETA)</i></b> |
+|  [tryLoadConfigurationFileForProjectAsync(terminal, projectPath, rigConfig)](./heft-config-file.configurationfile.tryloadconfigurationfileforprojectasync.md) |  | <b><i>(BETA)</i></b> This function is identical to [ConfigurationFile.loadConfigurationFileForProjectAsync()](./heft-config-file.configurationfile.loadconfigurationfileforprojectasync.md)<!-- -->, except that a preliminary file existence check is performed and this function returns <code>undefined</code> if the configuration file doesn't exist. |
 

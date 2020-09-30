@@ -14,7 +14,7 @@ Options that are only used when the NPM package manager is selected.
 <b>Signature:</b>
 
 ```typescript
-readonly npmOptions: NpmOptionsConfiguration;
+get npmOptions(): NpmOptionsConfiguration;
 ```
 
 ## Remarks

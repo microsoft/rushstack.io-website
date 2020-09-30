@@ -14,5 +14,5 @@ The maximum allowable folder depth for the projectFolder field in the rush.json 
 <b>Signature:</b>
 
 ```typescript
-readonly projectFolderMaxDepth: number;
+get projectFolderMaxDepth(): number;
 ```

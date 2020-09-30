@@ -14,7 +14,7 @@ Options that are only used when the yarn package manager is selected.
 <b>Signature:</b>
 
 ```typescript
-readonly yarnOptions: YarnOptionsConfiguration;
+get yarnOptions(): YarnOptionsConfiguration;
 ```
 
 ## Remarks

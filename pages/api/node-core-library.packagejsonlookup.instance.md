@@ -14,7 +14,7 @@ A singleton instance of `PackageJsonLookup`<!-- -->, which is useful for short-l
 <b>Signature:</b>
 
 ```typescript
-static readonly instance: PackageJsonLookup;
+static get instance(): PackageJsonLookup;
 ```
 
 ## Remarks

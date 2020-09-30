@@ -17,5 +17,5 @@ The rush hooks. It allows customized scripts to run at the specified point.
 <b>Signature:</b>
 
 ```typescript
-readonly eventHooks: EventHooks;
+get eventHooks(): EventHooks;
 ```

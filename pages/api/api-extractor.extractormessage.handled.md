@@ -14,7 +14,9 @@ If the [IExtractorInvokeOptions.messageCallback](./api-extractor.iextractorinvok
 <b>Signature:</b>
 
 ```typescript
-handled: boolean;
+get handled(): boolean;
+
+set handled(value: boolean);
 ```
 
 ## Remarks

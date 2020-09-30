@@ -17,7 +17,7 @@ Warning: This API is used internally by API extractor but is not yet ready for g
 <b>Signature:</b>
 
 ```typescript
-readonly canonicalReference: DeclarationReference;
+get canonicalReference(): DeclarationReference;
 ```
 
 ## Remarks

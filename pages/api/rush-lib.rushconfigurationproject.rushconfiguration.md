@@ -14,5 +14,5 @@ The Rush configuration for the monorepo that the project belongs to.
 <b>Signature:</b>
 
 ```typescript
-readonly rushConfiguration: RushConfiguration;
+get rushConfiguration(): RushConfiguration;
 ```

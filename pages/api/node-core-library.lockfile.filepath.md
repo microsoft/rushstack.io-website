@@ -14,5 +14,5 @@ Returns the absolute path to the lockfile
 <b>Signature:</b>
 
 ```typescript
-readonly filePath: string;
+get filePath(): string;
 ```

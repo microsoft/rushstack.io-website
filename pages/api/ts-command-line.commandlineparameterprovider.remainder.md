@@ -14,5 +14,5 @@ If [CommandLineParameterProvider.defineCommandLineRemainder()](./ts-command-line
 <b>Signature:</b>
 
 ```typescript
-readonly remainder: CommandLineRemainder | undefined;
+get remainder(): CommandLineRemainder | undefined;
 ```

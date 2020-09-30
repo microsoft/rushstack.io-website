@@ -14,5 +14,5 @@ The hash of the pnpm shrinkwrap file at the end of the last update.
 <b>Signature:</b>
 
 ```typescript
-readonly pnpmShrinkwrapHash: string | undefined;
+get pnpmShrinkwrapHash(): string | undefined;
 ```

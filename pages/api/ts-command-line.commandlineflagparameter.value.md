@@ -14,7 +14,7 @@ Returns a boolean indicating whether the parameter was included in the command l
 <b>Signature:</b>
 
 ```typescript
-readonly value: boolean;
+get value(): boolean;
 ```
 
 ## Remarks

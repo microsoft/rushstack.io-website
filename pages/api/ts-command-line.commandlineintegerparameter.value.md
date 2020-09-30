@@ -14,7 +14,7 @@ Returns the argument value for an integer parameter that was parsed from the com
 <b>Signature:</b>
 
 ```typescript
-readonly value: number | undefined;
+get value(): number | undefined;
 ```
 
 ## Remarks

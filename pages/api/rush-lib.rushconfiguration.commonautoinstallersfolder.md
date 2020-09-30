@@ -14,5 +14,5 @@ The fully resolved path for the "autoinstallers" folder. Example: `C:\MyRepo\com
 <b>Signature:</b>
 
 ```typescript
-readonly commonAutoinstallersFolder: string;
+get commonAutoinstallersFolder(): string;
 ```

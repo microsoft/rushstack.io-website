@@ -17,5 +17,5 @@ For diagnostic purposes, if the writer is buffering chunks because it has not be
 <b>Signature:</b>
 
 ```typescript
-readonly bufferedChunks: ReadonlyArray<ITerminalChunk>;
+get bufferedChunks(): ReadonlyArray<ITerminalChunk>;
 ```

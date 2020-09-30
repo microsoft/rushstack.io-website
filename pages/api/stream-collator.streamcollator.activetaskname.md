@@ -17,5 +17,5 @@ For diagnostic purposes, returns the [CollatedWriter.taskName](./stream-collator
 <b>Signature:</b>
 
 ```typescript
-readonly activeTaskName: string;
+get activeTaskName(): string;
 ```

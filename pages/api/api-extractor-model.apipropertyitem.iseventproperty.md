@@ -14,7 +14,7 @@ Returns true if this property should be documented as an event.
 <b>Signature:</b>
 
 ```typescript
-readonly isEventProperty: boolean;
+get isEventProperty(): boolean;
 ```
 
 ## Remarks

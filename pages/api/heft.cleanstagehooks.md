@@ -21,5 +21,5 @@ export declare class CleanStageHooks extends StageHooksBase<ICleanStagePropertie
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [deletePath](./heft.cleanstagehooks.deletepath.md) |  | AsyncSeriesBailHook&lt;string&gt; |  |
+|  [run](./heft.cleanstagehooks.run.md) |  | AsyncParallelHook |  |
 

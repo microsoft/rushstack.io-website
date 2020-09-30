@@ -14,5 +14,5 @@ Indicates the kind of token.
 <b>Signature:</b>
 
 ```typescript
-readonly kind: ExcerptTokenKind;
+get kind(): ExcerptTokenKind;
 ```

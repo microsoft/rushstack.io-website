@@ -14,5 +14,5 @@ Returns the package name of the API Extractor NPM package.
 <b>Signature:</b>
 
 ```typescript
-static readonly packageName: string;
+static get packageName(): string;
 ```

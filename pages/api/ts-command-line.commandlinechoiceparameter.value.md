@@ -14,7 +14,7 @@ Returns the argument value for a choice parameter that was parsed from the comma
 <b>Signature:</b>
 
 ```typescript
-readonly value: string | undefined;
+get value(): string | undefined;
 ```
 
 ## Remarks

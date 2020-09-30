@@ -14,5 +14,5 @@ The hyperlink target for a token whose type is `ExcerptTokenKind.Reference`<!-- 
 <b>Signature:</b>
 
 ```typescript
-readonly canonicalReference: DeclarationReference | undefined;
+get canonicalReference(): DeclarationReference | undefined;
 ```

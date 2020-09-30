@@ -16,5 +16,5 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-readonly versionPolicyConfiguration: VersionPolicyConfiguration;
+get versionPolicyConfiguration(): VersionPolicyConfiguration;
 ```

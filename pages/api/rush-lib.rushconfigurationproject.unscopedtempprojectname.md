@@ -16,5 +16,5 @@ Example: `my-project-2`
 <b>Signature:</b>
 
 ```typescript
-readonly unscopedTempProjectName: string;
+get unscopedTempProjectName(): string;
 ```

@@ -147,6 +147,8 @@ api_nav:
             url: /pages/api/api-extractor.extractorconfig.skiplibcheck
           - title: testMode
             url: /pages/api/api-extractor.extractorconfig.testmode
+          - title: tryLoadForFolder
+            url: /pages/api/api-extractor.extractorconfig.tryloadforfolder
           - title: tsconfigFilePath
             url: /pages/api/api-extractor.extractorconfig.tsconfigfilepath
           - title: tsdocMetadataEnabled
@@ -291,6 +293,15 @@ api_nav:
             url: /pages/api/api-extractor.iconfigtsdocmetadata.enabled
           - title: tsdocMetadataFilePath
             url: /pages/api/api-extractor.iconfigtsdocmetadata.tsdocmetadatafilepath
+      - title: IExtractorConfigLoadForFolderOptions
+        url: /pages/api/api-extractor.iextractorconfigloadforfolderoptions
+        subitems:
+          - title: packageJsonLookup
+            url: /pages/api/api-extractor.iextractorconfigloadforfolderoptions.packagejsonlookup
+          - title: rigConfig
+            url: /pages/api/api-extractor.iextractorconfigloadforfolderoptions.rigconfig
+          - title: startingFolder
+            url: /pages/api/api-extractor.iextractorconfigloadforfolderoptions.startingfolder
       - title: IExtractorConfigPrepareOptions
         url: /pages/api/api-extractor.iextractorconfigprepareoptions
         subitems:
@@ -302,6 +313,8 @@ api_nav:
             url: /pages/api/api-extractor.iextractorconfigprepareoptions.packagejson
           - title: packageJsonFullPath
             url: /pages/api/api-extractor.iextractorconfigprepareoptions.packagejsonfullpath
+          - title: projectFolderLookupToken
+            url: /pages/api/api-extractor.iextractorconfigprepareoptions.projectfolderlookuptoken
       - title: IExtractorInvokeOptions
         url: /pages/api/api-extractor.iextractorinvokeoptions
         subitems:
@@ -1582,8 +1595,8 @@ api_nav:
       - title: CleanStageHooks
         url: /pages/api/heft.cleanstagehooks
         subitems:
-          - title: deletePath
-            url: /pages/api/heft.cleanstagehooks.deletepath
+          - title: run
+            url: /pages/api/heft.cleanstagehooks.run
       - title: CompileSubstageHooks
         url: /pages/api/heft.compilesubstagehooks
       - title: CopyFromCacheMode
@@ -1603,10 +1616,14 @@ api_nav:
             url: /pages/api/heft.heftconfiguration.globalterminal
           - title: heftPackageJson
             url: /pages/api/heft.heftconfiguration.heftpackagejson
+          - title: projectConfigFolder
+            url: /pages/api/heft.heftconfiguration.projectconfigfolder
           - title: projectHeftDataFolder
             url: /pages/api/heft.heftconfiguration.projectheftdatafolder
           - title: projectPackageJson
             url: /pages/api/heft.heftconfiguration.projectpackagejson
+          - title: rigConfig
+            url: /pages/api/heft.heftconfiguration.rigconfig
           - title: terminalProvider
             url: /pages/api/heft.heftconfiguration.terminalprovider
       - title: HeftSession
@@ -1873,8 +1890,10 @@ api_nav:
             url: /pages/api/heft-config-file.configurationfile.getobjectsourcefilepath
           - title: getPropertyOriginalValue
             url: /pages/api/heft-config-file.configurationfile.getpropertyoriginalvalue
-          - title: loadConfigurationFileAsync
-            url: /pages/api/heft-config-file.configurationfile.loadconfigurationfileasync
+          - title: loadConfigurationFileForProjectAsync
+            url: /pages/api/heft-config-file.configurationfile.loadconfigurationfileforprojectasync
+          - title: tryLoadConfigurationFileForProjectAsync
+            url: /pages/api/heft-config-file.configurationfile.tryloadconfigurationfileforprojectasync
       - title: IConfigurationFileOptions
         url: /pages/api/heft-config-file.iconfigurationfileoptions
         subitems:
@@ -1882,8 +1901,15 @@ api_nav:
             url: /pages/api/heft-config-file.iconfigurationfileoptions.jsonpathmetadata
           - title: jsonSchemaPath
             url: /pages/api/heft-config-file.iconfigurationfileoptions.jsonschemapath
-          - title: propertyInheritanceTypes
-            url: /pages/api/heft-config-file.iconfigurationfileoptions.propertyinheritancetypes
+          - title: projectRelativeFilePath
+            url: /pages/api/heft-config-file.iconfigurationfileoptions.projectrelativefilepath
+          - title: propertyInheritance
+            url: /pages/api/heft-config-file.iconfigurationfileoptions.propertyinheritance
+      - title: ICustomPropertyInheritance
+        url: /pages/api/heft-config-file.icustompropertyinheritance
+        subitems:
+          - title: inheritanceFunction
+            url: /pages/api/heft-config-file.icustompropertyinheritance.inheritancefunction
       - title: IJsonPathMetadata
         url: /pages/api/heft-config-file.ijsonpathmetadata
         subitems:
@@ -1900,10 +1926,17 @@ api_nav:
             url: /pages/api/heft-config-file.ioriginalvalueoptions.parentobject
           - title: propertyName
             url: /pages/api/heft-config-file.ioriginalvalueoptions.propertyname
-      - title: IPropertyInheritanceTypes
-        url: /pages/api/heft-config-file.ipropertyinheritancetypes
+      - title: IPropertiesInheritance
+        url: /pages/api/heft-config-file.ipropertiesinheritance
+      - title: IPropertyInheritance
+        url: /pages/api/heft-config-file.ipropertyinheritance
+        subitems:
+          - title: inheritanceType
+            url: /pages/api/heft-config-file.ipropertyinheritance.inheritancetype
       - title: PathResolutionMethod
         url: /pages/api/heft-config-file.pathresolutionmethod
+      - title: PropertyInheritanceCustomFunction
+        url: /pages/api/heft-config-file.propertyinheritancecustomfunction
   - title: '@rushstack/localization-plugin'
     url: /pages/api/localization-plugin
     subitems:
@@ -2326,6 +2359,17 @@ api_nav:
             url: /pages/api/node-core-library.consoleterminalprovider.write
       - title: Encoding
         url: /pages/api/node-core-library.encoding
+      - title: Enum
+        url: /pages/api/node-core-library.enum
+        subitems:
+          - title: getKeyByNumber
+            url: /pages/api/node-core-library.enum.getkeybynumber
+          - title: getValueByKey
+            url: /pages/api/node-core-library.enum.getvaluebykey
+          - title: tryGetKeyByNumber
+            url: /pages/api/node-core-library.enum.trygetkeybynumber
+          - title: tryGetValueByKey
+            url: /pages/api/node-core-library.enum.trygetvaluebykey
       - title: Executable
         url: /pages/api/node-core-library.executable
         subitems:
@@ -2735,6 +2779,13 @@ api_nav:
         subitems:
           - title: error
             url: /pages/api/node-core-library.iparsedpackagenameorerror.error
+      - title: IPathFormatConciselyOptions
+        url: /pages/api/node-core-library.ipathformatconciselyoptions
+        subitems:
+          - title: baseFolder
+            url: /pages/api/node-core-library.ipathformatconciselyoptions.basefolder
+          - title: pathToConvert
+            url: /pages/api/node-core-library.ipathformatconciselyoptions.pathtoconvert
       - title: IProtectableMapParameters
         url: /pages/api/node-core-library.iprotectablemapparameters
         subitems:
@@ -2918,6 +2969,16 @@ api_nav:
       - title: Path
         url: /pages/api/node-core-library.path
         subitems:
+          - title: convertToBackslashes
+            url: /pages/api/node-core-library.path.converttobackslashes
+          - title: convertToSlashes
+            url: /pages/api/node-core-library.path.converttoslashes
+          - title: formatConcisely
+            url: /pages/api/node-core-library.path.formatconcisely
+          - title: isDownwardRelative
+            url: /pages/api/node-core-library.path.isdownwardrelative
+          - title: isEqual
+            url: /pages/api/node-core-library.path.isequal
           - title: isUnder
             url: /pages/api/node-core-library.path.isunder
           - title: isUnderOrEqual
@@ -3067,8 +3128,17 @@ api_nav:
       - title: ILoadForProjectFolderOptions
         url: /pages/api/rig-package.iloadforprojectfolderoptions
         subitems:
+          - title: overrideRigJsonObject
+            url: /pages/api/rig-package.iloadforprojectfolderoptions.overriderigjsonobject
           - title: projectFolderPath
             url: /pages/api/rig-package.iloadforprojectfolderoptions.projectfolderpath
+      - title: IRigConfigJson
+        url: /pages/api/rig-package.irigconfigjson
+        subitems:
+          - title: rigPackageName
+            url: /pages/api/rig-package.irigconfigjson.rigpackagename
+          - title: rigProfile
+            url: /pages/api/rig-package.irigconfigjson.rigprofile
       - title: RigConfig
         url: /pages/api/rig-package.rigconfig
         subitems:
@@ -3086,6 +3156,8 @@ api_nav:
             url: /pages/api/rig-package.rigconfig.loadforprojectfolder
           - title: loadForProjectFolderAsync
             url: /pages/api/rig-package.rigconfig.loadforprojectfolderasync
+          - title: projectFolderOriginalPath
+            url: /pages/api/rig-package.rigconfig.projectfolderoriginalpath
           - title: projectFolderPath
             url: /pages/api/rig-package.rigconfig.projectfolderpath
           - title: relativeProfileFolderPath
@@ -3096,6 +3168,10 @@ api_nav:
             url: /pages/api/rig-package.rigconfig.rigpackagename
           - title: rigProfile
             url: /pages/api/rig-package.rigconfig.rigprofile
+          - title: tryResolveConfigFilePath
+            url: /pages/api/rig-package.rigconfig.tryresolveconfigfilepath
+          - title: tryResolveConfigFilePathAsync
+            url: /pages/api/rig-package.rigconfig.tryresolveconfigfilepathasync
   - title: '@rushstack/stream-collator'
     url: /pages/api/stream-collator
     subitems:

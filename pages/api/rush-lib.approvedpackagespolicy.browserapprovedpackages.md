@@ -14,7 +14,7 @@ Packages approved for usage in a web browser. This is the stricter of the two ty
 <b>Signature:</b>
 
 ```typescript
-readonly browserApprovedPackages: ApprovedPackagesConfiguration;
+get browserApprovedPackages(): ApprovedPackagesConfiguration;
 ```
 
 ## Remarks

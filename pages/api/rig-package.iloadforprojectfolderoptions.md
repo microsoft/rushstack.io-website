@@ -21,5 +21,6 @@ export interface ILoadForProjectFolderOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
+|  [overrideRigJsonObject](./rig-package.iloadforprojectfolderoptions.overriderigjsonobject.md) | [IRigConfigJson](./rig-package.irigconfigjson.md) | If specified, instead of loading the <code>config/rig.json</code> from disk, this object will be substituted instead. |
 |  [projectFolderPath](./rig-package.iloadforprojectfolderoptions.projectfolderpath.md) | string | The path to the folder of the project to be analyzed. This folder should contain a <code>package.json</code> file. |
 

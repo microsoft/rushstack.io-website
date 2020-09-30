@@ -17,5 +17,5 @@ Indicates whether telemetry collection is enabled for Rush runs.
 <b>Signature:</b>
 
 ```typescript
-readonly telemetryEnabled: boolean;
+get telemetryEnabled(): boolean;
 ```

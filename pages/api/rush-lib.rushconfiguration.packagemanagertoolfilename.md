@@ -14,5 +14,5 @@ The absolute path to the locally installed NPM tool. If "rush install" has not b
 <b>Signature:</b>
 
 ```typescript
-readonly packageManagerToolFilename: string;
+get packageManagerToolFilename(): string;
 ```

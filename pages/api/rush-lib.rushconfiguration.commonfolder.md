@@ -14,5 +14,5 @@ The fully resolved path for the "common" folder where Rush will store settings t
 <b>Signature:</b>
 
 ```typescript
-readonly commonFolder: string;
+get commonFolder(): string;
 ```

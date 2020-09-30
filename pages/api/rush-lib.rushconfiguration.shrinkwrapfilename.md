@@ -14,7 +14,7 @@ The filename (without any path) of the shrinkwrap file that is used by the packa
 <b>Signature:</b>
 
 ```typescript
-readonly shrinkwrapFilename: string;
+get shrinkwrapFilename(): string;
 ```
 
 ## Remarks

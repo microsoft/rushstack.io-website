@@ -17,5 +17,5 @@ This configuration object contains settings repo maintainers have specified to e
 <b>Signature:</b>
 
 ```typescript
-readonly experimentsConfiguration: ExperimentsConfiguration;
+get experimentsConfiguration(): ExperimentsConfiguration;
 ```

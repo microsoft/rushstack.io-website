@@ -15,5 +15,5 @@ If this item was added to a ApiItemContainerMixin item, then this returns the co
 
 ```typescript
 /** @virtual */
-readonly parent: ApiItem | undefined;
+get parent(): ApiItem | undefined;
 ```

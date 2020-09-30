@@ -14,5 +14,5 @@ A flag which indicates whether changes to this project should be published. This
 <b>Signature:</b>
 
 ```typescript
-readonly shouldPublish: boolean;
+get shouldPublish(): boolean;
 ```

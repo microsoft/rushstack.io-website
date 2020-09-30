@@ -14,5 +14,5 @@ Returns the `@param` documentation for this parameter, if present.
 <b>Signature:</b>
 
 ```typescript
-readonly tsdocParamBlock: tsdoc.DocParamBlock | undefined;
+get tsdocParamBlock(): tsdoc.DocParamBlock | undefined;
 ```

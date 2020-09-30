@@ -15,7 +15,7 @@ Returns a string key that can be used to efficiently retrieve an `ApiItem` from 
 
 ```typescript
 /** @virtual */
-readonly containerKey: string;
+get containerKey(): string;
 ```
 
 ## Remarks

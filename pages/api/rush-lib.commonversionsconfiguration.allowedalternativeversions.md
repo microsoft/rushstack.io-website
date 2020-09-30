@@ -14,7 +14,7 @@ A table that stores, for a given dependency, a list of SemVer ranges that will b
 <b>Signature:</b>
 
 ```typescript
-readonly allowedAlternativeVersions: Map<string, ReadonlyArray<string>>;
+get allowedAlternativeVersions(): Map<string, ReadonlyArray<string>>;
 ```
 
 ## Remarks

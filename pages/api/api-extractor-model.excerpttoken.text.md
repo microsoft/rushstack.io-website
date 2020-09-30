@@ -14,5 +14,5 @@ The text fragment.
 <b>Signature:</b>
 
 ```typescript
-readonly text: string;
+get text(): string;
 ```

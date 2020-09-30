@@ -14,5 +14,5 @@ The "approvedPackagesPolicy" settings.
 <b>Signature:</b>
 
 ```typescript
-readonly approvedPackagesPolicy: ApprovedPackagesPolicy;
+get approvedPackagesPolicy(): ApprovedPackagesPolicy;
 ```

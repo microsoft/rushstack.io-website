@@ -14,5 +14,5 @@ The folder where automation scripts are stored. This is always a subfolder calle
 <b>Signature:</b>
 
 ```typescript
-readonly commonScriptsFolder: string;
+get commonScriptsFolder(): string;
 ```

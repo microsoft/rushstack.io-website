@@ -14,5 +14,5 @@ Indicates the type of parameter.
 <b>Signature:</b>
 
 ```typescript
-readonly kind: CommandLineParameterKind;
+get kind(): CommandLineParameterKind;
 ```

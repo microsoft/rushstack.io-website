@@ -14,7 +14,7 @@ The configuration options used by the current package manager.
 <b>Signature:</b>
 
 ```typescript
-readonly packageManagerOptions: PackageManagerOptionsConfigurationBase;
+get packageManagerOptions(): PackageManagerOptionsConfigurationBase;
 ```
 
 ## Remarks

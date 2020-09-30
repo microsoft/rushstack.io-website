@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RigConfig.projectFolderPath property
 
-The project folder path that was passed to [RigConfig.loadForProjectFolder()](./rig-package.rigconfig.loadforprojectfolder.md)<!-- -->.
+The absolute path for the project folder path that was passed to [RigConfig.loadForProjectFolder()](./rig-package.rigconfig.loadforprojectfolder.md)<!-- -->.
 
 <b>Signature:</b>
 

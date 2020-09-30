@@ -17,5 +17,5 @@ Returns the currently active `CollatedWriter`<!-- -->, or `undefined` if no writ
 <b>Signature:</b>
 
 ```typescript
-readonly activeWriter: CollatedWriter | undefined;
+get activeWriter(): CollatedWriter | undefined;
 ```
