@@ -28,7 +28,7 @@ When Webpack is invoked on **lib/index.js**, it will process the resulting `requ
 
 ## Config files
 
-Configure this task using the [copy-static-assets.json]({% link pages/heft_configs/copy-static-assets_json.md %}) config file.
+
 
 
 ## package.json dependencies

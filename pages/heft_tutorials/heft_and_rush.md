@@ -97,5 +97,5 @@ That's pretty minimal!
 
 ## Global defaults
 
-For the Heft-specific config files stored under the `.heft` folder, Heft also allows you to store a global version in Rush's `common/config/heft` folder.  For example, you might use this to define a standard [clean.json]({% link pages/heft_configs/clean_json.md %}) that applies to all projects, rather than having to copy+paste the same **.heft/clean.json** in each project folder.
+For the Heft-specific config files stored under the `.heft` folder, Heft also allows you to store a global version in Rush's `common/config/heft` folder.  For example, you might use this to define a standard **clean.json** that applies to all projects, rather than having to copy+paste the same **.heft/clean.json** in each project folder.
 
