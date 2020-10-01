@@ -31,6 +31,8 @@ docs_nav:
         url: /pages/heft/architecture
       - title: Core plugins
         url: /pages/heft/core_plugins
+      - title: Using rig packages
+        url: /pages/heft/rig_packages
       - title: Heft command line
         url: /pages/heft/cli
 
@@ -51,6 +53,8 @@ docs_nav:
         url: /pages/heft_tasks/api-extractor
       - title: copy-static-assets
         url: /pages/heft_tasks/copy-static-assets
+      - title: delete-globs
+        url: /pages/heft_tasks/delete-globs
       - title: eslint
         url: /pages/heft_tasks/eslint
       - title: jest
@@ -66,14 +70,14 @@ docs_nav:
     subitems:
       - title: api-extractor-task.json
         url: /pages/heft_configs/api-extractor-task_json
-      - title: clean.json
-        url: /pages/heft_configs/clean_json
-      - title: copy-static-assets.json
-        url: /pages/heft_configs/copy-static-assets_json
-      - title: plugins.json
-        url: /pages/heft_configs/plugins_json
+      - title: heft.json
+        url: /pages/heft_configs/heft_json
+      - title: rig.json
+        url: /pages/heft_configs/rig_json
       - title: typescript.json
         url: /pages/heft_configs/typescript_json
+      - title: Other files
+        url: /pages/heft_configs/other_files
 
   - title: Contributing
     subitems:

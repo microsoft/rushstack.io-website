@@ -24,7 +24,7 @@ When using Webpack, `heft start` invokes a localhost dev server (see [DevServer]
 
 ## Jest interactive shell
 
-For `heft build`, the `--watch` parameter invokes Jest's interactive shell, which shows a menu like this:
+For tests, you can also do `heft test --watch` which invokes Jest's interactive shell.  It shows a menu like this:
 
 ```
 No tests found related to files changed since last commit.
@@ -46,7 +46,7 @@ Watch Usage
  › Press Enter to trigger a test run.
 ```
 
-Whenever you save a change to a source file, Heft will automatically recompile, and then Jest will rerun any affected tests, updating the report.
+Whenever you save a change to a source file, Heft will automatically recompile the project, and then Jest will rerun any affected tests, updating the report.
 
 
 #### Next up: [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %})
