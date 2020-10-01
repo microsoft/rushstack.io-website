@@ -71,8 +71,9 @@ We'll begin by creating a simple standalone project without Rush.  (Later, the [
         "sourceMap": true,
         "declarationMap": true,
         "inlineSources": true,
-        "strictNullChecks": true,
-        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "esModuleInterop": true,
         "types": ["node"],
 
         "module": "commonjs",
@@ -84,24 +85,44 @@ We'll begin by creating a simple standalone project without Rush.  (Later, the [
     }
     ```
 
-    Note that `"types": ["node"]` references the `@types/node` package that we installed above.  This is needed because Node.js is a global environment, so its typings must be loaded globally (whereas most other `@types` packages can be loaded via `import` statements in your source code).
+    Note that `"types": ["node"]` references the `@types/node` package that we installed above.  This is needed
+    because Node.js is a global environment, so its typings must be loaded globally.  Most other `@types` packages
+    can be loaded via `import` statements in your source code.
 
-    See the [typescript task]({% link pages/heft_tasks/typescript.md %}) documentation for more background about TypeScript configuration with Heft.
+    See the [typescript task]({% link pages/heft_tasks/typescript.md %}) documentation for more background about
+    TypeScript configuration with Heft.
 
-6. Let's try manually invoking Heft's [command line]({% link pages/heft/cli.md %}) to build our project.
+6.  You can invoke Heft using `./node_modules/.bin/heft`, but it's more convenient to install it globally
+    so that it's always available in your shell `PATH`:
+
+    ```shell
+    # Install the Heft tool globally
+    $ pnpm install --global @rushstack/heft
+    ```
+
+    > What if the globally installed `heft` binary is the wrong version?
+    >
+    > Just like Rush, Heft implements a "version selector" feature that will automatically
+    > discover your local `node_modules` folder and invoke `./node_modules/.bin/heft`, ensuring
+    > that the correct version is used.
+
+7. Let's try manually invoking Heft's [command line]({% link pages/heft/cli.md %}) to build our project.
 
     ```shell
     # For Windows, use backslashes for all these commands
 
+    # Make sure we're in your project folder
+    $ cd my-app
+
     # View the command line help
-    $ ./node_modules/.bin/heft --help
-    $ ./node_modules/.bin/heft build --help
+    $ heft --help
+    $ heft build --help
 
     # Build the project
-    $ ./node_modules/.bin/heft build
+    $ heft build
 
     # To see more detail about what Heft is doing, add you can the "--verbose" flag
-    $ ./node_modules/.bin/heft build --verbose
+    $ heft build --verbose
     ```
 
     Invoking `heft build` should produce console output like this:
@@ -130,11 +151,14 @@ We'll begin by creating a simple standalone project without Rush.  (Later, the [
 
     &nbsp;
 
-7. If you recall, our **package.json** file has a `"scripts"` section that specifies `"start": "node lib/start.js"`.  Let's try running the compiled code using `pnpm run`.
+8. If you recall, our **package.json** file has a `"scripts"` section that specifies `"start": "node lib/start.js"`.  Let's try running the compiled code using `pnpm run`.
 
     ```shell
     # Invoke the "start" script from package.json
     $ pnpm run start
+
+    # If you have Rush installed, you can also use this slightly shorter equivalent
+    $ rushx start
     ```
 
     You should see output like this:
@@ -145,7 +169,7 @@ We'll begin by creating a simple standalone project without Rush.  (Later, the [
     Hello, world!
     ```
 
-8. We can also add a `"build"` script to our **package.json** file:
+9. We can also add a `"build"` script to our **package.json** file:
 
     **my-app/package.json**
     ```
@@ -154,27 +178,69 @@ We'll begin by creating a simple standalone project without Rush.  (Later, the [
       "scripts": {
         "build": "heft build --clean",
         "start": "node lib/start.js"
-      }
+      },
       . . .
     }
     ```
 
-    With this change, you can also build by invoking `npm run build`.  This toolchain-agnostic convention makes it easier for newcomers to guess how to build your project.  It will also be useful later when we integrate with Rush.
+    With this change, you can also build by invoking `pnpm run build` (or `rushx build`).  This toolchain-agnostic
+    convention makes it easier for newcomers to guess how to build your project.  It will also be useful later when
+    we integrate with Rush.
 
-9. To complete this project, we need to create one more config file to ensure that `heft clean` properly deletes the output files:
+10. To complete this project, we need to create one more config file to ensure that `heft clean` properly deletes the output files:
 
-    **my-app/.heft/clean.json**
+    **my-app/config/heft.json**
     ```
     /**
-     * Configures the "clean" stage for Heft.
+     * Defines configuration used by core Heft.
      */
     {
-      "$schema": "https://developer.microsoft.com/json-schemas/heft/clean.schema.json",
+      "$schema": "https://developer.microsoft.com/json-schemas/heft/heft.schema.json",
+
+      "eventActions": [
+        {
+          /**
+           * The kind of built-in operation that should be performed.
+           * The "deleteGlobs" action deletes files or folders that match the
+           * specified glob patterns.
+           */
+          "actionKind": "deleteGlobs",
+
+          /**
+           * The stage of the Heft run during which this action should occur. Note that actions specified in heft.json
+           * occur at the end of the stage of the Heft run.
+           */
+          "heftEvent": "clean",
+
+          /**
+           * A user-defined tag whose purpose is to allow configs to replace/delete handlers that were added by other
+           * configs.
+           */
+          "actionId": "defaultClean",
+
+          /**
+           * Glob patterns to be deleted. The paths are resolved relative to the project folder.
+           */
+          "globsToDelete": ["dist", "lib", "temp"]
+        }
+      ],
 
       /**
-      * Glob patterns to be deleted by the "heft clean" action.  The paths are resolved relative to the project folder.
-      */
-      "pathsToDelete": ["dist", "lib", "temp"]
+       * The list of Heft plugins to be loaded.
+       */
+      "heftPlugins": [
+        // {
+        //  /**
+        //   * The path to the plugin package.
+        //   */
+        //  "plugin": "path/to/my-plugin",
+        //
+        //  /**
+        //   * An optional object that provides additional settings that may be defined by the plugin.
+        //   */
+        //  // "options": { }
+        // }
+      ]
     }
     ```
 
