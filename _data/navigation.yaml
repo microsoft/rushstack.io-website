@@ -72,6 +72,8 @@ docs_nav:
         url: /pages/heft_configs/rig_json
       - title: typescript.json
         url: /pages/heft_configs/typescript_json
+      - title: Other files
+        url: /pages/heft_configs/other_files
 
   - title: Contributing
     subitems:

@@ -7,8 +7,8 @@ navigation_source: docs_nav
 This walkthrough will get you started with Heft by creating a basic Node.js console project.
 
 > If you're in a hurry, the
-> [heft-node-basic-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-node-basic-test)
-> and [heft-webpack-basic-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-webpack-basic-test)
+> [heft-node-basic-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-node-basic-tutorial)
+> and [heft-webpack-basic-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-webpack-basic-tutorial)
 > folders illustrate a fully worked out example of a simple project that builds using Heft.
 
 We'll begin by creating a simple standalone project without Rush.  (Later, the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) tutorial will examine what's different when using Heft in a monorepo.)
