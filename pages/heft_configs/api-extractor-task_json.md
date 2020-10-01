@@ -4,7 +4,7 @@ title: api-extractor-task.json
 navigation_source: docs_nav
 ---
 
-| **File path:** | &lt;project folder&gt;/config/api-extractor-task.json |
+| **File path:** | **&lt;project folder&gt;/config/api-extractor-task.json** |
 | [**Riggable?**]({% link pages/heft/rig_packages.md %}) | Yes |
 | **Associated plugins:** | [ApiExtractorPlugin](https://github.com/microsoft/rushstack/blob/master/apps/heft/src/plugins/ApiExtractorPlugin/ApiExtractorPlugin.ts) |
 

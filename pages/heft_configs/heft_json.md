@@ -4,7 +4,7 @@ title: heft.json
 navigation_source: docs_nav
 ---
 
-| **File path:** | &lt;project folder&gt;/config/heft.json |
+| **File path:** | **&lt;project folder&gt;/config/heft.json** |
 | [**Riggable?**]({% link pages/heft/rig_packages.md %}) | Yes |
 | **Associated plugins:** | [DeleteGlobsPlugin](https://github.com/microsoft/rushstack/blob/master/apps/heft/src/plugins/DeleteGlobsPlugin.ts) |
 

@@ -4,7 +4,7 @@ title: rig.json
 navigation_source: docs_nav
 ---
 
-| **File path:** | &lt;project folder&gt;/config/rig.json |
+| **File path:** | **&lt;project folder&gt;/config/rig.json** |
 | [**Riggable?**]({% link pages/heft/rig_packages.md %}) | No |
 | **Associated plugins:** | |
 

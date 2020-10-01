@@ -4,7 +4,7 @@ title: typescript.json
 navigation_source: docs_nav
 ---
 
-| **File path:** | &lt;project folder&gt;/config/typescript.json |
+| **File path:** | **&lt;project folder&gt;/config/typescript.json** |
 | [**Riggable?**]({% link pages/heft/rig_packages.md %}) | Yes |
 | **Associated plugins:** | [TypeScriptPlugin](https://github.com/microsoft/rushstack/blob/master/apps/heft/src/plugins/TypeScriptPlugin/TypeScriptPlugin.ts), [CopyStaticAssetsPlugin](https://github.com/microsoft/rushstack/blob/master/apps/heft/src/plugins/CopyStaticAssetsPlugin.ts), [JestPlugin](https://github.com/microsoft/rushstack/blob/master/apps/heft/src/plugins/JestPlugin/JestPlugin.ts) |
 
