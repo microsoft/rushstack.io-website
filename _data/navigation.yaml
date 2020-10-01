@@ -31,6 +31,8 @@ docs_nav:
         url: /pages/heft/architecture
       - title: Core plugins
         url: /pages/heft/core_plugins
+      - title: Using rig packages
+        url: /pages/heft/rig_packages
       - title: Heft command line
         url: /pages/heft/cli
 
@@ -51,6 +53,8 @@ docs_nav:
         url: /pages/heft_tasks/api-extractor
       - title: copy-static-assets
         url: /pages/heft_tasks/copy-static-assets
+      - title: delete-globs
+        url: /pages/heft_tasks/delete-globs
       - title: eslint
         url: /pages/heft_tasks/eslint
       - title: jest
