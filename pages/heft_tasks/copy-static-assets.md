@@ -4,32 +4,64 @@ title: '"copy-static-assets" task'
 navigation_source: docs_nav
 ---
 
-This is a lightweight task that simply copies input files into output folders.
+This task supplements the TypeScript transpiler by copying asset files into the output folder, so that they can be imported by .js files.
 
 
 ## When to use it
 
-This task is mainly used to copy assets into the compiler's target folder so that they can be referenced by compiled code.  In Heft's standard configuration, the TypeScript compiler reads **src/\*\*/.ts** inputs and writes **lib/\*\*/.js** outputs.  For example, a React project may have a file that loads an **src/index.css** asset like this:
+The `copy-static-assets` task is used when source files need to reference asset files using `import` or `require()`.  For example, a React project may have a file that loads an **src/styles.css** asset like this:
 
 **src/index.tsx**
 ```ts
-import './index.css';
+import './styles.css';
+
 . . .
 ```
 
-When Webpack is invoked on **lib/index.js**, it will process the resulting `require("./index.css");` and expect to bundle the file path **lib/index.css** (instead of **src/index.css** as in the TypeScript code).  We can copy the file over by configuring `copy-static-assets` like this:
-
-**&lt;project folder&gt;/.heft/copy-static-assets.json**
-```js
-{
-  "fileExtensions": [ ".css" ]
-}
-```
+In Heft's standard configuration, the TypeScript compiler reads **src/\*\*/.ts** inputs and writes **lib/\*\*/.js** outputs.  When Webpack is invoked on **lib/index.js**, it will process the resulting `require("./styles.css");` and expect to bundle the file path **lib/styles.css** (instead of **src/styles.css** as in the TypeScript code).
 
 ## Config files
 
+Continuing the above example, we can copy the `styles.css` file using the `"staticAssetsToCopy"`setting in [typescript.json]({% link pages/heft_configs/typescript_json.md %}).  For example:
 
+**&lt;project folder&gt;/config/typescript.json**
+```js
+  . . .
 
+  /**
+   * Configures additional file types that should be copied into the TypeScript compiler's emit folders, for example
+   * so that these files can be resolved by import statements.
+   */
+  "staticAssetsToCopy": {
+    /**
+     * File extensions that should be copied from the src folder to the destination folder(s).
+     */
+    // "fileExtensions": [
+    //   ".json", ".css"
+    // ],
+
+    "fileExtensions": [
+      ".css"
+    ],
+
+    /**
+     * Glob patterns that should be explicitly included.
+     */
+    // "includeGlobs": [
+    //   "some/path/*.js"
+    // ],
+
+    /**
+     * Glob patterns that should be explicitly excluded. This takes precedence over globs listed
+     * in "includeGlobs" and files that match the file extensions provided in "fileExtensions".
+     */
+    // "excludeGlobs": [
+    //   "some/path/*.css"
+    // ]
+  }
+
+. . .
+```
 
 ## package.json dependencies
 

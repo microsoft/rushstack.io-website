@@ -27,4 +27,4 @@ You will need to add the `tslint` package to your project:
 $ rush add --package tslint --dev
 ```
 
-Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) article.
+Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Using rig packages]({% link pages/heft/rig_packages.md %}) article.

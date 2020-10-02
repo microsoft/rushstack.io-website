@@ -15,7 +15,7 @@ ESLint fits together with several other tools as part of Rush Stack's recommende
 
 - [TypeScript]({% link pages/heft_tasks/typescript.md %}): The TypeScript compiler performs sophisticated type checking and semantic analysis that is the most important safeguard for program correctness.
 
-- **ESLint**: The lint rules supplement the compiler's checks with additional stylistic rules that are more subjective and highly customizable.  Whereas TypeScript might detect that *"This function parameter is a string but was declared as a number"*, the linter would detect an issue such as *This class name should use PascalCase instead of camelCase.*  Unlike Prettier issues, fixing a lint issue may be a significant change and may even break an API contract.
+- **ESLint**: The lint rules supplement the compiler's checks with additional stylistic rules that are more subjective and highly customizable.  Whereas TypeScript might detect that *"This function parameter is a string but was declared as a number"*, the linter might detect an issue such as *"This class name should use PascalCase instead of camelCase."*  Unlike Prettier issues, fixing an ESLint issue may involve a significant code change, and may even break an API contract.
 
 - [API Extractor]({% link pages/heft_tasks/api-extractor.md %}): This is an additional validation check for library packages only.  It ensures their API contracts are well-formed and properly documented.
 
@@ -36,16 +36,31 @@ Instead, each project should have its own **.eslintrc.js** file.  We recommend t
 With this approach, a typical ESLint config file will have very minimal boilerplate. For example:
 
 **&lt;project folder&gt;/.eslintrc.js**
-```js
+```ts
+// This is a workaround for https://github.com/eslint/eslint/issues/3458
 require('@rushstack/eslint-config/patch/modern-module-resolution');
 
 module.exports = {
-  extends: [ "@rushstack/eslint-config" ],
+  extends: [ "@rushstack/eslint-config/profile/node" ],
   parserOptions: { tsconfigRootDir: __dirname }
 };
 ```
 
-> NOTE: If your project uses the [React](https://reactjs.org/) framework, you should also extend from `"@rushstack/eslint-config/react"`.  See the [@rushstack/eslint-config documentation](https://www.npmjs.com/package/@rushstack/eslint-config) for instructions.
+### Profiles and mixins
+
+The `@rushstack/eslint-config` package currently provides three different **lint profiles**. Choose one:
+
+- `@rushstack/eslint-config/profile/node`- for Node.js services
+- `@rushstack/eslint-config/profile/node-trusted-tool` - for Node.js tools
+- `@rushstack/eslint-config/profile/web-app` - for web browser applications
+
+It also supports **lint mixins**.  Add as many as you like:
+
+- `@rushstack/eslint-config/mixins/react` - if you use the React framework
+- `@rushstack/eslint-config/mixins/friendly-locals` - if you prefer more verbose declarations to make
+- `@rushstack/eslint-config/mixins/tsdoc` - if you are using API Extractor in your workspace
+
+The [@rushstack/eslint-config documentation](https://www.npmjs.com/package/@rushstack/eslint-config) explains these options in more detail.
 
 
 ## package.json dependencies
@@ -56,4 +71,4 @@ You will need to add the `eslint` package to your project:
 $ rush add --package eslint --dev
 ```
 
-Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) article.  However, if you use the [ESLint extension for VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), it will try to resolve the `eslint` package from your project folder. Thus it may be useful to add it to your **package.json** file.  (The extension is also able to load a globally installed `eslint` package; however, its version may not match the version required by the local branch.)
+Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) article.  However, if you use the [ESLint extension for VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), it will try to resolve the `eslint` package from your project folder. Thus it may still be useful to add ESLint to your **package.json** file.  (The extension is able to load a globally installed `eslint` package; however, its version may not match the version required by the local branch.)

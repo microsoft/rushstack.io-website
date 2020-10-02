@@ -10,12 +10,14 @@ This task implements the `"actionKind": "deleteGlobs"` action kind that is used 
 ## When to use it
 
 The most common usage is to implement the `heft clean` action that deletes build output folders
-such as `lib`, `temp`, and `dist.
+such as `lib`, `temp`, and `dist`.
 
-Example configuration:
+## Config files
+
+Event actions are registered in the [heft.json]({% link pages/heft_configs/heft_json.md %}) config file.  For example:
 
 **&lt;project folder&gt;/config/heft.json**
-```
+```js
 {
   . . .
 
@@ -50,11 +52,6 @@ Example configuration:
   . . .
 }
 ```
-
-## Config files
-
-
-
 
 ## package.json dependencies
 
