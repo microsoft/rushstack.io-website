@@ -4,8 +4,6 @@ title: '"webpack" task'
 navigation_source: docs_nav
 ---
 
-🚨 *The webpack task is very new. Some features are not yet implemented.* 🚨
-
 <!-- No we are not going to use branded capitalization like "webpack" or "npm". ;-) -->
 
 This task invokes the [Webpack](https://webpack.js.org/) tool to produce application bundles.  It provides features such as:
@@ -25,7 +23,9 @@ Webpack should be used for projects whose output is a web application bundle.  W
 
 ## Configuration
 
-The simplest way to enable this task is to create a **webpack.config.js** file in your project folder.  The [heft-webpack-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-webpack-test) sample project illustrates a simple setup:
+> The [heft-webpack-basic-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-webpack-basic-tutorial) sample project illustrates a complete project using Webpack and React.
+
+The simplest way to enable this task is to create a **webpack.config.js** file in your project folder.
 
 **&lt;project folder&gt;/webpack.config.js**
 ```js
@@ -33,22 +33,22 @@ The simplest way to enable this task is to create a **webpack.config.js** file i
 
 const path = require('path');
 
-module.exports = {
+const webpackConfig = {
   mode: 'development',
   resolve: {
-    // Note: Do not specify '.ts' or '.tsx' here.  Webpack runs as a postprocess after the compiler.
+    // Note: Do not specify '.ts' or '.tsx' here.  Heft invokes Webpack as a post-process after the compiler.
     extensions: ['.js', '.jsx', '.json']
   },
   entry: {
-    'test-A': path.join(__dirname, 'lib', 'indexA.js'),
-    'test-B': path.join(__dirname, 'lib', 'indexB.js')
+    app: path.join(__dirname, 'lib', 'index.js')
   },
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: '[name]_[contenthash].js',
-    chunkFilename: '[id].[name]_[contenthash].js'
+    filename: '[name]_[contenthash].js'
   }
 };
+
+module.exports = webpackConfig;
 ```
 
 If you want to use a slightly different configuration when developing using the localhost dev server, you can optionally create a second file called  **webpack.dev.config.js**.
@@ -57,9 +57,9 @@ To start the localhost dev server, use the `heft start` command.
 
 ### Interaction with Jest
 
-Webpack works best with the `esnext` module format, whereas Jest must use the `commonjs` module format because its tests are executed by the Node.js runtime.  Thus, in order to use Webpack and Jest together, you will need to emit both module formats.  An easy way to accomplish this is to use `additionalModuleKindsToEmit` to configure a secondary output folder, and then use `emitFolderNameForJest` to tell Jest to use the CommonJS output.  For example:
+Webpack works best with the `esnext` module format, whereas Jest must use the `commonjs` module format because its tests are executed by the Node.js runtime.  Thus, in order to use Webpack and Jest together, you will need to emit both module formats.  An easy way to accomplish this is to use `additionalModuleKindsToEmit` to configure a secondary output folder, and then use `emitFolderNameForTests` to tell Jest to use the CommonJS output.  For example:
 
-**.heft/typescript.json**
+**config/typescript.json**
 ```js
 /**
  * Configures the TypeScript plugin for Heft.  This plugin also manages linting.
@@ -67,7 +67,13 @@ Webpack works best with the `esnext` module format, whereas Jest must use the `c
 {
   "$schema": "https://developer.microsoft.com/json-schemas/heft/typescript.schema.json",
 
-   . . .
+  /**
+   * Can be set to "copy" or "hardlink". If set to "copy", copy files from cache.
+   * If set to "hardlink", files will be hardlinked to the cache location.
+   * This option is useful when producing a tarball of build output as TAR files don't
+   * handle these hardlinks correctly. "hardlink" is the default behavior.
+   */
+  // "copyFromCacheMode": "copy",
 
   /**
    * If provided, emit these module kinds in addition to the modules specified in the tsconfig.
@@ -81,7 +87,7 @@ Webpack works best with the `esnext` module format, whereas Jest must use the `c
     //  "moduleKind": "amd",
     //
     //   /**
-    //    * (Required) The path where the output will be written.
+    //    * (Required) The name of the folder where the output will be written.
     //    */
     //    "outFolderName": "lib-amd"
     // }
@@ -92,13 +98,48 @@ Webpack works best with the `esnext` module format, whereas Jest must use the `c
   ],
 
   /**
-   * Specifies the intermediary folder that Jest will use for its input.  Because Jest uses the
+   * Specifies the intermediary folder that tests will use.  Because Jest uses the
    * Node.js runtime to execute tests, the module format must be CommonJS.
    *
    * The default value is "lib".
    */
-  "emitFolderNameForJest": "lib-commonjs"
-  . . .
+  "emitFolderNameForTests": "lib-commonjs",
+
+  /**
+   * If set to "true", the TSlint task will not be invoked.
+   */
+  // "disableTslint": true,
+
+  /**
+   * Set this to change the maximum number of file handles that will be opened concurrently for writing.
+   * The default is 50.
+   */
+  // "maxWriteParallelism": 50,
+
+  /**
+   * Describes the way files should be statically coped from src to TS output folders
+   */
+  "staticAssetsToCopy": {
+    /**
+     * File extensions that should be copied from the src folder to the destination folder(s).
+     */
+    "fileExtensions": [".css", ".png"]
+
+    /**
+     * Glob patterns that should be explicitly included.
+     */
+    // "includeGlobs": [
+    //   "some/path/*.js"
+    // ],
+
+    /**
+     * Glob patterns that should be explicitly excluded. This takes precedence over globs listed
+     * in "includeGlobs" and files that match the file extensions provided in "fileExtensions".
+     */
+    // "excludeGlobs": [
+    //   "some/path/*.css"
+    // ]
+  }
 }
 ```
 
@@ -120,9 +161,11 @@ Since this package defines global variable APIs, it must be be added to your Typ
 **&lt;project folder&gt;/tsconfig.json**
 ```
 {
-  "extends": "./node_modules/@microsoft/rush-stack-compiler-3.7/includes/tsconfig-web.json",
+  "extends": "./node_modules/@rushstack/heft-node-rig/profiles/default/tsconfig-base.json",
   "compilerOptions": {
-    "types": [ "webpack-env" ]
+    "types": [
+      "webpack-env" // <---- ADD THIS
+    ]
   }
 }
 ```

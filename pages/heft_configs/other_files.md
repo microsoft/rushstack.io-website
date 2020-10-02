@@ -7,6 +7,11 @@ navigation_source: docs_nav
 Besides the configs files defined by Heft itself, a number of tool-specific config files are also
 consulted when building a project.
 
+| **Supported file path:** | **&lt;project folder&gt;/config/api-extractor.json** |
+| **Associated task:** | [api-extractor]({% link pages/heft_tasks/api-extractor.md %}) |
+| **Description:** | Configures API reports, .d.ts rollups, and generation of API documentation |
+| [**Riggable?**]({% link pages/heft/rig_packages.md %})  | Yes |
+
 | **Supported file path:** | **&lt;project folder&gt;/.eslintrc.js** |
 | **Associated task:** | [eslint]({% link pages/heft_tasks/eslint.md %}) |
 | **Description:** | Configures lint rules |
