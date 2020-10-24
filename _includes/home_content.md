@@ -20,6 +20,8 @@ These major tools are developed under the **Rush Stack** umbrella:
 - [API Documenter](https://api-extractor.com/pages/setup/generating_docs/): generates your API documentation website
 - [@<!---->rushstack/eslint-config](https://www.npmjs.com/package/@rushstack/eslint-config): our standardized
   ESLint rule set, specifically designed for large scale TypeScript monorepos
+- [@<!---->rushstack/eslint-plugin-packlets](https://www.npmjs.com/package/@rushstack/eslint-plugin-packlets):
+  A lightweight alternative to NPM packages for organizing source files within a single project
 - [Rundown](https://www.npmjs.com/package/@rushstack/rundown): a tool for optimizing Node.js process startup times
 
 The projects are built on a common framework of reusable library packages, which includes:
