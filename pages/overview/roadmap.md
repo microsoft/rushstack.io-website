@@ -46,5 +46,5 @@ The Rush Stack maintainers currently see these feature areas as the main priorit
 
 
 If there's a specific area that's important to you, let us know in the
-[Gitter chat room](https://gitter.im/rushstack/rushstack).
+[Zulip chat room](https://rushstack.zulipchat.com/).
 And of course, even if a feature isn't listed on the road map, pull requests are always welcome!

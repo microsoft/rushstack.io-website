@@ -9,4 +9,4 @@ official support, there are various community options for help:
 
 - **Found a bug?** You can [open a GitHub issue](https://github.com/microsoft/rushstack/issues)
 
-- **Gitter**: Chat with the Rush Stack developers in the [Gitter chat room](https://gitter.im/rushstack/rushstack)
+- **Zulip**: Chat with the Rush Stack developers in the [Zulip chat room](https://rushstack.zulipchat.com/)
