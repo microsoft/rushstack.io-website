@@ -4,8 +4,6 @@ title:
 navigation_source: docs_nav
 ---
 
-🚨 *This project is an early preview release. Please report issues!* 🚨
-
 <div>
   <img src="{{ site.baseurl }}/images/heft-logo-horse.svg" alt="heft" title="heft" style="width: 380px; padding-top: 30px;" />
   <p />
