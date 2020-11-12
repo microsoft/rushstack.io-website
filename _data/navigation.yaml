@@ -51,6 +51,8 @@ docs_nav:
     subitems:
       - title: api-extractor
         url: /pages/heft_tasks/api-extractor
+      - title: copy-files
+        url: /pages/heft_tasks/copy-files
       - title: copy-static-assets
         url: /pages/heft_tasks/copy-static-assets
       - title: delete-globs
@@ -59,6 +61,8 @@ docs_nav:
         url: /pages/heft_tasks/eslint
       - title: jest
         url: /pages/heft_tasks/jest
+      - title: sass-typings
+        url: /pages/heft_tasks/sass-typings
       - title: tslint
         url: /pages/heft_tasks/tslint
       - title: typescript
@@ -74,6 +78,8 @@ docs_nav:
         url: /pages/heft_configs/heft_json
       - title: rig.json
         url: /pages/heft_configs/rig_json
+      - title: sass.json
+        url: /pages/heft_configs/sass_json
       - title: typescript.json
         url: /pages/heft_configs/typescript_json
       - title: Other files
