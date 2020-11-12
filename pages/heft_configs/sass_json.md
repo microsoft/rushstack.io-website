@@ -62,4 +62,4 @@ navigation_source: docs_nav
 
 ## See also
 
-- [sass-typings]({% link pages/heft_tasks/copy-files.md %}) task
+- [sass-typings]({% link pages/heft_tasks/sass-typings.md %}) task
