@@ -26,7 +26,7 @@ These major tools are developed under the **Rush Stack** umbrella:
 
 The projects are built on a common framework of reusable library packages, which includes:
 - [ts-command-line](https://www.npmjs.com/package/@rushstack/ts-command-line): a strict command-line parser
-  whose options/docs can be augmented by toolchain packages
+  whose options/docs can be augmented by toolchain packages with built-in support for tab-completion on PowerShell and Bash
 - [node-core-library](https://www.npmjs.com/package/@rushstack/node-core-library): the core framework
   used by all our projects
 - [package-deps-hash](https://www.npmjs.com/package/@rushstack/package-deps-hash): the incremental build engine
