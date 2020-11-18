@@ -16,3 +16,5 @@ A map from module ids to minified modules
 ```typescript
 export declare type IModuleMap = Map<string | number, IModuleInfo>;
 ```
+<b>References:</b> [IModuleInfo](./module-minifier-plugin.imoduleinfo.md)
+

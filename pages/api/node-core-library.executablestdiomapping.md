@@ -16,3 +16,5 @@ Typings for IExecutableSpawnSyncOptions.stdio.
 ```typescript
 export declare type ExecutableStdioMapping = 'pipe' | 'ignore' | 'inherit' | ExecutableStdioStreamMapping[];
 ```
+<b>References:</b> [ExecutableStdioStreamMapping](./node-core-library.executablestdiostreammapping.md)
+

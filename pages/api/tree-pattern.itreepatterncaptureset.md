@@ -20,6 +20,7 @@ export declare type ITreePatternCaptureSet = {
     failPath: string;
 };
 ```
+<b>References:</b> [TreeNode](./tree-pattern.treenode.md)
 
 ## Remarks
 

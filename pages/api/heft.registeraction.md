@@ -18,3 +18,5 @@ improve_this_button: false
 ```typescript
 export declare type RegisterAction = <TParameters>(action: ICustomActionOptions<TParameters>) => void;
 ```
+<b>References:</b> [ICustomActionOptions](./heft.icustomactionoptions.md)
+

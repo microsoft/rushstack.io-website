@@ -16,6 +16,7 @@ Represents the internal state of a [TextRewriter](./terminal.textrewriter.md) su
 ```typescript
 export declare type TextRewriterState = Brand<unknown, 'TextRewriterState'>;
 ```
+<b>References:</b> [Brand](./node-core-library.brand.md)
 
 ## Remarks
 

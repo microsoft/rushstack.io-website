@@ -16,3 +16,5 @@ A map from file names to dehydrated assets
 ```typescript
 export declare type IAssetMap = Map<string, IAssetInfo>;
 ```
+<b>References:</b> [IAssetInfo](./module-minifier-plugin.iassetinfo.md)
+

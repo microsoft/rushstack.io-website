@@ -18,3 +18,5 @@ improve_this_button: false
 ```typescript
 export declare type ICustomActionParameter<TParameter> = TParameter extends boolean ? ICustomActionParameterFlag : TParameter extends number ? ICustomActionParameterInteger : TParameter extends string ? ICustomActionParameterString : TParameter extends ReadonlyArray<string> ? ICustomActionParameterStringList : never;
 ```
+<b>References:</b> [ICustomActionParameterFlag](./heft.icustomactionparameterflag.md)<!-- -->, [ICustomActionParameterInteger](./heft.icustomactionparameterinteger.md)<!-- -->, [ICustomActionParameterString](./heft.icustomactionparameterstring.md)<!-- -->, [ICustomActionParameterStringList](./heft.icustomactionparameterstringlist.md)
+
