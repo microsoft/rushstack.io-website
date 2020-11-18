@@ -3717,6 +3717,8 @@ api_nav:
         subitems:
           - title: exportAsDefault
             url: /pages/api/typings-generator.istringvaluestypingsgeneratoroptions.exportasdefault
+          - title: exportAsDefaultInterfaceName
+            url: /pages/api/typings-generator.istringvaluestypingsgeneratoroptions.exportasdefaultinterfacename
       - title: IStringValueTyping
         url: /pages/api/typings-generator.istringvaluetyping
         subitems:

@@ -9,6 +9,8 @@ improve_this_button: false
 
 ## IStringValuesTypingsGeneratorOptions.exportAsDefault property
 
+Setting this option wraps the typings export in a default property.
+
 <b>Signature:</b>
 
 ```typescript
