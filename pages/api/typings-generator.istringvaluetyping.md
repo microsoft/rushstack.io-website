@@ -20,6 +20,6 @@ export interface IStringValueTyping
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [comment](./typings-generator.istringvaluetyping.comment.md) | string |  |
+|  [comment?](./typings-generator.istringvaluetyping.comment.md) | string | <i>(Optional)</i> |
 |  [exportName](./typings-generator.istringvaluetyping.exportname.md) | string |  |
 

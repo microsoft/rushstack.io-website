@@ -21,7 +21,7 @@ export interface IImportResolveOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [allowSelfReference](./node-core-library.iimportresolveoptions.allowselfreference.md) | boolean | If true, then resolvePath is allowed to refer to the package.json of the active project. |
+|  [allowSelfReference?](./node-core-library.iimportresolveoptions.allowselfreference.md) | boolean | <i>(Optional)</i> If true, then resolvePath is allowed to refer to the package.json of the active project. |
 |  [baseFolderPath](./node-core-library.iimportresolveoptions.basefolderpath.md) | string | The path from which [IImportResolveModuleOptions.modulePath](./node-core-library.iimportresolvemoduleoptions.modulepath.md) or [IImportResolvePackageOptions.packageName](./node-core-library.iimportresolvepackageoptions.packagename.md) should be resolved. |
-|  [includeSystemModules](./node-core-library.iimportresolveoptions.includesystemmodules.md) | boolean | If true, if the package name matches a Node.js system module, then the return value will be the package name without any path. |
+|  [includeSystemModules?](./node-core-library.iimportresolveoptions.includesystemmodules.md) | boolean | <i>(Optional)</i> If true, if the package name matches a Node.js system module, then the return value will be the package name without any path. |
 

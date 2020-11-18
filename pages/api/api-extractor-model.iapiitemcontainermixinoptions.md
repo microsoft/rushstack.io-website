@@ -22,5 +22,5 @@ export interface IApiItemContainerMixinOptions extends IApiItemOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [members](./api-extractor-model.iapiitemcontainermixinoptions.members.md) | [ApiItem](./api-extractor-model.apiitem.md)<!-- -->\[\] |  |
+|  [members?](./api-extractor-model.iapiitemcontainermixinoptions.members.md) | [ApiItem](./api-extractor-model.apiitem.md)<!-- -->\[\] | <i>(Optional)</i> |
 

@@ -21,9 +21,9 @@ export interface ITypingsGeneratorOptions<TTypingsResult = string | undefined>
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [fileExtensions](./typings-generator.itypingsgeneratoroptions.fileextensions.md) | string\[\] |  |
-|  [filesToIgnore](./typings-generator.itypingsgeneratoroptions.filestoignore.md) | string\[\] |  |
+|  [filesToIgnore?](./typings-generator.itypingsgeneratoroptions.filestoignore.md) | string\[\] | <i>(Optional)</i> |
 |  [generatedTsFolder](./typings-generator.itypingsgeneratoroptions.generatedtsfolder.md) | string |  |
 |  [parseAndGenerateTypings](./typings-generator.itypingsgeneratoroptions.parseandgeneratetypings.md) | (fileContents: string, filePath: string) =&gt; TTypingsResult \| Promise&lt;TTypingsResult&gt; |  |
 |  [srcFolder](./typings-generator.itypingsgeneratoroptions.srcfolder.md) | string |  |
-|  [terminal](./typings-generator.itypingsgeneratoroptions.terminal.md) | [Terminal](./node-core-library.terminal.md) |  |
+|  [terminal?](./typings-generator.itypingsgeneratoroptions.terminal.md) | [Terminal](./node-core-library.terminal.md) | <i>(Optional)</i> |
 

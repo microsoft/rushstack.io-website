@@ -21,5 +21,5 @@ export interface IJsonSchemaValidateOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [customErrorHeader](./node-core-library.ijsonschemavalidateoptions.customerrorheader.md) | string | A custom header that will be used to report schema errors. |
+|  [customErrorHeader?](./node-core-library.ijsonschemavalidateoptions.customerrorheader.md) | string | <i>(Optional)</i> A custom header that will be used to report schema errors. |
 

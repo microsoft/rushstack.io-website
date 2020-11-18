@@ -20,7 +20,7 @@ export interface IHeftPlugin<TOptions = void>
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [accessor](./heft.iheftplugin.accessor.md) | object |  |
+|  [accessor?](./heft.iheftplugin.accessor.md) | object | <i>(Optional)</i> |
 |  [pluginName](./heft.iheftplugin.pluginname.md) | string |  |
 
 ## Methods

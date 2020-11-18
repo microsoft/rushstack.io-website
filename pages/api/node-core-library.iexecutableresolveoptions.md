@@ -21,6 +21,6 @@ export interface IExecutableResolveOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [currentWorkingDirectory](./node-core-library.iexecutableresolveoptions.currentworkingdirectory.md) | string | The current working directory. If omitted, process.cwd() will be used. |
-|  [environment](./node-core-library.iexecutableresolveoptions.environment.md) | NodeJS.ProcessEnv | The environment variables for the child process. If omitted, process.env will be used. |
+|  [currentWorkingDirectory?](./node-core-library.iexecutableresolveoptions.currentworkingdirectory.md) | string | <i>(Optional)</i> The current working directory. If omitted, process.cwd() will be used. |
+|  [environment?](./node-core-library.iexecutableresolveoptions.environment.md) | NodeJS.ProcessEnv | <i>(Optional)</i> The environment variables for the child process. If omitted, process.env will be used. |
 

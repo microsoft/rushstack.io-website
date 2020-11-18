@@ -23,9 +23,9 @@ export interface IColorableSequence
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [backgroundColor](./node-core-library.icolorablesequence.backgroundcolor.md) | [ColorValue](./node-core-library.colorvalue.md) | <b><i>(BETA)</i></b> |
-|  [foregroundColor](./node-core-library.icolorablesequence.foregroundcolor.md) | [ColorValue](./node-core-library.colorvalue.md) | <b><i>(BETA)</i></b> |
-|  [isEol](./node-core-library.icolorablesequence.iseol.md) | boolean | <b><i>(BETA)</i></b> |
+|  [backgroundColor?](./node-core-library.icolorablesequence.backgroundcolor.md) | [ColorValue](./node-core-library.colorvalue.md) | <b><i>(BETA)</i></b> <i>(Optional)</i> |
+|  [foregroundColor?](./node-core-library.icolorablesequence.foregroundcolor.md) | [ColorValue](./node-core-library.colorvalue.md) | <b><i>(BETA)</i></b> <i>(Optional)</i> |
+|  [isEol?](./node-core-library.icolorablesequence.iseol.md) | boolean | <b><i>(BETA)</i></b> <i>(Optional)</i> |
 |  [text](./node-core-library.icolorablesequence.text.md) | string | <b><i>(BETA)</i></b> |
-|  [textAttributes](./node-core-library.icolorablesequence.textattributes.md) | [TextAttribute](./node-core-library.textattribute.md)<!-- -->\[\] | <b><i>(BETA)</i></b> |
+|  [textAttributes?](./node-core-library.icolorablesequence.textattributes.md) | [TextAttribute](./node-core-library.textattribute.md)<!-- -->\[\] | <b><i>(BETA)</i></b> <i>(Optional)</i> |
 

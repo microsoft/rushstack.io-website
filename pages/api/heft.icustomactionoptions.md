@@ -26,6 +26,6 @@ export interface ICustomActionOptions<TParameters>
 |  [actionName](./heft.icustomactionoptions.actionname.md) | string | <b><i>(BETA)</i></b> |
 |  [callback](./heft.icustomactionoptions.callback.md) | (parameters: TParameters) =&gt; void \| Promise&lt;void&gt; | <b><i>(BETA)</i></b> |
 |  [documentation](./heft.icustomactionoptions.documentation.md) | string | <b><i>(BETA)</i></b> |
-|  [parameters](./heft.icustomactionoptions.parameters.md) | { \[K in keyof TParameters\]: [ICustomActionParameter](./heft.icustomactionparameter.md)<!-- -->&lt;TParameters\[K\]&gt;; } | <b><i>(BETA)</i></b> |
-|  [summary](./heft.icustomactionoptions.summary.md) | string | <b><i>(BETA)</i></b> |
+|  [parameters?](./heft.icustomactionoptions.parameters.md) | { \[K in keyof TParameters\]: [ICustomActionParameter](./heft.icustomactionparameter.md)<!-- -->&lt;TParameters\[K\]&gt;; } | <b><i>(BETA)</i></b> <i>(Optional)</i> |
+|  [summary?](./heft.icustomactionoptions.summary.md) | string | <b><i>(BETA)</i></b> <i>(Optional)</i> |
 

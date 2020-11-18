@@ -22,5 +22,5 @@ export interface IRigConfigJson
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [rigPackageName](./rig-package.irigconfigjson.rigpackagename.md) | string | The name of the rig package to use. |
-|  [rigProfile](./rig-package.irigconfigjson.rigprofile.md) | string | Specify which rig profile to use from the rig package. |
+|  [rigProfile?](./rig-package.irigconfigjson.rigprofile.md) | string | <i>(Optional)</i> Specify which rig profile to use from the rig package. |
 

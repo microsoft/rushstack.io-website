@@ -21,5 +21,5 @@ export interface IAnsiEscapeConvertForTestsOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [encodeNewlines](./node-core-library.iansiescapeconvertfortestsoptions.encodenewlines.md) | boolean | If true then <code>\n</code> will be replaced by <code>[n]</code>, and <code>\r</code> will be replaced by <code>[r]</code>. |
+|  [encodeNewlines?](./node-core-library.iansiescapeconvertfortestsoptions.encodenewlines.md) | boolean | <i>(Optional)</i> If true then <code>\n</code> will be replaced by <code>[n]</code>, and <code>\r</code> will be replaced by <code>[r]</code>. |
 

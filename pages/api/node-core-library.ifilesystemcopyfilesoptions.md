@@ -22,5 +22,5 @@ export interface IFileSystemCopyFilesOptions extends IFileSystemCopyFilesAsyncOp
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [filter](./node-core-library.ifilesystemcopyfilesoptions.filter.md) | [FileSystemCopyFilesFilter](./node-core-library.filesystemcopyfilesfilter.md) | A callback that will be invoked for each path that is copied. The callback can return <code>false</code> to cause the object to be excluded from the operation. |
+|  [filter?](./node-core-library.ifilesystemcopyfilesoptions.filter.md) | [FileSystemCopyFilesFilter](./node-core-library.filesystemcopyfilesfilter.md) | <i>(Optional)</i> A callback that will be invoked for each path that is copied. The callback can return <code>false</code> to cause the object to be excluded from the operation. |
 

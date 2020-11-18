@@ -21,7 +21,7 @@ export interface ICommandLineParserOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [enableTabCompletionAction](./ts-command-line.icommandlineparseroptions.enabletabcompletionaction.md) | boolean | Set to true to auto-define a tab completion action. False by default. |
+|  [enableTabCompletionAction?](./ts-command-line.icommandlineparseroptions.enabletabcompletionaction.md) | boolean | <i>(Optional)</i> Set to true to auto-define a tab completion action. False by default. |
 |  [toolDescription](./ts-command-line.icommandlineparseroptions.tooldescription.md) | string | General documentation that is included in the "--help" main page |
 |  [toolFilename](./ts-command-line.icommandlineparseroptions.toolfilename.md) | string | The name of your tool when invoked from the command line |
 

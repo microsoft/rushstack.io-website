@@ -25,9 +25,9 @@ This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [betaTrimmedFilePath](./api-extractor.iconfigdtsrollup.betatrimmedfilepath.md) | string | Specifies the output path for a .d.ts rollup file to be generated with trimming for a "beta" release. |
+|  [betaTrimmedFilePath?](./api-extractor.iconfigdtsrollup.betatrimmedfilepath.md) | string | <i>(Optional)</i> Specifies the output path for a .d.ts rollup file to be generated with trimming for a "beta" release. |
 |  [enabled](./api-extractor.iconfigdtsrollup.enabled.md) | boolean | Whether to generate the .d.ts rollup file. |
-|  [omitTrimmingComments](./api-extractor.iconfigdtsrollup.omittrimmingcomments.md) | boolean | When a declaration is trimmed, by default it will be replaced by a code comment such as "Excluded from this release type: exampleMember". Set "omitTrimmingComments" to true to remove the declaration completely. |
-|  [publicTrimmedFilePath](./api-extractor.iconfigdtsrollup.publictrimmedfilepath.md) | string | Specifies the output path for a .d.ts rollup file to be generated with trimming for a "public" release. |
-|  [untrimmedFilePath](./api-extractor.iconfigdtsrollup.untrimmedfilepath.md) | string | Specifies the output path for a .d.ts rollup file to be generated without any trimming. |
+|  [omitTrimmingComments?](./api-extractor.iconfigdtsrollup.omittrimmingcomments.md) | boolean | <i>(Optional)</i> When a declaration is trimmed, by default it will be replaced by a code comment such as "Excluded from this release type: exampleMember". Set "omitTrimmingComments" to true to remove the declaration completely. |
+|  [publicTrimmedFilePath?](./api-extractor.iconfigdtsrollup.publictrimmedfilepath.md) | string | <i>(Optional)</i> Specifies the output path for a .d.ts rollup file to be generated with trimming for a "public" release. |
+|  [untrimmedFilePath?](./api-extractor.iconfigdtsrollup.untrimmedfilepath.md) | string | <i>(Optional)</i> Specifies the output path for a .d.ts rollup file to be generated without any trimming. |
 

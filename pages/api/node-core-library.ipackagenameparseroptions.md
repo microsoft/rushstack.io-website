@@ -33,5 +33,5 @@ The default validation is based on the npmjs.com registry's policy for published
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [allowUpperCase](./node-core-library.ipackagenameparseroptions.allowuppercase.md) | boolean | If true, allows upper-case letters in package names. This improves compatibility with some legacy private registries that still allow that. |
+|  [allowUpperCase?](./node-core-library.ipackagenameparseroptions.allowuppercase.md) | boolean | <i>(Optional)</i> If true, allows upper-case letters in package names. This improves compatibility with some legacy private registries that still allow that. |
 

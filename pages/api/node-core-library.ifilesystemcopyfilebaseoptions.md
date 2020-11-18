@@ -20,6 +20,6 @@ export interface IFileSystemCopyFileBaseOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [alreadyExistsBehavior](./node-core-library.ifilesystemcopyfilebaseoptions.alreadyexistsbehavior.md) | [AlreadyExistsBehavior](./node-core-library.alreadyexistsbehavior.md) | Specifies what to do if the target object already exists. |
+|  [alreadyExistsBehavior?](./node-core-library.ifilesystemcopyfilebaseoptions.alreadyexistsbehavior.md) | [AlreadyExistsBehavior](./node-core-library.alreadyexistsbehavior.md) | <i>(Optional)</i> Specifies what to do if the target object already exists. |
 |  [sourcePath](./node-core-library.ifilesystemcopyfilebaseoptions.sourcepath.md) | string | The path of the existing object to be copied. The path may be absolute or relative. |
 

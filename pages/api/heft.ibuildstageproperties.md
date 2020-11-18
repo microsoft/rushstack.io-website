@@ -21,10 +21,10 @@ export interface IBuildStageProperties
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [lite](./heft.ibuildstageproperties.lite.md) | boolean |  |
-|  [locale](./heft.ibuildstageproperties.locale.md) | string |  |
-|  [maxOldSpaceSize](./heft.ibuildstageproperties.maxoldspacesize.md) | string |  |
+|  [locale?](./heft.ibuildstageproperties.locale.md) | string | <i>(Optional)</i> |
+|  [maxOldSpaceSize?](./heft.ibuildstageproperties.maxoldspacesize.md) | string | <i>(Optional)</i> |
 |  [production](./heft.ibuildstageproperties.production.md) | boolean |  |
 |  [serveMode](./heft.ibuildstageproperties.servemode.md) | boolean |  |
 |  [watchMode](./heft.ibuildstageproperties.watchmode.md) | boolean |  |
-|  [webpackStats](./heft.ibuildstageproperties.webpackstats.md) | webpack.Stats \| webpack.compilation.MultiStats |  |
+|  [webpackStats?](./heft.ibuildstageproperties.webpackstats.md) | webpack.Stats \| webpack.compilation.MultiStats | <i>(Optional)</i> |
 

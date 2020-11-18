@@ -25,7 +25,7 @@ This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [overrideTsconfig](./api-extractor.iconfigcompiler.overridetsconfig.md) | {} | Provides a compiler configuration that will be used instead of reading the tsconfig.json file from disk. |
-|  [skipLibCheck](./api-extractor.iconfigcompiler.skiplibcheck.md) | boolean | This option causes the compiler to be invoked with the <code>--skipLibCheck</code> option. |
-|  [tsconfigFilePath](./api-extractor.iconfigcompiler.tsconfigfilepath.md) | string | Specifies the path to the tsconfig.json file to be used by API Extractor when analyzing the project. |
+|  [overrideTsconfig?](./api-extractor.iconfigcompiler.overridetsconfig.md) | {} | <i>(Optional)</i> Provides a compiler configuration that will be used instead of reading the tsconfig.json file from disk. |
+|  [skipLibCheck?](./api-extractor.iconfigcompiler.skiplibcheck.md) | boolean | <i>(Optional)</i> This option causes the compiler to be invoked with the <code>--skipLibCheck</code> option. |
+|  [tsconfigFilePath?](./api-extractor.iconfigcompiler.tsconfigfilepath.md) | string | <i>(Optional)</i> Specifies the path to the tsconfig.json file to be used by API Extractor when analyzing the project. |
 

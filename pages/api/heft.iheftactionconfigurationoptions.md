@@ -21,5 +21,5 @@ export interface IHeftActionConfigurationOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [mergeArrays](./heft.iheftactionconfigurationoptions.mergearrays.md) | boolean | Whether or not arrays should be merged across Heft action configuration files. |
+|  [mergeArrays?](./heft.iheftactionconfigurationoptions.mergearrays.md) | boolean | <i>(Optional)</i> Whether or not arrays should be merged across Heft action configuration files. |
 

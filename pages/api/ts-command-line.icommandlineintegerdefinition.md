@@ -22,5 +22,5 @@ export interface ICommandLineIntegerDefinition extends IBaseCommandLineDefinitio
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [defaultValue](./ts-command-line.icommandlineintegerdefinition.defaultvalue.md) | number | The default value which will be used if the parameter is omitted from the command line. |
+|  [defaultValue?](./ts-command-line.icommandlineintegerdefinition.defaultvalue.md) | number | <i>(Optional)</i> The default value which will be used if the parameter is omitted from the command line. |
 

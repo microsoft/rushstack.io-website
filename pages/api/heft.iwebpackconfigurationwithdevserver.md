@@ -21,5 +21,5 @@ export interface IWebpackConfigurationWithDevServer extends webpack.Configuratio
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [devServer](./heft.iwebpackconfigurationwithdevserver.devserver.md) | WebpackDevServerConfiguration |  |
+|  [devServer?](./heft.iwebpackconfigurationwithdevserver.devserver.md) | WebpackDevServerConfiguration | <i>(Optional)</i> |
 

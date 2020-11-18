@@ -23,6 +23,6 @@ export interface ICommandLineChoiceDefinition extends IBaseCommandLineDefinition
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [alternatives](./ts-command-line.icommandlinechoicedefinition.alternatives.md) | string\[\] | A list of strings (which contain no spaces), of possible options which can be selected |
-|  [completions](./ts-command-line.icommandlinechoicedefinition.completions.md) | () =&gt; Promise&lt;string\[\]&gt; | An optional callback that provides a list of custom choices for tab completion. |
-|  [defaultValue](./ts-command-line.icommandlinechoicedefinition.defaultvalue.md) | string | The default value which will be used if the parameter is omitted from the command line. |
+|  [completions?](./ts-command-line.icommandlinechoicedefinition.completions.md) | () =&gt; Promise&lt;string\[\]&gt; | <i>(Optional)</i> An optional callback that provides a list of custom choices for tab completion. |
+|  [defaultValue?](./ts-command-line.icommandlinechoicedefinition.defaultvalue.md) | string | <i>(Optional)</i> The default value which will be used if the parameter is omitted from the command line. |
 

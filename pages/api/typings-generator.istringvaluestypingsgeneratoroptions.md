@@ -21,6 +21,6 @@ export interface IStringValuesTypingsGeneratorOptions extends ITypingsGeneratorO
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [exportAsDefault](./typings-generator.istringvaluestypingsgeneratoroptions.exportasdefault.md) | boolean | Setting this option wraps the typings export in a default property. |
-|  [exportAsDefaultInterfaceName](./typings-generator.istringvaluestypingsgeneratoroptions.exportasdefaultinterfacename.md) | string | When <code>exportAsDefault</code> is true, this optional setting determines the interface name for the default wrapped export. Ignored when <code>exportAsDefault</code> is false. |
+|  [exportAsDefault?](./typings-generator.istringvaluestypingsgeneratoroptions.exportasdefault.md) | boolean | <i>(Optional)</i> Setting this option wraps the typings export in a default property. |
+|  [exportAsDefaultInterfaceName?](./typings-generator.istringvaluestypingsgeneratoroptions.exportasdefaultinterfacename.md) | string | <i>(Optional)</i> When <code>exportAsDefault</code> is true, this optional setting determines the interface name for the default wrapped export. Ignored when <code>exportAsDefault</code> is false. |
 
