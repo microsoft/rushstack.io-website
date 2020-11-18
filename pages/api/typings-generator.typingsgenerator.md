@@ -34,5 +34,6 @@ export declare class TypingsGenerator
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [generateTypingsAsync()](./typings-generator.typingsgenerator.generatetypingsasync.md) |  |  |
+|  [registerDependency(target, dependency)](./typings-generator.typingsgenerator.registerdependency.md) |  | Register file dependencies that may effect the typings of a target file. Note: This feature is only useful in watch mode. The registerDependency method must be called in the body of parseAndGenerateTypings every time because the registry for a file is cleared at the beginning of processing. |
 |  [runWatcherAsync()](./typings-generator.typingsgenerator.runwatcherasync.md) |  |  |
 

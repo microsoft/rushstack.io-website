@@ -21,6 +21,7 @@ export interface IFileSystemCreateLinkOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
+|  [alreadyExistsBehavior](./node-core-library.ifilesystemcreatelinkoptions.alreadyexistsbehavior.md) | [AlreadyExistsBehavior](./node-core-library.alreadyexistsbehavior.md) | Specifies what to do if the target object already exists. Defaults to <code>AlreadyExistsBehavior.Error</code>. |
 |  [linkTargetPath](./node-core-library.ifilesystemcreatelinkoptions.linktargetpath.md) | string | The existing path that the symbolic link will point to. |
 |  [newLinkPath](./node-core-library.ifilesystemcreatelinkoptions.newlinkpath.md) | string | The new path for the new symlink link to be created. |
 

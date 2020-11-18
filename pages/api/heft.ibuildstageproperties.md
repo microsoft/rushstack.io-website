@@ -26,5 +26,5 @@ export interface IBuildStageProperties
 |  [production](./heft.ibuildstageproperties.production.md) | boolean |  |
 |  [serveMode](./heft.ibuildstageproperties.servemode.md) | boolean |  |
 |  [watchMode](./heft.ibuildstageproperties.watchmode.md) | boolean |  |
-|  [webpackStats](./heft.ibuildstageproperties.webpackstats.md) | webpack.Stats |  |
+|  [webpackStats](./heft.ibuildstageproperties.webpackstats.md) | webpack.Stats \| webpack.compilation.MultiStats |  |
 

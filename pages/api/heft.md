@@ -56,6 +56,7 @@ improve_this_button: false
 |  [IStageContext](./heft.istagecontext.md) |  |
 |  [ITestStageContext](./heft.iteststagecontext.md) |  |
 |  [ITestStageProperties](./heft.iteststageproperties.md) |  |
+|  [IWebpackConfigurationWithDevServer](./heft.iwebpackconfigurationwithdevserver.md) |  |
 
 ## Type Aliases
 

@@ -14,5 +14,5 @@ If set to true, the build is running with the --debug flag
 <b>Signature:</b>
 
 ```typescript
-readonly debugMode: boolean;
+get debugMode(): boolean;
 ```

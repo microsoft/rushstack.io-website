@@ -13,7 +13,7 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface ITypingsGeneratorOptions<TTypingsResult = string> 
+export interface ITypingsGeneratorOptions<TTypingsResult = string | undefined> 
 ```
 
 ## Properties

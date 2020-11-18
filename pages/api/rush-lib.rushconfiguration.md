@@ -68,6 +68,7 @@ export declare class RushConfiguration
 |  [tempShrinkwrapFilename](./rush-lib.rushconfiguration.tempshrinkwrapfilename.md) |  | string | The full path of the temporary shrinkwrap file that is used during "rush install". This file may get rewritten by the package manager during installation. |
 |  [tempShrinkwrapPreinstallFilename](./rush-lib.rushconfiguration.tempshrinkwrappreinstallfilename.md) |  | string | The full path of a backup copy of tempShrinkwrapFilename. This backup copy is made before installation begins, and can be compared to determine how the package manager modified tempShrinkwrapFilename. |
 |  [versionPolicyConfiguration](./rush-lib.rushconfiguration.versionpolicyconfiguration.md) |  | [VersionPolicyConfiguration](./rush-lib.versionpolicyconfiguration.md) | <b><i>(BETA)</i></b> |
+|  [versionPolicyConfigurationFilePath](./rush-lib.rushconfiguration.versionpolicyconfigurationfilepath.md) |  | string | <b><i>(BETA)</i></b> |
 |  [yarnCacheFolder](./rush-lib.rushconfiguration.yarncachefolder.md) |  | string | The local folder that will store the Yarn package cache.<!-- -->Example: <code>C:\MyRepo\common\temp\yarn-cache</code> |
 |  [yarnOptions](./rush-lib.rushconfiguration.yarnoptions.md) |  | [YarnOptionsConfiguration](./rush-lib.yarnoptionsconfiguration.md) | Options that are only used when the yarn package manager is selected. |
 

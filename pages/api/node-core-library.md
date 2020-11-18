@@ -65,9 +65,11 @@ Core libraries that every NodeJS toolchain project should use.
 |  [IConsoleTerminalProviderOptions](./node-core-library.iconsoleterminalprovideroptions.md) | <b><i>(BETA)</i></b> Options to be provided to a [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) |
 |  [IExecutableResolveOptions](./node-core-library.iexecutableresolveoptions.md) | Options for Executable.tryResolve(). |
 |  [IExecutableSpawnSyncOptions](./node-core-library.iexecutablespawnsyncoptions.md) | Options for Executable.execute(). |
+|  [IFileSystemCopyFileBaseOptions](./node-core-library.ifilesystemcopyfilebaseoptions.md) |  |
 |  [IFileSystemCopyFileOptions](./node-core-library.ifilesystemcopyfileoptions.md) | The options for [FileSystem.copyFile()](./node-core-library.filesystem.copyfile.md) |
 |  [IFileSystemCopyFilesAsyncOptions](./node-core-library.ifilesystemcopyfilesasyncoptions.md) | The options for [FileSystem.copyFilesAsync()](./node-core-library.filesystem.copyfilesasync.md) |
 |  [IFileSystemCopyFilesOptions](./node-core-library.ifilesystemcopyfilesoptions.md) | The options for [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md) |
+|  [IFileSystemCopyFileToManyOptions](./node-core-library.ifilesystemcopyfiletomanyoptions.md) | The options for [FileSystem.copyFile()](./node-core-library.filesystem.copyfile.md) |
 |  [IFileSystemCreateLinkOptions](./node-core-library.ifilesystemcreatelinkoptions.md) | The options for [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md)<!-- -->, [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md)<!-- -->, [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md)<!-- -->, and [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md)<!-- -->. |
 |  [IFileSystemDeleteFileOptions](./node-core-library.ifilesystemdeletefileoptions.md) | The options for [FileSystem.deleteFile()](./node-core-library.filesystem.deletefile.md) |
 |  [IFileSystemMoveOptions](./node-core-library.ifilesystemmoveoptions.md) | The options for [FileSystem.move()](./node-core-library.filesystem.move.md) |

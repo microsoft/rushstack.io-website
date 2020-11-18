@@ -13,5 +13,7 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export declare type IWebpackConfiguration = webpack.Configuration | webpack.Configuration[] | undefined;
+export declare type IWebpackConfiguration = IWebpackConfigurationWithDevServer | IWebpackConfigurationWithDevServer[] | undefined;
 ```
+<b>References:</b> [IWebpackConfigurationWithDevServer](./heft.iwebpackconfigurationwithdevserver.md)
+

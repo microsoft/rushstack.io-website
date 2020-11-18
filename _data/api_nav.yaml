@@ -573,8 +573,6 @@ api_nav:
             url: /pages/api/api-extractor-model.apiitemcontainermixin.addmember
           - title: findMembersByName
             url: /pages/api/api-extractor-model.apiitemcontainermixin.findmembersbyname
-          - title: members
-            url: /pages/api/api-extractor-model.apiitemcontainermixin.members
           - title: serializeInto
             url: /pages/api/api-extractor-model.apiitemcontainermixin.serializeinto
           - title: tryGetMemberByKey
@@ -717,6 +715,8 @@ api_nav:
             url: /pages/api/api-extractor-model.apipropertyitem._constructor_
           - title: isEventProperty
             url: /pages/api/api-extractor-model.apipropertyitem.iseventproperty
+          - title: isOptional
+            url: /pages/api/api-extractor-model.apipropertyitem.isoptional
           - title: onDeserializeInto
             url: /pages/api/api-extractor-model.apipropertyitem.ondeserializeinto
           - title: propertyTypeExcerpt
@@ -956,6 +956,8 @@ api_nav:
       - title: IApiPropertyItemOptions
         url: /pages/api/api-extractor-model.iapipropertyitemoptions
         subitems:
+          - title: isOptional
+            url: /pages/api/api-extractor-model.iapipropertyitemoptions.isoptional
           - title: propertyTypeTokenRange
             url: /pages/api/api-extractor-model.iapipropertyitemoptions.propertytypetokenrange
       - title: IApiPropertyOptions
@@ -1452,6 +1454,8 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.trygetprojectforpath
           - title: versionPolicyConfiguration
             url: /pages/api/rush-lib.rushconfiguration.versionpolicyconfiguration
+          - title: versionPolicyConfigurationFilePath
+            url: /pages/api/rush-lib.rushconfiguration.versionpolicyconfigurationfilepath
           - title: yarnCacheFolder
             url: /pages/api/rush-lib.rushconfiguration.yarncachefolder
           - title: yarnOptions
@@ -1832,6 +1836,11 @@ api_nav:
             url: /pages/api/heft.iteststageproperties.watchmode
       - title: IWebpackConfiguration
         url: /pages/api/heft.iwebpackconfiguration
+      - title: IWebpackConfigurationWithDevServer
+        url: /pages/api/heft.iwebpackconfigurationwithdevserver
+        subitems:
+          - title: devServer
+            url: /pages/api/heft.iwebpackconfigurationwithdevserver.devserver
       - title: MetricsCollectorHooks
         url: /pages/api/heft.metricscollectorhooks
         subitems:
@@ -2402,6 +2411,8 @@ api_nav:
             url: /pages/api/node-core-library.filesystem.copyfiles
           - title: copyFilesAsync
             url: /pages/api/node-core-library.filesystem.copyfilesasync
+          - title: copyFileToManyAsync
+            url: /pages/api/node-core-library.filesystem.copyfiletomanyasync
           - title: createHardLink
             url: /pages/api/node-core-library.filesystem.createhardlink
           - title: createHardLinkAsync
@@ -2552,15 +2563,18 @@ api_nav:
             url: /pages/api/node-core-library.iexecutablespawnsyncoptions.stdio
           - title: timeoutMs
             url: /pages/api/node-core-library.iexecutablespawnsyncoptions.timeoutms
+      - title: IFileSystemCopyFileBaseOptions
+        url: /pages/api/node-core-library.ifilesystemcopyfilebaseoptions
+        subitems:
+          - title: alreadyExistsBehavior
+            url: /pages/api/node-core-library.ifilesystemcopyfilebaseoptions.alreadyexistsbehavior
+          - title: sourcePath
+            url: /pages/api/node-core-library.ifilesystemcopyfilebaseoptions.sourcepath
       - title: IFileSystemCopyFileOptions
         url: /pages/api/node-core-library.ifilesystemcopyfileoptions
         subitems:
-          - title: alreadyExistsBehavior
-            url: /pages/api/node-core-library.ifilesystemcopyfileoptions.alreadyexistsbehavior
           - title: destinationPath
             url: /pages/api/node-core-library.ifilesystemcopyfileoptions.destinationpath
-          - title: sourcePath
-            url: /pages/api/node-core-library.ifilesystemcopyfileoptions.sourcepath
       - title: IFileSystemCopyFilesAsyncOptions
         url: /pages/api/node-core-library.ifilesystemcopyfilesasyncoptions
         subitems:
@@ -2581,9 +2595,16 @@ api_nav:
         subitems:
           - title: filter
             url: /pages/api/node-core-library.ifilesystemcopyfilesoptions.filter
+      - title: IFileSystemCopyFileToManyOptions
+        url: /pages/api/node-core-library.ifilesystemcopyfiletomanyoptions
+        subitems:
+          - title: destinationPaths
+            url: /pages/api/node-core-library.ifilesystemcopyfiletomanyoptions.destinationpaths
       - title: IFileSystemCreateLinkOptions
         url: /pages/api/node-core-library.ifilesystemcreatelinkoptions
         subitems:
+          - title: alreadyExistsBehavior
+            url: /pages/api/node-core-library.ifilesystemcreatelinkoptions.alreadyexistsbehavior
           - title: linkTargetPath
             url: /pages/api/node-core-library.ifilesystemcreatelinkoptions.linktargetpath
           - title: newLinkPath
@@ -3760,5 +3781,7 @@ api_nav:
             url: /pages/api/typings-generator.typingsgenerator._constructor_
           - title: generateTypingsAsync
             url: /pages/api/typings-generator.typingsgenerator.generatetypingsasync
+          - title: registerDependency
+            url: /pages/api/typings-generator.typingsgenerator.registerdependency
           - title: runWatcherAsync
             url: /pages/api/typings-generator.typingsgenerator.runwatcherasync

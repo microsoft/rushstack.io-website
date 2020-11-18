@@ -13,9 +13,9 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface IStringValuesTypingsGeneratorOptions extends ITypingsGeneratorOptions<IStringValueTypings> 
+export interface IStringValuesTypingsGeneratorOptions extends ITypingsGeneratorOptions<IStringValueTypings | undefined> 
 ```
-<b>Extends:</b> [ITypingsGeneratorOptions](./typings-generator.itypingsgeneratoroptions.md)<!-- -->&lt;[IStringValueTypings](./typings-generator.istringvaluetypings.md)<!-- -->&gt;
+<b>Extends:</b> [ITypingsGeneratorOptions](./typings-generator.itypingsgeneratoroptions.md)<!-- -->&lt;[IStringValueTypings](./typings-generator.istringvaluetypings.md) \| undefined&gt;
 
 ## Properties
 

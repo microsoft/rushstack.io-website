@@ -17,7 +17,7 @@ Get the value of the specified property on the specified object that was origina
 <b>Signature:</b>
 
 ```typescript
-getPropertyOriginalValue<TParentProperty extends object, TValue>(options: IOriginalValueOptions<TParentProperty>): TValue;
+getPropertyOriginalValue<TParentProperty extends object, TValue>(options: IOriginalValueOptions<TParentProperty>): TValue | undefined;
 ```
 
 ## Parameters
@@ -28,5 +28,5 @@ getPropertyOriginalValue<TParentProperty extends object, TValue>(options: IOrigi
 
 <b>Returns:</b>
 
-TValue
+TValue \| undefined
 
