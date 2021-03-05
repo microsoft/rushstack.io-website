@@ -68,5 +68,7 @@ We welcome contributions!  To submit a feature for one of the **rushstack** proj
 5. Create a [pull request](https://help.github.com/articles/creating-a-pull-request/)
 6. If your PR primarily affects a single project, add the project name as a prefix to your PR title.  For example: "**[api-extractor] Added a new API feature**" or "**[node-core-libary] Fixed a bug in the library**".
 
-Someone should review your PR within a day or so.  If nobody is responding, you can contact the Rush Stack developers
-in the [Zulip chat room](https://rushstack.zulipchat.com/).
+Someone should review your PR within a few days.  Be aware that the Rush Stack maintainers manage large
+corporate monorepos, which can be very distracting work.  If nobody's responding to PR comments, try asking in the
+[#contributor-helpline](https://rushstack.zulipchat.com/#narrow/stream/279883-contributor-helpline)
+chat room.  We greatly appreciate community contributions and do want to get your PR reviewed!
