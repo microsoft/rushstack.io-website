@@ -93,28 +93,40 @@ Examples of "riggable" config files:
 ## 3. Riggable dependencies
 
 The rig package can also provide NPM dependencies, to avoid having to specify them as `"devDependencies"` for
-your project.  Today the following dependencies can be provided by the rig:
+your project.  The following tool packages can be provided by the rig:
 
 - `typescript`
 - `@microsoft/api-extractor`
 - `eslint`
 - `tslint`
 
-The lookup works as follows:  While parsing the **tsconfig.json** file for a project, if the `"extends"` field
-refers to a file from an NPM package, Heft will look to see if the rig package has a direct dependency on the
-`typescript` package.  (Note that `devDependencies` and `peerDependenices` do not count -- it must be a regular
-dependency.)  If so, then Heft will [try to resolve](
-https://github.com/microsoft/rushstack/blob/master/apps/heft/src/utilities/TaskPackageResolver.ts)
-the above packages from the rig folder before looking in the local project folder.  If the `"extends"` field forms
-a chain that passes through multiple rig packages, the most distant one takes precedence.
+Today, only these packages can be provided via a rig.  Providing dependencies via a rig is optional.  Your local
+project's `devDependencies` take precedence over the rig.
 
-> **Note:** The above algorithm predates the **rig.json** system. In the near future, we plan to simplify the
-> algorithm to resolve each dependency individually, based on **rig.json** instead of **tsconfig.json**.
+Heft resolves each riggable tool independently, using the following procedure:
 
-Heft also has a direct dependency on the following packages, so your project does not need to depend on them:
+1. If the tool package is listed in the `devDependencies` for the local project, then the tool is resolved from
+   the current project folder.  (This step does NOT consider `dependencies` or `peerDependencies`.)
+
+2. OTHERWISE, if the current project has a **rig.json** file, and if the rig's **package.json** lists the tool in its
+   `dependencies`, then the tool is resolved from the rig package folder.  (This step does NOT consider
+   `devDependencies` or `peerDependencies`.)
+
+3. OTHERWISE, the tool is resolved from the current project folder.  If it can't be found there, then an error
+   is reported.
+
+> **Note:** Prior to version 0.25.0, Heft used a
+> [different lookup strategy](https://github.com/microsoft/rushstack/pull/2539)
+> that did not rely on **rig.json**.  It worked like this:  While parsing the **tsconfig.json** file for a project,
+> if the `"extends"` field referred to a file from an NPM package, Heft would look to see if that package had
+> a direct dependency on the `typescript` package.  If so, ALL riggable tools would be resolved from that folder.
+
+
+Heft itself has a direct dependency on the following packages, so your project does not need to depend on them:
 
 - `webpack` and `webpack-dev-server`
 - `jest` and its core dependencies
+
 
 ## See also
 
