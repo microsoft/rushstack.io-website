@@ -22,15 +22,6 @@ a monorepo with potentially hundreds of projects, where the [Rush](https://rushj
 a `"build"` action separately in each project folder. In this situation, everything must execute as fast as possible.
 Special purpose scripts become a headache to maintain, so it's better to replace them with a reusable engine that's
 driven by config files. In a large repo, you'll want to minimize duplication of these config files across projects.
-Ultimately, you'll want to define a small set of Heft is a config-driven toolchain that invokes other popular tools such as TypeScript, ESLint, Jest, Webpack,
-and API Extractor. You can use it to build web applications, Node.js services, command-line tools, libraries,
-and more. Heft builds all your JavaScript projects the same way: A way that works.
-
-Heft is typically launched by the `"build"` action from a **package.json** file. It's designed for use in
-a monorepo with potentially hundreds of projects, where the [Rush](https://rushjs.io/) orchestrator invokes
-a `"build"` action separately in each project folder. In this situation, everything must execute as fast as possible.
-Special purpose scripts become a headache to maintain, so it's better to replace them with a reusable engine that's
-driven by config files. In a large repo, you'll want to minimize duplication of these config files across projects.
 Ultimately, you'll want to define a small set of stereotypical project types
 (["rigs"](https://rushstack.io/pages/heft/rig_packages/)) that you will maintain, then discourage projects from
 overriding the rig configuration. Being consistent ensures that any person can easily contribute to any project.
