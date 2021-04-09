@@ -20,6 +20,11 @@ Some general notes:
 - Overly broad wildcards can sometimes include stray folders that are not tracked by Git.
 
 
+## package.json dependencies
+
+None - this feature is implemented internally by Heft.
+
+
 ## Config files
 
 Event actions are registered in the [heft.json]({% link pages/heft_configs/heft_json.md %}) config file.  For example:
@@ -116,6 +121,3 @@ Event actions are registered in the [heft.json]({% link pages/heft_configs/heft_
 }
 ```
 
-## package.json dependencies
-
-None - this feature is implemented internally by Heft.

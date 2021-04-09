@@ -20,6 +20,11 @@ import './styles.css';
 
 In Heft's standard configuration, the TypeScript compiler reads **src/\*\*/.ts** inputs and writes **lib/\*\*/.js** outputs.  When Webpack is invoked on **lib/index.js**, it will process the resulting `require("./styles.css");` and expect to bundle the file path **lib/styles.css** (instead of **src/styles.css** as in the TypeScript code).
 
+## package.json dependencies
+
+None - this feature is implemented internally by Heft.
+
+
 ## Config files
 
 Continuing the above example, we can copy the `styles.css` file using the `"staticAssetsToCopy"`setting in [typescript.json]({% link pages/heft_configs/typescript_json.md %}).  For example:
@@ -62,7 +67,3 @@ Continuing the above example, we can copy the `styles.css` file using the `"stat
 
 . . .
 ```
-
-## package.json dependencies
-
-None - this feature is implemented internally by Heft.

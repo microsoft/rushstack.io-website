@@ -20,22 +20,6 @@ We recommend Jest for several reasons:
 That said, if for some reason you need to run tests in some other runtime such as an Android client or real web browser, Jest may not be the best bet.
 
 
-## Config files
-
-There isn't a Heft-specific file for this task.  Heft looks for [Jest's config file](https://jestjs.io/docs/en/configuration) in the standard path  `config/jest.config.json`.  Although Jest itself supports other config file names and even embedding settings in your **package.json** file, Heft only supports the name `jest.config.json`.  Using one standard filename makes it easy to search these files, perform bulk edits, and copy configuration recipes between projects.
-
-Generally your Jest configuration should simply extend Heft's [standard preset](https://github.com/microsoft/rushstack/blob/master/apps/heft/includes/jest-shared.config.json):
-
-**&lt;project folder&gt;/jest.config.json**
-```js
-{
-  "preset": "./node_modules/@rushstack/heft/includes/jest-shared.config.json"
-}
-```
-
-_**Note:** If you find yourself frequently adding lots of custom settings to this file, please create a GitHub issue and tell us about it.  Our aim is to provide a configuration that minimizes the need for project-specific customizations._
-
-
 ## package.json dependencies
 
 Heft has direct dependencies on the Jest packages that it needs, so you don't need to add Jest to your project's **package.json** file.
@@ -59,6 +43,22 @@ $ rush add --package @types/heft-jest --exact --dev
   }
 }
 ```
+
+## Config files
+
+There isn't a Heft-specific file for this task.  Heft looks for [Jest's config file](https://jestjs.io/docs/en/configuration) in the standard path  `config/jest.config.json`.  Although Jest itself supports other config file names and even embedding settings in your **package.json** file, Heft only supports the name `jest.config.json`.  Using one standard filename makes it easy to search these files, perform bulk edits, and copy configuration recipes between projects.
+
+Generally your Jest configuration should simply extend Heft's [standard preset](https://github.com/microsoft/rushstack/blob/master/apps/heft/includes/jest-shared.config.json):
+
+**&lt;project folder&gt;/jest.config.json**
+```js
+{
+  "preset": "./node_modules/@rushstack/heft/includes/jest-shared.config.json"
+}
+```
+
+_**Note:** If you find yourself frequently adding lots of custom settings to this file, please create a GitHub issue and tell us about it.  Our aim is to provide a configuration that minimizes the need for project-specific customizations._
+
 
 ## Differences from ts-jest
 

@@ -14,6 +14,11 @@ The most common usage is to implement the `heft clean` action that deletes build
 such as `lib`, `temp`, and `dist`.
 
 
+## package.json dependencies
+
+None - this feature is implemented internally by Heft.
+
+
 ## Config files
 
 Event actions are registered in the [heft.json]({% link pages/heft_configs/heft_json.md %}) config file.  For example:
@@ -63,6 +68,3 @@ Event actions are registered in the [heft.json]({% link pages/heft_configs/heft_
 }
 ```
 
-## package.json dependencies
-
-None - this feature is implemented internally by Heft.

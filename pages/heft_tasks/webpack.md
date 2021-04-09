@@ -21,6 +21,31 @@ Webpack also has the ability to act as a general purpose build system, for examp
 Webpack should be used for projects whose output is a web application bundle.  Webpack could also be used to bundle Node.js tools or services, however this is less common.
 
 
+## package.json dependencies
+
+Heft has direct dependencies on the Webpack packages that it needs, so you don't normally need to add Webpack to your project's **package.json** file.
+
+You will need to add `@types/webpack-env` to your project:
+
+```bash
+$ rush add --package @types/webpack-env --exact  --dev
+```
+
+Since this package defines global variable APIs, it must be be added to your TypeScript configuration like this:
+
+**&lt;project folder&gt;/tsconfig.json**
+```
+{
+  "extends": "./node_modules/@rushstack/heft-node-rig/profiles/default/tsconfig-base.json",
+  "compilerOptions": {
+    "types": [
+      "webpack-env" // <---- ADD THIS
+    ]
+  }
+}
+```
+
+
 ## Configuration
 
 > The [heft-webpack-basic-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-webpack-basic-tutorial) sample project illustrates a complete project using Webpack and React.
@@ -54,6 +79,7 @@ module.exports = webpackConfig;
 If you want to use a slightly different configuration when developing using the localhost dev server, you can optionally create a second file called  **webpack.dev.config.js**.
 
 To start the localhost dev server, use the `heft start` command.
+
 
 ### Interaction with Jest
 
@@ -144,28 +170,3 @@ Webpack works best with the `esnext` module format, whereas Jest must use the `c
 ```
 
 See the [typescript.json]({% link pages/heft_configs/typescript_json.md %}) config file documentation for details.
-
-
-## package.json dependencies
-
-Heft has direct dependencies on the Webpack packages that it needs, so you don't normally need to add Webpack to your project's **package.json** file.
-
-You will need to add `@types/webpack-env` to your project:
-
-```bash
-$ rush add --package @types/webpack-env --exact  --dev
-```
-
-Since this package defines global variable APIs, it must be be added to your TypeScript configuration like this:
-
-**&lt;project folder&gt;/tsconfig.json**
-```
-{
-  "extends": "./node_modules/@rushstack/heft-node-rig/profiles/default/tsconfig-base.json",
-  "compilerOptions": {
-    "types": [
-      "webpack-env" // <---- ADD THIS
-    ]
-  }
-}
-```

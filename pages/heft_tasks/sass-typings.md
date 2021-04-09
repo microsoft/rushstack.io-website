@@ -64,6 +64,12 @@ the compiler to catch common mistakes such as misspelled identifiers.
 > The `.d.ts` file is generated using [@rushstack/typings-generator](https://www.npmjs.com/package/@rushstack/typings-generator).
 > You can reuse this library to implement custom Heft plugins that generate typings for other resources besides CSS.
 
+
+## package.json dependencies
+
+None - this feature is implemented internally by Heft.
+
+
 ## Config files
 
 > The [build-tests/heft-sass-test](https://github.com/microsoft/rushstack/tree/master/build-tests/heft-sass-test)
@@ -88,8 +94,3 @@ Reference the generated typings by adding `temp/sass-ts` to the `rootDirs` setti
 
 Make sure that the [copy-static-assets]({% link pages/heft_tasks/copy-static-assets.md %}) task is configured
 to copy CSS file extensions.
-
-
-## package.json dependencies
-
-None - this feature is implemented internally by Heft.

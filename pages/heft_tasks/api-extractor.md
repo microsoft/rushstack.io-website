@@ -26,13 +26,6 @@ See the [API Extractor documentation](https://api-extractor.com/pages/overview/i
 We recommend to use API Extractor for every TypeScript library project, especially if it is published as an NPM package.
 
 
-## Configuration
-
-Heft looks for API Extractor's config file [config/api-extractor.json](https://api-extractor.com/pages/commands/config_file/). This file can be created by invoking the [api-extractor init](https://api-extractor.com/pages/commands/api-extractor_init/) command.  This file is [riggable]({% link pages/heft/rig_packages.md %}).
-
-For advanced scenarios, the optional [api-extractor-task.json]({% link pages/heft_configs/api-extractor-task_json.md %}) config file provides some additional Heft-specific settings.
-
-
 ## package.json dependencies
 
 You will need to add the `@microsoft/api-extractor` package to your project:
@@ -42,3 +35,12 @@ $ rush add --package @microsoft/api-extractor --dev
 ```
 
 Alternatively, you can avoid this dependency by loading it from a rig, as described in the [Using rig packages]({% link pages/heft/rig_packages.md %}) article.
+
+
+## Configuration
+
+Heft looks for API Extractor's config file [config/api-extractor.json](https://api-extractor.com/pages/commands/config_file/). This file can be created by invoking the [api-extractor init](https://api-extractor.com/pages/commands/api-extractor_init/) command.  This file is [riggable]({% link pages/heft/rig_packages.md %}).
+
+For advanced scenarios, the optional [api-extractor-task.json]({% link pages/heft_configs/api-extractor-task_json.md %}) config file provides some additional Heft-specific settings.
+
+

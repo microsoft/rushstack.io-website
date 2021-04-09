@@ -21,13 +21,6 @@ We recommend TypeScript for:
 Obviously certain components may inevitably require Java, C++, Swift, etc.  But ideally developers should not be required to install native SDKs unless they're working on those components.  The [Expo client](https://expo.io/features) takes this concept to an extreme, enabling you to compile and run a phone app without installing native tools at all.  This ideal isn't always feasible in practice, of course.  It's a mentality, not a dogma.  The main point is that there are significant benefits to normalizing the code base so that any engineer can easily contribute to any project, and any project can load any library.
 
 
-## Config files
-
-The primary configuration comes from TypeScript's [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file.
-
-For advanced scenarios, Heft also provides an optional [typescript.json]({% link pages/heft_configs/typescript_json.md %}) config file that can be used to configure toolchain features such as multiple emit targets for the TypeScript compiler.
-
-
 ## package.json dependencies
 
 You will need to add the `typescript` package to your project:
@@ -37,3 +30,10 @@ $ rush add --package typescript --dev
 ```
 
 Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) article.
+
+
+## Config files
+
+The primary configuration comes from TypeScript's [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file.
+
+For advanced scenarios, Heft also provides an optional [typescript.json]({% link pages/heft_configs/typescript_json.md %}) config file that can be used to configure toolchain features such as multiple emit targets for the TypeScript compiler.

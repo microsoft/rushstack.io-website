@@ -14,11 +14,6 @@ This task invokes the [TSLint](https://palantir.github.io/tslint/) tool for lint
 New projects should use the [eslint]({% link pages/heft_tasks/eslint.md %}) task instead.
 
 
-## Config files
-
-There isn't a Heft-specific file for this task.  Heft looks for TSLint's config file [tslint.json](https://palantir.github.io/tslint/usage/configuration/).
-
-
 ## package.json dependencies
 
 You will need to add the `tslint` package to your project:
@@ -28,3 +23,8 @@ $ rush add --package tslint --dev
 ```
 
 Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Using rig packages]({% link pages/heft/rig_packages.md %}) article.
+
+
+## Config files
+
+There isn't a Heft-specific file for this task.  Heft looks for TSLint's config file [tslint.json](https://palantir.github.io/tslint/usage/configuration/).
