@@ -31,6 +31,12 @@ $ rush add --package typescript --dev
 
 Alternatively, you can avoid this dependency by loading it from a "rig package", as described in the [Interfacing with Rush]({% link pages/heft_tutorials/heft_and_rush.md %}) article.
 
+If your **tsconfig.json** enables `"importHelpers": true` for more efficient transpiler output, you may also need a dependency on **tslib**:
+
+```bash
+$ rush add --package tslib
+```
+
 
 ## Config files
 

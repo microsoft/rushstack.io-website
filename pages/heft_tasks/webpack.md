@@ -15,6 +15,8 @@ This task invokes the [Webpack](https://webpack.js.org/) tool to produce applica
 
 Webpack also has the ability to act as a general purpose build system, for example by invoking a compiler or linter, however Heft does not use it that way.  Heft invokes the TypeScript compiler to produce intermediate .js files which become the inputs for other tasks such as Jest or Webpack.  This reduces the number of compiler passes, and avoids the need for compiler optimizations to be reimplemented multiple times for different contexts (`ts-loader`, `ts-jest`, etc).
 
+> The [heft-webpack-basic-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-webpack-basic-tutorial) sample project illustrates a complete project using Webpack and React.
+
 
 ## When to use it
 
@@ -23,20 +25,34 @@ Webpack should be used for projects whose output is a web application bundle.  W
 
 ## package.json dependencies
 
-Heft has direct dependencies on the Webpack packages that it needs, so you don't normally need to add Webpack to your project's **package.json** file.
+Heft has direct dependencies on the Webpack packages that it needs, so you don't normally need to add Webpack to your project's **package.json** file.  Instead, you will need to install the Heft plugin package for the version of Webpack that you want to use:
 
-You will need to add `@types/webpack-env` to your project:
+```shell
+# (CHOOSE ONE)
 
-```bash
+# If you want to use Webpack 5
+$ rush add --package @rushstack/heft-webpack5-plugin --dev
+
+# If you want to use Webpack 4
+$ rush add --package @rushstack/heft-webpack4-plugin --dev
+```
+
+You should also add `@types/webpack-env` to your project, which provides TypeScript typings for the Webpack environment:
+
+```shell
 $ rush add --package @types/webpack-env --exact  --dev
 ```
 
-Since this package defines global variable APIs, it must be be added to your TypeScript configuration like this:
+
+## Configuration
+
+Since `@types/webpack-env` defines global APIs (that aren't accessed using regular `import` statements), it must
+be be added  to your TypeScript configuration like this:
 
 **&lt;project folder&gt;/tsconfig.json**
-```
+```js
 {
-  "extends": "./node_modules/@rushstack/heft-node-rig/profiles/default/tsconfig-base.json",
+  "extends": "./node_modules/@rushstack/heft-web-rig/profiles/library/tsconfig-base.json",
   "compilerOptions": {
     "types": [
       "webpack-env" // <---- ADD THIS
@@ -45,12 +61,22 @@ Since this package defines global variable APIs, it must be be added to your Typ
 }
 ```
 
+The Heft plugin that you installed above needs to be loaded using the [heft.json config file]({% link pages/heft_configs/heft_json.md %}):
 
-## Configuration
+**&lt;project folder&gt;/config/heft.json**
+```js
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/heft/heft.schema.json",
 
-> The [heft-webpack-basic-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-webpack-basic-tutorial) sample project illustrates a complete project using Webpack and React.
+  . . .
 
-The simplest way to enable this task is to create a **webpack.config.js** file in your project folder.
+  "heftPlugins": [
+    { "plugin": "@rushstack/heft-webpack5-plugin" }  // <---- ADD THIS
+  ]
+}
+```
+
+Next, create a **webpack.config.js** file in your project folder.  Here is a rudimentary example:
 
 **&lt;project folder&gt;/webpack.config.js**
 ```js
