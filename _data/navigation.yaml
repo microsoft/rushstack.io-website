@@ -85,6 +85,13 @@ docs_nav:
       - title: Other files
         url: /pages/heft_configs/other_files
 
+  - title: Heft extensibility
+    subitems:
+      - title: Overview
+        url: /pages/heft_extensibility/overview
+      - title: Authoring a Heft plugin
+        url: /pages/heft_extensibility/simple_plugin
+
   - title: Contributing
     subitems:
       - title: Getting started
