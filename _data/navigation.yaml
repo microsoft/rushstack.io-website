@@ -61,6 +61,8 @@ docs_nav:
         url: /pages/heft_tasks/eslint
       - title: jest
         url: /pages/heft_tasks/jest
+      - title: node-service
+        url: /pages/heft_tasks/node-service
       - title: sass-typings
         url: /pages/heft_tasks/sass-typings
       - title: tslint
@@ -76,6 +78,8 @@ docs_nav:
         url: /pages/heft_configs/api-extractor-task_json
       - title: heft.json
         url: /pages/heft_configs/heft_json
+      - title: node-service.json
+        url: /pages/heft_configs/node-service_json
       - title: rig.json
         url: /pages/heft_configs/rig_json
       - title: sass.json
