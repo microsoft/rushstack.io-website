@@ -58,3 +58,23 @@ your `"serve"` command might be `"fastify start ./lib/start.js"` instead.
 
 To start the localhost dev server, use the `heft start` command.  Whenever you save a change to a source file, Heft's watch mode will recompile your project, then automatically stop the service process and restart it.
 
+When debugging, you may prefer to use the VS Code debugger to launch your service:
+
+**&lt;project folder&gt;/.vscode/launch.json**
+```js
+{
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug the service",
+      "program": "${workspaceFolder}/lib/start.js",
+      "args": []
+    }
+  ]
+}
+```
+
+The process created by VS Code would conflict with the process that is launched by `heft start`.  To use watch mode in this situation, invoke `heft build --watch` instead.  It will recompile your project whenever the code is changed, but without launching the service.
