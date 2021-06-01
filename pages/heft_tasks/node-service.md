@@ -71,7 +71,8 @@ When debugging, you may prefer to use the VS Code debugger to launch your servic
       "request": "launch",
       "name": "Debug the service",
       "program": "${workspaceFolder}/lib/start.js",
-      "args": []
+      "args": [],
+      "console": "integratedTerminal"
     }
   ]
 }
