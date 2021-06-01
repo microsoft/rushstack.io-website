@@ -10,7 +10,7 @@ The [Getting started with Heft]({% link pages/heft_tutorials/getting_started.md 
 
 If you're new to Rush, the [maintainer tutorials](https://rushjs.io/pages/maintainer/setup_new_repo/) explain the basics of setting up a new repo.  Heft takes over when Rush invokes the `"build"` script in a Rush project folder.  In our sample project from the tutorial, the script looked like this:
 
-**my-app/package.json**
+**&lt;project folder&gt;/package.json**
 ```
 {
   . . .

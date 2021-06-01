@@ -84,7 +84,7 @@ Some helpful examples of Jest techniques can be found in the [heft-node-jest-tut
 
 To debug your Jest tests, it's recommended create a VS Code [launch.json file](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) like this:
 
-**my-app/.vscode/launch.json**
+**&lt;project folder&gt;/.vscode/launch.json**
 ```
 {
   "version": "0.2.0",
