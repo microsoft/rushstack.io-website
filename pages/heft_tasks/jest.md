@@ -22,7 +22,11 @@ That said, if for some reason you need to run tests in some other runtime such a
 
 ## package.json dependencies
 
-Heft has direct dependencies on the Jest packages that it needs, so you don't need to add Jest to your project's **package.json** file.
+Heft has direct dependencies on the Jest packages that it needs, so you don't need to add Jest to your project's **package.json** file.  Instead, you will need to install the Heft plugin package:
+
+```shell
+$ rush add --package @rushstack/heft-jest-plugin --dev
+```
 
 Your project should get its typings from `@types/heft-jest` instead of `@types/jest`:
 
@@ -44,20 +48,78 @@ $ rush add --package @types/heft-jest --exact --dev
 }
 ```
 
+
 ## Config files
 
-There isn't a Heft-specific file for this task.  Heft looks for [Jest's config file](https://jestjs.io/docs/en/configuration) in the standard path  `config/jest.config.json`.  Although Jest itself supports other config file names and even embedding settings in your **package.json** file, Heft only supports the name `jest.config.json`.  Using one standard filename makes it easy to search these files, perform bulk edits, and copy configuration recipes between projects.
+The Heft plugin that you installed above needs to be loaded using the [heft.json config file]({% link pages/heft_configs/heft_json.md %}):
 
-Generally your Jest configuration should simply extend Heft's [standard preset](https://github.com/microsoft/rushstack/blob/master/apps/heft/includes/jest-shared.config.json):
-
-**&lt;project folder&gt;/jest.config.json**
+**&lt;project folder&gt;/config/heft.json**
 ```js
 {
-  "preset": "./node_modules/@rushstack/heft/includes/jest-shared.config.json"
+  "$schema": "https://developer.microsoft.com/json-schemas/heft/heft.schema.json",
+
+  . . .
+
+  "heftPlugins": [
+    { "plugin": "@rushstack/heft-jest-plugin" }  // <---- ADD THIS
+  ]
 }
 ```
 
-_**Note:** If you find yourself frequently adding lots of custom settings to this file, please create a GitHub issue and tell us about it.  Our aim is to provide a configuration that minimizes the need for project-specific customizations._
+Heft looks for [Jest's config file](https://jestjs.io/docs/en/configuration) in the standard path **config/jest.config.json**.  Although Jest itself supports other config file names and even embedding settings in your **package.json** file, Heft requires the name `jest.config.json`.  Using one standard filename makes it easy to search for these files, perform bulk edits, and copy configuration recipes between projects.
+
+For a simple setup, your Jest configuration should extend Heft's [jest-shared.config.json](https://github.com/microsoft/rushstack/blob/master/heft-plugins/heft-jest-plugin/includes/jest-shared.config.json) like this:
+
+**&lt;project folder&gt;/config/jest.config.json**
+```js
+{
+  "extends": "@rushstack/heft-jest-plugin/includes/jest-shared.config.json"
+}
+```
+
+Alternatively, if you are using a rig package such as `@rushstack/heft-web-rig`, specify the rig like in this example:
+
+**&lt;project folder&gt;/config/jest.config.json**
+```js
+{
+  "extends": "@rushstack/heft-web-rig/profiles/library/config/jest.config.json"
+}
+```
+
+(If you maintain your own rig, it should extend from `@rushstack/heft-jest-plugin` to ensure that Jest uses
+Heft's transforms and resolver.)
+
+_**Note:** If you find yourself frequently adding lots of custom settings to **jest.config.json**, please create a GitHub issue and tell us about it.  Our aim is to provide a configuration that minimizes the need for project-specific customizations._
+
+
+## The "extends" field
+
+The `"extends"` field in **jest.config.json** is a Heft-specific enhancement that will not work if the Jest command line
+is invoked without Heft.  It replaces Jest's `"preset"` field which has limited module resolution and does not support rigs.
+
+If for some reason your `jest.config.json` needs to be directly readable by Jest, the
+`disableConfigurationModuleResolution` plugin setting can be used to restore the old behavior.
+
+For example:
+
+**&lt;project folder&gt;/config/heft.json**
+```js
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/heft/heft.schema.json",
+
+  . . .
+
+  "heftPlugins": [
+    {
+      "plugin": "@rushstack/heft-jest-plugin",
+      "options": {
+        // (Not recommended) Disable Heft's support for rigs and the "extends" field
+        "disableConfigurationModuleResolution": true
+      }
+    }
+  ]
+}
+```
 
 
 ## Differences from ts-jest
@@ -66,11 +128,11 @@ Internally, Jest supports TypeScript compilation via plugins called [transforms]
 
 Heft takes a different approach of performing a conventional build and then invoking Jest on the output.  If your build targets a browser runtime, you'll need to use the [emitFolderNameForTests]({% link pages/heft_tasks/webpack.md %}) setting to emit CommonJS outputs in a secondary folder. (Emitting extra files is still significantly faster than invoking the compiler twice.)  Heft's `jest-build-transform.js` does not compile anything itself, but rather returns the output of the full pipeline.
 
-Some helpful examples of Jest techniques can be found in the [heft-node-jest-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-node-jest-tutorial) project folder.
+Some helpful examples of mocking and other Jest techniques can be found in the [heft-node-jest-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-node-jest-tutorial) project folder.
 
 > **Important differences when using Jest with Heft:**
 >
-> - Invoke Jest using the `heft` command line.  Invoking the `jest` command line will successfully run tests, but it will not compile anything.
+> - Invoke Jest using the `heft` command line.  Invoking the `jest` command line directly will not invoke TypeScript and is incompatible with the `"extends"` field from **jest.config.json**.
 >
 > - Do not add `ts-jest` or `babel-jest` as a dependency for your project.
 >

@@ -12,6 +12,7 @@ Changelogs:
 - [API Documenter](https://github.com/microsoft/rushstack/blob/master/apps/api-documenter/CHANGELOG.md)
 - [API Extractor](https://github.com/microsoft/rushstack/blob/master/apps/api-extractor/CHANGELOG.md)
 - [@<!-- -->rushstack/eslint-config](https://github.com/microsoft/rushstack/blob/master/stack/eslint-config/CHANGELOG.md)
+- [Heft](https://github.com/microsoft/rushstack/blob/master/apps/heft/CHANGELOG.md) - upgrade notes are here: [UPGRADING.md](https://github.com/microsoft/rushstack/blob/master/apps/heft/UPGRADING.md)
 - [Rush](https://github.com/microsoft/rushstack/blob/master/apps/rush/CHANGELOG.md)
 - [TSDoc](https://github.com/microsoft/tsdoc/blob/master/tsdoc/CHANGELOG.md)
 
