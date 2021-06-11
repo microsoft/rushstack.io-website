@@ -21,5 +21,5 @@ export interface ILocalizedWebpackChunk extends webpack.compilation.Chunk
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [localizedFiles](./localization-plugin.ilocalizedwebpackchunk.localizedfiles.md) | { \[locale: string\]: string; } |  |
+|  [localizedFiles?](./localization-plugin.ilocalizedwebpackchunk.localizedfiles.md) | { \[locale: string\]: string; } | <i>(Optional)</i> |
 

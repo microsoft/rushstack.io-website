@@ -25,5 +25,5 @@ export interface IStdioLineTransformOptions extends ITerminalTransformOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [newlineKind](./terminal.istdiolinetransformoptions.newlinekind.md) | [NewlineKind](./node-core-library.newlinekind.md) | <b><i>(BETA)</i></b> Specifies the kind of newline for the output. |
+|  [newlineKind?](./terminal.istdiolinetransformoptions.newlinekind.md) | [NewlineKind](./node-core-library.newlinekind.md) | <b><i>(BETA)</i></b> <i>(Optional)</i> Specifies the kind of newline for the output. |
 

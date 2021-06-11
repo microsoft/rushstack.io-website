@@ -21,5 +21,5 @@ export interface ISynchronousMinifierOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [terserOptions](./module-minifier-plugin.isynchronousminifieroptions.terseroptions.md) | MinifyOptions |  |
+|  [terserOptions?](./module-minifier-plugin.isynchronousminifieroptions.terseroptions.md) | MinifyOptions | <i>(Optional)</i> |
 

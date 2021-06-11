@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## JsonFile.saveAsync() method
 
-An async version of [JsonFile.loadAndValidateWithCallback()](./node-core-library.jsonfile.loadandvalidatewithcallback.md)<!-- -->.
+An async version of [JsonFile.save()](./node-core-library.jsonfile.save.md)<!-- -->.
 
 <b>Signature:</b>
 

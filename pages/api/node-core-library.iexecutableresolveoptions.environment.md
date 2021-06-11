@@ -9,10 +9,15 @@ improve_this_button: false
 
 ## IExecutableResolveOptions.environment property
 
-The environment variables for the child process. If omitted, process.env will be used.
+The environment variables for the child process.
 
 <b>Signature:</b>
 
 ```typescript
 environment?: NodeJS.ProcessEnv;
 ```
+
+## Remarks
+
+If `environment` and `environmentMap` are both omitted, then `process.env` will be used. If `environment` and `environmentMap` cannot both be specified.
+

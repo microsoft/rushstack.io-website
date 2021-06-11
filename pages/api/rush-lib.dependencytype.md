@@ -27,4 +27,5 @@ export declare const enum DependencyType
 |  Optional | <code>&quot;optionalDependencies&quot;</code> | <b><i>(BETA)</i></b> |
 |  Peer | <code>&quot;peerDependencies&quot;</code> | <b><i>(BETA)</i></b> |
 |  Regular | <code>&quot;dependencies&quot;</code> | <b><i>(BETA)</i></b> |
+|  YarnResolutions | <code>&quot;resolutions&quot;</code> | <b><i>(BETA)</i></b> |
 

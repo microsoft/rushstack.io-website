@@ -21,6 +21,6 @@ export interface IWorkerPoolMinifierOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [maxThreads](./module-minifier-plugin.iworkerpoolminifieroptions.maxthreads.md) | number | Maximum number of worker threads to use. Will never use more than there are modules to process. Defaults to os.cpus().length |
-|  [terserOptions](./module-minifier-plugin.iworkerpoolminifieroptions.terseroptions.md) | MinifyOptions | The options to forward to Terser. <code>output.comments</code> is currently not configurable and will always extract license comments to a separate file. |
+|  [maxThreads?](./module-minifier-plugin.iworkerpoolminifieroptions.maxthreads.md) | number | <i>(Optional)</i> Maximum number of worker threads to use. Will never use more than there are modules to process. Defaults to os.cpus().length |
+|  [terserOptions?](./module-minifier-plugin.iworkerpoolminifieroptions.terseroptions.md) | MinifyOptions | <i>(Optional)</i> The options to forward to Terser. <code>output.comments</code> is currently not configurable and will always extract license comments to a separate file. |
 

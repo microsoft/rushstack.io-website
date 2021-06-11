@@ -21,11 +21,11 @@ export interface IPseudolocaleOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [append](./localization-plugin.ipseudolocaleoptions.append.md) | string |  |
-|  [delimiter](./localization-plugin.ipseudolocaleoptions.delimiter.md) | string |  |
-|  [endDelimiter](./localization-plugin.ipseudolocaleoptions.enddelimiter.md) | string |  |
-|  [extend](./localization-plugin.ipseudolocaleoptions.extend.md) | number |  |
-|  [override](./localization-plugin.ipseudolocaleoptions.override.md) | string |  |
-|  [prepend](./localization-plugin.ipseudolocaleoptions.prepend.md) | string |  |
-|  [startDelimiter](./localization-plugin.ipseudolocaleoptions.startdelimiter.md) | string |  |
+|  [append?](./localization-plugin.ipseudolocaleoptions.append.md) | string | <i>(Optional)</i> |
+|  [delimiter?](./localization-plugin.ipseudolocaleoptions.delimiter.md) | string | <i>(Optional)</i> |
+|  [endDelimiter?](./localization-plugin.ipseudolocaleoptions.enddelimiter.md) | string | <i>(Optional)</i> |
+|  [extend?](./localization-plugin.ipseudolocaleoptions.extend.md) | number | <i>(Optional)</i> |
+|  [override?](./localization-plugin.ipseudolocaleoptions.override.md) | string | <i>(Optional)</i> |
+|  [prepend?](./localization-plugin.ipseudolocaleoptions.prepend.md) | string | <i>(Optional)</i> |
+|  [startDelimiter?](./localization-plugin.ipseudolocaleoptions.startdelimiter.md) | string | <i>(Optional)</i> |
 

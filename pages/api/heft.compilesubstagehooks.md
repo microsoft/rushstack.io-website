@@ -17,3 +17,10 @@ export declare class CompileSubstageHooks extends BuildSubstageHooksBase
 ```
 <b>Extends:</b> [BuildSubstageHooksBase](./heft.buildsubstagehooksbase.md)
 
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [afterCompile](./heft.compilesubstagehooks.aftercompile.md) |  | AsyncParallelHook |  |
+|  [afterEachIteration](./heft.compilesubstagehooks.aftereachiteration.md) |  | SyncHook |  |
+

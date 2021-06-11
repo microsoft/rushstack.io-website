@@ -9,7 +9,12 @@ improve_this_button: false
 
 ## RushConfigurationProject.downstreamDependencyProjects property
 
-A list of projects within the Rush configuration which directly depend on this package.
+> Warning: This API is now obsolete.
+> 
+> Use `consumingProjectNames` instead, as it has Set semantics, which better reflect the nature of the data.
+> 
+
+An array of projects within the Rush configuration which directly depend on this package.
 
 <b>Signature:</b>
 

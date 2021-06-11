@@ -14,7 +14,7 @@ Takes a list of files and returns the current git hashes for them
 <b>Signature:</b>
 
 ```typescript
-export declare function getGitHashForFiles(filesToHash: string[], packagePath: string): Map<string, string>;
+export declare function getGitHashForFiles(filesToHash: string[], packagePath: string, gitPath?: string): Map<string, string>;
 ```
 
 ## Parameters
@@ -23,6 +23,7 @@ export declare function getGitHashForFiles(filesToHash: string[], packagePath: s
 |  --- | --- | --- |
 |  filesToHash | string\[\] |  |
 |  packagePath | string |  |
+|  gitPath | string |  |
 
 <b>Returns:</b>
 

@@ -27,6 +27,7 @@ export declare class PackageJsonEditor
 |  [devDependencyList](./rush-lib.packagejsoneditor.devdependencylist.md) |  | ReadonlyArray&lt;[PackageJsonDependency](./rush-lib.packagejsondependency.md)<!-- -->&gt; | <b><i>(BETA)</i></b> The list of dependencies of type DependencyType.Dev. |
 |  [filePath](./rush-lib.packagejsoneditor.filepath.md) |  | string | <b><i>(BETA)</i></b> |
 |  [name](./rush-lib.packagejsoneditor.name.md) |  | string | <b><i>(BETA)</i></b> |
+|  [resolutionsList](./rush-lib.packagejsoneditor.resolutionslist.md) |  | ReadonlyArray&lt;[PackageJsonDependency](./rush-lib.packagejsondependency.md)<!-- -->&gt; | <b><i>(BETA)</i></b> This field is a Yarn-specific feature that allows overriding of package resolution. |
 |  [version](./rush-lib.packagejsoneditor.version.md) |  | string | <b><i>(BETA)</i></b> |
 
 ## Methods
@@ -37,6 +38,7 @@ export declare class PackageJsonEditor
 |  [fromObject(object, filename)](./rush-lib.packagejsoneditor.fromobject.md) | <code>static</code> | <b><i>(BETA)</i></b> |
 |  [load(filePath)](./rush-lib.packagejsoneditor.load.md) | <code>static</code> | <b><i>(BETA)</i></b> |
 |  [saveIfModified()](./rush-lib.packagejsoneditor.saveifmodified.md) |  | <b><i>(BETA)</i></b> |
+|  [saveToObject()](./rush-lib.packagejsoneditor.savetoobject.md) |  | <b><i>(BETA)</i></b> Get the normalized package.json that represents the current state of the PackageJsonEditor. This method does not save any changes that were made to the package.json, but instead returns the object representation of what would be saved if saveIfModified() is called. |
 |  [tryGetDependency(packageName)](./rush-lib.packagejsoneditor.trygetdependency.md) |  | <b><i>(BETA)</i></b> |
 |  [tryGetDevDependency(packageName)](./rush-lib.packagejsoneditor.trygetdevdependency.md) |  | <b><i>(BETA)</i></b> |
 

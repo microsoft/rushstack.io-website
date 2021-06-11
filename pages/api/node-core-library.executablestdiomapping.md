@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ExecutableStdioMapping type
 
-Typings for IExecutableSpawnSyncOptions.stdio.
+Types for [IExecutableSpawnSyncOptions.stdio](./node-core-library.iexecutablespawnsyncoptions.stdio.md) and [IExecutableSpawnOptions.stdio](./node-core-library.iexecutablespawnoptions.stdio.md)
 
 <b>Signature:</b>
 

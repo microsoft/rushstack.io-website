@@ -12,6 +12,8 @@ improve_this_button: false
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
 > 
 
+Find and return a configuration file for the specified project, automatically resolving `extends` properties and handling rigged configuration files. Will throw an error if a configuration file cannot be found in the rig or project config folder.
+
 <b>Signature:</b>
 
 ```typescript

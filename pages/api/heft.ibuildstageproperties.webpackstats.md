@@ -12,5 +12,5 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-webpackStats?: webpack.Stats | webpack.compilation.MultiStats;
+webpackStats?: unknown;
 ```

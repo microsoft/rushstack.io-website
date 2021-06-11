@@ -29,7 +29,7 @@ export declare class JsonFile
 |  [loadAsync(jsonFilename)](./node-core-library.jsonfile.loadasync.md) | <code>static</code> | An async version of [JsonFile.load()](./node-core-library.jsonfile.load.md)<!-- -->. |
 |  [parseString(jsonContents)](./node-core-library.jsonfile.parsestring.md) | <code>static</code> | Parses a JSON file's contents. |
 |  [save(jsonObject, jsonFilename, options)](./node-core-library.jsonfile.save.md) | <code>static</code> | Saves the file to disk. Returns false if nothing was written due to options.onlyIfChanged. |
-|  [saveAsync(jsonObject, jsonFilename, options)](./node-core-library.jsonfile.saveasync.md) | <code>static</code> | An async version of [JsonFile.loadAndValidateWithCallback()](./node-core-library.jsonfile.loadandvalidatewithcallback.md)<!-- -->. |
+|  [saveAsync(jsonObject, jsonFilename, options)](./node-core-library.jsonfile.saveasync.md) | <code>static</code> | An async version of [JsonFile.save()](./node-core-library.jsonfile.save.md)<!-- -->. |
 |  [stringify(jsonObject, options)](./node-core-library.jsonfile.stringify.md) | <code>static</code> | Serializes the specified JSON object to a string buffer. |
 |  [updateString(previousJson, newJsonObject, options)](./node-core-library.jsonfile.updatestring.md) | <code>static</code> | Serializes the specified JSON object to a string buffer. |
 |  [validateNoUndefinedMembers(jsonObject)](./node-core-library.jsonfile.validatenoundefinedmembers.md) | <code>static</code> | Used to validate a data structure before writing. Reports an error if there are any undefined members. |

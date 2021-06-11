@@ -25,5 +25,5 @@ export interface IModuleMinificationSuccessResult
 |  [error](./module-minifier-plugin.imoduleminificationsuccessresult.error.md) | undefined | The error property being <code>undefined</code> indicates success. |
 |  [extractedComments](./module-minifier-plugin.imoduleminificationsuccessresult.extractedcomments.md) | string\[\] | The array of extracted comments, usually these are license information for 3rd party libraries. |
 |  [hash](./module-minifier-plugin.imoduleminificationsuccessresult.hash.md) | string | Identity of the request |
-|  [map](./module-minifier-plugin.imoduleminificationsuccessresult.map.md) | RawSourceMap | Marker property to always return the same result shape. |
+|  [map?](./module-minifier-plugin.imoduleminificationsuccessresult.map.md) | RawSourceMap | <i>(Optional)</i> Marker property to always return the same result shape. |
 

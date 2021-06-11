@@ -26,5 +26,5 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [environmentVariables](./rush-lib.packagemanageroptionsconfigurationbase.environmentvariables.md) |  | [IConfigurationEnvironment](./rush-lib.iconfigurationenvironment.md) | Environment variables for the package manager |
+|  [environmentVariables?](./rush-lib.packagemanageroptionsconfigurationbase.environmentvariables.md) |  | [IConfigurationEnvironment](./rush-lib.iconfigurationenvironment.md) | <i>(Optional)</i> Environment variables for the package manager |
 

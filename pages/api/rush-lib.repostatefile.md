@@ -22,6 +22,7 @@ export declare class RepoStateFile
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [filePath](./rush-lib.repostatefile.filepath.md) |  | string | Get the absolute file path of the repo-state.json file. |
+|  [isValid](./rush-lib.repostatefile.isvalid.md) |  | boolean | If false, the repo-state.json file is not valid and its values cannot be relied upon |
 |  [pnpmShrinkwrapHash](./rush-lib.repostatefile.pnpmshrinkwraphash.md) |  | string \| undefined | The hash of the pnpm shrinkwrap file at the end of the last update. |
 |  [preferredVersionsHash](./rush-lib.repostatefile.preferredversionshash.md) |  | string \| undefined | The hash of all preferred versions at the end of the last update. |
 

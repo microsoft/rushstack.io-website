@@ -12,7 +12,7 @@ improve_this_button: false
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
 > 
 
-This function is identical to [ConfigurationFile.loadConfigurationFileForProjectAsync()](./heft-config-file.configurationfile.loadconfigurationfileforprojectasync.md)<!-- -->, except that a preliminary file existence check is performed and this function returns `undefined` if the configuration file doesn't exist.
+This function is identical to [ConfigurationFile.loadConfigurationFileForProjectAsync()](./heft-config-file.configurationfile.loadconfigurationfileforprojectasync.md)<!-- -->, except that it returns `undefined` instead of throwing an error if the configuration file cannot be found.
 
 <b>Signature:</b>
 

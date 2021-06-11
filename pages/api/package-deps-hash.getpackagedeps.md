@@ -14,7 +14,7 @@ Builds an object containing hashes for the files under the specified `packagePat
 <b>Signature:</b>
 
 ```typescript
-export declare function getPackageDeps(packagePath?: string, excludedPaths?: string[]): IPackageDeps;
+export declare function getPackageDeps(packagePath?: string, excludedPaths?: string[], gitPath?: string): Map<string, string>;
 ```
 
 ## Parameters
@@ -23,10 +23,11 @@ export declare function getPackageDeps(packagePath?: string, excludedPaths?: str
 |  --- | --- | --- |
 |  packagePath | string | The folder path to derive the package dependencies from. This is typically the folder containing package.json. If omitted, the default value is the current working directory. |
 |  excludedPaths | string\[\] | An optional array of file path exclusions. If a file should be omitted from the list of dependencies, use this to exclude it. |
+|  gitPath | string |  |
 
 <b>Returns:</b>
 
-[IPackageDeps](./package-deps-hash.ipackagedeps.md)
+Map&lt;string, string&gt;
 
 the package-deps.json file content
 

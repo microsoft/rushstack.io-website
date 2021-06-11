@@ -14,5 +14,5 @@ The configuration used by the Webpack plugin. This must be populated for Webpack
 <b>Signature:</b>
 
 ```typescript
-webpackConfiguration?: webpack.Configuration | webpack.Configuration[];
+webpackConfiguration?: unknown;
 ```

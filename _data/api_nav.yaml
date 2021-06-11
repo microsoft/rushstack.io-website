@@ -151,6 +151,10 @@ api_nav:
             url: /pages/api/api-extractor.extractorconfig.tryloadforfolder
           - title: tsconfigFilePath
             url: /pages/api/api-extractor.extractorconfig.tsconfigfilepath
+          - title: tsdocConfigFile
+            url: /pages/api/api-extractor.extractorconfig.tsdocconfigfile
+          - title: tsdocConfiguration
+            url: /pages/api/api-extractor.extractorconfig.tsdocconfiguration
           - title: tsdocMetadataEnabled
             url: /pages/api/api-extractor.extractorconfig.tsdocmetadataenabled
           - title: tsdocMetadataFilePath
@@ -315,6 +319,8 @@ api_nav:
             url: /pages/api/api-extractor.iextractorconfigprepareoptions.packagejsonfullpath
           - title: projectFolderLookupToken
             url: /pages/api/api-extractor.iextractorconfigprepareoptions.projectfolderlookuptoken
+          - title: tsdocConfigFile
+            url: /pages/api/api-extractor.iextractorconfigprepareoptions.tsdocconfigfile
       - title: IExtractorInvokeOptions
         url: /pages/api/api-extractor.iextractorinvokeoptions
         subitems:
@@ -658,6 +664,20 @@ api_nav:
             url: /pages/api/api-extractor-model.apinamespace.getcontainerkey
           - title: kind
             url: /pages/api/api-extractor-model.apinamespace.kind
+      - title: ApiOptionalMixin
+        url: /pages/api/api-extractor-model.apioptionalmixin
+      - title: ApiOptionalMixin
+        url: /pages/api/api-extractor-model.apioptionalmixin
+        subitems:
+          - title: isOptional
+            url: /pages/api/api-extractor-model.apioptionalmixin.isoptional
+          - title: serializeInto
+            url: /pages/api/api-extractor-model.apioptionalmixin.serializeinto
+      - title: ApiOptionalMixin
+        url: /pages/api/api-extractor-model.apioptionalmixin
+        subitems:
+          - title: isBaseClassOf
+            url: /pages/api/api-extractor-model.apioptionalmixin.isbaseclassof
       - title: ApiPackage
         url: /pages/api/api-extractor-model.apipackage
         subitems:
@@ -679,6 +699,8 @@ api_nav:
             url: /pages/api/api-extractor-model.apipackage.loadfromjsonfile
           - title: saveToJsonFile
             url: /pages/api/api-extractor-model.apipackage.savetojsonfile
+          - title: tsdocConfiguration
+            url: /pages/api/api-extractor-model.apipackage.tsdocconfiguration
       - title: ApiParameterListMixin
         url: /pages/api/api-extractor-model.apiparameterlistmixin
       - title: ApiParameterListMixin
@@ -715,8 +737,6 @@ api_nav:
             url: /pages/api/api-extractor-model.apipropertyitem._constructor_
           - title: isEventProperty
             url: /pages/api/api-extractor-model.apipropertyitem.iseventproperty
-          - title: isOptional
-            url: /pages/api/api-extractor-model.apipropertyitem.isoptional
           - title: onDeserializeInto
             url: /pages/api/api-extractor-model.apipropertyitem.ondeserializeinto
           - title: propertyTypeExcerpt
@@ -928,8 +948,16 @@ api_nav:
             url: /pages/api/api-extractor-model.iapinamemixinoptions.name
       - title: IApiNamespaceOptions
         url: /pages/api/api-extractor-model.iapinamespaceoptions
+      - title: IApiOptionalMixinOptions
+        url: /pages/api/api-extractor-model.iapioptionalmixinoptions
+        subitems:
+          - title: isOptional
+            url: /pages/api/api-extractor-model.iapioptionalmixinoptions.isoptional
       - title: IApiPackageOptions
         url: /pages/api/api-extractor-model.iapipackageoptions
+        subitems:
+          - title: tsdocConfiguration
+            url: /pages/api/api-extractor-model.iapipackageoptions.tsdocconfiguration
       - title: IApiPackageSaveOptions
         url: /pages/api/api-extractor-model.iapipackagesaveoptions
         subitems:
@@ -956,8 +984,6 @@ api_nav:
       - title: IApiPropertyItemOptions
         url: /pages/api/api-extractor-model.iapipropertyitemoptions
         subitems:
-          - title: isOptional
-            url: /pages/api/api-extractor-model.iapipropertyitemoptions.isoptional
           - title: propertyTypeTokenRange
             url: /pages/api/api-extractor-model.iapipropertyitemoptions.propertytypetokenrange
       - title: IApiPropertyOptions
@@ -1179,12 +1205,14 @@ api_nav:
       - title: IExperimentsJson
         url: /pages/api/rush-lib.iexperimentsjson
         subitems:
-          - title: legacyIncrementalBuildDependencyDetection
-            url: /pages/api/rush-lib.iexperimentsjson.legacyincrementalbuilddependencydetection
           - title: noChmodFieldInTarHeaderNormalization
             url: /pages/api/rush-lib.iexperimentsjson.nochmodfieldintarheadernormalization
+          - title: omitImportersFromPreventManualShrinkwrapChanges
+            url: /pages/api/rush-lib.iexperimentsjson.omitimportersfrompreventmanualshrinkwrapchanges
           - title: usePnpmFrozenLockfileForRushInstall
             url: /pages/api/rush-lib.iexperimentsjson.usepnpmfrozenlockfileforrushinstall
+          - title: usePnpmPreferFrozenLockfileForRushUpdate
+            url: /pages/api/rush-lib.iexperimentsjson.usepnpmpreferfrozenlockfileforrushupdate
       - title: ILaunchOptions
         url: /pages/api/rush-lib.ilaunchoptions
         subitems:
@@ -1264,8 +1292,12 @@ api_nav:
             url: /pages/api/rush-lib.packagejsoneditor.load
           - title: name
             url: /pages/api/rush-lib.packagejsoneditor.name
+          - title: resolutionsList
+            url: /pages/api/rush-lib.packagejsoneditor.resolutionslist
           - title: saveIfModified
             url: /pages/api/rush-lib.packagejsoneditor.saveifmodified
+          - title: saveToObject
+            url: /pages/api/rush-lib.packagejsoneditor.savetoobject
           - title: tryGetDependency
             url: /pages/api/rush-lib.packagejsoneditor.trygetdependency
           - title: tryGetDevDependency
@@ -1299,8 +1331,6 @@ api_nav:
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.pnpmstorepath
           - title: preventManualShrinkwrapChanges
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.preventmanualshrinkwrapchanges
-          - title: resolutionStrategy
-            url: /pages/api/rush-lib.pnpmoptionsconfiguration.resolutionstrategy
           - title: strictPeerDependencies
             url: /pages/api/rush-lib.pnpmoptionsconfiguration.strictpeerdependencies
           - title: useWorkspaces
@@ -1312,6 +1342,8 @@ api_nav:
         subitems:
           - title: filePath
             url: /pages/api/rush-lib.repostatefile.filepath
+          - title: isValid
+            url: /pages/api/rush-lib.repostatefile.isvalid
           - title: loadFromFile
             url: /pages/api/rush-lib.repostatefile.loadfromfile
           - title: pnpmShrinkwrapHash
@@ -1320,8 +1352,6 @@ api_nav:
             url: /pages/api/rush-lib.repostatefile.preferredversionshash
           - title: refreshState
             url: /pages/api/rush-lib.repostatefile.refreshstate
-      - title: ResolutionStrategy
-        url: /pages/api/rush-lib.resolutionstrategy
       - title: Rush
         url: /pages/api/rush-lib.rush
         subitems:
@@ -1368,12 +1398,16 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.findprojectbyshorthandname
           - title: findProjectByTempName
             url: /pages/api/rush-lib.rushconfiguration.findprojectbytempname
+          - title: findProjectForPosixRelativePath
+            url: /pages/api/rush-lib.rushconfiguration.findprojectforposixrelativepath
           - title: getCommittedShrinkwrapFilename
             url: /pages/api/rush-lib.rushconfiguration.getcommittedshrinkwrapfilename
           - title: getCommonVersions
             url: /pages/api/rush-lib.rushconfiguration.getcommonversions
           - title: getCommonVersionsFilePath
             url: /pages/api/rush-lib.rushconfiguration.getcommonversionsfilepath
+          - title: getImplicitlyPreferredVersions
+            url: /pages/api/rush-lib.rushconfiguration.getimplicitlypreferredversions
           - title: getPnpmfilePath
             url: /pages/api/rush-lib.rushconfiguration.getpnpmfilepath
           - title: getProjectByName
@@ -1384,6 +1418,8 @@ api_nav:
             url: /pages/api/rush-lib.rushconfiguration.getrepostatefilepath
           - title: gitAllowedEmailRegExps
             url: /pages/api/rush-lib.rushconfiguration.gitallowedemailregexps
+          - title: gitChangeLogUpdateCommitMessage
+            url: /pages/api/rush-lib.rushconfiguration.gitchangelogupdatecommitmessage
           - title: gitSampleEmail
             url: /pages/api/rush-lib.rushconfiguration.gitsampleemail
           - title: gitVersionBumpCommitMessage
@@ -1463,8 +1499,12 @@ api_nav:
       - title: RushConfigurationProject
         url: /pages/api/rush-lib.rushconfigurationproject
         subitems:
+          - title: consumingProjects
+            url: /pages/api/rush-lib.rushconfigurationproject.consumingprojects
           - title: cyclicDependencyProjects
             url: /pages/api/rush-lib.rushconfigurationproject.cyclicdependencyprojects
+          - title: dependencyProjects
+            url: /pages/api/rush-lib.rushconfigurationproject.dependencyprojects
           - title: downstreamDependencyProjects
             url: /pages/api/rush-lib.rushconfigurationproject.downstreamdependencyprojects
           - title: isMainProject
@@ -1481,8 +1521,12 @@ api_nav:
             url: /pages/api/rush-lib.rushconfigurationproject.projectfolder
           - title: projectRelativeFolder
             url: /pages/api/rush-lib.rushconfigurationproject.projectrelativefolder
+          - title: projectRushConfigFolder
+            url: /pages/api/rush-lib.rushconfigurationproject.projectrushconfigfolder
           - title: projectRushTempFolder
             url: /pages/api/rush-lib.rushconfigurationproject.projectrushtempfolder
+          - title: publishFolder
+            url: /pages/api/rush-lib.rushconfigurationproject.publishfolder
           - title: reviewCategory
             url: /pages/api/rush-lib.rushconfigurationproject.reviewcategory
           - title: rushConfiguration
@@ -1548,10 +1592,10 @@ api_nav:
         subitems:
           - title: (constructor)
             url: /pages/api/debug-certificate-manager.certificatemanager._constructor_
-          - title: ensureCertificate
-            url: /pages/api/debug-certificate-manager.certificatemanager.ensurecertificate
-          - title: untrustCertificate
-            url: /pages/api/debug-certificate-manager.certificatemanager.untrustcertificate
+          - title: ensureCertificateAsync
+            url: /pages/api/debug-certificate-manager.certificatemanager.ensurecertificateasync
+          - title: untrustCertificateAsync
+            url: /pages/api/debug-certificate-manager.certificatemanager.untrustcertificateasync
       - title: CertificateStore
         url: /pages/api/debug-certificate-manager.certificatestore
         subitems:
@@ -1603,6 +1647,11 @@ api_nav:
             url: /pages/api/heft.cleanstagehooks.run
       - title: CompileSubstageHooks
         url: /pages/api/heft.compilesubstagehooks
+        subitems:
+          - title: afterCompile
+            url: /pages/api/heft.compilesubstagehooks.aftercompile
+          - title: afterEachIteration
+            url: /pages/api/heft.compilesubstagehooks.aftereachiteration
       - title: CopyFromCacheMode
         url: /pages/api/heft.copyfromcachemode
       - title: CustomActionParameterType
@@ -1614,8 +1663,6 @@ api_nav:
             url: /pages/api/heft.heftconfiguration.buildcachefolder
           - title: buildFolder
             url: /pages/api/heft.heftconfiguration.buildfolder
-          - title: compilerPackage
-            url: /pages/api/heft.heftconfiguration.compilerpackage
           - title: globalTerminal
             url: /pages/api/heft.heftconfiguration.globalterminal
           - title: heftPackageJson
@@ -1648,6 +1695,12 @@ api_nav:
       - title: IBuildStageProperties
         url: /pages/api/heft.ibuildstageproperties
         subitems:
+          - title: emitExtensionForTests
+            url: /pages/api/heft.ibuildstageproperties.emitextensionfortests
+          - title: emitFolderNameForTests
+            url: /pages/api/heft.ibuildstageproperties.emitfoldernamefortests
+          - title: isTypeScriptProject
+            url: /pages/api/heft.ibuildstageproperties.istypescriptproject
           - title: lite
             url: /pages/api/heft.ibuildstageproperties.lite
           - title: locale
@@ -1676,6 +1729,10 @@ api_nav:
         subitems:
           - title: webpackConfiguration
             url: /pages/api/heft.ibundlesubstageproperties.webpackconfiguration
+          - title: webpackDevServerVersion
+            url: /pages/api/heft.ibundlesubstageproperties.webpackdevserverversion
+          - title: webpackVersion
+            url: /pages/api/heft.ibundlesubstageproperties.webpackversion
       - title: ICleanStageContext
         url: /pages/api/heft.icleanstagecontext
       - title: ICleanStageProperties
@@ -1685,17 +1742,6 @@ api_nav:
             url: /pages/api/heft.icleanstageproperties.deletecache
           - title: pathsToDelete
             url: /pages/api/heft.icleanstageproperties.pathstodelete
-      - title: ICompilerPackage
-        url: /pages/api/heft.icompilerpackage
-        subitems:
-          - title: apiExtractorPackagePath
-            url: /pages/api/heft.icompilerpackage.apiextractorpackagepath
-          - title: eslintPackagePath
-            url: /pages/api/heft.icompilerpackage.eslintpackagepath
-          - title: tslintPackagePath
-            url: /pages/api/heft.icompilerpackage.tslintpackagepath
-          - title: typeScriptPackagePath
-            url: /pages/api/heft.icompilerpackage.typescriptpackagepath
       - title: ICompileSubstage
         url: /pages/api/heft.icompilesubstage
       - title: ICompileSubstageProperties
@@ -1725,8 +1771,8 @@ api_nav:
             url: /pages/api/heft.icustomactionparameterbase.description
           - title: kind
             url: /pages/api/heft.icustomactionparameterbase.kind
-          - title: paramterLongName
-            url: /pages/api/heft.icustomactionparameterbase.paramterlongname
+          - title: parameterLongName
+            url: /pages/api/heft.icustomactionparameterbase.parameterlongname
       - title: ICustomActionParameterFlag
         url: /pages/api/heft.icustomactionparameterflag
         subitems:
@@ -1761,6 +1807,8 @@ api_nav:
             url: /pages/api/heft.iheftplugin.accessor
           - title: apply
             url: /pages/api/heft.iheftplugin.apply
+          - title: optionsSchema
+            url: /pages/api/heft.iheftplugin.optionsschema
           - title: pluginName
             url: /pages/api/heft.iheftplugin.pluginname
       - title: IHeftSessionHooks
@@ -1818,10 +1866,14 @@ api_nav:
         subitems:
           - title: debugHeftReporter
             url: /pages/api/heft.iteststageproperties.debugheftreporter
+          - title: detectOpenHandles
+            url: /pages/api/heft.iteststageproperties.detectopenhandles
           - title: findRelatedTests
             url: /pages/api/heft.iteststageproperties.findrelatedtests
           - title: maxWorkers
             url: /pages/api/heft.iteststageproperties.maxworkers
+          - title: passWithNoTests
+            url: /pages/api/heft.iteststageproperties.passwithnotests
           - title: silent
             url: /pages/api/heft.iteststageproperties.silent
           - title: testNamePattern
@@ -1834,13 +1886,6 @@ api_nav:
             url: /pages/api/heft.iteststageproperties.updatesnapshots
           - title: watchMode
             url: /pages/api/heft.iteststageproperties.watchmode
-      - title: IWebpackConfiguration
-        url: /pages/api/heft.iwebpackconfiguration
-      - title: IWebpackConfigurationWithDevServer
-        url: /pages/api/heft.iwebpackconfigurationwithdevserver
-        subitems:
-          - title: devServer
-            url: /pages/api/heft.iwebpackconfigurationwithdevserver.devserver
       - title: MetricsCollectorHooks
         url: /pages/api/heft.metricscollectorhooks
         subitems:
@@ -1901,6 +1946,8 @@ api_nav:
             url: /pages/api/heft-config-file.configurationfile.getpropertyoriginalvalue
           - title: loadConfigurationFileForProjectAsync
             url: /pages/api/heft-config-file.configurationfile.loadconfigurationfileforprojectasync
+          - title: projectRelativeFilePath
+            url: /pages/api/heft-config-file.configurationfile.projectrelativefilepath
           - title: tryLoadConfigurationFileForProjectAsync
             url: /pages/api/heft-config-file.configurationfile.tryloadconfigurationfileforprojectasync
       - title: IConfigurationFileOptions
@@ -1924,6 +1971,8 @@ api_nav:
         subitems:
           - title: pathResolutionMethod
             url: /pages/api/heft-config-file.ijsonpathmetadata.pathresolutionmethod
+          - title: preresolve
+            url: /pages/api/heft-config-file.ijsonpathmetadata.preresolve
       - title: IJsonPathsMetadata
         url: /pages/api/heft-config-file.ijsonpathsmetadata
       - title: InheritanceType
@@ -2298,6 +2347,15 @@ api_nav:
             url: /pages/api/node-core-library.ansiescape.formatfortests
           - title: removeCodes
             url: /pages/api/node-core-library.ansiescape.removecodes
+      - title: Async
+        url: /pages/api/node-core-library.async
+        subitems:
+          - title: forEachAsync
+            url: /pages/api/node-core-library.async.foreachasync
+          - title: mapAsync
+            url: /pages/api/node-core-library.async.mapasync
+          - title: sleep
+            url: /pages/api/node-core-library.async.sleep
       - title: Brand
         url: /pages/api/node-core-library.brand
       - title: Colors
@@ -2379,9 +2437,36 @@ api_nav:
             url: /pages/api/node-core-library.enum.trygetkeybynumber
           - title: tryGetValueByKey
             url: /pages/api/node-core-library.enum.trygetvaluebykey
+      - title: EnvironmentMap
+        url: /pages/api/node-core-library.environmentmap
+        subitems:
+          - title: (constructor)
+            url: /pages/api/node-core-library.environmentmap._constructor_
+          - title: caseSensitive
+            url: /pages/api/node-core-library.environmentmap.casesensitive
+          - title: clear
+            url: /pages/api/node-core-library.environmentmap.clear
+          - title: entries
+            url: /pages/api/node-core-library.environmentmap.entries
+          - title: get
+            url: /pages/api/node-core-library.environmentmap.get
+          - title: mergeFrom
+            url: /pages/api/node-core-library.environmentmap.mergefrom
+          - title: mergeFromObject
+            url: /pages/api/node-core-library.environmentmap.mergefromobject
+          - title: names
+            url: /pages/api/node-core-library.environmentmap.names
+          - title: set
+            url: /pages/api/node-core-library.environmentmap.set
+          - title: toObject
+            url: /pages/api/node-core-library.environmentmap.toobject
+          - title: unset
+            url: /pages/api/node-core-library.environmentmap.unset
       - title: Executable
         url: /pages/api/node-core-library.executable
         subitems:
+          - title: spawn
+            url: /pages/api/node-core-library.executable.spawn
           - title: spawnSync
             url: /pages/api/node-core-library.executable.spawnsync
           - title: tryResolve
@@ -2411,8 +2496,6 @@ api_nav:
             url: /pages/api/node-core-library.filesystem.copyfiles
           - title: copyFilesAsync
             url: /pages/api/node-core-library.filesystem.copyfilesasync
-          - title: copyFileToManyAsync
-            url: /pages/api/node-core-library.filesystem.copyfiletomanyasync
           - title: createHardLink
             url: /pages/api/node-core-library.filesystem.createhardlink
           - title: createHardLinkAsync
@@ -2527,6 +2610,11 @@ api_nav:
         subitems:
           - title: encodeNewlines
             url: /pages/api/node-core-library.iansiescapeconvertfortestsoptions.encodenewlines
+      - title: IAsyncParallelismOptions
+        url: /pages/api/node-core-library.iasyncparallelismoptions
+        subitems:
+          - title: concurrency
+            url: /pages/api/node-core-library.iasyncparallelismoptions.concurrency
       - title: IColorableSequence
         url: /pages/api/node-core-library.icolorablesequence
         subitems:
@@ -2545,6 +2633,13 @@ api_nav:
         subitems:
           - title: verboseEnabled
             url: /pages/api/node-core-library.iconsoleterminalprovideroptions.verboseenabled
+      - title: IEnvironmentEntry
+        url: /pages/api/node-core-library.ienvironmententry
+        subitems:
+          - title: name
+            url: /pages/api/node-core-library.ienvironmententry.name
+          - title: value
+            url: /pages/api/node-core-library.ienvironmententry.value
       - title: IExecutableResolveOptions
         url: /pages/api/node-core-library.iexecutableresolveoptions
         subitems:
@@ -2552,6 +2647,13 @@ api_nav:
             url: /pages/api/node-core-library.iexecutableresolveoptions.currentworkingdirectory
           - title: environment
             url: /pages/api/node-core-library.iexecutableresolveoptions.environment
+          - title: environmentMap
+            url: /pages/api/node-core-library.iexecutableresolveoptions.environmentmap
+      - title: IExecutableSpawnOptions
+        url: /pages/api/node-core-library.iexecutablespawnoptions
+        subitems:
+          - title: stdio
+            url: /pages/api/node-core-library.iexecutablespawnoptions.stdio
       - title: IExecutableSpawnSyncOptions
         url: /pages/api/node-core-library.iexecutablespawnsyncoptions
         subitems:
@@ -2595,11 +2697,6 @@ api_nav:
         subitems:
           - title: filter
             url: /pages/api/node-core-library.ifilesystemcopyfilesoptions.filter
-      - title: IFileSystemCopyFileToManyOptions
-        url: /pages/api/node-core-library.ifilesystemcopyfiletomanyoptions
-        subitems:
-          - title: destinationPaths
-            url: /pages/api/node-core-library.ifilesystemcopyfiletomanyoptions.destinationpaths
       - title: IFileSystemCreateLinkOptions
         url: /pages/api/node-core-library.ifilesystemcreatelinkoptions
         subitems:
@@ -2693,6 +2790,8 @@ api_nav:
         subitems:
           - title: headerComment
             url: /pages/api/node-core-library.ijsonfilestringifyoptions.headercomment
+          - title: ignoreUndefinedValues
+            url: /pages/api/node-core-library.ijsonfilestringifyoptions.ignoreundefinedvalues
           - title: newlineConversion
             url: /pages/api/node-core-library.ijsonfilestringifyoptions.newlineconversion
           - title: prettyFormatting
@@ -2748,6 +2847,8 @@ api_nav:
             url: /pages/api/node-core-library.inodepackagejson.private
           - title: repository
             url: /pages/api/node-core-library.inodepackagejson.repository
+          - title: resolutions
+            url: /pages/api/node-core-library.inodepackagejson.resolutions
           - title: scripts
             url: /pages/api/node-core-library.inodepackagejson.scripts
           - title: tsdocMetadata
@@ -3136,13 +3237,6 @@ api_nav:
         url: /pages/api/package-deps-hash.getgithashforfiles
       - title: getPackageDeps
         url: /pages/api/package-deps-hash.getpackagedeps
-      - title: IPackageDeps
-        url: /pages/api/package-deps-hash.ipackagedeps
-        subitems:
-          - title: arguments
-            url: /pages/api/package-deps-hash.ipackagedeps.arguments
-          - title: files
-            url: /pages/api/package-deps-hash.ipackagedeps.files
   - title: '@rushstack/rig-package'
     url: /pages/api/rig-package
     subitems:

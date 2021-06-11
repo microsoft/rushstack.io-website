@@ -21,8 +21,10 @@ export interface ITestStageProperties
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [debugHeftReporter](./heft.iteststageproperties.debugheftreporter.md) | boolean \| undefined |  |
+|  [detectOpenHandles](./heft.iteststageproperties.detectopenhandles.md) | boolean \| undefined |  |
 |  [findRelatedTests](./heft.iteststageproperties.findrelatedtests.md) | ReadonlyArray&lt;string&gt; \| undefined |  |
 |  [maxWorkers](./heft.iteststageproperties.maxworkers.md) | string \| undefined |  |
+|  [passWithNoTests](./heft.iteststageproperties.passwithnotests.md) | boolean \| undefined |  |
 |  [silent](./heft.iteststageproperties.silent.md) | boolean \| undefined |  |
 |  [testNamePattern](./heft.iteststageproperties.testnamepattern.md) | string \| undefined |  |
 |  [testPathPattern](./heft.iteststageproperties.testpathpattern.md) | ReadonlyArray&lt;string&gt; \| undefined |  |

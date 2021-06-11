@@ -21,6 +21,6 @@ export interface IPassthroughLocaleOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [passthroughLocaleName](./localization-plugin.ipassthroughlocaleoptions.passthroughlocalename.md) | string | If [IPassthroughLocaleOptions.usePassthroughLocale](./localization-plugin.ipassthroughlocaleoptions.usepassthroughlocale.md) is set, use this name for the passthrough locale. Defaults to "passthrough" |
-|  [usePassthroughLocale](./localization-plugin.ipassthroughlocaleoptions.usepassthroughlocale.md) | boolean | If this is set to <code>true</code>, a passthrough locale will be included in the output |
+|  [passthroughLocaleName?](./localization-plugin.ipassthroughlocaleoptions.passthroughlocalename.md) | string | <i>(Optional)</i> If [IPassthroughLocaleOptions.usePassthroughLocale](./localization-plugin.ipassthroughlocaleoptions.usepassthroughlocale.md) is set, use this name for the passthrough locale. Defaults to "passthrough" |
+|  [usePassthroughLocale?](./localization-plugin.ipassthroughlocaleoptions.usepassthroughlocale.md) | boolean | <i>(Optional)</i> If this is set to <code>true</code>, a passthrough locale will be included in the output |
 

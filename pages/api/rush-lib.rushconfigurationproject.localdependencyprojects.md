@@ -9,7 +9,12 @@ improve_this_button: false
 
 ## RushConfigurationProject.localDependencyProjects property
 
-A map of projects within the Rush configuration which are directly depended on by this project
+> Warning: This API is now obsolete.
+> 
+> Use `dependencyProjects` instead, as it has Set semantics, which better reflect the nature of the data.
+> 
+
+An array of projects within the Rush configuration which this project declares as dependencies.
 
 <b>Signature:</b>
 

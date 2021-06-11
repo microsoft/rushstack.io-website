@@ -21,9 +21,9 @@ export interface ILocalizationPluginOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [filesToIgnore](./localization-plugin.ilocalizationpluginoptions.filestoignore.md) | string\[\] | This option is used to specify <code>.resx</code> and <code>.loc.json</code> files that should not be processed by this plugin. |
-|  [localizationStats](./localization-plugin.ilocalizationpluginoptions.localizationstats.md) | [ILocalizationStatsOptions](./localization-plugin.ilocalizationstatsoptions.md) | Options for how localization stats data should be produced. |
+|  [filesToIgnore?](./localization-plugin.ilocalizationpluginoptions.filestoignore.md) | string\[\] | <i>(Optional)</i> This option is used to specify <code>.resx</code> and <code>.loc.json</code> files that should not be processed by this plugin. |
+|  [localizationStats?](./localization-plugin.ilocalizationpluginoptions.localizationstats.md) | [ILocalizationStatsOptions](./localization-plugin.ilocalizationstatsoptions.md) | <i>(Optional)</i> Options for how localization stats data should be produced. |
 |  [localizedData](./localization-plugin.ilocalizationpluginoptions.localizeddata.md) | [ILocalizedData](./localization-plugin.ilocalizeddata.md) | Localization data. |
-|  [noStringsLocaleName](./localization-plugin.ilocalizationpluginoptions.nostringslocalename.md) | string | The value to replace the \[locale\] token with for chunks without localized strings. Defaults to "none" |
-|  [typingsOptions](./localization-plugin.ilocalizationpluginoptions.typingsoptions.md) | [ITypingsGenerationOptions](./localization-plugin.itypingsgenerationoptions.md) | This option is used to specify how and if TypeScript typings should be generated for loc files. |
+|  [noStringsLocaleName?](./localization-plugin.ilocalizationpluginoptions.nostringslocalename.md) | string | <i>(Optional)</i> The value to replace the \[locale\] token with for chunks without localized strings. Defaults to "none" |
+|  [typingsOptions?](./localization-plugin.ilocalizationpluginoptions.typingsoptions.md) | [ITypingsGenerationOptions](./localization-plugin.itypingsgenerationoptions.md) | <i>(Optional)</i> This option is used to specify how and if TypeScript typings should be generated for loc files. |
 

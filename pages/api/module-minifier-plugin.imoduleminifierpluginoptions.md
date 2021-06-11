@@ -22,6 +22,6 @@ export interface IModuleMinifierPluginOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [minifier](./module-minifier-plugin.imoduleminifierpluginoptions.minifier.md) | [IModuleMinifier](./module-minifier-plugin.imoduleminifier.md) | Minifier implementation to use. Required. |
-|  [sourceMap](./module-minifier-plugin.imoduleminifierpluginoptions.sourcemap.md) | boolean | Whether to enable source map processing. If not provided, will attempt to guess based on <code>mode</code> and <code>devtool</code> in the webpack config. Set to <code>false</code> for faster builds at the expense of debuggability. |
-|  [usePortableModules](./module-minifier-plugin.imoduleminifierpluginoptions.useportablemodules.md) | boolean | Instructs the plugin to alter the code of modules to maximize portability across compilations. |
+|  [sourceMap?](./module-minifier-plugin.imoduleminifierpluginoptions.sourcemap.md) | boolean | <i>(Optional)</i> Whether to enable source map processing. If not provided, will attempt to guess based on <code>mode</code> and <code>devtool</code> in the webpack config. Set to <code>false</code> for faster builds at the expense of debuggability. |
+|  [usePortableModules?](./module-minifier-plugin.imoduleminifierpluginoptions.useportablemodules.md) | boolean | <i>(Optional)</i> Instructs the plugin to alter the code of modules to maximize portability across compilations. |
 

@@ -20,5 +20,7 @@ export interface IBundleSubstageProperties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [webpackConfiguration?](./heft.ibundlesubstageproperties.webpackconfiguration.md) | webpack.Configuration \| webpack.Configuration\[\] | <i>(Optional)</i> The configuration used by the Webpack plugin. This must be populated for Webpack to run. If webpackConfigFilePath is specified, this will be populated automatically with the exports of the config file referenced in that property. |
+|  [webpackConfiguration?](./heft.ibundlesubstageproperties.webpackconfiguration.md) | unknown | <i>(Optional)</i> The configuration used by the Webpack plugin. This must be populated for Webpack to run. If webpackConfigFilePath is specified, this will be populated automatically with the exports of the config file referenced in that property. |
+|  [webpackDevServerVersion?](./heft.ibundlesubstageproperties.webpackdevserverversion.md) | string \| undefined | <i>(Optional)</i> If webpack is used, this will be set to the version of the webpack-dev-server package |
+|  [webpackVersion?](./heft.ibundlesubstageproperties.webpackversion.md) | string \| undefined | <i>(Optional)</i> If webpack is used, this will be set to the version of the webpack package |
 

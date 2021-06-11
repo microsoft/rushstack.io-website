@@ -43,6 +43,8 @@ export declare class ExtractorConfig
 |  [skipLibCheck](./api-extractor.extractorconfig.skiplibcheck.md) |  | boolean | This option causes the compiler to be invoked with the <code>--skipLibCheck</code> option. |
 |  [testMode](./api-extractor.extractorconfig.testmode.md) |  | boolean | Set to true when invoking API Extractor's test harness. |
 |  [tsconfigFilePath](./api-extractor.extractorconfig.tsconfigfilepath.md) |  | string | Specifies the path to the tsconfig.json file to be used by API Extractor when analyzing the project. |
+|  [tsdocConfigFile](./api-extractor.extractorconfig.tsdocconfigfile.md) |  | TSDocConfigFile | The tsdoc.json configuration that will be used when parsing doc comments. |
+|  [tsdocConfiguration](./api-extractor.extractorconfig.tsdocconfiguration.md) |  | TSDocConfiguration | The <code>TSDocConfiguration</code> loaded from [ExtractorConfig.tsdocConfigFile](./api-extractor.extractorconfig.tsdocconfigfile.md)<!-- -->. |
 |  [tsdocMetadataEnabled](./api-extractor.extractorconfig.tsdocmetadataenabled.md) |  | boolean | Whether to generate the tsdoc-metadata.json file. |
 |  [tsdocMetadataFilePath](./api-extractor.extractorconfig.tsdocmetadatafilepath.md) |  | string | Specifies where the TSDoc metadata file should be written. |
 |  [untrimmedFilePath](./api-extractor.extractorconfig.untrimmedfilepath.md) |  | string | Specifies the output path for a .d.ts rollup file to be generated without any trimming. |

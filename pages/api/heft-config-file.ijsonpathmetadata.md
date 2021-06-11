@@ -25,4 +25,5 @@ export interface IJsonPathMetadata
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [pathResolutionMethod?](./heft-config-file.ijsonpathmetadata.pathresolutionmethod.md) | [PathResolutionMethod](./heft-config-file.pathresolutionmethod.md) | <b><i>(BETA)</i></b> <i>(Optional)</i> If this property describes a filesystem path, use this property to describe how the path should be resolved. |
+|  [preresolve?](./heft-config-file.ijsonpathmetadata.preresolve.md) | (path: string) =&gt; string | <b><i>(BETA)</i></b> <i>(Optional)</i> If this property is set, it will be used for manual path modification before the specified <code>IJsonPathMetadata.pathResolutionMethod</code> is executed. |
 

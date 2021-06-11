@@ -17,9 +17,11 @@ Core libraries that every NodeJS toolchain project should use.
 |  --- | --- |
 |  [AlreadyReportedError](./node-core-library.alreadyreportederror.md) | This exception can be thrown to indicate that an operation failed and an error message has already been reported appropriately. Thus, the catch handler does not have responsibility for reporting the error. |
 |  [AnsiEscape](./node-core-library.ansiescape.md) | Operations for working with text strings that contain [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code)<!-- -->. The most commonly used escape codes set the foreground/background color for console output. |
+|  [Async](./node-core-library.async.md) | <b><i>(BETA)</i></b> Utilities for parallel asynchronous operations, for use with the system <code>Promise</code> APIs. |
 |  [Colors](./node-core-library.colors.md) | <b><i>(BETA)</i></b> The static functions on this class are used to produce colored text for use with the node-core-library terminal. |
 |  [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) | <b><i>(BETA)</i></b> Terminal provider that prints to STDOUT (for log- and verbose-level messages) and STDERR (for warning- and error-level messsages). |
 |  [Enum](./node-core-library.enum.md) | A helper for looking up TypeScript <code>enum</code> keys/values. |
+|  [EnvironmentMap](./node-core-library.environmentmap.md) | A map data structure that stores process environment variables. On Windows operating system, the variable names are case-insensitive. |
 |  [Executable](./node-core-library.executable.md) | The Executable class provides a safe, portable, recommended solution for tools that need to launch child processes. |
 |  [FileSystem](./node-core-library.filesystem.md) | The FileSystem API provides a complete set of recommended operations for interacting with the file system. |
 |  [FileWriter](./node-core-library.filewriter.md) | API for interacting with file handles. |
@@ -61,15 +63,17 @@ Core libraries that every NodeJS toolchain project should use.
 |  Interface | Description |
 |  --- | --- |
 |  [IAnsiEscapeConvertForTestsOptions](./node-core-library.iansiescapeconvertfortestsoptions.md) | Options for [AnsiEscape.formatForTests()](./node-core-library.ansiescape.formatfortests.md)<!-- -->. |
+|  [IAsyncParallelismOptions](./node-core-library.iasyncparallelismoptions.md) | <b><i>(BETA)</i></b> Options for controlling the parallelism of asynchronous operations. |
 |  [IColorableSequence](./node-core-library.icolorablesequence.md) | <b><i>(BETA)</i></b> |
 |  [IConsoleTerminalProviderOptions](./node-core-library.iconsoleterminalprovideroptions.md) | <b><i>(BETA)</i></b> Options to be provided to a [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) |
+|  [IEnvironmentEntry](./node-core-library.ienvironmententry.md) | A process environment variable name and its value. Used by [EnvironmentMap](./node-core-library.environmentmap.md)<!-- -->. |
 |  [IExecutableResolveOptions](./node-core-library.iexecutableresolveoptions.md) | Options for Executable.tryResolve(). |
-|  [IExecutableSpawnSyncOptions](./node-core-library.iexecutablespawnsyncoptions.md) | Options for Executable.execute(). |
+|  [IExecutableSpawnOptions](./node-core-library.iexecutablespawnoptions.md) | Options for [Executable.spawn()](./node-core-library.executable.spawn.md) |
+|  [IExecutableSpawnSyncOptions](./node-core-library.iexecutablespawnsyncoptions.md) | Options for [Executable.spawnSync()](./node-core-library.executable.spawnsync.md) |
 |  [IFileSystemCopyFileBaseOptions](./node-core-library.ifilesystemcopyfilebaseoptions.md) |  |
 |  [IFileSystemCopyFileOptions](./node-core-library.ifilesystemcopyfileoptions.md) | The options for [FileSystem.copyFile()](./node-core-library.filesystem.copyfile.md) |
 |  [IFileSystemCopyFilesAsyncOptions](./node-core-library.ifilesystemcopyfilesasyncoptions.md) | The options for [FileSystem.copyFilesAsync()](./node-core-library.filesystem.copyfilesasync.md) |
 |  [IFileSystemCopyFilesOptions](./node-core-library.ifilesystemcopyfilesoptions.md) | The options for [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md) |
-|  [IFileSystemCopyFileToManyOptions](./node-core-library.ifilesystemcopyfiletomanyoptions.md) | The options for [FileSystem.copyFile()](./node-core-library.filesystem.copyfile.md) |
 |  [IFileSystemCreateLinkOptions](./node-core-library.ifilesystemcreatelinkoptions.md) | The options for [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md)<!-- -->, [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md)<!-- -->, [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md)<!-- -->, and [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md)<!-- -->. |
 |  [IFileSystemDeleteFileOptions](./node-core-library.ifilesystemdeletefileoptions.md) | The options for [FileSystem.deleteFile()](./node-core-library.filesystem.deletefile.md) |
 |  [IFileSystemMoveOptions](./node-core-library.ifilesystemmoveoptions.md) | The options for [FileSystem.move()](./node-core-library.filesystem.move.md) |
@@ -105,7 +109,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  Type Alias | Description |
 |  --- | --- |
 |  [Brand](./node-core-library.brand.md) | A "branded type" is a primitive type with a compile-type key that makes it incompatible with other aliases for the primitive type. |
-|  [ExecutableStdioMapping](./node-core-library.executablestdiomapping.md) | Typings for IExecutableSpawnSyncOptions.stdio. |
+|  [ExecutableStdioMapping](./node-core-library.executablestdiomapping.md) | Types for [IExecutableSpawnSyncOptions.stdio](./node-core-library.iexecutablespawnsyncoptions.stdio.md) and [IExecutableSpawnOptions.stdio](./node-core-library.iexecutablespawnoptions.stdio.md) |
 |  [ExecutableStdioStreamMapping](./node-core-library.executablestdiostreammapping.md) | Typings for one of the streams inside IExecutableSpawnSyncOptions.stdio. |
 |  [FileSystemCopyFilesAsyncFilter](./node-core-library.filesystemcopyfilesasyncfilter.md) | Callback function type for [IFileSystemCopyFilesAsyncOptions.filter](./node-core-library.ifilesystemcopyfilesasyncoptions.filter.md) |
 |  [FileSystemCopyFilesFilter](./node-core-library.filesystemcopyfilesfilter.md) | Callback function type for [IFileSystemCopyFilesOptions.filter](./node-core-library.ifilesystemcopyfilesoptions.filter.md) |

@@ -30,6 +30,7 @@ export declare const enum ConsoleMessageId
 |  Diagnostics | <code>&quot;console-diagnostics&quot;</code> | Used for the information printed when the "--diagnostics" flag is enabled. |
 |  FoundTSDocMetadata | <code>&quot;console-found-tsdoc-metadata&quot;</code> | "Found metadata in \_\_\_" |
 |  Preamble | <code>&quot;console-preamble&quot;</code> | "Analysis will use the bundled TypeScript version \_\_\_" |
+|  UsingCustomTSDocConfig | <code>&quot;console-using-custom-tsdoc-config&quot;</code> | "Using custom TSDoc config from \_\_\_" |
 |  WritingDocModelFile | <code>&quot;console-writing-doc-model-file&quot;</code> | "Writing: \_\_\_" |
 |  WritingDtsRollup | <code>&quot;console-writing-dts-rollup&quot;</code> | "Writing package typings: \_\_\_" |
 

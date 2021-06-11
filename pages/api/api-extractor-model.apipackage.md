@@ -35,6 +35,7 @@ This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of c
 |  [containerKey](./api-extractor-model.apipackage.containerkey.md) |  | string |  |
 |  [entryPoints](./api-extractor-model.apipackage.entrypoints.md) |  | ReadonlyArray&lt;[ApiEntryPoint](./api-extractor-model.apientrypoint.md)<!-- -->&gt; |  |
 |  [kind](./api-extractor-model.apipackage.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
+|  [tsdocConfiguration](./api-extractor-model.apipackage.tsdocconfiguration.md) |  | TSDocConfiguration | The TSDoc configuration that was used when analyzing the API for this package. |
 
 ## Methods
 

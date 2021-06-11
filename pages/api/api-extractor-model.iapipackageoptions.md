@@ -18,3 +18,9 @@ export interface IApiPackageOptions extends IApiItemContainerMixinOptions, IApiN
 ```
 <b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md)<!-- -->, [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiDocumentedItemOptions](./api-extractor-model.iapidocumenteditemoptions.md)
 
+## Properties
+
+|  Property | Type | Description |
+|  --- | --- | --- |
+|  [tsdocConfiguration](./api-extractor-model.iapipackageoptions.tsdocconfiguration.md) | TSDocConfiguration |  |
+

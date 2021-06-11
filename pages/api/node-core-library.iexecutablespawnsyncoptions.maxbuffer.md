@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IExecutableSpawnSyncOptions.maxBuffer property
 
-The largest amount of bytes allowed on stdout or stderr for this synchonous operation. If exceeded, the child process will be terminated. The default is 200 \* 1024.
+The largest amount of bytes allowed on stdout or stderr for this synchronous operation. If exceeded, the child process will be terminated. The default is 200 \* 1024.
 
 <b>Signature:</b>
 

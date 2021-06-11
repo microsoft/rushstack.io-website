@@ -24,6 +24,6 @@ export interface IStdioSummarizerOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [leadingLines](./terminal.istdiosummarizeroptions.leadinglines.md) | number | <b><i>(BETA)</i></b> Specifies the maximum number of leading lines to include in the summary. |
-|  [trailingLines](./terminal.istdiosummarizeroptions.trailinglines.md) | number | <b><i>(BETA)</i></b> Specifies the maximum number of trailing lines to include in the summary. |
+|  [leadingLines?](./terminal.istdiosummarizeroptions.leadinglines.md) | number | <b><i>(BETA)</i></b> <i>(Optional)</i> Specifies the maximum number of leading lines to include in the summary. |
+|  [trailingLines?](./terminal.istdiosummarizeroptions.trailinglines.md) | number | <b><i>(BETA)</i></b> <i>(Optional)</i> Specifies the maximum number of trailing lines to include in the summary. |
 

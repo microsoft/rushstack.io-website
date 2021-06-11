@@ -65,5 +65,4 @@ A library for writing scripts that interact with the [Rush](https://rushjs.io/) 
 |  --- | --- |
 |  [PackageManagerName](./rush-lib.packagemanagername.md) | This represents the available Package Manager tools as a string |
 |  [PnpmStoreOptions](./rush-lib.pnpmstoreoptions.md) | This represents the available PNPM store options |
-|  [ResolutionStrategy](./rush-lib.resolutionstrategy.md) | This represents the available PNPM resolution strategies as a string |
 

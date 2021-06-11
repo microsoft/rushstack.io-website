@@ -27,5 +27,5 @@ export interface IModuleMinifier
 
 |  Method | Description |
 |  --- | --- |
-|  [ref()](./module-minifier-plugin.imoduleminifier.ref.md) | Prevents the minifier from shutting down until the returned callback is invoked. The callback may be used to surface errors encountered by the minifier that may not be relevant to a specific file. It should be called to allow the minifier to cleanup |
+|  [ref()?](./module-minifier-plugin.imoduleminifier.ref.md) | <i>(Optional)</i> Prevents the minifier from shutting down until the returned callback is invoked. The callback may be used to surface errors encountered by the minifier that may not be relevant to a specific file. It should be called to allow the minifier to cleanup |
 

@@ -21,9 +21,9 @@ export interface IModuleMinificationErrorResult
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [code](./module-minifier-plugin.imoduleminificationerrorresult.code.md) | undefined | Marker property to always return the same result shape. |
+|  [code?](./module-minifier-plugin.imoduleminificationerrorresult.code.md) | undefined | <i>(Optional)</i> Marker property to always return the same result shape. |
 |  [error](./module-minifier-plugin.imoduleminificationerrorresult.error.md) | Error | The error encountered, to be added to the current compilation's error collection. |
-|  [extractedComments](./module-minifier-plugin.imoduleminificationerrorresult.extractedcomments.md) | undefined | Marker property to always return the same result shape. |
+|  [extractedComments?](./module-minifier-plugin.imoduleminificationerrorresult.extractedcomments.md) | undefined | <i>(Optional)</i> Marker property to always return the same result shape. |
 |  [hash](./module-minifier-plugin.imoduleminificationerrorresult.hash.md) | string | Identity of the request |
-|  [map](./module-minifier-plugin.imoduleminificationerrorresult.map.md) | undefined | Marker property to always return the same result shape. |
+|  [map?](./module-minifier-plugin.imoduleminificationerrorresult.map.md) | undefined | <i>(Optional)</i> Marker property to always return the same result shape. |
 

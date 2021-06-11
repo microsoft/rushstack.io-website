@@ -27,6 +27,6 @@ export declare class CertificateManager
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [ensureCertificate(canGenerateNewCertificate, terminal)](./debug-certificate-manager.certificatemanager.ensurecertificate.md) |  | Get a dev certificate from the store, or optionally, generate a new one and trust it if one doesn't exist in the store. |
-|  [untrustCertificate(terminal)](./debug-certificate-manager.certificatemanager.untrustcertificate.md) |  | Attempt to locate a previously generated debug certificate and untrust it. |
+|  [ensureCertificateAsync(canGenerateNewCertificate, terminal)](./debug-certificate-manager.certificatemanager.ensurecertificateasync.md) |  | Get a dev certificate from the store, or optionally, generate a new one and trust it if one doesn't exist in the store. |
+|  [untrustCertificateAsync(terminal)](./debug-certificate-manager.certificatemanager.untrustcertificateasync.md) |  | Attempt to locate a previously generated debug certificate and untrust it. |
 

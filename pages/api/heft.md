@@ -36,7 +36,6 @@ improve_this_button: false
 |  [IBundleSubstageProperties](./heft.ibundlesubstageproperties.md) |  |
 |  [ICleanStageContext](./heft.icleanstagecontext.md) |  |
 |  [ICleanStageProperties](./heft.icleanstageproperties.md) |  |
-|  [ICompilerPackage](./heft.icompilerpackage.md) |  |
 |  [ICompileSubstage](./heft.icompilesubstage.md) |  |
 |  [ICompileSubstageProperties](./heft.icompilesubstageproperties.md) |  |
 |  [ICustomActionOptions](./heft.icustomactionoptions.md) | <b><i>(BETA)</i></b> |
@@ -56,7 +55,6 @@ improve_this_button: false
 |  [IStageContext](./heft.istagecontext.md) |  |
 |  [ITestStageContext](./heft.iteststagecontext.md) |  |
 |  [ITestStageProperties](./heft.iteststageproperties.md) |  |
-|  [IWebpackConfigurationWithDevServer](./heft.iwebpackconfigurationwithdevserver.md) |  |
 
 ## Type Aliases
 
@@ -65,7 +63,6 @@ improve_this_button: false
 |  [CopyFromCacheMode](./heft.copyfromcachemode.md) |  |
 |  [CustomActionParameterType](./heft.customactionparametertype.md) | <b><i>(BETA)</i></b> |
 |  [ICustomActionParameter](./heft.icustomactionparameter.md) | <b><i>(BETA)</i></b> |
-|  [IWebpackConfiguration](./heft.iwebpackconfiguration.md) |  |
 |  [RegisterAction](./heft.registeraction.md) | <b><i>(BETA)</i></b> |
 |  [RequestAccessToPluginByNameCallback](./heft.requestaccesstopluginbynamecallback.md) | <b><i>(BETA)</i></b> |
 

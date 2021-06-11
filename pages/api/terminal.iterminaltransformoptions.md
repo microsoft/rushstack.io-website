@@ -23,5 +23,5 @@ export interface ITerminalTransformOptions extends ITerminalWritableOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [destination](./terminal.iterminaltransformoptions.destination.md) | [TerminalWritable](./terminal.terminalwritable.md) | The target <code>TerminalWritable</code> that the <code>TerminalTransform</code> will write its output to. |
-|  [preventDestinationAutoclose](./terminal.iterminaltransformoptions.preventdestinationautoclose.md) | boolean | Prevents the [TerminalTransform.destination](./terminal.terminaltransform.destination.md) object from being closed automatically when the transform is closed. |
+|  [preventDestinationAutoclose?](./terminal.iterminaltransformoptions.preventdestinationautoclose.md) | boolean | <i>(Optional)</i> Prevents the [TerminalTransform.destination](./terminal.terminaltransform.destination.md) object from being closed automatically when the transform is closed. |
 

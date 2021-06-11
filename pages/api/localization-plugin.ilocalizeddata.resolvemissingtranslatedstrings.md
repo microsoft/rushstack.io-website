@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ILocalizedData.resolveMissingTranslatedStrings property
 
-Use this paramter to specify a function used to load translations missing from the [ILocalizedData.translatedStrings](./localization-plugin.ilocalizeddata.translatedstrings.md) parameter.
+Use this parameter to specify a function used to load translations missing from the [ILocalizedData.translatedStrings](./localization-plugin.ilocalizeddata.translatedstrings.md) parameter.
 
 <b>Signature:</b>
 
