@@ -95,7 +95,7 @@ _**Note:** If you find yourself frequently adding lots of custom settings to **j
 ## The "extends" field
 
 The `"extends"` field in **jest.config.json** is a Heft-specific enhancement that will not work if the Jest command line
-is invoked without Heft.  It replaces Jest's `"preset"` field which has limited module resolution and does not support rigs.
+is invoked without Heft.  It replaces Jest's `"preset"` field which has limited module resolution capabilities and does not support rigs.
 
 If for some reason your `jest.config.json` needs to be directly readable by Jest, the
 `disableConfigurationModuleResolution` plugin setting can be used to restore the old behavior.
