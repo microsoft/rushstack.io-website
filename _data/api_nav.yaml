@@ -1650,8 +1650,8 @@ api_nav:
         subitems:
           - title: afterCompile
             url: /pages/api/heft.compilesubstagehooks.aftercompile
-          - title: afterEachIteration
-            url: /pages/api/heft.compilesubstagehooks.aftereachiteration
+          - title: afterRecompile
+            url: /pages/api/heft.compilesubstagehooks.afterrecompile
       - title: CopyFromCacheMode
         url: /pages/api/heft.copyfromcachemode
       - title: CustomActionParameterType
