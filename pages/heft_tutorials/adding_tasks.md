@@ -101,7 +101,7 @@ and [ESlint]({% link pages/heft_tasks/eslint.md %}).
 
 > **Note:** Do not invoke the `jest` command line directly, since it only runs tests and will not perform Heft's other build steps.
 
-That's it for setting up Jest!  Further information, including instructions for debugging tests, can be found in the ["jest" task]({% link pages/heft_tasks/jest.md %}) reference and the [heft-node-jest-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-node-jest-tutorial) sample project.
+That's it for setting up Jest!  Further information, including instructions for debugging tests, can be found in the ["jest" task]({% link pages/heft_tasks/jest.md %}) reference and the [heft-node-jest-tutorial](https://github.com/microsoft/rushstack-samples/tree/main/heft/heft-node-jest-tutorial) sample project.
 
 
 ## Enabling linting

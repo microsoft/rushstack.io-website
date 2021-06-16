@@ -93,8 +93,8 @@ similar systems, Heft has some unique design goals:
 
 For a couple quick examples of Heft projects in a real Rush monorepo, take a look at these folders:
 
-- [heft-node-basic-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-node-basic-tutorial): A basic Node.js
+- [heft-node-basic-tutorial](https://github.com/microsoft/rushstack-samples/tree/main/heft/heft-node-basic-tutorial): A basic Node.js
   application with Jest and ESLint
 
-- [heft-webpack-basic-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-webpack-basic-tutorial): A basic
+- [heft-webpack-basic-tutorial](https://github.com/microsoft/rushstack-samples/tree/main/heft/heft-webpack-basic-tutorial): A basic
   web application bundled using Webpack

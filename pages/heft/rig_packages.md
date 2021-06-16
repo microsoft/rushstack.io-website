@@ -18,7 +18,7 @@ Heft also provides two standard rig packages that you can use in your projects:
 
 It's also easy to define your own custom rig packages.
 
-The [heft-node-rig-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-node-rig-tutorial)
+The [heft-node-rig-tutorial](https://github.com/microsoft/rushstack-samples/tree/main/heft/heft-node-rig-tutorial)
 sample project illustrates how to consume `@rushstack/heft-node-rig`.
 
 Let's look at three different ways that rig packages influence the build.
@@ -131,4 +131,4 @@ Heft itself has a direct dependency on the following packages, so your project d
 ## See also
 
 - [@rushstack/rig-package](https://www.npmjs.com/package/@rushstack/rig-package) documentation provides the complete specification for the **rig.json** system
-- [heft-node-rig-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-node-rig-tutorial) sample project
+- [heft-node-rig-tutorial](https://github.com/microsoft/rushstack-samples/tree/main/heft/heft-node-rig-tutorial) sample project

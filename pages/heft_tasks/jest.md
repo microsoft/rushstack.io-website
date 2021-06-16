@@ -128,7 +128,7 @@ Internally, Jest supports TypeScript compilation via plugins called [transforms]
 
 Heft takes a different approach of performing a conventional build and then invoking Jest on the output.  If your build targets a browser runtime, you'll need to use the [emitFolderNameForTests]({% link pages/heft_tasks/webpack.md %}) setting to emit CommonJS outputs in a secondary folder. (Emitting extra files is still significantly faster than invoking the compiler twice.)  Heft's `jest-build-transform.js` does not compile anything itself, but rather returns the output of the full pipeline.
 
-Some helpful examples of mocking and other Jest techniques can be found in the [heft-node-jest-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-node-jest-tutorial) project folder.
+Some helpful examples of mocking and other Jest techniques can be found in the [heft-node-jest-tutorial](https://github.com/microsoft/rushstack-samples/tree/main/heft/heft-node-jest-tutorial) project folder.
 
 > **Important differences when using Jest with Heft:**
 >
@@ -172,6 +172,6 @@ To restrict the debugger to run one specific test, you can add the `--test-name-
 
 ## See also
 
-- [heft-node-jest-tutorial](https://github.com/microsoft/rushstack/tree/master/tutorials/heft-node-jest-tutorial) sample project
+- [heft-node-jest-tutorial](https://github.com/microsoft/rushstack-samples/tree/main/heft/heft-node-jest-tutorial) sample project
 - Jest's [API reference](https://jestjs.io/docs/en/api)
 - [jest.config.json](https://jestjs.io/docs/en/configuration) documentation
