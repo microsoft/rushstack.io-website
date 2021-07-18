@@ -244,7 +244,5 @@ We'll begin by creating a simple standalone project without Rush.  (Later, the [
     }
     ```
 
-    _Note: This final step will be eliminated eventually by [PR #2054](https://github.com/microsoft/rushstack/pull/2054), which provides a standard default `"pathsToDelete"` setting._
-
 
 #### Next up: [Adding more tasks]({% link pages/heft_tutorials/adding_tasks.md %})
