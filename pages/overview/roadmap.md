@@ -7,7 +7,7 @@ navigation_source: docs_nav
 Our [News page]({% link pages/news.md %}) and Twitter feed is the best way to find out what's happening.
 This roadmap supplements that with more general information about future directions.
 
-***Last update: July 2021***
+***Last update: September 2021***
 
 
 ## Recently Completed
@@ -36,6 +36,8 @@ a particular feature will get implemented.  That said, here's some areas which p
 
 <!-- things we expect to get to sooner go at the top -->
 
+- Create a Heft plugin for StorybookJS
+- Upgrade the Jest package used by Heft
 - Upgrade the baseline TypeScript version to be 4.x
 - Set up a [rushstack-samples](https://github.com/microsoft/rushstack-samples/) repo with fully worked out projects
   illustrating realistic usage patterns
