@@ -20,6 +20,8 @@ docs_nav:
     subitems:
       - title: What is Rush Stack?
         url: /
+      - title: Who's involved?
+        url: /pages/overview/people
       - title: Project roadmap
         url: /pages/overview/roadmap
 
