@@ -6,6 +6,9 @@ top_nav:
   - title: API
     url: /pages/api/
 
+  - title: Shop
+    url: /pages/shop
+
   - title: News
     url: /pages/news
 
