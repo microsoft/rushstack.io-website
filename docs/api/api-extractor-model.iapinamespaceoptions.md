@@ -9,12 +9,11 @@ improve_this_button: false
 
 ## IApiNamespaceOptions interface
 
-Constructor options for [ApiClass](./api-extractor-model.apiclass.md)<!-- -->.
+Constructor options for [ApiClass](./api-extractor-model.apiclass.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiNamespaceOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions 
+export interface IApiNamespaceOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions
 ```
-<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md)<!-- -->, [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
-
+<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md), [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md), [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md), [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)

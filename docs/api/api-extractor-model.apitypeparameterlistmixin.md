@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiTypeParameterListMixin namespace
 
-Static members for [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md)<!-- -->.
+Static members for [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare namespace ApiTypeParameterListMixin 
+export declare namespace ApiTypeParameterListMixin
 ```
 
 ## Functions
@@ -22,4 +22,3 @@ export declare namespace ApiTypeParameterListMixin
 |  Function | Description |
 |  --- | --- |
 |  [isBaseClassOf(apiItem)](./api-extractor-model.apitypeparameterlistmixin.isbaseclassof.md) | A type guard that tests whether the specified <code>ApiItem</code> subclass extends the <code>ApiParameterListMixin</code> mixin. |
-

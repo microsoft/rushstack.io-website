@@ -19,7 +19,6 @@ readonly betaTrimmedFilePath: string;
 
 ## Remarks
 
-This file will include only declarations that are marked as `@public` or `@beta`<!-- -->.
+This file will include only declarations that are marked as `@public` or `@beta`.
 
-The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`<!-- -->.
-
+The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`.

@@ -11,7 +11,7 @@ improve_this_button: false
 
 The project's build cache folder.
 
-This folder exists at &lt;<!-- -->project root<!-- -->&gt;<!-- -->/.heft/build-cache. TypeScript's output goes into this folder and then is either copied or linked to the final output folder
+This folder exists at &lt;project root&gt;/.heft/build-cache. TypeScript's output goes into this folder and then is either copied or linked to the final output folder
 
 <b>Signature:</b>
 

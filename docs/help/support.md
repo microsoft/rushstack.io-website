@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Getting support
 navigation_source: docs_nav
 ---

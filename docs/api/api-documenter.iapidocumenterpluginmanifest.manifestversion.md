@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IApiDocumenterPluginManifest.manifestVersion property
 
-The manifest version number. For now, this must always be `1000`<!-- -->.
+The manifest version number. For now, this must always be `1000`.
 
 <b>Signature:</b>
 

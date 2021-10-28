@@ -10,23 +10,22 @@ improve_this_button: false
 ## IAsyncParallelismOptions interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 Options for controlling the parallelism of asynchronous operations.
 
 <b>Signature:</b>
 
 ```typescript
-export interface IAsyncParallelismOptions 
+export interface IAsyncParallelismOptions
 ```
 
 ## Remarks
 
-Used with [Async.mapAsync()](./node-core-library.async.mapasync.md) and [Async.forEachAsync()](./node-core-library.async.foreachasync.md)<!-- -->.
+Used with [Async.mapAsync()](./node-core-library.async.mapasync.md) and [Async.forEachAsync()](./node-core-library.async.foreachasync.md).
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [concurrency?](./node-core-library.iasyncparallelismoptions.concurrency.md) | number | <b><i>(BETA)</i></b> <i>(Optional)</i> Optionally used with the [Async.mapAsync()](./node-core-library.async.mapasync.md) and [Async.forEachAsync()](./node-core-library.async.foreachasync.md) to limit the maximum number of concurrent promises to the specified number. |
-

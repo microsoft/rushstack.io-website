@@ -10,14 +10,14 @@ improve_this_button: false
 ## StreamCollator class
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 A static class which manages the output of multiple threads.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class StreamCollator 
+export declare class StreamCollator
 ```
 
 ## Constructors
@@ -34,11 +34,10 @@ export declare class StreamCollator
 |  [activeWriter](./stream-collator.streamcollator.activewriter.md) |  | [CollatedWriter](./stream-collator.collatedwriter.md) \| undefined | <b><i>(BETA)</i></b> Returns the currently active <code>CollatedWriter</code>, or <code>undefined</code> if no writer is active yet. |
 |  [destination](./stream-collator.streamcollator.destination.md) |  | [TerminalWritable](./terminal.terminalwritable.md) | <b><i>(BETA)</i></b> |
 |  [terminal](./stream-collator.streamcollator.terminal.md) |  | [CollatedTerminal](./stream-collator.collatedterminal.md) | <b><i>(BETA)</i></b> |
-|  [writers](./stream-collator.streamcollator.writers.md) |  | ReadonlySet&lt;[CollatedWriter](./stream-collator.collatedwriter.md)<!-- -->&gt; | <b><i>(BETA)</i></b> The list of writers that have been registered by calling [StreamCollator.registerTask()](./stream-collator.streamcollator.registertask.md)<!-- -->, in the order that they were registered. |
+|  [writers](./stream-collator.streamcollator.writers.md) |  | ReadonlySet&lt;[CollatedWriter](./stream-collator.collatedwriter.md)&gt; | <b><i>(BETA)</i></b> The list of writers that have been registered by calling [StreamCollator.registerTask()](./stream-collator.streamcollator.registertask.md), in the order that they were registered. |
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [registerTask(taskName)](./stream-collator.streamcollator.registertask.md) |  | <b><i>(BETA)</i></b> Registers a new task to be collated, and constructs a [CollatedWriter](./stream-collator.collatedwriter.md) object to receive its input. |
-

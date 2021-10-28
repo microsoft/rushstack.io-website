@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ICommandLineRemainderDefinition interface
 
-For use with [CommandLineParameterProvider.defineCommandLineRemainder()](./ts-command-line.commandlineparameterprovider.definecommandlineremainder.md)<!-- -->, this interface defines a rule that captures any remaining command line arguments after the recognized portion.
+For use with [CommandLineParameterProvider.defineCommandLineRemainder()](./ts-command-line.commandlineparameterprovider.definecommandlineremainder.md), this interface defines a rule that captures any remaining command line arguments after the recognized portion.
 
 <b>Signature:</b>
 
 ```typescript
-export interface ICommandLineRemainderDefinition 
+export interface ICommandLineRemainderDefinition
 ```
 
 ## Properties
@@ -22,4 +22,3 @@ export interface ICommandLineRemainderDefinition
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [description](./ts-command-line.icommandlineremainderdefinition.description.md) | string | Documentation for how the remaining arguments will be used. This will be shown when invoking the tool with "--help". |
-

@@ -10,7 +10,7 @@ improve_this_button: false
 ## ICustomActionParameter type
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 
 <b>Signature:</b>
@@ -18,5 +18,4 @@ improve_this_button: false
 ```typescript
 export declare type ICustomActionParameter<TParameter> = TParameter extends boolean ? ICustomActionParameterFlag : TParameter extends number ? ICustomActionParameterInteger : TParameter extends string ? ICustomActionParameterString : TParameter extends ReadonlyArray<string> ? ICustomActionParameterStringList : never;
 ```
-<b>References:</b> [ICustomActionParameterFlag](./heft.icustomactionparameterflag.md)<!-- -->, [ICustomActionParameterInteger](./heft.icustomactionparameterinteger.md)<!-- -->, [ICustomActionParameterString](./heft.icustomactionparameterstring.md)<!-- -->, [ICustomActionParameterStringList](./heft.icustomactionparameterstringlist.md)
-
+<b>References:</b> [ICustomActionParameterFlag](./heft.icustomactionparameterflag.md), [ICustomActionParameterInteger](./heft.icustomactionparameterinteger.md), [ICustomActionParameterString](./heft.icustomactionparameterstring.md), [ICustomActionParameterStringList](./heft.icustomactionparameterstringlist.md)

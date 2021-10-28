@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.updateTimesAsync() method
 
-An async version of [FileSystem.updateTimes()](./node-core-library.filesystem.updatetimes.md)<!-- -->.
+An async version of [FileSystem.updateTimes()](./node-core-library.filesystem.updatetimes.md).
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static updateTimesAsync(path: string, times: IFileSystemUpdateTimeParameters): P
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

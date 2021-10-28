@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## InternalError.unformattedMessage property
 
-The underlying error message, without the additional boilerplate for an `InternalError`<!-- -->.
+The underlying error message, without the additional boilerplate for an `InternalError`.
 
 <b>Signature:</b>
 

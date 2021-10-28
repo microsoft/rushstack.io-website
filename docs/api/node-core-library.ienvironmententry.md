@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IEnvironmentEntry interface
 
-A process environment variable name and its value. Used by [EnvironmentMap](./node-core-library.environmentmap.md)<!-- -->.
+A process environment variable name and its value. Used by [EnvironmentMap](./node-core-library.environmentmap.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IEnvironmentEntry 
+export interface IEnvironmentEntry
 ```
 
 ## Properties
@@ -23,4 +23,3 @@ export interface IEnvironmentEntry
 |  --- | --- | --- |
 |  [name](./node-core-library.ienvironmententry.name.md) | string | The name of the environment variable. |
 |  [value](./node-core-library.ienvironmententry.value.md) | string | The value of the environment variable. |
-

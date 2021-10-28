@@ -19,5 +19,4 @@ export declare type JsonObject = any;
 
 ## Remarks
 
-This type is similar to `any`<!-- -->, except that it communicates that the object is serializable JSON.
-
+This type is similar to `any`, except that it communicates that the object is serializable JSON.

@@ -10,19 +10,18 @@ improve_this_button: false
 ## ICustomActionParameterFlag interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 
 <b>Signature:</b>
 
 ```typescript
-export interface ICustomActionParameterFlag extends ICustomActionParameterBase<boolean> 
+export interface ICustomActionParameterFlag extends ICustomActionParameterBase<boolean>
 ```
-<b>Extends:</b> [ICustomActionParameterBase](./heft.icustomactionparameterbase.md)<!-- -->&lt;boolean&gt;
+<b>Extends:</b> [ICustomActionParameterBase](./heft.icustomactionparameterbase.md)&lt;boolean&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [kind](./heft.icustomactionparameterflag.kind.md) | 'flag' | <b><i>(BETA)</i></b> |
-

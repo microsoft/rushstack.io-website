@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.getRealPathAsync() method
 
-An async version of [FileSystem.getRealPath()](./node-core-library.filesystem.getrealpath.md)<!-- -->.
+An async version of [FileSystem.getRealPath()](./node-core-library.filesystem.getrealpath.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static getRealPathAsync(linkPath: string): Promise<string>;
 <b>Returns:</b>
 
 Promise&lt;string&gt;
-

@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## CommandLineStringListParameter class
 
-The data type returned by [CommandLineParameterProvider.defineStringListParameter()](./ts-command-line.commandlineparameterprovider.definestringlistparameter.md)<!-- -->.
+The data type returned by [CommandLineParameterProvider.defineStringListParameter()](./ts-command-line.commandlineparameterprovider.definestringlistparameter.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare class CommandLineStringListParameter extends CommandLineParameterWithArgument 
+export declare class CommandLineStringListParameter extends CommandLineParameterWithArgument
 ```
 <b>Extends:</b> [CommandLineParameterWithArgument](./ts-command-line.commandlineparameterwithargument.md)
 
@@ -34,4 +34,3 @@ The constructor for this class is marked as internal. Third-party code should no
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [appendToArgList(argList)](./ts-command-line.commandlinestringlistparameter.appendtoarglist.md) |  | Append the parsed values to the provided string array. |
-

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.createSymbolicLinkFile() method
 
-Creates a symbolic link to a file (on Windows this requires elevated permissionsBits). Behind the scenes it uses `fs.symlinkSync()`<!-- -->.
+Creates a symbolic link to a file (on Windows this requires elevated permissionsBits). Behind the scenes it uses `fs.symlinkSync()`.
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static createSymbolicLinkFile(options: IFileSystemCreateLinkOptions): void;
 <b>Returns:</b>
 
 void
-

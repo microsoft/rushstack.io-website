@@ -19,5 +19,4 @@ headerComment?: string;
 
 ## Remarks
 
-When used with [IJsonFileSaveOptions.updateExistingFile](./node-core-library.ijsonfilesaveoptions.updateexistingfile.md) or [JsonFile.updateString()](./node-core-library.jsonfile.updatestring.md)<!-- -->, the header will ONLY be added for a newly created file.
-
+When used with [IJsonFileSaveOptions.updateExistingFile](./node-core-library.ijsonfilesaveoptions.updateexistingfile.md) or [JsonFile.updateString()](./node-core-library.jsonfile.updatestring.md), the header will ONLY be added for a newly created file.

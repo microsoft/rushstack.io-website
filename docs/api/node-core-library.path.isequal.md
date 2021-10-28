@@ -30,5 +30,4 @@ boolean
 
 ## Remarks
 
-The comparison is performed using `path.relative()`<!-- -->.
-
+The comparison is performed using `path.relative()`.

@@ -30,5 +30,4 @@ void
 
 ## Remarks
 
-On NodeJS 11.x and later, this method simply calls the native `Array.sort()`<!-- -->. For earlier versions, it uses an implementation of Timsort, which is the same algorithm used by modern NodeJS.
-
+On NodeJS 11.x and later, this method simply calls the native `Array.sort()`. For earlier versions, it uses an implementation of Timsort, which is the same algorithm used by modern NodeJS.

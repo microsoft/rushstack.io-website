@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.ensureEmptyFolderAsync() method
 
-An async version of [FileSystem.ensureEmptyFolder()](./node-core-library.filesystem.ensureemptyfolder.md)<!-- -->.
+An async version of [FileSystem.ensureEmptyFolder()](./node-core-library.filesystem.ensureemptyfolder.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static ensureEmptyFolderAsync(folderPath: string): Promise<void>;
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

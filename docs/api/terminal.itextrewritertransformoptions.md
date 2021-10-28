@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ITextRewriterTransformOptions interface
 
-Constructor options for [TextRewriterTransform](./terminal.textrewritertransform.md)<!-- -->.
+Constructor options for [TextRewriterTransform](./terminal.textrewritertransform.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface ITextRewriterTransformOptions extends ITerminalTransformOptions 
+export interface ITextRewriterTransformOptions extends ITerminalTransformOptions
 ```
 <b>Extends:</b> [ITerminalTransformOptions](./terminal.iterminaltransformoptions.md)
 
@@ -25,5 +25,4 @@ export interface ITextRewriterTransformOptions extends ITerminalTransformOptions
 |  [ensureNewlineAtEnd?](./terminal.itextrewritertransformoptions.ensurenewlineatend.md) | boolean | <i>(Optional)</i> If <code>normalizeNewlines</code> or <code>ensureNewlineAtEnd</code> is specified, a [NormalizeNewlinesTextRewriter](./terminal.normalizenewlinestextrewriter.md) will be appended to the list of rewriters with the specified settings. |
 |  [normalizeNewlines?](./terminal.itextrewritertransformoptions.normalizenewlines.md) | [NewlineKind](./node-core-library.newlinekind.md) | <i>(Optional)</i> If <code>normalizeNewlines</code> or <code>ensureNewlineAtEnd</code> is specified, a [NormalizeNewlinesTextRewriter](./terminal.normalizenewlinestextrewriter.md) will be appended to the list of rewriters with the specified settings. |
 |  [removeColors?](./terminal.itextrewritertransformoptions.removecolors.md) | boolean | <i>(Optional)</i> If specified, a [RemoveColorsTextRewriter](./terminal.removecolorstextrewriter.md) will be appended to the list of rewriters. |
-|  [textRewriters?](./terminal.itextrewritertransformoptions.textrewriters.md) | [TextRewriter](./terminal.textrewriter.md)<!-- -->\[\] | <i>(Optional)</i> A list of rewriters to be applied. More items may be appended to the list, for example if [ITextRewriterTransformOptions.removeColors](./terminal.itextrewritertransformoptions.removecolors.md) is specified. |
-
+|  [textRewriters?](./terminal.itextrewritertransformoptions.textrewriters.md) | [TextRewriter](./terminal.textrewriter.md)\[\] | <i>(Optional)</i> A list of rewriters to be applied. More items may be appended to the list, for example if [ITextRewriterTransformOptions.removeColors](./terminal.itextrewritertransformoptions.removecolors.md) is specified. |

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ExtractorConfig.tsdocConfiguration property
 
-The `TSDocConfiguration` loaded from [ExtractorConfig.tsdocConfigFile](./api-extractor.extractorconfig.tsdocconfigfile.md)<!-- -->.
+The `TSDocConfiguration` loaded from [ExtractorConfig.tsdocConfigFile](./api-extractor.extractorconfig.tsdocconfigfile.md).
 
 <b>Signature:</b>
 

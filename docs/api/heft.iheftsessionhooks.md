@@ -13,15 +13,14 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface IHeftSessionHooks 
+export interface IHeftSessionHooks
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [build](./heft.iheftsessionhooks.build.md) | SyncHook&lt;[IBuildStageContext](./heft.ibuildstagecontext.md)<!-- -->&gt; |  |
-|  [clean](./heft.iheftsessionhooks.clean.md) | SyncHook&lt;[ICleanStageContext](./heft.icleanstagecontext.md)<!-- -->&gt; |  |
+|  [build](./heft.iheftsessionhooks.build.md) | SyncHook&lt;[IBuildStageContext](./heft.ibuildstagecontext.md)&gt; |  |
+|  [clean](./heft.iheftsessionhooks.clean.md) | SyncHook&lt;[ICleanStageContext](./heft.icleanstagecontext.md)&gt; |  |
 |  [metricsCollector](./heft.iheftsessionhooks.metricscollector.md) | [MetricsCollectorHooks](./heft.metricscollectorhooks.md) |  |
-|  [test](./heft.iheftsessionhooks.test.md) | SyncHook&lt;[ITestStageContext](./heft.iteststagecontext.md)<!-- -->&gt; |  |
-
+|  [test](./heft.iheftsessionhooks.test.md) | SyncHook&lt;[ITestStageContext](./heft.iteststagecontext.md)&gt; |  |

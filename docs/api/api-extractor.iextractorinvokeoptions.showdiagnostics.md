@@ -19,5 +19,4 @@ showDiagnostics?: boolean;
 
 ## Remarks
 
-Setting `showDiagnostics=true` forces `showVerboseMessages=true`<!-- -->.
-
+Setting `showDiagnostics=true` forces `showVerboseMessages=true`.

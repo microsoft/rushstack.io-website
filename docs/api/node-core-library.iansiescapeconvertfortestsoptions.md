@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IAnsiEscapeConvertForTestsOptions interface
 
-Options for [AnsiEscape.formatForTests()](./node-core-library.ansiescape.formatfortests.md)<!-- -->.
+Options for [AnsiEscape.formatForTests()](./node-core-library.ansiescape.formatfortests.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IAnsiEscapeConvertForTestsOptions 
+export interface IAnsiEscapeConvertForTestsOptions
 ```
 
 ## Properties
@@ -22,4 +22,3 @@ export interface IAnsiEscapeConvertForTestsOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [encodeNewlines?](./node-core-library.iansiescapeconvertfortestsoptions.encodenewlines.md) | boolean | <i>(Optional)</i> If true then <code>\n</code> will be replaced by <code>[n]</code>, and <code>\r</code> will be replaced by <code>[r]</code>. |
-

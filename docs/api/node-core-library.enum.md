@@ -14,7 +14,7 @@ A helper for looking up TypeScript `enum` keys/values.
 <b>Signature:</b>
 
 ```typescript
-export declare class Enum 
+export declare class Enum
 ```
 
 ## Remarks
@@ -56,8 +56,7 @@ function f(s: string): Colors | undefined {
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [getKeyByNumber(enumObject, value)](./node-core-library.enum.getkeybynumber.md) | <code>static</code> | This API is similar to [Enum.tryGetKeyByNumber()](./node-core-library.enum.trygetkeybynumber.md)<!-- -->, except that it throws an exception if the key is undefined. |
-|  [getValueByKey(enumObject, key)](./node-core-library.enum.getvaluebykey.md) | <code>static</code> | This API is similar to [Enum.tryGetValueByKey()](./node-core-library.enum.trygetvaluebykey.md)<!-- -->, except that it throws an exception if the key is undefined. |
+|  [getKeyByNumber(enumObject, value)](./node-core-library.enum.getkeybynumber.md) | <code>static</code> | This API is similar to [Enum.tryGetKeyByNumber()](./node-core-library.enum.trygetkeybynumber.md), except that it throws an exception if the key is undefined. |
+|  [getValueByKey(enumObject, key)](./node-core-library.enum.getvaluebykey.md) | <code>static</code> | This API is similar to [Enum.tryGetValueByKey()](./node-core-library.enum.trygetvaluebykey.md), except that it throws an exception if the key is undefined. |
 |  [tryGetKeyByNumber(enumObject, value)](./node-core-library.enum.trygetkeybynumber.md) | <code>static</code> | Returns an enum string key, given its numeric value. Returns <code>undefined</code> if no matching value is found. |
 |  [tryGetValueByKey(enumObject, key)](./node-core-library.enum.trygetvaluebykey.md) | <code>static</code> | Returns an enum value, given its key. Returns <code>undefined</code> if no matching key is found. |
-

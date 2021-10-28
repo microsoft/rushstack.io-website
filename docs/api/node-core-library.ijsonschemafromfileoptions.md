@@ -14,12 +14,11 @@ Options for JsonSchema.fromFile()
 <b>Signature:</b>
 
 ```typescript
-export interface IJsonSchemaFromFileOptions 
+export interface IJsonSchemaFromFileOptions
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [dependentSchemas?](./node-core-library.ijsonschemafromfileoptions.dependentschemas.md) | [JsonSchema](./node-core-library.jsonschema.md)<!-- -->\[\] | <i>(Optional)</i> Other schemas that this schema references, e.g. via the "$ref" directive. |
-
+|  [dependentSchemas?](./node-core-library.ijsonschemafromfileoptions.dependentschemas.md) | [JsonSchema](./node-core-library.jsonschema.md)\[\] | <i>(Optional)</i> Other schemas that this schema references, e.g. via the "$ref" directive. |

@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## RemoveColorsTextRewriter class
 
-For use with [TextRewriterTransform](./terminal.textrewritertransform.md)<!-- -->, this rewriter removes ANSI escape codes including colored text.
+For use with [TextRewriterTransform](./terminal.textrewritertransform.md), this rewriter removes ANSI escape codes including colored text.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class RemoveColorsTextRewriter extends TextRewriter 
+export declare class RemoveColorsTextRewriter extends TextRewriter
 ```
 <b>Extends:</b> [TextRewriter](./terminal.textrewriter.md)
 
@@ -29,4 +29,3 @@ The implementation also removes other ANSI escape codes such as cursor positioni
 |  [close(unknownState)](./terminal.removecolorstextrewriter.close.md) |  |  |
 |  [initialize()](./terminal.removecolorstextrewriter.initialize.md) |  |  |
 |  [process(unknownState, text)](./terminal.removecolorstextrewriter.process.md) |  |  |
-

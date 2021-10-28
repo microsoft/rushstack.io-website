@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IApiPackageSaveOptions interface
 
-Options for [ApiPackage.saveToJsonFile()](./api-extractor-model.apipackage.savetojsonfile.md)<!-- -->.
+Options for [ApiPackage.saveToJsonFile()](./api-extractor-model.apipackage.savetojsonfile.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiPackageSaveOptions extends IJsonFileSaveOptions 
+export interface IApiPackageSaveOptions extends IJsonFileSaveOptions
 ```
 <b>Extends:</b> [IJsonFileSaveOptions](./node-core-library.ijsonfilesaveoptions.md)
 
@@ -25,4 +25,3 @@ export interface IApiPackageSaveOptions extends IJsonFileSaveOptions
 |  [testMode?](./api-extractor-model.iapipackagesaveoptions.testmode.md) | boolean | <i>(Optional)</i> Set to true only when invoking API Extractor's test harness. |
 |  [toolPackage?](./api-extractor-model.iapipackagesaveoptions.toolpackage.md) | string | <i>(Optional)</i> Optionally specifies a value for the "toolPackage" field in the output .api.json data file; otherwise, the value will be "api-extractor-model". |
 |  [toolVersion?](./api-extractor-model.iapipackagesaveoptions.toolversion.md) | string | <i>(Optional)</i> Optionally specifies a value for the "toolVersion" field in the output .api.json data file; otherwise, the value will be the current version of the api-extractor-model package. |
-

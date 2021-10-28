@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## JsonFile.loadAsync() method
 
-An async version of [JsonFile.load()](./node-core-library.jsonfile.load.md)<!-- -->.
+An async version of [JsonFile.load()](./node-core-library.jsonfile.load.md).
 
 <b>Signature:</b>
 
@@ -25,5 +25,4 @@ static loadAsync(jsonFilename: string): Promise<JsonObject>;
 
 <b>Returns:</b>
 
-Promise&lt;[JsonObject](./node-core-library.jsonobject.md)<!-- -->&gt;
-
+Promise&lt;[JsonObject](./node-core-library.jsonobject.md)&gt;

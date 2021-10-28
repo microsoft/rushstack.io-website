@@ -22,9 +22,8 @@ validateObjectWithCallback(jsonObject: JsonObject, errorCallback: (errorInfo: IJ
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  jsonObject | [JsonObject](./node-core-library.jsonobject.md) |  |
-|  errorCallback | (errorInfo: [IJsonSchemaErrorInfo](./node-core-library.ijsonschemaerrorinfo.md)<!-- -->) =&gt; void |  |
+|  errorCallback | (errorInfo: [IJsonSchemaErrorInfo](./node-core-library.ijsonschemaerrorinfo.md)) =&gt; void |  |
 
 <b>Returns:</b>
 
 void
-

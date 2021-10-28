@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IExtractorConfigLoadForFolderOptions interface
 
-Options for [ExtractorConfig.tryLoadForFolder()](./api-extractor.extractorconfig.tryloadforfolder.md)<!-- -->.
+Options for [ExtractorConfig.tryLoadForFolder()](./api-extractor.extractorconfig.tryloadforfolder.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IExtractorConfigLoadForFolderOptions 
+export interface IExtractorConfigLoadForFolderOptions
 ```
 
 ## Properties
@@ -24,4 +24,3 @@ export interface IExtractorConfigLoadForFolderOptions
 |  [packageJsonLookup?](./api-extractor.iextractorconfigloadforfolderoptions.packagejsonlookup.md) | [PackageJsonLookup](./node-core-library.packagejsonlookup.md) | <i>(Optional)</i> An already constructed <code>PackageJsonLookup</code> cache object to use. If omitted, a temporary one will be constructed. |
 |  [rigConfig?](./api-extractor.iextractorconfigloadforfolderoptions.rigconfig.md) | [RigConfig](./rig-package.rigconfig.md) | <i>(Optional)</i> An already constructed <code>RigConfig</code> object. If omitted, then a new <code>RigConfig</code> object will be constructed. |
 |  [startingFolder](./api-extractor.iextractorconfigloadforfolderoptions.startingfolder.md) | string | The folder path to start from when searching for api-extractor.json. |
-

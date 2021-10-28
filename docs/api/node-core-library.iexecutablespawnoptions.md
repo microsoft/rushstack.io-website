@@ -14,7 +14,7 @@ Options for [Executable.spawn()](./node-core-library.executable.spawn.md)
 <b>Signature:</b>
 
 ```typescript
-export interface IExecutableSpawnOptions extends IExecutableResolveOptions 
+export interface IExecutableSpawnOptions extends IExecutableResolveOptions
 ```
 <b>Extends:</b> [IExecutableResolveOptions](./node-core-library.iexecutableresolveoptions.md)
 
@@ -22,5 +22,4 @@ export interface IExecutableSpawnOptions extends IExecutableResolveOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [stdio?](./node-core-library.iexecutablespawnoptions.stdio.md) | [ExecutableStdioMapping](./node-core-library.executablestdiomapping.md) | <i>(Optional)</i> The stdio mappings for the child process.<!-- -->NOTE: If IExecutableSpawnSyncOptions.input is provided, it will take precedence over the stdin mapping (stdio\[0\]). |
-
+|  [stdio?](./node-core-library.iexecutablespawnoptions.stdio.md) | [ExecutableStdioMapping](./node-core-library.executablestdiomapping.md) | <i>(Optional)</i> The stdio mappings for the child process.NOTE: If IExecutableSpawnSyncOptions.input is provided, it will take precedence over the stdin mapping (stdio\[0\]). |

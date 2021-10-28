@@ -9,12 +9,11 @@ improve_this_button: false
 
 ## IApiPropertyOptions interface
 
-Constructor options for [ApiProperty](./api-extractor-model.apiproperty.md)<!-- -->.
+Constructor options for [ApiProperty](./api-extractor-model.apiproperty.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiPropertyOptions extends IApiPropertyItemOptions, IApiStaticMixinOptions 
+export interface IApiPropertyOptions extends IApiPropertyItemOptions, IApiStaticMixinOptions
 ```
-<b>Extends:</b> [IApiPropertyItemOptions](./api-extractor-model.iapipropertyitemoptions.md)<!-- -->, [IApiStaticMixinOptions](./api-extractor-model.iapistaticmixinoptions.md)
-
+<b>Extends:</b> [IApiPropertyItemOptions](./api-extractor-model.iapipropertyitemoptions.md), [IApiStaticMixinOptions](./api-extractor-model.iapistaticmixinoptions.md)

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## PackageNameParser.parse() method
 
-Same as [PackageName.tryParse()](./node-core-library.packagename.tryparse.md)<!-- -->, except this throws an exception if the input cannot be parsed.
+Same as [PackageName.tryParse()](./node-core-library.packagename.tryparse.md), except this throws an exception if the input cannot be parsed.
 
 <b>Signature:</b>
 
@@ -30,4 +30,3 @@ parse(packageName: string): IParsedPackageName;
 ## Remarks
 
 The packageName must not be an empty string.
-

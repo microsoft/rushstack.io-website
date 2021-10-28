@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.readFile() method
 
-Reads the contents of a file into a string. Behind the scenes it uses `fs.readFileSync()`<!-- -->.
+Reads the contents of a file into a string. Behind the scenes it uses `fs.readFileSync()`.
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static readFile(filePath: string, options?: IFileSystemReadFileOptions): string;
 <b>Returns:</b>
 
 string
-

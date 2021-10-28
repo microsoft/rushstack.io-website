@@ -56,7 +56,7 @@ Usage guidelines:
 
 - Always specify types using `typeof` as shown above.
 
-- Never apply lazy-loading in a way that would convert the module's type to `any`<!-- -->. Losing type safety seriously impacts the maintainability of the code base.
+- Never apply lazy-loading in a way that would convert the module's type to `any`. Losing type safety seriously impacts the maintainability of the code base.
 
 - In cases where the non-runtime types are needed, import them separately using the `Types` suffix:
 
@@ -89,4 +89,3 @@ import { LocalFile } from './path/LocalFile';
 const semver: typeof import('semver') = Import.lazy('semver', require);
 
 ```
-

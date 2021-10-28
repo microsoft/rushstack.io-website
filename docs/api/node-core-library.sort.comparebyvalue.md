@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## Sort.compareByValue() method
 
-Compares `x` and `y` using the JavaScript `>` and `<` operators. This function is suitable for usage as the callback for `array.sort()`<!-- -->.
+Compares `x` and `y` using the JavaScript `>` and `<` operators. This function is suitable for usage as the callback for `array.sort()`.
 
 <b>Signature:</b>
 
@@ -28,7 +28,7 @@ static compareByValue(x: any, y: any): number;
 
 number
 
--1 if `x` is smaller than `y`<!-- -->, 1 if `x` is greater than `y`<!-- -->, or 0 if the values are equal.
+-1 if `x` is smaller than `y`, 1 if `x` is greater than `y`, or 0 if the values are equal.
 
 ## Remarks
 
@@ -42,4 +42,3 @@ let array: number[] = [3, 6, 2];
 array.sort(Sort.compareByValue);  // [2, 3, 6]
 
 ```
-

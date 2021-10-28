@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiItemKind enum
 
-The type returned by the [ApiItem.kind](./api-extractor-model.apiitem.kind.md) property, which can be used to easily distinguish subclasses of [ApiItem](./api-extractor-model.apiitem.md)<!-- -->.
+The type returned by the [ApiItem.kind](./api-extractor-model.apiitem.kind.md) property, which can be used to easily distinguish subclasses of [ApiItem](./api-extractor-model.apiitem.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare const enum ApiItemKind 
+export declare const enum ApiItemKind
 ```
 
 ## Enumeration Members
@@ -41,4 +41,3 @@ export declare const enum ApiItemKind
 |  PropertySignature | <code>&quot;PropertySignature&quot;</code> |  |
 |  TypeAlias | <code>&quot;TypeAlias&quot;</code> |  |
 |  Variable | <code>&quot;Variable&quot;</code> |  |
-

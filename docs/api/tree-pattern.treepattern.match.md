@@ -34,5 +34,4 @@ boolean
 
 Return true if the `root` node matches the pattern. (If the `root` node does not match, the child nodes are not recursively tested, since for an Abstract Syntax Tree the caller is typically an efficient visitor callback that already handles that job.)
 
-If the input matches the pattern, any tagged subtrees will be assigned to the `captures` target object if provided. If the input does not match, the path of the mismatched node will be assigned to `captures.failPath`<!-- -->.
-
+If the input matches the pattern, any tagged subtrees will be assigned to the `captures` target object if provided. If the input does not match, the path of the mismatched node will be assigned to `captures.failPath`.

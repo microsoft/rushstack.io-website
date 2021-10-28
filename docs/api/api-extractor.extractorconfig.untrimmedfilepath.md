@@ -23,5 +23,4 @@ This file will include all declarations that are exported by the main entry poin
 
 If the path is an empty string, then this file will not be written.
 
-The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`<!-- -->.
-
+The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`.

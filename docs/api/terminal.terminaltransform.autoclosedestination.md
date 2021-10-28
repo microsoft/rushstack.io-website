@@ -23,5 +23,4 @@ void
 
 ## Remarks
 
-The destination will not be closed if its [TerminalWritable.preventAutoclose](./terminal.terminalwritable.preventautoclose.md) property is `true`<!-- -->. The destination will not be closed if [ITerminalTransformOptions.preventDestinationAutoclose](./terminal.iterminaltransformoptions.preventdestinationautoclose.md) is `true`<!-- -->.
-
+The destination will not be closed if its [TerminalWritable.preventAutoclose](./terminal.terminalwritable.preventautoclose.md) property is `true`. The destination will not be closed if [ITerminalTransformOptions.preventDestinationAutoclose](./terminal.iterminaltransformoptions.preventdestinationautoclose.md) is `true`.

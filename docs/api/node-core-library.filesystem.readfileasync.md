@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.readFileAsync() method
 
-An async version of [FileSystem.readFile()](./node-core-library.filesystem.readfile.md)<!-- -->.
+An async version of [FileSystem.readFile()](./node-core-library.filesystem.readfile.md).
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static readFileAsync(filePath: string, options?: IFileSystemReadFileOptions): Pr
 <b>Returns:</b>
 
 Promise&lt;string&gt;
-

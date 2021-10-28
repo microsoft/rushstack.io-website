@@ -31,9 +31,9 @@ the absolute path of the resolved module. If [IImportResolveOptions.includeSyste
 
 ## Remarks
 
-A module path is a text string that might appear in a statement such as `import { X } from "____";` or `const x = require("___");`<!-- -->. The implementation is based on the popular `resolve` NPM package.
+A module path is a text string that might appear in a statement such as `import { X } from "____";` or `const x = require("___");`. The implementation is based on the popular `resolve` NPM package.
 
-Suppose `example` is an NPM package whose entry point is `lib/index.js`<!-- -->:
+Suppose `example` is an NPM package whose entry point is `lib/index.js`:
 
 ```ts
 // Returns "/path/to/project/node_modules/example/lib/index.js"
@@ -43,5 +43,4 @@ Import.resolveModule({ modulePath: 'example' });
 Import.resolveModule({ modulePath: 'example/lib/other' });
 
 ```
-If you need to determine the containing package folder (`/path/to/project/node_modules/example`<!-- -->), use [Import.resolvePackage()](./node-core-library.import.resolvepackage.md) instead.
-
+If you need to determine the containing package folder (`/path/to/project/node_modules/example`), use [Import.resolvePackage()](./node-core-library.import.resolvepackage.md) instead.

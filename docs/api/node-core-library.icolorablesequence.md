@@ -10,13 +10,13 @@ improve_this_button: false
 ## IColorableSequence interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 
 <b>Signature:</b>
 
 ```typescript
-export interface IColorableSequence 
+export interface IColorableSequence
 ```
 
 ## Properties
@@ -27,5 +27,4 @@ export interface IColorableSequence
 |  [foregroundColor?](./node-core-library.icolorablesequence.foregroundcolor.md) | [ColorValue](./node-core-library.colorvalue.md) | <b><i>(BETA)</i></b> <i>(Optional)</i> |
 |  [isEol?](./node-core-library.icolorablesequence.iseol.md) | boolean | <b><i>(BETA)</i></b> <i>(Optional)</i> |
 |  [text](./node-core-library.icolorablesequence.text.md) | string | <b><i>(BETA)</i></b> |
-|  [textAttributes?](./node-core-library.icolorablesequence.textattributes.md) | [TextAttribute](./node-core-library.textattribute.md)<!-- -->\[\] | <b><i>(BETA)</i></b> <i>(Optional)</i> |
-
+|  [textAttributes?](./node-core-library.icolorablesequence.textattributes.md) | [TextAttribute](./node-core-library.textattribute.md)\[\] | <b><i>(BETA)</i></b> <i>(Optional)</i> |

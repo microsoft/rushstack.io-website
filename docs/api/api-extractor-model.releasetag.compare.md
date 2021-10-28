@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ReleaseTag.compare() function
 
-Compares two `ReleaseTag` values. Their values must not be `ReleaseTag.None`<!-- -->.
+Compares two `ReleaseTag` values. Their values must not be `ReleaseTag.None`.
 
 <b>Signature:</b>
 
@@ -28,9 +28,8 @@ function compare(a: ReleaseTag, b: ReleaseTag): number;
 
 number
 
-0 if `a` and `b` are equal, a positive number if `a` is more public than `b`<!-- -->, and a negative number if `a` is less public than `b`<!-- -->.
+0 if `a` and `b` are equal, a positive number if `a` is more public than `b`, and a negative number if `a` is less public than `b`.
 
 ## Remarks
 
 For example, `compareReleaseTag(ReleaseTag.Beta, ReleaseTag.Alpha)` will return a positive number because beta is more public than alpha.
-

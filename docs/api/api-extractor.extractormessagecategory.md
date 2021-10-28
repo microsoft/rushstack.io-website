@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ExtractorMessageCategory enum
 
-Specifies a category of messages for use with [ExtractorMessage](./api-extractor.extractormessage.md)<!-- -->.
+Specifies a category of messages for use with [ExtractorMessage](./api-extractor.extractormessage.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare const enum ExtractorMessageCategory 
+export declare const enum ExtractorMessageCategory
 ```
 
 ## Enumeration Members
@@ -25,4 +25,3 @@ export declare const enum ExtractorMessageCategory
 |  Console | <code>&quot;console&quot;</code> | Console messages communicate the progress of the overall operation. They may include newlines to ensure nice formatting. They are output in real time, and cannot be routed to the API Report file. |
 |  Extractor | <code>&quot;Extractor&quot;</code> | Messages related to API Extractor's analysis. |
 |  TSDoc | <code>&quot;TSDoc&quot;</code> | Messages related to parsing of TSDoc comments. |
-

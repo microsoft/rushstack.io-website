@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IFileSystemCreateLinkOptions interface
 
-The options for [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md)<!-- -->, [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md)<!-- -->, [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md)<!-- -->, and [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md)<!-- -->.
+The options for [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md), [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md), [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md), and [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IFileSystemCreateLinkOptions 
+export interface IFileSystemCreateLinkOptions
 ```
 
 ## Properties
@@ -24,4 +24,3 @@ export interface IFileSystemCreateLinkOptions
 |  [alreadyExistsBehavior?](./node-core-library.ifilesystemcreatelinkoptions.alreadyexistsbehavior.md) | [AlreadyExistsBehavior](./node-core-library.alreadyexistsbehavior.md) | <i>(Optional)</i> Specifies what to do if the target object already exists. Defaults to <code>AlreadyExistsBehavior.Error</code>. |
 |  [linkTargetPath](./node-core-library.ifilesystemcreatelinkoptions.linktargetpath.md) | string | The existing path that the symbolic link will point to. |
 |  [newLinkPath](./node-core-library.ifilesystemcreatelinkoptions.newlinkpath.md) | string | The new path for the new symlink link to be created. |
-

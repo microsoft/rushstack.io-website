@@ -14,7 +14,7 @@ This represents the JSON file specified via the "approvedPackagesFile" option in
 <b>Signature:</b>
 
 ```typescript
-export declare class ApprovedPackagesConfiguration 
+export declare class ApprovedPackagesConfiguration
 ```
 
 ## Constructors
@@ -27,7 +27,7 @@ export declare class ApprovedPackagesConfiguration
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [items](./rush-lib.approvedpackagesconfiguration.items.md) |  | [ApprovedPackagesItem](./rush-lib.approvedpackagesitem.md)<!-- -->\[\] |  |
+|  [items](./rush-lib.approvedpackagesconfiguration.items.md) |  | [ApprovedPackagesItem](./rush-lib.approvedpackagesitem.md)\[\] |  |
 
 ## Methods
 
@@ -39,4 +39,3 @@ export declare class ApprovedPackagesConfiguration
 |  [loadFromFile()](./rush-lib.approvedpackagesconfiguration.loadfromfile.md) |  | Loads the configuration data from the filename that was passed to the constructor. |
 |  [saveToFile()](./rush-lib.approvedpackagesconfiguration.savetofile.md) |  | Loads the configuration data to the filename that was passed to the constructor. |
 |  [tryLoadFromFile(approvedPackagesPolicyEnabled)](./rush-lib.approvedpackagesconfiguration.tryloadfromfile.md) |  | If the file exists, calls loadFromFile(). |
-

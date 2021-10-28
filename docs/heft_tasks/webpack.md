@@ -1,5 +1,4 @@
 ---
-layout: page
 title: '"webpack" task'
 navigation_source: docs_nav
 ---
@@ -61,7 +60,7 @@ be be added  to your TypeScript configuration like this:
 }
 ```
 
-The Heft plugin that you installed above needs to be loaded using the [heft.json config file]({% link pages/heft_configs/heft_json.md %}):
+The Heft plugin that you installed above needs to be loaded using the [heft.json config file](/heft_configs/heft_json):
 
 **&lt;project folder&gt;/config/heft.json**
 ```js
@@ -195,4 +194,4 @@ Webpack works best with the `esnext` module format, whereas Jest must use the `c
 }
 ```
 
-See the [typescript.json]({% link pages/heft_configs/typescript_json.md %}) config file documentation for details.
+See the [typescript.json](/heft_configs/typescript_json) config file documentation for details.

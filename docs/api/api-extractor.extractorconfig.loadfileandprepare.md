@@ -31,5 +31,4 @@ static loadFileAndPrepare(configJsonFilePath: string): ExtractorConfig;
 
 Loads the api-extractor.json config file from the specified file path. If the "extends" field is present, the referenced file(s) will be merged. For any omitted fields, the API Extractor default values are merged.
 
-The result is prepared using `ExtractorConfig.prepare()`<!-- -->.
-
+The result is prepared using `ExtractorConfig.prepare()`.

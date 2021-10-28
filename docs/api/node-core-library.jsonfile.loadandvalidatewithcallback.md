@@ -23,7 +23,7 @@ static loadAndValidateWithCallback(jsonFilename: string, jsonSchema: JsonSchema,
 |  --- | --- | --- |
 |  jsonFilename | string |  |
 |  jsonSchema | [JsonSchema](./node-core-library.jsonschema.md) |  |
-|  errorCallback | (errorInfo: [IJsonSchemaErrorInfo](./node-core-library.ijsonschemaerrorinfo.md)<!-- -->) =&gt; void |  |
+|  errorCallback | (errorInfo: [IJsonSchemaErrorInfo](./node-core-library.ijsonschemaerrorinfo.md)) =&gt; void |  |
 
 <b>Returns:</b>
 
@@ -32,4 +32,3 @@ static loadAndValidateWithCallback(jsonFilename: string, jsonSchema: JsonSchema,
 ## Remarks
 
 See JsonSchema.validateObjectWithCallback() for more info.
-

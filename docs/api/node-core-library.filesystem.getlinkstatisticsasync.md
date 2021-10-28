@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.getLinkStatisticsAsync() method
 
-An async version of [FileSystem.getLinkStatistics()](./node-core-library.filesystem.getlinkstatistics.md)<!-- -->.
+An async version of [FileSystem.getLinkStatistics()](./node-core-library.filesystem.getlinkstatistics.md).
 
 <b>Signature:</b>
 
@@ -25,5 +25,4 @@ static getLinkStatisticsAsync(path: string): Promise<FileSystemStats>;
 
 <b>Returns:</b>
 
-Promise&lt;[FileSystemStats](./node-core-library.filesystemstats.md)<!-- -->&gt;
-
+Promise&lt;[FileSystemStats](./node-core-library.filesystemstats.md)&gt;

@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ITerminalChunk interface
 
-Represents a chunk of output that will ultimately be written to a [TerminalWritable](./terminal.terminalwritable.md)<!-- -->.
+Represents a chunk of output that will ultimately be written to a [TerminalWritable](./terminal.terminalwritable.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface ITerminalChunk 
+export interface ITerminalChunk
 ```
 
 ## Remarks
@@ -29,4 +29,3 @@ The `ITerminalChunk` object should be considered to be immutable once it is crea
 |  --- | --- | --- |
 |  [kind](./terminal.iterminalchunk.kind.md) | [TerminalChunkKind](./terminal.terminalchunkkind.md) | Indicates the kind of information stored in this chunk. |
 |  [text](./terminal.iterminalchunk.text.md) | string | The next chunk of text from the <code>stderr</code> or <code>stdout</code> stream. |
-

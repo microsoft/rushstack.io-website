@@ -27,9 +27,8 @@ static acquire(resourceFolder: string, resourceName: string, maxWaitMs?: number)
 
 <b>Returns:</b>
 
-Promise&lt;[LockFile](./node-core-library.lockfile.md)<!-- -->&gt;
+Promise&lt;[LockFile](./node-core-library.lockfile.md)&gt;
 
 ## Remarks
 
 This function is subject to starvation, whereby it does not ensure that the process that has been waiting the longest to acquire the lock will get it first. This means that a process could theoretically wait for the lock forever, while other processes skipped it in line and acquired the lock first.
-

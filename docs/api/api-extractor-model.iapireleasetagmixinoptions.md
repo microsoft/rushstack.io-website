@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IApiReleaseTagMixinOptions interface
 
-Constructor options for [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md)<!-- -->.
+Constructor options for [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiReleaseTagMixinOptions extends IApiItemOptions 
+export interface IApiReleaseTagMixinOptions extends IApiItemOptions
 ```
 <b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
 
@@ -23,4 +23,3 @@ export interface IApiReleaseTagMixinOptions extends IApiItemOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [releaseTag](./api-extractor-model.iapireleasetagmixinoptions.releasetag.md) | [ReleaseTag](./api-extractor-model.releasetag.md) |  |
-

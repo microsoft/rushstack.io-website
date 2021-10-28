@@ -19,5 +19,4 @@ scope: string;
 
 ## Remarks
 
-For example, if the parsed input was "<!-- -->@<!-- -->scope/example", then scope would be "<!-- -->@<!-- -->scope".
-
+For example, if the parsed input was "@scope/example", then scope would be "@scope".

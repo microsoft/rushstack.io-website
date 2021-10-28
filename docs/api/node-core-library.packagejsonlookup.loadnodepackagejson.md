@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## PackageJsonLookup.loadNodePackageJson() method
 
-This function is similar to [PackageJsonLookup.loadPackageJson()](./node-core-library.packagejsonlookup.loadpackagejson.md)<!-- -->, except that it does not report an error if the `version` field is missing from the package.json file.
+This function is similar to [PackageJsonLookup.loadPackageJson()](./node-core-library.packagejsonlookup.loadpackagejson.md), except that it does not report an error if the `version` field is missing from the package.json file.
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ loadNodePackageJson(jsonFilename: string): INodePackageJson;
 <b>Returns:</b>
 
 [INodePackageJson](./node-core-library.inodepackagejson.md)
-

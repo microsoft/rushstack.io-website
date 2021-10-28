@@ -31,5 +31,4 @@ static toObject<TValue>(map: Map<string, TValue>): {
 
 ## Remarks
 
-This function has the same effect as Object.fromEntries(map.entries()) in supported versions of Node (<!-- -->&gt;<!-- -->= 12.0.0).
-
+This function has the same effect as Object.fromEntries(map.entries()) in supported versions of Node (&gt;= 12.0.0).

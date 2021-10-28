@@ -19,11 +19,10 @@ static convertCallbackToPromise<TResult, TError, TArg1, TArg2>(fn: (arg1: TArg1,
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  fn | (arg1: TArg1, arg2: TArg2, cb: [LegacyCallback](./node-core-library.legacycallback.md)<!-- -->&lt;TResult, TError&gt;) =&gt; void |  |
+|  fn | (arg1: TArg1, arg2: TArg2, cb: [LegacyCallback](./node-core-library.legacycallback.md)&lt;TResult, TError&gt;) =&gt; void |  |
 |  arg1 | TArg1 |  |
 |  arg2 | TArg2 |  |
 
 <b>Returns:</b>
 
 Promise&lt;TResult&gt;
-

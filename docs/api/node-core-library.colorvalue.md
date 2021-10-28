@@ -10,14 +10,14 @@ improve_this_button: false
 ## ColorValue enum
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-Colors used with [IColorableSequence](./node-core-library.icolorablesequence.md)<!-- -->.
+Colors used with [IColorableSequence](./node-core-library.icolorablesequence.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare enum ColorValue 
+export declare enum ColorValue
 ```
 
 ## Enumeration Members
@@ -33,4 +33,3 @@ export declare enum ColorValue
 |  Red | <code>1</code> | <b><i>(BETA)</i></b> |
 |  White | <code>7</code> | <b><i>(BETA)</i></b> |
 |  Yellow | <code>3</code> | <b><i>(BETA)</i></b> |
-

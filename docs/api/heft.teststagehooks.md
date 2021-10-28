@@ -13,9 +13,9 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export declare class TestStageHooks extends StageHooksBase<ITestStageProperties> 
+export declare class TestStageHooks extends StageHooksBase<ITestStageProperties>
 ```
-<b>Extends:</b> [StageHooksBase](./heft.stagehooksbase.md)<!-- -->&lt;[ITestStageProperties](./heft.iteststageproperties.md)<!-- -->&gt;
+<b>Extends:</b> [StageHooksBase](./heft.stagehooksbase.md)&lt;[ITestStageProperties](./heft.iteststageproperties.md)&gt;
 
 ## Properties
 
@@ -23,4 +23,3 @@ export declare class TestStageHooks extends StageHooksBase<ITestStageProperties>
 |  --- | --- | --- | --- |
 |  [configureTest](./heft.teststagehooks.configuretest.md) |  | AsyncSeriesHook |  |
 |  [run](./heft.teststagehooks.run.md) |  | AsyncParallelHook |  |
-

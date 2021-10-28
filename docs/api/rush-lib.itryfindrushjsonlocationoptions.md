@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ITryFindRushJsonLocationOptions interface
 
-Options for `RushConfiguration.tryFindRushJsonLocation`<!-- -->.
+Options for `RushConfiguration.tryFindRushJsonLocation`.
 
 <b>Signature:</b>
 
 ```typescript
-export interface ITryFindRushJsonLocationOptions 
+export interface ITryFindRushJsonLocationOptions
 ```
 
 ## Properties
@@ -23,4 +23,3 @@ export interface ITryFindRushJsonLocationOptions
 |  --- | --- | --- |
 |  [showVerbose?](./rush-lib.itryfindrushjsonlocationoptions.showverbose.md) | boolean | <i>(Optional)</i> Whether to show verbose console messages. Defaults to false. |
 |  [startingFolder?](./rush-lib.itryfindrushjsonlocationoptions.startingfolder.md) | string | <i>(Optional)</i> The folder path where the search will start. Defaults tot he current working directory. |
-

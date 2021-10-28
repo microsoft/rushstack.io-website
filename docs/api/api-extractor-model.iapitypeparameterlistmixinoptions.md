@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IApiTypeParameterListMixinOptions interface
 
-Constructor options for [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md)<!-- -->.
+Constructor options for [ApiTypeParameterListMixin](./api-extractor-model.apitypeparameterlistmixin.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiTypeParameterListMixinOptions extends IApiItemOptions 
+export interface IApiTypeParameterListMixinOptions extends IApiItemOptions
 ```
 <b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
 
@@ -22,5 +22,4 @@ export interface IApiTypeParameterListMixinOptions extends IApiItemOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [typeParameters](./api-extractor-model.iapitypeparameterlistmixinoptions.typeparameters.md) | [IApiTypeParameterOptions](./api-extractor-model.iapitypeparameteroptions.md)<!-- -->\[\] |  |
-
+|  [typeParameters](./api-extractor-model.iapitypeparameterlistmixinoptions.typeparameters.md) | [IApiTypeParameterOptions](./api-extractor-model.iapitypeparameteroptions.md)\[\] |  |

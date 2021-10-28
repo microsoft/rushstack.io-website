@@ -13,13 +13,12 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export declare class CleanStageHooks extends StageHooksBase<ICleanStageProperties> 
+export declare class CleanStageHooks extends StageHooksBase<ICleanStageProperties>
 ```
-<b>Extends:</b> [StageHooksBase](./heft.stagehooksbase.md)<!-- -->&lt;[ICleanStageProperties](./heft.icleanstageproperties.md)<!-- -->&gt;
+<b>Extends:</b> [StageHooksBase](./heft.stagehooksbase.md)&lt;[ICleanStageProperties](./heft.icleanstageproperties.md)&gt;
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [run](./heft.cleanstagehooks.run.md) |  | AsyncParallelHook |  |
-

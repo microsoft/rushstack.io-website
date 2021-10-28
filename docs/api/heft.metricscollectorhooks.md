@@ -14,7 +14,7 @@ Tap these hooks to record build metrics, to a file, for example.
 <b>Signature:</b>
 
 ```typescript
-export declare class MetricsCollectorHooks 
+export declare class MetricsCollectorHooks
 ```
 
 ## Properties
@@ -23,5 +23,4 @@ export declare class MetricsCollectorHooks
 |  --- | --- | --- | --- |
 |  [flush](./heft.metricscollectorhooks.flush.md) |  | AsyncParallelHook | This hook is called when collected metrics should be flushed |
 |  [flushAndTeardown](./heft.metricscollectorhooks.flushandteardown.md) |  | AsyncParallelHook | This hook is called when collected metrics should be flushed and no more metrics will be collected. |
-|  [recordMetric](./heft.metricscollectorhooks.recordmetric.md) |  | SyncHook&lt;string, [IMetricsData](./heft.imetricsdata.md)<!-- -->&gt; | This hook is called when a metric is recorded. |
-
+|  [recordMetric](./heft.metricscollectorhooks.recordmetric.md) |  | SyncHook&lt;string, [IMetricsData](./heft.imetricsdata.md)&gt; | This hook is called when a metric is recorded. |

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ITypingsGenerationOptions.exportAsDefault property
 
-If this option is set to `true`<!-- -->, loc modules typings will be exported wrapped in a `default` property.
+If this option is set to `true`, loc modules typings will be exported wrapped in a `default` property.
 
 <b>Signature:</b>
 

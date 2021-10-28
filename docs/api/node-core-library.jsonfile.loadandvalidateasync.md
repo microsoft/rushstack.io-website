@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## JsonFile.loadAndValidateAsync() method
 
-An async version of [JsonFile.loadAndValidate()](./node-core-library.jsonfile.loadandvalidate.md)<!-- -->.
+An async version of [JsonFile.loadAndValidate()](./node-core-library.jsonfile.loadandvalidate.md).
 
 <b>Signature:</b>
 
@@ -27,5 +27,4 @@ static loadAndValidateAsync(jsonFilename: string, jsonSchema: JsonSchema, option
 
 <b>Returns:</b>
 
-Promise&lt;[JsonObject](./node-core-library.jsonobject.md)<!-- -->&gt;
-
+Promise&lt;[JsonObject](./node-core-library.jsonobject.md)&gt;

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RushConfigurationProject.tempProjectName property
 
-The unique name for the temporary project that will be generated in the Common folder. For example, if the project name is `@scope/MyProject`<!-- -->, the temporary project name might be `@rush-temp/MyProject-2`<!-- -->.
+The unique name for the temporary project that will be generated in the Common folder. For example, if the project name is `@scope/MyProject`, the temporary project name might be `@rush-temp/MyProject-2`.
 
 Example: `@rush-temp/MyProject-2`
 

@@ -14,7 +14,7 @@ Represents a TypeScript enum declaration.
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiEnum extends ApiEnum_base 
+export declare class ApiEnum extends ApiEnum_base
 ```
 <b>Extends:</b> ApiEnum\_base
 
@@ -45,7 +45,7 @@ export enum FontSizes {
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apienum.containerkey.md) |  | string |  |
 |  [kind](./api-extractor-model.apienum.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
-|  [members](./api-extractor-model.apienum.members.md) |  | ReadonlyArray&lt;[ApiEnumMember](./api-extractor-model.apienummember.md)<!-- -->&gt; |  |
+|  [members](./api-extractor-model.apienum.members.md) |  | ReadonlyArray&lt;[ApiEnumMember](./api-extractor-model.apienummember.md)&gt; |  |
 
 ## Methods
 
@@ -54,4 +54,3 @@ export enum FontSizes {
 |  [addMember(member)](./api-extractor-model.apienum.addmember.md) |  |  |
 |  [buildCanonicalReference()](./api-extractor-model.apienum.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
 |  [getContainerKey(name)](./api-extractor-model.apienum.getcontainerkey.md) | <code>static</code> |  |
-

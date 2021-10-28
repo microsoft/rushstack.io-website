@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## MarkdownDocumenterFeatureContext class
 
-Context object for [MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md)<!-- -->. Exposes various services that can be used by a plugin.
+Context object for [MarkdownDocumenterFeature](./api-documenter.markdowndocumenterfeature.md). Exposes various services that can be used by a plugin.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class MarkdownDocumenterFeatureContext 
+export declare class MarkdownDocumenterFeatureContext
 ```
 
 ## Remarks
@@ -28,4 +28,3 @@ The constructor for this class is marked as internal. Third-party code should no
 |  [apiModel](./api-documenter.markdowndocumenterfeaturecontext.apimodel.md) |  | [ApiModel](./api-extractor-model.apimodel.md) | Provides access to the <code>ApiModel</code> for the documentation being generated. |
 |  [documenter](./api-documenter.markdowndocumenterfeaturecontext.documenter.md) |  | [MarkdownDocumenterAccessor](./api-documenter.markdowndocumenteraccessor.md) | Exposes functionality of the documenter. |
 |  [outputFolder](./api-documenter.markdowndocumenterfeaturecontext.outputfolder.md) |  | string | The full path to the output folder. |
-

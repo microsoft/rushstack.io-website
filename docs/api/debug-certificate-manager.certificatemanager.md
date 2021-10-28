@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## CertificateManager class
 
-A utility class to handle generating, trusting, and untrustring a debug certificate. Contains two public methods to `ensureCertificate` and `untrustCertificate`<!-- -->.
+A utility class to handle generating, trusting, and untrustring a debug certificate. Contains two public methods to `ensureCertificate` and `untrustCertificate`.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class CertificateManager 
+export declare class CertificateManager
 ```
 
 ## Constructors
@@ -29,4 +29,3 @@ export declare class CertificateManager
 |  --- | --- | --- |
 |  [ensureCertificateAsync(canGenerateNewCertificate, terminal)](./debug-certificate-manager.certificatemanager.ensurecertificateasync.md) |  | Get a dev certificate from the store, or optionally, generate a new one and trust it if one doesn't exist in the store. |
 |  [untrustCertificateAsync(terminal)](./debug-certificate-manager.certificatemanager.untrustcertificateasync.md) |  | Attempt to locate a previously generated debug certificate and untrust it. |
-

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.deleteFolder() method
 
-Deletes a folder, including all of its contents. Behind the scenes is uses `fs-extra.removeSync()`<!-- -->.
+Deletes a folder, including all of its contents. Behind the scenes is uses `fs-extra.removeSync()`.
 
 <b>Signature:</b>
 
@@ -30,4 +30,3 @@ void
 ## Remarks
 
 Does not throw if the folderPath does not exist.
-

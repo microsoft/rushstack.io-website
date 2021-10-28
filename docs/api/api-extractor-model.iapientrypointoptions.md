@@ -9,12 +9,11 @@ improve_this_button: false
 
 ## IApiEntryPointOptions interface
 
-Constructor options for [ApiEntryPoint](./api-extractor-model.apientrypoint.md)<!-- -->.
+Constructor options for [ApiEntryPoint](./api-extractor-model.apientrypoint.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiEntryPointOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions 
+export interface IApiEntryPointOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions
 ```
-<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md)<!-- -->, [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)
-
+<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md), [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)

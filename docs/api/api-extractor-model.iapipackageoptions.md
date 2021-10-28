@@ -9,18 +9,17 @@ improve_this_button: false
 
 ## IApiPackageOptions interface
 
-Constructor options for [ApiPackage](./api-extractor-model.apipackage.md)<!-- -->.
+Constructor options for [ApiPackage](./api-extractor-model.apipackage.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiPackageOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions, IApiDocumentedItemOptions 
+export interface IApiPackageOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions, IApiDocumentedItemOptions
 ```
-<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md)<!-- -->, [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiDocumentedItemOptions](./api-extractor-model.iapidocumenteditemoptions.md)
+<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md), [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md), [IApiDocumentedItemOptions](./api-extractor-model.iapidocumenteditemoptions.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [tsdocConfiguration](./api-extractor-model.iapipackageoptions.tsdocconfiguration.md) | TSDocConfiguration |  |
-

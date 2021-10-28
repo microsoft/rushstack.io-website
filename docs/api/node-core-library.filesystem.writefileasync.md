@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.writeFileAsync() method
 
-An async version of [FileSystem.writeFile()](./node-core-library.filesystem.writefile.md)<!-- -->.
+An async version of [FileSystem.writeFile()](./node-core-library.filesystem.writefile.md).
 
 <b>Signature:</b>
 
@@ -28,4 +28,3 @@ static writeFileAsync(filePath: string, contents: string | Buffer, options?: IFi
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

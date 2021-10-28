@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## Text.getNewline() method
 
-Returns the newline character sequence for the specified `NewlineKind`<!-- -->.
+Returns the newline character sequence for the specified `NewlineKind`.
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static getNewline(newlineKind: NewlineKind): string;
 <b>Returns:</b>
 
 string
-

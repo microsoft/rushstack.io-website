@@ -19,9 +19,8 @@ readonly publicTrimmedFilePath: string;
 
 ## Remarks
 
-This file will include only declarations that are marked as `@public`<!-- -->.
+This file will include only declarations that are marked as `@public`.
 
 If the path is an empty string, then this file will not be written.
 
-The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`<!-- -->.
-
+The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`.

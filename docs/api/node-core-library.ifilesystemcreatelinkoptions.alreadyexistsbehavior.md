@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IFileSystemCreateLinkOptions.alreadyExistsBehavior property
 
-Specifies what to do if the target object already exists. Defaults to `AlreadyExistsBehavior.Error`<!-- -->.
+Specifies what to do if the target object already exists. Defaults to `AlreadyExistsBehavior.Error`.
 
 <b>Signature:</b>
 

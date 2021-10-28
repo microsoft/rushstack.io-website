@@ -9,18 +9,17 @@ improve_this_button: false
 
 ## IApiTypeAliasOptions interface
 
-Constructor options for [ApiTypeAlias](./api-extractor-model.apitypealias.md)<!-- -->.
+Constructor options for [ApiTypeAlias](./api-extractor-model.apitypealias.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiTypeAliasOptions extends IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions, IApiTypeParameterListMixinOptions 
+export interface IApiTypeAliasOptions extends IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions, IApiTypeParameterListMixinOptions
 ```
-<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)<!-- -->, [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md)
+<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md), [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md), [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md), [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [typeTokenRange](./api-extractor-model.iapitypealiasoptions.typetokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
-

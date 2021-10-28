@@ -14,7 +14,7 @@ The `Excerpt` class is used by [ApiDeclaredItem](./api-extractor-model.apideclar
 <b>Signature:</b>
 
 ```typescript
-export declare class Excerpt 
+export declare class Excerpt
 ```
 
 ## Remarks
@@ -42,8 +42,7 @@ An excerpt may be empty (i.e. a token range containing zero tokens). For example
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [isEmpty](./api-extractor-model.excerpt.isempty.md) |  | boolean | Returns true if the excerpt is an empty range. |
-|  [spannedTokens](./api-extractor-model.excerpt.spannedtokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)<!-- -->&gt; | The tokens spanned by this excerpt. It is the range of the <code>tokens</code> array as specified by the <code>tokenRange</code> property. |
+|  [spannedTokens](./api-extractor-model.excerpt.spannedtokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)&gt; | The tokens spanned by this excerpt. It is the range of the <code>tokens</code> array as specified by the <code>tokenRange</code> property. |
 |  [text](./api-extractor-model.excerpt.text.md) |  | string | The excerpted text, formed by concatenating the text of the <code>spannedTokens</code> strings. |
-|  [tokenRange](./api-extractor-model.excerpt.tokenrange.md) |  | Readonly&lt;[IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)<!-- -->&gt; | Specifies the excerpt's range within the <code>tokens</code> array. |
-|  [tokens](./api-extractor-model.excerpt.tokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)<!-- -->&gt; | The complete list of tokens for the source code fragment that this excerpt is based upon. If this object is the main excerpt, then it will span all of the tokens; otherwise, it will correspond to a range within the array. |
-
+|  [tokenRange](./api-extractor-model.excerpt.tokenrange.md) |  | Readonly&lt;[IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)&gt; | Specifies the excerpt's range within the <code>tokens</code> array. |
+|  [tokens](./api-extractor-model.excerpt.tokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)&gt; | The complete list of tokens for the source code fragment that this excerpt is based upon. If this object is the main excerpt, then it will span all of the tokens; otherwise, it will correspond to a range within the array. |

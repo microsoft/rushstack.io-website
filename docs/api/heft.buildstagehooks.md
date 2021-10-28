@@ -13,16 +13,15 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export declare class BuildStageHooks extends StageHooksBase<IBuildStageProperties> 
+export declare class BuildStageHooks extends StageHooksBase<IBuildStageProperties>
 ```
-<b>Extends:</b> [StageHooksBase](./heft.stagehooksbase.md)<!-- -->&lt;[IBuildStageProperties](./heft.ibuildstageproperties.md)<!-- -->&gt;
+<b>Extends:</b> [StageHooksBase](./heft.stagehooksbase.md)&lt;[IBuildStageProperties](./heft.ibuildstageproperties.md)&gt;
 
 ## Properties
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [bundle](./heft.buildstagehooks.bundle.md) |  | SyncHook&lt;[IBundleSubstage](./heft.ibundlesubstage.md)<!-- -->&gt; |  |
-|  [compile](./heft.buildstagehooks.compile.md) |  | SyncHook&lt;[ICompileSubstage](./heft.icompilesubstage.md)<!-- -->&gt; |  |
-|  [postBuild](./heft.buildstagehooks.postbuild.md) |  | SyncHook&lt;[IPostBuildSubstage](./heft.ipostbuildsubstage.md)<!-- -->&gt; |  |
-|  [preCompile](./heft.buildstagehooks.precompile.md) |  | SyncHook&lt;[IPreCompileSubstage](./heft.iprecompilesubstage.md)<!-- -->&gt; |  |
-
+|  [bundle](./heft.buildstagehooks.bundle.md) |  | SyncHook&lt;[IBundleSubstage](./heft.ibundlesubstage.md)&gt; |  |
+|  [compile](./heft.buildstagehooks.compile.md) |  | SyncHook&lt;[ICompileSubstage](./heft.icompilesubstage.md)&gt; |  |
+|  [postBuild](./heft.buildstagehooks.postbuild.md) |  | SyncHook&lt;[IPostBuildSubstage](./heft.ipostbuildsubstage.md)&gt; |  |
+|  [preCompile](./heft.buildstagehooks.precompile.md) |  | SyncHook&lt;[IPreCompileSubstage](./heft.iprecompilesubstage.md)&gt; |  |

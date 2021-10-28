@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiReleaseTagMixin namespace
 
-Static members for [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md)<!-- -->.
+Static members for [ApiReleaseTagMixin](./api-extractor-model.apireleasetagmixin.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare namespace ApiReleaseTagMixin 
+export declare namespace ApiReleaseTagMixin
 ```
 
 ## Functions
@@ -22,4 +22,3 @@ export declare namespace ApiReleaseTagMixin
 |  Function | Description |
 |  --- | --- |
 |  [isBaseClassOf(apiItem)](./api-extractor-model.apireleasetagmixin.isbaseclassof.md) | A type guard that tests whether the specified <code>ApiItem</code> subclass extends the <code>ApiReleaseTagMixin</code> mixin. |
-

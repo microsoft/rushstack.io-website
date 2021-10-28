@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IExtractorConfigPrepareOptions.configObjectFullPath property
 
-The absolute path of the file that the `configObject` object was loaded from. This is used for error messages and when probing for `tsconfig.json`<!-- -->.
+The absolute path of the file that the `configObject` object was loaded from. This is used for error messages and when probing for `tsconfig.json`.
 
 <b>Signature:</b>
 
@@ -20,4 +20,3 @@ configObjectFullPath: string | undefined;
 ## Remarks
 
 If `configObjectFullPath` and `projectFolderLookupToken` are both unspecified, then the api-extractor.json config file must explicitly specify a `projectFolder` setting rather than relying on the `<lookup>` token.
-

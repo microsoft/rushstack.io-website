@@ -1,5 +1,4 @@
 ---
-layout: page
 title: '"copy-static-assets" task'
 navigation_source: docs_nav
 ---
@@ -27,7 +26,7 @@ None - this feature is implemented internally by Heft.
 
 ## Config files
 
-Continuing the above example, we can copy the `styles.css` file using the `"staticAssetsToCopy"`setting in [typescript.json]({% link pages/heft_configs/typescript_json.md %}).  For example:
+Continuing the above example, we can copy the `styles.css` file using the `"staticAssetsToCopy"`setting in [typescript.json](/heft_configs/typescript_json).  For example:
 
 **&lt;project folder&gt;/config/typescript.json**
 ```js

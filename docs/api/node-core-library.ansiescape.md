@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## AnsiEscape class
 
-Operations for working with text strings that contain [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code)<!-- -->. The most commonly used escape codes set the foreground/background color for console output.
+Operations for working with text strings that contain [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code). The most commonly used escape codes set the foreground/background color for console output.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class AnsiEscape 
+export declare class AnsiEscape
 ```
 
 ## Methods
@@ -23,4 +23,3 @@ export declare class AnsiEscape
 |  --- | --- | --- |
 |  [formatForTests(text, options)](./node-core-library.ansiescape.formatfortests.md) | <code>static</code> | Replaces ANSI escape codes with human-readable tokens. This is useful for unit tests that compare text strings in test assertions or snapshot files. |
 |  [removeCodes(text)](./node-core-library.ansiescape.removecodes.md) | <code>static</code> | Returns the input text with all ANSI escape codes removed. For example, this is useful when saving colorized console output to a log file. |
-

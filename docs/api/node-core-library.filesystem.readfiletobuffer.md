@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.readFileToBuffer() method
 
-Reads the contents of a file into a buffer. Behind the scenes is uses `fs.readFileSync()`<!-- -->.
+Reads the contents of a file into a buffer. Behind the scenes is uses `fs.readFileSync()`.
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static readFileToBuffer(filePath: string): Buffer;
 <b>Returns:</b>
 
 Buffer
-

@@ -19,5 +19,4 @@ get packageManagerOptions(): PackageManagerOptionsConfigurationBase;
 
 ## Remarks
 
-For package manager specific variants, reference [npmOptions](./rush-lib.rushconfiguration.npmoptions.md)<!-- -->, [pnpmOptions](./rush-lib.rushconfiguration.pnpmoptions.md)<!-- -->, or [yarnOptions](./rush-lib.rushconfiguration.yarnoptions.md)<!-- -->.
-
+For package manager specific variants, reference [npmOptions](./rush-lib.rushconfiguration.npmoptions.md), [pnpmOptions](./rush-lib.rushconfiguration.pnpmoptions.md), or [yarnOptions](./rush-lib.rushconfiguration.yarnoptions.md).

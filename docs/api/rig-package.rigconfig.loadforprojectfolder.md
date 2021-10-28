@@ -29,5 +29,4 @@ static loadForProjectFolder(options: ILoadForProjectFolderOptions): RigConfig;
 
 ## Remarks
 
-If the file cannot be found, an empty `RigConfig` object will be returned with [RigConfig.rigFound](./rig-package.rigconfig.rigfound.md) equal to `false`<!-- -->.
-
+If the file cannot be found, an empty `RigConfig` object will be returned with [RigConfig.rigFound](./rig-package.rigconfig.rigfound.md) equal to `false`.

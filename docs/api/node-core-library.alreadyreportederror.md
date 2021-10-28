@@ -14,13 +14,13 @@ This exception can be thrown to indicate that an operation failed and an error m
 <b>Signature:</b>
 
 ```typescript
-export declare class AlreadyReportedError extends Error 
+export declare class AlreadyReportedError extends Error
 ```
 <b>Extends:</b> Error
 
 ## Remarks
 
-For example, suppose a tool writes interactive output to `console.log()`<!-- -->. When an exception is thrown, the `catch` handler will typically provide simplistic reporting such as this:
+For example, suppose a tool writes interactive output to `console.log()`. When an exception is thrown, the `catch` handler will typically provide simplistic reporting such as this:
 
 ```ts
 catch (error) {
@@ -51,4 +51,3 @@ catch (error) {
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [\[Symbol.hasInstance\](instance)](./node-core-library.alreadyreportederror._symbol.hasinstance_.md) | <code>static</code> |  |
-

@@ -21,7 +21,7 @@ static oneOf(possibleSubtrees: TreeNode[]): TreeNode;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  possibleSubtrees | [TreeNode](./tree-pattern.treenode.md)<!-- -->\[\] |  |
+|  possibleSubtrees | [TreeNode](./tree-pattern.treenode.md)\[\] |  |
 
 <b>Returns:</b>
 
@@ -29,7 +29,7 @@ static oneOf(possibleSubtrees: TreeNode[]): TreeNode;
 
 ## Remarks
 
-Used to build the `pattern` tree for [TreePattern.match()](./tree-pattern.treepattern.match.md)<!-- -->. Allows several alternative patterns to be matched for a given subtree.
+Used to build the `pattern` tree for [TreePattern.match()](./tree-pattern.treepattern.match.md). Allows several alternative patterns to be matched for a given subtree.
 
 Example:
 
@@ -48,4 +48,3 @@ if (myPattern.match({ animal: { kind: 'cat', meow: 'quiet' } })) {
 }
 
 ```
-

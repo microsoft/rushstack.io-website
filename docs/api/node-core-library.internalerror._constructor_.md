@@ -21,5 +21,4 @@ constructor(message: string);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  message | string | A message describing the error. This will be assigned to [InternalError.unformattedMessage](./node-core-library.internalerror.unformattedmessage.md)<!-- -->. The <code>Error.message</code> field will have additional boilerplate explaining that the user has encountered a software defect. |
-
+|  message | string | A message describing the error. This will be assigned to [InternalError.unformattedMessage](./node-core-library.internalerror.unformattedmessage.md). The <code>Error.message</code> field will have additional boilerplate explaining that the user has encountered a software defect. |

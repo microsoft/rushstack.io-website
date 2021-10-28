@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ExtractorConfig.loadFile() method
 
-Performs only the first half of [ExtractorConfig.loadFileAndPrepare()](./api-extractor.extractorconfig.loadfileandprepare.md)<!-- -->, providing an opportunity to modify the object before it is passed to [ExtractorConfig.prepare()](./api-extractor.extractorconfig.prepare.md)<!-- -->.
+Performs only the first half of [ExtractorConfig.loadFileAndPrepare()](./api-extractor.extractorconfig.loadfileandprepare.md), providing an opportunity to modify the object before it is passed to [ExtractorConfig.prepare()](./api-extractor.extractorconfig.prepare.md).
 
 <b>Signature:</b>
 
@@ -30,4 +30,3 @@ static loadFile(jsonFilePath: string): IConfigFile;
 ## Remarks
 
 Loads the api-extractor.json config file from the specified file path. If the "extends" field is present, the referenced file(s) will be merged. For any omitted fields, the API Extractor default values are merged.
-

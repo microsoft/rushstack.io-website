@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.appendToFile() method
 
-Writes a text string to a file on disk, appending to the file if it already exists. Behind the scenes it uses `fs.appendFileSync()`<!-- -->.
+Writes a text string to a file on disk, appending to the file if it already exists. Behind the scenes it uses `fs.appendFileSync()`.
 
 <b>Signature:</b>
 
@@ -32,4 +32,3 @@ void
 ## Remarks
 
 Throws an error if the folder doesn't exist, unless ensureFolder=true.
-

@@ -20,7 +20,7 @@ export declare type TextRewriterState = Brand<unknown, 'TextRewriterState'>;
 
 ## Remarks
 
-For example, suppose that [NormalizeNewlinesTextRewriter](./terminal.normalizenewlinestextrewriter.md) will be used to rewrite the input `"line 1\r\nline 2\r\n"` to become `"line 1\nline 2\n"`<!-- -->. But suppose that the `"\r\n"` pair is split across two chunks:
+For example, suppose that [NormalizeNewlinesTextRewriter](./terminal.normalizenewlinestextrewriter.md) will be used to rewrite the input `"line 1\r\nline 2\r\n"` to become `"line 1\nline 2\n"`. But suppose that the `"\r\n"` pair is split across two chunks:
 
 ```ts
 const rewriter: NormalizeNewlinesTextRewriter = new NormalizeNewlinesTextRewriter(NewlineKind.Lf);
@@ -33,4 +33,3 @@ output += rewriter.close(state);
 
 ```
 The `TextRewriterState` keeps track of this context, so that split `"\r"` and `"\n"` are interpreted as a single newline.
-

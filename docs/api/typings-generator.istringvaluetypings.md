@@ -13,12 +13,11 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface IStringValueTypings 
+export interface IStringValueTypings
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [typings](./typings-generator.istringvaluetypings.typings.md) | [IStringValueTyping](./typings-generator.istringvaluetyping.md)<!-- -->\[\] |  |
-
+|  [typings](./typings-generator.istringvaluetypings.typings.md) | [IStringValueTyping](./typings-generator.istringvaluetyping.md)\[\] |  |

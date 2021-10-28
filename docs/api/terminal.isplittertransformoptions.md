@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ISplitterTransformOptions interface
 
-Constructor options for [SplitterTransform](./terminal.splittertransform.md)<!-- -->.
+Constructor options for [SplitterTransform](./terminal.splittertransform.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface ISplitterTransformOptions extends ITerminalWritableOptions 
+export interface ISplitterTransformOptions extends ITerminalWritableOptions
 ```
 <b>Extends:</b> [ITerminalWritableOptions](./terminal.iterminalwritableoptions.md)
 
@@ -22,5 +22,4 @@ export interface ISplitterTransformOptions extends ITerminalWritableOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [destinations](./terminal.isplittertransformoptions.destinations.md) | [TerminalWritable](./terminal.terminalwritable.md)<!-- -->\[\] | Each input chunk will be passed to each destination in the array. |
-
+|  [destinations](./terminal.isplittertransformoptions.destinations.md) | [TerminalWritable](./terminal.terminalwritable.md)\[\] | Each input chunk will be passed to each destination in the array. |

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileWriter.filePath property
 
-The `filePath` that was passed to [FileWriter.open()](./node-core-library.filewriter.open.md)<!-- -->.
+The `filePath` that was passed to [FileWriter.open()](./node-core-library.filewriter.open.md).
 
 <b>Signature:</b>
 

@@ -21,11 +21,10 @@ static onDeserializeInto(options: Partial<IApiDocumentedItemOptions>, context: D
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | Partial&lt;[IApiDocumentedItemOptions](./api-extractor-model.iapidocumenteditemoptions.md)<!-- -->&gt; |  |
+|  options | Partial&lt;[IApiDocumentedItemOptions](./api-extractor-model.iapidocumenteditemoptions.md)&gt; |  |
 |  context | DeserializerContext |  |
 |  jsonObject | IApiItemJson |  |
 
 <b>Returns:</b>
 
 void
-

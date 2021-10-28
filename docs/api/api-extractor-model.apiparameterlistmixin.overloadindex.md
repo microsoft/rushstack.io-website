@@ -36,5 +36,4 @@ export namespace Versioning {
 }
 
 ```
-In the above example, there are two overloaded declarations. The overload using numbers will have `overloadIndex = 1`<!-- -->. The overload using strings will have `overloadIndex = 2`<!-- -->. The third declaration that accepts all possible inputs is considered part of the implementation, and is not processed by API Extractor.
-
+In the above example, there are two overloaded declarations. The overload using numbers will have `overloadIndex = 1`. The overload using strings will have `overloadIndex = 2`. The third declaration that accepts all possible inputs is considered part of the implementation, and is not processed by API Extractor.

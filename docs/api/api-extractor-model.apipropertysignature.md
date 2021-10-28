@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiPropertySignature class
 
-Represents a TypeScript property declaration that belongs to an `ApiInterface`<!-- -->.
+Represents a TypeScript property declaration that belongs to an `ApiInterface`.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiPropertySignature extends ApiPropertyItem 
+export declare class ApiPropertySignature extends ApiPropertyItem
 ```
 <b>Extends:</b> [ApiPropertyItem](./api-extractor-model.apipropertyitem.md)
 
@@ -31,7 +31,7 @@ export interface IWidget {
 }
 
 ```
-Compare with [ApiProperty](./api-extractor-model.apiproperty.md)<!-- -->, which represents a property belonging to a class. For example, a class property can be `static` but an interface property cannot.
+Compare with [ApiProperty](./api-extractor-model.apiproperty.md), which represents a property belonging to a class. For example, a class property can be `static` but an interface property cannot.
 
 ## Constructors
 
@@ -52,4 +52,3 @@ Compare with [ApiProperty](./api-extractor-model.apiproperty.md)<!-- -->, which 
 |  --- | --- | --- |
 |  [buildCanonicalReference()](./api-extractor-model.apipropertysignature.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
 |  [getContainerKey(name)](./api-extractor-model.apipropertysignature.getcontainerkey.md) | <code>static</code> |  |
-

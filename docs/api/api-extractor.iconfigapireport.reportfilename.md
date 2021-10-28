@@ -19,5 +19,4 @@ reportFileName?: string;
 
 ## Remarks
 
-The file extension should be ".api.md", and the string should not contain a path separator such as `\` or `/`<!-- -->.
-
+The file extension should be ".api.md", and the string should not contain a path separator such as `\` or `/`.

@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IExtractorMessageProperties interface
 
-Used by [ExtractorMessage.properties](./api-extractor.extractormessage.properties.md)<!-- -->.
+Used by [ExtractorMessage.properties](./api-extractor.extractormessage.properties.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IExtractorMessageProperties 
+export interface IExtractorMessageProperties
 ```
 
 ## Properties
@@ -22,4 +22,3 @@ export interface IExtractorMessageProperties
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [exportName?](./api-extractor.iextractormessageproperties.exportname.md) | string | <i>(Optional)</i> A declaration can have multiple names if it is exported more than once. If an <code>ExtractorMessage</code> applies to a specific export name, this property can indicate that. |
-

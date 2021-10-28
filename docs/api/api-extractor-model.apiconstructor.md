@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiConstructor class
 
-Represents a TypeScript class constructor declaration that belongs to an `ApiClass`<!-- -->.
+Represents a TypeScript class constructor declaration that belongs to an `ApiClass`.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiConstructor extends ApiConstructor_base 
+export declare class ApiConstructor extends ApiConstructor_base
 ```
 <b>Extends:</b> ApiConstructor\_base
 
@@ -37,7 +37,7 @@ export class Vector {
 }
 
 ```
-Compare with [ApiConstructSignature](./api-extractor-model.apiconstructsignature.md)<!-- -->, which describes the construct signature for a class constructor.
+Compare with [ApiConstructSignature](./api-extractor-model.apiconstructsignature.md), which describes the construct signature for a class constructor.
 
 ## Constructors
 
@@ -58,4 +58,3 @@ Compare with [ApiConstructSignature](./api-extractor-model.apiconstructsignature
 |  --- | --- | --- |
 |  [buildCanonicalReference()](./api-extractor-model.apiconstructor.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
 |  [getContainerKey(overloadIndex)](./api-extractor-model.apiconstructor.getcontainerkey.md) | <code>static</code> |  |
-

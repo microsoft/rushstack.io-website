@@ -19,7 +19,6 @@ tsconfigFilePath?: string;
 
 ## Remarks
 
-The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`<!-- -->.
+The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`.
 
 Note: This setting will be ignored if `overrideTsconfig` is used.
-

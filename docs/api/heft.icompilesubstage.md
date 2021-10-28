@@ -13,7 +13,6 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface ICompileSubstage extends IBuildSubstage<CompileSubstageHooks, ICompileSubstageProperties> 
+export interface ICompileSubstage extends IBuildSubstage<CompileSubstageHooks, ICompileSubstageProperties>
 ```
-<b>Extends:</b> [IBuildSubstage](./heft.ibuildsubstage.md)<!-- -->&lt;[CompileSubstageHooks](./heft.compilesubstagehooks.md)<!-- -->, [ICompileSubstageProperties](./heft.icompilesubstageproperties.md)<!-- -->&gt;
-
+<b>Extends:</b> [IBuildSubstage](./heft.ibuildsubstage.md)&lt;[CompileSubstageHooks](./heft.compilesubstagehooks.md), [ICompileSubstageProperties](./heft.icompilesubstageproperties.md)&gt;

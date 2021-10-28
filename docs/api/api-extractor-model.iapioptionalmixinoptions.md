@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IApiOptionalMixinOptions interface
 
-Constructor options for [IApiOptionalMixinOptions](./api-extractor-model.iapioptionalmixinoptions.md)<!-- -->.
+Constructor options for [IApiOptionalMixinOptions](./api-extractor-model.iapioptionalmixinoptions.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiOptionalMixinOptions extends IApiItemOptions 
+export interface IApiOptionalMixinOptions extends IApiItemOptions
 ```
 <b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
 
@@ -23,4 +23,3 @@ export interface IApiOptionalMixinOptions extends IApiItemOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [isOptional](./api-extractor-model.iapioptionalmixinoptions.isoptional.md) | boolean |  |
-

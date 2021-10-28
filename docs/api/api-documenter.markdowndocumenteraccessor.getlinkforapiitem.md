@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## MarkdownDocumenterAccessor.getLinkForApiItem() method
 
-For a given `ApiItem`<!-- -->, return its markdown hyperlink.
+For a given `ApiItem`, return its markdown hyperlink.
 
 <b>Signature:</b>
 
@@ -28,4 +28,3 @@ getLinkForApiItem(apiItem: ApiItem): string | undefined;
 string \| undefined
 
 The hyperlink, or `undefined` if the `ApiItem` object does not have a hyperlink.
-

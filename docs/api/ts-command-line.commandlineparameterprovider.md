@@ -14,7 +14,7 @@ This is the common base class for CommandLineAction and CommandLineParser that p
 <b>Signature:</b>
 
 ```typescript
-export declare abstract class CommandLineParameterProvider 
+export declare abstract class CommandLineParameterProvider
 ```
 
 ## Remarks
@@ -25,7 +25,7 @@ The constructor for this class is marked as internal. Third-party code should no
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [parameters](./ts-command-line.commandlineparameterprovider.parameters.md) |  | ReadonlyArray&lt;[CommandLineParameter](./ts-command-line.commandlineparameter.md)<!-- -->&gt; | Returns a collection of the parameters that were defined for this object. |
+|  [parameters](./ts-command-line.commandlineparameterprovider.parameters.md) |  | ReadonlyArray&lt;[CommandLineParameter](./ts-command-line.commandlineparameter.md)&gt; | Returns a collection of the parameters that were defined for this object. |
 |  [remainder](./ts-command-line.commandlineparameterprovider.remainder.md) |  | [CommandLineRemainder](./ts-command-line.commandlineremainder.md) \| undefined | If [CommandLineParameterProvider.defineCommandLineRemainder()](./ts-command-line.commandlineparameterprovider.definecommandlineremainder.md) was called, this object captures any remaining command line arguments after the recognized portion. |
 
 ## Methods
@@ -45,4 +45,3 @@ The constructor for this class is marked as internal. Third-party code should no
 |  [getStringParameter(parameterLongName)](./ts-command-line.commandlineparameterprovider.getstringparameter.md) |  | Returns the CommandLineStringParameter with the specified long name. |
 |  [onDefineParameters()](./ts-command-line.commandlineparameterprovider.ondefineparameters.md) |  | The child class should implement this hook to define its command-line parameters, e.g. by calling defineFlagParameter(). |
 |  [renderHelpText()](./ts-command-line.commandlineparameterprovider.renderhelptext.md) |  | Generates the command-line help text. |
-

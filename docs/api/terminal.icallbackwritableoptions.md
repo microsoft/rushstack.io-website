@@ -9,17 +9,16 @@ improve_this_button: false
 
 ## ICallbackWritableOptions interface
 
-Constructor options for [CallbackWritable](./terminal.callbackwritable.md)<!-- -->.
+Constructor options for [CallbackWritable](./terminal.callbackwritable.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface ICallbackWritableOptions 
+export interface ICallbackWritableOptions
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [onWriteChunk](./terminal.icallbackwritableoptions.onwritechunk.md) | (chunk: [ITerminalChunk](./terminal.iterminalchunk.md)<!-- -->) =&gt; void |  |
-
+|  [onWriteChunk](./terminal.icallbackwritableoptions.onwritechunk.md) | (chunk: [ITerminalChunk](./terminal.iterminalchunk.md)) =&gt; void |  |

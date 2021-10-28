@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IImportResolvePackageOptions.packageName property
 
-The package name to resolve. For example "<!-- -->@<!-- -->rushstack/node-core-library"
+The package name to resolve. For example "@rushstack/node-core-library"
 
 <b>Signature:</b>
 

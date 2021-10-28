@@ -28,5 +28,4 @@ static tryAcquire(resourceFolder: string, resourceName: string): LockFile | unde
 
 [LockFile](./node-core-library.lockfile.md) \| undefined
 
-If successful, returns a `LockFile` instance. If unable to get a lock, returns `undefined`<!-- -->.
-
+If successful, returns a `LockFile` instance. If unable to get a lock, returns `undefined`.

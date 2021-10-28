@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## CommandLineParser.executeWithoutErrorHandling() method
 
-This is similar to [CommandLineParser.execute()](./ts-command-line.commandlineparser.execute.md)<!-- -->, except that execution errors simply cause the promise to reject. It is the caller's responsibility to trap
+This is similar to [CommandLineParser.execute()](./ts-command-line.commandlineparser.execute.md), except that execution errors simply cause the promise to reject. It is the caller's responsibility to trap
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ executeWithoutErrorHandling(args?: string[]): Promise<void>;
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

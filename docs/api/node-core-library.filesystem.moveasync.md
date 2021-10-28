@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.moveAsync() method
 
-An async version of [FileSystem.move()](./node-core-library.filesystem.move.md)<!-- -->.
+An async version of [FileSystem.move()](./node-core-library.filesystem.move.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static moveAsync(options: IFileSystemMoveOptions): Promise<void>;
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

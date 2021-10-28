@@ -9,10 +9,10 @@ improve_this_button: false
 
 ## IApiItemOptions interface
 
-Constructor options for [ApiItem](./api-extractor-model.apiitem.md)<!-- -->.
+Constructor options for [ApiItem](./api-extractor-model.apiitem.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiItemOptions 
+export interface IApiItemOptions
 ```

@@ -9,18 +9,17 @@ improve_this_button: false
 
 ## IApiVariableOptions interface
 
-Constructor options for [ApiVariable](./api-extractor-model.apivariable.md)<!-- -->.
+Constructor options for [ApiVariable](./api-extractor-model.apivariable.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiVariableOptions extends IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions 
+export interface IApiVariableOptions extends IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions
 ```
-<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
+<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md), [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md), [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [variableTypeTokenRange](./api-extractor-model.iapivariableoptions.variabletypetokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
-

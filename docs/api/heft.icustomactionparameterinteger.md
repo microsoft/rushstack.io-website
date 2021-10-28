@@ -10,19 +10,18 @@ improve_this_button: false
 ## ICustomActionParameterInteger interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 
 <b>Signature:</b>
 
 ```typescript
-export interface ICustomActionParameterInteger extends ICustomActionParameterBase<number> 
+export interface ICustomActionParameterInteger extends ICustomActionParameterBase<number>
 ```
-<b>Extends:</b> [ICustomActionParameterBase](./heft.icustomactionparameterbase.md)<!-- -->&lt;number&gt;
+<b>Extends:</b> [ICustomActionParameterBase](./heft.icustomactionparameterbase.md)&lt;number&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [kind](./heft.icustomactionparameterinteger.kind.md) | 'integer' | <b><i>(BETA)</i></b> |
-

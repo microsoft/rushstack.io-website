@@ -21,9 +21,8 @@ static convertCallbackToPromise<TResult, TError>(fn: (cb: LegacyCallback<TResult
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  fn | (cb: [LegacyCallback](./node-core-library.legacycallback.md)<!-- -->&lt;TResult, TError&gt;) =&gt; void |  |
+|  fn | (cb: [LegacyCallback](./node-core-library.legacycallback.md)&lt;TResult, TError&gt;) =&gt; void |  |
 
 <b>Returns:</b>
 
 Promise&lt;TResult&gt;
-

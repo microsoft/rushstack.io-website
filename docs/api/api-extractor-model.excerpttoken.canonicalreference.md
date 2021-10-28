@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ExcerptToken.canonicalReference property
 
-The hyperlink target for a token whose type is `ExcerptTokenKind.Reference`<!-- -->. For other token types, this property will be `undefined`<!-- -->.
+The hyperlink target for a token whose type is `ExcerptTokenKind.Reference`. For other token types, this property will be `undefined`.
 
 <b>Signature:</b>
 

@@ -31,7 +31,7 @@ the absolute path of the package folder. If [IImportResolveOptions.includeSystem
 
 ## Remarks
 
-Suppose `example` is an NPM package whose entry point is `lib/index.js`<!-- -->:
+Suppose `example` is an NPM package whose entry point is `lib/index.js`:
 
 ```ts
 // Returns "/path/to/project/node_modules/example"
@@ -45,4 +45,3 @@ If you need to resolve a module path, use [Import.resolveModule()](./node-core-l
 Import.resolveModule({ modulePath: 'example' });
 
 ```
-

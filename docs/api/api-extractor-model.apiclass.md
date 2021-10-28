@@ -14,7 +14,7 @@ Represents a TypeScript class declaration.
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiClass extends ApiClass_base 
+export declare class ApiClass extends ApiClass_base
 ```
 <b>Extends:</b> ApiClass\_base
 
@@ -41,7 +41,7 @@ export class X { }
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apiclass.containerkey.md) |  | string |  |
 |  [extendsType](./api-extractor-model.apiclass.extendstype.md) |  | [HeritageType](./api-extractor-model.heritagetype.md) \| undefined | The base class that this class inherits from (using the <code>extends</code> keyword), or undefined if there is no base class. |
-|  [implementsTypes](./api-extractor-model.apiclass.implementstypes.md) |  | ReadonlyArray&lt;[HeritageType](./api-extractor-model.heritagetype.md)<!-- -->&gt; | The list of interfaces that this class implements using the <code>implements</code> keyword. |
+|  [implementsTypes](./api-extractor-model.apiclass.implementstypes.md) |  | ReadonlyArray&lt;[HeritageType](./api-extractor-model.heritagetype.md)&gt; | The list of interfaces that this class implements using the <code>implements</code> keyword. |
 |  [kind](./api-extractor-model.apiclass.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods
@@ -52,4 +52,3 @@ export class X { }
 |  [getContainerKey(name)](./api-extractor-model.apiclass.getcontainerkey.md) | <code>static</code> |  |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apiclass.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apiclass.serializeinto.md) |  |  |
-

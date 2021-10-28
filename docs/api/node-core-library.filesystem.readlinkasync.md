@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.readLinkAsync() method
 
-An async version of [FileSystem.readLink()](./node-core-library.filesystem.readlink.md)<!-- -->.
+An async version of [FileSystem.readLink()](./node-core-library.filesystem.readlink.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static readLinkAsync(path: string): Promise<string>;
 <b>Returns:</b>
 
 Promise&lt;string&gt;
-

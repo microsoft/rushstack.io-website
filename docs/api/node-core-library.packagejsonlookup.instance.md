@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## PackageJsonLookup.instance property
 
-A singleton instance of `PackageJsonLookup`<!-- -->, which is useful for short-lived processes that can reasonably assume that the file system will not be modified after the cache is populated.
+A singleton instance of `PackageJsonLookup`, which is useful for short-lived processes that can reasonably assume that the file system will not be modified after the cache is populated.
 
 <b>Signature:</b>
 
@@ -20,4 +20,3 @@ static get instance(): PackageJsonLookup;
 ## Remarks
 
 For long-running processes that need to clear the cache at appropriate times, it is recommended to create your own instance of `PackageJsonLookup` instead of relying on this instance.
-

@@ -21,11 +21,10 @@ static onDeserializeInto(options: Partial<IApiDeclaredItemOptions>, context: Des
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | Partial&lt;[IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)<!-- -->&gt; |  |
+|  options | Partial&lt;[IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)&gt; |  |
 |  context | DeserializerContext |  |
 |  jsonObject | IApiDeclaredItemJson |  |
 
 <b>Returns:</b>
 
 void
-

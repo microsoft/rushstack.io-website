@@ -10,7 +10,7 @@ improve_this_button: false
 ## Async.mapAsync() method
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 Given an input array and a `callback` function, invoke the callback to start a promise for each element in the array. Returns an array containing the results.
 
@@ -36,7 +36,6 @@ an array containing the result for each callback, in the same order as the origi
 
 ## Remarks
 
-This API is similar to the system `Array#map`<!-- -->, except that the loop is asynchronous, and the maximum number of concurrent promises can be throttled using [IAsyncParallelismOptions.concurrency](./node-core-library.iasyncparallelismoptions.concurrency.md)<!-- -->.
+This API is similar to the system `Array#map`, except that the loop is asynchronous, and the maximum number of concurrent promises can be throttled using [IAsyncParallelismOptions.concurrency](./node-core-library.iasyncparallelismoptions.concurrency.md).
 
 If `callback` throws a synchronous exception, or if it returns a promise that rejects, then the loop stops immediately. Any remaining array items will be skipped, and overall operation will reject with the first error that was encountered.
-

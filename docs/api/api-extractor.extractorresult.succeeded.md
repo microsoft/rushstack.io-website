@@ -19,5 +19,4 @@ readonly succeeded: boolean;
 
 ## Remarks
 
-Normally the operation "succeeds" if `errorCount` and `warningCount` are both zero. However if [IExtractorInvokeOptions.localBuild](./api-extractor.iextractorinvokeoptions.localbuild.md) is `true`<!-- -->, then the operation "succeeds" if `errorCount` is zero (i.e. warnings are ignored).
-
+Normally the operation "succeeds" if `errorCount` and `warningCount` are both zero. However if [IExtractorInvokeOptions.localBuild](./api-extractor.iextractorinvokeoptions.localbuild.md) is `true`, then the operation "succeeds" if `errorCount` is zero (i.e. warnings are ignored).

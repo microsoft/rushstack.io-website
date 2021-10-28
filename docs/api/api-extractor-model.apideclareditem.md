@@ -14,7 +14,7 @@ The base class for API items that have an associated source code excerpt contain
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiDeclaredItem extends ApiDocumentedItem 
+export declare class ApiDeclaredItem extends ApiDocumentedItem
 ```
 <b>Extends:</b> [ApiDocumentedItem](./api-extractor-model.apidocumenteditem.md)
 
@@ -22,7 +22,7 @@ export declare class ApiDeclaredItem extends ApiDocumentedItem
 
 This is part of the [ApiModel](./api-extractor-model.apimodel.md) hierarchy of classes, which are serializable representations of API declarations.
 
-Most `ApiItem` subclasses have declarations and thus extend `ApiDeclaredItem`<!-- -->. Counterexamples include `ApiModel` and `ApiPackage`<!-- -->, which do not have any corresponding TypeScript source code.
+Most `ApiItem` subclasses have declarations and thus extend `ApiDeclaredItem`. Counterexamples include `ApiModel` and `ApiPackage`, which do not have any corresponding TypeScript source code.
 
 ## Constructors
 
@@ -35,7 +35,7 @@ Most `ApiItem` subclasses have declarations and thus extend `ApiDeclaredItem`<!-
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [excerpt](./api-extractor-model.apideclareditem.excerpt.md) |  | [Excerpt](./api-extractor-model.excerpt.md) | The source code excerpt where the API item is declared. |
-|  [excerptTokens](./api-extractor-model.apideclareditem.excerpttokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)<!-- -->&gt; | The individual source code tokens that comprise the main excerpt. |
+|  [excerptTokens](./api-extractor-model.apideclareditem.excerpttokens.md) |  | ReadonlyArray&lt;[ExcerptToken](./api-extractor-model.excerpttoken.md)&gt; | The individual source code tokens that comprise the main excerpt. |
 
 ## Methods
 
@@ -45,4 +45,3 @@ Most `ApiItem` subclasses have declarations and thus extend `ApiDeclaredItem`<!-
 |  [getExcerptWithModifiers()](./api-extractor-model.apideclareditem.getexcerptwithmodifiers.md) |  | If the API item has certain important modifier tags such as <code>@sealed</code>, <code>@virtual</code>, or <code>@override</code>, this prepends them as a doc comment above the excerpt. |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apideclareditem.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apideclareditem.serializeinto.md) |  |  |
-

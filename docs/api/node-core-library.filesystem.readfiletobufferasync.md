@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.readFileToBufferAsync() method
 
-An async version of [FileSystem.readFileToBuffer()](./node-core-library.filesystem.readfiletobuffer.md)<!-- -->.
+An async version of [FileSystem.readFileToBuffer()](./node-core-library.filesystem.readfiletobuffer.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static readFileToBufferAsync(filePath: string): Promise<Buffer>;
 <b>Returns:</b>
 
 Promise&lt;Buffer&gt;
-

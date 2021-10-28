@@ -14,7 +14,7 @@ Represents a TypeScript class declaration.
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiInterface extends ApiInterface_base 
+export declare class ApiInterface extends ApiInterface_base
 ```
 <b>Extends:</b> ApiInterface\_base
 
@@ -41,7 +41,7 @@ export interface X extends Y {
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apiinterface.containerkey.md) |  | string |  |
-|  [extendsTypes](./api-extractor-model.apiinterface.extendstypes.md) |  | ReadonlyArray&lt;[HeritageType](./api-extractor-model.heritagetype.md)<!-- -->&gt; | The list of base interfaces that this interface inherits from using the <code>extends</code> keyword. |
+|  [extendsTypes](./api-extractor-model.apiinterface.extendstypes.md) |  | ReadonlyArray&lt;[HeritageType](./api-extractor-model.heritagetype.md)&gt; | The list of base interfaces that this interface inherits from using the <code>extends</code> keyword. |
 |  [kind](./api-extractor-model.apiinterface.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
 
 ## Methods
@@ -52,4 +52,3 @@ export interface X extends Y {
 |  [getContainerKey(name)](./api-extractor-model.apiinterface.getcontainerkey.md) | <code>static</code> |  |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apiinterface.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apiinterface.serializeinto.md) |  |  |
-

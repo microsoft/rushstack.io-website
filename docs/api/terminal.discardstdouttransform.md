@@ -10,14 +10,14 @@ improve_this_button: false
 ## DiscardStdoutTransform class
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 `DiscardStdoutTransform` discards `stdout` chunks while fixing up malformed `stderr` lines.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class DiscardStdoutTransform extends TerminalTransform 
+export declare class DiscardStdoutTransform extends TerminalTransform
 ```
 <b>Extends:</b> [TerminalTransform](./terminal.terminaltransform.md)
 
@@ -41,13 +41,13 @@ Finishing up
 The process completed with errors
 
 ```
-However, if we discard `stdout`<!-- -->, then `stderr` is missing a newline:
+However, if we discard `stdout`, then `stderr` is missing a newline:
 
 ```
 An error occurredThe process completed with errors
 
 ```
-Tooling scripts can introduce these sorts of problems via edge cases that are difficult to find and fix. `DiscardStdoutTransform` can discard the `stdout` stream and fix up `stderr`<!-- -->:
+Tooling scripts can introduce these sorts of problems via edge cases that are difficult to find and fix. `DiscardStdoutTransform` can discard the `stdout` stream and fix up `stderr`:
 
 ```
 An error occurred
@@ -66,4 +66,3 @@ The process completed with errors
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [onWriteChunk(chunk)](./terminal.discardstdouttransform.onwritechunk.md) |  | <b><i>(BETA)</i></b> |
-

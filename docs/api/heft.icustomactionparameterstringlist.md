@@ -10,19 +10,18 @@ improve_this_button: false
 ## ICustomActionParameterStringList interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 
 <b>Signature:</b>
 
 ```typescript
-export interface ICustomActionParameterStringList extends ICustomActionParameterBase<ReadonlyArray<string>> 
+export interface ICustomActionParameterStringList extends ICustomActionParameterBase<ReadonlyArray<string>>
 ```
-<b>Extends:</b> [ICustomActionParameterBase](./heft.icustomactionparameterbase.md)<!-- -->&lt;ReadonlyArray&lt;string&gt;&gt;
+<b>Extends:</b> [ICustomActionParameterBase](./heft.icustomactionparameterbase.md)&lt;ReadonlyArray&lt;string&gt;&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [kind](./heft.icustomactionparameterstringlist.kind.md) | 'stringList' | <b><i>(BETA)</i></b> |
-

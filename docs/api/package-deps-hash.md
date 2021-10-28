@@ -13,7 +13,7 @@ This package builds a JSON object containing the git hashes of all files used to
 
 ## Remarks
 
-For more info, please see the package [README](https://www.npmjs.com/package/@rushstack/package-deps-hash)<!-- -->.
+For more info, please see the package [README](https://www.npmjs.com/package/@rushstack/package-deps-hash).
 
 ## Functions
 
@@ -21,4 +21,3 @@ For more info, please see the package [README](https://www.npmjs.com/package/@ru
 |  --- | --- |
 |  [getGitHashForFiles(filesToHash, packagePath, gitPath)](./package-deps-hash.getgithashforfiles.md) | Takes a list of files and returns the current git hashes for them |
 |  [getPackageDeps(packagePath, excludedPaths, gitPath)](./package-deps-hash.getpackagedeps.md) | Builds an object containing hashes for the files under the specified <code>packagePath</code> folder. |
-

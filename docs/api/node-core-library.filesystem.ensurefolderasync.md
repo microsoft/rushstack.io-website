@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.ensureFolderAsync() method
 
-An async version of [FileSystem.ensureFolder()](./node-core-library.filesystem.ensurefolder.md)<!-- -->.
+An async version of [FileSystem.ensureFolder()](./node-core-library.filesystem.ensurefolder.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static ensureFolderAsync(folderPath: string): Promise<void>;
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

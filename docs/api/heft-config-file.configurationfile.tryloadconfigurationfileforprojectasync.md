@@ -10,9 +10,9 @@ improve_this_button: false
 ## ConfigurationFile.tryLoadConfigurationFileForProjectAsync() method
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-This function is identical to [ConfigurationFile.loadConfigurationFileForProjectAsync()](./heft-config-file.configurationfile.loadconfigurationfileforprojectasync.md)<!-- -->, except that it returns `undefined` instead of throwing an error if the configuration file cannot be found.
+This function is identical to [ConfigurationFile.loadConfigurationFileForProjectAsync()](./heft-config-file.configurationfile.loadconfigurationfileforprojectasync.md), except that it returns `undefined` instead of throwing an error if the configuration file cannot be found.
 
 <b>Signature:</b>
 
@@ -31,4 +31,3 @@ tryLoadConfigurationFileForProjectAsync(terminal: Terminal, projectPath: string,
 <b>Returns:</b>
 
 Promise&lt;TConfigurationFile \| undefined&gt;
-

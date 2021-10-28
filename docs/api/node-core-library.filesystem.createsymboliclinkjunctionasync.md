@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.createSymbolicLinkJunctionAsync() method
 
-An async version of [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md)<!-- -->.
+An async version of [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static createSymbolicLinkJunctionAsync(options: IFileSystemCreateLinkOptions): P
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

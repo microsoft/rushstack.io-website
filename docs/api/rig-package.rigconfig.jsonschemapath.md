@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RigConfig.jsonSchemaPath property
 
-Returns the absolute path of the `rig.schema.json` JSON schema file for `config/rig.json`<!-- -->, which is bundled with this NPM package.
+Returns the absolute path of the `rig.schema.json` JSON schema file for `config/rig.json`, which is bundled with this NPM package.
 
 <b>Signature:</b>
 
@@ -19,5 +19,4 @@ static jsonSchemaPath: string;
 
 ## Remarks
 
-The `RigConfig` class already performs schema validation when loading `rig.json`<!-- -->; however this schema file may be useful for integration with other validation tools.
-
+The `RigConfig` class already performs schema validation when loading `rig.json`; however this schema file may be useful for integration with other validation tools.

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.deleteFolderAsync() method
 
-An async version of [FileSystem.deleteFolder()](./node-core-library.filesystem.deletefolder.md)<!-- -->.
+An async version of [FileSystem.deleteFolder()](./node-core-library.filesystem.deletefolder.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static deleteFolderAsync(folderPath: string): Promise<void>;
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

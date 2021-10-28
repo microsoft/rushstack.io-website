@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.existsAsync() method
 
-An async version of [FileSystem.exists()](./node-core-library.filesystem.exists.md)<!-- -->.
+An async version of [FileSystem.exists()](./node-core-library.filesystem.exists.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static existsAsync(path: string): Promise<boolean>;
 <b>Returns:</b>
 
 Promise&lt;boolean&gt;
-

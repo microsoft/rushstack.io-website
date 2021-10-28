@@ -18,5 +18,4 @@ entries(): IterableIterator<IEnvironmentEntry>;
 ```
 <b>Returns:</b>
 
-IterableIterator&lt;[IEnvironmentEntry](./node-core-library.ienvironmententry.md)<!-- -->&gt;
-
+IterableIterator&lt;[IEnvironmentEntry](./node-core-library.ienvironmententry.md)&gt;

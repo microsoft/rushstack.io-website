@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiPropertyItem class
 
-The abstract base class for [ApiProperty](./api-extractor-model.apiproperty.md) and [ApiPropertySignature](./api-extractor-model.apipropertysignature.md)<!-- -->.
+The abstract base class for [ApiProperty](./api-extractor-model.apiproperty.md) and [ApiPropertySignature](./api-extractor-model.apipropertysignature.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiPropertyItem extends ApiPropertyItem_base 
+export declare class ApiPropertyItem extends ApiPropertyItem_base
 ```
 <b>Extends:</b> ApiPropertyItem\_base
 
@@ -37,4 +37,3 @@ export declare class ApiPropertyItem extends ApiPropertyItem_base
 |  --- | --- | --- |
 |  [onDeserializeInto(options, context, jsonObject)](./api-extractor-model.apipropertyitem.ondeserializeinto.md) | <code>static</code> |  |
 |  [serializeInto(jsonObject)](./api-extractor-model.apipropertyitem.serializeinto.md) |  |  |
-

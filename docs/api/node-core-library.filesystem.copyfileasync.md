@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.copyFileAsync() method
 
-An async version of [FileSystem.copyFile()](./node-core-library.filesystem.copyfile.md)<!-- -->.
+An async version of [FileSystem.copyFile()](./node-core-library.filesystem.copyfile.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static copyFileAsync(options: IFileSystemCopyFileOptions): Promise<void>;
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

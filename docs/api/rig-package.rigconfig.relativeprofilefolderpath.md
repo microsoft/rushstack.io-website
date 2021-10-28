@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RigConfig.relativeProfileFolderPath property
 
-The relative path to the rig profile specified by `rig.json`<!-- -->, or `""` if the file was not found.
+The relative path to the rig profile specified by `rig.json`, or `""` if the file was not found.
 
 <b>Signature:</b>
 
@@ -20,4 +20,3 @@ readonly relativeProfileFolderPath: string;
 ## Remarks
 
 Example: `profiles/example-profile`
-

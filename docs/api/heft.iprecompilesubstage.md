@@ -13,7 +13,6 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface IPreCompileSubstage extends IBuildSubstage<BuildSubstageHooksBase, {}> 
+export interface IPreCompileSubstage extends IBuildSubstage<BuildSubstageHooksBase, {}>
 ```
-<b>Extends:</b> [IBuildSubstage](./heft.ibuildsubstage.md)<!-- -->&lt;[BuildSubstageHooksBase](./heft.buildsubstagehooksbase.md)<!-- -->, {}&gt;
-
+<b>Extends:</b> [IBuildSubstage](./heft.ibuildsubstage.md)&lt;[BuildSubstageHooksBase](./heft.buildsubstagehooksbase.md), {}&gt;

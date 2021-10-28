@@ -33,5 +33,4 @@ Syntax notes for environment variable values:
 
 - String Parameter: Any value is accepted, including an empty string.
 
-- String List Parameter: If the string starts with `[` (ignoring whitespace) then it will be parsed as a JSON array, whose elements must be strings, numbers, or boolean values. If the string does not start with `[`<!-- -->, then it behaves like an ordinary String Parameter: Any value is accepted, including an empty string.
-
+- String List Parameter: If the string starts with `[` (ignoring whitespace) then it will be parsed as a JSON array, whose elements must be strings, numbers, or boolean values. If the string does not start with `[`, then it behaves like an ordinary String Parameter: Any value is accepted, including an empty string.

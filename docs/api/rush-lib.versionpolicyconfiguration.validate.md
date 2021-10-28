@@ -10,7 +10,7 @@ improve_this_button: false
 ## VersionPolicyConfiguration.validate() method
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 Validate the version policy configuration against the rush config
 
@@ -24,9 +24,8 @@ validate(projectsByName: Map<string, RushConfigurationProject>): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  projectsByName | Map&lt;string, [RushConfigurationProject](./rush-lib.rushconfigurationproject.md)<!-- -->&gt; |  |
+|  projectsByName | Map&lt;string, [RushConfigurationProject](./rush-lib.rushconfigurationproject.md)&gt; |  |
 
 <b>Returns:</b>
 
 void
-

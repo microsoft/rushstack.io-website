@@ -9,12 +9,11 @@ improve_this_button: false
 
 ## IApiFunctionOptions interface
 
-Constructor options for [ApiFunction](./api-extractor-model.apifunction.md)<!-- -->.
+Constructor options for [ApiFunction](./api-extractor-model.apifunction.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiFunctionOptions extends IApiNameMixinOptions, IApiTypeParameterListMixinOptions, IApiParameterListMixinOptions, IApiReleaseTagMixinOptions, IApiReturnTypeMixinOptions, IApiDeclaredItemOptions 
+export interface IApiFunctionOptions extends IApiNameMixinOptions, IApiTypeParameterListMixinOptions, IApiParameterListMixinOptions, IApiReleaseTagMixinOptions, IApiReturnTypeMixinOptions, IApiDeclaredItemOptions
 ```
-<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md)<!-- -->, [IApiParameterListMixinOptions](./api-extractor-model.iapiparameterlistmixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiReturnTypeMixinOptions](./api-extractor-model.iapireturntypemixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
-
+<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md), [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md), [IApiParameterListMixinOptions](./api-extractor-model.iapiparameterlistmixinoptions.md), [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md), [IApiReturnTypeMixinOptions](./api-extractor-model.iapireturntypemixinoptions.md), [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)

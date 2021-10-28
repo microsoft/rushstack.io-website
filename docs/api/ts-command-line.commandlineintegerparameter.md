@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## CommandLineIntegerParameter class
 
-The data type returned by [CommandLineParameterProvider.defineIntegerParameter()](./ts-command-line.commandlineparameterprovider.defineintegerparameter.md)<!-- -->.
+The data type returned by [CommandLineParameterProvider.defineIntegerParameter()](./ts-command-line.commandlineparameterprovider.defineintegerparameter.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare class CommandLineIntegerParameter extends CommandLineParameterWithArgument 
+export declare class CommandLineIntegerParameter extends CommandLineParameterWithArgument
 ```
 <b>Extends:</b> [CommandLineParameterWithArgument](./ts-command-line.commandlineparameterwithargument.md)
 
@@ -35,4 +35,3 @@ The constructor for this class is marked as internal. Third-party code should no
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [appendToArgList(argList)](./ts-command-line.commandlineintegerparameter.appendtoarglist.md) |  | Append the parsed values to the provided string array. |
-

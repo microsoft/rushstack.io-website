@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.createHardLink() method
 
-Creates a hard link. Behind the scenes it uses `fs.linkSync()`<!-- -->.
+Creates a hard link. Behind the scenes it uses `fs.linkSync()`.
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static createHardLink(options: IFileSystemCreateLinkOptions): void;
 <b>Returns:</b>
 
 void
-

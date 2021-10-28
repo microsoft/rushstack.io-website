@@ -27,5 +27,4 @@ export class Widget extends Controls.WidgetBase implements Controls.IWidget, IDi
 }
 
 ```
-The excerpt might be `Controls.WidgetBase`<!-- -->, `Controls.IWidget`<!-- -->, or `IDisposable`<!-- -->.
-
+The excerpt might be `Controls.WidgetBase`, `Controls.IWidget`, or `IDisposable`.

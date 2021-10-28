@@ -14,7 +14,7 @@ Options that configure the validation rules used by a [PackageNameParser](./node
 <b>Signature:</b>
 
 ```typescript
-export interface IPackageNameParserOptions 
+export interface IPackageNameParserOptions
 ```
 
 ## Remarks
@@ -25,13 +25,12 @@ The default validation is based on the npmjs.com registry's policy for published
 
 - The package name must not be empty.
 
-- Other than the `@` and `/` delimiters used for scopes, the only allowed characters are letters, numbers, `-`<!-- -->, `_`<!-- -->, and `.`<!-- -->.
+- Other than the `@` and `/` delimiters used for scopes, the only allowed characters are letters, numbers, `-`, `_`, and `.`.
 
-- The name must not start with a `.` or `_`<!-- -->.
+- The name must not start with a `.` or `_`.
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [allowUpperCase?](./node-core-library.ipackagenameparseroptions.allowuppercase.md) | boolean | <i>(Optional)</i> If true, allows upper-case letters in package names. This improves compatibility with some legacy private registries that still allow that. |
-

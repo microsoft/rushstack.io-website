@@ -29,5 +29,4 @@ string
 
 ## Remarks
 
-For example, `getTagName(ReleaseTag.Internal)` would return the string `@internal`<!-- -->.
-
+For example, `getTagName(ReleaseTag.Internal)` would return the string `@internal`.

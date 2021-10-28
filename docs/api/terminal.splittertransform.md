@@ -14,13 +14,13 @@ Use this instead of [TerminalTransform](./terminal.terminaltransform.md) if you 
 <b>Signature:</b>
 
 ```typescript
-export declare class SplitterTransform extends TerminalWritable 
+export declare class SplitterTransform extends TerminalWritable
 ```
 <b>Extends:</b> [TerminalWritable](./terminal.terminalwritable.md)
 
 ## Remarks
 
-Splitting streams complicates the pipeline topology and can make debugging more difficult. For this reason, it is modeled as an explicit `SplitterTransform` node, rather than as a built-in feature of `TerminalTransform`<!-- -->.
+Splitting streams complicates the pipeline topology and can make debugging more difficult. For this reason, it is modeled as an explicit `SplitterTransform` node, rather than as a built-in feature of `TerminalTransform`.
 
 ## Constructors
 
@@ -32,7 +32,7 @@ Splitting streams complicates the pipeline topology and can make debugging more 
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [destinations](./terminal.splittertransform.destinations.md) |  | ReadonlyArray&lt;[TerminalWritable](./terminal.terminalwritable.md)<!-- -->&gt; |  |
+|  [destinations](./terminal.splittertransform.destinations.md) |  | ReadonlyArray&lt;[TerminalWritable](./terminal.terminalwritable.md)&gt; |  |
 
 ## Methods
 
@@ -40,4 +40,3 @@ Splitting streams complicates the pipeline topology and can make debugging more 
 |  --- | --- | --- |
 |  [onClose()](./terminal.splittertransform.onclose.md) |  |  |
 |  [onWriteChunk(chunk)](./terminal.splittertransform.onwritechunk.md) |  |  |
-

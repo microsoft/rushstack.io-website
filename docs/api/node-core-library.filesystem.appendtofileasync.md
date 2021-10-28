@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.appendToFileAsync() method
 
-An async version of [FileSystem.appendToFile()](./node-core-library.filesystem.appendtofile.md)<!-- -->.
+An async version of [FileSystem.appendToFile()](./node-core-library.filesystem.appendtofile.md).
 
 <b>Signature:</b>
 
@@ -28,4 +28,3 @@ static appendToFileAsync(filePath: string, contents: string | Buffer, options?: 
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

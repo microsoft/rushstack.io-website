@@ -10,9 +10,9 @@ improve_this_button: false
 ## StreamCollator.writers property
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-The list of writers that have been registered by calling [StreamCollator.registerTask()](./stream-collator.streamcollator.registertask.md)<!-- -->, in the order that they were registered.
+The list of writers that have been registered by calling [StreamCollator.registerTask()](./stream-collator.streamcollator.registertask.md), in the order that they were registered.
 
 <b>Signature:</b>
 

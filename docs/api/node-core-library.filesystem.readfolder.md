@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.readFolder() method
 
-Reads the contents of the folder, not including "." or "..". Behind the scenes it uses `fs.readdirSync()`<!-- -->.
+Reads the contents of the folder, not including "." or "..". Behind the scenes it uses `fs.readdirSync()`.
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static readFolder(folderPath: string, options?: IFileSystemReadFolderOptions): s
 <b>Returns:</b>
 
 string\[\]
-

@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IParameterOptions interface
 
-Constructor options for [Parameter](./api-extractor-model.parameter.md)<!-- -->.
+Constructor options for [Parameter](./api-extractor-model.parameter.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IParameterOptions 
+export interface IParameterOptions
 ```
 
 ## Properties
@@ -24,4 +24,3 @@ export interface IParameterOptions
 |  [name](./api-extractor-model.iparameteroptions.name.md) | string |  |
 |  [parameterTypeExcerpt](./api-extractor-model.iparameteroptions.parametertypeexcerpt.md) | [Excerpt](./api-extractor-model.excerpt.md) |  |
 |  [parent](./api-extractor-model.iparameteroptions.parent.md) | [ApiParameterListMixin](./api-extractor-model.apiparameterlistmixin.md) |  |
-

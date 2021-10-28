@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.deleteFile() method
 
-Deletes a file. Can optionally throw if the file doesn't exist. Behind the scenes it uses `fs.unlinkSync()`<!-- -->.
+Deletes a file. Can optionally throw if the file doesn't exist. Behind the scenes it uses `fs.unlinkSync()`.
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static deleteFile(filePath: string, options?: IFileSystemDeleteFileOptions): voi
 <b>Returns:</b>
 
 void
-

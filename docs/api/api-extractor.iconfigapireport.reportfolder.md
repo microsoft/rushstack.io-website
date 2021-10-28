@@ -21,5 +21,4 @@ reportFolder?: string;
 
 The API report file is normally tracked by Git. Changes to it can be used to trigger a branch policy, e.g. for an API review.
 
-The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`<!-- -->.
-
+The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`.

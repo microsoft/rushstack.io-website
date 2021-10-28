@@ -29,5 +29,4 @@ apiItem is [ApiNameMixin](./api-extractor-model.apinamemixin.md)
 
 ## Remarks
 
-The JavaScript `instanceof` operator cannot be used to test for mixin inheritance, because each invocation of the mixin function produces a different subclass. (This could be mitigated by `Symbol.hasInstance`<!-- -->, however the TypeScript type system cannot invoke a runtime test.)
-
+The JavaScript `instanceof` operator cannot be used to test for mixin inheritance, because each invocation of the mixin function produces a different subclass. (This could be mitigated by `Symbol.hasInstance`, however the TypeScript type system cannot invoke a runtime test.)

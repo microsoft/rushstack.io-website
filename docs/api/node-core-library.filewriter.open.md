@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileWriter.open() method
 
-Opens a new file handle to the file at the specified path and given mode. Behind the scenes it uses `fs.openSync()`<!-- -->. The behaviour of this function is platform specific. See: https://nodejs.org/docs/latest-v8.x/api/fs.html\#fs\_fs\_open\_path\_flags\_mode\_callback
+Opens a new file handle to the file at the specified path and given mode. Behind the scenes it uses `fs.openSync()`. The behaviour of this function is platform specific. See: https://nodejs.org/docs/latest-v8.x/api/fs.html\#fs\_fs\_open\_path\_flags\_mode\_callback
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static open(filePath: string, flags?: IFileWriterFlags): FileWriter;
 <b>Returns:</b>
 
 [FileWriter](./node-core-library.filewriter.md)
-

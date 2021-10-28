@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.getRealPath() method
 
-Follows a link to its destination and returns the absolute path to the final target of the link. Behind the scenes it uses `fs.realpathSync()`<!-- -->.
+Follows a link to its destination and returns the absolute path to the final target of the link. Behind the scenes it uses `fs.realpathSync()`.
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static getRealPath(linkPath: string): string;
 <b>Returns:</b>
 
 string
-

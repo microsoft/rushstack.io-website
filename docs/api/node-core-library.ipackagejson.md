@@ -14,7 +14,7 @@ An interface for accessing common fields from a package.json file.
 <b>Signature:</b>
 
 ```typescript
-export interface IPackageJson extends INodePackageJson 
+export interface IPackageJson extends INodePackageJson
 ```
 <b>Extends:</b> [INodePackageJson](./node-core-library.inodepackagejson.md)
 
@@ -22,11 +22,10 @@ export interface IPackageJson extends INodePackageJson
 
 This interface describes a package.json file format whose `name` and `version` field are required. In some situations, the `version` field is optional; in that case, use the [INodePackageJson](./node-core-library.inodepackagejson.md) interface instead.
 
-More fields may be added to this interface in the future. For documentation about the package.json file format, see the [CommonJS Packages specification](http://wiki.commonjs.org/wiki/Packages/1.0) and the [NPM manual page](https://docs.npmjs.com/files/package.json)<!-- -->.
+More fields may be added to this interface in the future. For documentation about the package.json file format, see the [CommonJS Packages specification](http://wiki.commonjs.org/wiki/Packages/1.0) and the [NPM manual page](https://docs.npmjs.com/files/package.json).
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [version](./node-core-library.ipackagejson.version.md) | string | A version number conforming to the Semantic Versioning (SemVer) standard. |
-

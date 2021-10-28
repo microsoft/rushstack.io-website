@@ -19,5 +19,4 @@ extends?: string;
 
 ## Remarks
 
-If the path starts with `./` or `../`<!-- -->, the path is resolved relative to the folder of the file that contains the `extends` field. Otherwise, the first path segment is interpreted as an NPM package name, and will be resolved using NodeJS `require()`<!-- -->.
-
+If the path starts with `./` or `../`, the path is resolved relative to the folder of the file that contains the `extends` field. Otherwise, the first path segment is interpreted as an NPM package name, and will be resolved using NodeJS `require()`.

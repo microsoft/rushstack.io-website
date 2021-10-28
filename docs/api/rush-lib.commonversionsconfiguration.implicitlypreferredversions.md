@@ -11,7 +11,7 @@ improve_this_button: false
 
 When set to true, for all projects in the repo, all dependencies will be automatically added as preferredVersions, except in cases where different projects specify different version ranges for a given dependency. For older package managers, this tended to reduce duplication of indirect dependencies. However, it can sometimes cause trouble for indirect dependencies with incompatible peerDependencies ranges.
 
-If the value is `undefined`<!-- -->, then the default value is `true`<!-- -->.
+If the value is `undefined`, then the default value is `true`.
 
 <b>Signature:</b>
 

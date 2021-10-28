@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiOptionalMixin namespace
 
-Optional members for [ApiOptionalMixin](./api-extractor-model.apioptionalmixin.md)<!-- -->.
+Optional members for [ApiOptionalMixin](./api-extractor-model.apioptionalmixin.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare namespace ApiOptionalMixin 
+export declare namespace ApiOptionalMixin
 ```
 
 ## Functions
@@ -22,4 +22,3 @@ export declare namespace ApiOptionalMixin
 |  Function | Description |
 |  --- | --- |
 |  [isBaseClassOf(apiItem)](./api-extractor-model.apioptionalmixin.isbaseclassof.md) | A type guard that tests whether the specified <code>ApiItem</code> subclass extends the <code>ApiOptionalMixin</code> mixin. |
-

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## NormalizeNewlinesTextRewriter.ensureNewlineAtEnd property
 
-If `true`<!-- -->, then `NormalizeNewlinesTextRewriter.close()` will append a newline to the output if it ends with an incomplete line.
+If `true`, then `NormalizeNewlinesTextRewriter.close()` will append a newline to the output if it ends with an incomplete line.
 
 <b>Signature:</b>
 
@@ -20,4 +20,3 @@ readonly ensureNewlineAtEnd: boolean;
 ## Remarks
 
 If the output is an empty string, then a newline will NOT be appended, because writing an empty string does not produce an incomplete line.
-

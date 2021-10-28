@@ -25,5 +25,4 @@ static loadForProjectFolderAsync(options: ILoadForProjectFolderOptions): Promise
 
 <b>Returns:</b>
 
-Promise&lt;[RigConfig](./rig-package.rigconfig.md)<!-- -->&gt;
-
+Promise&lt;[RigConfig](./rig-package.rigconfig.md)&gt;

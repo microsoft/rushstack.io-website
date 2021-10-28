@@ -30,7 +30,7 @@ static tag(tagName: string, subtree?: TreeNode): TreeNode;
 
 ## Remarks
 
-Used to build the `pattern` tree for [TreePattern.match()](./tree-pattern.treepattern.match.md)<!-- -->. For the given `subtree` of the pattern, if it is matched, that node will be assigned to the `captures` object using `tagName` as the key.
+Used to build the `pattern` tree for [TreePattern.match()](./tree-pattern.treepattern.match.md). For the given `subtree` of the pattern, if it is matched, that node will be assigned to the `captures` object using `tagName` as the key.
 
 Example:
 
@@ -44,4 +44,3 @@ if (myPattern.match({ name: 'Bob' }, myCaptures)) {
 }
 
 ```
-

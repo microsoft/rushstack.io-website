@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiStaticMixin namespace
 
-Static members for [ApiStaticMixin](./api-extractor-model.apistaticmixin.md)<!-- -->.
+Static members for [ApiStaticMixin](./api-extractor-model.apistaticmixin.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare namespace ApiStaticMixin 
+export declare namespace ApiStaticMixin
 ```
 
 ## Functions
@@ -22,4 +22,3 @@ export declare namespace ApiStaticMixin
 |  Function | Description |
 |  --- | --- |
 |  [isBaseClassOf(apiItem)](./api-extractor-model.apistaticmixin.isbaseclassof.md) | A type guard that tests whether the specified <code>ApiItem</code> subclass extends the <code>ApiStaticMixin</code> mixin. |
-

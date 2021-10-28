@@ -14,7 +14,7 @@ Specifies the behavior of [FileSystem.copyFiles()](./node-core-library.filesyste
 <b>Signature:</b>
 
 ```typescript
-export declare const enum AlreadyExistsBehavior 
+export declare const enum AlreadyExistsBehavior
 ```
 
 ## Enumeration Members
@@ -23,5 +23,4 @@ export declare const enum AlreadyExistsBehavior
 |  --- | --- | --- |
 |  Error | <code>&quot;error&quot;</code> | If the destination object exists, report an error. |
 |  Ignore | <code>&quot;ignore&quot;</code> | If the destination object exists, skip it and continue the operation. |
-|  Overwrite | <code>&quot;overwrite&quot;</code> | If the destination object exists, overwrite it. This is the default behavior for [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md)<!-- -->. |
-
+|  Overwrite | <code>&quot;overwrite&quot;</code> | If the destination object exists, overwrite it. This is the default behavior for [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md). |

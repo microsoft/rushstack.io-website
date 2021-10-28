@@ -9,12 +9,11 @@ improve_this_button: false
 
 ## ICommandLineFlagDefinition interface
 
-For use with [CommandLineParameterProvider.defineFlagParameter()](./ts-command-line.commandlineparameterprovider.defineflagparameter.md)<!-- -->, this interface defines a command line parameter that is a boolean flag.
+For use with [CommandLineParameterProvider.defineFlagParameter()](./ts-command-line.commandlineparameterprovider.defineflagparameter.md), this interface defines a command line parameter that is a boolean flag.
 
 <b>Signature:</b>
 
 ```typescript
-export interface ICommandLineFlagDefinition extends IBaseCommandLineDefinition 
+export interface ICommandLineFlagDefinition extends IBaseCommandLineDefinition
 ```
 <b>Extends:</b> [IBaseCommandLineDefinition](./ts-command-line.ibasecommandlinedefinition.md)
-

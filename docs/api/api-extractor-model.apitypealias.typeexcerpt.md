@@ -19,10 +19,9 @@ readonly typeExcerpt: Excerpt;
 
 ## Remarks
 
-In the example below, the `typeExcerpt` would correspond to the subexpression `T extends any[] ? BoxedArray<T[number]> : BoxedValue<T>;`<!-- -->:
+In the example below, the `typeExcerpt` would correspond to the subexpression `T extends any[] ? BoxedArray<T[number]> : BoxedValue<T>;`:
 
 ```ts
 export type Boxed<T> = T extends any[] ? BoxedArray<T[number]> : BoxedValue<T>;
 
 ```
-

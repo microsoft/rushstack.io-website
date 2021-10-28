@@ -16,7 +16,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  Class | Description |
 |  --- | --- |
 |  [AlreadyReportedError](./node-core-library.alreadyreportederror.md) | This exception can be thrown to indicate that an operation failed and an error message has already been reported appropriately. Thus, the catch handler does not have responsibility for reporting the error. |
-|  [AnsiEscape](./node-core-library.ansiescape.md) | Operations for working with text strings that contain [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code)<!-- -->. The most commonly used escape codes set the foreground/background color for console output. |
+|  [AnsiEscape](./node-core-library.ansiescape.md) | Operations for working with text strings that contain [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code). The most commonly used escape codes set the foreground/background color for console output. |
 |  [Async](./node-core-library.async.md) | <b><i>(BETA)</i></b> Utilities for parallel asynchronous operations, for use with the system <code>Promise</code> APIs. |
 |  [Colors](./node-core-library.colors.md) | <b><i>(BETA)</i></b> The static functions on this class are used to produce colored text for use with the node-core-library terminal. |
 |  [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) | <b><i>(BETA)</i></b> Terminal provider that prints to STDOUT (for log- and verbose-level messages) and STDERR (for warning- and error-level messsages). |
@@ -49,24 +49,24 @@ Core libraries that every NodeJS toolchain project should use.
 |  Enumeration | Description |
 |  --- | --- |
 |  [AlreadyExistsBehavior](./node-core-library.alreadyexistsbehavior.md) | Specifies the behavior of [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md) in a situation where the target object already exists. |
-|  [ColorValue](./node-core-library.colorvalue.md) | <b><i>(BETA)</i></b> Colors used with [IColorableSequence](./node-core-library.icolorablesequence.md)<!-- -->. |
+|  [ColorValue](./node-core-library.colorvalue.md) | <b><i>(BETA)</i></b> Colors used with [IColorableSequence](./node-core-library.icolorablesequence.md). |
 |  [Encoding](./node-core-library.encoding.md) | The allowed types of encodings, as supported by Node.js |
 |  [FileConstants](./node-core-library.fileconstants.md) | String constants for common filenames and parts of filenames. |
 |  [FolderConstants](./node-core-library.folderconstants.md) | String constants for common folder names. |
 |  [NewlineKind](./node-core-library.newlinekind.md) | Enumeration controlling conversion of newline characters. |
 |  [PosixModeBits](./node-core-library.posixmodebits.md) | An integer value used to specify file permissions for POSIX-like operating systems. |
 |  [TerminalProviderSeverity](./node-core-library.terminalproviderseverity.md) | <b><i>(BETA)</i></b> |
-|  [TextAttribute](./node-core-library.textattribute.md) | <b><i>(BETA)</i></b> Text styles used with [IColorableSequence](./node-core-library.icolorablesequence.md)<!-- -->. |
+|  [TextAttribute](./node-core-library.textattribute.md) | <b><i>(BETA)</i></b> Text styles used with [IColorableSequence](./node-core-library.icolorablesequence.md). |
 
 ## Interfaces
 
 |  Interface | Description |
 |  --- | --- |
-|  [IAnsiEscapeConvertForTestsOptions](./node-core-library.iansiescapeconvertfortestsoptions.md) | Options for [AnsiEscape.formatForTests()](./node-core-library.ansiescape.formatfortests.md)<!-- -->. |
+|  [IAnsiEscapeConvertForTestsOptions](./node-core-library.iansiescapeconvertfortestsoptions.md) | Options for [AnsiEscape.formatForTests()](./node-core-library.ansiescape.formatfortests.md). |
 |  [IAsyncParallelismOptions](./node-core-library.iasyncparallelismoptions.md) | <b><i>(BETA)</i></b> Options for controlling the parallelism of asynchronous operations. |
 |  [IColorableSequence](./node-core-library.icolorablesequence.md) | <b><i>(BETA)</i></b> |
 |  [IConsoleTerminalProviderOptions](./node-core-library.iconsoleterminalprovideroptions.md) | <b><i>(BETA)</i></b> Options to be provided to a [ConsoleTerminalProvider](./node-core-library.consoleterminalprovider.md) |
-|  [IEnvironmentEntry](./node-core-library.ienvironmententry.md) | A process environment variable name and its value. Used by [EnvironmentMap](./node-core-library.environmentmap.md)<!-- -->. |
+|  [IEnvironmentEntry](./node-core-library.ienvironmententry.md) | A process environment variable name and its value. Used by [EnvironmentMap](./node-core-library.environmentmap.md). |
 |  [IExecutableResolveOptions](./node-core-library.iexecutableresolveoptions.md) | Options for Executable.tryResolve(). |
 |  [IExecutableSpawnOptions](./node-core-library.iexecutablespawnoptions.md) | Options for [Executable.spawn()](./node-core-library.executable.spawn.md) |
 |  [IExecutableSpawnSyncOptions](./node-core-library.iexecutablespawnsyncoptions.md) | Options for [Executable.spawnSync()](./node-core-library.executable.spawnsync.md) |
@@ -74,7 +74,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [IFileSystemCopyFileOptions](./node-core-library.ifilesystemcopyfileoptions.md) | The options for [FileSystem.copyFile()](./node-core-library.filesystem.copyfile.md) |
 |  [IFileSystemCopyFilesAsyncOptions](./node-core-library.ifilesystemcopyfilesasyncoptions.md) | The options for [FileSystem.copyFilesAsync()](./node-core-library.filesystem.copyfilesasync.md) |
 |  [IFileSystemCopyFilesOptions](./node-core-library.ifilesystemcopyfilesoptions.md) | The options for [FileSystem.copyFiles()](./node-core-library.filesystem.copyfiles.md) |
-|  [IFileSystemCreateLinkOptions](./node-core-library.ifilesystemcreatelinkoptions.md) | The options for [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md)<!-- -->, [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md)<!-- -->, [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md)<!-- -->, and [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md)<!-- -->. |
+|  [IFileSystemCreateLinkOptions](./node-core-library.ifilesystemcreatelinkoptions.md) | The options for [FileSystem.createSymbolicLinkJunction()](./node-core-library.filesystem.createsymboliclinkjunction.md), [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md), [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md), and [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md). |
 |  [IFileSystemDeleteFileOptions](./node-core-library.ifilesystemdeletefileoptions.md) | The options for [FileSystem.deleteFile()](./node-core-library.filesystem.deletefile.md) |
 |  [IFileSystemMoveOptions](./node-core-library.ifilesystemmoveoptions.md) | The options for [FileSystem.move()](./node-core-library.filesystem.move.md) |
 |  [IFileSystemReadFileOptions](./node-core-library.ifilesystemreadfileoptions.md) | The options for [FileSystem.readFile()](./node-core-library.filesystem.readfile.md) |
@@ -98,7 +98,7 @@ Core libraries that every NodeJS toolchain project should use.
 |  [IPackageNameParserOptions](./node-core-library.ipackagenameparseroptions.md) | Options that configure the validation rules used by a [PackageNameParser](./node-core-library.packagenameparser.md) instance. |
 |  [IParsedPackageName](./node-core-library.iparsedpackagename.md) | A package name that has been separated into its scope and unscoped name. |
 |  [IParsedPackageNameOrError](./node-core-library.iparsedpackagenameorerror.md) | Result object returned by [PackageName.tryParse()](./node-core-library.packagename.tryparse.md) |
-|  [IPathFormatConciselyOptions](./node-core-library.ipathformatconciselyoptions.md) | Options for [Path.formatConcisely()](./node-core-library.path.formatconcisely.md)<!-- -->. |
+|  [IPathFormatConciselyOptions](./node-core-library.ipathformatconciselyoptions.md) | Options for [Path.formatConcisely()](./node-core-library.path.formatconcisely.md). |
 |  [IProtectableMapParameters](./node-core-library.iprotectablemapparameters.md) | Constructor parameters for [ProtectableMap](./node-core-library.protectablemap.md) |
 |  [IStringBufferOutputOptions](./node-core-library.istringbufferoutputoptions.md) | <b><i>(BETA)</i></b> |
 |  [IStringBuilder](./node-core-library.istringbuilder.md) | An interface for a builder object that allows a large text string to be constructed incrementally by appending small chunks. |
@@ -116,5 +116,4 @@ Core libraries that every NodeJS toolchain project should use.
 |  [FileSystemStats](./node-core-library.filesystemstats.md) | An alias for the Node.js <code>fs.Stats</code> object. |
 |  [JsonNull](./node-core-library.jsonnull.md) | The Rush Stack lint rules discourage usage of <code>null</code>. However, JSON parsers always return JavaScript's <code>null</code> to keep the two syntaxes consistent. When creating interfaces that describe JSON structures, use <code>JsonNull</code> to avoid triggering the lint rule. Do not use <code>JsonNull</code> for any other purpose. |
 |  [JsonObject](./node-core-library.jsonobject.md) | Represents a JSON-serializable object whose type has not been determined yet. |
-|  [LegacyCallback](./node-core-library.legacycallback.md) | Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md)<!-- -->. |
-
+|  [LegacyCallback](./node-core-library.legacycallback.md) | Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md). |

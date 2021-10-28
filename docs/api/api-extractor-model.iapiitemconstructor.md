@@ -9,12 +9,11 @@ improve_this_button: false
 
 ## IApiItemConstructor interface
 
-This abstraction is used by the mixin pattern. It describes a class type that inherits from [ApiItem](./api-extractor-model.apiitem.md)<!-- -->.
+This abstraction is used by the mixin pattern. It describes a class type that inherits from [ApiItem](./api-extractor-model.apiitem.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiItemConstructor extends Constructor<ApiItem>, PropertiesOf<typeof ApiItem> 
+export interface IApiItemConstructor extends Constructor<ApiItem>, PropertiesOf<typeof ApiItem>
 ```
-<b>Extends:</b> [Constructor](./api-extractor-model.constructor.md)<!-- -->&lt;[ApiItem](./api-extractor-model.apiitem.md)<!-- -->&gt;, [PropertiesOf](./api-extractor-model.propertiesof.md)<!-- -->&lt;typeof [ApiItem](./api-extractor-model.apiitem.md)<!-- -->&gt;
-
+<b>Extends:</b> [Constructor](./api-extractor-model.constructor.md)&lt;[ApiItem](./api-extractor-model.apiitem.md)&gt;, [PropertiesOf](./api-extractor-model.propertiesof.md)&lt;typeof [ApiItem](./api-extractor-model.apiitem.md)&gt;

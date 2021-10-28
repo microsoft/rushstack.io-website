@@ -14,7 +14,7 @@ A serializable representation of a collection of API declarations.
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiModel extends ApiModel_base 
+export declare class ApiModel extends ApiModel_base
 ```
 <b>Extends:</b> ApiModel\_base
 
@@ -57,7 +57,7 @@ Normally, API Extractor writes an .api.json file to disk for each project that i
 |  --- | --- | --- | --- |
 |  [containerKey](./api-extractor-model.apimodel.containerkey.md) |  | string |  |
 |  [kind](./api-extractor-model.apimodel.kind.md) |  | [ApiItemKind](./api-extractor-model.apiitemkind.md) |  |
-|  [packages](./api-extractor-model.apimodel.packages.md) |  | ReadonlyArray&lt;[ApiPackage](./api-extractor-model.apipackage.md)<!-- -->&gt; |  |
+|  [packages](./api-extractor-model.apimodel.packages.md) |  | ReadonlyArray&lt;[ApiPackage](./api-extractor-model.apipackage.md)&gt; |  |
 
 ## Methods
 
@@ -68,4 +68,3 @@ Normally, API Extractor writes an .api.json file to disk for each project that i
 |  [loadPackage(apiJsonFilename)](./api-extractor-model.apimodel.loadpackage.md) |  |  |
 |  [resolveDeclarationReference(declarationReference, contextApiItem)](./api-extractor-model.apimodel.resolvedeclarationreference.md) |  |  |
 |  [tryGetPackageByName(packageName)](./api-extractor-model.apimodel.trygetpackagebyname.md) |  | Efficiently finds a package by the NPM package name. |
-

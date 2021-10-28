@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.changePosixModeBitsAsync() method
 
-An async version of [FileSystem.changePosixModeBits()](./node-core-library.filesystem.changeposixmodebits.md)<!-- -->.
+An async version of [FileSystem.changePosixModeBits()](./node-core-library.filesystem.changeposixmodebits.md).
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static changePosixModeBitsAsync(path: string, mode: PosixModeBits): Promise<void
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

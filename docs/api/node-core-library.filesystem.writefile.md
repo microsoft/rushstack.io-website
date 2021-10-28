@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.writeFile() method
 
-Writes a text string to a file on disk, overwriting the file if it already exists. Behind the scenes it uses `fs.writeFileSync()`<!-- -->.
+Writes a text string to a file on disk, overwriting the file if it already exists. Behind the scenes it uses `fs.writeFileSync()`.
 
 <b>Signature:</b>
 
@@ -32,4 +32,3 @@ void
 ## Remarks
 
 Throws an error if the folder doesn't exist, unless ensureFolder=true.
-

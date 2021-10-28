@@ -10,7 +10,7 @@ improve_this_button: false
 ## Terminal.writeVerbose() method
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 Write a verbose-level message.
 
@@ -24,9 +24,8 @@ writeVerbose(...messageParts: (string | IColorableSequence)[]): void;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  messageParts | (string \| [IColorableSequence](./node-core-library.icolorablesequence.md)<!-- -->)\[\] |  |
+|  messageParts | (string \| [IColorableSequence](./node-core-library.icolorablesequence.md))\[\] |  |
 
 <b>Returns:</b>
 
 void
-

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ExtractorConfig.tryLoadForFolder() method
 
-Searches for the api-extractor.json config file associated with the specified starting folder, and loads the file if found. This lookup supports [rig packages](https://www.npmjs.com/package/@rushstack/rig-package)<!-- -->.
+Searches for the api-extractor.json config file associated with the specified starting folder, and loads the file if found. This lookup supports [rig packages](https://www.npmjs.com/package/@rushstack/rig-package).
 
 <b>Signature:</b>
 
@@ -27,9 +27,8 @@ static tryLoadForFolder(options: IExtractorConfigLoadForFolderOptions): IExtract
 
 [IExtractorConfigPrepareOptions](./api-extractor.iextractorconfigprepareoptions.md) \| undefined
 
-An options object that can be passed to [ExtractorConfig.prepare()](./api-extractor.extractorconfig.prepare.md)<!-- -->, or `undefined` if not api-extractor.json file was found.
+An options object that can be passed to [ExtractorConfig.prepare()](./api-extractor.extractorconfig.prepare.md), or `undefined` if not api-extractor.json file was found.
 
 ## Remarks
 
-The search will first look for a package.json file in a parent folder of the starting folder; if found, that will be used as the base folder instead of the starting folder. If the config file is not found in `<baseFolder>/api-extractor.json` or `<baseFolder>/config/api-extractor.json`<!-- -->, then `<baseFolder/config/rig.json` will be checked to see whether a [rig package](https://www.npmjs.com/package/@rushstack/rig-package) is referenced; if so then the rig's api-extractor.json file will be used instead. If a config file is found, it will be loaded and returned with the `IExtractorConfigPrepareOptions` object. Otherwise, `undefined` is returned to indicate that API Extractor does not appear to be configured for the specified folder.
-
+The search will first look for a package.json file in a parent folder of the starting folder; if found, that will be used as the base folder instead of the starting folder. If the config file is not found in `<baseFolder>/api-extractor.json` or `<baseFolder>/config/api-extractor.json`, then `<baseFolder/config/rig.json` will be checked to see whether a [rig package](https://www.npmjs.com/package/@rushstack/rig-package) is referenced; if so then the rig's api-extractor.json file will be used instead. If a config file is found, it will be loaded and returned with the `IExtractorConfigPrepareOptions` object. Otherwise, `undefined` is returned to indicate that API Extractor does not appear to be configured for the specified folder.

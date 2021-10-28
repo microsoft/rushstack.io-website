@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IImportResolveModuleOptions.modulePath property
 
-The module identifier to resolve. For example "<!-- -->@<!-- -->rushstack/node-core-library" or "<!-- -->@<!-- -->rushstack/node-core-library/lib/index.js"
+The module identifier to resolve. For example "@rushstack/node-core-library" or "@rushstack/node-core-library/lib/index.js"
 
 <b>Signature:</b>
 

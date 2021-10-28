@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IApiReturnTypeMixinOptions interface
 
-Constructor options for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md)<!-- -->.
+Constructor options for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiReturnTypeMixinOptions extends IApiItemOptions 
+export interface IApiReturnTypeMixinOptions extends IApiItemOptions
 ```
 <b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
 
@@ -23,4 +23,3 @@ export interface IApiReturnTypeMixinOptions extends IApiItemOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [returnTypeTokenRange](./api-extractor-model.iapireturntypemixinoptions.returntypetokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
-

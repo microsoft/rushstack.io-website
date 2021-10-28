@@ -13,13 +13,12 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface ILocalizationStats 
+export interface ILocalizationStats
 ```
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [entrypoints](./localization-plugin.ilocalizationstats.entrypoints.md) | { \[name: string\]: [ILocalizationStatsEntrypoint](./localization-plugin.ilocalizationstatsentrypoint.md)<!-- -->; } |  |
-|  [namedChunkGroups](./localization-plugin.ilocalizationstats.namedchunkgroups.md) | { \[name: string\]: [ILocalizationStatsChunkGroup](./localization-plugin.ilocalizationstatschunkgroup.md)<!-- -->; } |  |
-
+|  [entrypoints](./localization-plugin.ilocalizationstats.entrypoints.md) | { \[name: string\]: [ILocalizationStatsEntrypoint](./localization-plugin.ilocalizationstatsentrypoint.md); } |  |
+|  [namedChunkGroups](./localization-plugin.ilocalizationstats.namedchunkgroups.md) | { \[name: string\]: [ILocalizationStatsChunkGroup](./localization-plugin.ilocalizationstatschunkgroup.md); } |  |

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IExtractorConfigPrepareOptions.configObject property
 
-A configuration object as returned by [ExtractorConfig.loadFile()](./api-extractor.extractorconfig.loadfile.md)<!-- -->.
+A configuration object as returned by [ExtractorConfig.loadFile()](./api-extractor.extractorconfig.loadfile.md).
 
 <b>Signature:</b>
 

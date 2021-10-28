@@ -10,7 +10,7 @@ improve_this_button: false
 ## MockWritable.getFormattedChunks() method
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 <b>Signature:</b>
 
@@ -19,5 +19,4 @@ getFormattedChunks(): ITerminalChunk[];
 ```
 <b>Returns:</b>
 
-[ITerminalChunk](./terminal.iterminalchunk.md)<!-- -->\[\]
-
+[ITerminalChunk](./terminal.iterminalchunk.md)\[\]

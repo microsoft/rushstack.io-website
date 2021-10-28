@@ -10,14 +10,14 @@ improve_this_button: false
 ## TextAttribute enum
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-Text styles used with [IColorableSequence](./node-core-library.icolorablesequence.md)<!-- -->.
+Text styles used with [IColorableSequence](./node-core-library.icolorablesequence.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare enum TextAttribute 
+export declare enum TextAttribute
 ```
 
 ## Enumeration Members
@@ -30,4 +30,3 @@ export declare enum TextAttribute
 |  Hidden | <code>5</code> | <b><i>(BETA)</i></b> |
 |  InvertColor | <code>4</code> | <b><i>(BETA)</i></b> |
 |  Underline | <code>2</code> | <b><i>(BETA)</i></b> |
-

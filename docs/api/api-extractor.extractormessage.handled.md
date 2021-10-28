@@ -23,5 +23,4 @@ set handled(value: boolean);
 
 If the `messageCallback` routes the message to a custom handler (e.g. a toolchain logger), it should assign `handled = true` to prevent API Extractor from displaying it. Assigning `handled = true` for all messages would effectively disable all console output from the `Extractor` API.
 
-If `handled` is set to true, the message will still be included in the count of errors/warnings; to discard a message entirely, instead assign `logLevel = none`<!-- -->.
-
+If `handled` is set to true, the message will still be included in the count of errors/warnings; to discard a message entirely, instead assign `logLevel = none`.

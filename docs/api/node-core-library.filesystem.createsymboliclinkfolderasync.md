@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.createSymbolicLinkFolderAsync() method
 
-An async version of [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md)<!-- -->.
+An async version of [FileSystem.createSymbolicLinkFolder()](./node-core-library.filesystem.createsymboliclinkfolder.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static createSymbolicLinkFolderAsync(options: IFileSystemCreateLinkOptions): Pro
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

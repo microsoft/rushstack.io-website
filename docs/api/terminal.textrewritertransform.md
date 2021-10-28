@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## TextRewriterTransform class
 
-A [TerminalTransform](./terminal.terminaltransform.md) subclass that performs one or more [TextRewriter](./terminal.textrewriter.md) operations. The most common operations are [NormalizeNewlinesTextRewriter](./terminal.normalizenewlinestextrewriter.md) and [RemoveColorsTextRewriter](./terminal.removecolorstextrewriter.md)<!-- -->.
+A [TerminalTransform](./terminal.terminaltransform.md) subclass that performs one or more [TextRewriter](./terminal.textrewriter.md) operations. The most common operations are [NormalizeNewlinesTextRewriter](./terminal.normalizenewlinestextrewriter.md) and [RemoveColorsTextRewriter](./terminal.removecolorstextrewriter.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare class TextRewriterTransform extends TerminalTransform 
+export declare class TextRewriterTransform extends TerminalTransform
 ```
 <b>Extends:</b> [TerminalTransform](./terminal.terminaltransform.md)
 
@@ -32,7 +32,7 @@ The `TextRewriter` operations are applied separately to the `stderr` and `stdout
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [textRewriters](./terminal.textrewritertransform.textrewriters.md) |  | ReadonlyArray&lt;[TextRewriter](./terminal.textrewriter.md)<!-- -->&gt; |  |
+|  [textRewriters](./terminal.textrewritertransform.textrewriters.md) |  | ReadonlyArray&lt;[TextRewriter](./terminal.textrewriter.md)&gt; |  |
 
 ## Methods
 
@@ -40,4 +40,3 @@ The `TextRewriter` operations are applied separately to the `stderr` and `stdout
 |  --- | --- | --- |
 |  [onClose()](./terminal.textrewritertransform.onclose.md) |  |  |
 |  [onWriteChunk(chunk)](./terminal.textrewritertransform.onwritechunk.md) |  |  |
-

@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ILoadForProjectFolderOptions interface
 
-Options for [RigConfig.loadForProjectFolder()](./rig-package.rigconfig.loadforprojectfolder.md)<!-- -->.
+Options for [RigConfig.loadForProjectFolder()](./rig-package.rigconfig.loadforprojectfolder.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface ILoadForProjectFolderOptions 
+export interface ILoadForProjectFolderOptions
 ```
 
 ## Properties
@@ -23,4 +23,3 @@ export interface ILoadForProjectFolderOptions
 |  --- | --- | --- |
 |  [overrideRigJsonObject?](./rig-package.iloadforprojectfolderoptions.overriderigjsonobject.md) | [IRigConfigJson](./rig-package.irigconfigjson.md) | <i>(Optional)</i> If specified, instead of loading the <code>config/rig.json</code> from disk, this object will be substituted instead. |
 |  [projectFolderPath](./rig-package.iloadforprojectfolderoptions.projectfolderpath.md) | string | The path to the folder of the project to be analyzed. This folder should contain a <code>package.json</code> file. |
-

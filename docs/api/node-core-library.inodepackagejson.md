@@ -14,12 +14,12 @@ An interface for accessing common fields from a package.json file whose version 
 <b>Signature:</b>
 
 ```typescript
-export interface INodePackageJson 
+export interface INodePackageJson
 ```
 
 ## Remarks
 
-This interface is the same as [IPackageJson](./node-core-library.ipackagejson.md)<!-- -->, except that the `version` field is optional. According to the [NPM documentation](https://docs.npmjs.com/files/package.json) and [CommonJS Packages specification](http://wiki.commonjs.org/wiki/Packages/1.0)<!-- -->, the `version` field is normally a required field for package.json files.
+This interface is the same as [IPackageJson](./node-core-library.ipackagejson.md), except that the `version` field is optional. According to the [NPM documentation](https://docs.npmjs.com/files/package.json) and [CommonJS Packages specification](http://wiki.commonjs.org/wiki/Packages/1.0), the `version` field is normally a required field for package.json files.
 
 However, NodeJS relaxes this requirement for its `require()` API. The ["Folders as Modules" section](https://nodejs.org/dist/latest-v10.x/docs/api/modules.html#modules_folders_as_modules) from the NodeJS documentation gives an example of a package.json file that has only the `name` and `main` fields. NodeJS does not consider the `version` field during resolution, so it can be omitted. Some libraries do this.
 
@@ -47,4 +47,3 @@ Use the `INodePackageJson` interface when loading such files. Use `IPackageJson`
 |  [types?](./node-core-library.inodepackagejson.types.md) | string | <i>(Optional)</i> The path to the TypeScript \*.d.ts file describing the module file that will act as the main entry point. |
 |  [typings?](./node-core-library.inodepackagejson.typings.md) | string | <i>(Optional)</i> Alias for <code>types</code> |
 |  [version?](./node-core-library.inodepackagejson.version.md) | string | <i>(Optional)</i> A version number conforming to the Semantic Versioning (SemVer) standard. |
-

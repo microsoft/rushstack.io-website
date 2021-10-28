@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## JsonFile.loadAndValidateWithCallbackAsync() method
 
-An async version of [JsonFile.loadAndValidateWithCallback()](./node-core-library.jsonfile.loadandvalidatewithcallback.md)<!-- -->.
+An async version of [JsonFile.loadAndValidateWithCallback()](./node-core-library.jsonfile.loadandvalidatewithcallback.md).
 
 <b>Signature:</b>
 
@@ -23,9 +23,8 @@ static loadAndValidateWithCallbackAsync(jsonFilename: string, jsonSchema: JsonSc
 |  --- | --- | --- |
 |  jsonFilename | string |  |
 |  jsonSchema | [JsonSchema](./node-core-library.jsonschema.md) |  |
-|  errorCallback | (errorInfo: [IJsonSchemaErrorInfo](./node-core-library.ijsonschemaerrorinfo.md)<!-- -->) =&gt; void |  |
+|  errorCallback | (errorInfo: [IJsonSchemaErrorInfo](./node-core-library.ijsonschemaerrorinfo.md)) =&gt; void |  |
 
 <b>Returns:</b>
 
-Promise&lt;[JsonObject](./node-core-library.jsonobject.md)<!-- -->&gt;
-
+Promise&lt;[JsonObject](./node-core-library.jsonobject.md)&gt;

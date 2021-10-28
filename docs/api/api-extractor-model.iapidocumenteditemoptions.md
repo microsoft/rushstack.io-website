@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IApiDocumentedItemOptions interface
 
-Constructor options for [ApiDocumentedItem](./api-extractor-model.apidocumenteditem.md)<!-- -->.
+Constructor options for [ApiDocumentedItem](./api-extractor-model.apidocumenteditem.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiDocumentedItemOptions extends IApiItemOptions 
+export interface IApiDocumentedItemOptions extends IApiItemOptions
 ```
 <b>Extends:</b> [IApiItemOptions](./api-extractor-model.iapiitemoptions.md)
 
@@ -23,4 +23,3 @@ export interface IApiDocumentedItemOptions extends IApiItemOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [docComment](./api-extractor-model.iapidocumenteditemoptions.doccomment.md) | tsdoc.DocComment \| undefined |  |
-

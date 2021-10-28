@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.getLinkStatistics() method
 
-Gets the statistics of a filesystem object. Does NOT follow the link to its target. Behind the scenes it uses `fs.lstatSync()`<!-- -->.
+Gets the statistics of a filesystem object. Does NOT follow the link to its target. Behind the scenes it uses `fs.lstatSync()`.
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static getLinkStatistics(path: string): FileSystemStats;
 <b>Returns:</b>
 
 [FileSystemStats](./node-core-library.filesystemstats.md)
-

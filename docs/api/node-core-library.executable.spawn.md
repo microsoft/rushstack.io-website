@@ -37,5 +37,4 @@ This function is similar to child\_process.spawn(). The main differences are:
 
 - It does not invoke the OS shell unless the executable file is a shell script. - Command-line arguments containing special characters are more accurately passed through to the child process. - If the filename is missing a path, then the shell's default PATH will be searched. - If the filename is missing a file extension, then Windows default file extensions will be searched.
 
-This command is asynchronous, but it does not return a `Promise`<!-- -->. Instead it returns a Node.js `ChildProcess` supporting event notifications.
-
+This command is asynchronous, but it does not return a `Promise`. Instead it returns a Node.js `ChildProcess` supporting event notifications.

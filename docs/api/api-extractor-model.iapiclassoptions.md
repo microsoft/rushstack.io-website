@@ -9,19 +9,18 @@ improve_this_button: false
 
 ## IApiClassOptions interface
 
-Constructor options for [ApiClass](./api-extractor-model.apiclass.md)<!-- -->.
+Constructor options for [ApiClass](./api-extractor-model.apiclass.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiClassOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions, IApiTypeParameterListMixinOptions 
+export interface IApiClassOptions extends IApiItemContainerMixinOptions, IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiDeclaredItemOptions, IApiTypeParameterListMixinOptions
 ```
-<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md)<!-- -->, [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)<!-- -->, [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md)
+<b>Extends:</b> [IApiItemContainerMixinOptions](./api-extractor-model.iapiitemcontainermixinoptions.md), [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md), [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md), [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md), [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [extendsTokenRange](./api-extractor-model.iapiclassoptions.extendstokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) \| undefined |  |
-|  [implementsTokenRanges](./api-extractor-model.iapiclassoptions.implementstokenranges.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)<!-- -->\[\] |  |
-
+|  [implementsTokenRanges](./api-extractor-model.iapiclassoptions.implementstokenranges.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md)\[\] |  |

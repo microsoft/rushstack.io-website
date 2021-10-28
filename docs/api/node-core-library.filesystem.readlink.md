@@ -31,5 +31,4 @@ the path of the link target
 
 ## Remarks
 
-If `path` refers to a filesystem object that is not a symbolic link, then an `ErrnoException` is thrown with code 'UNKNOWN'. If `path` does not exist, then an `ErrnoException` is thrown with code `ENOENT`<!-- -->.
-
+If `path` refers to a filesystem object that is not a symbolic link, then an `ErrnoException` is thrown with code 'UNKNOWN'. If `path` does not exist, then an `ErrnoException` is thrown with code `ENOENT`.

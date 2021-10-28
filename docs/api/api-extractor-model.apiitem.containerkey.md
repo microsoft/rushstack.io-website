@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ApiItem.containerKey property
 
-Returns a string key that can be used to efficiently retrieve an `ApiItem` from an `ApiItemContainerMixin`<!-- -->. The key is unique within the container. Its format is undocumented and may change at any time.
+Returns a string key that can be used to efficiently retrieve an `ApiItem` from an `ApiItemContainerMixin`. The key is unique within the container. Its format is undocumented and may change at any time.
 
 <b>Signature:</b>
 
@@ -21,4 +21,3 @@ get containerKey(): string;
 ## Remarks
 
 Use the `getContainerKey()` static member to construct the key. Each subclass has a different implementation of this function, according to the aspects that are important for identifying it.
-

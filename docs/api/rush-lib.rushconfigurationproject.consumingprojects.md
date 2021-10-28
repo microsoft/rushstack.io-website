@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RushConfigurationProject.consumingProjects property
 
-The set of projects within the Rush configuration which declare this project as a dependency. Excludes those that declare this project as a `cyclicDependencyProject`<!-- -->.
+The set of projects within the Rush configuration which declare this project as a dependency. Excludes those that declare this project as a `cyclicDependencyProject`.
 
 <b>Signature:</b>
 
@@ -19,5 +19,4 @@ get consumingProjects(): ReadonlySet<RushConfigurationProject>;
 
 ## Remarks
 
-This field is the counterpart to `dependencyProjects`<!-- -->, and can be used recursively to walk the project dependency graph to find all projects which will be impacted by changes to this project.
-
+This field is the counterpart to `dependencyProjects`, and can be used recursively to walk the project dependency graph to find all projects which will be impacted by changes to this project.

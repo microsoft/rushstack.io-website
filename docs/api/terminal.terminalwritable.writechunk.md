@@ -30,7 +30,6 @@ void
 
 ## Remarks
 
-The subclass provides its implementation via the the [TerminalWritable.onWriteChunk()](./terminal.terminalwritable.onwritechunk.md) method, which is called by `writeChunk()`<!-- -->.
+The subclass provides its implementation via the the [TerminalWritable.onWriteChunk()](./terminal.terminalwritable.onwritechunk.md) method, which is called by `writeChunk()`.
 
 The object that calls `writeChunk()` must call `close()` when it is finished; failing to do so may introduce a resource leak, or may prevent some buffered data from being written.
-

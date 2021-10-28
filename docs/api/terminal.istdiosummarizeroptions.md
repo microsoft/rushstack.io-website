@@ -10,14 +10,14 @@ improve_this_button: false
 ## IStdioSummarizerOptions interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-Constructor options for [StdioSummarizer](./terminal.stdiosummarizer.md)<!-- -->.
+Constructor options for [StdioSummarizer](./terminal.stdiosummarizer.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IStdioSummarizerOptions 
+export interface IStdioSummarizerOptions
 ```
 
 ## Properties
@@ -26,4 +26,3 @@ export interface IStdioSummarizerOptions
 |  --- | --- | --- |
 |  [leadingLines?](./terminal.istdiosummarizeroptions.leadinglines.md) | number | <b><i>(BETA)</i></b> <i>(Optional)</i> Specifies the maximum number of leading lines to include in the summary. |
 |  [trailingLines?](./terminal.istdiosummarizeroptions.trailinglines.md) | number | <b><i>(BETA)</i></b> <i>(Optional)</i> Specifies the maximum number of trailing lines to include in the summary. |
-

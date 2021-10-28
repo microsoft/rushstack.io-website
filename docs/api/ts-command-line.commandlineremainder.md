@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## CommandLineRemainder class
 
-The data type returned by [CommandLineParameterProvider.defineCommandLineRemainder()](./ts-command-line.commandlineparameterprovider.definecommandlineremainder.md)<!-- -->.
+The data type returned by [CommandLineParameterProvider.defineCommandLineRemainder()](./ts-command-line.commandlineparameterprovider.definecommandlineremainder.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare class CommandLineRemainder 
+export declare class CommandLineRemainder
 ```
 
 ## Remarks
@@ -33,4 +33,3 @@ The constructor for this class is marked as internal. Third-party code should no
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [appendToArgList(argList)](./ts-command-line.commandlineremainder.appendtoarglist.md) |  | Append the parsed values to the provided string array. |
-

@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiReturnTypeMixin namespace
 
-Static members for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md)<!-- -->.
+Static members for [ApiReturnTypeMixin](./api-extractor-model.apireturntypemixin.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare namespace ApiReturnTypeMixin 
+export declare namespace ApiReturnTypeMixin
 ```
 
 ## Functions
@@ -22,4 +22,3 @@ export declare namespace ApiReturnTypeMixin
 |  Function | Description |
 |  --- | --- |
 |  [isBaseClassOf(apiItem)](./api-extractor-model.apireturntypemixin.isbaseclassof.md) | A type guard that tests whether the specified <code>ApiItem</code> subclass extends the <code>ApiReturnTypeMixin</code> mixin. |
-

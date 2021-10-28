@@ -27,5 +27,4 @@ getImplicitlyPreferredVersions(variant?: string | undefined): Map<string, string
 
 Map&lt;string, string&gt;
 
-A map of dependency name --<!-- -->&gt; version specifier for implicitly preferred versions.
-
+A map of dependency name --&gt; version specifier for implicitly preferred versions.

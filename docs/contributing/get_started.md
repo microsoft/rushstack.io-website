@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Getting started
 navigation_source: docs_nav
 ---

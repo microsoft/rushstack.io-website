@@ -10,7 +10,7 @@ improve_this_button: false
 ## ConsoleTerminalProvider.(constructor)
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 Constructs a new instance of the `ConsoleTerminalProvider` class
 
@@ -24,5 +24,4 @@ constructor(options?: Partial<IConsoleTerminalProviderOptions>);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | Partial&lt;[IConsoleTerminalProviderOptions](./node-core-library.iconsoleterminalprovideroptions.md)<!-- -->&gt; |  |
-
+|  options | Partial&lt;[IConsoleTerminalProviderOptions](./node-core-library.iconsoleterminalprovideroptions.md)&gt; |  |

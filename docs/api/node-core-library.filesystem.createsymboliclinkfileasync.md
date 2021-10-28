@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.createSymbolicLinkFileAsync() method
 
-An async version of [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md)<!-- -->.
+An async version of [FileSystem.createSymbolicLinkFile()](./node-core-library.filesystem.createsymboliclinkfile.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static createSymbolicLinkFileAsync(options: IFileSystemCreateLinkOptions): Promi
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

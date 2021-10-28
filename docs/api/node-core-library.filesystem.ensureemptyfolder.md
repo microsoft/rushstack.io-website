@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.ensureEmptyFolder() method
 
-Deletes the content of a folder, but not the folder itself. Also ensures the folder exists. Behind the scenes it uses `fs-extra.emptyDirSync()`<!-- -->.
+Deletes the content of a folder, but not the folder itself. Also ensures the folder exists. Behind the scenes it uses `fs-extra.emptyDirSync()`.
 
 <b>Signature:</b>
 
@@ -30,4 +30,3 @@ void
 ## Remarks
 
 This is a workaround for a common race condition, where the virus scanner holds a lock on the folder for a brief period after it was deleted, causing EBUSY errors for any code that tries to recreate the folder.
-

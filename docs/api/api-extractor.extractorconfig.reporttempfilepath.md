@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ExtractorConfig.reportTempFilePath property
 
-The `reportTempFolder` path combined with the `reportFileName`<!-- -->.
+The `reportTempFolder` path combined with the `reportFileName`.
 
 <b>Signature:</b>
 

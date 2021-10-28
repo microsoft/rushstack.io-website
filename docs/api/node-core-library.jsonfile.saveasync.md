@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## JsonFile.saveAsync() method
 
-An async version of [JsonFile.save()](./node-core-library.jsonfile.save.md)<!-- -->.
+An async version of [JsonFile.save()](./node-core-library.jsonfile.save.md).
 
 <b>Signature:</b>
 
@@ -28,4 +28,3 @@ static saveAsync(jsonObject: JsonObject, jsonFilename: string, options?: IJsonFi
 <b>Returns:</b>
 
 Promise&lt;boolean&gt;
-

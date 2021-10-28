@@ -21,5 +21,4 @@ constructor(parameters: IProtectableMapParameters<K, V>);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  parameters | [IProtectableMapParameters](./node-core-library.iprotectablemapparameters.md)<!-- -->&lt;K, V&gt; |  |
-
+|  parameters | [IProtectableMapParameters](./node-core-library.iprotectablemapparameters.md)&lt;K, V&gt; |  |

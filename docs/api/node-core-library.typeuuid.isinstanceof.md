@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## TypeUuid.isInstanceOf() method
 
-Returns true if the `targetObject` is an instance of a JavaScript class that was previously registered using the specified `typeUuid`<!-- -->. Base classes are also considered.
+Returns true if the `targetObject` is an instance of a JavaScript class that was previously registered using the specified `typeUuid`. Base classes are also considered.
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static isInstanceOf(targetObject: unknown, typeUuid: string): boolean;
 <b>Returns:</b>
 
 boolean
-

@@ -10,7 +10,7 @@ improve_this_button: false
 ## ConfigurationFile.getPropertyOriginalValue() method
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 Get the value of the specified property on the specified object that was originally loaded from a configuration file.
 
@@ -24,9 +24,8 @@ getPropertyOriginalValue<TParentProperty extends object, TValue>(options: IOrigi
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  options | [IOriginalValueOptions](./heft-config-file.ioriginalvalueoptions.md)<!-- -->&lt;TParentProperty&gt; |  |
+|  options | [IOriginalValueOptions](./heft-config-file.ioriginalvalueoptions.md)&lt;TParentProperty&gt; |  |
 
 <b>Returns:</b>
 
 TValue \| undefined
-

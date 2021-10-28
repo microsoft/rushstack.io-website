@@ -10,7 +10,7 @@ improve_this_button: false
 ## IPropertiesInheritance type
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 
 <b>Signature:</b>
@@ -20,5 +20,4 @@ export declare type IPropertiesInheritance<TConfigurationFile> = {
     [propertyName in keyof TConfigurationFile]?: IPropertyInheritance<InheritanceType.append | InheritanceType.replace> | ICustomPropertyInheritance<TConfigurationFile[propertyName]>;
 };
 ```
-<b>References:</b> [IPropertyInheritance](./heft-config-file.ipropertyinheritance.md)<!-- -->, [InheritanceType.append](./heft-config-file.inheritancetype.append.md)<!-- -->, [InheritanceType.replace](./heft-config-file.inheritancetype.replace.md)<!-- -->, [ICustomPropertyInheritance](./heft-config-file.icustompropertyinheritance.md)
-
+<b>References:</b> [IPropertyInheritance](./heft-config-file.ipropertyinheritance.md), [InheritanceType.append](./heft-config-file.inheritancetype.append.md), [InheritanceType.replace](./heft-config-file.inheritancetype.replace.md), [ICustomPropertyInheritance](./heft-config-file.icustompropertyinheritance.md)

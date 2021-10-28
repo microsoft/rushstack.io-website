@@ -14,7 +14,7 @@ Represents the entry point for an NPM package.
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiEntryPoint extends ApiEntryPoint_base 
+export declare class ApiEntryPoint extends ApiEntryPoint_base
 ```
 <b>Extends:</b> ApiEntryPoint\_base
 
@@ -35,7 +35,7 @@ For example, suppose the package.json file looks like this:
 }
 
 ```
-In this example, the `ApiEntryPoint` would represent the TypeScript module for `./lib/index.js`<!-- -->.
+In this example, the `ApiEntryPoint` would represent the TypeScript module for `./lib/index.js`.
 
 ## Constructors
 
@@ -56,4 +56,3 @@ In this example, the `ApiEntryPoint` would represent the TypeScript module for `
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [buildCanonicalReference()](./api-extractor-model.apientrypoint.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
-

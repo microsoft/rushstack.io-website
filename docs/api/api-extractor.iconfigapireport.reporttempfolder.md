@@ -19,7 +19,6 @@ reportTempFolder?: string;
 
 ## Remarks
 
-After the temporary file is written to disk, it is compared with the file in the `reportFolder`<!-- -->. If they are different, a production build will fail.
+After the temporary file is written to disk, it is compared with the file in the `reportFolder`. If they are different, a production build will fail.
 
-The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`<!-- -->.
-
+The path is resolved relative to the folder of the config file that contains the setting; to change this, prepend a folder token such as `<projectFolder>`.

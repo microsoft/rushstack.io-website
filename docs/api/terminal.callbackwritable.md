@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## CallbackWritable class
 
-This class enables very basic [TerminalWritable.onWriteChunk()](./terminal.terminalwritable.onwritechunk.md) operations to be implemented as a callback function, avoiding the need to define a subclass of `TerminalWritable`<!-- -->.
+This class enables very basic [TerminalWritable.onWriteChunk()](./terminal.terminalwritable.onwritechunk.md) operations to be implemented as a callback function, avoiding the need to define a subclass of `TerminalWritable`.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class CallbackWritable extends TerminalWritable 
+export declare class CallbackWritable extends TerminalWritable
 ```
 <b>Extends:</b> [TerminalWritable](./terminal.terminalwritable.md)
 
@@ -33,4 +33,3 @@ export declare class CallbackWritable extends TerminalWritable
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [onWriteChunk(chunk)](./terminal.callbackwritable.onwritechunk.md) |  |  |
-

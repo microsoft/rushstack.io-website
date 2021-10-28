@@ -19,7 +19,6 @@ rigProfile?: string;
 
 ## Remarks
 
-The name must consist of lowercase alphanumeric words separated by hyphens, for example `"sample-profile"`<!-- -->. If the `"rigProfile"` is not specified, then the profile name `"default"` will be used.
+The name must consist of lowercase alphanumeric words separated by hyphens, for example `"sample-profile"`. If the `"rigProfile"` is not specified, then the profile name `"default"` will be used.
 
 Example: `example-profile`
-

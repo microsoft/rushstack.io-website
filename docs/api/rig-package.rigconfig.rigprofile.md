@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RigConfig.rigProfile property
 
-The `"rigProfile"` value that was loaded from `rig.json`<!-- -->, or `""` if the file was not found.
+The `"rigProfile"` value that was loaded from `rig.json`, or `""` if the file was not found.
 
 <b>Signature:</b>
 
@@ -19,7 +19,6 @@ readonly rigProfile: string;
 
 ## Remarks
 
-The name must consist of lowercase alphanumeric words separated by hyphens, for example `"sample-profile"`<!-- -->. If the `rig.json` file exists, but the `"rigProfile"` is not specified, then the profile name will be `"default"`<!-- -->.
+The name must consist of lowercase alphanumeric words separated by hyphens, for example `"sample-profile"`. If the `rig.json` file exists, but the `"rigProfile"` is not specified, then the profile name will be `"default"`.
 
 Example: `example-profile`
-

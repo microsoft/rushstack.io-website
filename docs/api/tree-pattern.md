@@ -21,6 +21,5 @@ A fast, lightweight pattern matcher for tree structures such as an Abstract Synt
 
 |  Type Alias | Description |
 |  --- | --- |
-|  [ITreePatternCaptureSet](./tree-pattern.itreepatterncaptureset.md) | Provides additional detail about the success or failure of [TreePattern.match()](./tree-pattern.treepattern.match.md)<!-- -->. |
+|  [ITreePatternCaptureSet](./tree-pattern.itreepatterncaptureset.md) | Provides additional detail about the success or failure of [TreePattern.match()](./tree-pattern.treepattern.match.md). |
 |  [TreeNode](./tree-pattern.treenode.md) | Indicates the tree-like data structure that [TreePattern](./tree-pattern.treepattern.md) will traverse. |
-

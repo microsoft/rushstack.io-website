@@ -10,14 +10,14 @@ improve_this_button: false
 ## MockWritable class
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 A [TerminalWritable](./terminal.terminalwritable.md) subclass for use by unit tests.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class MockWritable extends TerminalWritable 
+export declare class MockWritable extends TerminalWritable
 ```
 <b>Extends:</b> [TerminalWritable](./terminal.terminalwritable.md)
 
@@ -25,7 +25,7 @@ export declare class MockWritable extends TerminalWritable
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [chunks](./terminal.mockwritable.chunks.md) |  | [ITerminalChunk](./terminal.iterminalchunk.md)<!-- -->\[\] | <b><i>(BETA)</i></b> |
+|  [chunks](./terminal.mockwritable.chunks.md) |  | [ITerminalChunk](./terminal.iterminalchunk.md)\[\] | <b><i>(BETA)</i></b> |
 
 ## Methods
 
@@ -35,4 +35,3 @@ export declare class MockWritable extends TerminalWritable
 |  [getFormattedChunks()](./terminal.mockwritable.getformattedchunks.md) |  | <b><i>(BETA)</i></b> |
 |  [onWriteChunk(chunk)](./terminal.mockwritable.onwritechunk.md) |  | <b><i>(BETA)</i></b> |
 |  [reset()](./terminal.mockwritable.reset.md) |  | <b><i>(BETA)</i></b> |
-

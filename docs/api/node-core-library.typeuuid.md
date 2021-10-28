@@ -14,14 +14,14 @@ Provides a version-independent implementation of the JavaScript `instanceof` ope
 <b>Signature:</b>
 
 ```typescript
-export declare class TypeUuid 
+export declare class TypeUuid
 ```
 
 ## Remarks
 
-The JavaScript `instanceof` operator normally only identifies objects from a particular library instance. For example, suppose the NPM package `example-lib` has two published versions 1.2.0 and 1.3.0, and it exports a class called `A`<!-- -->. Suppose some code consumes version `1.3.0` of the library, but it receives an object that was constructed using version `1.2.0`<!-- -->. In this situation `a instanceof A` will return `false`<!-- -->, even though `a` is an instance of `A`<!-- -->. The reason is that there are two prototypes for `A`<!-- -->; one for each version.
+The JavaScript `instanceof` operator normally only identifies objects from a particular library instance. For example, suppose the NPM package `example-lib` has two published versions 1.2.0 and 1.3.0, and it exports a class called `A`. Suppose some code consumes version `1.3.0` of the library, but it receives an object that was constructed using version `1.2.0`. In this situation `a instanceof A` will return `false`, even though `a` is an instance of `A`. The reason is that there are two prototypes for `A`; one for each version.
 
-The `TypeUuid` facility provides a way to make `a instanceof A` return true for both prototypes of `A`<!-- -->, by instead using a universally unique identifier (UUID) to detect object instances.
+The `TypeUuid` facility provides a way to make `a instanceof A` return true for both prototypes of `A`, by instead using a universally unique identifier (UUID) to detect object instances.
 
 You can use `Symbol.hasInstance` to enable the system `instanceof` operator to recognize type UUID equivalence:
 
@@ -50,4 +50,3 @@ console.log(widget instanceof Widget1); // prints true
 |  --- | --- | --- |
 |  [isInstanceOf(targetObject, typeUuid)](./node-core-library.typeuuid.isinstanceof.md) | <code>static</code> | Returns true if the <code>targetObject</code> is an instance of a JavaScript class that was previously registered using the specified <code>typeUuid</code>. Base classes are also considered. |
 |  [registerClass(targetClass, typeUuid)](./node-core-library.typeuuid.registerclass.md) | <code>static</code> | Registers a JavaScript class as having a type identified by the specified UUID. |
-

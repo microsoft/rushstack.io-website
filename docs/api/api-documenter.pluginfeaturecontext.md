@@ -9,10 +9,10 @@ improve_this_button: false
 
 ## PluginFeatureContext class
 
-Context object for [PluginFeature](./api-documenter.pluginfeature.md)<!-- -->. Exposes various services that can be used by a plugin.
+Context object for [PluginFeature](./api-documenter.pluginfeature.md). Exposes various services that can be used by a plugin.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class PluginFeatureContext 
+export declare class PluginFeatureContext
 ```

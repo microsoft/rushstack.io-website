@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IPassthroughLocaleOptions.usePassthroughLocale property
 
-If this is set to `true`<!-- -->, a passthrough locale will be included in the output
+If this is set to `true`, a passthrough locale will be included in the output
 
 <b>Signature:</b>
 

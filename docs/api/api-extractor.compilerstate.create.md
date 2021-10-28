@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## CompilerState.create() method
 
-Create a compiler state for use with the specified `IExtractorInvokeOptions`<!-- -->.
+Create a compiler state for use with the specified `IExtractorInvokeOptions`.
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static create(extractorConfig: ExtractorConfig, options?: ICompilerStateCreateOp
 <b>Returns:</b>
 
 [CompilerState](./api-extractor.compilerstate.md)
-

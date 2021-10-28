@@ -10,9 +10,9 @@ improve_this_button: false
 ## CollatedWriter.isActive property
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-Returns true if this is the active writer for its associated [StreamCollator](./stream-collator.streamcollator.md)<!-- -->.
+Returns true if this is the active writer for its associated [StreamCollator](./stream-collator.streamcollator.md).
 
 <b>Signature:</b>
 

@@ -23,7 +23,6 @@ void
 
 ## Remarks
 
-The subclass provides its implementation via the the [TerminalWritable.onClose()](./terminal.terminalwritable.onclose.md) method, which is called by `close()`<!-- -->.
+The subclass provides its implementation via the the [TerminalWritable.onClose()](./terminal.terminalwritable.onclose.md) method, which is called by `close()`.
 
 If this method is called more than once, the additional calls are ignored; `TerminalWritable.onClose` will be called at most once.
-

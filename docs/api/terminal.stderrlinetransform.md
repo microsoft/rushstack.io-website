@@ -10,14 +10,14 @@ improve_this_button: false
 ## StderrLineTransform class
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-`StderrLineTransform` normalizes lines that mix characters from `stdout` and `stderr`<!-- -->, so that each output line is routed entirely to `stdout` or `stderr`<!-- -->.
+`StderrLineTransform` normalizes lines that mix characters from `stdout` and `stderr`, so that each output line is routed entirely to `stdout` or `stderr`.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class StderrLineTransform extends TerminalTransform 
+export declare class StderrLineTransform extends TerminalTransform
 ```
 <b>Extends:</b> [TerminalTransform](./terminal.terminaltransform.md)
 
@@ -45,7 +45,7 @@ An error occurred, cleaning up...
 The process completed with errors
 
 ```
-However, if we discard `stdout`<!-- -->, then `stderr` is malformed:
+However, if we discard `stdout`, then `stderr` is malformed:
 
 ```
 An error occurred, cleaning upThe process completed with errors
@@ -53,7 +53,7 @@ An error occurred, cleaning upThe process completed with errors
 ```
 Tooling scripts can introduce these sorts of problems via edge cases that are difficult to find and fix.
 
-`StderrLineTransform` normalizes the output so that if a combined line contains any `stderr` characters, then the entire line is routed to `stderr`<!-- -->. Later, if we discard `stdout`<!-- -->, then the output will preserve the appropriate context:
+`StderrLineTransform` normalizes the output so that if a combined line contains any `stderr` characters, then the entire line is routed to `stderr`. Later, if we discard `stdout`, then the output will preserve the appropriate context:
 
 ```
 An error occurred, cleaning up...
@@ -79,4 +79,3 @@ The process completed with errors
 |  --- | --- | --- |
 |  [onClose()](./terminal.stderrlinetransform.onclose.md) |  | <b><i>(BETA)</i></b> |
 |  [onWriteChunk(chunk)](./terminal.stderrlinetransform.onwritechunk.md) |  | <b><i>(BETA)</i></b> |
-

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.changePosixModeBits() method
 
-Changes the permissions (i.e. file mode bits) for a filesystem object. Behind the scenes it uses `fs.chmodSync()`<!-- -->.
+Changes the permissions (i.e. file mode bits) for a filesystem object. Behind the scenes it uses `fs.chmodSync()`.
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static changePosixModeBits(path: string, mode: PosixModeBits): void;
 <b>Returns:</b>
 
 void
-

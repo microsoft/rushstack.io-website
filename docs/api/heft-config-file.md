@@ -29,7 +29,7 @@ improve_this_button: false
 |  [IConfigurationFileOptions](./heft-config-file.iconfigurationfileoptions.md) | <b><i>(BETA)</i></b> |
 |  [ICustomPropertyInheritance](./heft-config-file.icustompropertyinheritance.md) | <b><i>(BETA)</i></b> |
 |  [IJsonPathMetadata](./heft-config-file.ijsonpathmetadata.md) | <b><i>(BETA)</i></b> Used to specify how node(s) in a JSON object should be processed after being loaded. |
-|  [IJsonPathsMetadata](./heft-config-file.ijsonpathsmetadata.md) | <b><i>(BETA)</i></b> Keys in this object are JSONPaths [https://jsonpath.com/](https://jsonpath.com/)<!-- -->, and values are objects that describe how node(s) selected by the JSONPath are processed after loading. |
+|  [IJsonPathsMetadata](./heft-config-file.ijsonpathsmetadata.md) | <b><i>(BETA)</i></b> Keys in this object are JSONPaths [https://jsonpath.com/](https://jsonpath.com/), and values are objects that describe how node(s) selected by the JSONPath are processed after loading. |
 |  [IOriginalValueOptions](./heft-config-file.ioriginalvalueoptions.md) | <b><i>(BETA)</i></b> |
 |  [IPropertyInheritance](./heft-config-file.ipropertyinheritance.md) | <b><i>(BETA)</i></b> |
 
@@ -39,4 +39,3 @@ improve_this_button: false
 |  --- | --- |
 |  [IPropertiesInheritance](./heft-config-file.ipropertiesinheritance.md) | <b><i>(BETA)</i></b> |
 |  [PropertyInheritanceCustomFunction](./heft-config-file.propertyinheritancecustomfunction.md) | <b><i>(BETA)</i></b> |
-

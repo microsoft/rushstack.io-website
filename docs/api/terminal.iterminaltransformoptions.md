@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ITerminalTransformOptions interface
 
-Constructor options for [TerminalTransform](./terminal.terminaltransform.md)<!-- -->.
+Constructor options for [TerminalTransform](./terminal.terminaltransform.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface ITerminalTransformOptions extends ITerminalWritableOptions 
+export interface ITerminalTransformOptions extends ITerminalWritableOptions
 ```
 <b>Extends:</b> [ITerminalWritableOptions](./terminal.iterminalwritableoptions.md)
 
@@ -24,4 +24,3 @@ export interface ITerminalTransformOptions extends ITerminalWritableOptions
 |  --- | --- | --- |
 |  [destination](./terminal.iterminaltransformoptions.destination.md) | [TerminalWritable](./terminal.terminalwritable.md) | The target <code>TerminalWritable</code> that the <code>TerminalTransform</code> will write its output to. |
 |  [preventDestinationAutoclose?](./terminal.iterminaltransformoptions.preventdestinationautoclose.md) | boolean | <i>(Optional)</i> Prevents the [TerminalTransform.destination](./terminal.terminaltransform.destination.md) object from being closed automatically when the transform is closed. |
-

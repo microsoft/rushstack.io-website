@@ -14,12 +14,12 @@ Operations for sorting collections.
 <b>Signature:</b>
 
 ```typescript
-export declare class Sort 
+export declare class Sort
 ```
 
 ## Remarks
 
-NOTE: Prior to Node 11.x, the `Array.sort()` algorithm is not guaranteed to be stable. For maximum compatibility, consider using [LegacyAdapters.sortStable()](./node-core-library.legacyadapters.sortstable.md) instead of `Array.sort()`<!-- -->.
+NOTE: Prior to Node 11.x, the `Array.sort()` algorithm is not guaranteed to be stable. For maximum compatibility, consider using [LegacyAdapters.sortStable()](./node-core-library.legacyadapters.sortstable.md) instead of `Array.sort()`.
 
 ## Methods
 
@@ -32,4 +32,3 @@ NOTE: Prior to Node 11.x, the `Array.sort()` algorithm is not guaranteed to be s
 |  [sortMapKeys(map, keyComparer)](./node-core-library.sort.sortmapkeys.md) | <code>static</code> | Sorts the entries in a Map object according to the map keys. The result is guaranteed to be a stable sort. |
 |  [sortSet(set, comparer)](./node-core-library.sort.sortset.md) | <code>static</code> | Sorts the entries in a Set object. The result is guaranteed to be a stable sort. |
 |  [sortSetBy(set, keySelector, keyComparer)](./node-core-library.sort.sortsetby.md) | <code>static</code> | Sorts the entries in a Set object according to the specified keys. The result is guaranteed to be a stable sort. |
-

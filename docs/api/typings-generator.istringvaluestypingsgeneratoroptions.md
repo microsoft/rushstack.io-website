@@ -13,9 +13,9 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface IStringValuesTypingsGeneratorOptions extends ITypingsGeneratorOptions<IStringValueTypings | undefined> 
+export interface IStringValuesTypingsGeneratorOptions extends ITypingsGeneratorOptions<IStringValueTypings | undefined>
 ```
-<b>Extends:</b> [ITypingsGeneratorOptions](./typings-generator.itypingsgeneratoroptions.md)<!-- -->&lt;[IStringValueTypings](./typings-generator.istringvaluetypings.md) \| undefined&gt;
+<b>Extends:</b> [ITypingsGeneratorOptions](./typings-generator.itypingsgeneratoroptions.md)&lt;[IStringValueTypings](./typings-generator.istringvaluetypings.md) \| undefined&gt;
 
 ## Properties
 
@@ -23,4 +23,3 @@ export interface IStringValuesTypingsGeneratorOptions extends ITypingsGeneratorO
 |  --- | --- | --- |
 |  [exportAsDefault?](./typings-generator.istringvaluestypingsgeneratoroptions.exportasdefault.md) | boolean | <i>(Optional)</i> Setting this option wraps the typings export in a default property. |
 |  [exportAsDefaultInterfaceName?](./typings-generator.istringvaluestypingsgeneratoroptions.exportasdefaultinterfacename.md) | string | <i>(Optional)</i> When <code>exportAsDefault</code> is true, this optional setting determines the interface name for the default wrapped export. Ignored when <code>exportAsDefault</code> is false. |
-

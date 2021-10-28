@@ -21,9 +21,8 @@ set logLevel(value: ExtractorLogLevel);
 
 ## Remarks
 
-If the [IExtractorInvokeOptions.messageCallback](./api-extractor.iextractorinvokeoptions.messagecallback.md) handles the message (i.e. sets `handled = true`<!-- -->), it can use the `logLevel` to determine how to display the message.
+If the [IExtractorInvokeOptions.messageCallback](./api-extractor.iextractorinvokeoptions.messagecallback.md) handles the message (i.e. sets `handled = true`), it can use the `logLevel` to determine how to display the message.
 
 Alternatively, if API Extractor is handling the message, the `messageCallback` could assign `logLevel` to change how it will be processed. However, in general the recommended practice is to configure message routing using the `messages` section in api-extractor.json.
 
-To discard a message entirely, assign `logLevel = none`<!-- -->.
-
+To discard a message entirely, assign `logLevel = none`.

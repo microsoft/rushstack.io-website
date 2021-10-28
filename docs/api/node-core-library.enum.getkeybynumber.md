@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## Enum.getKeyByNumber() method
 
-This API is similar to [Enum.tryGetKeyByNumber()](./node-core-library.enum.trygetkeybynumber.md)<!-- -->, except that it throws an exception if the key is undefined.
+This API is similar to [Enum.tryGetKeyByNumber()](./node-core-library.enum.trygetkeybynumber.md), except that it throws an exception if the key is undefined.
 
 <b>Signature:</b>
 
@@ -29,4 +29,3 @@ static getKeyByNumber<TEnumValue, TEnumObject extends {
 <b>Returns:</b>
 
 keyof typeof enumObject
-

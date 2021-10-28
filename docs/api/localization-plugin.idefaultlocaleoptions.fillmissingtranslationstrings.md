@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IDefaultLocaleOptions.fillMissingTranslationStrings property
 
-If this option is set to `true`<!-- -->, strings that are missing from `localizedData.translatedStrings` will be provided by the default locale
+If this option is set to `true`, strings that are missing from `localizedData.translatedStrings` will be provided by the default locale
 
 <b>Signature:</b>
 

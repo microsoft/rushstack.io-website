@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ExtractorLogLevel enum
 
-Used with [IConfigMessageReportingRule.logLevel](./api-extractor.iconfigmessagereportingrule.loglevel.md) and [IExtractorInvokeOptions.messageCallback](./api-extractor.iextractorinvokeoptions.messagecallback.md)<!-- -->.
+Used with [IConfigMessageReportingRule.logLevel](./api-extractor.iconfigmessagereportingrule.loglevel.md) and [IExtractorInvokeOptions.messageCallback](./api-extractor.iextractorinvokeoptions.messagecallback.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare const enum ExtractorLogLevel 
+export declare const enum ExtractorLogLevel
 ```
 
 ## Enumeration Members
@@ -30,4 +30,3 @@ export declare const enum ExtractorLogLevel
 ## Remarks
 
 This is part of the [IConfigFile](./api-extractor.iconfigfile.md) structure.
-

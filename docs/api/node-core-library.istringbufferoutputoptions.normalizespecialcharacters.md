@@ -10,9 +10,9 @@ improve_this_button: false
 ## IStringBufferOutputOptions.normalizeSpecialCharacters property
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-If set to true, special characters like \\<!-- -->n, \\<!-- -->r, and the \\<!-- -->u001b character in color control tokens will get normalized to \[-n-\], \[-r-\], and \[-x-\] respectively
+If set to true, special characters like \\n, \\r, and the \\u001b character in color control tokens will get normalized to \[-n-\], \[-r-\], and \[-x-\] respectively
 
 This option defaults to `true`
 

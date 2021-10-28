@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IResolveDeclarationReferenceResult interface
 
-Result object for [ApiModel.resolveDeclarationReference()](./api-extractor-model.apimodel.resolvedeclarationreference.md)<!-- -->.
+Result object for [ApiModel.resolveDeclarationReference()](./api-extractor-model.apimodel.resolvedeclarationreference.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IResolveDeclarationReferenceResult 
+export interface IResolveDeclarationReferenceResult
 ```
 
 ## Properties
@@ -23,4 +23,3 @@ export interface IResolveDeclarationReferenceResult
 |  --- | --- | --- |
 |  [errorMessage](./api-extractor-model.iresolvedeclarationreferenceresult.errormessage.md) | string \| undefined | If resolvedApiItem is undefined, then this will always contain an error message explaining why the resolution failed. |
 |  [resolvedApiItem](./api-extractor-model.iresolvedeclarationreferenceresult.resolvedapiitem.md) | [ApiItem](./api-extractor-model.apiitem.md) \| undefined | The referenced ApiItem, if the declaration reference could be resolved. |
-

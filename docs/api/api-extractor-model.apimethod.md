@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## ApiMethod class
 
-Represents a TypeScript member function declaration that belongs to an `ApiClass`<!-- -->.
+Represents a TypeScript member function declaration that belongs to an `ApiClass`.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class ApiMethod extends ApiMethod_base 
+export declare class ApiMethod extends ApiMethod_base
 ```
 <b>Extends:</b> ApiMethod\_base
 
@@ -30,7 +30,7 @@ export class Widget {
 }
 
 ```
-Compare with [ApiMethodSignature](./api-extractor-model.apimethodsignature.md)<!-- -->, which represents a method belonging to an interface. For example, a class method can be `static` but an interface method cannot.
+Compare with [ApiMethodSignature](./api-extractor-model.apimethodsignature.md), which represents a method belonging to an interface. For example, a class method can be `static` but an interface method cannot.
 
 ## Constructors
 
@@ -51,4 +51,3 @@ Compare with [ApiMethodSignature](./api-extractor-model.apimethodsignature.md)<!
 |  --- | --- | --- |
 |  [buildCanonicalReference()](./api-extractor-model.apimethod.buildcanonicalreference.md) |  | <b><i>(BETA)</i></b> |
 |  [getContainerKey(name, isStatic, overloadIndex)](./api-extractor-model.apimethod.getcontainerkey.md) | <code>static</code> |  |
-

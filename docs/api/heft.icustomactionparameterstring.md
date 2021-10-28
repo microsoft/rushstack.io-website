@@ -10,19 +10,18 @@ improve_this_button: false
 ## ICustomActionParameterString interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 
 <b>Signature:</b>
 
 ```typescript
-export interface ICustomActionParameterString extends ICustomActionParameterBase<string> 
+export interface ICustomActionParameterString extends ICustomActionParameterBase<string>
 ```
-<b>Extends:</b> [ICustomActionParameterBase](./heft.icustomactionparameterbase.md)<!-- -->&lt;string&gt;
+<b>Extends:</b> [ICustomActionParameterBase](./heft.icustomactionparameterbase.md)&lt;string&gt;
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [kind](./heft.icustomactionparameterstring.kind.md) | 'string' | <b><i>(BETA)</i></b> |
-

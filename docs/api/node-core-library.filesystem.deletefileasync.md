@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.deleteFileAsync() method
 
-An async version of [FileSystem.deleteFile()](./node-core-library.filesystem.deletefile.md)<!-- -->.
+An async version of [FileSystem.deleteFile()](./node-core-library.filesystem.deletefile.md).
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static deleteFileAsync(filePath: string, options?: IFileSystemDeleteFileOptions)
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

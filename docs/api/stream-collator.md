@@ -13,7 +13,7 @@ This library enables a tool to display live console output from multiple concurr
 
 ## Remarks
 
-For more info, please see the package [README](https://www.npmjs.com/package/@rushstack/stream-collator)<!-- -->.
+For more info, please see the package [README](https://www.npmjs.com/package/@rushstack/stream-collator).
 
 ## Classes
 
@@ -27,5 +27,4 @@ For more info, please see the package [README](https://www.npmjs.com/package/@ru
 
 |  Interface | Description |
 |  --- | --- |
-|  [IStreamCollatorOptions](./stream-collator.istreamcollatoroptions.md) | <b><i>(BETA)</i></b> Constructor options for [StreamCollator](./stream-collator.streamcollator.md)<!-- -->. |
-
+|  [IStreamCollatorOptions](./stream-collator.istreamcollatoroptions.md) | <b><i>(BETA)</i></b> Constructor options for [StreamCollator](./stream-collator.streamcollator.md). |

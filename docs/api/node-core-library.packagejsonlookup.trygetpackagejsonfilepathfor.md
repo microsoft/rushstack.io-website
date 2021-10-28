@@ -31,5 +31,4 @@ an absolute path to \* package.json file
 
 ## Remarks
 
-The package folder is determined using the same algorithm as [PackageJsonLookup.tryGetPackageFolderFor()](./node-core-library.packagejsonlookup.trygetpackagefolderfor.md)<!-- -->.
-
+The package folder is determined using the same algorithm as [PackageJsonLookup.tryGetPackageFolderFor()](./node-core-library.packagejsonlookup.trygetpackagefolderfor.md).

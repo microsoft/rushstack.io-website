@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.ensureFolder() method
 
-Recursively creates a folder at a given path. Behind the scenes is uses `fs-extra.ensureDirSync()`<!-- -->.
+Recursively creates a folder at a given path. Behind the scenes is uses `fs-extra.ensureDirSync()`.
 
 <b>Signature:</b>
 
@@ -30,4 +30,3 @@ void
 ## Remarks
 
 Throws an exception if anything in the folderPath is not a folder.
-

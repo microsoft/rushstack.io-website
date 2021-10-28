@@ -19,5 +19,4 @@ readonly releaseTag: ReleaseTag;
 
 ## Remarks
 
-For example, an `ApiEnumMember` may inherit its release tag from the containing `ApiEnum`<!-- -->.
-
+For example, an `ApiEnumMember` may inherit its release tag from the containing `ApiEnum`.

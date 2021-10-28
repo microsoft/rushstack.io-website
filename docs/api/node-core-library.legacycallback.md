@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## LegacyCallback type
 
-Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md)<!-- -->.
+Callback used by [LegacyAdapters](./node-core-library.legacyadapters.md).
 
 <b>Signature:</b>
 

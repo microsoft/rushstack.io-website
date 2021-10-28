@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## CommandLineFlagParameter class
 
-The data type returned by [CommandLineParameterProvider.defineFlagParameter()](./ts-command-line.commandlineparameterprovider.defineflagparameter.md)<!-- -->.
+The data type returned by [CommandLineParameterProvider.defineFlagParameter()](./ts-command-line.commandlineparameterprovider.defineflagparameter.md).
 
 <b>Signature:</b>
 
 ```typescript
-export declare class CommandLineFlagParameter extends CommandLineParameter 
+export declare class CommandLineFlagParameter extends CommandLineParameter
 ```
 <b>Extends:</b> [CommandLineParameter](./ts-command-line.commandlineparameter.md)
 
@@ -34,4 +34,3 @@ The constructor for this class is marked as internal. Third-party code should no
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
 |  [appendToArgList(argList)](./ts-command-line.commandlineflagparameter.appendtoarglist.md) |  | Append the parsed values to the provided string array. |
-

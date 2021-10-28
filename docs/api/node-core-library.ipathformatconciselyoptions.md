@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IPathFormatConciselyOptions interface
 
-Options for [Path.formatConcisely()](./node-core-library.path.formatconcisely.md)<!-- -->.
+Options for [Path.formatConcisely()](./node-core-library.path.formatconcisely.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IPathFormatConciselyOptions 
+export interface IPathFormatConciselyOptions
 ```
 
 ## Properties
@@ -23,4 +23,3 @@ export interface IPathFormatConciselyOptions
 |  --- | --- | --- |
 |  [baseFolder](./node-core-library.ipathformatconciselyoptions.basefolder.md) | string | The base path to use when converting <code>pathToConvert</code> to a relative path. |
 |  [pathToConvert](./node-core-library.ipathformatconciselyoptions.pathtoconvert.md) | string | The path to be converted. |
-

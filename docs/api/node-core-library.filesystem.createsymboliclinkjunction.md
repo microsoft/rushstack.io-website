@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.createSymbolicLinkJunction() method
 
-Creates a Windows "directory junction". Behaves like `createSymbolicLinkToFile()` on other platforms. Behind the scenes it uses `fs.symlinkSync()`<!-- -->.
+Creates a Windows "directory junction". Behaves like `createSymbolicLinkToFile()` on other platforms. Behind the scenes it uses `fs.symlinkSync()`.
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static createSymbolicLinkJunction(options: IFileSystemCreateLinkOptions): void;
 <b>Returns:</b>
 
 void
-

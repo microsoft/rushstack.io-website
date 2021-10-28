@@ -14,7 +14,7 @@ Options for [Import.resolveModule()](./node-core-library.import.resolvemodule.md
 <b>Signature:</b>
 
 ```typescript
-export interface IImportResolveModuleOptions extends IImportResolveOptions 
+export interface IImportResolveModuleOptions extends IImportResolveOptions
 ```
 <b>Extends:</b> [IImportResolveOptions](./node-core-library.iimportresolveoptions.md)
 
@@ -22,5 +22,4 @@ export interface IImportResolveModuleOptions extends IImportResolveOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [modulePath](./node-core-library.iimportresolvemoduleoptions.modulepath.md) | string | The module identifier to resolve. For example "<!-- -->@<!-- -->rushstack/node-core-library" or "<!-- -->@<!-- -->rushstack/node-core-library/lib/index.js" |
-
+|  [modulePath](./node-core-library.iimportresolvemoduleoptions.modulepath.md) | string | The module identifier to resolve. For example "@rushstack/node-core-library" or "@rushstack/node-core-library/lib/index.js" |

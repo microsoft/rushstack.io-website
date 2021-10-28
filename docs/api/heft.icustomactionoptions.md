@@ -10,13 +10,13 @@ improve_this_button: false
 ## ICustomActionOptions interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
 
 <b>Signature:</b>
 
 ```typescript
-export interface ICustomActionOptions<TParameters> 
+export interface ICustomActionOptions<TParameters>
 ```
 
 ## Properties
@@ -26,6 +26,5 @@ export interface ICustomActionOptions<TParameters>
 |  [actionName](./heft.icustomactionoptions.actionname.md) | string | <b><i>(BETA)</i></b> |
 |  [callback](./heft.icustomactionoptions.callback.md) | (parameters: TParameters) =&gt; void \| Promise&lt;void&gt; | <b><i>(BETA)</i></b> |
 |  [documentation](./heft.icustomactionoptions.documentation.md) | string | <b><i>(BETA)</i></b> |
-|  [parameters?](./heft.icustomactionoptions.parameters.md) | { \[K in keyof TParameters\]: [ICustomActionParameter](./heft.icustomactionparameter.md)<!-- -->&lt;TParameters\[K\]&gt;; } | <b><i>(BETA)</i></b> <i>(Optional)</i> |
+|  [parameters?](./heft.icustomactionoptions.parameters.md) | { \[K in keyof TParameters\]: [ICustomActionParameter](./heft.icustomactionparameter.md)&lt;TParameters\[K\]&gt;; } | <b><i>(BETA)</i></b> <i>(Optional)</i> |
 |  [summary?](./heft.icustomactionoptions.summary.md) | string | <b><i>(BETA)</i></b> <i>(Optional)</i> |
-

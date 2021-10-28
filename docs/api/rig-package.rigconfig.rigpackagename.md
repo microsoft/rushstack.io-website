@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RigConfig.rigPackageName property
 
-The `"rigPackageName"` field from `rig.json`<!-- -->, or `""` if the file was not found.
+The `"rigPackageName"` field from `rig.json`, or `""` if the file was not found.
 
 <b>Signature:</b>
 
@@ -22,4 +22,3 @@ readonly rigPackageName: string;
 The name must be a valid NPM package name, and must end with the `-rig` suffix.
 
 Example: `example-rig`
-

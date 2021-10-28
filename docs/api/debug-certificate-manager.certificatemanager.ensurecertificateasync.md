@@ -26,5 +26,4 @@ ensureCertificateAsync(canGenerateNewCertificate: boolean, terminal: Terminal): 
 
 <b>Returns:</b>
 
-Promise&lt;[ICertificate](./debug-certificate-manager.icertificate.md)<!-- -->&gt;
-
+Promise&lt;[ICertificate](./debug-certificate-manager.icertificate.md)&gt;

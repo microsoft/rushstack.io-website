@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IJsonFileStringifyOptions.newlineConversion property
 
-If provided, the specified newline type will be used instead of the default `\r\n`<!-- -->.
+If provided, the specified newline type will be used instead of the default `\r\n`.
 
 <b>Signature:</b>
 

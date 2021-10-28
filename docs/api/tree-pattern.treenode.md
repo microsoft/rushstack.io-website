@@ -19,5 +19,4 @@ export declare type TreeNode = any;
 
 ## Remarks
 
-Since `TreePattern` makes relatively few assumptions object the object structure, this is just an alias for `any`<!-- -->. At least as far as the portions to be matched, the tree nodes are expected to be JSON-like structures made from JavaScript arrays, JavaScript objects, and primitive values that can be compared using `===`<!-- -->.
-
+Since `TreePattern` makes relatively few assumptions object the object structure, this is just an alias for `any`. At least as far as the portions to be matched, the tree nodes are expected to be JSON-like structures made from JavaScript arrays, JavaScript objects, and primitive values that can be compared using `===`.

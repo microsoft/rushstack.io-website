@@ -9,18 +9,17 @@ improve_this_button: false
 
 ## IApiPropertyItemOptions interface
 
-Constructor options for [ApiPropertyItem](./api-extractor-model.apipropertyitem.md)<!-- -->.
+Constructor options for [ApiPropertyItem](./api-extractor-model.apipropertyitem.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiPropertyItemOptions extends IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiOptionalMixinOptions, IApiDeclaredItemOptions 
+export interface IApiPropertyItemOptions extends IApiNameMixinOptions, IApiReleaseTagMixinOptions, IApiOptionalMixinOptions, IApiDeclaredItemOptions
 ```
-<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiOptionalMixinOptions](./api-extractor-model.iapioptionalmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
+<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md), [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md), [IApiOptionalMixinOptions](./api-extractor-model.iapioptionalmixinoptions.md), [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [propertyTypeTokenRange](./api-extractor-model.iapipropertyitemoptions.propertytypetokenrange.md) | [IExcerptTokenRange](./api-extractor-model.iexcerpttokenrange.md) |  |
-

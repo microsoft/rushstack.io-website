@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ITreePatternCaptureSet type
 
-Provides additional detail about the success or failure of [TreePattern.match()](./tree-pattern.treepattern.match.md)<!-- -->.
+Provides additional detail about the success or failure of [TreePattern.match()](./tree-pattern.treepattern.match.md).
 
 <b>Signature:</b>
 
@@ -24,7 +24,6 @@ export declare type ITreePatternCaptureSet = {
 
 ## Remarks
 
-On success, the object will contain keys for any successfully matched tags, as defined using [TreePattern.tag()](./tree-pattern.treepattern.tag.md)<!-- -->.
+On success, the object will contain keys for any successfully matched tags, as defined using [TreePattern.tag()](./tree-pattern.treepattern.tag.md).
 
 On failure, the `failPath` member will indicate the JSON path of the node that failed to match.
-

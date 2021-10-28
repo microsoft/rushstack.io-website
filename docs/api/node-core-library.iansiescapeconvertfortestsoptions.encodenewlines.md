@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## IAnsiEscapeConvertForTestsOptions.encodeNewlines property
 
-If true then `\n` will be replaced by `[n]`<!-- -->, and `\r` will be replaced by `[r]`<!-- -->.
+If true then `\n` will be replaced by `[n]`, and `\r` will be replaced by `[r]`.
 
 <b>Signature:</b>
 

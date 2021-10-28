@@ -14,7 +14,7 @@ Hooks provided by the ModuleMinifierPlugin
 <b>Signature:</b>
 
 ```typescript
-export interface IModuleMinifierPluginHooks 
+export interface IModuleMinifierPluginHooks
 ```
 
 ## Properties
@@ -23,5 +23,4 @@ export interface IModuleMinifierPluginHooks
 |  --- | --- | --- |
 |  [finalModuleId](./module-minifier-plugin.imoduleminifierpluginhooks.finalmoduleid.md) | SyncWaterfallHook&lt;string \| number \| undefined&gt; | Hook invoked on a module id to get the final rendered id. |
 |  [postProcessCodeFragment](./module-minifier-plugin.imoduleminifierpluginhooks.postprocesscodefragment.md) | SyncWaterfallHook&lt;ReplaceSource, string&gt; | Hook invoked on code after it has been returned from the minifier. |
-|  [rehydrateAssets](./module-minifier-plugin.imoduleminifierpluginhooks.rehydrateassets.md) | AsyncSeriesWaterfallHook&lt;[IDehydratedAssets](./module-minifier-plugin.idehydratedassets.md)<!-- -->, webpack.compilation.Compilation&gt; | Hook invoked at the start of optimizeChunkAssets to rehydrate the minified boilerplate and runtime into chunk assets. |
-
+|  [rehydrateAssets](./module-minifier-plugin.imoduleminifierpluginhooks.rehydrateassets.md) | AsyncSeriesWaterfallHook&lt;[IDehydratedAssets](./module-minifier-plugin.idehydratedassets.md), webpack.compilation.Compilation&gt; | Hook invoked at the start of optimizeChunkAssets to rehydrate the minified boilerplate and runtime into chunk assets. |

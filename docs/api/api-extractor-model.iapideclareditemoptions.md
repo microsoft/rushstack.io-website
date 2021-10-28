@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## IApiDeclaredItemOptions interface
 
-Constructor options for [ApiDeclaredItem](./api-extractor-model.apideclareditem.md)<!-- -->.
+Constructor options for [ApiDeclaredItem](./api-extractor-model.apideclareditem.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiDeclaredItemOptions extends IApiDocumentedItemOptions 
+export interface IApiDeclaredItemOptions extends IApiDocumentedItemOptions
 ```
 <b>Extends:</b> [IApiDocumentedItemOptions](./api-extractor-model.iapidocumenteditemoptions.md)
 
@@ -22,5 +22,4 @@ export interface IApiDeclaredItemOptions extends IApiDocumentedItemOptions
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [excerptTokens](./api-extractor-model.iapideclareditemoptions.excerpttokens.md) | [IExcerptToken](./api-extractor-model.iexcerpttoken.md)<!-- -->\[\] |  |
-
+|  [excerptTokens](./api-extractor-model.iapideclareditemoptions.excerpttokens.md) | [IExcerptToken](./api-extractor-model.iexcerpttoken.md)\[\] |  |

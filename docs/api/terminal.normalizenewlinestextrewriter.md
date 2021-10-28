@@ -9,12 +9,12 @@ improve_this_button: false
 
 ## NormalizeNewlinesTextRewriter class
 
-For use with [TextRewriterTransform](./terminal.textrewritertransform.md)<!-- -->, this rewriter converts all newlines to a standard format.
+For use with [TextRewriterTransform](./terminal.textrewritertransform.md), this rewriter converts all newlines to a standard format.
 
 <b>Signature:</b>
 
 ```typescript
-export declare class NormalizeNewlinesTextRewriter extends TextRewriter 
+export declare class NormalizeNewlinesTextRewriter extends TextRewriter
 ```
 <b>Extends:</b> [TextRewriter](./terminal.textrewriter.md)
 
@@ -39,4 +39,3 @@ export declare class NormalizeNewlinesTextRewriter extends TextRewriter
 |  [close(unknownState)](./terminal.normalizenewlinestextrewriter.close.md) |  |  |
 |  [initialize()](./terminal.normalizenewlinestextrewriter.initialize.md) |  |  |
 |  [process(unknownState, text)](./terminal.normalizenewlinestextrewriter.process.md) |  |  |
-

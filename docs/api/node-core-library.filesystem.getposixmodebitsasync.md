@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.getPosixModeBitsAsync() method
 
-An async version of [FileSystem.getPosixModeBits()](./node-core-library.filesystem.getposixmodebits.md)<!-- -->.
+An async version of [FileSystem.getPosixModeBits()](./node-core-library.filesystem.getposixmodebits.md).
 
 <b>Signature:</b>
 
@@ -25,5 +25,4 @@ static getPosixModeBitsAsync(path: string): Promise<PosixModeBits>;
 
 <b>Returns:</b>
 
-Promise&lt;[PosixModeBits](./node-core-library.posixmodebits.md)<!-- -->&gt;
-
+Promise&lt;[PosixModeBits](./node-core-library.posixmodebits.md)&gt;

@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## ApiDeclaredItem.getExcerptWithModifiers() method
 
-If the API item has certain important modifier tags such as `@sealed`<!-- -->, `@virtual`<!-- -->, or `@override`<!-- -->, this prepends them as a doc comment above the excerpt.
+If the API item has certain important modifier tags such as `@sealed`, `@virtual`, or `@override`, this prepends them as a doc comment above the excerpt.
 
 <b>Signature:</b>
 
@@ -19,4 +19,3 @@ getExcerptWithModifiers(): string;
 <b>Returns:</b>
 
 string
-

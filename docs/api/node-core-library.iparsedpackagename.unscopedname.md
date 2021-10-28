@@ -19,5 +19,4 @@ unscopedName: string;
 
 ## Remarks
 
-For example, if the parsed input was "<!-- -->@<!-- -->scope/example", then the name would be "example".
-
+For example, if the parsed input was "@scope/example", then the name would be "example".

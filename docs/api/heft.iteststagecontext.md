@@ -13,7 +13,6 @@ improve_this_button: false
 <b>Signature:</b>
 
 ```typescript
-export interface ITestStageContext extends IStageContext<TestStageHooks, ITestStageProperties> 
+export interface ITestStageContext extends IStageContext<TestStageHooks, ITestStageProperties>
 ```
-<b>Extends:</b> [IStageContext](./heft.istagecontext.md)<!-- -->&lt;[TestStageHooks](./heft.teststagehooks.md)<!-- -->, [ITestStageProperties](./heft.iteststageproperties.md)<!-- -->&gt;
-
+<b>Extends:</b> [IStageContext](./heft.istagecontext.md)&lt;[TestStageHooks](./heft.teststagehooks.md), [ITestStageProperties](./heft.iteststageproperties.md)&gt;

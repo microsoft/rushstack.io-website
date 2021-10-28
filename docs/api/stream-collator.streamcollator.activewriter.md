@@ -10,9 +10,9 @@ improve_this_button: false
 ## StreamCollator.activeWriter property
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-Returns the currently active `CollatedWriter`<!-- -->, or `undefined` if no writer is active yet.
+Returns the currently active `CollatedWriter`, or `undefined` if no writer is active yet.
 
 <b>Signature:</b>
 

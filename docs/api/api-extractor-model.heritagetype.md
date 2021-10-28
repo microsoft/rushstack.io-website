@@ -14,7 +14,7 @@ Represents a type referenced via an "extends" or "implements" heritage clause fo
 <b>Signature:</b>
 
 ```typescript
-export declare class HeritageType 
+export declare class HeritageType
 ```
 
 ## Remarks
@@ -27,7 +27,7 @@ export class Widget extends Controls.WidgetBase implements Controls.IWidget, IDi
 }
 
 ```
-The heritage types are `Controls.WidgetBase`<!-- -->, `Controls.IWidget`<!-- -->, and `IDisposable`<!-- -->.
+The heritage types are `Controls.WidgetBase`, `Controls.IWidget`, and `IDisposable`.
 
 ## Constructors
 
@@ -40,4 +40,3 @@ The heritage types are `Controls.WidgetBase`<!-- -->, `Controls.IWidget`<!-- -->
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
 |  [excerpt](./api-extractor-model.heritagetype.excerpt.md) |  | [Excerpt](./api-extractor-model.excerpt.md) | An excerpt corresponding to the referenced type. |
-

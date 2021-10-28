@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.createHardLinkAsync() method
 
-An async version of [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md)<!-- -->.
+An async version of [FileSystem.createHardLink()](./node-core-library.filesystem.createhardlink.md).
 
 <b>Signature:</b>
 
@@ -26,4 +26,3 @@ static createHardLinkAsync(options: IFileSystemCreateLinkOptions): Promise<void>
 <b>Returns:</b>
 
 Promise&lt;void&gt;
-

@@ -31,5 +31,4 @@ an IPackageJson object, or undefined if the fileOrFolderPath does not belong to 
 
 ## Remarks
 
-The package folder is determined using the same algorithm as [PackageJsonLookup.tryGetPackageFolderFor()](./node-core-library.packagejsonlookup.trygetpackagefolderfor.md)<!-- -->.
-
+The package folder is determined using the same algorithm as [PackageJsonLookup.tryGetPackageFolderFor()](./node-core-library.packagejsonlookup.trygetpackagefolderfor.md).

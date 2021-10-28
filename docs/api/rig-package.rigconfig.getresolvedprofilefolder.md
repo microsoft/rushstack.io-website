@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RigConfig.getResolvedProfileFolder() method
 
-Performs Node.js module resolution to locate the rig package folder, then returns the absolute path of the rig profile folder specified by `rig.json`<!-- -->.
+Performs Node.js module resolution to locate the rig package folder, then returns the absolute path of the rig profile folder specified by `rig.json`.
 
 <b>Signature:</b>
 
@@ -25,4 +25,3 @@ string
 If no `rig.json` file was found, then this method throws an error. The first time this method is called, the result is cached and will be returned by all subsequent calls.
 
 Example: `/path/to/your-project/node_modules/example-rig/profiles/example-profile`
-

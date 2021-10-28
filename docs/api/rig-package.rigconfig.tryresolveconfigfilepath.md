@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RigConfig.tryResolveConfigFilePath() method
 
-This lookup first checks for the specified relative path under `projectFolderPath`<!-- -->; if it does not exist there, then it checks in the resolved rig profile folder. If the file is found, its absolute path is returned. Otherwise, `undefined` is returned.
+This lookup first checks for the specified relative path under `projectFolderPath`; if it does not exist there, then it checks in the resolved rig profile folder. If the file is found, its absolute path is returned. Otherwise, `undefined` is returned.
 
 <b>Signature:</b>
 
@@ -33,9 +33,8 @@ For example, suppose the rig profile is:
 
 `/path/to/your-project/node_modules/example-rig/profiles/example-profile`
 
-And suppose `configFileRelativePath` is `folder/file.json`<!-- -->. Then the following locations will be checked:
+And suppose `configFileRelativePath` is `folder/file.json`. Then the following locations will be checked:
 
 `/path/to/your-project/folder/file.json`
 
 `/path/to/your-project/node_modules/example-rig/profiles/example-profile/folder/file.json`
-

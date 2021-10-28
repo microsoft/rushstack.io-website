@@ -10,14 +10,14 @@ improve_this_button: false
 ## IStreamCollatorOptions interface
 
 > This API is provided as a preview for developers and may change based on feedback that we receive. Do not use this API in a production environment.
-> 
+>
 
-Constructor options for [StreamCollator](./stream-collator.streamcollator.md)<!-- -->.
+Constructor options for [StreamCollator](./stream-collator.streamcollator.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IStreamCollatorOptions 
+export interface IStreamCollatorOptions
 ```
 
 ## Properties
@@ -25,5 +25,4 @@ export interface IStreamCollatorOptions
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [destination](./stream-collator.istreamcollatoroptions.destination.md) | [TerminalWritable](./terminal.terminalwritable.md) | <b><i>(BETA)</i></b> The target [TerminalWritable](./terminal.terminalwritable.md) object that the [StreamCollator](./stream-collator.streamcollator.md) will write its output to. |
-|  [onWriterActive?](./stream-collator.istreamcollatoroptions.onwriteractive.md) | (writer: [CollatedWriter](./stream-collator.collatedwriter.md)<!-- -->) =&gt; void | <b><i>(BETA)</i></b> <i>(Optional)</i> An event handler that is called when a [CollatedWriter](./stream-collator.collatedwriter.md) becomes output, before any of its chunks have been written to the destination. |
-
+|  [onWriterActive?](./stream-collator.istreamcollatoroptions.onwriteractive.md) | (writer: [CollatedWriter](./stream-collator.collatedwriter.md)) =&gt; void | <b><i>(BETA)</i></b> <i>(Optional)</i> An event handler that is called when a [CollatedWriter](./stream-collator.collatedwriter.md) becomes output, before any of its chunks have been written to the destination. |

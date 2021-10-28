@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## RigConfig.projectFolderOriginalPath property
 
-The project folder path that was passed to [RigConfig.loadForProjectFolder()](./rig-package.rigconfig.loadforprojectfolder.md)<!-- -->, which maybe an absolute or relative path.
+The project folder path that was passed to [RigConfig.loadForProjectFolder()](./rig-package.rigconfig.loadforprojectfolder.md), which maybe an absolute or relative path.
 
 <b>Signature:</b>
 
@@ -20,4 +20,3 @@ readonly projectFolderOriginalPath: string;
 ## Remarks
 
 Example: `.`
-

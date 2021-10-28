@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.readFolderAsync() method
 
-An async version of [FileSystem.readFolder()](./node-core-library.filesystem.readfolder.md)<!-- -->.
+An async version of [FileSystem.readFolder()](./node-core-library.filesystem.readfolder.md).
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static readFolderAsync(folderPath: string, options?: IFileSystemReadFolderOption
 <b>Returns:</b>
 
 Promise&lt;string\[\]&gt;
-

@@ -19,5 +19,4 @@ static breakInDebugger: boolean;
 
 ## Remarks
 
-Generally applications should not be catching and ignoring an `InternalError`<!-- -->. Instead, the error should be reported and typically the application will terminate. Thus, if `InternalError` is constructed, it's almost always something we want to examine in a debugger.
-
+Generally applications should not be catching and ignoring an `InternalError`. Instead, the error should be reported and typically the application will terminate. Thus, if `InternalError` is constructed, it's almost always something we want to examine in a debugger.

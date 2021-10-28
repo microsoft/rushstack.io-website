@@ -9,12 +9,11 @@ improve_this_button: false
 
 ## IApiMethodOptions interface
 
-Constructor options for [ApiMethod](./api-extractor-model.apimethod.md)<!-- -->.
+Constructor options for [ApiMethod](./api-extractor-model.apimethod.md).
 
 <b>Signature:</b>
 
 ```typescript
-export interface IApiMethodOptions extends IApiNameMixinOptions, IApiTypeParameterListMixinOptions, IApiParameterListMixinOptions, IApiReleaseTagMixinOptions, IApiReturnTypeMixinOptions, IApiStaticMixinOptions, IApiOptionalMixinOptions, IApiDeclaredItemOptions 
+export interface IApiMethodOptions extends IApiNameMixinOptions, IApiTypeParameterListMixinOptions, IApiParameterListMixinOptions, IApiReleaseTagMixinOptions, IApiReturnTypeMixinOptions, IApiStaticMixinOptions, IApiOptionalMixinOptions, IApiDeclaredItemOptions
 ```
-<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md)<!-- -->, [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md)<!-- -->, [IApiParameterListMixinOptions](./api-extractor-model.iapiparameterlistmixinoptions.md)<!-- -->, [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md)<!-- -->, [IApiReturnTypeMixinOptions](./api-extractor-model.iapireturntypemixinoptions.md)<!-- -->, [IApiStaticMixinOptions](./api-extractor-model.iapistaticmixinoptions.md)<!-- -->, [IApiOptionalMixinOptions](./api-extractor-model.iapioptionalmixinoptions.md)<!-- -->, [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)
-
+<b>Extends:</b> [IApiNameMixinOptions](./api-extractor-model.iapinamemixinoptions.md), [IApiTypeParameterListMixinOptions](./api-extractor-model.iapitypeparameterlistmixinoptions.md), [IApiParameterListMixinOptions](./api-extractor-model.iapiparameterlistmixinoptions.md), [IApiReleaseTagMixinOptions](./api-extractor-model.iapireleasetagmixinoptions.md), [IApiReturnTypeMixinOptions](./api-extractor-model.iapireturntypemixinoptions.md), [IApiStaticMixinOptions](./api-extractor-model.iapistaticmixinoptions.md), [IApiOptionalMixinOptions](./api-extractor-model.iapioptionalmixinoptions.md), [IApiDeclaredItemOptions](./api-extractor-model.iapideclareditemoptions.md)

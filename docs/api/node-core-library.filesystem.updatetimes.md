@@ -9,7 +9,7 @@ improve_this_button: false
 
 ## FileSystem.updateTimes() method
 
-Updates the accessed and modified timestamps of the filesystem object referenced by path. Behind the scenes it uses `fs.utimesSync()`<!-- -->. The caller should specify both times in the `times` parameter.
+Updates the accessed and modified timestamps of the filesystem object referenced by path. Behind the scenes it uses `fs.utimesSync()`. The caller should specify both times in the `times` parameter.
 
 <b>Signature:</b>
 
@@ -27,4 +27,3 @@ static updateTimes(path: string, times: IFileSystemUpdateTimeParameters): void;
 <b>Returns:</b>
 
 void
-
