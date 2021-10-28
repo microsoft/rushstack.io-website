@@ -68,7 +68,7 @@ const sidebars = {
         {
           type: 'doc',
           label: 'api-extractor',
-          id: 'heft_tasks/api-extractor'
+          id: 'heft_tasks/api-extractor',
         },
         {
           type: 'doc',

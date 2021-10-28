@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  /* Default Docusaurus theme */
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -14,6 +15,18 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+
+  /*
+   * Rushstack colors obtained by rotating each color -150 degrees Hue.
+   * Scientifically correct, but not guaranteed to look "good".
+   */
+  --ifm-color-primary: #c25125;
+  --ifm-color-primary-dark: rgb(176, 74, 33);
+  --ifm-color-primary-darker: rgb(166, 70, 31);
+  --ifm-color-primary-darkest: rgb(135, 57, 26);
+  --ifm-color-primary-light: rgb(204, 107, 69);
+  --ifm-color-primary-lighter: rgb(212, 133, 102);
+  --ifm-color-primary-lightest: rgb(224, 168, 146);
 }
 
 .docusaurus-highlight-code-line {
@@ -25,4 +38,21 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*
+ * Rush CSS overrides:
+ *
+ * Reduce font size of left sidebar to 80% of default.
+ * Reduce font size of main pane (both article and TOC) to 90% of default.
+ * Bold category headers.
+ */
+ul.theme-doc-sidebar-menu {
+  font-size: 0.8em;
+}
+main {
+  font-size: 0.9em;
+}
+li.theme-doc-sidebar-item-category > a {
+  font-weight: 700;
 }
