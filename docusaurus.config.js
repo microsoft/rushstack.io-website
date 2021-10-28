@@ -10,8 +10,13 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  // TOOD: Discover and fix all broken links before we deploy.
+  // TODO: Decide if we want broken links to actually fail deployment
+  // (potentially long turn-around time?).
+  onBrokenLinks: 'log', //'throw',
+  onBrokenMarkdownLinks: 'log', //'warn',
+
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
@@ -120,10 +125,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
