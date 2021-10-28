@@ -1,26 +1,45 @@
-# Getting Started
+# rushstack.io-website
 
-## Dependencies
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-To run this site locally, you'll first need the following dependencies:
+## Getting Started
 
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Bundler](https://bundler.io/)
-* [Jekyll](https://jekyllrb.com/)
+### Installation
 
-## Run Locally
+```console
+$ pnpm install
+```
 
-Once the above dependencies are installed on your local machine, run the following commands to install the latest dependencies
-and run the solution locally:
+### Local Development
 
-1. Install the site's gem dependencies with `bundle install` at the root of the project.
-2. Start the local web server with `bundle exec jekyll serve` or for incremental builds run `bundle exec jekyll serve --incremental`.
-3. Once the site has been generated you'll be able to navigate to it at [http://127.0.0.1:4000/](http://127.0.0.1:4000/).
+```console
+$ pnpm start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ pnpm build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+```
+$ GIT_USER=<Your GitHub username> USE_SSH=true pnpm deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+> TODO: Replace with our actual deployment instructions.
 
 ## Regenerating the search index
 
 1. Log in to the https://www.algolia.com/ dashboard using the "rushbot" GitHub alias
-2. Confirm that the Search-Only API Key and Application ID match the definitions in _config.yml
+2. Confirm that the Search-Only API Key and Application ID match the definitions in `docusaurus.config.js`.
 3. Run this command:
 
 ```
@@ -29,7 +48,9 @@ bundle exec jekyll build
 bundle exec jekyll algolia
 ```
 
-# Contributing
+> TODO: Update algolia refresh instructions
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -43,7 +64,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+## Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
