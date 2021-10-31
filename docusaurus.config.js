@@ -8,9 +8,9 @@ const { SKIP_API_DOCS } = require('./custom.config.js');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Rush Stack',
+  // tagline: 'Dinosaurs are cool',
+  url: 'https://rushstack.io',
   baseUrl: '/',
 
   // TOOD: Discover and fix all broken links before we deploy.
@@ -19,9 +19,9 @@ const config = {
   onBrokenLinks: 'log', //'throw',
   onBrokenMarkdownLinks: 'log', //'warn',
 
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'images/favicon.ico',
+  organizationName: 'microsoft', // Usually your GitHub org/user name.
+  projectName: 'rushstack.io-website', // Usually your repo name.
 
   presets: [
     [
@@ -33,7 +33,7 @@ const config = {
           routeBasePath: 'pages',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/microsoft/rushstack.io-website/',
         },
         blog: {
           showReadingTime: true,
