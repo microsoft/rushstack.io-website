@@ -29,7 +29,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          exclude: SKIP_API_DOCS ? ['api/**/*.md'] : [],
+          // Note: don't include an "exclude" property of `[]`, it breaks Docusaurus
+          ...(SKIP_API_DOCS ? { exclude: ['api/**/*.md'] } : {}),
+
           routeBasePath: 'pages',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
