@@ -1,6 +1,5 @@
 ---
 title: Using rig packages
-navigation_source: docs_nav
 ---
 
 In a large scale environment, it's common for many projects to be built using the exact same Heft configuration.

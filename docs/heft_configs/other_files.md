@@ -1,6 +1,5 @@
 ---
 title: Other config files
-navigation_source: docs_nav
 ---
 
 Besides the configs files defined by Heft itself, a number of tool-specific config files are also

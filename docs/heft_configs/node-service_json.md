@@ -1,6 +1,5 @@
 ---
 title: node-service.json
-navigation_source: docs_nav
 ---
 
 | **File path:** | **&lt;project folder&gt;/config/node-service.json** |

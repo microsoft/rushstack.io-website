@@ -1,6 +1,5 @@
 ---
 title: Core plugins
-navigation_source: docs_nav
 ---
 
 ## Built-in plugins

@@ -1,6 +1,5 @@
 ---
 title: '"sass-typings" task'
-navigation_source: docs_nav
 ---
 
 This task generates TypeScript typings for CSS styles.  It supports three different stylesheet formats:

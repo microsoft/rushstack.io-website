@@ -1,6 +1,5 @@
 ---
 title: '"webpack" task'
-navigation_source: docs_nav
 ---
 
 <!-- No we are not going to use branded capitalization like "webpack" or "npm". ;-) -->

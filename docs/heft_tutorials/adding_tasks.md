@@ -1,6 +1,5 @@
 ---
 title: Adding more tasks
-navigation_source: docs_nav
 ---
 
 _This section continues the tutorial project from the [Getting started with Heft](/heft_tutorials/getting_started) article._

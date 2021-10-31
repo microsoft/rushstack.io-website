@@ -1,6 +1,5 @@
 ---
 title: '"delete-globs" task'
-navigation_source: docs_nav
 ---
 
 This task implements the `"actionKind": "deleteGlobs"` action kind that is used when specifying

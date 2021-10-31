@@ -1,6 +1,5 @@
 ---
 title: Getting started
-navigation_source: docs_nav
 ---
 
 The Rush Stack projects are all developed in the **rushstack** monorepo on GitHub:

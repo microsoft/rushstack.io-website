@@ -1,6 +1,5 @@
 ---
 title: heft.json
-navigation_source: docs_nav
 ---
 
 | **File path:** | **&lt;project folder&gt;/config/heft.json** |

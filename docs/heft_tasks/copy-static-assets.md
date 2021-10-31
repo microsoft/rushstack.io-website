@@ -1,6 +1,5 @@
 ---
 title: '"copy-static-assets" task'
-navigation_source: docs_nav
 ---
 
 This task supplements the TypeScript transpiler by copying asset files into the output folder, so that they can be imported by .js files.

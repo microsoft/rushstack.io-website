@@ -1,6 +1,5 @@
 ---
 title: '"tslint" task'
-navigation_source: docs_nav
 ---
 
 This task invokes the [TSLint](https://palantir.github.io/tslint/) tool for linting TypeScript code.

@@ -1,6 +1,5 @@
 ---
 title: '"copy-files" task'
-navigation_source: docs_nav
 ---
 
 This task implements the `"actionKind": "copyFiles"` action kind that is used when specifying

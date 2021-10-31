@@ -1,6 +1,5 @@
 ---
 title: Heft architecture
-navigation_source: docs_nav
 ---
 
 ## Terminology

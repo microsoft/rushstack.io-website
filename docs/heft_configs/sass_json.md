@@ -1,6 +1,5 @@
 ---
 title: sass.json
-navigation_source: docs_nav
 ---
 
 | **File path:** | **&lt;project folder&gt;/config/rig.json** |

@@ -1,6 +1,5 @@
 ---
 title: '"jest" task'
-navigation_source: docs_nav
 ---
 
 This task invokes the [Jest](https://jestjs.io/en/) test framework for unit testing.

@@ -1,6 +1,5 @@
 ---
 title: '"api-extractor" task'
-navigation_source: docs_nav
 ---
 
 This task invokes the [API Extractor](https://api-extractor.com/) tool which reads TypeScript declarations (.d.ts files)

@@ -1,6 +1,5 @@
 ---
 title: api-extractor-task.json
-navigation_source: docs_nav
 ---
 
 | **File path:** | **&lt;project folder&gt;/config/api-extractor-task.json** |

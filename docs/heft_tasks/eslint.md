@@ -1,6 +1,5 @@
 ---
 title: '"eslint" task'
-navigation_source: docs_nav
 ---
 
 This task invokes the [ESLint](https://eslint.org/) tool which reports errors about common coding problems.

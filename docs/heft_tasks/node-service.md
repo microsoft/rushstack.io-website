@@ -1,6 +1,5 @@
 ---
 title: '"node-service" task (experimental)'
-navigation_source: docs_nav
 ---
 
 This task supports development of Node.js services using Heft.  It enables `heft start` to launch your service on a **localhost** port.  The service will automatically restart whenever you save a change to your source code.
