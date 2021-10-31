@@ -7,6 +7,7 @@
     "start": "docusaurus start",
     "start:no-api": "SKIP_API_DOCS=1 docusaurus start",
     "build": "docusaurus build",
+    "build:no-api": "SKIP_API_DOCS=1 docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

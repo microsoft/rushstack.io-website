@@ -1,6 +1,5 @@
 ---
 title: Project roadmap
-navigation_source: docs_nav
 ---
 
 Our [News page](/news) and Twitter feed is the best way to find out what's happening.

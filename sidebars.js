@@ -27,7 +27,7 @@ const sidebars = {
       collapsible: false,
       items: [
         'index',
-        //'overview/people.html',
+        'overview/people',
         'overview/roadmap'
       ]
     },
