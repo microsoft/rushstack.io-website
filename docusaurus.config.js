@@ -4,6 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const { SKIP_API_DOCS } = require('./custom.config.js');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
@@ -27,6 +29,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          exclude: SKIP_API_DOCS ? ['api/**/*.md'] : [],
           routeBasePath: 'pages',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -63,7 +66,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'api/index',
+            docId: SKIP_API_DOCS ? 'index' : 'api/index',
             position: 'right',
             label: 'API',
           },

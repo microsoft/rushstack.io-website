@@ -18,6 +18,12 @@ $ pnpm start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
+Because the API reference is dynamically generated, it's often not necessary to build it while making local edits. You can start the local server significantly faster by skipping the API reference markdown files and sidebars:
+
+```console
+$ pnpm start:no-api
+```
+
 ### Build
 
 ```

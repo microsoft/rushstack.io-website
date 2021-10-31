@@ -11,6 +11,8 @@
 
 const { fromMapFileSource } = require('convert-source-map');
 
+const { SKIP_API_DOCS } = require('./custom.config.js');
+
 // @ts-check
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
@@ -154,9 +156,7 @@ const sidebars = {
     }
   ],
 
-  apiSidebar: [
-    require('./api_nav.json')
-  ]
+  apiSidebar: SKIP_API_DOCS ? [] : [require('./api_nav.json')]
 
   // But you can create a sidebar manually
   /*
