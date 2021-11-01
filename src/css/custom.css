@@ -59,7 +59,7 @@ li.theme-doc-sidebar-item-category > a {
 
 .people-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(0, max(250px, 100%/3)));
 }
 
 .people-item {
