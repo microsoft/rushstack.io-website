@@ -31,10 +31,10 @@ alumni:
   # Chronological order by end date, newest goes at the top
   - name: Nick Pape
     github: nickpape
-    role: Maintainer 2016-2018 
-    caption: broad contributions including Rush's task scheduler and stream collator 
+    role: Maintainer 2016-2018
+    caption: broad contributions including Rush's task scheduler and stream collator
   - name: QZ
-    github: qz2017 
+    github: qz2017
     role: Maintainer 2016-2018
     caption: broad contributions including Rush version policies and publishing features
   - name: Daniel Gaeta
@@ -44,11 +44,15 @@ alumni:
 
 star_contributors:
   # Newest additions go at the top
+  - name: Cheng
+    sort_month: 2021-12
+    github: chengcyber
+    caption: designed and implemented the plugin system for Rush
   - name: Yunfei
     sort_month: 2021-07
     github: adventure-yunfei
     caption: recognized for major contributions to API Extractor and API Documenter
-  - name: William Bernting  
+  - name: William Bernting
     sort_month: 2020-12
     caption: helped design Rush's multi-project watch mode feature, implemented the @telia/rush-select console
     github: wbern
@@ -56,11 +60,11 @@ star_contributors:
     sort_month: 2019-09
     github: rbuckton
     caption: recognized for major contributions to API Extractor and TSDoc, including the declaration reference syntax
-  - name: Thomas Michon 
+  - name: Thomas Michon
     sort_month: 2018-11
     caption: contributed the "installation variants" feature for Rush
-    github: ThomasMichon 
-  - name: David Zearing 
+    github: ThomasMichon
+  - name: David Zearing
     sort_month: 2016-01
     caption: pioneered early components such as package-deps-hash, gulp-core-build, and load-themed-styles
     github: dzearing
