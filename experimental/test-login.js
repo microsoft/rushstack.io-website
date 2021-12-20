@@ -29,20 +29,21 @@ var serviceUrl = '';
 if (document.location.hostname.toUpperCase() !== 'LOCALHOST') {
   serviceUrl = 'https://service.rushstack.io';
 }
-var returnUrlQuery = 'returnUrl=' + encodeURIComponent(document.location.pathname);
+
+document.cookie = 'rscommunity-login-return-path=' + encodeURIComponent(document.location.pathname) + '; SameSite=Strict;'
 
 if (loggedInUser) {
   // prettier-ignore
   rootDiv.innerHTML = 'You are logged in as <b>' + htmlEncode(loggedInUser) + '</b>.'
     + '<p>'
-    + '<a href="' + serviceUrl + '/logout?' + returnUrlQuery + '">'
+    + '<a href="' + serviceUrl + '/logout">'
       + 'LOG OUT'
     + '</a>';
 } else {
   // prettier-ignore
   rootDiv.innerHTML = 'You are not logged in'
     + '<p>'
-    + '<a href="' + serviceUrl + '/login?' + returnUrlQuery + '">'
+    + '<a href="' + serviceUrl + '/login-github">'
       + 'LOG IN'
     + '</a>';
 }
