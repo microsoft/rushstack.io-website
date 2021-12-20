@@ -1,5 +1,11 @@
 console.log('Starting test-login.js');
 
+function htmlEncode(text) {
+  const tempDiv = document.createElement('div');
+  tempDiv.innerText = text;
+  return tempDiv.innerHTML;
+}
+
 const rootDiv = document.getElementById('root');
 
 if (!rootDiv) {
@@ -17,12 +23,6 @@ document.cookie
     cookieMap[pair[0]] = decodeURIComponent(pair[1]);
   });
 
-function htmlEncode(text) {
-  const tempDiv = document.createElement('div');
-  tempDiv.innerText = text;
-  return tempDiv.innerHTML;
-}
-
 var loggedInUser = (cookieMap['rscommunity-logged-in-user'] || '').trim();
 
 var serviceUrl = '';
@@ -30,7 +30,12 @@ if (document.location.hostname.toUpperCase() !== 'LOCALHOST') {
   serviceUrl = 'https://service.rushstack.io';
 }
 
-document.cookie = 'rscommunity-login-return-path=' + encodeURIComponent(document.location.pathname) + '; SameSite=Strict;'
+document.cookie = [
+  'rscommunity-login-return-path=' + encodeURIComponent(document.location.pathname),
+  'SameSite=Strict',
+  'Domain=' + document.location.hostname,
+  'Path=/'
+].join(';');
 
 if (loggedInUser) {
   // prettier-ignore
