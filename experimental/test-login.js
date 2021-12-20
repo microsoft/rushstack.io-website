@@ -27,7 +27,7 @@ var loggedInUser = (cookieMap['rscommunity-logged-in-user'] || '').trim();
 
 var serviceUrl = '';
 if (document.location.hostname.toUpperCase() !== 'LOCALHOST') {
-  serviceUrl = 'https://service.rushstack.io/';
+  serviceUrl = 'https://service.rushstack.io';
 }
 var returnUrlQuery = 'returnUrl=' + encodeURIComponent(document.location.pathname);
 
