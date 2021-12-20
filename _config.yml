@@ -113,3 +113,7 @@ exclude:
   - README.md
   - CNAME
   - vendor
+
+include:
+  - experimental/test-login.html
+  - experimental/test-login.js
