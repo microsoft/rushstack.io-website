@@ -44,6 +44,23 @@ if (loggedInUser) {
     + '<a href="' + serviceUrl + '/logout">'
       + 'LOG OUT'
     + '</a>';
+
+  console.log('Testing a REST request...');
+  fetch('/api/profile', { method: 'GET', headers: { 'Content-Type': 'application/json' } })
+    .then(function (data) {
+      if (data.ok) {
+        return data.json();
+      } else {
+        throw new Error('Server Error: ' + data.statusText);
+      }
+    })
+    .then(function (json) {
+      console.log('Request successful:');
+      console.log(JSON.stringify(json));
+    })
+    .catch(function (error) {
+      console.error('REST request failed: ' + error.toString());
+    });
 } else {
   // prettier-ignore
   rootDiv.innerHTML = 'You are not logged in'
