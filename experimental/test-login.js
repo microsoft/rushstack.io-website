@@ -46,7 +46,11 @@ if (loggedInUser) {
     + '</a>';
 
   console.log('Testing a REST request...');
-  fetch('/api/profile', { method: 'GET', headers: { 'Content-Type': 'application/json' } })
+  fetch(serviceUrl + '/api/profile', {
+    method: 'GET',
+    headers: { 'Content-Type': 'application/json' },
+    credentials: 'include'
+  })
     .then(function (data) {
       if (data.ok) {
         return data.json();
