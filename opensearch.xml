@@ -4,7 +4,7 @@
   <ShortName>Rush Stack</ShortName>
   <Description>Search Rush Stack</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://rushstack.io/images/favicon.ico</Image>
+  <Image width="16" height="16" type="image/x-icon">https://rushstack.io/images/site/favicon.ico</Image>
   <Url type="text/html" method="get" template="https://rushstack.io/search?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://rushstack.io/opensearch.xml" />
   <moz:SearchForm>https://rushstack.io/</moz:SearchForm>
