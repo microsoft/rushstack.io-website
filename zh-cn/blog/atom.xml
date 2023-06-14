@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://rushstack.io/zh-cn/blog</id>
+    <title>Rush Stack Blog</title>
+    <updated>2023-06-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://rushstack.io/zh-cn/blog"/>
+    <subtitle>Rush Stack Blog</subtitle>
+    <icon>https://rushstack.io/zh-cn/images/site/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[About the Rush Stack blog]]></title>
+        <id>https://rushstack.io/zh-cn/blog/2023/06/01/blog-launch</id>
+        <link href="https://rushstack.io/zh-cn/blog/2023/06/01/blog-launch"/>
+        <updated>2023-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the Rush Stack blog! We've added this new website section for sharing news and insights]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the <strong>Rush Stack blog</strong>! We've added this new website section for sharing news and insights
+about Rush Stack projects.</p><p>We'll announce new blog posts on <a href="https://twitter.com/rushstack" target="_blank" rel="noopener noreferrer">Twitter</a>
+and <a href="https://fosstodon.org/@rushstack" target="_blank" rel="noopener noreferrer">Mastodon</a>. You can also subscribe directly to the blog's
+<a href="/zh-cn/blog/rss.xml/">RSS</a> or <a href="/zh-cn/blog/atom.xml/">Atom</a> feeds.</p><p>Whereas the website docs are primarily reference material, blog topics may include:</p><ul><li>Announcement details</li><li>Explanations of major changes</li><li>Tips about tech to try out</li><li>Best practices</li><li>Ideas and analyses</li></ul><p>If you'd like to contribute a blog post, please contact <a href="https://github.com/octogonz" target="_blank" rel="noopener noreferrer">@octogonz</a>.</p>]]></content>
+        <author>
+            <name>Pete Gonzalez</name>
+            <uri>https://github.com/octogonz</uri>
+        </author>
+    </entry>
+</feed>
