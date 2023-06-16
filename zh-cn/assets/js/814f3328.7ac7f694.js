@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrushstack_io=self.webpackChunkrushstack_io||[]).push([[2535],{5641:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"About the Rush Stack blog","permalink":"/zh-cn/blog/2023/06/01/blog-launch"}]}')}}]);
