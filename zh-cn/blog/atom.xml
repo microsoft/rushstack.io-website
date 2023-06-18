@@ -46,7 +46,7 @@
         <summary type="html"><![CDATA[欢迎来到Rush Stack 博客！我们新设立了这个网站板块，用于分享关于 Rush Stack 项目的新闻和见解。]]></summary>
         <content type="html"><![CDATA[<p>欢迎来到<strong>Rush Stack 博客</strong>！我们新设立了这个网站板块，用于分享关于 Rush Stack 项目的新闻和见解。</p><p>我们会在<a href="https://twitter.com/rushstack" target="_blank" rel="noopener noreferrer">Twitter</a>
 和<a href="https://fosstodon.org/@rushstack" target="_blank" rel="noopener noreferrer">Mastodon</a>上发布新博客文章的公告。您也可以直接订阅博客的
-<a href="/zh-cn/blog/rss.xml/">RSS</a>或者<a href="/zh-cn/blog/atom.xml/">Atom</a>源。</p><p>而网站文档主要是参考资料，博客主题可能包括：</p><ul><li>公告详情</li><li>主要更改的解释</li><li>尝试技术的提示</li><li>最佳实践</li><li>想法和分析</li></ul><p>如果您想贡献一篇博客文章或者帮助我们的翻译工作，请联系<a href="https://github.com/octogonz" target="_blank" rel="noopener noreferrer">@octogonz</a>。</p>]]></content>
+<a href="https://rushstack.io/blog/rss.xml" target="_blank" rel="noopener noreferrer">RSS</a>或者<a href="https://rushstack.io/blog/atom.xml" target="_blank" rel="noopener noreferrer">Atom</a>源。</p><p>而网站文档主要是参考资料，博客主题可能包括：</p><ul><li>公告详情</li><li>主要更改的解释</li><li>尝试技术的提示</li><li>最佳实践</li><li>想法和分析</li></ul><p>如果您想贡献一篇博客文章或者帮助我们的翻译工作，请联系<a href="https://github.com/octogonz" target="_blank" rel="noopener noreferrer">@octogonz</a>。</p>]]></content>
         <author>
             <name>Pete Gonzalez</name>
             <uri>https://github.com/octogonz</uri>
