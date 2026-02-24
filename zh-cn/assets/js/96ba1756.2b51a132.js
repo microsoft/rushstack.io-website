@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkrushstack_io=globalThis.webpackChunkrushstack_io||[]).push([[8840],{7651(a){a.exports=JSON.parse('{"label":"heft","permalink":"/zh-cn/blog/tags/heft","allTagsPath":"/zh-cn/blog/tags","count":2}')}}]);

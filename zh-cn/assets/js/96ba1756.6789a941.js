@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrushstack_io=self.webpackChunkrushstack_io||[]).push([[8840],{7651:s=>{s.exports=JSON.parse('{"label":"heft","permalink":"/zh-cn/blog/tags/heft","allTagsPath":"/zh-cn/blog/tags","count":2}')}}]);
